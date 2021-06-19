@@ -1,28 +1,107 @@
-\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
-  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{article-full}
-L[eslie]~A. Aamport.
-\newblock The gnats and gnus document preparation system.
-\newblock {\em \mbox{G-Animal's} Journal}, 41(7):73+, July 1986.
-\newblock This is a full ARTICLE entry.
+\bibitem{alstonShipsPassingNight2005}
+Philip Alston.
+\newblock Ships {{Passing}} in the {{Night}}: {{The Current State}} of the
+  {{Human Rights}} and {{Development Debate Seen}} through the {{Lens}} of the
+  {{Millennium Development Goals}}.
+\newblock {\em Human Rights Quarterly}, 27(3):755--829, 2005.
 
-\bibitem{book-crossref}
-Donald~E. Knuth.
-\newblock {\em Seminumerical Algorithms}, volume~2 of {\em The Art of Computer
-  Programming}.
-\newblock Addison-Wesley, second edition, {\noopsort{1973c}}1981.
-\newblock This is a cross-referencing BOOK entry.
+\bibitem{battyCitiesComplexity2005}
+Michael Batty.
+\newblock {\em Cities and {{Complexity}}}.
+\newblock {The MIT Press}, {Cambridge, MA}, September 2005.
 
-\bibitem{proceedings-minimal}
-{\em Proc. Fifteenth Annual Symposium on the Theory of Computing}, 1983.
+\bibitem{easterly2015}
+William Easterly.
+\newblock {\em The {{Tyranny}} of {{Experts}}: {{Economists}}, {{Dictators}},
+  and the {{Forgotten Rights}} of the {{Poor}}}.
+\newblock {Basic Books}, 1 edition edition, March 2015.
 
-\bibitem{phdthesis-full}
-F.~Phidias Phony-Baloney.
-\newblock {\em Fighting Fire with Fire: Festooning {F}rench Phrases}.
-\newblock {PhD} dissertation, Fanstord University, Department of French,
-  June-August 1988.
-\newblock This is a full PHDTHESIS entry.
+\bibitem{fainsteinSpatialJusticePlanning2016}
+Susan Fainstein.
+\newblock Spatial {{Justice}} and {{Planning}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}, pages 258--272. {Wiley-Blackwell}, {Hoboken, NJ},
+  fourth edition, January 2016.
+
+\bibitem{hollandForbearanceRedistributionPolitics2017}
+Alisha~C. Holland.
+\newblock {\em Forbearance as {{Redistribution}}: {{The Politics}} of
+  {{Informal Welfare}} in {{Latin America}}}.
+\newblock {Cambridge University Press}, {Cambridge, UK New York, NY}, June
+  2017.
+
+\bibitem{jacobsDeathLifeGreat2016}
+Jane Jacobs.
+\newblock The {{Death}} and {{Life}} of {{Great American Cities}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
+  January 2016.
+
+\bibitem{jankowskiGISGroupDecision2001}
+Piotr Jankowski and Timothy Nyerges.
+\newblock {\em {{GIS}} for {{Group Decision Making}}}.
+\newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
+
+\bibitem{marcuseThreeHistoricCurrents2016}
+Peter Marcuse.
+\newblock The {{Three Historic Currents}} of {{City Planning}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
+  January 2016.
+
+\bibitem{mazza2017}
+Luigi Mazza.
+\newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
+\newblock In {\em Explorations in {{Planning Theory}}}, pages 10--29.
+  {Routledge}, {New York, New York, USA}, September 2017.
+
+\bibitem{miraftabInsurgentPlanningSituating2016}
+Faranak Miraftab.
+\newblock Insurgent {{Planning}}: {{Situating Radical Planning}} in the
+  {{Global South}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
+  January 2016.
+
+\bibitem{ostromGoverningCommonsEvolution2015}
+Elinor Ostrom.
+\newblock {\em Governing the {{Commons}}: {{The Evolution}} of {{Institutions}}
+  for {{Collective Action}}}.
+\newblock {Cambridge University Press}, {Cambridge, United Kingdom}, reissue
+  edition edition, September 2015.
+
+\bibitem{reddyGlobalDevelopmentGoals2008}
+Sanjay Reddy and Antoine Heuty.
+\newblock Global {{Development Goals}}: {{The Folly}} of {{Technocratic
+  Pretensions}}.
+\newblock {\em Development Policy Review}, 26(1):5--28, 2008.
+
+\bibitem{robinsonDecisionmakingUrbanPlanning1972}
+Ira~M. Robinson.
+\newblock {\em Decision-Making in Urban Planning: {{An}} Introduction to New
+  Methodologies}.
+\newblock {Sage Publications}, {Beverly Hills}, January 1972.
+
+\bibitem{royUrbanInformalityProduction2016}
+Ananya Roy.
+\newblock Urban {{Informality}}: {{The Production}} of {{Space}} and
+  {{Practice}} of {{Planning}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
+  January 2016.
+
+\bibitem{sotoMysteryCapitalWhy2003}
+Hernando~De Soto.
+\newblock {\em The {{Mystery}} of {{Capital}}: {{Why Capitalism Triumphs}} in
+  the {{West}} and {{Fails Everywhere Else}}}.
+\newblock {Basic Books}, {New York, NY}, reprint edition edition, July 2003.
+
+\bibitem{unitednationsWhoWillBe2013}
+{United Nations} and {Center for Economic and Social Rights}.
+\newblock Who will be accountable? {{Human}} rights and the post-2015
+  development agenda.
+\newblock Technical Report HR/PUB/13/1, {New York City, NY}, 2013.
 
 \end{thebibliography}

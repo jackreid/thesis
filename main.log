@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  19 JUN 2021 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  19 JUN 2021 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -51,29 +51,44 @@ Package: cmap 2021/02/04 v1.0j CMap support: searchable PDF
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 <<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count191
+\decimalpart=\count192
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks15
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count191
+\l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box52
 )
 (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
-(./appa.aux) (./appb.aux) (./biblio.aux))
+(./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 \openout2 = `cover.aux'.
 
  (./cover.tex [1
@@ -89,8 +104,7 @@ LaTeX Font Info:    ... okay on input line 44.
 ]) [5]
 \openout2 = `contents.aux'.
 
-
-(./contents.tex [6
+ (./contents.tex [6
 
 
 
@@ -115,96 +129,105 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [9] [10
 
-] (./main.lot)
+]
+(./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [11]
+ [11]) [12]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex [12
+ (./chap1.tex
+Chapter 1.
+[13
 
 
 
 
 ]
-Chapter 1.
-[13]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 26.
- [14] [15] [16] [17]) [18]
+Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
+
+although it is yet undefined on input line 29.
+
+
+LaTeX Warning: Citation `campbellGreenCitiesGrowing2016' on page 14 undefined o
+n input line 35.
+
+Package acronym Info: Label `acro:mdg' newly defined as it shall be overridden
+although it is yet undefined on input line 37.
+Package acronym Info: Label `acro:sdg' newly defined as it shall be overridden
+although it is yet undefined on input line 37.
+) [14]
 \openout2 = `chap2.aux'.
 
-
-No file chap2.tex.
-\openout2 = `appa.aux'.
-
-(./appa.tex
-Appendix A.
-[19
-
-
-
-
-
-
-
-])
-\openout2 = `appb.aux'.
-
- (./appb.tex [20
-
+ (./chap2.tex
+Chapter 2.
+[15
 
 
 
 
 ]
-Appendix B.
-[21] [22])
+
+LaTeX Warning: Citation `campbellGreenCitiesGrowing2016' on page 16 undefined o
+n input line 34.
+
+Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
+although it is yet undefined on input line 48.
+
+Overfull \hbox (12.832pt too wide) in paragraph at lines 48--49
+\T1/cmr/m/n/12 com-mon ways of man-ag-ing []s[]: Cen-tral man-age-ment, pri-va-
+ti-za-tion, self-management.
+ []
+
+
+Overfull \hbox (2.96873pt too wide) in paragraph at lines 48--49
+\T1/cmr/m/n/12 Bring in Ta-ble 3.1 (pg. 90) show-ing de-sign prin-ci-ples of lo
+ng-enduring self-management
+ []
+
+[16]
+Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
+
+although it is yet undefined on input line 60.
+) [17]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl)) [23
+ (./biblio.tex (./main.bbl [18
 
 
 
 
+] [19])) [20] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2
+.aux) (./biblio.aux))
 
+LaTeX Warning: There were undefined references.
 
-] (./main.aux (./cover.aux)
-(./contents.aux) (./chap1.aux) (./chap2.aux) (./appa.aux) (./appb.aux)
-(./biblio.aux)) )
-(\end occurred when \ifx on line 42 was incomplete) 
+ )
+(\end occurred when \ifx on line 44 was incomplete) 
 Here is how much of TeX's memory you used:
- 1055 strings out of 481134
- 13976 string characters out of 5913146
- 284537 words of memory out of 5000000
- 17949 multiletter control sequences out of 15000+600000
- 416429 words of font info for 50 fonts, out of 8000000 for 9000
+ 1609 strings out of 481134
+ 21651 string characters out of 5913146
+ 295834 words of memory out of 5000000
+ 18518 multiletter control sequences out of 15000+600000
+ 414134 words of font info for 47 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 58i,8n,64p,850b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,5n,64p,851b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive202
 0/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/jackreid/.texliv
-e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/jackreid/.te
-xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/jackreid
-/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/jack
-reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
-jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </h
-ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
- </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.60
-0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm144
-0.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
-m1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (23 pages, 148436 bytes).
+e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/jackreid/.te
+xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/jackreid
+/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/jack
+reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/
+jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </h
+ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
+ </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.60
+0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx172
+8.600pk>
+Output written on main.pdf (20 pages, 128484 bytes).
 PDF statistics:
- 439 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 435 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
