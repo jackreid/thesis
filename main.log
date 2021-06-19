@@ -1,0 +1,210 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  19 JUN 2021 13:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (./mitthesis.cls
+Document Class: mitthesis 1999/10/20
+\vithesis=\count177
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Thesis document copyright MIT unless otherwise (manually) specified
+\@titlesupervisor=\box47
+\@abstractsupervisor=\box48
+\c@savepage=\count187
+) (./lgrind.sty
+Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
+\lc@unt=\count188
+\ln@xt=\count189
+\LGnuminterval=\count190
+\LGindent=\skip49
+\LGsloppy=\skip50
+\procbox=\box49
+\ls@far=\box50
+\tb@x=\box51
+\TBw@d=\dimen139
+\@ts=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/04 v1.0j CMap support: searchable PDF
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box52
+)
+(./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./appa.aux) (./appb.aux) (./biblio.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+\openout2 = `cover.aux'.
+
+ (./cover.tex [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./abstract.tex) [3
+
+] [4
+
+]) [5]
+\openout2 = `contents.aux'.
+
+
+(./contents.tex [6
+
+
+
+
+] (./main.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [7] [8
+
+] (./main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [9] [10
+
+] (./main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+) [11]
+\openout2 = `chap1.aux'.
+
+ (./chap1.tex [12
+
+
+
+
+]
+Chapter 1.
+[13]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+ [14] [15] [16] [17]) [18]
+\openout2 = `chap2.aux'.
+
+
+No file chap2.tex.
+\openout2 = `appa.aux'.
+
+(./appa.tex
+Appendix A.
+[19
+
+
+
+
+
+
+
+])
+\openout2 = `appb.aux'.
+
+ (./appb.tex [20
+
+
+
+
+
+]
+Appendix B.
+[21] [22])
+\openout2 = `biblio.aux'.
+
+ (./biblio.tex (./main.bbl)) [23
+
+
+
+
+
+
+] (./main.aux (./cover.aux)
+(./contents.aux) (./chap1.aux) (./chap2.aux) (./appa.aux) (./appb.aux)
+(./biblio.aux)) )
+(\end occurred when \ifx on line 42 was incomplete) 
+Here is how much of TeX's memory you used:
+ 1055 strings out of 481134
+ 13976 string characters out of 5913146
+ 284537 words of memory out of 5000000
+ 17949 multiletter control sequences out of 15000+600000
+ 416429 words of font info for 50 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 58i,8n,64p,850b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jackreid/.texlive202
+0/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/jackreid/.texliv
+e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/jackreid/.te
+xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/jackreid
+/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/jack
+reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
+jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </h
+ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
+ </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.60
+0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm144
+0.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (23 pages, 148436 bytes).
+PDF statistics:
+ 439 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
