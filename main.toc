@@ -1,16 +1,14 @@
 \contentsline {chapter}{\numberline {1}Introduction}{13}{}%
 \contentsline {section}{\numberline {1.1}Research Questions}{13}{}%
 \contentsline {section}{\numberline {1.2}Framing}{13}{}%
-\contentsline {section}{\numberline {1.3}Methodology}{13}{}%
-\contentsline {section}{\numberline {1.4}Structure of Thesis}{13}{}%
-\contentsline {section}{\numberline {1.5}Development}{13}{}%
-\contentsline {subsection}{\numberline {1.5.1}History and Theory}{13}{}%
-\contentsline {subsection}{\numberline {1.5.2}Sustainable Development}{14}{}%
+\contentsline {section}{\numberline {1.3}Methodology}{14}{}%
+\contentsline {section}{\numberline {1.4}Structure of Thesis}{14}{}%
 \contentsline {chapter}{\numberline {2}Literature Survey / Framing / Theory}{15}{}%
 \contentsline {section}{\numberline {2.1}Development}{15}{}%
 \contentsline {subsection}{\numberline {2.1.1}History and Theory}{15}{}%
-\contentsline {subsection}{\numberline {2.1.2}Sustainable Development}{16}{}%
-\contentsline {subsection}{\numberline {2.1.3}[Tentative] Informality}{16}{}%
-\contentsline {section}{\numberline {2.2}Types of places that EVDT deals with}{16}{}%
-\contentsline {section}{\numberline {2.3}Complex Systems and Modeling}{17}{}%
-\contentsline {section}{\numberline {2.4}EVDT Framework}{17}{}%
+\contentsline {subsection}{\numberline {2.1.2}Sustainable Development}{18}{}%
+\contentsline {subsection}{\numberline {2.1.3}GIS in development}{19}{}%
+\contentsline {subsection}{\numberline {2.1.4}[Tentative] Informality}{22}{}%
+\contentsline {section}{\numberline {2.2}Types of places that EVDT deals with}{23}{}%
+\contentsline {section}{\numberline {2.3}Complex Systems and Modeling}{23}{}%
+\contentsline {section}{\numberline {2.4}EVDT Framework}{25}{}%

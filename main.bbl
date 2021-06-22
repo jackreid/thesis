@@ -7,10 +7,35 @@ Philip Alston.
   {{Millennium Development Goals}}.
 \newblock {\em Human Rights Quarterly}, 27(3):755--829, 2005.
 
+\bibitem{ashbyRequisiteVarietyIts1991}
+W.~Ross Ashby.
+\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
+  {{Complex Systems}}.
+\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
+  International {{Federation}} for {{Systems Research International Series}} on
+  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
+  {Boston, MA}, 1991.
+
 \bibitem{battyCitiesComplexity2005}
 Michael Batty.
 \newblock {\em Cities and {{Complexity}}}.
 \newblock {The MIT Press}, {Cambridge, MA}, September 2005.
+
+\bibitem{boyceFrameworkDefiningApplying1972}
+David Boyce.
+\newblock Toward a {{Framework}} for {{Defining}} and {{Applying Urban
+  Indicators}} in {{Plan}}-{{Making}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}, pages 62--84. {SAGE Publications,
+  Inc}, {Beverly Hills, CA}, first edition, 1972.
+
+\bibitem{campbellGreenCitiesGrowing2016}
+Scott Campbell.
+\newblock Green {{Cities}}, {{Growing Cities}}, {{Just Cities}}? {{Urban
+  Planning}} and the {{Contradictions}} of {{Sustainable Development}}.
+\newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
+  {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
+  January 2016.
 
 \bibitem{easterly2015}
 William Easterly.
@@ -24,6 +49,37 @@ Susan Fainstein.
 \newblock In Susan Fainstein and James DeFilippis, editors, {\em Readings in
   {{Planning Theory}}}, pages 258--272. {Wiley-Blackwell}, {Hoboken, NJ},
   fourth edition, January 2016.
+
+\bibitem{mazza2017}
+Johnn Friedmann.
+\newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
+\newblock In Seymour Mandelbaum, Luigi Mazza, and Robert Burchell, editors,
+  {\em Explorations in {{Planning Theory}}}, pages 10--29. {Routledge}, {New
+  York, New York, USA}, September 2017.
+
+\bibitem{harrisQuantitativeModelsUrban1972}
+Britton Harris.
+\newblock Quantitative {{Models}} of {{Urban Development}}: {{Their}} role in
+  {{Metropolitan Decision}}-{{Making}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{hatryCriteriaEvaluationPlanning1972}
+Harry~P. Hatry.
+\newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
+  Programs}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{hillGoalsAchievementMatrixEvaluating1972}
+Morris Hill.
+\newblock A {{Goals}}-{{Achievement Matrix}} for {{Evaluating Alternative
+  Plans}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
 
 \bibitem{hollandForbearanceRedistributionPolitics2017}
 Alisha~C. Holland.
@@ -44,6 +100,11 @@ Piotr Jankowski and Timothy Nyerges.
 \newblock {\em {{GIS}} for {{Group Decision Making}}}.
 \newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
 
+\bibitem{krutillaWelfareAspectsBenefitCost1961}
+J.~Krutilla.
+\newblock Welfare {{Aspects}} of {{Benefit}}-{{Cost Analysis}}.
+\newblock {\em Journal of Political Economy}, 1961.
+
 \bibitem{marcuseThreeHistoricCurrents2016}
 Peter Marcuse.
 \newblock The {{Three Historic Currents}} of {{City Planning}}.
@@ -51,11 +112,19 @@ Peter Marcuse.
   {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
   January 2016.
 
-\bibitem{mazza2017}
-Luigi Mazza.
-\newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
-\newblock In {\em Explorations in {{Planning Theory}}}, pages 10--29.
-  {Routledge}, {New York, New York, USA}, September 2017.
+\bibitem{mcloughlinChartingPossibleCourses1972}
+Brian~J. McLoughlin.
+\newblock Charting {{Possible Courses}} of the {{System}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}, pages 103--114. {SAGE
+  Publications, Inc}, {Beverly Hills, CA}, first edition, 1972.
+
+\bibitem{mcloughlinSystemGuidanceControl1972}
+Brian~J. McLoughlin.
+\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
+\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
+  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
+  1972.
 
 \bibitem{miraftabInsurgentPlanningSituating2016}
 Faranak Miraftab.
@@ -97,6 +166,11 @@ Hernando~De Soto.
 \newblock {\em The {{Mystery}} of {{Capital}}: {{Why Capitalism Triumphs}} in
   the {{West}} and {{Fails Everywhere Else}}}.
 \newblock {Basic Books}, {New York, NY}, reprint edition edition, July 2003.
+
+\bibitem{turkleEmpathyDiariesMemoir2021}
+Sherry Turkle.
+\newblock {\em The {{Empathy Diaries}}: {{A Memoir}}}.
+\newblock {Penguin}, March 2021.
 
 \bibitem{unitednationsWhoWillBe2013}
 {United Nations} and {Center for Economic and Social Rights}.

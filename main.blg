@@ -8,47 +8,47 @@ A level-1 auxiliary file: chap2.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "campbellGreenCitiesGrowing2016"
+Warning--I didn't find a database entry for "robinsoniraPlanFormulationIntroductoryNote1972"
 Warning--empty institution in unitednationsWhoWillBe2013
-You've used 16 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            608 strings with 7144 characters,
-and the built_in function-call counts, 4599 in all, are:
-= -- 452
-> -- 170
-< -- 3
-+ -- 68
-- -- 48
-* -- 284
-:= -- 788
-add.period$ -- 54
-call.type$ -- 16
-change.case$ -- 69
+            665 strings with 9109 characters,
+and the built_in function-call counts, 7866 in all, are:
+= -- 783
+> -- 283
+< -- 6
++ -- 111
+- -- 79
+* -- 469
+:= -- 1335
+add.period$ -- 92
+call.type$ -- 26
+change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 221
-empty$ -- 417
-format.name$ -- 48
-if$ -- 991
+cite$ -- 27
+duplicate$ -- 388
+empty$ -- 724
+format.name$ -- 79
+if$ -- 1722
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 22
-newline$ -- 83
-num.names$ -- 42
-pop$ -- 91
+int.to.str$ -- 26
+missing$ -- 33
+newline$ -- 133
+num.names$ -- 78
+pop$ -- 147
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 81
 quote$ -- 0
-skip$ -- 121
+skip$ -- 212
 stack$ -- 0
-substring$ -- 181
-swap$ -- 32
-text.length$ -- 3
+substring$ -- 321
+swap$ -- 67
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
+type$ -- 88
 warning$ -- 1
-while$ -- 47
-width$ -- 18
-write$ -- 194
+while$ -- 84
+width$ -- 28
+write$ -- 321
 (There were 2 warnings)
