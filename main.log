@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  22 JUN 2021 00:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  29 JUL 2021 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -144,31 +144,55 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip55
+)
+\rownum=\count268
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip55
+\labelindent=\skip56
 \enit@outerparindent=\dimen145
-\enit@toks=\toks22
+\enit@toks=\toks23
 \enit@inbox=\box57
-\enit@count@id=\count268
-\enitdp@description=\count269
+\enit@count@id=\count269
+\enitdp@description=\count270
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count270
+\c@tracingmulticols=\count271
 \mult@box=\box58
 \multicol@leftmargin=\dimen146
-\c@unbalance=\count271
-\c@collectmore=\count272
-\doublecol@number=\count273
-\multicoltolerance=\count274
-\multicolpretolerance=\count275
+\c@unbalance=\count272
+\c@collectmore=\count273
+\doublecol@number=\count274
+\multicoltolerance=\count275
+\multicolpretolerance=\count276
 \full@width=\dimen147
 \page@free=\dimen148
 \premulticols=\dimen149
 \postmulticols=\dimen150
-\multicolsep=\skip56
-\multicolbaselineskip=\skip57
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
 \partial@page=\box59
 \last@line=\box60
 \maxbalancingoverflow=\dimen151
@@ -213,21 +237,21 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
-\c@minrows=\count276
-\c@columnbadness=\count277
-\c@finalcolumnbadness=\count278
+\c@minrows=\count277
+\c@columnbadness=\count278
+\c@finalcolumnbadness=\count279
 \last@try=\dimen152
 \multicolovershoot=\dimen153
 \multicolundershoot=\dimen154
 \mult@nat@firstbox=\box102
 \colbreak@box=\box103
-\mc@col@check@num=\count279
+\mc@col@check@num=\count280
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
-\multirow@colwidth=\skip58
-\multirow@cntb=\count280
-\multirow@dima=\skip59
+\multirow@colwidth=\skip59
+\multirow@cntb=\count281
+\multirow@dima=\skip60
 \bigstrutjot=\dimen155
 )
 Package csquotes Info: Checking for multilingual support...
@@ -235,41 +259,41 @@ Package csquotes Info: ... none found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
+\l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box104
 )
 (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
-(./biblio.aux))
+(./chap3.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
+\scratchcounter=\count283
 \scratchdimen=\dimen156
 \scratchbox=\box105
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count285
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count286
 \MPscratchDim=\dimen157
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -309,157 +333,276 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+ [7])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [7] [8
-
-] (./main.lof)
+ [8] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [9] [10
+ [9
 
-] (./main.lot
-Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
-although it is yet undefined on input line 6.
-)
+] [10
+
+] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
 
-[11]) [12]
+[11] [12
+
+]) [13]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex
-Chapter 1.
-[13
-
-
-
-
-]) [14]
-\openout2 = `chap2.aux'.
-
- (./chap2.tex
-Chapter 2.
-[15
+ (./chap1.tex [14
 
 
 
 
 ]
-<Figures/chap2/friedman_timeline.png, id=64, 987.69pt x 554.07pt>
-File: Figures/chap2/friedman_timeline.png Graphic file (type png)
-<use Figures/chap2/friedman_timeline.png>
-Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
-e 22.
-(pdftex.def)             Requested size: 641.9909pt x 360.14124pt.
- [16 <./Figures/chap2/friedman_timeline.png>]
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 49--50
- []| 
- []
+Chapter 1.
+Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
+
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:dss' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+[15]
+
+LaTeX Warning: Citation `delamontConspicuousConsumptiveWoman2012' on page 16 un
+defined on input line 21.
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+[18]
+\openout2 = `chap2.aux'.
+
+ (./chap2.tex
+Chapter 2.
+[19
 
 
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 50--51
- []| 
- []
-
-[17
 
 
-] [18]
-<Figures/chap2/sustainable_triangle.png, id=77, 1156.32pt x 578.16pt>
-File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
-<use Figures/chap2/sustainable_triangle.png>
-Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
-line 92.
-(pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
-Package acronym Info: Label `acro:mdg' newly defined as it shall be overridden
-although it is yet undefined on input line 98.
+]
 Package acronym Info: Label `acro:sdg' newly defined as it shall be overridden
-although it is yet undefined on input line 98.
+although it is yet undefined on input line 25.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<Figures/chap2/Planetary_Boundaries.png, id=80, 739.76375pt x 594.22pt>
+File: Figures/chap2/Planetary_Boundaries.png Graphic file (type png)
+<use Figures/chap2/Planetary_Boundaries.png>
+Package pdftex.def Info: Figures/chap2/Planetary_Boundaries.png  used on input 
+line 41.
+(pdftex.def)             Requested size: 295.90025pt x 237.68379pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 59.
+
+Overfull \hbox (4.73355pt too wide) in paragraph at lines 60--60
+ \T1/cmr/m/n/6 Caribbean| 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 84.
+<Figures/chap2/services_wellbeing.png, id=82, 1052.93375pt x 750.805pt>
+File: Figures/chap2/services_wellbeing.png Graphic file (type png)
+<use Figures/chap2/services_wellbeing.png>
+Package pdftex.def Info: Figures/chap2/services_wellbeing.png  used on input li
+ne 88.
+(pdftex.def)             Requested size: 368.53233pt x 262.78568pt.
+[21]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package acronym Info: Label `acro:mdg' newly defined as it shall be overridden
+although it is yet undefined on input line 101.
+Package acronym Info: Label `acro:ostp' newly defined as it shall be overridden
+
+although it is yet undefined on input line 110.
+Package acronym Info: Label `acro:epa' newly defined as it shall be overridden
+although it is yet undefined on input line 110.
+Package acronym Info: Label `acro:ota' newly defined as it shall be overridden
+although it is yet undefined on input line 110.
+[22 <./Figures/chap2/Planetary_Boundaries.png>] [23 <./Figures/chap2/services_w
+ellbeing.png>] [24]
 Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
 
-although it is yet undefined on input line 104.
+although it is yet undefined on input line 142.
 
-Overfull \hbox (41.17133pt too wide) in paragraph at lines 110--124
+Overfull \hbox (41.17133pt too wide) in paragraph at lines 148--162
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/chap2/east2.jpg, id=78, 1084.05pt x 505.89pt>
+<Figures/chap2/east2.jpg, id=101, 1084.05pt x 505.89pt>
 File: Figures/chap2/east2.jpg Graphic file (type jpg)
 <use Figures/chap2/east2.jpg>
-Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 129.
+Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 167.
 (pdftex.def)             Requested size: 433.61232pt x 202.3524pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./Figures/chap2/sustainable_triangle.png>] [20]
-Overfull \hbox (0.71855pt too wide) in paragraph at lines 156--230
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Overfull \hbox (0.71855pt too wide) in paragraph at lines 194--268
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./Figures/chap2/east2.jpg>] [22]
+[27 <./Figures/chap2/east2.jpg>] [28] [29] [30]
+Underfull \vbox (badness 4168) has occurred while \output is active []
 
-LaTeX Warning: Citation `robinsoniraPlanFormulationIntroductoryNote1972' on pag
-e 23 undefined on input line 295.
+ [31]
+[32] [33]
+Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 419.
 
-[23]
-Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
 
-although it is yet undefined on input line 301.
- [24]
+Package acronym Warning: Acronym `lidar' is not defined on input line 419.
+
+
+Package acronym Warning: Acronym `lidar' is not defined on input line 419.
+
+Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
+although it is yet undefined on input line 424.
+Package acronym Info: Label `acro:GIS' newly defined as it shall be overridden
+although it is yet undefined on input line 427.
+
+Package acronym Warning: Acronym `GIS' is not defined on input line 427.
+
+
+Package acronym Warning: Acronym `GIS' is not defined on input line 427.
+
 Package acronym Info: Label `acro:ppbs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 330.
-) [25]
+although it is yet undefined on input line 441.
+Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
+although it is yet undefined on input line 445.
+
+Overfull \hbox (12.832pt too wide) in paragraph at lines 445--446
+\T1/cmr/m/n/12 com-mon ways of man-ag-ing []s[]: Cen-tral man-age-ment, pri-va-
+ti-za-tion, self-management.
+ []
+
+[34] [35] [36] [37] [38] [39]
+<Figures/chap2/dresden_projections.png, id=152, 664.4825pt x 484.81125pt>
+File: Figures/chap2/dresden_projections.png Graphic file (type png)
+<use Figures/chap2/dresden_projections.png>
+Package pdftex.def Info: Figures/chap2/dresden_projections.png  used on input l
+ine 554.
+(pdftex.def)             Requested size: 232.57236pt x 169.68648pt.
+ [40 <./Figures/chap2/dresden_projections.png>]
+Package acronym Info: Label `acro:lunr' newly defined as it shall be overridden
+
+although it is yet undefined on input line 572.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 580.
+
+[42] [43]
+<Figures/chap2/friedman_timeline.png, id=167, 987.69pt x 554.07pt>
+File: Figures/chap2/friedman_timeline.png Graphic file (type png)
+<use Figures/chap2/friedman_timeline.png>
+Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
+e 613.
+(pdftex.def)             Requested size: 641.9909pt x 360.14124pt.
+ [44 <./Figures/chap2/friedman_timeline.png>]
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 640--641
+ []| 
+ []
+
+
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 641--642
+ []| 
+ []
+
+[45
+
+
+] [46] [47] [48]
+<Figures/chap2/sustainable_triangle.png, id=184, 1156.32pt x 578.16pt>
+File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
+<use Figures/chap2/sustainable_triangle.png>
+Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
+line 730.
+(pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
+) [49 <./Figures/chap2/sustainable_triangle.png>] [50]
+\openout2 = `chap3.aux'.
+
+
+(./chap3.tex
+Chapter 3.
+[51
+
+
+
+
+]) [52]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl [26
+ (./biblio.tex (./main.bbl [53
 
 
 
 
-] [27] [28])) [29] (./main.aux
-(./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux) (./biblio.aux))
+] [54] [55] [56] [57] [58])) [59]
+(./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
  )
-(\end occurred when \ifx on line 74 was incomplete) 
+(\end occurred when \ifx on line 75 was incomplete) 
 Here is how much of TeX's memory you used:
- 4079 strings out of 481134
- 58249 string characters out of 5913146
- 363773 words of memory out of 5000000
- 20910 multiletter control sequences out of 15000+600000
- 415170 words of font info for 49 fonts, out of 8000000 for 9000
+ 4785 strings out of 481134
+ 68401 string characters out of 5913146
+ 394784 words of memory out of 5000000
+ 21577 multiletter control sequences out of 15000+600000
+ 418231 words of font info for 53 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 68i,16n,74p,1017b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,17n,74p,1681b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive202
-0/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/jackreid/.texliv
-e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/jackreid/.te
-xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/jackreid
-/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/jack
-reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/
-jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </h
-ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk>
- </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.60
-0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm172
-8.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
-m1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecbx1728.600pk>
-Output written on main.pdf (29 pages, 481967 bytes).
+0/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/jackreid/.texliv
+e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/jackreid/.te
+xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/jackreid
+/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/jack
+reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/
+jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </h
+ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk>
+ </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
+0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx248
+8.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
+x1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm1200.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/tcrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx1728.600pk>
+Output written on main.pdf (59 pages, 987444 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 763 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,14 +1,26 @@
-\contentsline {chapter}{\numberline {1}Introduction}{13}{}%
-\contentsline {section}{\numberline {1.1}Research Questions}{13}{}%
-\contentsline {section}{\numberline {1.2}Framing}{13}{}%
-\contentsline {section}{\numberline {1.3}Methodology}{14}{}%
-\contentsline {section}{\numberline {1.4}Structure of Thesis}{14}{}%
-\contentsline {chapter}{\numberline {2}Literature Survey / Framing / Theory}{15}{}%
-\contentsline {section}{\numberline {2.1}Development}{15}{}%
-\contentsline {subsection}{\numberline {2.1.1}History and Theory}{15}{}%
-\contentsline {subsection}{\numberline {2.1.2}Sustainable Development}{18}{}%
-\contentsline {subsection}{\numberline {2.1.3}GIS in development}{19}{}%
-\contentsline {subsection}{\numberline {2.1.4}[Tentative] Informality}{22}{}%
-\contentsline {section}{\numberline {2.2}Types of places that EVDT deals with}{23}{}%
-\contentsline {section}{\numberline {2.3}Complex Systems and Modeling}{23}{}%
-\contentsline {section}{\numberline {2.4}EVDT Framework}{25}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{15}{}%
+\contentsline {section}{\numberline {1.1}Research Questions}{15}{}%
+\contentsline {section}{\numberline {1.2}Framing}{16}{}%
+\contentsline {section}{\numberline {1.3}Methodology}{18}{}%
+\contentsline {section}{\numberline {1.4}Structure of Thesis}{18}{}%
+\contentsline {chapter}{\numberline {2}Motivation, Theory, and Frameworks}{19}{}%
+\contentsline {section}{\numberline {2.1}Motivation}{19}{}%
+\contentsline {subsection}{\numberline {2.1.1}Personal Motiviation}{19}{}%
+\contentsline {subsection}{\numberline {2.1.2}Why Sustainable Development?}{21}{}%
+\contentsline {subsubsection}{What is Sustainable Development?}{21}{}%
+\contentsline {subsubsection}{Why is Sustainable Development Important?}{21}{}%
+\contentsline {subsubsection}{What about the Sustainable Development Goals?}{22}{}%
+\contentsline {subsection}{\numberline {2.1.3}Why Earth Observation Imagery}{22}{}%
+\contentsline {subsection}{\numberline {2.1.4}Why GIS and Decision Support?}{25}{}%
+\contentsline {subsection}{\numberline {2.1.5}Why Collaborative and Open Source?}{30}{}%
+\contentsline {subsection}{\numberline {2.1.6}Why Systems Engineering?}{32}{}%
+\contentsline {section}{\numberline {2.2}EVDT Framework}{34}{}%
+\contentsline {section}{\numberline {2.3}Intended Use Cases / Applications}{34}{}%
+\contentsline {section}{\numberline {2.4}Critiques}{36}{}%
+\contentsline {subsection}{\numberline {2.4.1}Technology is Bad}{36}{}%
+\contentsline {subsection}{\numberline {2.4.2}Scenario Planning and Decision-Support is unfounded}{40}{}%
+\contentsline {subsection}{\numberline {2.4.3}Systems Engineering}{42}{}%
+\contentsline {subsection}{\numberline {2.4.4}Technocratic Planning and International Development}{46}{}%
+\contentsline {subsection}{\numberline {2.4.5}Sustainable Development and the SDGs}{47}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{51}{}%
+\contentsline {section}{\numberline {3.1}Mapping and Visualization}{51}{}%

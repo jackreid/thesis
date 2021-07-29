@@ -5,50 +5,51 @@ A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: chap1.aux
 A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: biblio.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "robinsoniraPlanFormulationIntroductoryNote1972"
+Warning--I didn't find a database entry for "delamontConspicuousConsumptiveWoman2012"
 Warning--empty institution in unitednationsWhoWillBe2013
-You've used 26 entries,
-            2118 wiz_defined-function locations,
-            665 strings with 9109 characters,
-and the built_in function-call counts, 7866 in all, are:
-= -- 783
-> -- 283
-< -- 6
-+ -- 111
-- -- 79
-* -- 469
-:= -- 1335
-add.period$ -- 92
-call.type$ -- 26
-change.case$ -- 115
+You've used 83 entries,
+            1791 wiz_defined-function locations,
+            967 strings with 19877 characters,
+and the built_in function-call counts, 20311 in all, are:
+= -- 1915
+> -- 754
+< -- 25
++ -- 283
+- -- 200
+* -- 1252
+:= -- 3138
+add.period$ -- 283
+call.type$ -- 83
+change.case$ -- 91
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 388
-empty$ -- 724
-format.name$ -- 79
-if$ -- 1722
+cite$ -- 84
+duplicate$ -- 1079
+empty$ -- 2102
+format.name$ -- 200
+if$ -- 4732
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 33
-newline$ -- 133
-num.names$ -- 78
-pop$ -- 147
+int.to.str$ -- 83
+missing$ -- 105
+newline$ -- 418
+num.names$ -- 146
+pop$ -- 359
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 0
 quote$ -- 0
-skip$ -- 212
+skip$ -- 427
 stack$ -- 0
-substring$ -- 321
-swap$ -- 67
-text.length$ -- 6
+substring$ -- 983
+swap$ -- 260
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
+type$ -- 0
 warning$ -- 1
-while$ -- 84
-width$ -- 28
-write$ -- 321
+while$ -- 215
+width$ -- 85
+write$ -- 982
 (There were 2 warnings)
