@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{ostromGoverningCommonsEvolution2015}
 Elinor Ostrom.
@@ -11,6 +11,12 @@ Elinor Ostrom.
 Sherry Turkle.
 \newblock {\em The {{Empathy Diaries}}: {{A Memoir}}}.
 \newblock {Penguin}, March 2021.
+
+\bibitem{duffinConspicuousConsumptiveWoman2012}
+Lorna Duffin.
+\newblock The {{Conspicuous Consumptive}} : {{Woman}} as an {{Invalid}}.
+\newblock In Sara Delamont and Lorna Duffin, editors, {\em The
+  {{Nineteenth}}-Century {{Woman}}}. {Routledge}, 2012.
 
 \bibitem{jacobsDeathLifeGreat2016}
 Jane Jacobs.
@@ -30,10 +36,43 @@ Ida~R. Hoos.
 \newblock {\em Systems {{Analysis}} in {{Public Policy}}: {{A Critique}}}.
 \newblock {University of California Press}, January 1983.
 
+\bibitem{DefinitionSustainableDictionary}
+Definition of sustainable | {{Dictionary}}.com.
+\newblock https://www.dictionary.com/browse/sustainable.
+
+\bibitem{worldcommissiononenvironmentanddevelopmentOurCommonFuture}
+{World Commission on Environment and Development}.
+\newblock Our {{Common Future}}.
+\newblock Technical report, {United Nations}, {Oxford, UK}.
+
+\bibitem{unitednationsconferenceonenvironmentanddevelopmentRioDeclarationEnvironment1992}
+{United Nations Conference on Environment and Development}.
+\newblock Rio {{Declaration}} on {{Environment}} and {{Development}}.
+\newblock Technical report, {United Nations}, {Rio de Janeiro, Brazil}, June
+  1992.
+
+\bibitem{worldsummitonsustainabledevelopmentPlanImplementationWorld2002}
+{World Summit on Sustainable Development}.
+\newblock Plan of {{Implementation}} of the {{World Summit}} on {{Sustainable
+  Development}}.
+\newblock Technical report, {United Nations}, {Johannesburg, South Africa},
+  September 2002.
+
 \bibitem{sachsAgeSustainableDevelopment2015}
 Jeffrey Sachs.
 \newblock {\em The {{Age}} of {{Sustainable Development}}}.
 \newblock {Columbia University Press}, 2015.
+
+\bibitem{rockstromSafeOperatingSpace2009}
+Johan Rockstr{\"o}m, Will Steffen, Kevin Noone, {\AA}sa Persson, F.~Stuart
+  Chapin, Eric~F. Lambin, Timothy~M. Lenton, Marten Scheffer, Carl Folke,
+  Hans~Joachim Schellnhuber, Bj{\"o}rn Nykvist, Cynthia~A. {de Wit}, Terry
+  Hughes, Sander {van der Leeuw}, Henning Rodhe, Sverker S{\"o}rlin, Peter~K.
+  Snyder, Robert Costanza, Uno Svedin, Malin Falkenmark, Louise Karlberg,
+  Robert~W. Corell, Victoria~J. Fabry, James Hansen, Brian Walker, Diana
+  Liverman, Katherine Richardson, Paul Crutzen, and Jonathan~A. Foley.
+\newblock A safe operating space for humanity.
+\newblock {\em Nature}, 461(7263):472--475, September 2009.
 
 \bibitem{rockstromSustainableDevelopmentPlanetary2013}
 Johan Rockstr{\"o}m, Jeffrey~D. Sachs, Marcus~C. {\"O}hman, and Guido
@@ -50,6 +89,12 @@ W.~V. Reid, H.~A. Mooney, A.~Cropper, D.~Capistrano, S.~R. Carpenter,
 \newblock {\em Ecosystems and Human Well-Being - {{Synthesis}}: {{A Report}} of
   the {{Millennium Ecosystem Assessment}}}.
 \newblock {Island Press}, 2005.
+
+\bibitem{scottSeeingStateHow2020}
+James~C. Scott.
+\newblock {\em Seeing {{Like}} a {{State}}: {{How Certain Schemes}} to
+  {{Improve}} the {{Human Condition Have Failed}}}.
+\newblock {Yale University Press}, March 2020.
 
 \bibitem{unitednationsWhoWillBe2013}
 {United Nations} and {Center for Economic and Social Rights}.
@@ -125,6 +170,19 @@ Piotr Jankowski and Timothy Nyerges.
 \newblock {\em {{GIS}} for {{Group Decision Making}}}.
 \newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
 
+\bibitem{fotheringhamGeographicInformationScience2007}
+A.~Stewart Fotheringham and John~P. Wilson.
+\newblock Geographic {{Information Science}}: {{An Introduction}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  pages 1--7. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{cowenAvailabilityGeographicData2007}
+David~J. Cowen.
+\newblock The {{Availability}} of {{Geographic Data}}: {{The Current
+  Technical}} and {{Institutional Environment}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~1, pages 11--34. {John Wiley \& Sons, Ltd}, 2007.
+
 \bibitem{tomlinGISCartographicModeling2012}
 C.~Dana Tomlin.
 \newblock {\em {{GIS}} and {{Cartographic Modeling}}}.
@@ -187,6 +245,12 @@ Leila Harris and Helen Hazen.
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   50--67. {Routledge}, June 2011.
 
+\bibitem{gaheganMultivariateGeovisualization2007}
+Mark Gahegan.
+\newblock Multivariate {{Geovisualization}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+
 \bibitem{curryGeographicalInformationSystems1994}
 Michael Curry.
 \newblock Geographical {{Information Systems}} and the {{Inevitability}} of
@@ -224,6 +288,25 @@ Amartya Sen.
 Alan Sheridan.
 \newblock {\em Michel {{Foucault}}: {{The Will}} to {{Truth}}}.
 \newblock {Routledge}, September 2003.
+
+\bibitem{tullochInstitutionalGeographicInformation2007}
+David~L. Tulloch.
+\newblock Institutional {{Geographic Information Systems}} and {{Geographic
+  Information Partnering}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~25, pages 449--465. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{weinerParticipatoryGeographicInformation2007}
+Daniel Weiner and Trevor~M. Harris.
+\newblock Participatory {{Geographic Information Systems}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~26, pages 466--480. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{bondCherokeeNationTribal2002}
+Crystal Bond.
+\newblock The {{Cherokee Nation}} and tribal uses of {{GIS}}.
+\newblock In {\em Community {{Participation}} and {{Geographical Information
+  Systems}}}. {CRC Press}, 2002.
 
 \bibitem{williamsonTheirworkDevelopmentSustainable2011}
 Dominica Williamson and Emmet Connolly.
@@ -347,6 +430,12 @@ Mark Weiner.
 \newblock The computer for the 21st century.
 \newblock {\em Scientific American}, 265(3):94--103, September 1991.
 
+\bibitem{eubanksAutomatingInequalityHow2018}
+Virginia Eubanks.
+\newblock {\em Automating {{Inequality}}: {{How High}}-{{Tech Tools Profile}},
+  {{Police}}, and {{Punish}} the {{Poor}}}.
+\newblock {St. Martin's Press}, {New York, NY}, January 2018.
+
 \bibitem{kurganCloseDistanceMapping2013}
 Laura Kurgan.
 \newblock {\em Close {{Up}} at a {{Distance}}: {{Mapping}}, {{Technology}}, and
@@ -371,6 +460,17 @@ John Krygier and Denis Wood.
 \newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   189--219. {Routledge}, June 2011.
+
+\bibitem{nobleAlgorithmsOppressionHow2018}
+Safiya~Umoja Noble.
+\newblock {\em Algorithms of {{Oppression}}: {{How Search Engines Reinforce
+  Racism}}}.
+\newblock {NYU Press}, {New York}, illustrated edition edition, February 2018.
+
+\bibitem{paceyCultureTechnology1983}
+Arnold Pacey.
+\newblock {\em The {{Culture}} of {{Technology}}}.
+\newblock {MIT Press}, 1983.
 
 \bibitem{wiechmannErrorsExpectedAligning2008}
 Dr~Thorsten Wiechmann.
@@ -457,6 +557,17 @@ William Easterly.
   and the {{Forgotten Rights}} of the {{Poor}}}.
 \newblock {Basic Books}, 1 edition edition, March 2015.
 
+\bibitem{porter1992objectivity}
+Theodore~M Porter.
+\newblock Objectivity as standardization: {{The}} rhetoric of impersonality in
+  measurement, statistics, and cost-benefit analysis.
+\newblock {\em Annals of Scholarship}, 9(1/2):19--59, 1992.
+
+\bibitem{yurchakEverythingWasForever2005}
+Alexi Yurchak.
+\newblock {\em Everything {{Was Forever}}, {{Until It Was No More}}}.
+\newblock {Princeton University Press}, Sun, 10/23/2005 - 12:00.
+
 \bibitem{fainsteinSpatialJusticePlanning2016}
 Susan Fainstein.
 \newblock Spatial {{Justice}} and {{Planning}}.
@@ -498,6 +609,17 @@ John Forester.
 \newblock Planning in the {{Face}} of {{Power}}.
 \newblock In {\em Classic {{Readings}} in {{Urban Planning}}}. {Routledge},
   2001.
+
+\bibitem{furner2007dewey}
+Jonathan Furner.
+\newblock Dewey deracialized: {{A}} critical race-theoretic perspective.
+\newblock {\em KO Knowledge Organization}, 34(3):144--168, 2007.
+
+\bibitem{tullochTheoreticalModelMultipurpose1999}
+David~L. Tulloch.
+\newblock Theoretical {{Model}} of {{Multipurpose Land Information Systems
+  Development}}.
+\newblock {\em Transactions in GIS}, 3(3):259--283, 1999.
 
 \bibitem{campbellGreenCitiesGrowing2016}
 Scott Campbell.

@@ -9,47 +9,47 @@ A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "delamontConspicuousConsumptiveWoman2012"
+Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
 Warning--empty institution in unitednationsWhoWillBe2013
-You've used 83 entries,
+You've used 103 entries,
             1791 wiz_defined-function locations,
-            967 strings with 19877 characters,
-and the built_in function-call counts, 20311 in all, are:
-= -- 1915
-> -- 754
-< -- 25
-+ -- 283
-- -- 200
-* -- 1252
-:= -- 3138
-add.period$ -- 283
-call.type$ -- 83
-change.case$ -- 91
+            1081 strings with 24284 characters,
+and the built_in function-call counts, 24929 in all, are:
+= -- 2336
+> -- 932
+< -- 34
++ -- 354
+- -- 251
+* -- 1526
+:= -- 3845
+add.period$ -- 349
+call.type$ -- 103
+change.case$ -- 110
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 1079
-empty$ -- 2102
-format.name$ -- 200
-if$ -- 4732
+cite$ -- 105
+duplicate$ -- 1322
+empty$ -- 2585
+format.name$ -- 251
+if$ -- 5804
 int.to.chr$ -- 0
-int.to.str$ -- 83
-missing$ -- 105
-newline$ -- 418
-num.names$ -- 146
-pop$ -- 359
+int.to.str$ -- 103
+missing$ -- 126
+newline$ -- 517
+num.names$ -- 167
+pop$ -- 449
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 427
+skip$ -- 523
 stack$ -- 0
-substring$ -- 983
-swap$ -- 260
-text.length$ -- 25
+substring$ -- 1213
+swap$ -- 320
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 215
-width$ -- 85
-write$ -- 982
+warning$ -- 2
+while$ -- 258
+width$ -- 106
+write$ -- 1203
 (There were 2 warnings)

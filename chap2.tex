@@ -101,6 +101,8 @@ Ocean Acidification &  \cellcolor{yellow!25} M & \cellcolor{red!25} H & \cellcol
 	\label{fig:services_wellbeing}
 \end{figure}
 
+Historically, surveys and quantifications of the natural environment focused primarily, or even entirely, on resources that could be extracted and exploited for economic benefit. In early forest surveys, for instance, "Missing... were all those parts of trees, even revenue-bearing trees, which might have been useful to the population but whose value could not be converted into fiscal receipts." \cite{scottSeeingStateHow2020}
+
 \subsubsection{What about the Sustainable Development Goals?}
 
 
@@ -194,6 +196,22 @@ Jankowski and Nyerges lay out seven common design requirements for spatial decis
 	\item{A system functionality should include extensive multiple criteria evaluation capabilities, sensitivity analysis, specialized maps to support the enumeration of preferences and comparison of alternative performance, voting, and consensus building tools.}
 	\item{A system should provide ncessary functionality to support needs of an advanced user without overwhelming a novice who needs a user-guiding interface.}
 \end{enumerate}
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{Figures/chap2/GIScience.png}
+	\caption[Overview of Geographical Information Science]{Overview of Geographical Information Science. From \cite{fotheringhamGeographicInformationScience2007}}
+	\label{fig:giscience}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{Figures/chap2/GIScience.png}
+	\caption[The marketplace for geographic data]{The marketplace for geographic data. From \cite{cowenAvailabilityGeographicData2007}}
+	\label{fig:marketplace}
+\end{figure}
 
 
 the meeting arrangment that EVDT supports, \ref{table:meeting_arrangements}
@@ -338,6 +356,8 @@ The city of Chicago has developed \ac{gis} apps to visualize food deserts and de
 
 "Non-human animals are rarely considered within the realms of social theory, and yet... animals can be regarded as a 'marginal social group' that is 'subjected to all manner of socio-spatial inclusions and exclusions.'" (\cite{philolAnimalsGeographyCity1995,westcoatBringingAnimalsBack1995,wolchAnimalGeographiesPlace1998}as paraphrased in \cite{harrisRethinkingMapsMorethanhuman2011}) I would argue that plants, particularly non-domesticated plants, could similarly be regarded as a marginal social group that is often neglected by decision support tools.
 
+The motivation for combining so many variables from different disciplines stems from both push and pull factors. The push factors are the simple increase in availability of data, as has already been described, along with the increase in the interoperability of the variables (which the work described in this thesis is trying to help contribute to). The primary pull factor is our increased understanding of - and appreciation for - the complex relationships between these domains, relationships that were previously ignored in analyses \cite{gaheganMultivariateGeovisualization2007}. 
+
 \subsection{Why Collaborative and Open Source?}
 
 "It is the geomorphologist who is best able to choose the dta model for representation of terrain in a GIS, not the computer scientist or the statistician, and it is the urban geographer who is best able to advicse on how to represent the many facets of hte urban environment in a GIS designed for urban planning." \cite{goodchildGeographicInformationSystems1994}
@@ -364,6 +384,10 @@ Expansion of choice is valuable for both intrinsic (for its own sake) and instru
 
 Giles Deleuze on Michel Foucault: "You have taught us something absolutely fundamental: The indignity of speaking on someone else's behalf" \cite{sheridanMichelFoucaultWill2003}
 
+
+While collaborations certainly can introduce additional difficulties, including cultural conflicts and issues of interpersonal trust, they are also immensely rewarding \cite{tullochInstitutionalGeographicInformation2007}.
+
+While \ac{ppgis} refers to involving the public in both the creation and the use of data, in practice, it has tended to focus primarily on the former, thus situating it as a form of \ac{gisc} rather than application \cite{weinerParticipatoryGeographicInformation2007}. For example, in Washington state in 2002 , several American Indian tribes were using \ac{gis} technology to "inventory, analyze, map, and make descisions regarding tribal resources... includ[ing] timber production, grazing and farm land, water rights, wildlife, native plants, cultural sites, environmental data and hazardous site monitoring, historical preservation, health and human resources." \cite{bondCherokeeNationTribal2002}
 
 Digital tools that provide open data (1) frees data from bureaucractic constraints, allowing real time combination of data from different souces; (2) construct a loop between government and the community in which cooperation builds respect continuously; (3) Enable two-way communication, promotiving collaboration \cite{goldsmithResponsiveCityEngaging2014}.
 
@@ -453,6 +477,9 @@ Is not itself a means of planning and implementing projects. It is not a full li
 
 \section{Intended Use Cases / Applications}
 
+While \ac{evdt} does not include any concrete spatial scale requirements, it is often the most straightforward to apply to it at a a relatively local scale, like much of the early history of \ac{gis} applications \cite{tullochInstitutionalGeographicInformation2007}. Most of the applications to date have been at the area of a metropolitan area or that of a small province.
+
+
 Commonly has to do with \acp{cpr}. Talk about the three common ways of managing \acp{cpr}: Central management, privatization, self-management. Bring in Table \ref{table:cpr_design}  showing design principles of long-enduring self-management institutions. Refer to successful aspects of the water basin in California (incremental and sequential process to reduce the costs of local institutional supply, shared information at each step, intermediate benefits from initial investments were realized prior to larger investments, transformed structure of incentives within which fuure strategic decisions can be made) (pg. 137. \cite{ostromGoverningCommonsEvolution2015}
 
 \begin{table}[h]
@@ -533,7 +560,7 @@ Cite Langdon Winner somewhere in here
 
 "Mappings do not represent geographics of ideas; rather they effect actualization... Maps remake 'territory over and over again, each time with new and diverse consequences.'" (\cite{cornerAgencyMappingSpeculation1999} as paraphrased by \cite{kitchinThinkingMaps2011}
 
-In some ways, we want to avoid making a seemless tool, as "the most significant impacts of technology tend to occur when the technology becomes indistringuishable from the fabric of every day life" (\cite{weinerComputer21stCentury1991} as paraphrased in \cite{vereginComputerInnovationAdoption1994})
+In some ways, we want to avoid making a seemless tool, as "the most significant impacts of technology tend to occur when the technology becomes indistringuishable from the fabric of every day life" (\cite{weinerComputer21stCentury1991} as paraphrased in \cite{vereginComputerInnovationAdoption1994}). This is not, unfortunately, not sufficient. "We all tend to defer to machines, which can seem more neutral, more objective" even when they are actively warning us of their limitations and fallibility \cite{eubanksAutomatingInequalityHow2018}.
 
 Even the most ardent supporters of digital tools and data collection often fall into a sort of technological determinism. Stephen Goldsmith and Susan Crawford, who did a great deal to implement such technologies in New York City and Indianapolis, wrote that "the process of collection is not going to stop. We think, it fact, that it would be shortsighted and probably impossible to halt this natural evolution. That is all the more reason, then, to carefully establish policies covering data access, data security, and transparency with respect to its collections." \cite{goldsmithResponsiveCityEngaging2014}
 
@@ -552,6 +579,12 @@ For a clear example of a technologically produced geographic object having enorm
 Similarly, the Sierra Club has made significant use of Google Earth in their efforts to garner support for conservation efforts in the US Arctic National Wildlife Refuge and elsewhere \cite{propenCartographicRepresentationConstruction2011}. 
 
 As Krygier and Wood so playfully illustrated, maps are, fundamentally, propositions about that world that are asserting a fact and promoting an action. Because of this "you must accept responsibility for the realities you create with maps." \cite{krygierCeEstPas2011}
+
+"The very notion that technologies are neutral must be directly challenged as a misnomer." \cite{nobleAlgorithmsOppressionHow2018}
+
+"Design is purposeful in that it forges both pathways and boundaries in its instrumental and cultural use." (\cite{paceyCultureTechnology1983} as paraphrased in \cite{nobleAlgorithmsOppressionHow2018})
+
+"Those who have hte power to design systems - classification or technical - hold the ability to prioritize hierarchical schemes that privilege certain tyeps of information over others." \cite{nobleAlgorithmsOppressionHow2018}
 
 \subsection{Scenario Planning and Decision-Support is unfounded}
 
@@ -584,6 +617,9 @@ Notably, one of the early successes at combining remote observation imagery with
 
 \subsection{Systems Engineering}
 
+
+"Many who seek to harness computaitonal power for social justice tend to find affinity with systems engineering approaches to social problems. These perspectives assume that complex controversies can be solved by getting correct information where it needs to go as efficiently as possible. In this model, political conflict arises primarily rom a lack of information. If we just gather lal the facts, systems engineers assume, the correct answers to intractable policy problems like homelessness will be simple, uncontroversial, and widely shared. But, for better or worse, this is not how politics work." \cite{eubanksAutomatingInequalityHow2018}
+
 US Vice President Herbert Humphrey said in 1968 that "The techniques that are going to put a man on the Moon are going to be exactly the techniques that we are going to need to clean up our cities." \cite{lightWarfareWelfareDefense2005}
 
 "Trying to solve 'earthly problems,' especially urban problems through aerospace innovations had shown that 'transporting the astornauts from terra firma to land on the lunar sphere, travel hither and yon over its surface, and then back home to Houston' was a comparatively simple task." \cite{lightWarfareWelfareDefense2005}
@@ -598,7 +634,7 @@ These applications were justified by several different rationale, chief among th
 	\item{The use of these military innovations would transform urban planning and decision-making into scientific endeavors.}
 \end{itemize}
 
-As [cite seeing like a state] pointed out, however, this last rationale tended to be more of an aesthetic argument, rather than one grounded in fact.
+As was discussed in Section \ref{sec:technocracy}, however, this last rationale tended to be more of an aesthetic argument, rather than one grounded in fact. It is a preference for the simple, regular, controlled, and "rational", all of which are, in fact, hideously artificial. Thankfully, among systems engineers this perspective is a view that is largely considered to be outmoded. Instead, in the guise of theories of complex systems and chaos, they have adopted Jane Jacob's view that "intricate minglings of different uses are not a form of chaos. On the contrary they represent a complex and highly developed form of order." \cite{jacobsDeathLifeGreat2016}. Systems engineering has moved away from prescription, embraced multi-stakeholder analysis and negotiation, and uses chaos and complexity theory, uses probabalistic modeling.
 
 There were certain factors that contributed to the lack of success during this era \cite{lightWarfareWelfareDefense2005}:
 
@@ -607,6 +643,9 @@ There were certain factors that contributed to the lack of success during this e
 	\item{There was a lack of prior goal setting by decision makers. Technical experts were driven by a desire to use the tools available to them rather than to actually address the specific needs of the community.}
 	\item{Technocratic systems and defense analysts displaced professional urban planners and others with detailed subject knowledge, rather than seeking to cooperate and learn from them. Some urban planners went so far as to complain that "their work had been hijacked by refugees from aerospace."}
 \end{itemize}
+
+There are many possible causes of this arrogance. James Scott argues that "the willful disdain for local comptence... was not, I believe, simply a case of prejudice (of the edcuated, urban, and Westernized elite twoards the peasantry) or of aesthetic commitments implicity in high modernism. Rather, official attitudes were also a matter of institutional privilege. To the degree that [local] pratices were presumed reasonable until proven otherwise, to the degree that specialists might learn as from [locals] as vice versa, and to the degree that specialists had to negotiate with [locals] as political equals, would the basic premise behind the officials' institutional power and status be undermined." \cite{scottSeeingStateHow2020}
+
 
 This era of systems engineering applications on urban planning was also marked by significant secrecy, as was the cultural norm of these military-connected organizations \cite{lightWarfareWelfareDefense2005}.
 
@@ -680,10 +719,58 @@ This historic preference of the impersonal and "objective" versus the personal a
 
 Participatory models were not unheard of even in earlier decades however. For example, the Dayton Neighborhod Achievement Model dates back to the early 1970s \cite{lightWarfareWelfareDefense2005}.
 
-\subsection{Technocratic Planning and International Development}
+The use of stakeholder analysis in contemporary systems engineering is, in a way, a step away from the world view that sees "human beings as unknowable black boxes and machines as transparent," a viewpoint that "surrenders any attempt at empathy and forecloses the possibility of ethical development" and is a tacit "admission that we have abandoned a social commitment to try and understand each other." \cite{eubanksAutomatingInequalityHow2018}
+
+Sufficient deficiencies certainly still remain within the systems engineering community. "One cannot know about the history of media stereotyping or the nuances of structural oppression in any formal, scholarly way through the traditional engineering curriculum of the large research universities from which technology companies hire across the United States. Ethics course are rare." \cite{nobleAlgorithmsOppressionHow2018}
+
+It should be noted that, while \ac{ppgis} developed as a means to avoid some of these concerns, it also arose out of intra-academia discussion and arguments, not as a result of vociferous demand from communities themselves \cite{weinerParticipatoryGeographicInformation2007}. 
+
+\subsection{Technocratic Planning and International Development} \label{sec:technocracy}
+
+By "technocracy" we mean the basic idea that "the human problem of urban design has a unique solution, which an expert can discover and execute. Deciding such technical matters by politics and bargaining would lead to the wrong solution." \cite{scottSeeingStateHow2020}
+
+
+Some of the sources here cited in this chapter refer specifically to maps, while others to more general quantified data for states. For our purposes, however, the differences between these two are not particularly important. Most "state simplications... have the character of maps. That is, they are designed to summarize precisely thoes aspects of a complex world that are of immediate interest to the mapmaker and to ignore the rest. To complain that a map lacks nuance and detail makes no sense unless it omits information necessary to its function." \cite{scottSeeingStateHow2020}
 
 
 Respond to critiques of central planning / technocratic efforts by Easterly \cite{easterly2015}
+
+
+
+James Scott argued that "legibility [is] a central problem in statecraft." Through the act of making society and nature itself legible, "officials took exceptionally, complex, illegible, and local social practices... and created a standard grid whereby it could be centrally recorded and monitored. The organization of hte natural world was no exception."  \cite{scottSeeingStateHow2020}
+
+
+Scott argued that four elements were necessary to precipitate the most tragic of social engineering disasters \cite{scottSeeingStateHow2020}:
+
+\begin{itemize} \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} 
+	\item{The "administrative ordering of nature and society." This includes items like cadastral maps, surnames, census records, and a standardized legal system. As Theodore Porter put it, "Society must be remade before it can be the object of quantification." \cite{porter1992objectivity}}
+	\item{A "high-modernist ideology," which Scott defines as a "strong," "muscle-bound" "self-confidence about scientific and technical progress, the expansion of production, the growing satisfaction of uman needs, the master of nature... and the rational design of social order commensurate with the scientific understanding of natural laws."}
+	\item{An authoritarian state that is both "willing and able" to wield power to inact the high-modernist ideology.}
+	\item{A vulnerable civil society that "lacks the capacity to resist" the plans of that authoritarian state.}
+\end{itemize}
+
+In essence what is "truly dangerous to us and our environment... is the \textit{combination} of the universalist pretensions of epistemic knowledge and authoritarian social engineering." \cite{scottSeeingStateHow2020}
+
+With regard to the second element a key aspect is that, as Scott notes, high-modernist ideology is not scientific practice. It is a "faith that borrowed from the legitmacy of sciency and technology." In fact, it was more an aesthetic prediliction than anything scientific. Furthermore, the underlying ideas were in fact quite sympathetic. "Doctors and public-health engineers who did possess new knowledge that could save millions of lives were often thwarted by popular prejudices and entrenched political interests"  \cite{scottSeeingStateHow2020}. The dangers were when an authoritarian state adopted the aesthetic veilings of such ideas to justify actions, in the way that Social Darwinism used evolutionary theory to justify horrid actions. In this way "the classism and racism of elites are mathwashed, neutralized by technological mystification and data-based hocus-pocus." \cite{eubanksAutomatingInequalityHow2018} This ideology could also be considered a "dangerous form of magical thinking [that] often accompanies new technological developments, a curious assurance that a revolution in our tools inevitably wipes the slate of the past clean." \cite{eubanksAutomatingInequalityHow2018}
+
+
+In the USSR, "a set of informal practices lying outside of the formal command economy - and often outside Soviet law as well - [arose] to circumvent some of the colossal waste and inefficiencies built into the system. Collectivized agriculture, in other words, never quite operated according to the hierarchical grid of production plans and procurements." \cite{scottSeeingStateHow2020} The technocratic leaders were often aware of this but so committed to their ideology that they had no alternative but to maintain a sort of pretense, which anthropologist Alexi Yurchak called 'hypernormalization' \cite{yurchakEverythingWasForever2005}, that served to compound problems until the Soviet Union eventually collapsed. Such a phenomena is particularly visible in strictly planned capital cities that have, "as the inevitable accompaniment of its official structures, given rise to another, far more 'disorderly' and complex city \textit{that makes the official city work} - that is virtually a condition of its existence." \cite{scottSeeingStateHow2020}
+
+
+
+Even the successful development projects often came at a high cost and raised the question of "successful for whom?" After all "Haussmann's Paris was, \textit{for those who are not expelled}, a far healthier city." (emphasis mine) \cite{scottSeeingStateHow2020}
+
+
+Facts generated by states are inherently simplifications. Specifically, they tend to simplify in five specific ways \cite{scottSeeingStateHow2020}:
+
+\begin{itemize} \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} 
+	\item{They are interested and utilitarian, aimed at a particular end.}
+	\item{They are nearly always written, as opposed to visual or verbal.}
+	\item{They are typically static and thus, perpetually out-of-date to at least some extent. "The cadastral map is very much like a still photograph of the current in a river."}
+	\item{They are typically aggregate facts, not individual ones.}
+	\item{They are standardized, so as to enable comparison and longitudinal analysis.}
+\end{itemize}
+
 
 Planning has come a long way from focusing on single page map and a timescale of 20-30 years (Section 2 Introduction of \cite{robinsonDecisionmakingUrbanPlanning1972})
 
@@ -706,7 +793,36 @@ Goodspeed, however, argues that scenario-based planning can help address injusti
 
 Part of this was sheer arrogance. Even one of the proponents recognized that "rational, hierarchical, closed-door decision strategies" had negative consequences and that "more democratic process might produces worse rsults, but it would respond to the increasing sense of alienation among the nation's urban population." \cite{lightWarfareWelfareDefense2005}
 
+Virginia Eubanks proposees two gut check questions \cite{eubanksAutomatingInequalityHow2018}:
+
+\begin{enumerate} \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} 
+	\item{Does the tool increase the self-determinationa and agency of the poor?}
+	\item{Would the tool be tolerated if it was targeted at non-poor people?}
+\end{enumerate}
+
+Jonathan Furner, meanwhile proposes three strategies (\cite{furner2007dewey} as paraphrased by \cite{nobleAlgorithmsOppressionHow2018}):
+
+\begin{enumerate} \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} 
+	\item{Admission on the part of designers that bias in classification schemes exists, and indeed is an inevitable result of the ways in which they are currently structured.}
+	\item{Recognition that adherence to a policy of neutrality will contribute little to eradiction of htat bias and indeed can only extend its life.}
+	\item{Construction, collection, and analysis of narrative expressions of the feelings, thoughts, and beliefs of classification-scheme users who identify with particularly racially-defined populations.}
+\end{enumerate}
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{Figures/chap2/gis_equity.png}
+	\caption[Development of GIS development and associated outcomes]{Development of GIS development and associated outcomes. From \cite{tullochTheoreticalModelMultipurpose1999} as reprinted in \cite{tullochInstitutionalGeographicInformation2007}}
+	\label{fig:gis_equity}
+\end{figure}
+
+
+
 \subsection{Sustainable Development and the SDGs}
+
+"Substantive goals, the acievement of which are hard to measure, may be supplanted by thin, notional statistics - the number of villages formed, the number of acres plowed." \cite{scottSeeingStateHow2020}
+
 
 "The pessimistic thought is that sustainable development has been stripped of its transformative power and reduced to its lowest common demoninator. After all, if both the World Bank and radical ecologists now believe in sustainability, the concept can have no teeth: it is so malleable as to mean many things to manny people without requiring commitment to any specific policies." \cite{campbellGreenCitiesGrowing2016}
 
