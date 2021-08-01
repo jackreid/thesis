@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  31 JUL 2021 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  1 AUG 2021 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,15 +352,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [11] [12
 
-]) [13]
+]
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [13])
+[14]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex [14
-
-
-
-
-]
+ (./chap1.tex
 Chapter 1.
 Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
 
@@ -369,11 +368,15 @@ Package acronym Info: Label `acro:dss' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-[15] [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[15
 
- [17])
-[18]
+
+
+
+]
+Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+ [16] [17]) [18]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -397,224 +400,331 @@ File: Figures/chap2/Planetary_Boundaries.png Graphic file (type png)
 Package pdftex.def Info: Figures/chap2/Planetary_Boundaries.png  used on input 
 line 52.
 (pdftex.def)             Requested size: 295.90025pt x 237.68379pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
 
-Overfull \hbox (4.73355pt too wide) in paragraph at lines 71--71
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/chap2/vulnerability_map.jpg, id=88, 247.50662pt x 148.40729pt>
+File: Figures/chap2/vulnerability_map.jpg Graphic file (type jpg)
+<use Figures/chap2/vulnerability_map.jpg>
+Package pdftex.def Info: Figures/chap2/vulnerability_map.jpg  used on input lin
+e 61.
+(pdftex.def)             Requested size: 420.75943pt x 252.2913pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 74.
+
+Overfull \hbox (4.73355pt too wide) in paragraph at lines 75--75
  \T1/cmr/m/n/6 Caribbean| 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 95.
-<Figures/chap2/services_wellbeing.png, id=88, 1052.93375pt x 750.805pt>
+(Font)              <7> on input line 99.
+[24 <./Figures/chap2/Planetary_Boundaries.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./Figures/chap2/vulnerability_map.jpg>]
+<Figures/chap2/services_wellbeing.png, id=104, 1052.93375pt x 750.805pt>
 File: Figures/chap2/services_wellbeing.png Graphic file (type png)
 <use Figures/chap2/services_wellbeing.png>
 Package pdftex.def Info: Figures/chap2/services_wellbeing.png  used on input li
-ne 99.
+ne 107.
 (pdftex.def)             Requested size: 368.53233pt x 262.78568pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23 <./Figures/chap2/Planetary_Boundaries.png>]
 Package acronym Info: Label `acro:sdg' newly defined as it shall be overridden
-although it is yet undefined on input line 109.
+although it is yet undefined on input line 114.
 Package acronym Info: Label `acro:mdg' newly defined as it shall be overridden
 although it is yet undefined on input line 114.
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [26 <./Figures/chap2/services_wellbeing.png>] [27]
+<Figures/chap2/SDG.png, id=112, 1374.13374pt x 846.16125pt>
+File: Figures/chap2/SDG.png Graphic file (type png)
+<use Figures/chap2/SDG.png>
+Package pdftex.def Info: Figures/chap2/SDG.png  used on input line 134.
+(pdftex.def)             Requested size: 343.5326pt x 211.5398pt.
+ [28 <./Figures/chap2/SDG.png>]
+Package acronym Info: Label `acro:nasa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 151.
+Package acronym Info: Label `acro:esa' newly defined as it shall be overridden
+although it is yet undefined on input line 151.
+Package acronym Info: Label `acro:jaxa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 151.
+Package acronym Info: Label `acro:eoc' newly defined as it shall be overridden
+although it is yet undefined on input line 151.
+Package acronym Info: Label `acro:cbers' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 151.
 Package acronym Info: Label `acro:ostp' newly defined as it shall be overridden
 
-although it is yet undefined on input line 123.
+although it is yet undefined on input line 151.
 Package acronym Info: Label `acro:epa' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
+although it is yet undefined on input line 151.
 Package acronym Info: Label `acro:ota' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
- [24] [25 <./Figures/chap2/services_wellbeing.png>] [26]
-Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
-
-although it is yet undefined on input line 155.
-
-Overfull \hbox (41.17133pt too wide) in paragraph at lines 161--175
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/chap2/east2.jpg, id=108, 1084.05pt x 505.89pt>
-File: Figures/chap2/east2.jpg Graphic file (type jpg)
-<use Figures/chap2/east2.jpg>
-Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 180.
-(pdftex.def)             Requested size: 433.61232pt x 202.3524pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27]
-<Figures/chap2/GIScience.png, id=112, 907.39pt x 797.98125pt>
-File: Figures/chap2/GIScience.png Graphic file (type png)
-<use Figures/chap2/GIScience.png>
-Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 204.
-(pdftex.def)             Requested size: 362.94957pt x 319.18684pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Figures/chap2/GIScience.png Graphic file (type png)
-<use Figures/chap2/GIScience.png>
-Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 211.
-(pdftex.def)             Requested size: 362.94957pt x 319.18684pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (0.71855pt too wide) in paragraph at lines 223--297
- [] 
- []
-
-[28]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29 <./Figures/chap2/east2.jpg>] [30 <./Figures/chap2/GIScience.png>] [31]
-[32] [33]
-Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
+although it is yet undefined on input line 151.
+ [29]
+[30]
+Package acronym Info: Label `acro:modis' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 390.
+although it is yet undefined on input line 167.
+Package acronym Info: Label `acro:viirs' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 167.
+Package acronym Info: Label `acro:gpm' newly defined as it shall be overridden
+although it is yet undefined on input line 167.
+Package acronym Info: Label `acro:icesat2' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 167.
+Package acronym Info: Label `acro:swot' newly defined as it shall be overridden
+
+although it is yet undefined on input line 167.
+ [31]
+Package acronym Info: Label `acro:geo' newly defined as it shall be overridden
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:ceos' newly defined as it shall be overridden
+
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:usgs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:noaa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:usaid' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:servir' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 169.
+Package acronym Info: Label `acro:fews' newly defined as it shall be overridden
+
+although it is yet undefined on input line 169.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Package acronym Info: Label `acro:fema' newly defined as it shall be overridden
+
+although it is yet undefined on input line 171.
+Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
+although it is yet undefined on input line 175.
+
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [33]
 Package acronym Info: Label `acro:gisc' newly defined as it shall be overridden
 
-although it is yet undefined on input line 390.
- [34] [35] [36]
-Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 454.
+although it is yet undefined on input line 182.
+<Figures/chap2/GIScience.png, id=133, 932.48375pt x 829.0975pt>
+File: Figures/chap2/GIScience.png Graphic file (type png)
+<use Figures/chap2/GIScience.png>
+Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 186.
+(pdftex.def)             Requested size: 372.9869pt x 331.63313pt.
 
-
-Package acronym Warning: Acronym `lidar' is not defined on input line 454.
-
-
-Package acronym Warning: Acronym `lidar' is not defined on input line 454.
-
-Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
-although it is yet undefined on input line 459.
-[37]
-Package acronym Info: Label `acro:GIS' newly defined as it shall be overridden
-although it is yet undefined on input line 462.
-
-
-Package acronym Warning: Acronym `GIS' is not defined on input line 462.
-
-
-Package acronym Warning: Acronym `GIS' is not defined on input line 462.
-
-Package acronym Info: Label `acro:ppbs' newly defined as it shall be overridden
-
-although it is yet undefined on input line 476.
-Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
-although it is yet undefined on input line 483.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38] [39] [40] [41] [42] [43]
-<Figures/chap2/dresden_projections.png, id=167, 664.4825pt x 484.81125pt>
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./Figures/chap2/GIScience.png>]
+<Figures/chap2/GISMarketplace.png, id=141, 816.04875pt x 714.67pt>
+File: Figures/chap2/GISMarketplace.png Graphic file (type png)
+<use Figures/chap2/GISMarketplace.png>
+Package pdftex.def Info: Figures/chap2/GISMarketplace.png  used on input line 2
+00.
+(pdftex.def)             Requested size: 326.41371pt x 285.86293pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36]
+<Figures/chap2/east2.jpg, id=145, 1084.05pt x 505.89pt>
+File: Figures/chap2/east2.jpg Graphic file (type jpg)
+<use Figures/chap2/east2.jpg>
+Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 211.
+(pdftex.def)             Requested size: 433.61232pt x 202.3524pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 218.
+Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
+
+although it is yet undefined on input line 218.
+Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
+although it is yet undefined on input line 218.
+[37 <./Figures/chap2/GISMarketplace.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./Figures/chap2/east2.jpg>] [39] [40] [41] [42]
+Overfull \hbox (41.17133pt too wide) in paragraph at lines 321--335
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43]
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
+ [44]
+[45]
+Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 399.
+Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
+although it is yet undefined on input line 404.
+ [46]
+Package acronym Info: Label `acro:ppbs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 421.
+Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
+although it is yet undefined on input line 434.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47] [48] [49] [50] [51] [52]
+<Figures/chap2/dresden_projections.png, id=201, 664.4825pt x 484.81125pt>
 File: Figures/chap2/dresden_projections.png Graphic file (type png)
 <use Figures/chap2/dresden_projections.png>
 Package pdftex.def Info: Figures/chap2/dresden_projections.png  used on input l
-ine 598.
+ine 549.
 (pdftex.def)             Requested size: 232.57236pt x 169.68648pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44]
+[53]
 Package acronym Info: Label `acro:lunr' newly defined as it shall be overridden
 
-although it is yet undefined on input line 616.
+although it is yet undefined on input line 567.
 
 Underfull \vbox (badness 1028) has occurred while \output is active []
 
- [45 <./Figures/chap2/dresden_projections.png>]
+ [54 <./Figures/chap2/dresden_projections.png>]
 Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 627.
- [46] [47] [48]
-<Figures/chap2/friedman_timeline.png, id=184, 987.69pt x 554.07pt>
+although it is yet undefined on input line 578.
+ [55] [56] [57]
+<Figures/chap2/friedman_timeline.png, id=219, 987.69pt x 554.07pt>
 File: Figures/chap2/friedman_timeline.png Graphic file (type png)
 <use Figures/chap2/friedman_timeline.png>
 Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
-e 663.
+e 614.
 (pdftex.def)             Requested size: 641.9909pt x 360.14124pt.
- [49 <./Figures/chap2/friedman_timeline.png>]
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 690--691
+ [58 <./Figures/chap2/friedman_timeline.png>]
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 641--642
  []| 
  []
 
 
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 691--692
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 642--643
  []| 
  []
 
-[50
+[59
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-[52] [53] [54] [55]
-<Figures/chap2/gis_equity.png, id=210, 932.48375pt x 756.8275pt>
+ [60]
+[61] [62] [63] [64]
+<Figures/chap2/gis_equity.png, id=243, 932.48375pt x 756.8275pt>
 File: Figures/chap2/gis_equity.png Graphic file (type png)
 <use Figures/chap2/gis_equity.png>
-Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 815.
+Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 766.
 (pdftex.def)             Requested size: 372.9869pt x 302.72563pt.
- [56 <./Figures/chap2/gis_equity.png>] [57]
-<Figures/chap2/sustainable_triangle.png, id=218, 1156.32pt x 578.16pt>
+ [65 <./Figures/chap2/gis_equity.png>] [66]
+<Figures/chap2/sustainable_triangle.png, id=251, 1156.32pt x 578.16pt>
 File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
 <use Figures/chap2/sustainable_triangle.png>
 Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
-line 857.
+line 808.
 (pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
-) [58 <./Figures/chap2/sustainable_triangle.png>] [59]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [67] [68 <./Figures/chap2/sustainable_triangle.png>]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [60
+ (./chap3.tex
+Chapter 3.
+[69
 
 
 
 
 ]
-Chapter 3.
-[61]) [62]
+Overfull \hbox (0.71855pt too wide) in paragraph at lines 26--100
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [70] [71]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+ (./biblio.tex (./main.bbl [72
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 []\T1/cmr/m/n/12 Definition of sus-tain-able | Dic-tio-nary.com.
  []
 
-[63
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
+[]\T1/cmr/m/n/12 Greg Shi-rah.  NASA's Earth Ob-serv-ing Fleet: March 2017.
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
+[]\T1/cmr/m/n/12 NASA Jet Propul-sion Lab-o-ra-tory.  Satel-lite Radar De-
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
+\T1/cmr/m/n/12 tects Dam-age from Sept. 19, 2017 Ra-boso, Mex-ico, Quake.
+ []
 
 
-] [64] [65] [66] [67] [68] [69] [70])) [71] (./main.aux (./cover.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 259--265
+\T1/cmr/m/n/12 response/2017/09/27/satellite-data-of-puerto-rico-identifies-pos
+sible-damage-
+ []
+
+[76] [77] [78] [79] [80] [81] [82])) [83] (./main.aux (./cover.aux)
 (./contents.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux) (./biblio.aux)) )
 (\end occurred when \ifx on line 75 was incomplete) 
 Here is how much of TeX's memory you used:
- 4838 strings out of 481134
- 69822 string characters out of 5913146
- 396074 words of memory out of 5000000
- 21628 multiletter control sequences out of 15000+600000
+ 5009 strings out of 481134
+ 73049 string characters out of 5913146
+ 397844 words of memory out of 5000000
+ 21796 multiletter control sequences out of 15000+600000
  418231 words of font info for 53 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 68i,17n,74p,1544b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,17n,74p,2244b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive202
 0/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/jackreid/.texliv
 e2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/jackreid/.te
-xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/jackreid
-/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/jack
-reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/
-jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </h
+xlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/jackreid
+/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/jack
+reid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/
+jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </h
 ome/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk>
  </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
 0pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx248
@@ -625,10 +735,10 @@ n/ec/tcrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx1728.600pk>
-Output written on main.pdf (71 pages, 1358246 bytes).
+Output written on main.pdf (83 pages, 1690389 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 865 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,18 +10,19 @@
 \contentsline {subsection}{\numberline {2.1.2}Why Sustainable Development?}{21}{}%
 \contentsline {subsubsection}{What is Sustainable Development?}{21}{}%
 \contentsline {subsubsection}{Why is Sustainable Development Important?}{23}{}%
-\contentsline {subsubsection}{What about the Sustainable Development Goals?}{24}{}%
-\contentsline {subsection}{\numberline {2.1.3}Why Earth Observation Imagery}{24}{}%
-\contentsline {subsection}{\numberline {2.1.4}Why GIS and Decision Support?}{27}{}%
-\contentsline {subsection}{\numberline {2.1.5}Why Collaborative and Open Source?}{33}{}%
-\contentsline {subsection}{\numberline {2.1.6}Why Systems Engineering?}{35}{}%
-\contentsline {section}{\numberline {2.2}EVDT Framework}{38}{}%
-\contentsline {section}{\numberline {2.3}Intended Use Cases / Applications}{38}{}%
-\contentsline {section}{\numberline {2.4}Critiques}{39}{}%
-\contentsline {subsection}{\numberline {2.4.1}Technology is Bad}{40}{}%
-\contentsline {subsection}{\numberline {2.4.2}Scenario Planning and Decision-Support is unfounded}{44}{}%
-\contentsline {subsection}{\numberline {2.4.3}Systems Engineering}{46}{}%
-\contentsline {subsection}{\numberline {2.4.4}Technocratic Planning and International Development}{52}{}%
-\contentsline {subsection}{\numberline {2.4.5}Sustainable Development and the SDGs}{56}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{61}{}%
-\contentsline {section}{\numberline {3.1}Mapping and Visualization}{61}{}%
+\contentsline {subsubsection}{What about the Sustainable Development Goals?}{27}{}%
+\contentsline {subsection}{\numberline {2.1.3}Why Remote Observation Data}{29}{}%
+\contentsline {subsection}{\numberline {2.1.4}Why GIS and Decision Support?}{34}{}%
+\contentsline {subsubsection}{Why Collaborative and Open Source?}{36}{}%
+\contentsline {subsubsection}{Why Scenario Planning and Decision Support?}{40}{}%
+\contentsline {subsection}{\numberline {2.1.5}Why Systems Engineering?}{43}{}%
+\contentsline {section}{\numberline {2.2}EVDT Framework}{47}{}%
+\contentsline {section}{\numberline {2.3}Intended Use Cases / Applications}{47}{}%
+\contentsline {section}{\numberline {2.4}Critiques}{48}{}%
+\contentsline {subsection}{\numberline {2.4.1}Technology is Bad}{49}{}%
+\contentsline {subsection}{\numberline {2.4.2}Scenario Planning and Decision-Support is unfounded}{53}{}%
+\contentsline {subsection}{\numberline {2.4.3}Systems Engineering}{55}{}%
+\contentsline {subsection}{\numberline {2.4.4}Technocratic Planning and International Development}{61}{}%
+\contentsline {subsection}{\numberline {2.4.5}Sustainable Development and the SDGs}{65}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{69}{}%
+\contentsline {section}{\numberline {3.1}Mapping and Visualization}{69}{}%

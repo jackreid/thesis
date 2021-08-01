@@ -1,5 +1,12 @@
 \begin{thebibliography}{100}
 
+\bibitem{reidCombiningSocialEnvironmental2019}
+Jack Reid, Cynthia Zeng, and Danielle Wood.
+\newblock Combining {{Social}}, {{Environmental}} and {{Design Models}} to
+  {{Support}} the {{Sustainable Development Goals}}.
+\newblock In {\em {{IEEE Aerospace Conference Proceedings}}}, volume
+  2019-March, {Big Sky, Montana}, March 2019. {IEEE Computer Society}.
+
 \bibitem{ostromGoverningCommonsEvolution2015}
 Elinor Ostrom.
 \newblock {\em Governing the {{Commons}}: {{The Evolution}} of {{Institutions}}
@@ -74,150 +81,23 @@ Johan Rockstr{\"o}m, Will Steffen, Kevin Noone, {\AA}sa Persson, F.~Stuart
 \newblock A safe operating space for humanity.
 \newblock {\em Nature}, 461(7263):472--475, September 2009.
 
+\bibitem{yoheSyntheticAssessmentGlobal2006}
+G.~Yohe, E.~Malone, A.~Brenkert, M.~Schlesinger, H.~Meij, X.~Xing, and D.~Lee.
+\newblock Synthetic {{Assessment}} of {{Global Distribution}} of
+  {{Vulnerability}} to {{Climate Change}}: {{Maps}} and {{Data}}, 2005, 2050,
+  and 2100, 2006.
+
 \bibitem{rockstromSustainableDevelopmentPlanetary2013}
 Johan Rockstr{\"o}m, Jeffrey~D. Sachs, Marcus~C. {\"O}hman, and Guido
   {Schmidt-Traub}.
 \newblock Sustainable {{Development}} and {{Planetary Boundaries}}.
 \newblock Technical report, {Sustainable Development Solutions Network}, 2013.
 
-\bibitem{reidEcosystemsHumanWellbeing2005}
-W.~V. Reid, H.~A. Mooney, A.~Cropper, D.~Capistrano, S.~R. Carpenter,
-  K.~Chopra, P.~Dasgupta, T.~Dietz, A.~K. Duraiappah, R.~Hassan, R.~Kasperson,
-  R.~Leemans, R.~M. May, A.~J. McMichael, P.~Pingali, C.~Samper, R.~Scholes,
-  R.~T. Watson, A.~H. Zakri, Z.~Shidong, N.~J. Ash, E.~Bennett, P.~Kumar, M.~J.
-  Lee, C.~{Raudsepp-Hearne}, H.~Simons, J.~Thonell, and M.~B. Zurek.
-\newblock {\em Ecosystems and Human Well-Being - {{Synthesis}}: {{A Report}} of
-  the {{Millennium Ecosystem Assessment}}}.
-\newblock {Island Press}, 2005.
-
 \bibitem{scottSeeingStateHow2020}
 James~C. Scott.
 \newblock {\em Seeing {{Like}} a {{State}}: {{How Certain Schemes}} to
   {{Improve}} the {{Human Condition Have Failed}}}.
 \newblock {Yale University Press}, March 2020.
-
-\bibitem{unitednationsWhoWillBe2013}
-{United Nations} and {Center for Economic and Social Rights}.
-\newblock Who will be accountable? {{Human}} rights and the post-2015
-  development agenda.
-\newblock Technical Report HR/PUB/13/1, {New York City, NY}, 2013.
-
-\bibitem{healyRepBrownQuits1987}
-Melissa Healy.
-\newblock Rep. {{Brown Quits House Intelligence Panel}}, {{Claims Abuses}} of
-  {{Secrecy}}.
-\newblock {\em Los Angeles Times}, November 1987.
-
-\bibitem{barry1992mappings}
-J~Barry.
-\newblock Mappings\textendash a chronology of remote sensing.
-\newblock {\em Incorporations Zone}, 6:570--1, 1992.
-
-\bibitem{mchaffieManufacturingMetaphors1994}
-Patrick McHaffie.
-\newblock Manufacturing {{Metaphors}}.
-\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 113--129. {The
-  Guilford Press}, {New York}, 1st edition edition, December 1994.
-
-\bibitem{overton1991further}
-M~Overton and PJ~Taylor.
-\newblock Further thoughts on geography and {{GIS}}: {{A}} preemptive strike?
-\newblock {\em Environment and Planning A}, 23:1087--1094, 1991.
-
-\bibitem{taylorGeographicInformationSystems1994}
-Peter Taylor and Ronald Johnston.
-\newblock Geographic {{Information Systems}} and {{Geography}}.
-\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 51--67. {The
-  Guilford Press}, {New York}, 1st edition edition, December 1994.
-
-\bibitem{goodchildGeographicInformationSystems1994}
-Michael Goodchild.
-\newblock Geographic {{Information Systems}} and {{Geographic Research}}.
-\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 31--50. {The
-  Guilford Press}, {New York}, 1st edition edition, December 1994.
-
-\bibitem{tomlinsonPRESIDENTIALADDRESSGEOGRAPHIC1989}
-Roger~F. Tomlinson.
-\newblock {{PRESIDENTIAL ADDRESS}}: {{GEOGRAPHIC INFORMATION SYSTEMS}} and
-  {{GEOGRAPHERS IN THE}} 1990s.
-\newblock {\em The Canadian Geographer / Le G\'eographe canadien},
-  33(4):290--298, 1989.
-
-\bibitem{vereginComputerInnovationAdoption1994}
-Howard Veregin.
-\newblock Computer {{Innovation}} and {{Adoption}} in {{Geography}}.
-\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 88--112. {The
-  Guilford Press}, {New York}, 1st edition edition, December 1994.
-
-\bibitem{goodchildModelingEarth2011}
-Michael Goodchild.
-\newblock Modeling the earth.
-\newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
-  Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
-  83--96. {Routledge}, June 2011.
-
-\bibitem{maguireGeographicalInformationSystems1991}
-David~J. Maguire, Michael~F. Goodchild, and David Rhind.
-\newblock {\em Geographical {{Information Systems}}: {{Principles}}}.
-\newblock {Longman Scientific \& Technical}, 1991.
-
-\bibitem{jankowskiGISGroupDecision2001}
-Piotr Jankowski and Timothy Nyerges.
-\newblock {\em {{GIS}} for {{Group Decision Making}}}.
-\newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
-
-\bibitem{fotheringhamGeographicInformationScience2007}
-A.~Stewart Fotheringham and John~P. Wilson.
-\newblock Geographic {{Information Science}}: {{An Introduction}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  pages 1--7. {John Wiley \& Sons, Ltd}, 2007.
-
-\bibitem{cowenAvailabilityGeographicData2007}
-David~J. Cowen.
-\newblock The {{Availability}} of {{Geographic Data}}: {{The Current
-  Technical}} and {{Institutional Environment}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~1, pages 11--34. {John Wiley \& Sons, Ltd}, 2007.
-
-\bibitem{tomlinGISCartographicModeling2012}
-C.~Dana Tomlin.
-\newblock {\em {{GIS}} and {{Cartographic Modeling}}}.
-\newblock {Esri Press}, {Redlands, Calif}, illustrated edition edition, October
-  2012.
-
-\bibitem{goodspeedScenarioPlanningCities2020}
-Robert Goodspeed.
-\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
-  {{Managing}} and {{Envisioning Uncertain Futures}}}.
-\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
-
-\bibitem{oregonsustainabletransportationinitiativeScenarioPlanningGuidelines2017}
-{Oregon Sustainable Transportation Initiative}.
-\newblock Scenario {{Planning Guidelines}}.
-\newblock Technical report, {Oregon Department of Transportation}, {Salem, OR},
-  August 2017.
-
-\bibitem{klostermanCommunityAnalysisPlanning1990}
-Richard~E. Klosterman.
-\newblock {\em Community {{Analysis}} and {{Planning Techniques}}}.
-\newblock {Rowman \& Littlefield Publishers}, {Savage, Md}, 50185th edition
-  edition, April 1990.
-
-\bibitem{walkerPlannersGuideCommunityViz2017}
-Doug Walker.
-\newblock {\em The {{Planners Guide}} to {{CommunityViz}}: {{The Essential
-  Tool}} for a {{New Generation}} of {{Planning}}}.
-\newblock {Routledge}, November 2017.
-
-\bibitem{goldsmithResponsiveCityEngaging2014}
-Stephen Goldsmith and Susan Crawford.
-\newblock {\em The {{Responsive City}}: {{Engaging Communities Through
-  Data}}-{{Smart Governance}}}.
-\newblock {Jossey-Bass}, {San Francisco, CA}, 1st edition edition, August 2014.
 
 \bibitem{philolAnimalsGeographyCity1995}
 Chris Philol.
@@ -245,19 +125,251 @@ Leila Harris and Helen Hazen.
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   50--67. {Routledge}, June 2011.
 
-\bibitem{gaheganMultivariateGeovisualization2007}
-Mark Gahegan.
-\newblock Multivariate {{Geovisualization}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+\bibitem{grootEcosystemServicesValuation2020}
+R.~de~Groot, L.~Brander, and S.~Solomonides.
+\newblock Ecosystem {{Services Valuation Database}} ({{ESVD}}).
+\newblock Technical report, {Ecosystem Services Partnership}, December 2020.
 
-\bibitem{curryGeographicalInformationSystems1994}
-Michael Curry.
-\newblock Geographical {{Information Systems}} and the {{Inevitability}} of
-  {{Ethical Inconsistency}}.
+\bibitem{reidEcosystemsHumanWellbeing2005}
+W.~V. Reid, H.~A. Mooney, A.~Cropper, D.~Capistrano, S.~R. Carpenter,
+  K.~Chopra, P.~Dasgupta, T.~Dietz, A.~K. Duraiappah, R.~Hassan, R.~Kasperson,
+  R.~Leemans, R.~M. May, A.~J. McMichael, P.~Pingali, C.~Samper, R.~Scholes,
+  R.~T. Watson, A.~H. Zakri, Z.~Shidong, N.~J. Ash, E.~Bennett, P.~Kumar, M.~J.
+  Lee, C.~{Raudsepp-Hearne}, H.~Simons, J.~Thonell, and M.~B. Zurek.
+\newblock {\em Ecosystems and Human Well-Being - {{Synthesis}}: {{A Report}} of
+  the {{Millennium Ecosystem Assessment}}}.
+\newblock {Island Press}, 2005.
+
+\bibitem{inter-agencyandexpertgrouponmdgindicatorsMillenniumDevelopmentGoals2015}
+{Inter-Agency and Expert Group on MDG Indicators}.
+\newblock The {{Millennium Development Goals Report}}.
+\newblock Technical report, {United Nations}, 2015.
+
+\bibitem{unitednationsTransformingOurWorld2015}
+{United Nations}.
+\newblock Transforming {{Our World}}: {{The}} 2030 {{Agenda}} for {{Sustainable
+  Development}}, 2015.
+
+\bibitem{bennichDecipheringScientificLiterature2020}
+Therese Bennich, Nina Weitz, and Henrik Carlsen.
+\newblock Deciphering the scientific literature on {{SDG}} interactions: {{A}}
+  review and reading guide.
+\newblock {\em Science of The Total Environment}, 728:138405, August 2020.
+
+\bibitem{unitednationsgeneralassemblyGlobalIndicatorFramework2017}
+{United Nations General Assembly}.
+\newblock Global indicator framework for the {{Sustainable Development Goals}}
+  and targets of the 2030 {{Agenda}} for {{Sustainable Development}}, 2017.
+
+\bibitem{shirahNASAEarthObserving2017}
+Greg Shirah.
+\newblock {{NASA}}'s {{Earth Observing Fleet}}: {{March}} 2017.
+\newblock https://svs.gsfc.nasa.gov/4558, 2017.
+
+\bibitem{borowitzOpenSpaceGlobal2017}
+Mariel Borowitz.
+\newblock {\em Open Space : The Global Effort for Open Access to Environmental
+  Satellite Data}.
+\newblock {MIT Press}, {Cambridge, MA}, 2017.
+
+\bibitem{healyRepBrownQuits1987}
+Melissa Healy.
+\newblock Rep. {{Brown Quits House Intelligence Panel}}, {{Claims Abuses}} of
+  {{Secrecy}}.
+\newblock {\em Los Angeles Times}, November 1987.
+
+\bibitem{barry1992mappings}
+J~Barry.
+\newblock Mappings\textendash a chronology of remote sensing.
+\newblock {\em Incorporations Zone}, 6:570--1, 1992.
+
+\bibitem{mchaffieManufacturingMetaphors1994}
+Patrick McHaffie.
+\newblock Manufacturing {{Metaphors}}.
 \newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 68--87. {The
+  Implications}} of {{Geographic Information Systems}}}, pages 113--129. {The
   Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{waldropLandsatCommercializationStumbles1987}
+M~M Waldrop.
+\newblock Landsat commercialization stumbles again.
+\newblock {\em Science (New York, N.Y.)}, 235(4785):155, January 1987.
+
+\bibitem{popkinUSGovernmentConsiders2018}
+Gabriel Popkin.
+\newblock {{US}} government considers charging for popular {{Earth}}-observing
+  data.
+\newblock {\em Nature}, 556(7702):417--418, April 2018.
+
+\bibitem{tepperSatelliteMakerPlanet2015}
+Fitz Tepper.
+\newblock Satellite {{Maker Planet Labs Acquires BlackBridge}}'s {{Geospatial
+  Business}}.
+\newblock {\em TechCrunch}, July 2015.
+
+\bibitem{shieberAstroDigitalLaunched2017}
+Jonathan Shieber and Ingrid Lunden.
+\newblock Astro {{Digital}} launched its first imaging satellites.
+\newblock {\em TechCrunch}, July 2017.
+
+\bibitem{schroederNewVIIRS375m2014}
+Wilfrid Schroeder, Patricia Oliva, Louis Giglio, and Ivan~A. Csiszar.
+\newblock The {{New VIIRS}} 375m active fire detection data product:
+  {{Algorithm}} description and initial assessment.
+\newblock {\em Remote Sensing of Environment}, 143:85--96, 2014.
+
+\bibitem{houGlobalPrecipitationMeasurement2014}
+Arthur~Y. Hou, Ramesh~K. Kakar, Steven Neeck, Ardeshir~A. Azarbarzin,
+  Christian~D. Kummerow, Masahiro Kojima, Riko Oki, Kenji Nakamura, and Toshio
+  Iguchi.
+\newblock The global precipitation measurement mission.
+\newblock {\em Bulletin of the American Meteorological Society},
+  95(5):701--722, 2014.
+
+\bibitem{wahrTimevariableGravityGRACE2004}
+John Wahr, Sean Swenson, Victor Zlotnicki, and Isabella Velicogna.
+\newblock Time-variable gravity from {{GRACE}}: {{First}} results.
+\newblock {\em Geophysical Research Letters}, 31(11):20--23, 2004.
+
+\bibitem{mcgillMultipleAltimeterBeam2013}
+Matthew Mcgill, Thorsten Markus, Stanley~S. Scott, and Thomas Neumann.
+\newblock The multiple altimeter beam experimental lidar ({{MABEL}}): {{An}}
+  airborne simulator for the {{ICESat}}-2 mission.
+\newblock {\em Journal of Atmospheric and Oceanic Technology}, 30(2):345--352,
+  2013.
+
+\bibitem{biancamariaSWOTMissionIts2016}
+Sylvain Biancamaria, Dennis~P. Lettenmaier, and Tamlin~M. Pavelsky.
+\newblock The {{SWOT Mission}} and {{Its Capabilities}} for {{Land Hydrology}}.
+\newblock {\em Surveys in Geophysics}, 37(2):307--337, 2016.
+
+\bibitem{irwinSERVIRServicePlanning2017}
+Dan Irwin and Jenny {Frankel-Reed}.
+\newblock {{SERVIR}}'s {{Service Planning Toolkit}}: {{Lessons}} on {{Building
+  Capacity}} along the {{Pathway}} to {{Development Impact}}.
+\newblock In {\em {{AGU Fall Meeting}}}, page~10, December 2017.
+
+\bibitem{nasajetpropulsionlaboratorySatelliteRadarDetects2017}
+{NASA Jet Propulsion Laboratory}.
+\newblock Satellite {{Radar Detects Damage}} from {{Sept}}. 19, 2017
+  {{Raboso}}, {{Mexico}}, {{Quake}}.
+\newblock https://www.jpl.nasa.gov/spaceimages/details.php?id=pia21963, 2017.
+
+\bibitem{nasajetpropulsionlaboratorySatelliteDataPuerto2017}
+{NASA Jet Propulsion Laboratory}.
+\newblock Satellite {{Data}} of {{Puerto Rico Identifies Possible Damage
+  Areas}} \textendash{} {{NASA Disaster Response}}.
+\newblock
+  https://blogs.nasa.gov/disaster-response/2017/09/27/satellite-data-of-puerto-rico-identifies-possible-damage-areas/,
+  2017.
+
+\bibitem{finerCombatingDeforestationSatellite2018}
+Matt Finer, Sidney Novoa, Mikaela~J. Weisse, Rachael Petersen, Joseph Mascaro,
+  Tamia Souto, Forest Stearns, and Ra{\'u}l~Garc{\'i}a Martinez.
+\newblock Combating deforestation: {{From}} satellite to intervention.
+\newblock {\em Science}, 6395(360):1303--1305, 2018.
+
+\bibitem{overton1991further}
+M~Overton and PJ~Taylor.
+\newblock Further thoughts on geography and {{GIS}}: {{A}} preemptive strike?
+\newblock {\em Environment and Planning A}, 23:1087--1094, 1991.
+
+\bibitem{taylorGeographicInformationSystems1994}
+Peter Taylor and Ronald Johnston.
+\newblock Geographic {{Information Systems}} and {{Geography}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 51--67. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{stromingQuantifyingHumanHealth2020}
+Signe Stroming, Molly Robertson, Bethany Mabee, Yusuke Kuwayama, and Blake
+  Schaeffer.
+\newblock Quantifying the {{Human Health Benefits}} of {{Using Satellite
+  Information}} to {{Detect Cyanobacterial Harmful Algal Blooms}} and {{Manage
+  Recreational Advisories}} in {{U}}.{{S}}. {{Lakes}}.
+\newblock {\em GeoHealth}, 4(9):e2020GH000254, 2020.
+
+\bibitem{lagomasinoMeasuringMangroveCarbon2019}
+David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
+  Trettin, Aur{\'e}lie Shapiro, and Mwita~M. Mangora.
+\newblock Measuring mangrove carbon loss and gain in deltas.
+\newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
+
+\bibitem{goodchildGeographicInformationSystems1994}
+Michael Goodchild.
+\newblock Geographic {{Information Systems}} and {{Geographic Research}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 31--50. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{tomlinsonPRESIDENTIALADDRESSGEOGRAPHIC1989}
+Roger~F. Tomlinson.
+\newblock {{PRESIDENTIAL ADDRESS}}: {{GEOGRAPHIC INFORMATION SYSTEMS}} and
+  {{GEOGRAPHERS IN THE}} 1990s.
+\newblock {\em The Canadian Geographer / Le G\'eographe canadien},
+  33(4):290--298, 1989.
+
+\bibitem{vereginComputerInnovationAdoption1994}
+Howard Veregin.
+\newblock Computer {{Innovation}} and {{Adoption}} in {{Geography}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 88--112. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{fotheringhamGeographicInformationScience2007}
+A.~Stewart Fotheringham and John~P. Wilson.
+\newblock Geographic {{Information Science}}: {{An Introduction}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  pages 1--7. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{goodchildModelingEarth2011}
+Michael Goodchild.
+\newblock Modeling the earth.
+\newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
+  Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
+  83--96. {Routledge}, June 2011.
+
+\bibitem{tomlinGISCartographicModeling2012}
+C.~Dana Tomlin.
+\newblock {\em {{GIS}} and {{Cartographic Modeling}}}.
+\newblock {Esri Press}, {Redlands, Calif}, illustrated edition edition, October
+  2012.
+
+\bibitem{maguireGeographicalInformationSystems1991}
+David~J. Maguire, Michael~F. Goodchild, and David Rhind.
+\newblock {\em Geographical {{Information Systems}}: {{Principles}}}.
+\newblock {Longman Scientific \& Technical}, 1991.
+
+\bibitem{goldsmithResponsiveCityEngaging2014}
+Stephen Goldsmith and Susan Crawford.
+\newblock {\em The {{Responsive City}}: {{Engaging Communities Through
+  Data}}-{{Smart Governance}}}.
+\newblock {Jossey-Bass}, {San Francisco, CA}, 1st edition edition, August 2014.
+
+\bibitem{cowenAvailabilityGeographicData2007}
+David~J. Cowen.
+\newblock The {{Availability}} of {{Geographic Data}}: {{The Current
+  Technical}} and {{Institutional Environment}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~1, pages 11--34. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{picklesGroundTruthSocial1994}
+John Pickles, editor.
+\newblock {\em Ground {{Truth}}: {{The Social Implications}} of {{Geographic
+  Information Systems}}}.
+\newblock {The Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{tullochInstitutionalGeographicInformation2007}
+David~L. Tulloch.
+\newblock Institutional {{Geographic Information Systems}} and {{Geographic
+  Information Partnering}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~25, pages 449--465. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{jankowskiGISGroupDecision2001}
+Piotr Jankowski and Timothy Nyerges.
+\newblock {\em {{GIS}} for {{Group Decision Making}}}.
+\newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
 
 \bibitem{benmouffokInformationDecisionMaking1993}
 Dijilali Benmouffok.
@@ -279,23 +391,6 @@ Trevor Harris, Daniel Weiner, Timothy Warner, and Richard Levin.
   Implications}} of {{Geographic Information Systems}}}, pages 196--222. {The
   Guilford Press}, {New York}, 1st edition edition, December 1994.
 
-\bibitem{senFreedomChoiceConcept1988}
-Amartya Sen.
-\newblock Freedom of choice: {{Concept}} and content.
-\newblock {\em European Economic Review}, 32(2):269--294, March 1988.
-
-\bibitem{sheridanMichelFoucaultWill2003}
-Alan Sheridan.
-\newblock {\em Michel {{Foucault}}: {{The Will}} to {{Truth}}}.
-\newblock {Routledge}, September 2003.
-
-\bibitem{tullochInstitutionalGeographicInformation2007}
-David~L. Tulloch.
-\newblock Institutional {{Geographic Information Systems}} and {{Geographic
-  Information Partnering}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~25, pages 449--465. {John Wiley \& Sons, Ltd}, 2007.
-
 \bibitem{weinerParticipatoryGeographicInformation2007}
 Daniel Weiner and Trevor~M. Harris.
 \newblock Participatory {{Geographic Information Systems}}.
@@ -307,6 +402,19 @@ Crystal Bond.
 \newblock The {{Cherokee Nation}} and tribal uses of {{GIS}}.
 \newblock In {\em Community {{Participation}} and {{Geographical Information
   Systems}}}. {CRC Press}, 2002.
+
+\bibitem{curryGeographicalInformationSystems1994}
+Michael Curry.
+\newblock Geographical {{Information Systems}} and the {{Inevitability}} of
+  {{Ethical Inconsistency}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 68--87. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{senFreedomChoiceConcept1988}
+Amartya Sen.
+\newblock Freedom of choice: {{Concept}} and content.
+\newblock {\em European Economic Review}, 32(2):269--294, March 1988.
 
 \bibitem{williamsonTheirworkDevelopmentSustainable2011}
 Dominica Williamson and Emmet Connolly.
@@ -321,6 +429,55 @@ Martin Dodge, Chris Perkins, and Rob Kitchin.
 \newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   220--243. {Routledge}, June 2011.
+
+\bibitem{goodspeedScenarioPlanningCities2020}
+Robert Goodspeed.
+\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
+  {{Managing}} and {{Envisioning Uncertain Futures}}}.
+\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
+
+\bibitem{bradfieldOriginsEvolutionScenario2005}
+Ron Bradfield, George Wright, George Burt, George Cairns, and Kees Van
+  Der~Heijden.
+\newblock The origins and evolution of scenario techniques in long range
+  business planning.
+\newblock {\em Futures}, 37(8):795--812, October 2005.
+
+\bibitem{tessunScenarioAnalysisEarly1997}
+Franz Tessun.
+\newblock Scenario analysis and early warning systems at {{Daimler}}-{{Benz}}
+  aerospace.
+\newblock {\em Competitive Intelligence Review}, 8(4):30--40, 1997.
+
+\bibitem{oregonsustainabletransportationinitiativeScenarioPlanningGuidelines2017}
+{Oregon Sustainable Transportation Initiative}.
+\newblock Scenario {{Planning Guidelines}}.
+\newblock Technical report, {Oregon Department of Transportation}, {Salem, OR},
+  August 2017.
+
+\bibitem{klostermanCommunityAnalysisPlanning1990}
+Richard~E. Klosterman.
+\newblock {\em Community {{Analysis}} and {{Planning Techniques}}}.
+\newblock {Rowman \& Littlefield Publishers}, {Savage, Md}, 50185th edition
+  edition, April 1990.
+
+\bibitem{walkerPlannersGuideCommunityViz2017}
+Doug Walker.
+\newblock {\em The {{Planners Guide}} to {{CommunityViz}}: {{The Essential
+  Tool}} for a {{New Generation}} of {{Planning}}}.
+\newblock {Routledge}, November 2017.
+
+\bibitem{meadowsLimitsGrowth1972}
+Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
+\newblock {\em The {{Limits}} to {{Growth}}}.
+\newblock {Potomac Associates}, {Washington D.C.}, 1972.
+
+\bibitem{deweckInvestigatingRelationshipsSemantic2012}
+Olivier~L. {de Weck}, Adam~Michael Ross, and Donna~H. Rhodes.
+\newblock Investigating {{Relationships}} and {{Semantic Sets}} amongst
+  {{System Lifecycle Properties}} ({{Ilities}}).
+\newblock Working {{Paper}}, {Massachusetts Institute of Technology.
+  Engineering Systems Division}, March 2012.
 
 \bibitem{battyCitiesComplexity2005}
 Michael Batty.
@@ -393,11 +550,11 @@ Harry~P. Hatry.
   {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
   Hills, CA}, first edition, 1972.
 
-\bibitem{picklesGroundTruthSocial1994}
-John Pickles, editor.
-\newblock {\em Ground {{Truth}}: {{The Social Implications}} of {{Geographic
-  Information Systems}}}.
-\newblock {The Guilford Press}, {New York}, 1st edition edition, December 1994.
+\bibitem{gaheganMultivariateGeovisualization2007}
+Mark Gahegan.
+\newblock Multivariate {{Geovisualization}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
 
 \bibitem{penleyTechnoculture1991}
 Constance Penley and Andrew Ross.
