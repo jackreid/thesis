@@ -19,10 +19,11 @@
 \contentsline {section}{\numberline {2.2}EVDT Framework}{47}{}%
 \contentsline {section}{\numberline {2.3}Intended Use Cases / Applications}{47}{}%
 \contentsline {section}{\numberline {2.4}Critiques}{48}{}%
-\contentsline {subsection}{\numberline {2.4.1}Technology is Bad}{49}{}%
-\contentsline {subsection}{\numberline {2.4.2}Scenario Planning and Decision-Support is unfounded}{53}{}%
-\contentsline {subsection}{\numberline {2.4.3}Systems Engineering}{55}{}%
-\contentsline {subsection}{\numberline {2.4.4}Technocratic Planning and International Development}{61}{}%
-\contentsline {subsection}{\numberline {2.4.5}Sustainable Development and the SDGs}{65}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{69}{}%
-\contentsline {section}{\numberline {3.1}Mapping and Visualization}{69}{}%
+\contentsline {subsection}{\numberline {2.4.1}Technology is inherently elitist, colonialist, racist, etc.}{49}{}%
+\contentsline {subsubsection}{GIS and Mapping}{52}{}%
+\contentsline {subsubsection}{Technocratic Planning and International Development}{55}{}%
+\contentsline {subsubsection}{Systems Engineering}{61}{}%
+\contentsline {subsection}{\numberline {2.4.2}Sustainable Development and the SDGs}{67}{}%
+\contentsline {subsection}{\numberline {2.4.3}Scenario Planning and Decision-Support is unfounded}{69}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{71}{}%
+\contentsline {section}{\numberline {3.1}Mapping and Visualization}{71}{}%
