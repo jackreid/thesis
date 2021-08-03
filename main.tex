@@ -40,7 +40,12 @@
 \usepackage{rotating}
 \usepackage{csquotes}
 \usepackage{setspace}
-\usepackage[table]{xcolor}
+%\usepackage[table]{xcolor}
+\usepackage{soul}
+\usepackage{color}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+
+\newcommand{\hlc}[2][yellow]{ {\sethlcolor{#1} \hl{#2}} }
 
 \newenvironment*{singlespcquote}
     {\begin{spacing}{1}\quote}

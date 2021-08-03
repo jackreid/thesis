@@ -1,29 +1,29 @@
-\contentsline {chapter}{\numberline {1}Introduction}{15}{}%
-\contentsline {section}{\numberline {1.1}Research Questions}{15}{}%
-\contentsline {section}{\numberline {1.2}Framing}{16}{}%
-\contentsline {section}{\numberline {1.3}Methodology}{18}{}%
-\contentsline {section}{\numberline {1.4}Space Enabled Principles}{18}{}%
-\contentsline {section}{\numberline {1.5}Structure of Thesis}{18}{}%
-\contentsline {chapter}{\numberline {2}Motivation, Theory, and Frameworks}{19}{}%
-\contentsline {section}{\numberline {2.1}Motivation}{19}{}%
-\contentsline {subsection}{\numberline {2.1.1}Personal Motiviation}{19}{}%
-\contentsline {subsection}{\numberline {2.1.2}Why Sustainable Development?}{21}{}%
-\contentsline {subsubsection}{What is Sustainable Development?}{21}{}%
-\contentsline {subsubsection}{Why is Sustainable Development Important?}{23}{}%
-\contentsline {subsubsection}{What about the Sustainable Development Goals?}{27}{}%
-\contentsline {subsection}{\numberline {2.1.3}Why Remote Observation Data}{29}{}%
-\contentsline {subsection}{\numberline {2.1.4}Why GIS and Decision Support?}{34}{}%
-\contentsline {subsubsection}{Why Collaborative and Open Source?}{36}{}%
-\contentsline {subsubsection}{Why Scenario Planning and Decision Support?}{40}{}%
-\contentsline {subsection}{\numberline {2.1.5}Why Systems Engineering?}{43}{}%
-\contentsline {section}{\numberline {2.2}EVDT Framework}{47}{}%
-\contentsline {section}{\numberline {2.3}Intended Use Cases / Applications}{47}{}%
-\contentsline {section}{\numberline {2.4}Critiques}{48}{}%
-\contentsline {subsection}{\numberline {2.4.1}Technology is inherently elitist, colonialist, racist, etc.}{49}{}%
-\contentsline {subsubsection}{GIS and Mapping}{52}{}%
-\contentsline {subsubsection}{Technocratic Planning and International Development}{55}{}%
-\contentsline {subsubsection}{Systems Engineering}{61}{}%
-\contentsline {subsection}{\numberline {2.4.2}Sustainable Development and the SDGs}{67}{}%
-\contentsline {subsection}{\numberline {2.4.3}Scenario Planning and Decision-Support is unfounded}{69}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{71}{}%
-\contentsline {section}{\numberline {3.1}Mapping and Visualization}{71}{}%
+\contentsline {chapter}{\numberline {1}\hlc [yellow]{Introduction}}{15}{}%
+\contentsline {section}{\numberline {1.1}\hlc [yellow]{Research Questions}}{15}{}%
+\contentsline {section}{\numberline {1.2}\hlc [cyan]{Framing}}{16}{}%
+\contentsline {section}{\numberline {1.3}\hlc [red]{Space Enabled Principles}}{18}{}%
+\contentsline {section}{\numberline {1.4}\hlc [red]{Methodology}}{18}{}%
+\contentsline {section}{\numberline {1.5}\hlc [red]{Structure of Thesis}}{18}{}%
+\contentsline {chapter}{\numberline {2}\hlc [yellow]{Motivation, Theory, and Frameworks}}{19}{}%
+\contentsline {section}{\numberline {2.1}\hlc [red]{Motivation}}{19}{}%
+\contentsline {subsection}{\numberline {2.1.1}\hlc [cyan]{Personal Motiviation}}{19}{}%
+\contentsline {subsection}{\numberline {2.1.2}\hlc [cyan]{Why Sustainable Development?}}{21}{}%
+\contentsline {subsubsection}{\hlc [cyan]{What is Sustainable Development?}}{21}{}%
+\contentsline {subsubsection}{\hlc [cyan]{Why is Sustainable Development Important?}}{23}{}%
+\contentsline {subsubsection}{\hlc [cyan]{What about the Sustainable Development Goals?}}{27}{}%
+\contentsline {subsection}{\numberline {2.1.3}\hlc [cyan]{Why Remote Observation Data}}{29}{}%
+\contentsline {subsection}{\numberline {2.1.4}\hlc [cyan]{Why GIS and Decision Support?}}{34}{}%
+\contentsline {subsubsection}{\hlc [cyan]{Why Collaborative and Open Source?}}{37}{}%
+\contentsline {subsubsection}{\hlc [red]{Why Scenario Planning and Decision Support?}}{41}{}%
+\contentsline {subsection}{\numberline {2.1.5}\hlc [red]{Why Systems Engineering?}}{45}{}%
+\contentsline {section}{\numberline {2.2}\hlc [red]{EVDT Framework}}{48}{}%
+\contentsline {section}{\numberline {2.3}\hlc [red]{Intended Use Cases / Applications}}{50}{}%
+\contentsline {section}{\numberline {2.4}\hlc [yellow]{Critiques}}{52}{}%
+\contentsline {subsection}{\numberline {2.4.1}\hlc [cyan]{Technology is inherently elitist, colonialist, racist, etc.}}{52}{}%
+\contentsline {subsubsection}{\hlc [cyan]{GIS and Mapping}}{55}{}%
+\contentsline {subsubsection}{\hlc [cyan]{Technocratic Planning and International Development}}{59}{}%
+\contentsline {subsubsection}{\hlc [red]{Systems Engineering}}{65}{}%
+\contentsline {subsection}{\numberline {2.4.2}\hlc [red]{Sustainable Development and the SDGs}}{72}{}%
+\contentsline {subsection}{\numberline {2.4.3}\hlc [red]{Scenario Planning and Decision-Support is unfounded}}{74}{}%
+\contentsline {chapter}{\numberline {3}\hlc [red]{Methodology}}{77}{}%
+\contentsline {section}{\numberline {3.1}\hlc [red]{Mapping and Visualization}}{77}{}%

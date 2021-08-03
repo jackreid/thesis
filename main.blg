@@ -10,47 +10,48 @@ A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
 Database file #1: main.bib
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
+Warning--empty publisher in goodchildOverviewDefinitionGIS1992
 Warning--empty journal in hayesRaysHopeTransition1977
 Warning--empty year in simoniteWhatReallyHappened
-You've used 135 entries,
+You've used 167 entries,
             1791 wiz_defined-function locations,
-            1283 strings with 32219 characters,
-and the built_in function-call counts, 31524 in all, are:
-= -- 2893
-> -- 1255
-< -- 36
-+ -- 477
-- -- 342
-* -- 1973
-:= -- 4925
-add.period$ -- 444
-call.type$ -- 135
-change.case$ -- 142
+            1487 strings with 39051 characters,
+and the built_in function-call counts, 39039 in all, are:
+= -- 3630
+> -- 1491
+< -- 38
++ -- 572
+- -- 405
+* -- 2588
+:= -- 6094
+add.period$ -- 542
+call.type$ -- 167
+change.case$ -- 175
 chr.to.int$ -- 0
-cite$ -- 138
-duplicate$ -- 1597
-empty$ -- 3250
-format.name$ -- 342
-if$ -- 7244
+cite$ -- 171
+duplicate$ -- 1903
+empty$ -- 4006
+format.name$ -- 405
+if$ -- 8870
 int.to.chr$ -- 0
-int.to.str$ -- 135
-missing$ -- 149
-newline$ -- 674
-num.names$ -- 202
-pop$ -- 552
+int.to.str$ -- 167
+missing$ -- 180
+newline$ -- 834
+num.names$ -- 236
+pop$ -- 592
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 634
+skip$ -- 753
 stack$ -- 0
-substring$ -- 1584
-swap$ -- 364
-text.length$ -- 36
+substring$ -- 2289
+swap$ -- 409
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 321
-width$ -- 138
-write$ -- 1538
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 415
+width$ -- 170
+write$ -- 1894
+(There were 4 warnings)

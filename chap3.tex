@@ -1,21 +1,35 @@
-\chapter{Methodology} \label{ch:method}
+\chapter{\hlc[red]{Methodology}} \label{ch:method}
 
 
 
-\section{Mapping and Visualization}
+\section{\hlc[red]{Mapping and Visualization}}
 
 
 "A single map is but one of an indefiniteliy large number of maps that might be produced for the same situation or from the same data." \cite{monmonierHowLieMaps1996}
 
-Data maps have a long history. Tufte dates them to the seventeenth century and cites Edmond Halley's 1686 chart of trade winds as "one of the first data maps" \cite{tufteVisualDisplayQuantitative2001} though arguably Polynesian knot maps are a data map that long predates this [CITE].
+Data maps have a long history. Tufte dates them to the seventeenth century and cites Edmond Halley's 1686 chart of trade winds as "one of the first data maps" \cite{tufteVisualDisplayQuantitative2001} though arguably Scheiner's 1626 sunspot visualization qualifies as a data map \cite{friendlyBriefHistoryData2008}, as perhaps do Polynesian knot maps, which long predates either [CITE]. Graphing data over time, meanwhile dates by to the 14th century \cite{friendlyBriefHistoryData2008}.
 
-Choropleths are one of the more common types of non-imagery geospatial data that \ac{evdt} uses. These are maps that express "quantity in area" (i.e. some statistic tied to a particular geographic area with color, texture, or shading). It should be noted that choropleths have a few well-known limitations, including the ecological fallacy and the modifiable areal unit problem \cite{cramptonRethinkingMapsIdentity2011}. It is for these reasons that \ac{evdt} does not rely entirely on choropleths and why we strive to store data with the finest geospatial resolution available.
+Choropleths are one of the more common types of non-imagery geospatial data that \ac{evdt} uses. These are maps that express "quantity in area" (i.e. some statistic tied to a particular geographic area with color, texture, or shading). It should be noted that choropleths have a few well-known limitations, including the ecological fallacy and the modifiable areal unit problem \cite{cramptonRethinkingMapsIdentity2011, sawickiNeighborhoodIndicatorsReview1996}. It is for these reasons that \ac{evdt} does not rely entirely on choropleths and why we strive to store data with the finest geospatial resolution available.
+
+Historically, \ac{gis} implementations have often struggled to handle temporal data \cite{harrisLocationalModelsGeographic1993}.
+
+Historically social indicators tended to be defined for city, province, or national areas, the \acp{mdg} and \acp{sdg} being the preeminent examples of the latter. Advances in \ac{gis}, however did enable the creation of more neighborhood level indicators starting in the late 1990s \cite{sawickiNeighborhoodIndicatorsReview1996}. O
+
+Sawicki and Flynn argue that one must specify the goals before specifying what indicators to use. From their list of possible aims, the following are the most relevant to \ac{evdt} \cite{sawickiNeighborhoodIndicatorsReview1996}:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{Developing dynamic models of neighborhood change}
+	\item{Evaluating the likely impact of existing and/or poposed policies on neighborhoods and/or their residents.}
+	\item{Measuring inequality over space and time both within and between regions.}
+\end{itemize}
+
+
 
 Initial versions of \ac{evdt} and Vida featured quite large graphics. Tufte argues that graphics in general should be significantle shrunk and that "many data graphics can be reduced in area to half their current published size with virtually not loss in legibility and information." \cite{tufteVisualDisplayQuantitative2001} Inaccordance with this Shrink Principle, these graphics were greatly reduced in later versions.
 
 Early verions of \ac{evdt} were structured as entirely object-oriented, and later versions remained primarily object-oriented. This has many advantages but also comes at certain costs, the most important of which include (a) difficulty in recording continuous spatial variables and (b) a requirement to pre-identify the different classes (objects) to sort phenomena and relationships into \cite{goodchildModelingEarth2011}. 
 
-It is recognized that this desktop version comes with numerous downsides. \textit{theirwork}, an early collaborative, open source \ac{gis} platform, specifically "decided at an early stage to make the software Web-based to allow for a process of rapid development and iteration and allow a maximum number of potential participants." \cite{williamsonTheirworkDevelopmentSustainable2011} It should be noted, however, that \textit{theirwork} was a UK-based project (an area with high internet connectivity penetration) and started in the mid 2000's, a period with significantly diversity of internet browsing methods, which simplified the task of ensuring accessibility.
+It is recognized that this desktop version comes with numerous downsides. \textit{theirwork}, an early collaborative, open source \ac{gis} platform, specifically "decided at an early stage to make the software Web-based to allow for a process of rapid development and iteration and allow a maximum number of potential participants." \cite{williamsonTheirworkDevelopmentSustainable2011} It should be noted, however, that \textit{theirwork} was a UK-based project (an area with high internet connectivity penetration) and started in the mid 2000's, a period with significantly diversity of internet browsing methods, which simplified the task of ensuring accessibility. Nonetheless, it is impossible to deny the collaboration and software sustainability benefits of an online platform, particularly in an age when many of the early concerns with the internet (low speeds, lack of knowledge about how to use it, etc.) \cite{shifterInteractiveMultimediaPlanning1995} have been largly alleviated.
 
 the meeting arrangment that EVDT supports, Table \ref{table:meeting_arrangements}
 
@@ -99,3 +113,9 @@ the meeting arrangment that EVDT supports, Table \ref{table:meeting_arrangements
 \end{tabular}
 \end{center}
 \end{table}
+
+Does \ac{evdt} aimed at \textit{backward visualization}, which is aimed at assisting experts and professoinals, or \textit{forward visualization}, which is aimed at a less informed audience \cite{battyVisualizingCityCommunication2000}.
+
+While three dimensional data exists for both the urban environment \cite{battyVisualizingCityCommunication2000} and from remote sensing (reference lidar), \ac{evdt} focuses primarily on two dimensional symbolic visualizations.
+
+\ac{evdt} takes a somewhat Harleian approach to visualization, in which "\textit{presentation} is de-emphasized in favor of \textit{exploration} of data" \cite{cramptonMapsSocialConstructions2001}.

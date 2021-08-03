@@ -4,13 +4,13 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{Motivation, Theory, and Frameworks}
+\chapter{\hlc[yellow]{Motivation, Theory, and Frameworks}}
 
 The question of motivation includes several elements. Why sustainable development? Why remote observation data? Why systems architecture and engineering? Why these particular case studies? Why me? This chapter will address these questions as well as respond to several critiques of the chosen approach.
 
-\section{Motivation}
+\section{\hlc[red]{Motivation}}
 
-\subsection{Personal Motiviation}
+\subsection{\hlc[cyan]{Personal Motiviation}}
 
 My background may make my interest in this work, collaborative modeling for sustainable development, seem a bit odd. Almost all of my prior work was eithre funded by the military or done directly for the military, from improving weapons testing procedures at Sandia National Labs to defense acquisition policy analysis for my masters at MIT to summers spent at the RAND Corporation helping the US military to plan aircraft and air defense acquisitions, to name just a few. My one purely private sector job, as an engineering intern at a fossil fuel refinery on the coast of Texas, was hardly emblematic of a great commitment to sustainability.
 
@@ -24,11 +24,11 @@ Finally, I have the history, both positive and negative, of my MIT predecessors 
 
 The answer to that is multifaceted. For one, I believe that the relevant fields have advanced signficantly and, to some extent at least, have learned from their prior missteps. This is elaborated on in my detail throughout this chapter. Another aspect is that I (and my advisor evidently) believe that my knowledge and systems engineering in general does still have something to offer humanity beyond building rockets. Additionally, I and my peers, with our particular commitment to the principles outlined earlier, may have an important role to play on influencing the aerospace/systems engineering communities, urging them to curb their worst impulses and learn from their own history. Finally, it is because I want to be of service to humanity. As my aerospace education and career progressed, I found myself increasingly faced with only two options: "pure" scientific work or defense work. Reluctant to choose either, I was being quickly sucked into the gravity of the default: the aerospace defense sector. The Space Enabled Research Group, and the work detailed in this thesis in particular, offered me a third option, to apply my skills and interests to directly help humans on Earth. Now all that is left to is to do it.
 
-\subsection{Why Sustainable Development?}
+\subsection{\hlc[cyan]{Why Sustainable Development?}}
 
 Before exploring the various methodologies and theoretical frameworks used in this work, it is worth exploring exactly what it is we are hoping to accomplish and why it is important. We need to talk about sustainable development.
  
-\subsubsection{What is Sustainable Development?} \label{sec:sustain}
+\subsubsection{\hlc[cyan]{What is Sustainable Development?}} \label{sec:sustain}
 
 The term \textit{sustainable development} is simultaneously one that invites immediate, intuitive understanding, and one that reminds frustratingly vague. \textit{Sustainable} here means something somewhat more specific than its general definitions of "able to be maintained or kept going" or "capable of being supported or upheld." Instead, it refers to something more specific, commonly associated with the natural environment: "pertaining to a system that maintains its own viability by using techniques that allow for continual reuse" \cite{DefinitionSustainableDictionary}. As to what "system" we are talking about here, the "development" half of sustainable development, we mean generally, human society and wellbeing. This is of course still much too vague, so let us turn to the first official use of the term, which was in the 1987 report by the \ac{un} World Commission on Environment and Development, commonly known as the Brundtland Report, after the name of the chair of the commission. This report defined sustainable development as "the development that meets the needs of the present without compromising the ability of future generations to meet their own needs" \cite{worldcommissiononenvironmentanddevelopmentOurCommonFuture}. We have now helpfully clarified the time scale under which this system needs to "maintain its own viability" but still have done little to clarify what aspects of human society are included within "development." 
 
@@ -43,7 +43,7 @@ We now have three linked components along with a set of potential actions for im
 
 Questions remain, however. Wwhy all this effort? And what are these SDGs?
 
-\subsubsection{Why is Sustainable Development Important?}
+\subsubsection{\hlc[cyan]{Why is Sustainable Development Important?}}
 
 As former \ac{un} Secretary-General Ban Ki-moon put it:"Sustainable development is the central challenge of our times" \cite{sachsAgeSustainableDevelopment2015}. Despite significant progress in certain domains and certain regions, many individuals and communities are still suffering from severe privations of food, water, healthcare, and more. This is no mere issue of production, but is also connected with issues of allocation (economic inequality is swiftly rising in many parts of the world, including in the author's own country), political mismanagement and oppression, and environmental changes. This work will not detail these numerous concerns (instead I recommend Jeffrey Sach's \textit{The Age of Sustainable Development} for an accessible survey), but it is worth point out that the last of these issues, that of environmental changes, is particularly important as it shapes how we can seek to rectify the others. Historical means of economic development (particularly the extensive use of fossil fuels) is no longer seen as sustainable, due to humanity butting up against and even exceeding certain planetary boundaries or capacity limits, as seen in Figure \ref{fig:boundaries}, particularly those of climate change, biodiversity loss, ocean acidification, and the nitrogen cycle.
 
@@ -109,7 +109,7 @@ Fortunately, economists and earth scientists in recent decades have embarked on 
 	\label{fig:services_wellbeing}
 \end{figure}
 
-\subsubsection{What about the Sustainable Development Goals?}
+\subsubsection{\hlc[cyan]{What about the Sustainable Development Goals?}}
 
 At the end of Section \ref{sec:sustain}, I quoted a passage that referred to the \acp{sdg}, though I did not explain what these were. Now I shall address that deficiency, as the acp{sdg} are a key part of how sustainable development is currently thought about around the world, to the extent that Sachs wrote that, "Our new era will son be described by new global goals, the SDGs" \cite{sachsAgeSustainableDevelopment2015}. In order to understand the \acp{sdg}, however, we must first go back fifteen years prior to their creation, when the nations of the world sought to proactively face the new millenium. In 2000, the \ac{un} established eight \acp{mdg} that the nations of the world pledged to pursue for the next fifteen years. These were [emphasis added]:
 
@@ -145,7 +145,7 @@ Despite their short, clear formulations, actually achieving many of the \acp{sdg
 It is at this need that the research question of this thesis is addressed.
 
 
-\subsection{Why Remote Observation Data} \label{sec:remote}
+\subsection{\hlc[cyan]{Why Remote Observation Data}} \label{sec:remote}
 
 
 While many of the initial efforts at remote observation from air and space were done with military objectives in mind, scientific, commercial, and social applications soon became abundant. Since much of space-based remote observation in the past several decades has been primarily driven by large governmental scientific organizations, much of that data has been made publicly accessible. An enormous amount of \ac{eo} satellite data is freely available to the public through 20+ \ac{nasa} earth science satellites \cite{shirahNASAEarthObserving2017}, the \ac{esa} Copernicus Programme (which includes both the 6 Sentinel satellites and in-situ measurements), the various satellites managed by the \ac{jaxa} \ac{eoc}, the \ac{cbers}, and the satellites of other space agencies. While this data is largely free currently, this has not consistently been true, nor is it guaranteed to continue in the future \cite{borowitzOpenSpaceGlobal2017}. For most of the early history of satellite observation, imagery was kept highly classified and zealously guarded, to the extent that Congressman George Brown Jr., who was integral in the establishment of the US \ac{ostp}, the \ac{epa}, and the \ac{ota}, resigned from his post on the House Intelligence Panel in protest over the enforced secrecy in even discussing the topic \cite{healyRepBrownQuits1987, barry1992mappings}. Even when the data was available to the public, it was not always freely available, as various countries have made attempts to monitize remote observation data. In the 1970s and early 1980s, for instance, Landsat data was a government-managed operation that provided products at a low-cost, based primarily on the cost of reproduction. In the 1980s, however, the program was transfered to a private entity and prices were increased by more than an order of magnitude and significant copyright restrictions were put in place \cite{mchaffieManufacturingMetaphors1994}. Currently the data is once again made free after the monitization efforts met with limited success \cite{waldropLandsatCommercializationStumbles1987}, but this may not remain the case moving forward \cite{popkinUSGovernmentConsiders2018}.
@@ -177,9 +177,11 @@ Increasingly, sustainable development applications of remote observation data ar
 More is needed to enable the use of \ac{eo} data for human decision-making in such a way that acknowledges the linkages between the environment and humans. This is major aim of this work. 
 
 
-\subsection{Why GIS and Decision Support?} \label{sec:gis}
+\subsection{\hlc[cyan]{Why GIS and Decision Support?}} \label{sec:gis}
 
-The term \ac{gis} refers to any digital system for storing, visualizing, and analyzing geospatial data, that is data that has some geographic component. It thus refers to the underlying computer systems enabling the middle three components of the broader \ac{gisc} methodology, as shown in Figure \ref{fig:giscience}. In that sense, the work related in this thesis can be seen as an exercise in \ac{gisc} spanning all five components, while the specific software produced for this work are instances of \ac{gis}. It should be noted that this distinction is not commonly made, with \ac{gis} commonly being used generically to encompass both \ac{gisc} and \ac{gis}. The term and the field originated in the 1960s and 70s with experimental efforts of the Canda Geographic Information System and the US Bureau of the Census to digitize their demographic and land cover data \cite{goodchildGeographicInformationSystems1994}. The key value of \ac{gis} is that it "allows geographers to integrate diverse types of data over different spatial scales from the regional to the global, while the advanced capabilities of GIS for organizing and displaying these data transform the geographer's view of the world" (\cite{tomlinsonPRESIDENTIALADDRESSGEOGRAPHIC1989} as paraphrased in \cite{vereginComputerInnovationAdoption1994}).
+The term \ac{gis} refers to any digital system for storing, visualizing, and analyzing geospatial data, that is data that has some geographic component. It can be used to discuss specific systems, a method that uses such systems, or a field of studying focusing on or involving such systems. This may seem vague, but due to the diversity of its use, it is difficulty to hammer out a more specific definition without excluding important aspects \cite{goodchildOverviewDefinitionGIS1992, picklesToolScienceGIS1997, chrismanWhatDoesGIS1999}. One perspective, however, is to view \ac{gis} to the underlying computer systems enabling the middle three components of the broader \ac{gisc} methodology, as shown in Figure \ref{fig:boundaries}. In that sense, the work related in this thesis can be seen as an exercise in \ac{gisc} spanning all five components, while the specific software produced for this work are instances of \ac{gis}. It should be noted that this distinction is not commonly made, with \ac{gis} commonly being used generically to encompass both \ac{gisc} and \ac{gis}. Along these lines, there being some debate about whether \ac{gis} is best viewed as a scientific field in its own right, or as a mere tool for use in various other fields of science (such as environmental science, economics, etc.) \cite{goodchildGeographicalInformationScience1992}. I will not delve into this debate, as this work is more interested in the uses of \ac{gis} than in its development for its own sake.
+
+The term and the field originated in the 1960s and 70s with experimental efforts of the Canda Geographic Information System and the US Bureau of the Census to digitize their demographic and land cover data \cite{goodchildGeographicInformationSystems1994}. It should be noted that these early instances were primarily application, rather than technology driven \cite{goodchildGeographicalInformationScience1992}. The key value of \ac{gis} is that it "allows geographers to integrate diverse types of data over different spatial scales from the regional to the global, while the advanced capabilities of GIS for organizing and displaying these data transform the geographer's view of the world" (\cite{tomlinsonPRESIDENTIALADDRESSGEOGRAPHIC1989} as paraphrased in \cite{vereginComputerInnovationAdoption1994}).
 
 \begin{figure}[h]
 	\centering
@@ -191,7 +193,7 @@ The term \ac{gis} refers to any digital system for storing, visualizing, and ana
 
 Even with the relatively limited computing capabilities of the era, interest in \ac{gis} grew quickly with local governments quickly adopting it for planning purposes, as was mentioned in Section \ref{sec:remote}. One key moment in the development of \ac{gis} as we know it, was ESRI's creation of the shapefile format (which links geometries with data in a standardized, if somewhat limited, fashion) in the late 1980s, and, more importantly, their open publishing of the format, allowing others to create and manipulate such files \cite{goodchildModelingEarth2011}. In 1990, Tomlin defined the sub-discipline of \ac{gis} known as cartographic modeling, which attemps to generalize and standardize the analytic and synthetic capabilities of geopgrahical information systems. It does so by decomposing data, data-processing tasks, and data-processing control notation into elementary components that can be recomposed with relative ease and great flexibility" \cite{tomlinGISCartographicModeling2012}. This theory would come to underly much of research and development work done with \ac{gis}. including that of this thesis. 
 
-By 1991, Maguire et al. felt that "it is not fanciful to suggest that by the end of the century GIS will be used every day by everyone in the developed world for routine operations" \cite{maguireGeographicalInformationSystems1991}. This, of course, would turn out to be an understatement, as the world is currently incredibly dependent on \ac{gis}. Individuals rely upon the various map applications that we use to search and navigate our world. Governments use maps to visualize their jurisdictions and motivate action, as Chicago has done by visualizing food deserts and mapping where new supermarkets are both needed and economically viable \cite{goldsmithResponsiveCityEngaging2014}.
+By 1991, Maguire et al. felt that "it is not fanciful to suggest that by the end of the century GIS will be used every day by everyone in the developed world for routine operations" \cite{maguireGeographicalInformationSystems1991}. This, of course, would turn out to be an understatement, as the world is currently incredibly dependent on \ac{gis}. Individuals rely upon the various map applications that we use to search and navigate our world. Governments use maps to visualize their jurisdictions and motivate action, as Chicago has done by visualizing food deserts and mapping where new supermarkets are both needed and economically viable \cite{goldsmithResponsiveCityEngaging2014}. Since the turn of the millenium, spatial data has become deeply ingrained economics, urban studies, private industry, social networks, environmental science, public health, criminal justice, and more \cite{goodchildSpatiallyIntegratedSocial2000}.
 
 There is now a well established marketplace for geographic data (as shown in \ref{fig:marketplace}) and thus for \acp{gis} to handle that data. It should be noted that the institution that I am associated with, a university, is classified here as a "value-added intermediary" which serves an important connective role between suppliers, infrastructure, and users. This positioning is crucial to the nature of this work, as will be discussed further in Chapter \ref{ch:method}. For now it is enough to understand that, whether one is interested in remote observation data or local economics, the question is not whether one should use \ac{gis}, but how. To this end, the next two sections will go into more detail about two different veins of \ac{gis}: collaborative systems and decision support systems.
 
@@ -202,7 +204,7 @@ There is now a well established marketplace for geographic data (as shown in \re
 	\label{fig:marketplace}
 \end{figure}
 
-\subsubsection{Why Collaborative and Open Source?} \label{sec:collaborative}
+\subsubsection{\hlc[cyan]{Why Collaborative and Open Source?}} \label{sec:collaborative}
 
 As was mentioned in Section \ref{sec:remote}, many of the early applications of remote observation data was technology, rather than need, driven. So it was with the closely related field of \ac{gis} as well, leading to powerful critiques by Pickles and others \cite{picklesGroundTruthSocial1994}. These critiques resulted in a reconsideration of the top-down nature of the field and the identification of several potent reasons for broadening the base of participation. First, there was the recognition that the developer of a \ac{gis} is not the supreme authority on all fields. "It is the geomorphologist who is best able to choose the data model for representation of terrain in a GIS, not the computer scientist or the statistician, and it is the urban geographer who is best able to advice on how to represent the many facets of the urban environment in a GIS designed for urban planning" \cite{goodchildGeographicInformationSystems1994}. This means that, while collaborations certainly can introduce additional difficulties, such as cultural conflicts, issues of interpersonal trust, effort required to establish rules and norms of participation, they are also immensely rewarding and can improve the results of the work \cite{tullochInstitutionalGeographicInformation2007}. The dynamics at play in such collaborations can be seen in Figure \ref{fig:east2}. This is certainly a more complicated situation than the traditional, straightforward, academic implementation of a \ac{gis} project.
 
@@ -215,7 +217,9 @@ As was mentioned in Section \ref{sec:remote}, many of the early applications of 
 
 Second, there was a recognition of the equity concerns at play. Users and disadvantaged communities needed to be involved in the development of \ac{gis} data, analysis, and use, if they were going to have a meaningful chance of improving their circumstances. The Canadian International Development Research Centre noted that, "It is impossible to have sustainable and equitable development without free access to reliable and accurate information" \cite{benmouffokInformationDecisionMaking1993}. Meanwhile, academic geographer Matthew Edney argued that, "Without equitable access to GIS data and technology, small users, local governments, nonprofit community agencies, and nonmainsream groups are significantly disadvantaged in their capacity to engage in the decision-making process" (\cite{edney1991strategies} as paraphrased in \cite{harrisPursuingSocialGoals1994}). 
 
-There was thus reason to seek ways to overcoming the limitations of the technology which, as was common sentiment at the time, meant that "for billions the possibility of accessing the best technology and information made available through digital communications network will always be a luxury. Cartographic information, digital or otherwise, becomes a commodity in its mass production and marketing" \cite{mchaffieManufacturingMetaphors1994}. This desire motivated the growth the \ac{ppgis} field, which sought to directly involve the public, and broader field of \ac{pgis}, which also included other stakeholders, including government officials, \acp{ngo}, private corporations, etc. It should be noted that these fields seek involvement in both the production of data and in its application, not merely one or the other \cite{weinerParticipatoryGeographicInformation2007}. For example, in Washington state in 2002, several American Indian tribes were using \ac{gis} technology to "inventory, analyze, map, and make descisions regarding tribal resources... includ[ing] timber production, grazing and farm land, water rights, wildlife, native plants, cultural sites, environmental data and hazardous site monitoring, historical preservation, health and human resources" \cite{bondCherokeeNationTribal2002}. This dual involvement promotes, as Michael Curry put it, both "knowing \textit{how}" (the "ability to do something") and "knowing \textit{that}" (the "knowledge about how something works") \cite{curryGeographicalInformationSystems1994}. Having only the former forces the user to rely upon blind trust, instilling a sense of complacency or alieanation and preventing creativity. Knowing only the latter, enables discourse about a topic but prevents the user from actually implementing new ideas. It is only with both together that a person becomes a true participant in a field and make their own choices. This is important as expansion of choice is valuable for both intrinsic (for its own sake) and instrumental (to attain preferred positions) reasons \cite{senFreedomChoiceConcept1988}.
+There was thus reason to seek ways to overcoming the limitations of the technology which, as was common sentiment at the time, meant that "for billions the possibility of accessing the best technology and information made available through digital communications network will always be a luxury. Cartographic information, digital or otherwise, becomes a commodity in its mass production and marketing" \cite{mchaffieManufacturingMetaphors1994}. This desire motivated the growth the \ac{ppgis} field, which sought to directly involve the public, and broader field of \ac{pgis}, which also included other stakeholders, including government officials, \acp{ngo}, private corporations, etc. It should be noted that these fields seek involvement in both the production of data and in its application, not merely one or the other \cite{weinerParticipatoryGeographicInformation2007}. For example, in Washington state in 2002, several American Indian tribes were using \ac{gis} technology to "inventory, analyze, map, and make descisions regarding tribal resources... includ[ing] timber production, grazing and farm land, water rights, wildlife, native plants, cultural sites, environmental data and hazardous site monitoring, historical preservation, health and human resources" \cite{bondCherokeeNationTribal2002}. And in 1999, the 'What If?' \ac{pss} was created to use "GIS data sets that commnities have already developed to support community-based efforts to evaluate the likely implications of alternative public-policy choices" \cite{klostermanWhatIfCollaborative1999}. 
+
+This dual involvement promotes, as Michael Curry put it, both "knowing \textit{how}" (the "ability to do something") and "knowing \textit{that}" (the "knowledge about how something works") \cite{curryGeographicalInformationSystems1994}. Having only the former forces the user to rely upon blind trust, instilling a sense of complacency or alieanation and preventing creativity. Knowing only the latter, enables discourse about a topic but prevents the user from actually implementing new ideas. It is only with both together that a person becomes a true participant in a field and make their own choices. This is important as expansion of choice is valuable for both intrinsic (for its own sake) and instrumental (to attain preferred positions) reasons \cite{senFreedomChoiceConcept1988}.
 
 \ac{pgis} has thus naturally been widely adopted over the past three decades. A relatively early project in this vein, for example, sought to try and overcome issues of inequal access and use of \ac{gis} technology in South Africa in the early 1990s through the pursuit of five specific objectives \cite{harrisPursuingSocialGoals1994}: 
 
@@ -236,12 +240,32 @@ Many \ac{pgis} implementations still relied upon closed source, proprietary code
 This passionate call for open source software is about more than a philosophical ethical stance. It is also about enabling critique and improvements. "Map studies needs to open the `black boxes' of mapping software, to start to interrogate algorithms and databases, and in particular to investigate the production of ready-made maps that appear almost magically on the interfaces of gadgets and devices we carry and use everyday, often without much overt thought about how they work and whose map they project onto their interface" \cite{dodgeMappingModesMethods2011}.
 
 
+\subsubsection{\hlc[red]{Why Scenario Planning and Decision Support?}}
+
+
+Planning can be defined as "the premeditation of action, in contrast to management [which is] the direct control of action" \cite{harrisLocationalModelsGeographic1993}. In general, planning tends to concern itself with more long-term affairs that management does, during which it strives for the "avoidance of unintended consequences while pursuing intended goals." Models, and their specific implementations as decision/planning support tools, are one means of achieving this.
+
+As late as 1990, many researchers were arguing that \ac{gis} was not mature enough to serve as the basis for a \ac{dss} \cite{jankowskiIntegratingGeographicalInformation1995}.
+
+
+Harris and Batty defined two principle requirements of planning support systems \cite{harrisLocationalModelsGeographic1993}:
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+	\item{The search for good plans take place through informed trial and error, since system optimization is impossible.}
+	\item{The tool must be able to trace out the consequences of alternatives, as this is the primary means of comparing alternatives.}
+\end{enumerate}
+
+They also define some other relevant requirements to this work \cite{harrisLocationalModelsGeographic1993}:
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{The tool should be available to public use, including methods and data.}
+	\item{The tool should acommmodate research and adaptation.}
+	\item{The tool should be self-teaching, within reason.}
+	\item{The tool should be adaptable, including to a wide variety of situations, levels of information, etc.}
+	\item{The tool should be built on models and methods that are understandable to the user.}
+\end{itemize}
 
 
 
 
-
-\subsubsection{Why Scenario Planning and Decision Support?}
 
 Levels of decision support \cite{jankowskiGISGroupDecision2001}:
 
@@ -336,7 +360,7 @@ Jankowski and Nyerges lay out seven common design requirements for spatial decis
 \end{table}
 
 
-\subsection{Why Systems Engineering?} \label{sec:se}
+\subsection{\hlc[red]{Why Systems Engineering?}} \label{sec:se}
 
 Refer to Crawley, deWeck, de Neufville, Rhodes, my earlier papers, etc.
 
@@ -385,7 +409,7 @@ In order for cost-benefit analysis to maximize economic welfare, the following c
 
 More details modeling, as well as breaking down specific costs and benefits (as opposed to converting them to monetary terms and summing them) and attributing them to specific goals, can circumvent these constraints, though at the cost of increased complexity \cite{hillGoalsAchievementMatrixEvaluating1972}.
 
-This work does not directly incorporate mechanisms for multi-stakeholder negotiation or tradespace exploration, but it is amenable to extension with such mechanisms (refer to SEAri research)
+This work does not directly incorporate mechanisms for multi-stakeholder negotiation or tradespace exploration, but it is amenable to extension with such mechanisms (refer to SEAri research). The importance of multicriterion choice has been evident in planning applications since the early days of \ac{gis}, and Jankowski porposed a framework for accomplishing this \cite{jankowskiIntegratingGeographicalInformation1995}. Many of the early attempts in this direction focused on the use of linear weighted combinations of the criteria to form a single utility function \cite{malczewskiGISbasedApproachMultiple1996}.	
 
 The Law of requisite variety from the field of cybernetics says that the variety (the number of elements or states) of the control device must be at least equal to that of the disturbances \cite{ashbyRequisiteVarietyIts1991}. Any development plan is going to fall far short of the variety expressed by human society and the natural environment. Planning efforts must then make reliance on the natural homeostasis behavior of such systems and of more flexible, ad hoc measures not specified in the plan in order to make up the difference in variety. \cite{mcloughlinSystemGuidanceControl1972}
 
@@ -416,18 +440,66 @@ In the mid 90s, \ac{gis} had several limitations \cite{goodchildGeographicInform
 	\item{Dominated by the map metaphor}
 \end{itemize}
 
-\section{EVDT Framework}
+Yamu et al. argue that urban modeling should treat the urban form as a \ac{cas} and use fractal metrics to develop scenarios for planning purposes \cite{yamuAssumingItAll2016}.
+
+
+\section{\hlc[red]{EVDT Framework}}
+
+
+We are far from the first to argue that such integration is necessary, nor to recognize that it is easier said than done \cite{shahumyanIntegrationLandUse2017}.
+
+There have been many land use and transportation models. The open source UrbanSim, for example, combines land use, transportation, and certain environmental factors in a dynamic, area-based simulation system that, similar to \ac{evdt}, is a collection multiple models \cite{waddellUrbanSimModelingUrban2002}.
+
+The agent-based \ac{ilute} model simulated the urban spatial form, demographics, travel behavior, and environmental impacts for the Toronto area \cite{millerHistoricalValidationIntegrated2011}.
+
+For the past couple of decades, there has been a recognition that \acp{dss} and \acp{pss} must include more than purely spatial analysis components \cite{geertmanPlanningSupportSystems2004}.
+
+The closest attempt to what we are proposing is probably that of Shahumyan and Moeckel, though their approach focused on linking together existing models in a loose manner using ArcGIS Model Builder, to avoid having to gain access to proprietary source code. While their example focused on combinging transportation, land use, mobile emissions, building emissions, and land cover, with only limited feedbacks, their approach could be extended to capture the full feedback loops proposed by \ac{evdt}. Their example is also proof that the kind of loose integration of library of models that \ac{evdt} envisions is possible \cite{shahumyanIntegrationLandUse2017}. 
+
+Lauf et al. combined cellular automata with systems dynamics to capture both spatial dynamics and macroscale demand-supply dynamics in order to simulate residential development \cite{laufUncoveringLanduseDynamics2012}
+
+Miller argues that, despite the historical dificulties that integrated urban models have had, there is reason to be optimistic about the state of the art moving forward, particularly for integrating transportation and land-use models in particular \cite{millerIntegratedUrbanModeling2018}. <---important to discuss at more length
 
 Is not itself a means of planning and implementing projects. It is not a full life-cycle tool such as \ac{ppbs} \cite{hatryCriteriaEvaluationPlanning1972}
+
+Clifton et al. breaks down the various ways of modeling the urban form into five categories (though they do not assert that these are comprehensive or mutually exclusive), as seen in Table \ref{table:urban_form} \cite{cliftonQuantitativeAnalysisUrban2008}. While \ac{evdt} does not focus specifically on urban form, it is interested in these types of models, with the case studies presented in this work focusing on landscape ecology and community design in particular. One downside of examinations of urban form is that they tend to focus on areas and residences, while various forms of social exclusion are better measured by focusing on individuals instead \cite{scottRoleUrbanForm2008}.
+
+\begin{table}[h]
+%\begin{center}
+\caption[Five categories of urban form models]{Five categories of urban form models. Adapted from \cite{cliftonQuantitativeAnalysisUrban2008}}
+\label{table:urban_form}
+\makebox[\linewidth]{
+\begin{tabular}{ L{3cm} L{3cm}  L{3cm} L{3cm} L{3cm} L{3cm}} \hline
+Perspective & Principal concern & Disciplinary Orientation & Scale & Nature of Data & Common Metrics  \\ \hline
+
+Landscape ecology & Environmental protection & Natural scientists & Regional & Land cover & Land cover change; Contagion \\ 
+
+Economic structure & Economic efficiency & Economists & Metropolitan & Employment and population & Density gradient; Land value  \\
+
+Transportation planning & Accessibility & Transportation planners & Submetropolitan & Employment, population and transportation network & Expected travel time; capacity  \\
+
+Community design & Social welfare & Land-use planners & Neighborhood & Local \ac{gis} data & Proximity to needs; Zoning; Accessibility \\
+
+Urban design & Aesthetics and walkability & Urban designers & Block face & Images, surveys, and audits & Lot size; Accessibility \\ \hline
+
+\end{tabular}
+}
+%\end{center}
+\end{table}
+
+
+
+
 
 
 The motivation for combining so many variables from different disciplines stems from both push and pull factors. The push factors are the simple increase in availability of data, as has already been described, along with the increase in the interoperability of the variables (which the work described in this thesis is trying to help contribute to). The primary pull factor is our increased understanding of - and appreciation for - the complex relationships between these domains, relationships that were previously ignored in analyses \cite{gaheganMultivariateGeovisualization2007}. 
 
-\section{Intended Use Cases / Applications}
+\section{\hlc[red]{Intended Use Cases / Applications}}
 
 While \ac{evdt} does not include any concrete spatial scale requirements, it is often the most straightforward to apply to it at a a relatively local scale, like much of the early history of \ac{gis} applications \cite{tullochInstitutionalGeographicInformation2007}. Most of the applications to date have been at the area of a metropolitan area or that of a small province.
 
 
+Tends to be at intersections of rural and urban areas. Urban areas often depend on an area significantly larger than the built-up area for basic resources and ecosystem services, particularly for water, bulky materials, and waste disposal. I will not attempt to strictly define rural and urban here, as the "distinctions are often arbitrary" \cite{tacoliRuralurbanInteractionsGuide1998}. Instead this work will rely upon local definitions of urban, rural, and peri-urban, similarly to the \ac{un} \cite{sachsAgeSustainableDevelopment2015}. 
 
 
 
@@ -465,7 +537,7 @@ Harris et al. have pointed out that reliance on mapping products to designate ce
 	\item{consolidating an overly-fixed and static approach to sonservation, rather than enabling approaches that may be more seasonal, fluid, or appropriate for shifting and evolving ecological conditions and needs.}
 \end{itemize}
 
-\section{Critiques}
+\section{\hlc[yellow]{Critiques}}
 
 \begin{itemize} \setlength{\itemsep}{0pt} \setlength{\parskip}{0pt} 
 	\item{Technology itself is at best a major contributor, if not the source of most of the problems you seek to address. It is inherently elitist, colonialist, racist, and/or authoritarian. If you truly want to save the Earth and stop oppression, you should abandon technology rather than doubling down on it.}	
@@ -476,11 +548,11 @@ Harris et al. have pointed out that reliance on mapping products to designate ce
 \end{itemize}
 
 
-\subsection{Technology is inherently elitist, colonialist, racist, etc.}
+\subsection{\hlc[cyan]{Technology is inherently elitist, colonialist, racist, etc.}}
 
 It may not be clear why I am including this section. After all, most readers and certainly the evaluators of this thesis are certainly not of this opinion, or else they would not be working at the forefront of their respective fields, all of which heavily involve the use of technology. Nonetheless, I am reluctant to discard this argument out of hand, particularly when technology has been so integrally involved with so many of the evils of the past several centuries.
 
-While the opinion of society about technology has gone through cycles of optimism and pessism since the start of the Industrial Revolution, prior to the second half of the 20th century, it was common for the scientists and engineers who were most directly involved with the development of technology to consider it either as neutral tools, extensions of human will, or as deterministic mechanisms of progress towards a better future. Questions of morality are either shifted to the human users (and thus outside the jurisdiction of the designers) or resolved entirely. For example, John Maynard Keynes, one of the more influential thinkers of the early 20th century, explicity linked technology to progress, as part of his sketching a utopian future: "This slow [historical] rate of progress, or lack of progress, was due to two reasons - to the remarkable absence of important technical improvements and to the failure of capital to accumulate" \cite{keynesEconomicPossibilitiesOur2010}.
+While the opinion of society about technology has gone through cycles of optimism and pessism since the start of the Industrial Revolution and critiques of technological progress date back to at least Rousseau, the idea that technological, economic, and moral progress are both inevitable and inextricably linked has remained persistant, particularly among the scientists and engineers who were most directly involved with the development of technology\cite{mazlish1963}. They tend to consider it either as neutral tools, extensions of human will, or as deterministic mechanisms of progress towards a better future. Questions of morality are either shifted to the human users (and thus outside the jurisdiction of the designers) or resolved entirely. For example, John Maynard Keynes, one of the more influential thinkers of the early 20th century, explicity linked technology to progress, as part of his sketching a utopian future: "This slow [historical] rate of progress, or lack of progress, was due to two reasons - to the remarkable absence of important technical improvements and to the failure of capital to accumulate" \cite{keynesEconomicPossibilitiesOur2010}.
 
 
 It was only in the late 1980s did scholars of geography, informed primarily by Michel Foucault and Karl Marx, start challenging the idea that "cartography produces maps of truth in an objective, neutral, scientific fashion." \cite{kitchinThinkingMaps2011}. John Pickles was one of the more articulate purveyors of such an argument \cite{picklesGroundTruthSocial1994}:
@@ -499,9 +571,15 @@ The ideas of Mumford and Winner have become commonplace. Even self-admitted tech
 
 The question then is, which category do the technologies used in this fall into? That is what the following sections will address.
 
-\subsubsection{GIS and Mapping}
+\subsubsection{\hlc[cyan]{GIS and Mapping}}
 
-It is undeniable that the history of mapping and thus of \ac{gis} is one of centralization and authoritarianism. National mapping in the US originated in motives that were explicity of means for resource exploitation and control \cite{mchaffieManufacturingMetaphors1994}. Furthermore, as pointed out by Pickles, historically within the GIS research community and its predecessors, there has been a certain "technocratic myopia" and unwillingness to consider novel, insurgent uses of GIS that has led critics to label it as an "inherently conservative form of analysis" \cite{picklesRepresentationsElectronicAge1994}, or as McHaffie put more movingly, "Perhaps the `frightened Africans' who once `threw spears at an Aero Service aircraft' or the `suspicious moonshiners in Appalachia' who `took a few rifle shots' at aerial mappers did so not because the intentions of the mappers were 'not always understood,' but because those intenions, and the powerful forces being them, were understood only too well" \cite{mchaffieManufacturingMetaphors1994}.
+It is undeniable that the history of mapping and thus of \ac{gis} is one of centralization and authoritarianism. National mapping in the US originated in motives that were explicity of means for resource exploitation and control \cite{mchaffieManufacturingMetaphors1994}. Furthermore, as pointed out by Pickles, historically within the GIS research community and its predecessors, there has been a certain "technocratic myopia" and unwillingness to consider novel, insurgent uses of GIS that has led critics to label it as an "inherently conservative form of analysis" \cite{picklesRepresentationsElectronicAge1994}, or as McHaffie put more movingly, "Perhaps the `frightened Africans' who once `threw spears at an Aero Service aircraft' or the `suspicious moonshiners in Appalachia' who `took a few rifle shots' at aerial mappers did so not because the intentions of the mappers were 'not always understood,' but because those intenions, and the powerful forces being them, were understood only too well" \cite{mchaffieManufacturingMetaphors1994}. Jackson, meanwhile, relates the results of an ethnographic study that highlighted the almost comically numerous negative consequences (both intentional and unintentional) of the introduction of \ac{gis} into local planning in Kansas City \cite{jacksonCityThirtyThousand2008}.
+
+A more specific, early critique, also by Pickles, was that of privacy and control over one's own information \cite{picklesToolScienceGIS1997}:
+
+\blockquote:{But in practice, developers and users of GIS have not paid much attention to the rights of individuals to control information about themselves, to withdraw from databases involving themselves, and to review the information available and the ways in which it is being used. Instead, in cases other than those involving criminal and victim identification (and in some cases even there), the field of GIS (as far as I am aware) has no substantive protocols or methodological principles that govern the use of information about individuals or guarantee the rights of individuals included in databases to remove themselves or to see the results of the analysis.}
+
+This concern preceeded many contemporary concerns about facial recognition [cite], statistical algorithms for criminal justice bail and sentencing setting [cite], ...
 
 That said, even Pickles himself did not feel that this was not necessarily so moving forward, that centralized, authoritarianism was `baked into' \ac{gis}. "GIS and informatics do open virtual space of `real' social interaction, new communities of dialogue, and new interactive settings... Systems of informatics provide a potential source of counterhegemonic social action, and GIS... offers a diverse array of practical possibilities... Informatics are seen as a potential liberator of socially and politically marginalized groups, and thus a source of democratizing power for these newly networked groups" \cite{picklesRepresentationsElectronicAge1994}. Meanwhile Tulloch argued that \ac{gis} is naturally developing through phases, seen in Figure \ref{fig:gis_equity}, while the inherently problematically simplistic outcomes of efficiency and effectiveness were the primary reseult of earlier stages, future states, including democratization of \ac{gis} will instead produce equity. 
 
@@ -513,13 +591,13 @@ That said, even Pickles himself did not feel that this was not necessarily so mo
 \end{figure}
 
 
-One of the consequences of the Mumford-Winner view, however, is that it implies that the designers of technology have both agency and responsibility to determine what politics are embedded in their designs. To reject either the agency or the responsibility is highly problematic. Many designers of digital tools seek to reject the former and commit themselves to a sort of tehnological determinism. For example, Stephen Goldsmith and Susan Crawford, who did a great deal to implement such technologies in New York City and Indianapolis, wrote that "the process of collection is \textit{not going to stop}. We think, it fact, that it would be shortsighted and \textit{probably impossible to halt this natural evolution}. That is all the more reason, then, to carefully establish policies covering data access, data security, and transparency with respect to its collections" \cite{goldsmithResponsiveCityEngaging2014}. They thus divorce themselves of responsibility for the design of the technology itself and restrict themselves for seeking to govern who uses it. 
+One of the consequences of the Mumford-Winner view, however, is that it implies that the designers of technology have both agency and responsibility to determine what politics are embedded in their designs. To reject either the agency or the responsibility is highly problematic. Many designers of digital tools seek to reject the former and commit themselves to a sort of tehnological determinism. For example, Stephen Goldsmith and Susan Crawford, who did a great deal to implement such technologies in New York City and Indianapolis, wrote that "the process of collection is \textit{not going to stop}. We think, it fact, that it would be shortsighted and \textit{probably impossible to halt this natural evolution}. That is all the more reason, then, to carefully establish policies covering data access, data security, and transparency with respect to its collections" (emphasis mine) \cite{goldsmithResponsiveCityEngaging2014}. They thus divorce themselves of responsibility for the design of the technology itself and restrict themselves for seeking to govern who uses it. 
 
 Meanwhile Goodspeed writes about the opposite problem, "Planning theorists have too often accepted Habermas's view that technology is primarily associated with technical rather than moral rationality, which leads them to overlook technology's potential normative dimension... Even choosing a digital tool requires making value-laden judgements about what issues matter enough to be analyzed. Becaues digital tools typically inherit the worldviews and assumptions of their creators, even well-meaning applications of them can inhibit potentially valuable new ideas or critical perspectives." He then proposes the term \textit{tool of inquiry} to "describe the ideal in which tools are continually shaped, used, and tested by public users," \cite{goodspeedScenarioPlanningCities2020} thereby aligning it with the democractic, human-centered type of technology.
 
 We must recognize that, as Krygier and Wood so playfully illustrated, maps (and all \acp{gis}) are, fundamentally, propositions about that world that are asserting a fact and promoting an action. Because of this "you must accept responsibility for the realities you create with maps" \cite{krygierCeEstPas2011}. And this is not limited to maps. Design itself is purposeful in that it forges both pathways and boundaries in its instrumental and cultural use" (\cite{paceyCultureTechnology1983} as paraphrased in \cite{nobleAlgorithmsOppressionHow2018}). 
 
-And there are clear examples of geospatial data being using for positive impact. For instance, there is \ac{nasa}'s famous Blue Marble image, which, while perhaps more iconic than cartographic, is still undeniably a geospatial object, a map even, that has essentially created both "one-world" discourse and "whole-earth" discourse \cite{propenCartographicRepresentationConstruction2011}. If that seems to much of a reach or too incidental, we can look at how Laura Kurgan and others used their "Million Dollar Blocks" project to powerful visualize the impact of mass incarceration upon particular, primarily black, American communities, helping to shift public perception and policy discussions \cite{kurganCloseDistanceMapping2013}. Or how the Sierra Club has made significant use of Google Earth in their efforts to garner support for conservation efforts in the US Arctic National Wildlife Refuge and elsewhere \cite{propenCartographicRepresentationConstruction2011}. 
+And there are clear examples of geospatial data being using for positive impact. For instance, there is \ac{nasa}'s famous Blue Marble image, which, while perhaps more iconic than cartographic, is still undeniably a geospatial object, a map even, that has essentially created both "one-world" discourse and "whole-earth" discourse \cite{propenCartographicRepresentationConstruction2011}. If that seems to much of a reach or too incidental, we can look at how Laura Kurgan and others used their "Million Dollar Blocks" project to powerful visualize the impact of mass incarceration upon particular, primarily black, American communities, helping to shift public perception and policy discussions \cite{kurganCloseDistanceMapping2013}. Or how the Sierra Club has made significant use of Google Earth in their efforts to garner support for conservation efforts in the US Arctic National Wildlife Refuge and elsewhere \cite{propenCartographicRepresentationConstruction2011}. Florence Nightingale's famous rose diagrams famously shifted policy on hte handling of sanitation in warzones \cite{friendlyBriefHistoryData2008}, even if these diagrams were, in fact, misleading (cite).
 
 Additionally, in some ways, we want to avoid making a seemless tool, as "the most significant impacts of technology tend to occur when the technology becomes indistringuishable from the fabric of every day life" (\cite{weinerComputer21stCentury1991} as paraphrased in \cite{vereginComputerInnovationAdoption1994}). This is not, unfortunately, not sufficient. "We all tend to defer to machines, which can seem more neutral, more objective" even when they are actively warning us of their limitations and fallibility \cite{eubanksAutomatingInequalityHow2018}.
 
@@ -535,7 +613,9 @@ As we proceed, we must keep in mind that "the very notion that technologies are 
 
 %"Those who have the power to design systems - classification or technical - hold the ability to prioritize hierarchical schemes that privilege certain tyeps of information over others." \cite{nobleAlgorithmsOppressionHow2018}
 
-\subsubsection{Technocratic Planning and International Development} \label{sec:technocracy}
+\subsubsection{\hlc[cyan]{Technocratic Planning and International Development}} \label{sec:technocracy}
+
+I should start off by noting that this section is not intended to consider all of the arguments for and against planning in general (for that see Klosterman \cite{klostermanArgumentsPlanning1985}), but instead to focus in on the narrower question of whether \textit{technocratic planning}, particularly in an international context, can be helpful and ethical. 
 
 By "technocracy" we mean the basic idea that "the human problem of urban design has a unique solution, which an expert can discover and execute. Deciding such technical matters by politics and bargaining would lead to the wrong solution" \cite{scottSeeingStateHow2020}. It is typical for a believer of this idea to quickly put themselves in the role of the "expert [who] can discover and execute." That said, they quickly find themselves beset by complexity and gapes in the data that frustrate their efforts. For such aspirants "legibility [is] a central problem," one that must be solved prior to addressing urban design itself. To this end, "exceptionally, complex, illegible, and local social practices" must be turned into "a standard grid whereby it [can] be centrally recorded and monitored." This, of course, requires immense simplification. These "state simplications... have the character of maps. That is, they are designed to summarize precisely those aspects of a complex world that are of immediate interest to the mapmaker and to ignore the rest. To complain that a map lacks nuance and detail makes no sense unless it omits information necessary to its function." And the interest of these would-be-technocrats tends to be their "unique solution." Taken together, there are five specific characteristics of these simplifications \cite{scottSeeingStateHow2020}:
 
@@ -547,7 +627,7 @@ By "technocracy" we mean the basic idea that "the human problem of urban design 
 	\item{They are standardized, so as to enable comparison and longitudinal analysis.}
 \end{enumerate}
 
-These individuals are what Easterly calls "Planners," to be distinguished by "Searchers," those who seek for bottom-up solution to specific, addressable needs \cite{easterlyWhiteManBurden2007a}. The Planners, meanwhile, fashion themselves into benevolent dictators (though they would eskew being called as such) focused on implementing their solution \cite{easterly2015}. Beyond outright failure, such endeavours have not infrequently caused immense social harms, including famines, cultural destruction, and environmental collapse. 
+These individuals are what Easterly calls "Planners," to be distinguished by "Searchers," those who seek for bottom-up solution to specific, addressable needs \cite{easterlyWhiteManBurden2007a}. The Planners, meanwhile, fashion themselves into benevolent dictators (though they would eskew being called as such) focused on implementing their solution \cite{easterly2015}. Beyond outright failure, such endeavours have not infrequently caused immense social harms, including famines, cultural destruction, and environmental collapse. Furthermore, such technocratic planning is bound up in the history of colonialism and, while formal colonialism has ended, its impacts continue and certain mindsets are still embedded within such planning efforts \cite{sandercockCommentaryIndigenousPlanning2004}.
 
 James Scott argued that four elements were necessary to precipitate the most tragic of social engineering disasters \cite{scottSeeingStateHow2020}:
 
@@ -578,12 +658,14 @@ It should be noted, however, that Sachs has been a senior advisor to numerous st
 
 I do think that many of the methodological and technological changes over the past several decades are meaningful, but it also seems undeniable that these changes seem insufficient to ensure good outcomes. So we must look elsewhere for means of shoring up the deficiencies.
 
-The third argument we may make that planning still has a positive role to play is involves collaborative and participatory forms of planning, similarly to what was done for \ac{gis} \acp{dss} in Section \ref{sec:collaborative}. After all even one of the proponents of high modernist ideology recognized that "rational, hierarchical, closed-door decision strategies" had negative consequences and that "more democratic process might produces worse results, but it would respond to the increasing sense of alienation among the nation's urban population" \cite{lightWarfareWelfareDefense2005}. This avenue is not without its flaws, unfortunately. By providing tools for more participation, we are not necessarily changing anything fundamental. "Participation is not power; its reform is not radical" \cite{marcuseThreeHistoricCurrents2016}. Even if participation is quite extensive and includes actual political power, "democracies rarely end up expropriating and redistributing capital" \cite{fainsteinSpatialJusticePlanning2016}. 
+The third argument we may make that planning still has a positive role to play is involves collaborative and participatory forms of planning, similarly to what was done for \ac{gis} \acp{dss} in Section \ref{sec:collaborative}. After all even one of the proponents of high modernist ideology recognized that "rational, hierarchical, closed-door decision strategies" had negative consequences and that "more democratic process might produces worse results, but it would respond to the increasing sense of alienation among the nation's urban population" \cite{lightWarfareWelfareDefense2005}. This avenue is not without its flaws, unfortunately. By providing tools for more participation, we are not necessarily changing anything fundamental. "Participation is not power; its reform is not radical" \cite{marcuseThreeHistoricCurrents2016}. Even if participation is quite extensive and includes actual political power, "democracies rarely end up expropriating and redistributing capital" \cite{fainsteinSpatialJusticePlanning2016}. Thus even "inclusive planning practices cannot 'shift the effects of (post)colonial structures and relations of power on indigenous nations without a fundamental recognition of rights'" \cite{sandercockCommentaryIndigenousPlanning2004}.
 
 Not only is participation evidently insufficient on its own, but some argue that neoliberalism in factor prefers to use participation as a means of underming resistance, rather than violence, though this has the risk of providing a structure for coalition building and radicalization \cite{miraftabInsurgentPlanningSituating2016}. In fact, increased community involvement can result in more restrictive, unambitious goals that are not in the interests of certain minorities \cite{wheatonIdentifyingPublicInterest1972}. A key aspect of participatory planning is that mere participation does not magically eliminate power hierarchies. Such pre-existing hiearchies can wield their power in planning discussions in 
 three primary ways: "by promoting formal decisions, setting the agenda, and influencing the broader ideogical context of the debate" (\cite{foresterPlanningFacePower2001} as paraphrased by \cite{goodspeedScenarioPlanningCities2020}). 
 
 Despite this, there is evidence that, with proper creation of the structures of participation or in the wholesale rejection of the state-led participatory structures, that planning can be used to promote equity and development. Goodspeed points out several examples of how participatory and even insurgent scenario-based planning helped address injustices such as racism in urban development \cite{goodspeedScenarioPlanningCities2020}. I discuss further evidence to this effect in Section \ref{sec:scenario_critique}.
+
+To resolve this confusion, Arnstein proposes an eight-step "ladder of civic participation" \cite{arnsteinLadderCitizenParticipation1969} [ADD FIGURE AND DISCUSSION] Bekkers and Moody provide some examples of visualization and \ac{gis} use that made the citizenry feel manipulated \cite{bekkersVisualEventsElectronic2011}. 
 
 This suggests that, while technology-based collaborative or participatory planning efforts are unlikely to effect radical change, they can, \textit{if done well}, still affect positive change. 
 
@@ -612,7 +694,7 @@ So, while I argue that a combination of new methodologies and technologies, coll
 %
 %De Soto argues that the poor already have assets, just needs to be formalized. \cite{sotoMysteryCapitalWhy2003} though others argue that this is just results in a cycle of appeasment / welfare \cite{hollandForbearanceRedistributionPolitics2017}
 
-\subsubsection{Systems Engineering} \label{sec:se_critique}
+\subsubsection{\hlc[red]{Systems Engineering}} \label{sec:se_critique}
 
 
 "Many who seek to harness computational power for social justice tend to find affinity with systems engineering approaches to social problems. These perspectives assume that complex controversies can be solved by getting correct information where it needs to go as efficiently as possible. In this model, political conflict arises primarily rom a lack of information. If we just gather lal the facts, systems engineers assume, the correct answers to intractable policy problems like homelessness will be simple, uncontroversial, and widely shared. But, for better or worse, this is not how politics work." \cite{eubanksAutomatingInequalityHow2018}
@@ -722,7 +804,7 @@ Sufficient deficiencies certainly still remain within the systems engineering co
 
 It should be noted that, while \ac{ppgis} developed as a means to avoid some of these concerns, it also arose out of intra-academia discussion and arguments, not as a result of vociferous demand from communities themselves \cite{weinerParticipatoryGeographicInformation2007}. 
 
-\subsection{Sustainable Development and the SDGs} \label{sec:sdg_critique}
+\subsection{\hlc[red]{Sustainable Development and the SDGs}} \label{sec:sdg_critique}
 
 "Substantive goals, the acievement of which are hard to measure, may be supplanted by thin, notional statistics - the number of villages formed, the number of acres plowed." \cite{scottSeeingStateHow2020}
 
@@ -767,12 +849,16 @@ Respond to critiques of \acp{mdg}/\acp{sdg} \cite{alstonShipsPassingNight2005, r
 
 
 
-\subsection{Scenario Planning and Decision-Support is unfounded} \label{sec:scenario_critique}
+\subsection{\hlc[red]{Scenario Planning and Decision-Support is unfounded}} \label{sec:scenario_critique}
 
 
-Often, however, so-called "strategic planning" is anything but. "A strategic plan might more closely resemble a project plan, with long lists of specific proposals and policies... many have relatively short time frames. Scenario planning may not make sense for these plans." \cite{goodspeedScenarioPlanningCities2020}
+Refer to critique made by \cite{leejrRequiemLargeScaleModels1973}
 
-Many projections have been bad
+
+Refer to inaccuracies of the World3 model from the Club of Rome
+
+Many projections have been bad (can also show de Neufville's oil prices projections)
+
 
 \begin{figure}[h]
 	\centering
@@ -780,6 +866,13 @@ Many projections have been bad
 	\caption[Population changes in Dresden compared to various projections]{Population changes in Dresden compared to various projections. From \cite{wiechmannErrorsExpectedAligning2008}}
 	\label{fig:dresden_population}
 \end{figure}
+
+Bankes argues that many of these problems can be avoided by clearly differentiating between \textit{consolidative models} that strive to be "a surrogate for the actual system" but are often out of reach, and \textit{exploratory models}, which seek to examine the implications of varying assumptions and hypotheses \cite{bankesExploratoryModelingPolicy1993}. Exploratory models are possible to construct more often than consolidative models, as they function in the absence of complete information, but this is only true if they are intentionally constructed as exploratory models with a specific aim.  To this end, Bankes defines three categories of purpose for an exploratory model: (1) data-driven, (2) question-driven, (3) model-driven. Most scenario planning, including the many of the historical examples that this work builds upon and the work described in this thesis are question-driven. For example, the 'What If?' tool from the late 1990s, explictly "does not attempt to predict future conditions exactly. Instead it... can be used to determine \textit{what} would happen \textit{if} clearly defined policy choices are made and assumptions concerning the future prove to be correct" (emphasis original) \cite{klostermanWhatIfCollaborative1999}.
+
+
+Often, however, so-called "strategic planning" is anything but. "A strategic plan might more closely resemble a project plan, with long lists of specific proposals and policies... many have relatively short time frames. Scenario planning may not make sense for these plans." \cite{goodspeedScenarioPlanningCities2020}
+
+
 
 
 While forecasting can be problematic as it constitutes "someone else's understanding and judgement crystallized in a figure that then becomes a substitute for thinking," scenario planning instead allows users to "develop their own feel for the nature of the system, the forces at work within it, the uncertanties that underlies the laternative scenarios, and the concepts useful for interpreting key data." \cite{wackScenariosShootingRapids1985}

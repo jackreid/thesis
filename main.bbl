@@ -295,6 +295,30 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock Measuring mangrove carbon loss and gain in deltas.
 \newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
 
+\bibitem{goodchildOverviewDefinitionGIS1992}
+M~Goodchild and D.W. Rhind.
+\newblock An overview and definition of {{GIS}}.
+\newblock In {\em Geographical Information Systems: {{Principles}} and
+  Applications}, pages 31--45. 1992.
+
+\bibitem{picklesToolScienceGIS1997}
+John Pickles.
+\newblock Tool or {{Science}}? {{GIS}}, {{Technoscience}}, and the
+  {{Theoretical Turn}}.
+\newblock {\em Annals of the Association of American Geographers},
+  87(2):363--372, June 1997.
+
+\bibitem{chrismanWhatDoesGIS1999}
+Nicholas~R. Chrisman.
+\newblock What {{Does}} `{{GIS}}' {{Mean}}?
+\newblock {\em Transactions in GIS}, 3(2):175--186, 1999.
+
+\bibitem{goodchildGeographicalInformationScience1992}
+Michael~F. Goodchild.
+\newblock Geographical information science.
+\newblock {\em International Journal of Geographical Information Systems},
+  6(1):31--45, January 1992.
+
 \bibitem{goodchildGeographicInformationSystems1994}
 Michael Goodchild.
 \newblock Geographic {{Information Systems}} and {{Geographic Research}}.
@@ -345,6 +369,13 @@ Stephen Goldsmith and Susan Crawford.
 \newblock {\em The {{Responsive City}}: {{Engaging Communities Through
   Data}}-{{Smart Governance}}}.
 \newblock {Jossey-Bass}, {San Francisco, CA}, 1st edition edition, August 2014.
+
+\bibitem{goodchildSpatiallyIntegratedSocial2000}
+Michael~F. Goodchild, Luc Anselin, Richard~P. Appelbaum, and Barbara~Herr
+  Harthorn.
+\newblock Toward {{Spatially Integrated Social Science}}.
+\newblock {\em International Regional Science Review}, 23(2):139--159, April
+  2000.
 
 \bibitem{cowenAvailabilityGeographicData2007}
 David~J. Cowen.
@@ -403,6 +434,12 @@ Crystal Bond.
 \newblock In {\em Community {{Participation}} and {{Geographical Information
   Systems}}}. {CRC Press}, 2002.
 
+\bibitem{klostermanWhatIfCollaborative1999}
+R~E Klosterman.
+\newblock The {{What If}}? {{Collaborative Planning Support System}}.
+\newblock {\em Environment and Planning B: Planning and Design},
+  26(3):393--408, June 1999.
+
 \bibitem{curryGeographicalInformationSystems1994}
 Michael Curry.
 \newblock Geographical {{Information Systems}} and the {{Inevitability}} of
@@ -429,6 +466,19 @@ Martin Dodge, Chris Perkins, and Rob Kitchin.
 \newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   220--243. {Routledge}, June 2011.
+
+\bibitem{harrisLocationalModelsGeographic1993}
+Britton Harris and Michael Batty.
+\newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
+  Support Systems}}.
+\newblock {\em Journal of the American Planning Association}, 55(1), 1993.
+
+\bibitem{jankowskiIntegratingGeographicalInformation1995}
+Piotr Jankowski.
+\newblock Integrating geographical information systems and multiple criteria
+  decision-making methods.
+\newblock {\em International Journal of Geographical Information Systems},
+  9(3):251--273, May 1995.
 
 \bibitem{goodspeedScenarioPlanningCities2020}
 Robert Goodspeed.
@@ -526,6 +576,12 @@ Morris Hill.
   {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
   Hills, CA}, first edition, 1972.
 
+\bibitem{malczewskiGISbasedApproachMultiple1996}
+Jacek Malczewski.
+\newblock A {{GIS}}-based approach to multiple criteria group decision-making.
+\newblock {\em International Journal of Geographical Information Systems},
+  10(8):955--971, December 1996.
+
 \bibitem{ashbyRequisiteVarietyIts1991}
 W.~Ross Ashby.
 \newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
@@ -542,6 +598,53 @@ Brian~J. McLoughlin.
   Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
   1972.
 
+\bibitem{yamuAssumingItAll2016}
+Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
+\newblock Assuming it is all about conditions. {{Framing}} a simulation model
+  for complex, adaptive urban space.
+\newblock {\em Environment and Planning B: Planning and Design},
+  43(6):1019--1039, November 2016.
+
+\bibitem{shahumyanIntegrationLandUse2017}
+Harutyun Shahumyan and Rolf Moeckel.
+\newblock Integration of land use, land cover, transportation, and
+  environmental impact models: {{Expanding}} scenario analysis with multiple
+  modules.
+\newblock {\em Environment and Planning B: Urban Analytics and City Science},
+  44(3):531--552, May 2017.
+
+\bibitem{waddellUrbanSimModelingUrban2002}
+Paul Waddell.
+\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
+  {{Transportation}}, and {{Environmental Planning}}.
+\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
+  September 2002.
+
+\bibitem{millerHistoricalValidationIntegrated2011}
+Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
+\newblock Historical {{Validation}} of {{Integrated
+  Transport}}\textendash{{Land Use Model System}}.
+\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
+
+\bibitem{geertmanPlanningSupportSystems2004}
+Stan Geertman and John Stillwell.
+\newblock Planning support systems: An inventory of current practice.
+\newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310, July
+  2004.
+
+\bibitem{laufUncoveringLanduseDynamics2012}
+S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
+\newblock Uncovering land-use dynamics driven by human decision-making
+  \textendash{} {{A}} combined model approach using cellular automata and
+  system dynamics.
+\newblock {\em Environmental Modelling \& Software}, 27-28:71--82, January
+  2012.
+
+\bibitem{millerIntegratedUrbanModeling2018}
+Eric~J. Miller.
+\newblock Integrated urban modeling: {{Past}}, present, and future.
+\newblock {\em Journal of Transport and Land Use}, 11(1):387--399, 2018.
+
 \bibitem{hatryCriteriaEvaluationPlanning1972}
 Harry~P. Hatry.
 \newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
@@ -550,11 +653,32 @@ Harry~P. Hatry.
   {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
   Hills, CA}, first edition, 1972.
 
+\bibitem{cliftonQuantitativeAnalysisUrban2008}
+Kelly Clifton, Reid Ewing, and Gerrit-Jan Knapp.
+\newblock Quantitative analysis of urban form: A multidisciplinary review.
+\newblock {\em Journal of Urbanism}, 1(1):17--45, 2008.
+
+\bibitem{scottRoleUrbanForm2008}
+Darren~M. Scott and Mark~W. Horner.
+\newblock The role of urban form in shaping access to opportunities: {{An}}
+  exploratory spatial data analysis.
+\newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
+
 \bibitem{gaheganMultivariateGeovisualization2007}
 Mark Gahegan.
 \newblock Multivariate {{Geovisualization}}.
 \newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
   chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{tacoliRuralurbanInteractionsGuide1998}
+Cecilia Tacoli.
+\newblock Rural-urban interactions: A guide to the literature.
+\newblock {\em Environment and Urbanization}, 10(1):147--166, April 1998.
+
+\bibitem{mazlish1963}
+Bruce Mazlish.
+\newblock The {{Idea}} of {{Progress}}.
+\newblock {\em Daedalus}, 92(3):447--461, 1963.
 
 \bibitem{keynesEconomicPossibilitiesOur2010}
 John~Maynard Keynes.
@@ -609,6 +733,13 @@ John Pickles.
   Implications}} of {{Geographic Information Systems}}}, pages 1--30. {The
   Guilford Press}, {New York}, 1st edition edition, December 1994.
 
+\bibitem{jacksonCityThirtyThousand2008}
+Shannon Jackson.
+\newblock The {{City}} from {{Thirty Thousand Feet}}: {{Embodiment}},
+  {{Creativity}}, and the {{Use}} of {{Geographic Information Systems}} as
+  {{Urban Planning Tools}}.
+\newblock {\em Technology and Culture}, 49(2):325--346, 2008.
+
 \bibitem{tullochTheoreticalModelMultipurpose1999}
 David~L. Tulloch.
 \newblock Theoretical {{Model}} of {{Multipurpose Land Information Systems
@@ -646,6 +777,13 @@ Laura Kurgan.
   {{Politics}}}.
 \newblock {MIT Press}, 2013.
 
+\bibitem{friendlyBriefHistoryData2008}
+Michael Friendly.
+\newblock A {{Brief History}} of {{Data Visualization}}.
+\newblock In Chun-houh Chen, Wolfgang H{\"a}rdle, and Antony Unwin, editors,
+  {\em Handbook of {{Data Visualization}}}, Springer {{Handbooks
+  Comp}}.{{Statistics}}, pages 15--56. {Springer}, {Berlin, Heidelberg}, 2008.
+
 \bibitem{weinerComputer21stCentury1991}
 Mark Weiner.
 \newblock The computer for the 21st century.
@@ -662,6 +800,11 @@ Alan~K. Henrikson.
 \newblock The {{Power}} and {{Politics}} of {{Maps}}.
 \newblock In {\em Reordering the {{World}}}. {Routledge}, second edition, 1994.
 
+\bibitem{klostermanArgumentsPlanning1985}
+Richard~E. Klosterman.
+\newblock Arguments for and against planning.
+\newblock {\em Town Planning Review}, 56(1):5, January 1985.
+
 \bibitem{easterlyWhiteManBurden2007a}
 William Easterly.
 \newblock {\em The {{White Man}}'s {{Burden}}: {{Why}} the {{West}}'s
@@ -674,6 +817,11 @@ William Easterly.
 \newblock {\em The {{Tyranny}} of {{Experts}}: {{Economists}}, {{Dictators}},
   and the {{Forgotten Rights}} of the {{Poor}}}.
 \newblock {Basic Books}, 1 edition edition, March 2015.
+
+\bibitem{sandercockCommentaryIndigenousPlanning2004}
+Leonie Sandercock.
+\newblock Commentary: Indigenous planning and the burden of colonialism.
+\newblock {\em Planning Theory \& Practice}, 5(1):118--124, March 2004.
 
 \bibitem{porter1992objectivity}
 Theodore~M Porter.
@@ -734,6 +882,18 @@ John Forester.
 \newblock In {\em Classic {{Readings}} in {{Urban Planning}}}. {Routledge},
   2001.
 
+\bibitem{arnsteinLadderCitizenParticipation1969}
+Sherry~R. Arnstein.
+\newblock A {{Ladder Of Citizen Participation}}.
+\newblock {\em Journal of the American Institute of Planners}, 35(4):216--224,
+  July 1969.
+
+\bibitem{bekkersVisualEventsElectronic2011}
+Victor Bekkers and Rebecca Moody.
+\newblock Visual events and electronic government: {{What}} do pictures mean in
+  digital government for citizen relations?
+\newblock {\em Government Information Quarterly}, 28(4):457--465, October 2011.
+
 \bibitem{furner2007dewey}
 Jonathan Furner.
 \newblock Dewey deracialized: {{A}} critical race-theoretic perspective.
@@ -782,11 +942,22 @@ Sanjay Reddy and Antoine Heuty.
   Pretensions}}.
 \newblock {\em Development Policy Review}, 26(1):5--28, 2008.
 
+\bibitem{leejrRequiemLargeScaleModels1973}
+Douglass B.~Lee Lee~Jr.
+\newblock Requiem for {{Large}}-{{Scale Models}}.
+\newblock {\em Journal of the American Institute of Planners}, 39(3):163--178,
+  May 1973.
+
 \bibitem{wiechmannErrorsExpectedAligning2008}
 Dr~Thorsten Wiechmann.
 \newblock Errors {{Expected}} \textemdash{} {{Aligning Urban Strategy}} with
   {{Demographic Uncertainty}} in {{Shrinking Cities}}\textdagger.
 \newblock {\em International Planning Studies}, 13(4):431--446, November 2008.
+
+\bibitem{bankesExploratoryModelingPolicy1993}
+Steve Bankes.
+\newblock Exploratory {{Modeling}} for {{Policy Analysis}}.
+\newblock {\em Operations Research}, 41(3):435--449, June 1993.
 
 \bibitem{wackScenariosShootingRapids1985}
 Pierre Wack.
@@ -850,5 +1021,31 @@ Jeremy Crampton.
 \newblock In Martin Dodge, Rob Kitchin, and Chris Perkins, editors, {\em
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   26--49. {Routledge}, June 2011.
+
+\bibitem{sawickiNeighborhoodIndicatorsReview1996}
+David~S. Sawicki and Patrice Flynn.
+\newblock Neighborhood {{Indicators}}: {{A Review}} of the {{Literature}} and
+  an {{Assessment}} of {{Conceptual}} and {{Methodological Issues}}.
+\newblock {\em Journal of the American Planning Association}, 62(2):165--183,
+  June 1996.
+
+\bibitem{shifterInteractiveMultimediaPlanning1995}
+M~J Shifter.
+\newblock Interactive {{Multimedia Planning Support}}: {{Moving}} from
+  {{Stand}}-{{Alone Systems}} to the {{World Wide Web}}.
+\newblock {\em Environment and Planning B: Planning and Design},
+  22(6):649--664, December 1995.
+
+\bibitem{battyVisualizingCityCommunication2000}
+Michael Batty, David Chapman, Steve Evans, Mordechai Haklay, Stefan Kueppers,
+  Naru Shiode, Andy Smith, and Paul Torrens.
+\newblock Visualizing the {{City}}: {{Communication}} urban {{Design}} to
+  {{Planners}} and {{Decision}}-{{Makers}}.
+\newblock Technical report, {University College London}, {London, UK}, 2000.
+
+\bibitem{cramptonMapsSocialConstructions2001}
+Jeremy~W. Crampton.
+\newblock Maps as social constructions: Power, communication and visualization.
+\newblock {\em Progress in Human Geography}, 25(2):235--252, June 2001.
 
 \end{thebibliography}
