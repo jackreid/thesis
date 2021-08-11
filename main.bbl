@@ -295,6 +295,12 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock Measuring mangrove carbon loss and gain in deltas.
 \newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
 
+\bibitem{sheppardGISSocietyResearch1995}
+Eric Sheppard.
+\newblock {{GIS}} and {{Society}}: {{Towards}} a {{Research Agenda}}.
+\newblock {\em Cartography and Geographic Information Systems}, 22(1):5--16,
+  January 1995.
+
 \bibitem{goodchildOverviewDefinitionGIS1992}
 M~Goodchild and D.W. Rhind.
 \newblock An overview and definition of {{GIS}}.
@@ -313,11 +319,23 @@ Nicholas~R. Chrisman.
 \newblock What {{Does}} `{{GIS}}' {{Mean}}?
 \newblock {\em Transactions in GIS}, 3(2):175--186, 1999.
 
+\bibitem{heikkilaGISDeadLong1998}
+Eric~J. Heikkila.
+\newblock {{GIS}} is {{Dead}}; {{Long Live GIS}}!
+\newblock {\em Journal of the American Planning Association}, 64(3):350--360,
+  September 1998.
+
 \bibitem{goodchildGeographicalInformationScience1992}
 Michael~F. Goodchild.
 \newblock Geographical information science.
 \newblock {\em International Journal of Geographical Information Systems},
   6(1):31--45, January 1992.
+
+\bibitem{goodchildTwentyYearsProgress2010}
+Michael~F. Goodchild.
+\newblock Twenty years of progress: {{GIScience}} in 2010.
+\newblock {\em Journal of Spatial Information Science}, 2010(1):3--20, July
+  2010.
 
 \bibitem{goodchildGeographicInformationSystems1994}
 Michael Goodchild.
@@ -402,6 +420,12 @@ Piotr Jankowski and Timothy Nyerges.
 \newblock {\em {{GIS}} for {{Group Decision Making}}}.
 \newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
 
+\bibitem{talenBottomUpGIS2000}
+Emily Talen.
+\newblock Bottom-{{Up GIS}}.
+\newblock {\em Journal of the American Planning Association}, 66(3):279--294,
+  September 2000.
+
 \bibitem{benmouffokInformationDecisionMaking1993}
 Dijilali Benmouffok.
 \newblock Information for {{Decision Making}}.
@@ -421,6 +445,25 @@ Trevor Harris, Daniel Weiner, Timothy Warner, and Richard Levin.
 \newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
   Implications}} of {{Geographic Information Systems}}}, pages 196--222. {The
   Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{cramptonIntroductionCriticalCartography2005}
+Jeremy~W Crampton and John Krygier.
+\newblock An {{Introduction}} to {{Critical Cartography}}.
+\newblock {\em ACME: An International Journal for Critical Geographies},
+  4(1):11--33, 2005.
+
+\bibitem{kimCriticalCartographyParticipatory2015}
+Annette~M. Kim.
+\newblock Critical cartography 2.0: {{From}} ``participatory mapping'' to
+  authored visualizations of power and people.
+\newblock {\em Landscape and Urban Planning}, 142:215--225, October 2015.
+
+\bibitem{sieberPublicParticipationGeographic2006}
+Renee Sieber.
+\newblock Public {{Participation Geographic Information Systems}}: {{A
+  Literature Review}} and {{Framework}}.
+\newblock {\em Annals of the Association of American Geographers},
+  96(3):491--507, September 2006.
 
 \bibitem{weinerParticipatoryGeographicInformation2007}
 Daniel Weiner and Trevor~M. Harris.
@@ -453,6 +496,26 @@ Amartya Sen.
 \newblock Freedom of choice: {{Concept}} and content.
 \newblock {\em European Economic Review}, 32(2):269--294, March 1988.
 
+\bibitem{drummondFutureGISPlanning2008}
+W.J. Drummond and S.P. French.
+\newblock The {{Future}} of {{GIS}} in {{Planning}}: {{Converging
+  Technologies}} and {{Diverging Interests}}.
+\newblock {\em Journal of the American Planning Association}, 7(2), 2008.
+
+\bibitem{brommelstroetPlanningSupportSystems2010}
+Marco~Te Br{\"o}mmelstroet and Pieter~M Schrijnen.
+\newblock From {{Planning Support Systems}} to {{Mediated Planning Support}}:
+  {{A Structured Dialogue}} to {{Overcome}} the {{Implementation Gap}}.
+\newblock {\em Environment and Planning B: Planning and Design}, 37(1):3--20,
+  February 2010.
+
+\bibitem{tebrommelstroetRelevanceResearchPlanning2009}
+Marco {te Br{\"o}mmelstroet}.
+\newblock The {{Relevance}} of {{Research}} in {{Planning Support Systems}}:
+  {{A Response}} to {{Janssen Et Al}}.
+\newblock {\em Environment and Planning B: Planning and Design}, 36(1):4--7,
+  February 2009.
+
 \bibitem{williamsonTheirworkDevelopmentSustainable2011}
 Dominica Williamson and Emmet Connolly.
 \newblock Theirwork: {{The}} development of sustainable mapping.
@@ -467,6 +530,12 @@ Martin Dodge, Chris Perkins, and Rob Kitchin.
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   220--243. {Routledge}, June 2011.
 
+\bibitem{gocmenBarriersGISUse2010}
+Z.~Asl{\i}g{\"u}l G{\"o}{\c c}men and Stephen~J. Ventura.
+\newblock Barriers to {{GIS Use}} in {{Planning}}.
+\newblock {\em Journal of the American Planning Association}, 76(2):172--183,
+  March 2010.
+
 \bibitem{harrisLocationalModelsGeographic1993}
 Britton Harris and Michael Batty.
 \newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
@@ -479,6 +548,25 @@ Piotr Jankowski.
   decision-making methods.
 \newblock {\em International Journal of Geographical Information Systems},
   9(3):251--273, May 1995.
+
+\bibitem{borjesonScenarioTypesTechniques2006}
+Lena B{\"o}rjeson, Mattias H{\"o}jer, Karl-Henrik Dreborg, Tomas Ekvall, and
+  G{\"o}ran Finnveden.
+\newblock Scenario types and techniques: {{Towards}} a user's guide.
+\newblock {\em Futures}, 38(7):723--739, September 2006.
+
+\bibitem{avinUsingExploratoryScenarios2020}
+Uri Avin and Robert Goodspeed.
+\newblock Using {{Exploratory Scenarios}} in {{Planning Practice}}.
+\newblock {\em Journal of the American Planning Association}, 86(4):403--416,
+  October 2020.
+
+\bibitem{maierUncertainFutureDeep2016}
+H.~R. Maier, J.~H.~A. Guillaume, H.~{van Delden}, G.~A. Riddell, M.~Haasnoot,
+  and J.~H. Kwakkel.
+\newblock An uncertain future, deep uncertainty, scenarios, robustness and
+  adaptation: {{How}} do they fit together?
+\newblock {\em Environmental Modelling \& Software}, 81:154--164, July 2016.
 
 \bibitem{goodspeedScenarioPlanningCities2020}
 Robert Goodspeed.
@@ -504,6 +592,12 @@ Franz Tessun.
 \newblock Scenario {{Planning Guidelines}}.
 \newblock Technical report, {Oregon Department of Transportation}, {Salem, OR},
   August 2017.
+
+\bibitem{zapataRadicalUncertaintyScenario2015}
+Marisa~A Zapata and Nikhil Kaza.
+\newblock Radical uncertainty: Scenario planning for futures.
+\newblock {\em Environment and Planning B: Planning and Design},
+  42(4):754--770, July 2015.
 
 \bibitem{klostermanCommunityAnalysisPlanning1990}
 Richard~E. Klosterman.
@@ -626,6 +720,11 @@ Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
   Transport}}\textendash{{Land Use Model System}}.
 \newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
 
+\bibitem{BottlenecksBlockingWidespread}
+Bottlenecks {{Blocking Widespread Usage}} of {{Planning Support Systems}} -
+  {{Guido Vonk}}, {{Stan Geertman}}, {{Paul Schot}}, 2005.
+\newblock https://journals.sagepub.com/doi/abs/10.1068/a3712.
+
 \bibitem{geertmanPlanningSupportSystems2004}
 Stan Geertman and John Stillwell.
 \newblock Planning support systems: An inventory of current practice.
@@ -639,6 +738,12 @@ S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
   system dynamics.
 \newblock {\em Environmental Modelling \& Software}, 27-28:71--82, January
   2012.
+
+\bibitem{pertParticipatoryDevelopmentNew2013}
+Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
+\newblock Participatory development of a new interactive tool for capturing
+  social and ecological dynamism in conservation prioritization.
+\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
 
 \bibitem{millerIntegratedUrbanModeling2018}
 Eric~J. Miller.
@@ -679,6 +784,12 @@ Cecilia Tacoli.
 Bruce Mazlish.
 \newblock The {{Idea}} of {{Progress}}.
 \newblock {\em Daedalus}, 92(3):447--461, 1963.
+
+\bibitem{boydCriticalQuestionsBig2012}
+danah {boyd} and Kate Crawford.
+\newblock Critical {{Questions}} for {{Big Data}}.
+\newblock {\em Information, Communication \& Society}, 15(5):662--679, June
+  2012.
 
 \bibitem{keynesEconomicPossibilitiesOur2010}
 John~Maynard Keynes.
@@ -739,6 +850,12 @@ Shannon Jackson.
   {{Creativity}}, and the {{Use}} of {{Geographic Information Systems}} as
   {{Urban Planning Tools}}.
 \newblock {\em Technology and Culture}, 49(2):325--346, 2008.
+
+\bibitem{mcdonaldEbolaBigData2016}
+Sean McDonald.
+\newblock Ebola: {{A Big Data Disaster}}.
+\newblock Technical report, {The Centre for Internet \& Society}, {Bengaluru,
+  India}, January 2016.
 
 \bibitem{tullochTheoreticalModelMultipurpose1999}
 David~L. Tulloch.
@@ -829,6 +946,12 @@ Theodore~M Porter.
   measurement, statistics, and cost-benefit analysis.
 \newblock {\em Annals of Scholarship}, 9(1/2):19--59, 1992.
 
+\bibitem{barnesBigDataSocial2014}
+T.J. Barnes and M.W. Wilson.
+\newblock Big {{Data}}, social physics, and spatial analysis: {{The}} early
+  years - {{Trevor J Barnes}}, {{Matthew W Wilson}}, 2014.
+\newblock {\em Big Data \& Society}, 1(1), 2014.
+
 \bibitem{yurchakEverythingWasForever2005}
 Alexi Yurchak.
 \newblock {\em Everything {{Was Forever}}, {{Until It Was No More}}}.
@@ -881,6 +1004,12 @@ John Forester.
 \newblock Planning in the {{Face}} of {{Power}}.
 \newblock In {\em Classic {{Readings}} in {{Urban Planning}}}. {Routledge},
   2001.
+
+\bibitem{gordonAugmentedDeliberationMerging2011}
+Eric Gordon and Edith Manosevitch.
+\newblock Augmented deliberation: {{Merging}} physical and virtual interaction
+  to engage communities in urban planning.
+\newblock {\em New Media \& Society}, 13(1):75--95, February 2011.
 
 \bibitem{arnsteinLadderCitizenParticipation1969}
 Sherry~R. Arnstein.
@@ -942,6 +1071,13 @@ Sanjay Reddy and Antoine Heuty.
   Pretensions}}.
 \newblock {\em Development Policy Review}, 26(1):5--28, 2008.
 
+\bibitem{fukuda-parrPowerNumbersCritical2014}
+Sakiko {Fukuda-Parr}, Alicia~Ely Yamin, and Joshua Greenstein.
+\newblock The {{Power}} of {{Numbers}}: {{A Critical Review}} of {{Millennium
+  Development Goal Targets}} for {{Human Development}} and {{Human Rights}}.
+\newblock {\em Journal of Human Development and Capabilities},
+  15(2-3):105--117, July 2014.
+
 \bibitem{leejrRequiemLargeScaleModels1973}
 Douglass B.~Lee Lee~Jr.
 \newblock Requiem for {{Large}}-{{Scale Models}}.
@@ -983,13 +1119,6 @@ Guido Vonk and Arend Ligtenberg.
 \newblock Socio-technical {{PSS}} development to improve functionality and
   usability\textemdash{{Sketch}} planning using a {{Maptable}}.
 \newblock {\em Landscape and Urban Planning}, 94(3):166--174, March 2010.
-
-\bibitem{brommelstroetPlanningSupportSystems2010a}
-Marco~Te Br{\"o}mmelstroet and Pieter~M Schrijnen.
-\newblock From {{Planning Support Systems}} to {{Mediated Planning Support}}:
-  {{A Structured Dialogue}} to {{Overcome}} the {{Implementation Gap}}.
-\newblock {\em Environment and Planning B: Planning and Design}, 37(1):3--20,
-  February 2010.
 
 \bibitem{ulibarriCollaborativeModelDevelopment2018}
 Nicola Ulibarri.

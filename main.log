@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  3 AUG 2021 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  11 AUG 2021 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,7 +288,8 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box104
 )
 (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
-(./chap3.aux) (./biblio.aux))
+(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
+(./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -358,17 +359,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+ [7])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [7] [8
-
-] (./main.lof)
+ [8] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [9] [10
+ [9
+
+] [10
 
 ] (./main.lot)
 \tf@lot=\write5
@@ -550,182 +551,224 @@ although it is yet undefined on input line 182.
 <Figures/chap2/GIScience.png, id=136, 932.48375pt x 829.0975pt>
 File: Figures/chap2/GIScience.png Graphic file (type png)
 <use Figures/chap2/GIScience.png>
-Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 188.
+Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 189.
 (pdftex.def)             Requested size: 372.9869pt x 331.63313pt.
- [35 <./Figures/chap2/GIScience.png>]
-<Figures/chap2/GISMarketplace.png, id=141, 816.04875pt x 714.67pt>
-File: Figures/chap2/GISMarketplace.png Graphic file (type png)
-<use Figures/chap2/GISMarketplace.png>
-Package pdftex.def Info: Figures/chap2/GISMarketplace.png  used on input line 2
-02.
-(pdftex.def)             Requested size: 326.41371pt x 285.86293pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-Underfull \vbox (badness 4699) has occurred while \output is active []
+ [35 <./Figures/chap2/GIScience.png>]
+Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [37 <./Figures/chap2/GISMarketplace.png>]
+ [36]
+<Figures/chap2/GISMarketplace.png, id=144, 816.04875pt x 714.67pt>
+File: Figures/chap2/GISMarketplace.png Graphic file (type png)
+<use Figures/chap2/GISMarketplace.png>
+Package pdftex.def Info: Figures/chap2/GISMarketplace.png  used on input line 2
+03.
+(pdftex.def)             Requested size: 326.41371pt x 285.86293pt.
+
+[37 <./Figures/chap2/GISMarketplace.png>]
 <Figures/chap2/east2.jpg, id=150, 1084.05pt x 505.89pt>
 File: Figures/chap2/east2.jpg Graphic file (type jpg)
 <use Figures/chap2/east2.jpg>
-Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 213.
+Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 214.
 (pdftex.def)             Requested size: 433.61232pt x 202.3524pt.
+ [38 <./Figures/chap2/east2.jpg>]
 Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 220.
+although it is yet undefined on input line 223.
 Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
 
-although it is yet undefined on input line 220.
+although it is yet undefined on input line 223.
 Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
-although it is yet undefined on input line 220.
+although it is yet undefined on input line 223.
 Package acronym Info: Label `acro:pss' newly defined as it shall be overridden
-although it is yet undefined on input line 220.
- [38 <./Figures/chap2/east2.jpg>] [39] [40]
-[41] [42] [43]
-Overfull \hbox (41.17133pt too wide) in paragraph at lines 345--359
+although it is yet undefined on input line 223.
+
+Overfull \hbox (4.17302pt too wide) in paragraph at lines 223--224
+\T1/cmr/m/n/12 GIS and So-ci-ety [[]], and [][]pub-lic par-tic-i-pa-tion ge-o-g
+raphic in-for-ma-tion sys-tem ([])[].
+ []
+
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [39]
+[40] [41] [42] [43] [44]
+Overfull \hbox (41.17133pt too wide) in paragraph at lines 354--368
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44] [45] [46]
+[45]
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [46]
+[47]
 Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 423.
- [47]
+although it is yet undefined on input line 434.
+ [48]
 Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
-although it is yet undefined on input line 428.
+although it is yet undefined on input line 439.
 Package acronym Info: Label `acro:cas' newly defined as it shall be overridden
-although it is yet undefined on input line 443.
+although it is yet undefined on input line 456.
+ [49]
 Package acronym Info: Label `acro:ilute' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 453.
- [48]
+although it is yet undefined on input line 466.
 Package acronym Info: Label `acro:ppbs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 463.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[49] [50]
+although it is yet undefined on input line 480.
+ [50] [51]
 Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
-although it is yet undefined on input line 506.
- [51] [52] [53] [54] [55]
-<Figures/chap2/gis_equity.png, id=211, 932.48375pt x 756.8275pt>
+although it is yet undefined on input line 523.
+ [52] [53] [54] [55] [56] [57]
+<Figures/chap2/gis_equity.png, id=217, 932.48375pt x 756.8275pt>
 File: Figures/chap2/gis_equity.png Graphic file (type png)
 <use Figures/chap2/gis_equity.png>
-Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 588.
+Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 607.
 (pdftex.def)             Requested size: 279.74728pt x 227.05pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+ [58 <./Figures/chap2/gis_equity.png>]
 Underfull \vbox (badness 1675) has occurred while \output is active []
 
- [56]
-[57 <./Figures/chap2/gis_equity.png>]
+ [59]
+[60] [61] [62] [63]
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [64]
 Underfull \vbox (badness 1675) has occurred while \output is active []
 
- [58]
-[59] [60] [61] [62]
-Underfull \vbox (badness 1675) has occurred while \output is active []
-
- [63]
-[64] [65]
+ [65]
+[66]
 Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 706.
- [66] [67] [68]
-<Figures/chap2/friedman_timeline.png, id=254, 987.69pt x 554.07pt>
+although it is yet undefined on input line 725.
+ [67] [68] [69] [70]
+<Figures/chap2/friedman_timeline.png, id=260, 987.69pt x 554.07pt>
 File: Figures/chap2/friedman_timeline.png Graphic file (type png)
 <use Figures/chap2/friedman_timeline.png>
 Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
-e 742.
+e 761.
 (pdftex.def)             Requested size: 641.9909pt x 360.14124pt.
- [69 <./Figures/chap2/friedman_timeline.png>]
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 769--770
+ [71 <./Figures/chap2/friedman_timeline.png>]
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 788--789
  []| 
  []
 
 
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 770--771
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 789--790
  []| 
  []
 
-[70
+[72
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [73]
 Underfull \vbox (badness 4634) has occurred while \output is active []
 
- [72]
-<Figures/chap2/sustainable_triangle.png, id=268, 1156.32pt x 578.16pt>
+ [74]
+<Figures/chap2/sustainable_triangle.png, id=275, 1156.32pt x 578.16pt>
 File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
 <use Figures/chap2/sustainable_triangle.png>
 Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
-line 842.
+line 861.
 (pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[73]
-<Figures/chap2/dresden_projections.png, id=273, 664.4825pt x 484.81125pt>
+[75]
+<Figures/chap2/dresden_projections.png, id=279, 664.4825pt x 484.81125pt>
 File: Figures/chap2/dresden_projections.png Graphic file (type png)
 <use Figures/chap2/dresden_projections.png>
 Package pdftex.def Info: Figures/chap2/dresden_projections.png  used on input l
-ine 865.
+ine 886.
 (pdftex.def)             Requested size: 232.57236pt x 169.68648pt.
- [74 <./Figures/chap2/sustainable_triangle.png> <./Figures/chap2/dresden_projec
-tions.png>] [75]
+ [76 <./Figures/chap2/sustainable_triangle.png>] [77 <./Figures/chap2/dresden_p
+rojections.png>]
 Package acronym Info: Label `acro:lunr' newly defined as it shall be overridden
 
-although it is yet undefined on input line 890.
-) [76]
+although it is yet undefined on input line 910.
+) [78]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 Chapter 3.
-[77
+[79
 
 
 
 
-] [78]
+] [80]
 Overfull \hbox (0.71855pt too wide) in paragraph at lines 40--114
  [] 
  []
 
-) [79] [80]
+) [81] [82]
+\openout2 = `chap4.aux'.
+
+ (./chap4.tex
+Chapter 4.
+) [83
+
+
+
+
+]
+\openout2 = `chap5.aux'.
+
+ (./chap5.tex [84
+
+
+
+
+]
+Chapter 5.
+) [85]
+\openout2 = `chap6.aux'.
+
+ (./chap6.tex [86
+
+
+
+
+]
+Chapter 6.
+) [87]
+\openout2 = `chap7.aux'.
+
+ (./chap7.tex [88
+
+
+
+
+]
+Chapter 7.
+) [89]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl
+ (./biblio.tex (./main.bbl [90
+
+
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 []\T1/cmr/m/n/12 Definition of sus-tain-able | Dic-tio-nary.com.
  []
 
-[81
-
-
-
-
-] [82]
+[91] [92]
 Underfull \hbox (badness 10000) in paragraph at lines 165--168
 []\T1/cmr/m/n/12 Greg Shi-rah.  NASA's Earth Ob-serv-ing Fleet: March 2017.
  []
 
-[83]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 253--257
 []\T1/cmr/m/n/12 NASA Jet Propul-sion Lab-o-ra-tory.  Satel-lite Radar De-
  []
@@ -741,20 +784,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--265
 sible-damage-
  []
 
-[84] [85] [86] [87] [88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 717--722
+[94] [95] [96] [97] [98] [99]
+Underfull \hbox (badness 10000) in paragraph at lines 724--727
+[]\T1/cmr/m/n/12 Bottlenecks Block-ing Widespread Us-age of Plan-ning Sup-port
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--727
+\T1/cmr/m/n/12 Sys-tems - Guido Vonk, Stan Geert-man, Paul Schot, 2005.
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 828--833
 \T1/cmr/m/n/12 https://www.project-syndicate.org/commentary/five-reasons-for-op
 timism-in-
  []
 
-[90] [91] [92] [93])) [94] (./main.aux (./cover.aux) (./contents.aux)
-(./chap1.aux) (./chap2.aux) (./chap3.aux) (./biblio.aux)) )
+[101] [102] [103] [104])) [105] (./main.aux (./cover.aux) (./contents.aux)
+(./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
+(./chap6.aux) (./chap7.aux) (./biblio.aux)) )
 (\end occurred when \ifx on line 80 was incomplete) 
 Here is how much of TeX's memory you used:
- 5335 strings out of 481134
- 78492 string characters out of 5913146
- 409033 words of memory out of 5000000
- 22110 multiletter control sequences out of 15000+600000
+ 5400 strings out of 481134
+ 79617 string characters out of 5913146
+ 410381 words of memory out of 5000000
+ 22147 multiletter control sequences out of 15000+600000
  418544 words of font info for 54 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  68i,17n,74p,2244b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -775,10 +829,10 @@ n/ec/tcrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx1728.600pk>
-Output written on main.pdf (94 pages, 1728471 bytes).
+Output written on main.pdf (105 pages, 1748968 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 958 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

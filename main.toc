@@ -16,14 +16,25 @@
 \contentsline {subsubsection}{\hlc [cyan]{Why Collaborative and Open Source?}}{37}{}%
 \contentsline {subsubsection}{\hlc [red]{Why Scenario Planning and Decision Support?}}{41}{}%
 \contentsline {subsection}{\numberline {2.1.5}\hlc [red]{Why Systems Engineering?}}{45}{}%
-\contentsline {section}{\numberline {2.2}\hlc [red]{EVDT Framework}}{48}{}%
-\contentsline {section}{\numberline {2.3}\hlc [red]{Intended Use Cases / Applications}}{50}{}%
-\contentsline {section}{\numberline {2.4}\hlc [yellow]{Critiques}}{52}{}%
-\contentsline {subsection}{\numberline {2.4.1}\hlc [cyan]{Technology is inherently elitist, colonialist, racist, etc.}}{52}{}%
-\contentsline {subsubsection}{\hlc [cyan]{GIS and Mapping}}{55}{}%
-\contentsline {subsubsection}{\hlc [cyan]{Technocratic Planning and International Development}}{59}{}%
-\contentsline {subsubsection}{\hlc [red]{Systems Engineering}}{65}{}%
-\contentsline {subsection}{\numberline {2.4.2}\hlc [red]{Sustainable Development and the SDGs}}{72}{}%
-\contentsline {subsection}{\numberline {2.4.3}\hlc [red]{Scenario Planning and Decision-Support is unfounded}}{74}{}%
-\contentsline {chapter}{\numberline {3}\hlc [red]{Methodology}}{77}{}%
-\contentsline {section}{\numberline {3.1}\hlc [red]{Mapping and Visualization}}{77}{}%
+\contentsline {section}{\numberline {2.2}\hlc [red]{EVDT Framework}}{49}{}%
+\contentsline {section}{\numberline {2.3}\hlc [red]{Intended Use Cases / Applications}}{52}{}%
+\contentsline {section}{\numberline {2.4}\hlc [yellow]{Critiques}}{53}{}%
+\contentsline {subsection}{\numberline {2.4.1}\hlc [cyan]{Technology is inherently elitist, colonialist, racist, etc.}}{54}{}%
+\contentsline {subsubsection}{\hlc [cyan]{GIS and Mapping}}{56}{}%
+\contentsline {subsubsection}{\hlc [cyan]{Technocratic Planning and International Development}}{60}{}%
+\contentsline {subsubsection}{\hlc [red]{Systems Engineering}}{67}{}%
+\contentsline {subsection}{\numberline {2.4.2}\hlc [red]{Sustainable Development and the SDGs}}{74}{}%
+\contentsline {subsection}{\numberline {2.4.3}\hlc [red]{Scenario Planning and Decision-Support is unfounded}}{76}{}%
+\contentsline {chapter}{\numberline {3}\hlc [red]{Methodology}}{79}{}%
+\contentsline {section}{\numberline {3.1}\hlc [red]{Mapping and Visualization}}{79}{}%
+\contentsline {chapter}{\numberline {4}\hlc [red]{Rio de Janeiro Mangroves}}{83}{}%
+\contentsline {section}{\numberline {4.1}\hlc [red]{Study Area}}{83}{}%
+\contentsline {section}{\numberline {4.2}\hlc [red]{EVDT Application}}{83}{}%
+\contentsline {chapter}{\numberline {5}\hlc [red]{Vida Decision Support System}}{85}{}%
+\contentsline {section}{\numberline {5.1}\hlc [red]{Study Areas}}{85}{}%
+\contentsline {section}{\numberline {5.2}\hlc [red]{Vida Variant of EVDT}}{85}{}%
+\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion}}{87}{}%
+\contentsline {section}{\numberline {6.1}\hlc [red]{Lessons Learned}}{87}{}%
+\contentsline {section}{\numberline {6.2}\hlc [red]{The Future of EVDT}}{87}{}%
+\contentsline {chapter}{\numberline {7}\hlc [red]{Conclusion}}{89}{}%
+\contentsline {section}{\numberline {7.1}\hlc [red]{Research Questions}}{89}{}%
