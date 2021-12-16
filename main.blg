@@ -17,45 +17,45 @@ Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
 Warning--empty publisher in goodchildOverviewDefinitionGIS1992
 Warning--empty journal in hayesRaysHopeTransition1977
 Warning--empty year in simoniteWhatReallyHappened
-You've used 188 entries,
+You've used 189 entries,
             1791 wiz_defined-function locations,
-            1615 strings with 43379 characters,
-and the built_in function-call counts, 43522 in all, are:
-= -- 4062
-> -- 1647
+            1620 strings with 43314 characters,
+and the built_in function-call counts, 43642 in all, are:
+= -- 4070
+> -- 1651
 < -- 38
-+ -- 634
-- -- 446
-* -- 2949
-:= -- 6804
-add.period$ -- 604
-call.type$ -- 188
-change.case$ -- 197
++ -- 636
+- -- 447
+* -- 2952
+:= -- 6821
+add.period$ -- 606
+call.type$ -- 189
+change.case$ -- 198
 chr.to.int$ -- 0
-cite$ -- 192
-duplicate$ -- 2083
-empty$ -- 4455
-format.name$ -- 446
-if$ -- 9831
+cite$ -- 193
+duplicate$ -- 2088
+empty$ -- 4473
+format.name$ -- 447
+if$ -- 9859
 int.to.chr$ -- 0
-int.to.str$ -- 188
+int.to.str$ -- 189
 missing$ -- 199
-newline$ -- 938
-num.names$ -- 256
-pop$ -- 618
+newline$ -- 942
+num.names$ -- 257
+pop$ -- 625
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 827
+skip$ -- 831
 stack$ -- 0
 substring$ -- 2666
-swap$ -- 429
+swap$ -- 430
 text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 469
-width$ -- 191
-write$ -- 2122
+while$ -- 470
+width$ -- 192
+write$ -- 2130
 (There were 4 warnings)

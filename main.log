@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  11 AUG 2021 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  10 NOV 2021 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,7 +595,7 @@ Underfull \vbox (badness 5652) has occurred while \output is active []
 
  [39]
 [40] [41] [42] [43] [44]
-Overfull \hbox (41.17133pt too wide) in paragraph at lines 354--368
+Overfull \hbox (41.17133pt too wide) in paragraph at lines 356--370
  [] 
  []
 
@@ -606,60 +606,85 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
  [46]
-[47]
+[47] [48]
 Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 434.
- [48]
+although it is yet undefined on input line 436.
 Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
-although it is yet undefined on input line 439.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:cas' newly defined as it shall be overridden
-although it is yet undefined on input line 456.
- [49]
+although it is yet undefined on input line 458.
+
+Overfull \hbox (57.2446pt too wide) in paragraph at lines 460--461
+[]\T1/cmr/m/n/12 Refer to Ufuoma's pa-per https://www.frontiersin.org/articles/
+10.3389/fclim.2021.717418/full 
+ []
+
+[49]
 Package acronym Info: Label `acro:ilute' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 466.
+although it is yet undefined on input line 470.
+ [50]
 Package acronym Info: Label `acro:ppbs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 480.
- [50] [51]
+although it is yet undefined on input line 484.
+ [51]
 Package acronym Info: Label `acro:cpr' newly defined as it shall be overridden
-although it is yet undefined on input line 523.
- [52] [53] [54] [55] [56] [57]
+although it is yet undefined on input line 527.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52]
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [53]
+[54] [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [57]
 <Figures/chap2/gis_equity.png, id=217, 932.48375pt x 756.8275pt>
 File: Figures/chap2/gis_equity.png Graphic file (type png)
 <use Figures/chap2/gis_equity.png>
-Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 607.
+Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 611.
 (pdftex.def)             Requested size: 279.74728pt x 227.05pt.
- [58 <./Figures/chap2/gis_equity.png>]
+
+[58 <./Figures/chap2/gis_equity.png>]
 Underfull \vbox (badness 1675) has occurred while \output is active []
 
  [59]
-[60] [61] [62] [63]
 Underfull \vbox (badness 5652) has occurred while \output is active []
 
- [64]
+ [60]
+[61] [62]
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [63]
+[64]
 Underfull \vbox (badness 1675) has occurred while \output is active []
 
  [65]
-[66]
+[66] [67]
 Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 725.
- [67] [68] [69] [70]
+although it is yet undefined on input line 729.
+ [68] [69] [70]
 <Figures/chap2/friedman_timeline.png, id=260, 987.69pt x 554.07pt>
 File: Figures/chap2/friedman_timeline.png Graphic file (type png)
 <use Figures/chap2/friedman_timeline.png>
 Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
-e 761.
+e 765.
 (pdftex.def)             Requested size: 641.9909pt x 360.14124pt.
  [71 <./Figures/chap2/friedman_timeline.png>]
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 788--789
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 792--793
  []| 
  []
 
 
-Overfull \hbox (110.96558pt too wide) in paragraph at lines 789--790
+Overfull \hbox (110.96558pt too wide) in paragraph at lines 793--794
  []| 
  []
 
@@ -677,7 +702,7 @@ Underfull \vbox (badness 4634) has occurred while \output is active []
 File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
 <use Figures/chap2/sustainable_triangle.png>
 Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
-line 861.
+line 865.
 (pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
 
 
@@ -688,13 +713,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Figures/chap2/dresden_projections.png Graphic file (type png)
 <use Figures/chap2/dresden_projections.png>
 Package pdftex.def Info: Figures/chap2/dresden_projections.png  used on input l
-ine 886.
+ine 890.
 (pdftex.def)             Requested size: 232.57236pt x 169.68648pt.
  [76 <./Figures/chap2/sustainable_triangle.png>] [77 <./Figures/chap2/dresden_p
 rojections.png>]
 Package acronym Info: Label `acro:lunr' newly defined as it shall be overridden
 
-although it is yet undefined on input line 910.
+although it is yet undefined on input line 914.
 ) [78]
 \openout2 = `chap3.aux'.
 
@@ -715,12 +740,18 @@ Overfull \hbox (0.71855pt too wide) in paragraph at lines 40--114
 
  (./chap4.tex
 Chapter 4.
+<Figures/chap4/Stakeholder_Map_v2.jpg, id=304, 1085.05376pt x 875.27pt>
+File: Figures/chap4/Stakeholder_Map_v2.jpg Graphic file (type jpg)
+<use Figures/chap4/Stakeholder_Map_v2.jpg>
+Package pdftex.def Info: Figures/chap4/Stakeholder_Map_v2.jpg  used on input li
+ne 9.
+(pdftex.def)             Requested size: 325.51863pt x 262.58302pt.
 ) [83
 
 
 
 
-]
+ <./Figures/chap4/Stakeholder_Map_v2.jpg>]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex [84
@@ -785,17 +816,17 @@ sible-damage-
  []
 
 [94] [95] [96] [97] [98] [99]
-Underfull \hbox (badness 10000) in paragraph at lines 724--727
+Underfull \hbox (badness 10000) in paragraph at lines 728--731
 []\T1/cmr/m/n/12 Bottlenecks Block-ing Widespread Us-age of Plan-ning Sup-port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--727
+Underfull \hbox (badness 10000) in paragraph at lines 728--731
 \T1/cmr/m/n/12 Sys-tems - Guido Vonk, Stan Geert-man, Paul Schot, 2005.
  []
 
 [100]
-Underfull \hbox (badness 10000) in paragraph at lines 828--833
+Underfull \hbox (badness 10000) in paragraph at lines 832--837
 \T1/cmr/m/n/12 https://www.project-syndicate.org/commentary/five-reasons-for-op
 timism-in-
  []
@@ -805,10 +836,10 @@ timism-in-
 (./chap6.aux) (./chap7.aux) (./biblio.aux)) )
 (\end occurred when \ifx on line 80 was incomplete) 
 Here is how much of TeX's memory you used:
- 5400 strings out of 481134
- 79617 string characters out of 5913146
- 410381 words of memory out of 5000000
- 22147 multiletter control sequences out of 15000+600000
+ 5408 strings out of 481134
+ 79890 string characters out of 5913146
+ 407617 words of memory out of 5000000
+ 22153 multiletter control sequences out of 15000+600000
  418544 words of font info for 54 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  68i,17n,74p,2244b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -829,10 +860,10 @@ n/ec/tcrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1728.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour
 /jknappen/ec/ecrm1440.600pk> </home/jackreid/.texlive2020/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx1728.600pk>
-Output written on main.pdf (105 pages, 1748968 bytes).
+Output written on main.pdf (105 pages, 1864586 bytes).
 PDF statistics:
  958 PDF objects out of 1000 (max. 8388607)
  294 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

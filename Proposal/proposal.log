@@ -1,0 +1,771 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  10 NOV 2021 18:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**proposal.tex
+(./proposal.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count188
+\U@D=\dimen147
+\l@babelnohyphens=\language9
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count189
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language3) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language3) on input line 108.
+))
+(/usr/share/texmf/tex/latex/morewrites/morewrites.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count190
+\l__pdf_internal_box=\box47
+))
+(/usr/share/texmf/tex/latex/morewrites/primargs.sty
+Package: primargs 2018/12/29 Parsing arguments of primitives
+)
+Package: morewrites 2018/12/29 Always room for a new write
+\g__morewrites_later_int=\count191
+\l__morewrites_user_int=\count192
+\g__morewrites_iow=\write3
+\g__morewrites_ior=\read3
+\g__morewrites_group_level_int=\count193
+\g__morewrites_shipout_box=\box48
+\l__morewrites_collect_next_int=\count194
+\g__morewrites_alloc_write_int=\count195
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count196
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count197
+\decimalpart=\count198
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip49
+\thanksmargin=\skip50
+\droptitle=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+\csq@reset=\count266
+\csq@gtype=\count267
+\csq@glevel=\count268
+\csq@qlevel=\count269
+\csq@maxlvl=\count270
+\csq@tshold=\count271
+\csq@ltx@everypar=\toks23
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks24
+\SOUL@lasttoken=\toks25
+\SOUL@cmds=\toks26
+\SOUL@buffer=\toks27
+\SOUL@token=\toks28
+\SOUL@spaceskip=\skip52
+\SOUL@ttwidth=\dimen150
+\SOUL@uldp=\dimen151
+\SOUL@ulht=\dimen152
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box49
+\extrarowheight=\dimen154
+\NC@list=\toks29
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box50
+)
+\everycr=\toks30
+\minrowclearance=\skip55
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count272
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen155
+\enit@toks=\toks31
+\enit@inbox=\box51
+\enit@count@id=\count273
+\enitdp@description=\count274
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count275
+\mult@box=\box52
+\multicol@leftmargin=\dimen156
+\c@unbalance=\count276
+\c@collectmore=\count277
+\doublecol@number=\count278
+\multicoltolerance=\count279
+\multicolpretolerance=\count280
+\full@width=\dimen157
+\page@free=\dimen158
+\premulticols=\dimen159
+\postmulticols=\dimen160
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box53
+\last@line=\box54
+\maxbalancingoverflow=\dimen161
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@gfirstbox=\box57
+\mult@firstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count281
+\c@columnbadness=\count282
+\c@finalcolumnbadness=\count283
+\last@try=\dimen162
+\multicolovershoot=\dimen163
+\multicolundershoot=\dimen164
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count285
+\multirow@dima=\skip60
+\bigstrutjot=\dimen165
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (./proposal.aux)
+\openout1 = `proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen166
+\scratchbox=\box98
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen167
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks33
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout3 = `proposal.mw'.
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
+although it is yet undefined on input line 239.
+Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
+although it is yet undefined on input line 239.
+Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
+although it is yet undefined on input line 239.
+Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:dss' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
+
+although it is yet undefined on input line 247.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+\openout3 = `proposal.mw'.
+
+ [2
+
+]
+(./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:nasa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 258.
+\openout3 = `proposal.mw'.
+
+ [3] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:un' newly defined as it shall be overridden
+although it is yet undefined on input line 288.
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/Pl
+anetary_Boundaries.png, id=19, 739.76375pt x 594.22pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
+p2/Planetary_Boundaries.png Graphic file (type png)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+2/Planetary_Boundaries.png>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/chap2/Planetary_Boundaries.png  used on input line 292.
+(pdftex.def)             Requested size: 221.93083pt x 178.26736pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout3 = `proposal.mw'.
+
+[4] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/vu
+lnerability_map.jpg, id=24, 247.50662pt x 148.40729pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
+p2/vulnerability_map.jpg Graphic file (type jpg)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+2/vulnerability_map.jpg>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/chap2/vulnerability_map.jpg  used on input line 301.
+(pdftex.def)             Requested size: 297.00644pt x 178.08784pt.
+\openout3 = `proposal.mw'.
+
+ [5 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+2/Planetary_Boundaries.png> </home/jackreid/Documents/School/Research/Space_Ena
+bled/Thesis/Figures/chap2/vulnerability_map.jpg>]
+(./proposal.mw)
+\openout3 = `proposal.mw'.
+
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/se
+rvices_wellbeing.png, id=29, 1052.93375pt x 750.805pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
+p2/services_wellbeing.png Graphic file (type png)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+2/services_wellbeing.png>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/chap2/services_wellbeing.png  used on input line 347.
+(pdftex.def)             Requested size: 263.23279pt x 187.70079pt.
+Package acronym Info: Label `acro:esa' newly defined as it shall be overridden
+although it is yet undefined on input line 355.
+Package acronym Info: Label `acro:jaxa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 355.
+Package acronym Info: Label `acro:eoc' newly defined as it shall be overridden
+although it is yet undefined on input line 355.
+Package acronym Info: Label `acro:cbers' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 355.
+Package acronym Info: Label `acro:modis' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 375.
+Package acronym Info: Label `acro:viirs' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 375.
+Package acronym Info: Label `acro:gpm' newly defined as it shall be overridden
+although it is yet undefined on input line 375.
+Package acronym Info: Label `acro:icesat2' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 375.
+Package acronym Info: Label `acro:swot' newly defined as it shall be overridden
+
+although it is yet undefined on input line 375.
+\openout3 = `proposal.mw'.
+
+ [6 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+2/services_wellbeing.png>] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:geo' newly defined as it shall be overridden
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:ceos' newly defined as it shall be overridden
+
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:usgs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:noaa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:usaid' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:servir' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:fews' newly defined as it shall be overridden
+
+although it is yet undefined on input line 377.
+Package acronym Info: Label `acro:fema' newly defined as it shall be overridden
+
+although it is yet undefined on input line 379.
+\openout3 = `proposal.mw'.
+
+ [7] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:gisc' newly defined as it shall be overridden
+
+although it is yet undefined on input line 388.
+Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 433.
+Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
+
+although it is yet undefined on input line 433.
+Package acronym Info: Label `acro:pss' newly defined as it shall be overridden
+although it is yet undefined on input line 433.
+\openout3 = `proposal.mw'.
+
+
+[8] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [9] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 590.
+\openout3 = `proposal.mw'.
+
+ [10] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:sdg' newly defined as it shall be overridden
+although it is yet undefined on input line 619.
+\openout3 = `proposal.mw'.
+
+ [11]
+(./proposal.mw)
+\openout3 = `proposal.mw'.
+
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/modelflo
+w.png, id=50, 1228.59pt x 676.5275pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mod
+elflow.png Graphic file (type png)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mode
+lflow.png>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/modelflow.png  used on input line 634.
+(pdftex.def)             Requested size: 368.57985pt x 202.95981pt.
+\openout3 = `proposal.mw'.
+
+ [12 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mod
+elflow.png>] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:ipp' newly defined as it shall be overridden
+although it is yet undefined on input line 658.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Package acronym Info: Label `acro:ufrj' newly defined as it shall be overridden
+
+although it is yet undefined on input line 658.
+\openout3 = `proposal.mw'.
+
+ [13]
+(./proposal.mw)
+\openout3 = `proposal.mw'.
+
+Package acronym Info: Label `acro:sets' newly defined as it shall be overridden
+
+although it is yet undefined on input line 673.
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap4/St
+akeholder_Map_v2.jpg, id=59, 1085.05376pt x 875.27pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
+p4/Stakeholder_Map_v2.jpg Graphic file (type jpg)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+4/Stakeholder_Map_v2.jpg>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/chap4/Stakeholder_Map_v2.jpg  used on input line 685.
+(pdftex.def)             Requested size: 271.26277pt x 218.81696pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/architec
+ture.png, id=60, 909.3975pt x 510.90875pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/arc
+hitecture.png Graphic file (type png)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/arch
+itecture.png>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/architecture.png  used on input line 693.
+(pdftex.def)             Requested size: 272.82135pt x 153.2738pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout3 = `proposal.mw'.
+
+[14] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+\openout3 = `proposal.mw'.
+
+ [15 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
+p4/Stakeholder_Map_v2.jpg> </home/jackreid/Documents/School/Research/Space_Enab
+led/Thesis/Figures/architecture.png>] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+</home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Graphic_
+2_Development.png, id=68, 1636.1125pt x 475.7775pt>
+File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Gra
+phic_2_Development.png Graphic file (type png)
+<use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Grap
+hic_2_Development.png>
+Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
+/Thesis/Figures/Graphic_2_Development.png  used on input line 705.
+(pdftex.def)             Requested size: 409.02713pt x 118.94408pt.
+\openout3 = `proposal.mw'.
+
+ [16 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Gra
+phic_2_Development.png>] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+
+(./proposal.bbl
+\openout3 = `proposal.mw'.
+
+ [17] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [18] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [19] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
+[]\OT1/cmr/m/n/10 Systems En-gi-neer-ing Body of Knowl-edge.  Sys-tems En-gi-ne
+er-ing (glos-sary).
+ []
+
+\openout3 = `proposal.mw'.
+
+[20] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [21] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [22] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [23]
+(./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [24] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--914
+[]\OT1/cmr/m/n/10 Jack Reid, Sea-mus Lom-bardo, and Danielle Wood.  MIT Vida Re
+pos-i-tory.
+ []
+
+)
+\openout3 = `proposal.mw'.
+
+ [25] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+ (./proposal.aux) ) 
+Here is how much of TeX's memory you used:
+ 7737 strings out of 481134
+ 114888 string characters out of 5913146
+ 448412 words of memory out of 5000000
+ 24534 multiletter control sequences out of 15000+600000
+ 407076 words of font info for 39 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 68i,7n,75p,2722b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jackreid/.texlive2020/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on proposal.pdf (25 pages, 1070014 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

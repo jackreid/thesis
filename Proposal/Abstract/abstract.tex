@@ -1,0 +1,185 @@
+ \documentclass[notitlepage]{report}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage{morewrites}
+
+%\selectlanguage{spanish}
+\usepackage[utf8x]{inputenc}
+\usepackage[nolist]{acronym}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{titling}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%SETTING BIBLIOGRAPHY FORMAT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multibbl}
+\addto{\captionsenglish}{\renewcommand{\bibname}{}}
+\renewcommand{\bibname}{}
+\patchcmd{\thebibliography}{\chapter*}{\subsection*}{}{}
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{%
+  \oldbibliography{#1}%
+  \setlength{\itemsep}{0pt}%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%CUSTOM COMMANDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ReadingList}[2]{
+	\subsection*{#1}
+	\addcontentsline{toc}{subsection}{#1}
+	\newbibliography{#2}
+
+	\nocite{#2}{*}
+	\bibliographystyle{#2}{unsrt}
+	\bibliography{#2}{#2}{}}
+
+\newcommand*{\Signature}[1]{
+    \par\noindent\makebox[1in]{Signature: } \makebox[5.5in]{\hrulefill} 
+    \par\noindent\hfill\makebox[2.5in][r]{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%EXAMINATION COMMITTEE NAMES AND CREDENTIALS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\compr}{Danielle Wood}
+\newcommand{\comte}{David Lagomasino}
+\newcommand{\comco}{Sarah Williams}
+
+\newcommand{\comprcredentials}{\newline\indent Assistant Professor of Media Arts and Sciences \newline\indent Program in Media Arts and Sciences \newline\indent Assistant Professor (Joint) of Aeronautics and Astronautics \newline\indent Department of Aeronautics and Astronautics \newline\indent Massachusetts Institute of Technology}
+
+\newcommand{\comtecredentials}{\newline\indent Assistant Professor of Coastal Studies \newline\indent Department of Coastal Studies \newline\indent East Carolina University}
+
+\newcommand{\comcocredentials}{\newline\indent Associate Professor of Technology and Urban Planning \newline\indent  Director of the Norman B. Leventhal Center for Advanced Urbanism \newline\indent Urban Science and Computer Science Program \newline\indent Department of Urban Studies and Planning \newline\indent Massachusetts Institute of Technology}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%AREA NAMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Apr}{Socio-environmental-technical Systems Design, Modeling, and Decision-Making}
+\newcommand{\Ate}{Remote Observation of Natural and Social Phenomena}
+\newcommand{\Aco}{Development, Data, and Justice in Socio-environmental-technical Systems}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ACRONYMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acronym}[VALUABLES]
+	\acro{eo}[EO]{earth observation}
+	\acro{nasa}[NASA]{National Aeronautics and Space Administration}
+%	\acro{usaid}[USAID]{United States Agency for International Development}
+%	\acro{servir}[SERVIR]{Sistema Regional De Visualizaci\'{o}n Y Monitoreo De Mesoam\'{e}rica}
+	\acro{eos}[EOS]{Earth Observation System}
+	%\acro{geo}[GEO]{Group of Earth Observations}
+	\acro{osse}[OSSE]{Observing System Simulation Experiment}
+	%\acro{un}[UN]{United Nations}
+	%\acro{mdg}[MDG]{Millennium Development Goal}
+	\acro{sdg}[SDG]{Sustainable Development Goal}
+	\acro{fews}[FEWS NET]{Famine Early Warning Systems Network}
+	%\acro{fema}[FEMA]{Federal Emergency Management Agency}
+	%\acro{jpl}[JPL]{Jet Propulsion Laboratory}
+	%\acro{dod}[DoD]{Department of Defense}
+	\acro{osse}[OSSE]{Observing System Simulation Experiment}
+	\acro{ngo}[NGO]{non-governmental organization}
+	\acro{noaa}[NOAA]{National Oceanic and Atmospheric Administration}
+	%\acro{firms}[FIRMS]{Fire Information for Resource Management System}
+	\acro{ceos}[CEOS]{Committee on Earth Observation Satellites}
+	\acro{gis}[GIS]{geospatial information system}
+	%\acro{esa}[ESA]{European Space Agency}
+	%\acro{cbers}[CBERS]{China-Brazil Earth Resources Satellite Program}
+	%\acro{jaxa}[JAXA]{Japan Aerospace Exploration Agency}
+	%\acro{eoc}[EOC]{Earth Observation Center}
+	%\acro{usgs}[USGS]{US Geological Survey}
+	%\acro{ipcc}[IPCC]{Intergovernmental Panel on Climate Change}
+	%\acro{cad}[CAD]{computer-aided design}
+	%\acro{arl}[ARL]{Application Readiness Level}
+	%\acro{trl}[TRL]{Technology Readiness Level}
+	%\acro{mbse}[MBSE]{model-based systems engineering}
+	%\acro{siurb}[SIURB]{Sistema Municipal de Informa\c{c}\~{o}es Urbanas}
+	\acro{dss}[DSS]{decision support system}
+	\acro{evdt}[EVDT]{Environment, Vulnerability, Decision-Making, Technology}
+\end{acronym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TITLE PAGE & TABLE OF CONTENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pretitle{\begin{center}\Huge\bfseries}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\Large\ttfamily}
+\postauthor{\end{center}}
+\predate{\par\large\centering}
+\postdate{\par}
+
+\title{Using Earth Observation-Informed Modeling to Inform Sustainable Development Decision-Making \\  
+\large Ph.D. Thesis Proposal Abstract and Committee Members} 
+\author{%
+Jack Reid\\ 
+Space Enabled Research Group\\
+MIT Media Lab\\
+jackreid@mit.edu}
+
+\maketitle
+
+\section*{ }
+Dear Professor Machover and the MAS Committee,
+\vspace{\baselineskip}
+
+\noindent This is to inform you that Jack Reid intends to develop a thesis on the subject matter described in the below abstract and under the supervision of the listed committee, whose short biographies are available following the abstract.
+
+\vspace{\baselineskip}
+
+\textbf{\compr} \comprcredentials 
+ 
+\vspace{\baselineskip}
+
+\textbf{\comte} \comtecredentials
+
+\vspace{\baselineskip}
+
+\textbf{\comco} \comcocredentials
+
+\thispagestyle{plain}
+\pagestyle{plain}
+
+%\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{\vspace{-2.0cm}Abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%[A short overview of the key goals, questions, and expected contributions.]
+\vspace{-1.0cm}
+Over the past two decades satellite-based remote observation has blossomed. We have seen a rapid increase in the number of \acp{eos} in orbit, significant improvements in their capabilities, and much greater availability of the data that they produce. This trend has occurred as part of a greater trend of increasing data availability, computational power, and modeling ability. Unfortunately, up until now, this \ac{eo} data has been largely used only by governments and academics for scientific purposes, typically to understand and predict environmental phenomena. Large corporations and \acp{ngo} have recently been conducting their own analyses, but these have required significant expertise and resources, and the results have sadly been mostly unavailable to the broader public. 
+
+There is a real need for (a) making remote observation data not just available but accessible to a broader audience by developing data products that are relevant to everyday individuals, particularly those involved in local, rather than national or global decision-making; (b) linking the \ac{eo}-supported environmental modeling with the societal impact of a changing environment; and (c) putting policy and sensor design decision-making in the hands of a broader population. 
+
+This work aims to demonstrate the viability of a particular methodology for achieving (a) and (b), while laying the groundwork for a more detailed consideration of (c). To that end, this work centers on exploring the efficacy and difficulties of \textbf{\textit{collaboratively developing}} a \textbf{\textit{systems-architecture-informed}}, multidisciplinary \textbf{\textit{\ac{gis} \ac{dss}}} for \textbf{\textit{sustainable development}} applications that makes significant use of \textbf{\textit{remote observation data}}. 
+
+This is done through the development and evaluation of \acp{dss} for two primary applications: (1) mangrove forest management and conservation in the state of Rio de Janeiro, Brazil; and (2) coronavirus response in six metropolitan areas across Angola, Brazil, Chile, Indonesia, Mexico, and the United States. In both cases, the methodology involves the application the system architecture framework, an approach that has been previously adapted from the aerospace engineering discipline by Prof. Wood for use in sociotechnical systems. This includes using stakeholder mapping and network analysis to inform the design of the \ac{dss} in question. Other components of the methodology taken in this work are developing the \ac{dss} through an iterative and collaborative process with specific stakeholders; pursuing targeted, related analyses, such as on the value of certain ecosystem services, the value of remote sensing information, and human responses to various policies; and evaluating the usefulness of both the \ac{dss} and the development process through interviews, workshops, and other feedback mechanisms.
+
+All of this takes place under the umbrella of the \ac{evdt} Modeling Framework for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development. As the name suggests, \ac{evdt} integrates four models into one tool: the Environment (data including Landsat, Sentinel, VIIRs, Planet Lab’s PlanetScope, etc.; Human Vulnerability and Societal Impact (data including census and survey-based demographic data, NASA’s Socioeconomic Data and Applications Center, etc.); Human Behavior and Decision-Making (data including policy histories, mobility data, and urban nightlight data); and Technology Design for earth observation systems including satellites, airborne platforms and in-situ sensors (data including design parameter vectors for such systems). The data from each of these domains is used by established models in each domain, which are adapted to work in concert to address the needs identified during the stakeholder analysis. This framework is currently being used by several researchers in the Space Enabled Research Group and elsewhere. The capabilities provided by this framework will improve the management of earth observation and socioeconomic data in a format usable by non-experts, while harnessing cloud computing, machine learning, economic analysis, complex systems modeling, and model-based systems engineering.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{\vspace{-2.0cm}Thesis Committee Biographies}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Prof. Danielle Wood}
+
+Danielle Wood is an Assistant Professor in the Program in Media Arts \& Sciences and holds a joint appointment in the Department of Aeronautics \& Astronautics at MIT. Within the Media Lab, Prof. Wood leads the Space Enabled Research Group which seeks to advance justice in Earth's complex systems using designs enabled by space. Prof. Wood is a scholar of societal development with a background that includes satellite design, earth science applications, systems engineering, and technology policy. In her research, Prof. Wood applies these skills to design innovative systems that harness space technology to address development challenges around the world. Prior to serving as faculty at MIT, Professor Wood held positions at \ac{nasa} Headquarters, \ac{nasa} Goddard Space Flight Center, Aerospace Corporation, Johns Hopkins University, and the United Nations Office of Outer Space Affairs. Prof. Wood studied at MIT, where she earned a Ph.D. in engineering systems, S.M. in aeronautics and astronautics, S.M. in technology policy, and S.B. in aerospace engineering.
+
+\section*{Prof. David Lagomasino}
+
+David Lagomasino is an Assistant Professor in the Department of Coastal Studies at East Carolina University. He previously studied at Florida International University, where he received a B.S. and a Ph.D. in Geological Sciences, in between which he received a M.S. in Geology at East Carolina University. Lagomasino uses satellite, airborne, drone, and ground measurements to identify areas of coastal resilience and vulnerability. His research links remotely sensed spatial data directly with stakeholders in order to address exposure and sensitivity issues for coastal/wetland management and ecosystem valuation. He has been involved in a number of  coastal blue carbon projects with funding from NASA’s Carbon Monitoring Systems Program,  NASA’s Biodiversity and Forecasting Program, USDA’s National Forest Inventory Assessment Program,  NASA’s New Investigator Program, and the Center for International Forestry. His goal is to provide meaningful information that will better inform coastal management practices while also inspiring students and the community to become environmental stewards in order to help sustain our coastal resources. Prior to his current post, he conducted research at NASA’s Goddard Space Flight Center just outside Washington, D.C., in partnership with the University of Maryland, to develop models that measure the where when, and why shorelines are the world are changing.
+
+\section*{Prof. Sarah Williams}
+
+Sarah Williams is currently an Associate Professor of Technology and Urban Planning in the Department of Urban Studies and Planning at MIT. She also is Director of the Civic Data Design Lab at MIT's School of Architecture and Planning and the Director of the Norman B. Leventhal Center for Advanced Urbanism. Trained as a Geographer (Clark University), Landscape Architect (University of Pennsylvania), and Urban Planner (MIT), Williams's work combines geographic analysis and design. Williams is most well known for her work as part of the \emph{Million Dollar Blocks} team which highlighted the cost of incarceration, \emph{Digital Matatus} which developed the first data set on a informal transit system searchable in Google Maps, and a more a recent project that uses social media data to understand housing vacancy and \emph{Ghost Cities in China}.
+
+\end{document}

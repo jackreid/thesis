@@ -16,12 +16,12 @@
 \contentsline {subsubsection}{\hlc [cyan]{Why Collaborative and Open Source?}}{37}{}%
 \contentsline {subsubsection}{\hlc [red]{Why Scenario Planning and Decision Support?}}{41}{}%
 \contentsline {subsection}{\numberline {2.1.5}\hlc [red]{Why Systems Engineering?}}{45}{}%
-\contentsline {section}{\numberline {2.2}\hlc [red]{EVDT Framework}}{49}{}%
+\contentsline {section}{\numberline {2.2}\hlc [red]{EVDT Framework}}{50}{}%
 \contentsline {section}{\numberline {2.3}\hlc [red]{Intended Use Cases / Applications}}{52}{}%
 \contentsline {section}{\numberline {2.4}\hlc [yellow]{Critiques}}{53}{}%
 \contentsline {subsection}{\numberline {2.4.1}\hlc [cyan]{Technology is inherently elitist, colonialist, racist, etc.}}{54}{}%
-\contentsline {subsubsection}{\hlc [cyan]{GIS and Mapping}}{56}{}%
-\contentsline {subsubsection}{\hlc [cyan]{Technocratic Planning and International Development}}{60}{}%
+\contentsline {subsubsection}{\hlc [cyan]{GIS and Mapping}}{57}{}%
+\contentsline {subsubsection}{\hlc [cyan]{Technocratic Planning and International Development}}{61}{}%
 \contentsline {subsubsection}{\hlc [red]{Systems Engineering}}{67}{}%
 \contentsline {subsection}{\numberline {2.4.2}\hlc [red]{Sustainable Development and the SDGs}}{74}{}%
 \contentsline {subsection}{\numberline {2.4.3}\hlc [red]{Scenario Planning and Decision-Support is unfounded}}{76}{}%

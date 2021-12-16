@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proposal.aux
+The style file: unsrt.bst
+Database file #1: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/main.bib
+Warning--empty publisher in goodchildOverviewDefinitionGIS1992
+Warning--empty institution in sussmanTeachingComplexSociotechnical2010
+Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
+Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
+Warning--empty school in martinFrameworkQuantifyingComplexity2004
+You've used 143 entries,
+            1791 wiz_defined-function locations,
+            1363 strings with 38625 characters,
+and the built_in function-call counts, 33731 in all, are:
+= -- 3070
+> -- 1479
+< -- 33
++ -- 554
+- -- 411
+* -- 2254
+:= -- 5291
+add.period$ -- 455
+call.type$ -- 143
+change.case$ -- 142
+chr.to.int$ -- 0
+cite$ -- 148
+duplicate$ -- 1598
+empty$ -- 3319
+format.name$ -- 411
+if$ -- 7621
+int.to.chr$ -- 0
+int.to.str$ -- 143
+missing$ -- 144
+newline$ -- 716
+num.names$ -- 176
+pop$ -- 502
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 697
+stack$ -- 0
+substring$ -- 1923
+swap$ -- 378
+text.length$ -- 33
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 330
+width$ -- 146
+write$ -- 1608
+(There were 5 warnings)
