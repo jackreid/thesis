@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  9 NOV 2021 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  21 DEC 2021 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,20 +178,20 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 (./abstract.aux)
 \openout1 = `abstract.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -261,18 +261,18 @@ e
 \openout3 = `abstract.mw'.
 
 Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
-although it is yet undefined on input line 156.
+although it is yet undefined on input line 157.
 Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
-although it is yet undefined on input line 156.
+although it is yet undefined on input line 157.
 Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
-although it is yet undefined on input line 156.
+although it is yet undefined on input line 157.
 Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
-although it is yet undefined on input line 160.
+although it is yet undefined on input line 161.
 Package acronym Info: Label `acro:dss' newly defined as it shall be overridden
-although it is yet undefined on input line 160.
+although it is yet undefined on input line 161.
 Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
 
-although it is yet undefined on input line 164.
+although it is yet undefined on input line 165.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -285,9 +285,11 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 (./abstract.mw)
 \openout3 = `abstract.mw'.
 
+Package acronym Info: Label `acro:mit' newly defined as it shall be overridden
+although it is yet undefined on input line 176.
 Package acronym Info: Label `acro:nasa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 175.
+although it is yet undefined on input line 176.
 \openout3 = `abstract.mw'.
 
  [3
@@ -297,11 +299,11 @@ although it is yet undefined on input line 175.
 
  (./abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 4456 strings out of 481134
- 65497 string characters out of 5913146
- 386995 words of memory out of 5000000
- 21362 multiletter control sequences out of 15000+600000
- 406428 words of font info for 37 fonts, out of 8000000 for 9000
+ 4460 strings out of 481134
+ 65548 string characters out of 5913146
+ 387134 words of memory out of 5000000
+ 21367 multiletter control sequences out of 15000+600000
+ 406082 words of font info for 36 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  68i,4n,75p,1575b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
@@ -309,12 +311,11 @@ m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on abstract.pdf (3 pages, 96805 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on abstract.pdf (3 pages, 85350 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
