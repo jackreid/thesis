@@ -8,45 +8,45 @@ Warning--empty institution in sussmanTeachingComplexSociotechnical2010
 Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--empty school in martinFrameworkQuantifyingComplexity2004
-You've used 143 entries,
+You've used 144 entries,
             1791 wiz_defined-function locations,
-            1363 strings with 38625 characters,
-and the built_in function-call counts, 33731 in all, are:
-= -- 3070
-> -- 1479
+            1369 strings with 38905 characters,
+and the built_in function-call counts, 33862 in all, are:
+= -- 3081
+> -- 1483
 < -- 33
-+ -- 554
-- -- 411
-* -- 2254
-:= -- 5291
-add.period$ -- 455
-call.type$ -- 143
-change.case$ -- 142
++ -- 556
+- -- 412
+* -- 2257
+:= -- 5311
+add.period$ -- 458
+call.type$ -- 144
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 148
-duplicate$ -- 1598
-empty$ -- 3319
-format.name$ -- 411
-if$ -- 7621
+cite$ -- 149
+duplicate$ -- 1603
+empty$ -- 3337
+format.name$ -- 412
+if$ -- 7652
 int.to.chr$ -- 0
-int.to.str$ -- 143
+int.to.str$ -- 144
 missing$ -- 144
-newline$ -- 716
-num.names$ -- 176
-pop$ -- 502
+newline$ -- 721
+num.names$ -- 177
+pop$ -- 508
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 697
+skip$ -- 700
 stack$ -- 0
 substring$ -- 1923
-swap$ -- 378
+swap$ -- 379
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 330
-width$ -- 146
-write$ -- 1608
+while$ -- 331
+width$ -- 147
+write$ -- 1618
 (There were 5 warnings)

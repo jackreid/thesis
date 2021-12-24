@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  21 DEC 2021 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.10)  23 DEC 2021 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,20 +338,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 197.
+LaTeX Font Info:    ... okay on input line 197.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -421,18 +421,18 @@ e
 \openout3 = `proposal.mw'.
 
 Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
-although it is yet undefined on input line 240.
+although it is yet undefined on input line 242.
 Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
-although it is yet undefined on input line 240.
+although it is yet undefined on input line 242.
 Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
-although it is yet undefined on input line 240.
+although it is yet undefined on input line 242.
 Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
-although it is yet undefined on input line 244.
+although it is yet undefined on input line 246.
 Package acronym Info: Label `acro:dss' newly defined as it shall be overridden
-although it is yet undefined on input line 244.
+although it is yet undefined on input line 246.
 Package acronym Info: Label `acro:evdt' newly defined as it shall be overridden
 
-although it is yet undefined on input line 248.
+although it is yet undefined on input line 250.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -446,35 +446,34 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \openout3 = `proposal.mw'.
 
 Package acronym Info: Label `acro:mit' newly defined as it shall be overridden
-although it is yet undefined on input line 259.
+although it is yet undefined on input line 261.
 Package acronym Info: Label `acro:nasa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 259.
+although it is yet undefined on input line 261.
 \openout3 = `proposal.mw'.
 
  [3] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
+Package acronym Info: Label `acro:sets' newly defined as it shall be overridden
+
+although it is yet undefined on input line 288.
+\openout3 = `proposal.mw'.
+
+ [4] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
 Package acronym Info: Label `acro:un' newly defined as it shall be overridden
-although it is yet undefined on input line 289.
+although it is yet undefined on input line 314.
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/Pl
-anetary_Boundaries.png, id=18, 739.76375pt x 594.22pt>
+anetary_Boundaries.png, id=22, 739.76375pt x 594.22pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
 p2/Planetary_Boundaries.png Graphic file (type png)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
 2/Planetary_Boundaries.png>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/chap2/Planetary_Boundaries.png  used on input line 293.
+/Thesis/Figures/chap2/Planetary_Boundaries.png  used on input line 318.
 (pdftex.def)             Requested size: 221.93083pt x 178.26736pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-\openout3 = `proposal.mw'.
-
-[4] (./proposal.mw)
-\openout3 = `proposal.mw'.
-
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/vu
 lnerability_map.jpg, id=24, 247.50662pt x 148.40729pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
@@ -482,14 +481,16 @@ p2/vulnerability_map.jpg Graphic file (type jpg)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
 2/vulnerability_map.jpg>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/chap2/vulnerability_map.jpg  used on input line 302.
+/Thesis/Figures/chap2/vulnerability_map.jpg  used on input line 327.
 (pdftex.def)             Requested size: 297.00644pt x 178.08784pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 \openout3 = `proposal.mw'.
 
- [5 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
-2/Planetary_Boundaries.png> </home/jackreid/Documents/School/Research/Space_Ena
-bled/Thesis/Figures/chap2/vulnerability_map.jpg>]
-(./proposal.mw)
+[5 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2
+/Planetary_Boundaries.png>] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap2/se
@@ -499,61 +500,62 @@ p2/services_wellbeing.png Graphic file (type png)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
 2/services_wellbeing.png>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/chap2/services_wellbeing.png  used on input line 348.
+/Thesis/Figures/chap2/services_wellbeing.png  used on input line 373.
 (pdftex.def)             Requested size: 263.23279pt x 187.70079pt.
-Package acronym Info: Label `acro:esa' newly defined as it shall be overridden
-although it is yet undefined on input line 356.
-Package acronym Info: Label `acro:jaxa' newly defined as it shall be overridden
-
-although it is yet undefined on input line 356.
-Package acronym Info: Label `acro:eoc' newly defined as it shall be overridden
-although it is yet undefined on input line 356.
-Package acronym Info: Label `acro:cbers' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 356.
-Package acronym Info: Label `acro:modis' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 376.
-Package acronym Info: Label `acro:viirs' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 376.
-Package acronym Info: Label `acro:gpm' newly defined as it shall be overridden
-although it is yet undefined on input line 376.
-Package acronym Info: Label `acro:icesat2' newly defined as it shall be overrid
-den
-although it is yet undefined on input line 376.
-Package acronym Info: Label `acro:swot' newly defined as it shall be overridden
-
-although it is yet undefined on input line 376.
 \openout3 = `proposal.mw'.
 
  [6 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
-2/services_wellbeing.png>] (./proposal.mw)
+2/vulnerability_map.jpg> </home/jackreid/Documents/School/Research/Space_Enable
+d/Thesis/Figures/chap2/services_wellbeing.png>] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
+Package acronym Info: Label `acro:esa' newly defined as it shall be overridden
+although it is yet undefined on input line 381.
+Package acronym Info: Label `acro:jaxa' newly defined as it shall be overridden
+
+although it is yet undefined on input line 381.
+Package acronym Info: Label `acro:eoc' newly defined as it shall be overridden
+although it is yet undefined on input line 381.
+Package acronym Info: Label `acro:cbers' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 381.
+Package acronym Info: Label `acro:modis' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 401.
+Package acronym Info: Label `acro:viirs' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 401.
+Package acronym Info: Label `acro:gpm' newly defined as it shall be overridden
+although it is yet undefined on input line 401.
+Package acronym Info: Label `acro:icesat2' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 401.
+Package acronym Info: Label `acro:swot' newly defined as it shall be overridden
+
+although it is yet undefined on input line 401.
 Package acronym Info: Label `acro:geo' newly defined as it shall be overridden
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:ceos' newly defined as it shall be overridden
 
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:usgs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:noaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:usaid' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:servir' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:fews' newly defined as it shall be overridden
 
-although it is yet undefined on input line 378.
+although it is yet undefined on input line 403.
 Package acronym Info: Label `acro:fema' newly defined as it shall be overridden
 
-although it is yet undefined on input line 380.
+although it is yet undefined on input line 405.
 \openout3 = `proposal.mw'.
 
  [7] (./proposal.mw)
@@ -561,42 +563,41 @@ although it is yet undefined on input line 380.
 
 Package acronym Info: Label `acro:gisc' newly defined as it shall be overridden
 
-although it is yet undefined on input line 389.
+although it is yet undefined on input line 414.
+\openout3 = `proposal.mw'.
+
+ [8] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
 Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 434.
+although it is yet undefined on input line 459.
 Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
 
-although it is yet undefined on input line 434.
+although it is yet undefined on input line 459.
 Package acronym Info: Label `acro:pss' newly defined as it shall be overridden
-although it is yet undefined on input line 434.
+although it is yet undefined on input line 459.
 \openout3 = `proposal.mw'.
 
-
-[8] (./proposal.mw)
-\openout3 = `proposal.mw'.
-
-\openout3 = `proposal.mw'.
-
- [9] (./proposal.mw)
+ [9]
+(./proposal.mw)
 \openout3 = `proposal.mw'.
 
 Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 591.
+although it is yet undefined on input line 616.
 \openout3 = `proposal.mw'.
 
  [10] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
+\openout3 = `proposal.mw'.
+
+ [11] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
 Package acronym Info: Label `acro:sdg' newly defined as it shall be overridden
-although it is yet undefined on input line 620.
-\openout3 = `proposal.mw'.
-
- [11]
-(./proposal.mw)
-\openout3 = `proposal.mw'.
-
+although it is yet undefined on input line 645.
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/modelflo
 w.png, id=50, 1228.59pt x 676.5275pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mod
@@ -604,98 +605,106 @@ elflow.png Graphic file (type png)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mode
 lflow.png>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/modelflow.png  used on input line 635.
+/Thesis/Figures/modelflow.png  used on input line 660.
 (pdftex.def)             Requested size: 368.57985pt x 202.95981pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 \openout3 = `proposal.mw'.
 
- [12 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mod
-elflow.png>] (./proposal.mw)
+[12] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 Package acronym Info: Label `acro:ipp' newly defined as it shall be overridden
-although it is yet undefined on input line 659.
+although it is yet undefined on input line 684.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 Package acronym Info: Label `acro:ufrj' newly defined as it shall be overridden
 
-although it is yet undefined on input line 659.
+although it is yet undefined on input line 684.
 \openout3 = `proposal.mw'.
 
- [13]
+ [13 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/mod
+elflow.png>]
 (./proposal.mw)
 \openout3 = `proposal.mw'.
 
-Package acronym Info: Label `acro:sets' newly defined as it shall be overridden
+\openout3 = `proposal.mw'.
 
-although it is yet undefined on input line 674.
+ [14] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap4/St
-akeholder_Map_v2.jpg, id=59, 1085.05376pt x 875.27pt>
+akeholder_Map_v2.jpg, id=62, 1085.05376pt x 875.27pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
 p4/Stakeholder_Map_v2.jpg Graphic file (type jpg)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
 4/Stakeholder_Map_v2.jpg>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/chap4/Stakeholder_Map_v2.jpg  used on input line 686.
+/Thesis/Figures/chap4/Stakeholder_Map_v2.jpg  used on input line 715.
 (pdftex.def)             Requested size: 271.26277pt x 218.81696pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/architec
-ture.png, id=60, 909.3975pt x 510.90875pt>
+ture.png, id=63, 909.3975pt x 510.90875pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/arc
 hitecture.png Graphic file (type png)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/arch
 itecture.png>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/architecture.png  used on input line 694.
+/Thesis/Figures/architecture.png  used on input line 723.
 (pdftex.def)             Requested size: 272.82135pt x 153.2738pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout3 = `proposal.mw'.
 
-[14] (./proposal.mw)
+[15 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap
+4/Stakeholder_Map_v2.jpg>] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-\openout3 = `proposal.mw'.
-
- [15 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/cha
-p4/Stakeholder_Map_v2.jpg> </home/jackreid/Documents/School/Research/Space_Enab
-led/Thesis/Figures/architecture.png>] (./proposal.mw)
-\openout3 = `proposal.mw'.
-
 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Graphic_
-2_Development.png, id=68, 1636.1125pt x 475.7775pt>
+2_Development.png, id=67, 1636.1125pt x 475.7775pt>
 File: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Gra
 phic_2_Development.png Graphic file (type png)
 <use /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Grap
 hic_2_Development.png>
 Package pdftex.def Info: /home/jackreid/Documents/School/Research/Space_Enabled
-/Thesis/Figures/Graphic_2_Development.png  used on input line 706.
+/Thesis/Figures/Graphic_2_Development.png  used on input line 735.
 (pdftex.def)             Requested size: 409.02713pt x 118.94408pt.
 \openout3 = `proposal.mw'.
 
- [16 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/Gra
-phic_2_Development.png>] (./proposal.mw)
+ [16 </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/arc
+hitecture.png> </home/jackreid/Documents/School/Research/Space_Enabled/Thesis/F
+igures/Graphic_2_Development.png>] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
-
-(./proposal.bbl
 \openout3 = `proposal.mw'.
 
  [17] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
+ (./proposal.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+[]\OT1/cmr/m/n/10 Boyd Co-hen.  Top 10 Cli-mate Change Strat-egy Con-sul-tan-ci
+es.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+\OT1/cmr/m/n/10 https://www.triplepundit.com/story/2011/top-10-climate-change-s
+trategy-consultancies/79586,
+ []
+
 \openout3 = `proposal.mw'.
 
- [18] (./proposal.mw)
+[18] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 \openout3 = `proposal.mw'.
@@ -703,20 +712,20 @@ phic_2_Development.png>] (./proposal.mw)
  [19] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
+\openout3 = `proposal.mw'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--386
+ [20] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--393
 []\OT1/cmr/m/n/10 Systems En-gi-neer-ing Body of Knowl-edge.  Sys-tems En-gi-ne
 er-ing (glos-sary).
  []
 
 \openout3 = `proposal.mw'.
 
-[20] (./proposal.mw)
-\openout3 = `proposal.mw'.
-
-\openout3 = `proposal.mw'.
-
- [21] (./proposal.mw)
+[21] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 \openout3 = `proposal.mw'.
@@ -726,17 +735,22 @@ er-ing (glos-sary).
 
 \openout3 = `proposal.mw'.
 
- [23]
+ [23] (./proposal.mw)
+\openout3 = `proposal.mw'.
+
+\openout3 = `proposal.mw'.
+
+ [24]
 (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 \openout3 = `proposal.mw'.
 
- [24] (./proposal.mw)
+ [25] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--914
+Underfull \hbox (badness 10000) in paragraph at lines 919--922
 []\OT1/cmr/m/n/10 Jack Reid, Sea-mus Lom-bardo, and Danielle Wood.  MIT Vida Re
 pos-i-tory.
  []
@@ -744,15 +758,15 @@ pos-i-tory.
 )
 \openout3 = `proposal.mw'.
 
- [25] (./proposal.mw)
+ [26] (./proposal.mw)
 \openout3 = `proposal.mw'.
 
  (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 7743 strings out of 481134
- 114960 string characters out of 5913146
- 448479 words of memory out of 5000000
- 24540 multiletter control sequences out of 15000+600000
+ 7750 strings out of 481134
+ 115076 string characters out of 5913146
+ 448530 words of memory out of 5000000
+ 24545 multiletter control sequences out of 15000+600000
  407076 words of font info for 39 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  68i,7n,75p,2722b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -764,10 +778,10 @@ cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on proposal.pdf (25 pages, 1069966 bytes).
+Output written on proposal.pdf (26 pages, 1073965 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
