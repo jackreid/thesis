@@ -4,16 +4,39 @@
 %% You can process specific files by typing their names in at the 
 %% \files=
 %% prompt when you run the file main.tex through LaTeX.
-\chapter{\hlc[yellow]{Introduction}}
+\chapter{\hlc[cyan]{Introduction}}
+Over the past two decades satellite-based remote observation has blossomed. We have seen a rapid increase in the number of \acp{eos} in orbit \cite{belwardWhoLaunchedWhat2015}, significant improvements in their capabilities \cite{jensenRemoteSensingEnvironment2006}, and much greater availability of the data that they produce \cite{borowitzOpenSpaceGlobal2017}. This trend has occurred as part of greater technological and societal trends of increasing data availability, computational power, and modeling ability. Unfortunately, despite some efforts in previous decades \cite{lightWarfareWelfareDefense2005}, this \ac{eo} data has been largely used only by governments and academics for military and scientific purposes, with the latter focused on understanding and predicting environmental phenomena. Large corporations and \acp{ngo} have recently been conducting their own analyses (as seen in the growing industry of climate consultants \cite{cohenTop10Climate2011}), but these have required significant expertise and resources, and the results have sadly been mostly unavailable to the broader public. 
+
+There is a real need for (a) making remote observation data not just available but accessible to a broader audience by developing data products that are relevant to everyday individuals, particularly those involved in local, rather than national or global decision-making; (b) linking the \ac{eo}-supported environmental modeling with the societal impact of a changing environment; and (c) putting policy and sensor design decision-making in the hands of a broader population. 
 
 A quick note on the user of first person pronouns in this piece. The word 'I' will obviously refer to the author, Jack Reid, and will be commonly used when describing work that I have done, arguments that I am asserting, etc. That said, the \ac{evdt} Framework and its various implementations, including the Vida \ac{dss}, were not solo projects but instead involved multiple contributors, both inside the Space Enabled Research Group and outside of it. Thus when I use 'we' when talking about \ac{evdt} I will be referring to this collection of individuals. Additionally, sometimes I will use 'we' to refer to the Space Enabled Research Group, particularly when discussing our group's set of methodologies and principles. Finally, on occassion, I may use 'we' in the general humanistic sense. I will strive to make in which sense I am using 'we' clear in context.
 
-\section{\hlc[yellow]{Research Questions}}
+\section{\hlc[cyan]{Research Questions}}
 
-The work described in this thesis centers on exploring the efficacy and difficulties of \textit{collaboratively developing} a \textit{systems-architecture-informed}, multidisciplinary \textit{\ac{gis} \ac{dss}} for \textit{sustainable development} applications that makes significant use of \textit{remote observation data}. The meanings and histories of the emphasized terms will be explored further in later chapters of this thesis, along with the methods used in this exploration and the findings that resulted.
+This work aims to demonstrate the viability of a particular methodology for achieving (a) and (b), while laying the groundwork for a more detailed consideration of (c). To that end, this work centers on exploring the efficacy and difficulties of \textbf{\textit{collaboratively developing}} a \textbf{\textit{systems-architecture-informed}}, multidisciplinary \textbf{\textit{\ac{gis} \ac{dss}}} for \textbf{\textit{sustainable development}} applications that makes significant use of \textbf{\textit{remote observation data}}. This involves expanding and codifying the previously proposed \ac{evdt} Modeling Framework  for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development \cite{reidCombiningSocialEnvironmental2019}. Specifically this work will seek to address the following numbered research questions via the listed letter deliverables.
 
+\begin{packed_enum}
+	\item{Is systems architecture (and systems engineering in general) a relevant and useful approach to sustainability in such complex \ac{sets}? In particular, can collaboarative planning theory and other critical approaches enable such an approach to avoid the technocratic excesses of the past?}
+	\begin{enumerate}[label=\emph{\alph*}),itemsep=0pt,parsep=0pt]
+		\item{A critical analysis of systems engineering, \ac{gis}, and the other technical fields relied upon in this work}
+		\item{A proposed framework for applying systems engineering for sustainable development in an anticolonialist manner}
+		\item{System architecture analyses of each of the case studies}
+	\end{enumerate}
+	\item{Is collaborative development of \acp{dss} using the  \ac{evdt} Modeling Framework in particular relevant and useful sustainability in such complex \ac{sets}?}
+	\begin{enumerate}[label=\emph{\alph*}),itemsep=0pt,parsep=0pt]
+		\item{Development of an \ac{evdt}-based \ac{dss} for each of the case studies}
+		\item{An interview-based assessment of the development process and usefulness of each \ac{dss}}
+	\end{enumerate}
+	\item{What are further challenges and opportunities for future applications of \ac{evdt}?}
+	\begin{enumerate}[label=\emph{\alph*}),itemsep=0pt,parsep=0pt]
+		\item{An assessment of lessons learned from these \ac{dss} development processes}
+		\item{An outline of potential future \ac{evdt} refinement and extension, such as using \ac{evdt} to inform the development of future \ac{eo} systems that are better designed for particular application contexts.}
+	\end{enumerate}
+\end{packed_enum}
 
-To this end, this paper expands and codifies a previously proposed \ac{evdt} Modeling Framework  for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development \cite{reidCombiningSocialEnvironmental2019}. Such a framework could also inform the development of future \ac{eo} systems that are better designed for particular application contexts. In the beginning of the following section, this framework will be explained. The remainder of the paper will then focus on making the framework more tangible by examining a particular application in the city of Rio de Janeiro, Brazil, before concluding with remarks about the future of the framework and of the application case study.
+It should be noted that these questions are the overarching questions for this thesis. Each case study project is done in collaboration with local partners and is aimed at providing practical benefits. As a result, each case study \ac{dss} has its own specific objectives.
+
+To this end, this paper expands and codifies a previously proposed \ac{evdt} Modeling Framework  for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development \cite{reidCombiningSocialEnvironmental2019}. Such a framework could also inform the development of future \ac{eo} systems that are better designed for particular application contexts. In the beginning of the following section, this framework will be explained. 
 
 \section{\hlc[cyan]{Framing}}
 
@@ -32,48 +55,16 @@ As is described further later, we strive to avoid this by allowing actual commun
 "You should have more slums like this," I said.} 
 
 
-\section{\hlc[red]{Space Enabled Principles}}
+\section{\hlc[cyan]{Space Enabled Principles}}
 
-\section{\hlc[red]{Methodology}}
+The mission of the Space Enabled research group is \textit{to advance justice in Earth's complex systems using designs enabled by space.} By "designs enabled by space," we mean primarily six types of space technology that support societal needs: satellite earth observation, satellite communication, satellite positioning, microgravity research, technology transfer, and the inspiration we derive from space research and education. By "advance justice in Earth's complex systems," we mean a combination of social justice (e.g. antiracism and anticolonialism) and sustainable development\footnote{Space Enabled usually refers to the \ac{un} \acp{sdg} to explain sustainable development, but a more detailed discussion of that term is provided in Section \ref{sec:sustain}.}. Fulfilling this mission is not just an issue of research topics but also of methodology, the master's tools will never dismantle the master's house \cite{lordeMasterToolsWill1984}. Our methods are thus of necessity multidisciplinary, drawing from at least six disciplines: design thinking, art, social science, complex systems, satellite engineering and data science. Our work, unlike the long, problematic history of systems engineering and development (see Section \ref{sec:critiques}), is heavily dependent on local partnerships and collaborations with multilateral organizations, national and local governments, non-profits, entrepreneurial firms, local researchers, and other community leaders, both formal and informal. These collaborators guide the research directions and objectives, as well as participating as fully as they desire in each step of the research process.
 
+It should be noted that pursuing these principles is forever a process of improvement. Large sections of Chapter \ref{ch:theory} of this thesis are aimed as such self-critique and improvment. 
 
+\section{\hlc[cyan]{Methodology Summary}}
 
-\section{\hlc[red]{Structure of Thesis}}
+The first two research deliverables, 1a and 1b, are based on literature reviews and the development of written arguments. The former (the critical analysis) is presented in Section \ref{sec:critiques}. Deliverable 1b, the development of a framework is laid out primarily in Section \ref{sec:evdt} and indirectly through most of the thesis. The centerpiece of this work, however, are in response to Research Questions 2: the development and evaluation of \ac{evdt} \acp{dss} for two primary applications: (1) mangrove forest management and conservation in the state of Rio de Janeiro, Brazil; and (2) coronavirus response in six metropolitan areas across Angola, Brazil, Chile, Indonesia, Mexico, and the United States. In both cases, the methodology involves the application the system architecture framework \cite{maierArtSystemsArchitecting2009, crawleySystemArchitectureStrategy2015} an approach that has been previously adapted from the aerospace engineering discipline by Prof. Wood for use in sociotechnical systems \cite{pfotenhauerArchitectingComplexInternational2016}. This includes using stakeholder mapping and network analysis to inform the design of the \ac{dss} in question as well as fulfilling Deliverable 1c. Other components of the methodology taken in this work are developing the \ac{dss} through an iterative and collaborative process with specific stakeholders; pursuing targeted, related analyses, such as on the value of certain ecosystem services, the value of remote sensing information, and human responses to various policies; and evaluating the usefulness of both the \ac{dss} and the development process through interviews, workshops, and other feedback mechanisms. Finally, to address Research Question 3, lessons learned will be identified and a future development path for \ac{evdt} will be laid out. Chapter \ref{ch:method} goes into more detail on each step of this methodology.
 
-Chapter 2 will layout the \ac{evdt} framework used through this work along with its theoretical underpinnings, motivation for its pursuit, and various potential critiques. Chapter 3 will lay out the methodology in more detail. Chapter 4...
+\section{\hlc[cyan]{Structure of Thesis}}
 
-
-
-
-
-
-%\section{Section sample 1}
-
-
-%\begin{enumerate}
-%  \item Item 1.
-%  \item Item 2.
-%  \item Item 3.
-%\end{enumerate}
-%
-%
-%
-%\begin{eqnarray*}
-%a_i & = & a_j + a_k \\
-%a_i & = & 2a_j + a_k \\
-%a_i & = & 4a_j + a_k \\
-%a_i & = & 8a_j + a_k \\
-%a_i & = & a_j - a_k \\
-%a_i & = & a_j \ll m \mbox{shift}
-%\end{eqnarray*}
-%instead of the multiplication.  For example, you could use:
-%\begin{eqnarray*}
-%r & = & 4s + s\\
-%r & = & r + r
-%\end{eqnarray*}
-%Or by xx:
-%\begin{eqnarray*}
-%t & = & 2s + s \\
-%r & = & 2t + s \\
-%r & = & 8r + t
-%\end{eqnarray*}
+Chapter 2 lays out the \ac{evdt} framework used through this work along with its theoretical underpinnings, motivation for its pursuit, and various critiques. Chapter 3 provides more detail on the methodology used in this work. Chapter 4 contains the results from the Rio de Janeiro mangrove application. Chapter 5 contains the results from the coronavirus response application. Chapter 6 contains discussion on both applications and lessons learned. Chapter 7 provides a short conclusion summarizing this thesis.

@@ -1,0 +1,35 @@
+Williams: What are their current processes? What are their barriers? How does the new system alleviate those barriers?
+
+Lagomasino: Really interested in how to guage how EO data improves data, to what extent. Essentially the OSSE model
+
+Hiroshi Ishii: Apple's Human Design Guidelines. Discuss model selection process, validation.
+
+Williams: Comparison to previous attempts/efforts, including things like FEWS. What is new about this?
+
+Problem Statement / Motivation - On how current practice needs to be improved. How similar and different to existing practices/programs/efforts.
+
+Include more details on earth observation methodology/use. How does one know which earth observation data to use?
+
+More clear on output of the project: the EVDT process guidelines, maybe provide examples. Who is the end user of those guidelines. The World Food Program is doing this because they have a huge team, but the average GIS user isn't, they don't have a toolkit/guidelines, this can help them get there.
+
+
+Reach out to committee members about scheduling regular meetings.
+
+
+
+
+
+
+Thanks for the great conversation today! Congratulations, Jack, for completing your oral thesis proposal critique. We request that you please complete the following updates to the thesis proposal document in order to fully pass the proposal stage. We are not expecting that these lead to major new writing, but please think about adding some additional paragraphs to the thesis proposal document by clarifying the following topics. Your responses can build on your ongoing work. Please aim to be as concrete as possible. One overall recommendation we had was that you have a foundation in the literature in the thesis proposal document and you can add more information about your specific methods and case studies.
+
+Here are several specific requests.
+
+-        Update the problem statement and motivation to show what the current state of practice is and how your approach will help address a need (explain who has this need). How is the approach you are proposing going to address needs or advance practice and theory?
+
+-        Further discuss what types of people you expect to use your findings and outputs and how your work helps them. For example, are you targeting people with mapping ability, people in government roles, people in science? All of these?
+
+-        David asks that you address how you and how other people can select among datasets, analyze them and determine “what is the right dataset for the right decision question?”. What steps do you take to address that question? Also, speak more about how your approach starts with the output of Earth Observation systems and moves toward applying EO products. You have limited EO discussion in the proposal but this is key to your work.
+
+-        Sarah asks that you clarifying what Is being evaluated (process, product, tool kit) and talk about what types of users you expect could use your product(s), as noted above.
+
+-        Danielle asks to review wording in Research Questions 2 and 3. Instead of asking how something is done, ask what features of the process, product or tool kit that is created address the problem statement. You will learn this by reviewing your actual practice and drawing potential findings or propositions from your experience. Talk about how you will reflectively process what you have learned.

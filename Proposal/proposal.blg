@@ -3,50 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: proposal.aux
 The style file: unsrt.bst
 Database file #1: /home/jackreid/Documents/School/Research/Space_Enabled/Thesis/main.bib
-Warning--empty publisher in goodchildOverviewDefinitionGIS1992
 Warning--empty institution in sussmanTeachingComplexSociotechnical2010
+Warning--there's a number but no volume in forneyEconomicValueRemoteSensing2012
+Warning--empty publisher in goodchildOverviewDefinitionGIS1992
 Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--empty school in martinFrameworkQuantifyingComplexity2004
-You've used 144 entries,
+Warning--empty publisher in crawley2004
+You've used 183 entries,
             1791 wiz_defined-function locations,
-            1369 strings with 38905 characters,
-and the built_in function-call counts, 33862 in all, are:
-= -- 3081
-> -- 1483
-< -- 33
-+ -- 556
-- -- 412
-* -- 2257
-:= -- 5311
-add.period$ -- 458
-call.type$ -- 144
-change.case$ -- 143
+            1606 strings with 50749 characters,
+and the built_in function-call counts, 43716 in all, are:
+= -- 3858
+> -- 2161
+< -- 37
++ -- 797
+- -- 614
+* -- 3078
+:= -- 6976
+add.period$ -- 577
+call.type$ -- 183
+change.case$ -- 179
 chr.to.int$ -- 0
-cite$ -- 149
-duplicate$ -- 1603
-empty$ -- 3337
-format.name$ -- 412
-if$ -- 7652
+cite$ -- 190
+duplicate$ -- 1974
+empty$ -- 4188
+format.name$ -- 614
+if$ -- 9738
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 144
-newline$ -- 721
-num.names$ -- 177
-pop$ -- 508
+int.to.str$ -- 183
+missing$ -- 179
+newline$ -- 914
+num.names$ -- 219
+pop$ -- 609
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 700
+skip$ -- 845
 stack$ -- 0
-substring$ -- 1923
-swap$ -- 379
-text.length$ -- 33
+substring$ -- 2470
+swap$ -- 439
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 331
-width$ -- 147
-write$ -- 1618
-(There were 5 warnings)
+warning$ -- 7
+while$ -- 421
+width$ -- 186
+write$ -- 2042
+(There were 7 warnings)

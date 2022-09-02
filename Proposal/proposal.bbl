@@ -1,17 +1,140 @@
 \begin{thebibliography}{100}
 
-\bibitem{belwardWhoLaunchedWhat2015}
-Alan~S. Belward and Jon~O. Sk{\o}ien.
-\newblock Who launched what, when and why; trends in global land-cover
-  observation capacity from civilian earth observation satellites.
-\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing},
-  103:115--128, May 2015.
+\bibitem{baileyMoreOriginMisogynoir}
+Moya Bailey.
+\newblock More on the origin of {{Misogynoir}}.
+
+\bibitem{reidCombiningSocialEnvironmental2019}
+Jack Reid, Cynthia Zeng, and Danielle Wood.
+\newblock Combining {{Social}}, {{Environmental}} and {{Design Models}} to
+  {{Support}} the {{Sustainable Development Goals}}.
+\newblock In {\em {{IEEE Aerospace Conference Proceedings}}}, volume
+  2019-March, {Big Sky, Montana}, March 2019. {IEEE Computer Society}.
+
+\bibitem{sheppardGISSocietyResearch1995}
+Eric Sheppard.
+\newblock {{GIS}} and {{Society}}: {{Towards}} a {{Research Agenda}}.
+\newblock {\em Cartography and Geographic Information Systems}, 22(1):5--16,
+  January 1995.
+
+\bibitem{sobieszczanski-sobieskiMultidisciplinaryAerospaceDesign1997}
+J~{Sobieszczanski-Sobieski} and R~T Haftka.
+\newblock Multidisciplinary aerospace design optimization: Survey of recent
+  developments.
+\newblock {\em Structural Optimization}, 14(1):1--23, 1997.
+
+\bibitem{fitzgeraldRecommendationsFramingMultistakeholder2016}
+Matthew~E Fitzgerald and Adam~M Ross.
+\newblock Recommendations for framing multi-stakeholder tradespace exploration.
+\newblock In {\em {{INCOSE}} International Symposium}, {Edinburgh, UK}, 2016.
+
+\bibitem{garberMultiStakeholderTradeSpace2015}
+Melissa Garber, Shahram Sarkani, and Thomas~A. Mazzuchi.
+\newblock Multi-{{Stakeholder Trade Space Exploration Using Group Decision
+  Making Methodologies}}.
+\newblock {\em INCOSE International Symposium}, 25(1):1118--1132, 2015.
+
+\bibitem{masutaniObservingSystemSimulation2010}
+Michiko Masutani, Thomas~W. Schlatter, Ronald~M. Errico, Ad~Stoffelen, Erik
+  Andersson, William Lahoz, John~S. Woollen, G.~David Emmitt, Lars-Peter
+  Riishojgaard, and Stephen~J. Lord.
+\newblock Observing {{System Simulation Experiments}}.
+\newblock In {\em Data {{Assimilation}}: {{Making Sense}} of {{Observations}}},
+  pages 647--679. {Springer}, {New York City, NY}, 2010.
+
+\bibitem{sieberPublicParticipationGeographic2006}
+Renee Sieber.
+\newblock Public {{Participation Geographic Information Systems}}: {{A
+  Literature Review}} and {{Framework}}.
+\newblock {\em Annals of the Association of American Geographers},
+  96(3):491--507, September 2006.
+
+\bibitem{weinerParticipatoryGeographicInformation2007}
+Daniel Weiner and Trevor~M. Harris.
+\newblock Participatory {{Geographic Information Systems}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~26, pages 466--480. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{talenBottomUpGIS2000}
+Emily Talen.
+\newblock Bottom-{{Up GIS}}.
+\newblock {\em Journal of the American Planning Association}, 66(3):279--294,
+  September 2000.
+
+\bibitem{harrisLocationalModelsGeographic1993}
+Britton Harris and Michael Batty.
+\newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
+  Support Systems}}.
+\newblock {\em Journal of the American Planning Association}, 55(1), 1993.
 
 \bibitem{jensenRemoteSensingEnvironment2006}
 John Jensen.
 \newblock {\em Remote {{Sensing}} of the {{Environment}}: {{An Earth Resource
   Perspective}}}.
 \newblock {Pearson}, {Upper Saddle River, NJ}, 2nd edition edition, May 2006.
+
+\bibitem{goodspeedScenarioPlanningCities2020}
+Robert Goodspeed.
+\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
+  {{Managing}} and {{Envisioning Uncertain Futures}}}.
+\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
+
+\bibitem{worldsummitonsustainabledevelopmentPlanImplementationWorld2002}
+{World Summit on Sustainable Development}.
+\newblock Plan of {{Implementation}} of the {{World Summit}} on {{Sustainable
+  Development}}.
+\newblock Technical report, {United Nations}, {Johannesburg, South Africa},
+  September 2002.
+
+\bibitem{elsawahEightGrandChallenges2020}
+Sondoss Elsawah, Tatiana Filatova, Anthony~J. Jakeman, Albert~J. Kettner,
+  Moira~L. Zellner, Ioannis~N. Athanasiadis, Serena~H. Hamilton, Robert~L.
+  Axtell, Daniel~G. Brown, Jonathan~M. Gilligan, Marco~A. Janssen, Derek~T.
+  Robinson, Julie Rozenberg, Isaac I.~T. Ullah, and Steve~J. Lade.
+\newblock Eight grand challenges in socio-environmental systems modeling.
+\newblock {\em Socio-Environmental Systems Modelling}, 2:16226, January 2020.
+
+\bibitem{maierArtSystemsArchitecting2009}
+Mark~W. Maier.
+\newblock {\em The {{Art}} of {{Systems Architecting}}}.
+\newblock {CRC Press}, {Boca Raton}, 3 edition edition, January 2009.
+
+\bibitem{incoseINCOSESystemsEngineering2015}
+INCOSE.
+\newblock {\em {{INCOSE Systems Engineering Handbook}}: {{A Guide}} for
+  {{System Life Cycle Processes}} and {{Activities}}}.
+\newblock {Wiley}, {Hoboken, New Jersey}, 4 edition edition, July 2015.
+
+\bibitem{fengDependencyStructureMatrix2010a}
+Wen Feng, Edward~F. Crawley, Olivier~L. {de Weck}, Rene Keller, and Bob
+  Robinson.
+\newblock Dependency structure matrix modelling for stakeholder value networks.
+\newblock In {\em Proceedings of the 12th {{International DSM Conference}}},
+  {Cambridge, UK}, 2010. {Design Society}.
+
+\bibitem{crawleySystemArchitectureStrategy2015}
+Edward Crawley, Bruce Cameron, and Daniel Selva.
+\newblock {\em System {{Architecture}}: {{Strategy}} and {{Product
+  Development}} for {{Complex Systems}}}.
+\newblock {Pearson}, {Boston}, 1 edition edition, April 2015.
+
+\bibitem{systemsengineeringbodyofknowledgeSystemsEngineeringGlossary2021}
+{Systems Engineering Body of Knowledge}.
+\newblock Systems {{Engineering}} (glossary).
+\newblock https://www.sebokwiki.org/wiki/Systems\_Engineering\_(glossary), May
+  2021.
+
+\bibitem{rossTradespaceExplorationParadigm2005}
+Adam~M. Ross and Daniel~E. Hastings.
+\newblock The {{Tradespace Exploration Paradigm}}.
+\newblock {\em INCOSE International Symposium}, 15(1):1706--1718, 2005.
+
+\bibitem{belwardWhoLaunchedWhat2015}
+Alan~S. Belward and Jon~O. Sk{\o}ien.
+\newblock Who launched what, when and why; trends in global land-cover
+  observation capacity from civilian earth observation satellites.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing},
+  103:115--128, May 2015.
 
 \bibitem{borowitzOpenSpaceGlobal2017}
 Mariel Borowitz.
@@ -31,20 +154,6 @@ Boyd Cohen.
 \newblock
   https://www.triplepundit.com/story/2011/top-10-climate-change-strategy-consultancies/79586,
   March 2011.
-
-\bibitem{reidCombiningSocialEnvironmental2019}
-Jack Reid, Cynthia Zeng, and Danielle Wood.
-\newblock Combining {{Social}}, {{Environmental}} and {{Design Models}} to
-  {{Support}} the {{Sustainable Development Goals}}.
-\newblock In {\em {{IEEE Aerospace Conference Proceedings}}}, volume
-  2019-March, {Big Sky, Montana}, March 2019. {IEEE Computer Society}.
-
-\bibitem{worldsummitonsustainabledevelopmentPlanImplementationWorld2002}
-{World Summit on Sustainable Development}.
-\newblock Plan of {{Implementation}} of the {{World Summit}} on {{Sustainable
-  Development}}.
-\newblock Technical report, {United Nations}, {Johannesburg, South Africa},
-  September 2002.
 
 \bibitem{sachsAgeSustainableDevelopment2015}
 Jeffrey Sachs.
@@ -115,6 +224,23 @@ W.~V. Reid, H.~A. Mooney, A.~Cropper, D.~Capistrano, S.~R. Carpenter,
   the {{Millennium Ecosystem Assessment}}}.
 \newblock {Island Press}, 2005.
 
+\bibitem{rouseUnderstandingChangeComplex2012}
+William~B Rouse and Nicoleta Serban.
+\newblock Understanding change in complex socio-technical systems.
+\newblock {\em Information Knowledge Systems Management}, 2012.
+
+\bibitem{siddiqiSociotechnicalSystemsSustainability2017}
+Afreen Siddiqi and Ross~D. Collins.
+\newblock Sociotechnical systems and sustainability: Current and future
+  perspectives for inclusive development.
+\newblock {\em Current Opinion in Environmental Sustainability}, 24:7--13,
+  2017.
+
+\bibitem{sussmanTeachingComplexSociotechnical2010}
+Joseph~M Sussman.
+\newblock Teaching about {{Complex Sociotechnical Systems}}.
+\newblock Technical report, 2010.
+
 \bibitem{shirahNASAEarthObserving2017}
 Greg Shirah.
 \newblock {{NASA}}'s {{Earth Observing Fleet}}: {{March}} 2017.
@@ -161,6 +287,11 @@ Matthew Mcgill, Thorsten Markus, Stanley~S. Scott, and Thomas Neumann.
 Sylvain Biancamaria, Dennis~P. Lettenmaier, and Tamlin~M. Pavelsky.
 \newblock The {{SWOT Mission}} and {{Its Capabilities}} for {{Land Hydrology}}.
 \newblock {\em Surveys in Geophysics}, 37(2):307--337, 2016.
+
+\bibitem{nasaappliedsciencesprogramWhatWeNASA}
+{NASA Applied Sciences Program}.
+\newblock What {{We Do}} | {{NASA Applied Sciences}}.
+\newblock http://appliedsciences.nasa.gov/what-we-do.
 
 \bibitem{irwinSERVIRServicePlanning2017}
 Dan Irwin and Jenny {Frankel-Reed}.
@@ -214,11 +345,31 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock Measuring mangrove carbon loss and gain in deltas.
 \newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
 
-\bibitem{sheppardGISSocietyResearch1995}
-Eric Sheppard.
-\newblock {{GIS}} and {{Society}}: {{Towards}} a {{Research Agenda}}.
-\newblock {\em Cartography and Geographic Information Systems}, 22(1):5--16,
-  January 1995.
+\bibitem{macauleyValueInformationMeasuring2006}
+Molly~K. Macauley.
+\newblock The value of information: {{Measuring}} the contribution of
+  space-derived earth science data to resource management.
+\newblock {\em Space Policy}, 22(4):274--282, 2006.
+
+\bibitem{cookeUsingSocialCost2016}
+Roger Cooke, Alexander Golub, Bruce~A. Wielicki, David~F. Young, Martin~G.
+  Mlynczak, and Rosemary~R. Baize.
+\newblock Using the social cost of carbon to value earth observing systems.
+\newblock {\em Climate Policy}, 3062(January):1--16, 2016.
+
+\bibitem{forneyEconomicValueRemoteSensing2012}
+Willam~M. Forney, Ronald~P. Raunikar, Richard~L. Bernkopf, and Shruti~K.
+  Mishra.
+\newblock An {{Economic Value}} of {{Remote-Sensing Information}} \textemdash{}
+  {{Application}} to {{Agricultural Production}} and {{Maintaining Groundwater
+  Quality}}.
+\newblock {\em U.S. Geological Survey Professional Paper}, (1796), 2012.
+
+\bibitem{kruseGEOValueSocioeconomicValue2017}
+Jamie Kruse, Joep Crompvoets, and Fran{\c c}oise Pearlman, editors.
+\newblock {\em {{GEOValue}}: {{The}} Socioeconomic Value of Geospatial
+  Information}.
+\newblock {CRC Press}, {New York, NY}, 2017.
 
 \bibitem{goodchildOverviewDefinitionGIS1992}
 M~Goodchild and D.W. Rhind.
@@ -244,6 +395,39 @@ Eric~J. Heikkila.
 \newblock {\em Journal of the American Planning Association}, 64(3):350--360,
   September 1998.
 
+\bibitem{fotheringhamGeographicInformationScience2007}
+A.~Stewart Fotheringham and John~P. Wilson.
+\newblock Geographic {{Information Science}}: {{An Introduction}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  pages 1--7. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{goodchildGeographicInformationSystems1994}
+Michael Goodchild.
+\newblock Geographic {{Information Systems}} and {{Geographic Research}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 31--50. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
+\bibitem{goodchildGeographicalInformationScience1992}
+Michael~F. Goodchild.
+\newblock Geographical information science.
+\newblock {\em International Journal of Geographical Information Systems},
+  6(1):31--45, January 1992.
+
+\bibitem{tomlinsonPRESIDENTIALADDRESSGEOGRAPHIC1989}
+Roger~F. Tomlinson.
+\newblock {{PRESIDENTIAL ADDRESS}}: {{GEOGRAPHIC INFORMATION SYSTEMS}} and
+  {{GEOGRAPHERS IN THE}} 1990s.
+\newblock {\em The Canadian Geographer / Le G\'eographe canadien},
+  33(4):290--298, 1989.
+
+\bibitem{vereginComputerInnovationAdoption1994}
+Howard Veregin.
+\newblock Computer {{Innovation}} and {{Adoption}} in {{Geography}}.
+\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
+  Implications}} of {{Geographic Information Systems}}}, pages 88--112. {The
+  Guilford Press}, {New York}, 1st edition edition, December 1994.
+
 \bibitem{maguireGeographicalInformationSystems1991}
 David~J. Maguire, Michael~F. Goodchild, and David Rhind.
 \newblock {\em Geographical {{Information Systems}}: {{Principles}}}.
@@ -262,18 +446,22 @@ Michael~F. Goodchild, Luc Anselin, Richard~P. Appelbaum, and Barbara~Herr
 \newblock {\em International Regional Science Review}, 23(2):139--159, April
   2000.
 
+\bibitem{jankowskiGISGroupDecision2001}
+Piotr Jankowski and Timothy Nyerges.
+\newblock {\em {{GIS}} for {{Group Decision Making}}}.
+\newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
+
+\bibitem{borjesonScenarioTypesTechniques2006}
+Lena B{\"o}rjeson, Mattias H{\"o}jer, Karl-Henrik Dreborg, Tomas Ekvall, and
+  G{\"o}ran Finnveden.
+\newblock Scenario types and techniques: {{Towards}} a user's guide.
+\newblock {\em Futures}, 38(7):723--739, September 2006.
+
 \bibitem{picklesGroundTruthSocial1994}
 John Pickles, editor.
 \newblock {\em Ground {{Truth}}: {{The Social Implications}} of {{Geographic
   Information Systems}}}.
 \newblock {The Guilford Press}, {New York}, 1st edition edition, December 1994.
-
-\bibitem{goodchildGeographicInformationSystems1994}
-Michael Goodchild.
-\newblock Geographic {{Information Systems}} and {{Geographic Research}}.
-\newblock In John Pickles, editor, {\em Ground {{Truth}}: {{The Social
-  Implications}} of {{Geographic Information Systems}}}, pages 31--50. {The
-  Guilford Press}, {New York}, 1st edition edition, December 1994.
 
 \bibitem{tullochInstitutionalGeographicInformation2007}
 David~L. Tulloch.
@@ -281,12 +469,6 @@ David~L. Tulloch.
   Information Partnering}}.
 \newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
   chapter~25, pages 449--465. {John Wiley \& Sons, Ltd}, 2007.
-
-\bibitem{talenBottomUpGIS2000}
-Emily Talen.
-\newblock Bottom-{{Up GIS}}.
-\newblock {\em Journal of the American Planning Association}, 66(3):279--294,
-  September 2000.
 
 \bibitem{benmouffokInformationDecisionMaking1993}
 Dijilali Benmouffok.
@@ -326,19 +508,6 @@ Annette~M. Kim.
 \newblock Critical cartography 2.0: {{From}} ``participatory mapping'' to
   authored visualizations of power and people.
 \newblock {\em Landscape and Urban Planning}, 142:215--225, October 2015.
-
-\bibitem{sieberPublicParticipationGeographic2006}
-Renee Sieber.
-\newblock Public {{Participation Geographic Information Systems}}: {{A
-  Literature Review}} and {{Framework}}.
-\newblock {\em Annals of the Association of American Geographers},
-  96(3):491--507, September 2006.
-
-\bibitem{weinerParticipatoryGeographicInformation2007}
-Daniel Weiner and Trevor~M. Harris.
-\newblock Participatory {{Geographic Information Systems}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~26, pages 466--480. {John Wiley \& Sons, Ltd}, 2007.
 
 \bibitem{bondCherokeeNationTribal2002}
 Crystal Bond.
@@ -385,11 +554,18 @@ Z.~Asl{\i}g{\"u}l G{\"o}{\c c}men and Stephen~J. Ventura.
 \newblock {\em Journal of the American Planning Association}, 76(2):172--183,
   March 2010.
 
-\bibitem{systemsengineeringbodyofknowledgeSystemsEngineeringGlossary2021}
-{Systems Engineering Body of Knowledge}.
-\newblock Systems {{Engineering}} (glossary).
-\newblock https://www.sebokwiki.org/wiki/Systems\_Engineering\_(glossary), May
-  2021.
+\bibitem{lernerSimpleEconomicsOpen2002}
+Josh Lerner and Jean Tirole.
+\newblock Some {{Simple Economics}} of {{Open Source}}.
+\newblock {\em The Journal of Industrial Economics}, 50(2):197--234, 2002.
+
+\bibitem{vermaUbuntuLinuxMost2015}
+Arpit Verma.
+\newblock Ubuntu {{Linux}} is the {{Most Popular Operating System}} in
+  {{Cloud}}.
+\newblock
+  https://fossbytes.com/ubuntu-linux-is-the-most-popular-operating-system-in-cloud/,
+  August 2015.
 
 \bibitem{mazza2017}
 Johnn Friedmann.
@@ -442,11 +618,6 @@ Doug Walker.
 \newblock {\em The {{Planners Guide}} to {{CommunityViz}}: {{The Essential
   Tool}} for a {{New Generation}} of {{Planning}}}.
 \newblock {Routledge}, November 2017.
-
-\bibitem{jankowskiGISGroupDecision2001}
-Piotr Jankowski and Timothy Nyerges.
-\newblock {\em {{GIS}} for {{Group Decision Making}}}.
-\newblock {CRC Press}, {London ; New York}, 1st edition edition, January 2001.
 
 \bibitem{tomlinGISCartographicModeling2012}
 C.~Dana Tomlin.
@@ -504,12 +675,6 @@ S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
 \newblock {\em Environmental Modelling \& Software}, 27--28:71--82, January
   2012.
 
-\bibitem{goodspeedScenarioPlanningCities2020}
-Robert Goodspeed.
-\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
-  {{Managing}} and {{Envisioning Uncertain Futures}}}.
-\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
-
 \bibitem{zapataRadicalUncertaintyScenario2015}
 Marisa~A Zapata and Nikhil Kaza.
 \newblock Radical uncertainty: Scenario planning for futures.
@@ -549,11 +714,6 @@ John McDermid.
 \newblock In {\em Engineering of {{Complex Computer Systems}}, 2000. {{ICECCS}}
   2000. {{Proceedings}}. {{Sixth IEEE International Conference}} On}, pages
   2--9. {IEEE}, 2000.
-
-\bibitem{sussmanTeachingComplexSociotechnical2010}
-Joseph~M Sussman.
-\newblock Teaching about {{Complex Sociotechnical Systems}}.
-\newblock Technical report, 2010.
 
 \bibitem{chenComplexityEmergenceEngineering2009}
 Chih-Chun Chen, Sylvia~B Nagl, and Christopher~D Clack.
@@ -660,29 +820,11 @@ Peter Vascik, Adam~M. Ross, and Donna~H. Rhodes.
   Symposium}}}, {Fort Belvoir, VA}, April 2015. {Defense Technical Information
   Center}.
 
-\bibitem{incoseINCOSESystemsEngineering2015}
-INCOSE.
-\newblock {\em {{INCOSE Systems Engineering Handbook}}: {{A Guide}} for
-  {{System Life Cycle Processes}} and {{Activities}}}.
-\newblock {Wiley}, {Hoboken, New Jersey}, 4 edition edition, July 2015.
-
-\bibitem{fengDependencyStructureMatrix2010a}
-Wen Feng, Edward~F. Crawley, Olivier~L. {de Weck}, Rene Keller, and Bob
-  Robinson.
-\newblock Dependency structure matrix modelling for stakeholder value networks.
-\newblock In {\em Proceedings of the 12th {{International DSM Conference}}},
-  {Cambridge, UK}, 2010. {Design Society}.
-
 \bibitem{fitzgeraldEffectsEnhancedMultiparty2015}
 Matthew~E Fitzgerald and Adam~M Ross.
 \newblock Effects of {{Enhanced Multi-party Tradespace Visualization}} on a
   {{Two-person Negotiation}}.
 \newblock {\em Procedia Computer Science}, 44:466--475, 2015.
-
-\bibitem{fitzgeraldRecommendationsFramingMultistakeholder2016}
-Matthew~E Fitzgerald and Adam~M Ross.
-\newblock Recommendations for framing multi-stakeholder tradespace exploration.
-\newblock In {\em {{INCOSE}} International Symposium}, {Edinburgh, UK}, 2016.
 
 \bibitem{weckMULTISTAKEHOLDERSIMULATIONGAMING2012}
 O.~Weck.
@@ -762,16 +904,21 @@ Gabey Goh.
 \newblock Building {{Singapore}}'s 'digital twin'.
 \newblock {\em Digital News Asia}, 2015(September 15), 2015.
 
-\bibitem{maierArtSystemsArchitecting2009}
-Mark~W. Maier.
-\newblock {\em The {{Art}} of {{Systems Architecting}}}.
-\newblock {CRC Press}, {Boca Raton}, 3 edition edition, January 2009.
+\bibitem{ovienmhadaInclusiveDesignEarth2021}
+Ufuoma Ovienmhada, Fohla Mouftaou, and Danielle Wood.
+\newblock Inclusive {{Design}} of {{Earth Observation Decision Support
+  Systems}} for {{Environmental Governance}}: {{A Case Study}} of {{Lake
+  Nokou\'e}}.
+\newblock {\em Frontiers in Climate}, 3:105, 2021.
 
-\bibitem{crawleySystemArchitectureStrategy2015}
-Edward Crawley, Bruce Cameron, and Daniel Selva.
-\newblock {\em System {{Architecture}}: {{Strategy}} and {{Product
-  Development}} for {{Complex Systems}}}.
-\newblock {Pearson}, {Boston}, 1 edition edition, April 2015.
+\bibitem{crawley2004}
+Edward Crawley, Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering,
+  Joel Schindall, David Wallace, Daniel Whitney~(chair, Edward Crawley,
+  Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering, Joel
+  Schindall, David Wallace, and Daniel Whitney~(chair.
+\newblock {\em The Influence of Architecture in Engineering Systems
+  (Monograph}.
+\newblock 2004.
 
 \bibitem{pfotenhauerArchitectingComplexInternational2016}
 Sebastian~M. Pfotenhauer, Danielle Wood, Dan Roos, and Dava Newman.
@@ -780,31 +927,67 @@ Sebastian~M. Pfotenhauer, Danielle Wood, Dan Roos, and Dava Newman.
   collaborations.
 \newblock {\em Technological Forecasting and Social Change}, 104:38--56, 2016.
 
-\bibitem{rouseUnderstandingChangeComplex2012}
-William~B Rouse and Nicoleta Serban.
-\newblock Understanding change in complex socio-technical systems.
-\newblock {\em Information Knowledge Systems Management}, 2012.
-
-\bibitem{siddiqiSociotechnicalSystemsSustainability2017}
-Afreen Siddiqi and Ross~D. Collins.
-\newblock Sociotechnical systems and sustainability: Current and future
-  perspectives for inclusive development.
-\newblock {\em Current Opinion in Environmental Sustainability}, 24:7--13,
-  2017.
-
-\bibitem{elsawahEightGrandChallenges2020}
-Sondoss Elsawah, Tatiana Filatova, Anthony~J. Jakeman, Albert~J. Kettner,
-  Moira~L. Zellner, Ioannis~N. Athanasiadis, Serena~H. Hamilton, Robert~L.
-  Axtell, Daniel~G. Brown, Jonathan~M. Gilligan, Marco~A. Janssen, Derek~T.
-  Robinson, Julie Rozenberg, Isaac I.~T. Ullah, and Steve~J. Lade.
-\newblock Eight grand challenges in socio-environmental systems modeling.
-\newblock {\em Socio-Environmental Systems Modelling}, 2:16226, January 2020.
-
 \bibitem{gaheganMultivariateGeovisualization2007}
 Mark Gahegan.
 \newblock Multivariate {{Geovisualization}}.
 \newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
   chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{meadowsLimitsGrowth1972}
+Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
+\newblock {\em The {{Limits}} to {{Growth}}}.
+\newblock {Potomac Associates}, {Washington D.C.}, 1972.
+
+\bibitem{millerHistoricalValidationIntegrated2011}
+Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
+\newblock Historical {{Validation}} of {{Integrated
+  Transport}}\textendash{{Land Use Model System}}.
+\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
+
+\bibitem{needellEfficientlySimulatingPersonal2018}
+Zachary~A Needell and Jessika~E Trancik.
+\newblock Efficiently simulating personal vehicle energy consumption in
+  mesoscopic transport models.
+\newblock In {\em Transportation Research Board 97th Annual Meeting},
+  {Washington D.C.}, 2018.
+
+\bibitem{azevedoTripodSustainableTravel2018}
+Carlos~Lima Azevedo, Ravi Seshadri, Song Gao, Bilge Atasoy, Arun~Prakash
+  Akkinepally, Eleni Christofa, Fang Zhao, Jessika Trancik, and Moshe
+  {Ben-Akiva}.
+\newblock Tripod: {{Sustainable}} travel incentives with prediction,
+  optimization, and personalization.
+\newblock In {\em Transportation Research Board 97th Annual Meeting},
+  {Washington D.C.}, 2018. {Transportation Research Board}.
+
+\bibitem{erricoDevelopmentValidationObservingsystem2013}
+Ronald~M. Errico, Runhua Yang, Nikki~C. Priv{\'e}, King~Sheng Tai, Ricardo
+  Todling, Meta~E. Sienkiewicz, and Jing Guo.
+\newblock Development and validation of observing-system simulation experiments
+  at {{NASA}}'s global modeling and assimilation office.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society},
+  139(674):1162--1178, 2013.
+
+\bibitem{kumarMissionSimulationEvaluation2015}
+Sujay~V Kumar, Christa~D {Peters-lidard}, Dalia Kirschbaum, Ken Harrison,
+  Joseph Santanello, and Soni Yatheendradas.
+\newblock A mission simulation and evaluation platform for terrestrial
+  hydrology using the {{NASA Land Information System}}, 2015.
+
+\bibitem{bluerasterBlueRasterVida2021}
+{Blue Raster}.
+\newblock Blue {{Raster Vida Repository}}.
+\newblock https://github.com/blueraster/mit-vida, August 2021.
+
+\bibitem{reidEVDTRepository2020}
+Jack Reid.
+\newblock {{EVDT Repository}}.
+\newblock https://github.com/mitmedialab/evdt, June 2020.
+
+\bibitem{reidMITVidaRepository2021}
+Jack Reid, Seamus Lombardo, and Danielle Wood.
+\newblock {{MIT Vida Repository}}.
+\newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
 
 \bibitem{tacoliRuralurbanInteractionsGuide1998}
 Cecilia Tacoli.
@@ -862,6 +1045,105 @@ Danielle~Renee Wood.
   Programs}} in {{Developing Countries}}}.
 \newblock Doctoral, Massachusetts Institute of Technology, 2012.
 
+\bibitem{giriStatusDistributionMangrove2011}
+C.~Giri, E.~Ochieng, L.~L. Tieszen, Z.~Zhu, A.~Singh, T.~Loveland, J.~Masek,
+  and N.~Duke.
+\newblock Status and distribution of mangrove forests of the world using earth
+  observation satellite data.
+\newblock {\em Global Ecology and Biogeography}, 20(1):154--159, 2011.
+
+\bibitem{veghMangroveEcosystemServices2014}
+Tibor Vegh, Megan Jungwiwattanaporn, Linwood Pendleton, and Brian Murray.
+\newblock Mangrove {{Ecosystem Services Valuation}}: {{State}} of the
+  {{Literature}}.
+\newblock Technical Report NI WP 14-06, {Nicholas Institute for Environmental
+  Policy Solutions, Duke University}, {Durham, NC}, July 2014.
+
+\bibitem{buntingGlobalMangroveWatch2018}
+Pete Bunting, Ake Rosenqvist, Richard~M. Lucas, Lisa-Maria Rebelo, Lammert
+  Hilarides, Nathan Thomas, Andy Hardy, Takuya Itoh, Masanobu Shimada, and
+  C.~Max Finlayson.
+\newblock The {{Global Mangrove Watch}}\textemdash{{A New}} 2010 {{Global
+  Baseline}} of {{Mangrove Extent}}.
+\newblock {\em Remote Sensing}, 10(10):1669, October 2018.
+
+\bibitem{vancutsemLongterm199020192021}
+C.~Vancutsem, F.~Achard, J.-F. Pekel, G.~Vieilledent, S.~Carboni, D.~Simonetti,
+  J.~Gallego, L.~E. O.~C. Arag{\~a}o, and R.~Nasi.
+\newblock Long-term (1990\textendash 2019) monitoring of forest cover changes
+  in the humid tropics.
+\newblock {\em Science Advances}, March 2021.
+
+\bibitem{souzaReconstructingThreeDecades2020}
+Carlos~M. Souza, Julia Z.~Shimbo, Marcos~R. Rosa, Leandro~L. Parente, Ane
+  A.~Alencar, Bernardo F.~T. Rudorff, Heinrich Hasenack, Marcelo Matsumoto,
+  Laerte G.~Ferreira, Pedro W.~M. {Souza-Filho}, Sergio~W. {de Oliveira},
+  Washington~F. Rocha, Ant{\^o}nio~V. Fonseca, Camila~B. Marques, Cesar~G.
+  Diniz, Diego Costa, Dyeden Monteiro, Eduardo~R. Rosa, Eduardo
+  {V{\'e}lez-Martin}, Eliseu~J. Weber, Felipe E.~B. Lenti, Fernando~F.
+  Paternost, Frans G.~C. Pareyn, Jo{\~a}o~V. Siqueira, Jos{\'e}~L. Viera, Luiz
+  C.~Ferreira Neto, Marciano~M. Saraiva, Marcio~H. Sales, Moises P.~G. Salgado,
+  Rodrigo Vasconcelos, Soltan Galano, Vinicius~V. Mesquita, and Tasso Azevedo.
+\newblock Reconstructing {{Three Decades}} of {{Land Use}} and {{Land Cover
+  Changes}} in {{Brazilian Biomes}} with {{Landsat Archive}} and {{Earth
+  Engine}}.
+\newblock {\em Remote Sensing}, 12(17):2735, January 2020.
+
+\bibitem{donatoMangrovesMostCarbonrich2011}
+Daniel~C. Donato, J.~Boone Kauffman, Daniel Murdiyarso, Sofyan Kurnianto,
+  Melanie Stidham, and Markku Kanninen.
+\newblock Mangroves among the most carbon-rich forests in the tropics.
+\newblock {\em Nature Geoscience}, 4(5):293--297, May 2011.
+
+\bibitem{simardMangroveCanopyHeight2019}
+Marc Simard, Lola Fatoyinbo, Charlotte Smetanka, Victor~H. {Rivera-Monroy},
+  Edward {Casta{\~n}eda-Moya}, Nathan Thomas, and Tom {Van der Stocken}.
+\newblock Mangrove canopy height globally related to precipitation, temperature
+  and cyclone frequency.
+\newblock {\em Nature Geoscience}, 12(1):40--45, January 2019.
+
+\bibitem{faillerValuationMarineCoastal2015}
+Pierre Failler, {\'E}lise P{\`e}tre, Thomas Binet, and Jean-Philippe
+  Mar{\'e}chal.
+\newblock Valuation of marine and coastal ecosystem services as a tool for
+  conservation: {{The}} case of {{Martinique}} in the {{Caribbean}}.
+\newblock {\em Ecosystem Services}, 11:67--75, February 2015.
+
+\bibitem{huxhamApplyingClimateCompatible2015}
+Mark Huxham, Lucy Emerton, James Kairo, Fridah Munyi, Hassan Abdirizak, Tabitha
+  Muriuki, Fiona Nunan, and Robert~A. Briers.
+\newblock Applying {{Climate Compatible Development}} and economic valuation to
+  coastal management: {{A}} case study of {{Kenya}}'s mangrove forests.
+\newblock {\em Journal of Environmental Management}, 157:168--181, July 2015.
+
+\bibitem{souzaEcologicalEconomicValuation2011}
+Flavo E.~S. Souza and Carlos~Augusto {Ramos e Silva}.
+\newblock Ecological and economic valuation of the {{Potengi}} estuary mangrove
+  wetlands ({{NE}}, {{Brazil}}) using ancillary spatial data.
+\newblock {\em Journal of Coastal Conservation}, 15(1):195--206, March 2011.
+
+\bibitem{tannerMangrovesGalapagosEcosystem2019}
+Michael~K. Tanner, Nicolas Moity, Matthew~T. Costa, Jose~R. Marin~Jarrin,
+  Octavio {Aburto-Oropeza}, and Pelayo {Salinas-de-Le{\'o}n}.
+\newblock Mangroves in the {{Galapagos}}: {{Ecosystem}} services and their
+  valuation.
+\newblock {\em Ecological Economics}, 160:12--24, June 2019.
+
+\bibitem{estradaEconomicEvaluationCarbon2015}
+Gustavo Calderucio~Duque Estrada, M{\'a}rio Luiz~Gomes Soares, Viviane
+  Fernadez, and Paula Maria~Moura {de Almeida}.
+\newblock The economic evaluation of carbon storage and sequestration as
+  ecosystem services of mangroves: A case study from southeastern {{Brazil}}.
+\newblock {\em International Journal of Biodiversity Science, Ecosystem
+  Services \& Management}, 11(1):29--35, January 2015.
+
+\bibitem{herzogGuaratibaVerdeSubsidios2009}
+Cecilia~Polacow Herzog.
+\newblock {\em Guaratiba Verde: Subs\'idios Para o Projeto de Uma
+  Infra-Estrutura Verde Em \'Area de Expans\~ao Urbana Na Cidade Do {{Rio}} de
+  {{Janeiro}}}.
+\newblock PhD thesis, Universidade Federal do Rio de Janeiro, 2009.
+
 \bibitem{rossGamebasedLearningSystems2014}
 Adam~M. Ross, Matthew~E. Fitzgerald, and Donna~H. Rhodes.
 \newblock Game-based {{Learning}} for {{Systems Engineering Concepts}}.
@@ -904,21 +1186,6 @@ P.~T. Grogan and O.~L. {de Weck}.
   {{Challenging Environments}}, and the 5th {{NASA}}/{{ASCE Workshop On
   Granular Materials}} in {{Space Exploration}}}, pages 1468--1477, {Pasadena,
   California}, July 2012. {American Society of Civil Engineers}.
-
-\bibitem{bluerasterBlueRasterVida2021}
-{Blue Raster}.
-\newblock Blue {{Raster Vida Repository}}.
-\newblock https://github.com/blueraster/mit-vida, August 2021.
-
-\bibitem{reidEVDTRepository2020}
-Jack Reid.
-\newblock {{EVDT Repository}}.
-\newblock https://github.com/mitmedialab/evdt, June 2020.
-
-\bibitem{reidMITVidaRepository2021}
-Jack Reid, Seamus Lombardo, and Danielle Wood.
-\newblock {{MIT Vida Repository}}.
-\newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
 
 \bibitem{greenfieldboycePaleBlueDot2010}
 Nell Greenfieldboyce.

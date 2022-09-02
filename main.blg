@@ -12,50 +12,56 @@ A level-1 auxiliary file: chap6.aux
 A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
+Reallocated field_info (elt_size=4) to 10198 items from 5000.
 Database file #1: main.bib
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
 Warning--empty publisher in goodchildOverviewDefinitionGIS1992
+Warning--empty institution in internationalorganizationforstandardizationSystemsSoftwareEngineering2010
 Warning--empty journal in hayesRaysHopeTransition1977
 Warning--empty year in simoniteWhatReallyHappened
-You've used 189 entries,
+Warning--empty institution in sussmanCollectedViewsComplexity2002
+Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
+Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
+Warning--empty school in martinFrameworkQuantifyingComplexity2004
+You've used 226 entries,
             1791 wiz_defined-function locations,
-            1620 strings with 43314 characters,
-and the built_in function-call counts, 43642 in all, are:
-= -- 4070
-> -- 1651
-< -- 38
-+ -- 636
-- -- 447
-* -- 2952
-:= -- 6821
-add.period$ -- 606
-call.type$ -- 189
-change.case$ -- 198
+            1836 strings with 53045 characters,
+and the built_in function-call counts, 51212 in all, are:
+= -- 4744
+> -- 1980
+< -- 45
++ -- 761
+- -- 535
+* -- 3354
+:= -- 8023
+add.period$ -- 723
+call.type$ -- 226
+change.case$ -- 234
 chr.to.int$ -- 0
-cite$ -- 193
-duplicate$ -- 2088
-empty$ -- 4473
-format.name$ -- 447
-if$ -- 9859
+cite$ -- 235
+duplicate$ -- 2480
+empty$ -- 5263
+format.name$ -- 535
+if$ -- 11605
 int.to.chr$ -- 0
-int.to.str$ -- 189
-missing$ -- 199
-newline$ -- 942
-num.names$ -- 257
-pop$ -- 625
+int.to.str$ -- 226
+missing$ -- 231
+newline$ -- 1125
+num.names$ -- 301
+pop$ -- 786
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 831
+skip$ -- 994
 stack$ -- 0
-substring$ -- 2666
-swap$ -- 430
-text.length$ -- 38
+substring$ -- 2936
+swap$ -- 516
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 470
-width$ -- 192
-write$ -- 2130
-(There were 4 warnings)
+warning$ -- 9
+while$ -- 536
+width$ -- 229
+write$ -- 2534
+(There were 9 warnings)
