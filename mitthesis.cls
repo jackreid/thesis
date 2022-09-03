@@ -324,6 +324,7 @@
     \def\@evenfoot{}
     \def\sectionmark##1{}
     \def\subsectionmark##1{}
+    \def\subsubsectionmark##1{}
     \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
     \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
     \pulldownheader				% Bring header down from edge

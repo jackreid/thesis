@@ -3,6 +3,21 @@
 %% contents and lists of figures and tables.  You can omit any or all of
 %% these files by simply taking out the appropriate command.  For more
 %% information on these files, see appendix C.3.3 of the LaTeX manual. 
+\setcounter{tocdepth}{3}
+
+% ensure we're on an odd page
+\cleardoublepage
+
+
+%% DELETE THE CODE BETWEEN HERE AND TABLEOFCONTENTS ONCE THESIS IS DONE
+% open a group for doing local redefinitions
+\begingroup
+% a \clearpage will close the group and restore the meaning
+\let\clearpage\endgroup
+
+% here you type the text you want 
+[The colors highlighting section titles are used to indicate their current status. \hlc[green]{Green} indicates a section has been reviewed and is largely finalized. \hlc[cyan]{Blue} indicates a complete, coherent draft. \hlc[yellow]{Yellow]} indicates an incomplete draft that contains significant coherent portions. \hlc[red]{Red} indicates a mostly incomplete section consisting primarily of notes, if anything.]
+
 \tableofcontents
 \newpage
 \listoffigures
@@ -27,7 +42,7 @@
 \acro{eos}[EOS]{earth observation system}
 \acro{epa}[EPA]{Environmental Protection Agency}
 \acro{esa}[ESA]{European Space Agency}
-\acro{evdt}[EVDT]{Environment, Vulerability, Decision-Making, Technology}
+\acro{evdt}[EVDT]{Environment, Vulnerability, Decision-Making, Technology}
 \acro{fema}[FEMA]{Federal Emergency Management Agency}
 \acro{geo}[GEO]{Group of Earth Observations}
 \acro{fews}[FEWS NET]{Famine Early Warning Systems Network}
@@ -59,11 +74,14 @@
 \acro{ppgis}[PPGIS]{public participation geographic information system}
 \acro{ppbs}[PPBS]{Planning-Programming-Budgeting System}
 \acro{pss}[PSS]{Planning Support System}
+\acro{saf}[SAF]{Systems Architecture Framework}
 \acro{sdg}[SDG]{Sustainable Development Goal}
 \acro{sebok}[SEBoK]{Systems Engineering Body of Knowledge}
 \acro{servir}[SERVIR]{Sistema Regional De Visualizaci\'{o}n Y Monitoreo De Mesoam\'{e}rica}
 \acro{sets}[SETS]{socio-environmental-
 technical system}
+\acro{sts}[STS]{Sociotechnical system}
+\acro{ses}[SES]{Socio-environmental system}
 \acro{swot}[SWOT]{Surface Water Ocean Topography}
 \acro{un}[UN]{United Nations}
 \acro{usaid}[USAID]{United States Agency for International Development}

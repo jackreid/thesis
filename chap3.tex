@@ -1,5 +1,170 @@
-\chapter{\hlc[red]{Methodology}} \label{ch:method}
+\chapter{\hlc[red]{EVDT Framework}} \label{ch:evdt}
 
+Computational models have been closely linked to the pursuit of sustainable development and with its definition, stemming from the World3 system dynamics model underlying the Club of Rome's \textit{The Limits to Growth} report in 1972 \cite{meadowsLimitsGrowth1972}.
+
+"Sustainable Development involves not just one but four complex interacting systems. It deals with a global economy...; it focuses on social interactions...; it analyzes the changes in complex Earth systems...; and it studies the problems of governance". \cite{sachsAgeSustainableDevelopment2015} [Compare this to the EVDT framework]
+
+We are far from the first to argue that such integration is necessary, nor to recognize that it is easier said than done \cite{shahumyanIntegrationLandUse2017}.
+
+There have been many land use and transportation models. The open source UrbanSim, for example, combines land use, transportation, and certain environmental factors in a dynamic, area-based simulation system that, similar to \ac{evdt}, is a collection multiple models \cite{waddellUrbanSimModelingUrban2002}.
+
+The agent-based \ac{ilute} model simulated the urban spatial form, demographics, travel behavior, and environmental impacts for the Toronto area \cite{millerHistoricalValidationIntegrated2011}.
+
+Existing \ac{pss} have often been criticized for being lacking with regard to "visioning, storytelling sketching, and developing strategies," as well as being "too generic, too complex, inflexible, incompatible..., oriented towards technology rather than problems" \cite{brommelstroetPlanningSupportSystems2010}" This leads to what some have called the "implementation gap" of \acp{pss} \cite{BottlenecksBlockingWidespread}.
+
+For the past couple of decades, there has been a recognition that \acp{dss} and \acp{pss} must include more than purely spatial analysis components \cite{geertmanPlanningSupportSystems2004}.
+
+The closest attempt to what we are proposing is probably that of Shahumyan and Moeckel, though their approach focused on linking together existing models in a loose manner using ArcGIS Model Builder, to avoid having to gain access to proprietary source code. While their example focused on combinging transportation, land use, mobile emissions, building emissions, and land cover, with only limited feedbacks, their approach could be extended to capture the full feedback loops proposed by \ac{evdt}. Their example is also proof that the kind of loose integration of library of models that \ac{evdt} envisions is possible \cite{shahumyanIntegrationLandUse2017}. 
+
+Lauf et al. combined cellular automata with systems dynamics to capture both spatial dynamics and macroscale demand-supply dynamics in order to simulate residential development \cite{laufUncoveringLanduseDynamics2012}
+
+Pert et al. combined environmental and decision-making in a participatory model to improve conservation outcomes \cite{pertParticipatoryDevelopmentNew2013}. 
+
+Miller argues that, despite the historical dificulties that integrated urban models have had, there is reason to be optimistic about the state of the art moving forward, particularly for integrating transportation and land-use models in particular \cite{millerIntegratedUrbanModeling2018}. <---important to discuss at more length
+
+Is not itself a means of planning and implementing projects. It is not a full life-cycle tool such as \ac{ppbs} \cite{hatryCriteriaEvaluationPlanning1972}
+
+Clifton et al. breaks down the various ways of modeling the urban form into five categories (though they do not assert that these are comprehensive or mutually exclusive), as seen in Table \ref{table:urban_form} \cite{cliftonQuantitativeAnalysisUrban2008}. While \ac{evdt} does not focus specifically on urban form, it is interested in these types of models, with the case studies presented in this work focusing on landscape ecology and community design in particular. One downside of examinations of urban form is that they tend to focus on areas and residences, while various forms of social exclusion are better measured by focusing on individuals instead \cite{scottRoleUrbanForm2008}.
+
+\begin{table}[h]
+%\begin{center}
+\caption[Five categories of urban form models]{Five categories of urban form models. Adapted from \cite{cliftonQuantitativeAnalysisUrban2008}}
+\label{table:urban_form}
+\makebox[\linewidth]{
+\begin{tabular}{ L{3cm} L{3cm}  L{3cm} L{3cm} L{3cm} L{3cm}} \hline
+Perspective & Principal concern & Disciplinary Orientation & Scale & Nature of Data & Common Metrics  \\ \hline
+
+Landscape ecology & Environmental protection & Natural scientists & Regional & Land cover & Land cover change; Contagion \\ 
+
+Economic structure & Economic efficiency & Economists & Metropolitan & Employment and population & Density gradient; Land value  \\
+
+Transportation planning & Accessibility & Transportation planners & Submetropolitan & Employment, population and transportation network & Expected travel time; capacity  \\
+
+Community design & Social welfare & Land-use planners & Neighborhood & Local \ac{gis} data & Proximity to needs; Zoning; Accessibility \\
+
+Urban design & Aesthetics and walkability & Urban designers & Block face & Images, surveys, and audits & Lot size; Accessibility \\ \hline
+
+\end{tabular}
+}
+%\end{center}
+\end{table}
+
+
+The motivation for combining so many variables from different disciplines stems from both push and pull factors. The push factors are the simple increase in availability of data, as has already been described, along with the increase in the interoperability of the variables (which the work described in this thesis is trying to help contribute to). The primary pull factor is our increased understanding of - and appreciation for - the complex relationships between these domains, relationships that were previously ignored in analyses \cite{gaheganMultivariateGeovisualization2007}. 
+
+
+Position \ac{evdt} using the different dimensions of models proposed in \cite{harrisQuantitativeModelsUrban1972}:
+
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+	\item{descriptive vs. analytic}
+	\item{holistic vs. partial}
+	\item{macro vs. micro}
+	\item{static vs. dynamic}
+	\item{deterministic vs. probabilistic}
+	\item{simultaneous vs. sequential (directly calculate the output or go through intermediate phases)}
+\end{enumerate}
+
+Goodchild defines six different \ac{gis} data field model types and states that "no current \ac{gis} gives its users full access to all six":
+
+\begin{enumerate}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}%
+	\item{Sample randomly located points (e.g. weather stations, \ac{lidar} data)}
+	\item{Sample randomly from a grid of regularly space points (e.g. many data validation studies}
+	\item{Divide the area into a grid in which each rectangular cell records the average, total, or dominant value; i.e. raster data (e.g. satellite imagery)}
+	\item{Divide the area into homogenous regions and record the average, total, or dominant value in each area (e.g. census data, soil maps)}
+	\item{Record the locations of lines of fixed values (e.g. contour or isopleth maps}
+	\item{Divide the area into irregular shaped triangles and assume the field varies linearly within each (e.g. some \acp{dem})}
+\end{enumerate}
+
+In the mid 90s, \ac{gis} had several limitations \cite{goodchildGeographicInformationSystems1994}:
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}%
+	\item{Two-dimensional, with some excursions into three}
+	\item{Static, with some limited support for time dependence}
+	\item{Limited capabilities for representing forms of interaction between objects}
+	\item{A diverse and confusing set of data models}
+	\item{Dominated by the map metaphor}
+\end{itemize}
+
+To some extent, many of these issues, such as the lack of three dimensional systems, persisted well past the 90s \cite{goodchildTwentyYearsProgress2010}.
+
+Yamu et al. argue that urban modeling should treat the urban form as a \ac{cas} and use fractal metrics to develop scenarios for planning purposes \cite{yamuAssumingItAll2016}.
+
+In order for cost-benefit analysis to maximize economic welfare, the following conditions must be met \cite{krutillaWelfareAspectsBenefitCost1961}:
+
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+	\item{Opportunity costs are borne by beneficiaries in  such wise as to retain the initial income distribution}
+	\item{The initial income distribution is in some sense "best}
+	\item{The marginal social rates of transformation between any two commodities are everywhere equal to their corresponding rates of substitution except for the area(s) justifying the intervention in question}
+\end{enumerate}
+
+More details modeling, as well as breaking down specific costs and benefits (as opposed to converting them to monetary terms and summing them) and attributing them to specific goals, can circumvent these constraints, though at the cost of increased complexity \cite{hillGoalsAchievementMatrixEvaluating1972}.
+
+The Law of requisite variety from the field of cybernetics says that the variety (the number of elements or states) of the control device must be at least equal to that of the disturbances \cite{ashbyRequisiteVarietyIts1991}. Any development plan is going to fall far short of the variety expressed by human society and the natural environment. Planning efforts must then make reliance on the natural homeostasis behavior of such systems and of more flexible, ad hoc measures not specified in the plan in order to make up the difference in variety. \cite{mcloughlinSystemGuidanceControl1972}
+
+\section{\hlc[red]{The Framework}} 
+
+\subsection{\hlc[red]{System Architecture Framework}} \label{sec:saf}
+
+\subsection{\hlc[red]{Collaborative Development}} 
+
+\subsection{\hlc[red]{EVDT Questions \& Models}} 
+
+\subsection{\hlc[red]{Interactive Decision Support System}} 
+
+\subsection{\hlc[red]{Re-use \& Community Development}} 
+
+
+
+\section{\hlc[red]{Intended Applications \& User Types}}
+
+While \ac{evdt} does not include any concrete spatial scale requirements, it is often the most straightforward to apply to it at a a relatively local scale, like much of the early history of \ac{gis} applications \cite{tullochInstitutionalGeographicInformation2007}. Most of the applications to date have been at the area of a metropolitan area or that of a small province.
+
+
+Tends to be at intersections of rural and urban areas. Urban areas often depend on an area significantly larger than the built-up area for basic resources and ecosystem services, particularly for water, bulky materials, and waste disposal. I will not attempt to strictly define rural and urban here, as the "distinctions are often arbitrary" \cite{tacoliRuralurbanInteractionsGuide1998}. Instead this work will rely upon local definitions of urban, rural, and peri-urban, similarly to the \ac{un} \cite{sachsAgeSustainableDevelopment2015}. 
+
+
+
+Commonly has to do with \acp{cpr}. Talk about the three common ways of managing \acp{cpr}: Central management, privatization, self-management. Bring in Table \ref{table:cpr_design}  showing design principles of long-enduring self-management institutions. Refer to successful aspects of the water basin in California (incremental and sequential process to reduce the costs of local institutional supply, shared information at each step, intermediate benefits from initial investments were realized prior to larger investments, transformed structure of incentives within which fuure strategic decisions can be made) (pg. 137. \cite{ostromGoverningCommonsEvolution2015}
+
+\begin{table}[h]
+\caption[Design principles illustrated by long-lasting CPR institutions]{Design principles illustrated by long-lasting \ac{cpr} institutions. Adapted from \cite{ostromGoverningCommonsEvolution2015}}
+\label{table:cpr_design}
+\begin{center}
+\begin{tabular}{ L{0.5cm} L{8cm}} \hline
+1. & Clearly defined boundaries \\
+2. & Congruence between appropriation and provision rules and local conditions \\
+3. & Collective-choice arrangements \\
+4. & Monitoring \\
+5. & Graduated sanctions \\
+6. & Conflict-resolution mechanisms \\
+7. & Minimal recognition of rights to organize \\
+\multicolumn{2}{l}{\textit{For CPRs that are parts of larger systems:}} \\
+8. & Nested enterprises \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+We also 
+
+Harris et al. have pointed out that reliance on mapping products to designate certain geographic areas for conservation has several negative consequences, including: 
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}%
+	\item{solidifying a notion that humans and non-human others are, and should be, separate.}
+	\item{privileging those voices and perspectives that have access and expertise related to Western cartographic approaches and GIScience in conservation debates.}
+	\item{favoring those spaces, ecosystems, and natures that may be "more mappable" for protection over other areas.}
+	\item{cementing an overly-limited territorial approach to conservation, in ways that potentially sideline non-territorial approaches.}
+	\item{consolidating an overly-fixed and static approach to sonservation, rather than enabling approaches that may be more seasonal, fluid, or appropriate for shifting and evolving ecological conditions and needs.}
+\end{itemize}
+
+\section{\hlc[red]{Novelty}}
+
+\section{\hlc[red]{Development \& Evaluation}}
 
 
 \section{\hlc[red]{Mapping and Visualization}}

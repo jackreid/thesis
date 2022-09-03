@@ -176,6 +176,17 @@ Leila Harris and Helen Hazen.
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   50--67. {Routledge}, June 2011.
 
+\bibitem{mccauleySellingOutNature2006}
+Douglas~J. McCauley.
+\newblock Selling out on nature.
+\newblock {\em Nature}, 443(7107):27--28, September 2006.
+
+\bibitem{guoEconomicsClimateChange2021}
+Jessie Guo, Daniel Kubli, and Patrick Saner.
+\newblock The economics of climate change: No action not an option.
+\newblock Technical report, {Swiss Re Institute}, {Zurich, Switzerland}, April
+  2021.
+
 \bibitem{grootEcosystemServicesValuation2020}
 R.~de~Groot, L.~Brander, and S.~Solomonides.
 \newblock Ecosystem {{Services Valuation Database}} ({{ESVD}}).
@@ -190,6 +201,31 @@ W.~V. Reid, H.~A. Mooney, A.~Cropper, D.~Capistrano, S.~R. Carpenter,
 \newblock {\em Ecosystems and Human Well-Being - {{Synthesis}}: {{A Report}} of
   the {{Millennium Ecosystem Assessment}}}.
 \newblock {Island Press}, 2005.
+
+\bibitem{rouseUnderstandingChangeComplex2012}
+William~B Rouse and Nicoleta Serban.
+\newblock Understanding change in complex socio-technical systems.
+\newblock {\em Information Knowledge Systems Management}, 2012.
+
+\bibitem{siddiqiSociotechnicalSystemsSustainability2017}
+Afreen Siddiqi and Ross~D. Collins.
+\newblock Sociotechnical systems and sustainability: Current and future
+  perspectives for inclusive development.
+\newblock {\em Current Opinion in Environmental Sustainability}, 24:7--13,
+  2017.
+
+\bibitem{sussmanTeachingComplexSociotechnical2010}
+Joseph~M Sussman.
+\newblock Teaching about {{Complex Sociotechnical Systems}}.
+\newblock Technical report, 2010.
+
+\bibitem{elsawahEightGrandChallenges2020}
+Sondoss Elsawah, Tatiana Filatova, Anthony~J. Jakeman, Albert~J. Kettner,
+  Moira~L. Zellner, Ioannis~N. Athanasiadis, Serena~H. Hamilton, Robert~L.
+  Axtell, Daniel~G. Brown, Jonathan~M. Gilligan, Marco~A. Janssen, Derek~T.
+  Robinson, Julie Rozenberg, Isaac I.~T. Ullah, and Steve~J. Lade.
+\newblock Eight grand challenges in socio-environmental systems modeling.
+\newblock {\em Socio-Environmental Systems Modelling}, 2:16226, January 2020.
 
 \bibitem{inter-agencyandexpertgrouponmdgindicatorsMillenniumDevelopmentGoals2015}
 {Inter-Agency and Expert Group on MDG Indicators}.
@@ -585,6 +621,81 @@ Z.~Asl{\i}g{\"u}l G{\"o}{\c c}men and Stephen~J. Ventura.
 \newblock {\em Journal of the American Planning Association}, 76(2):172--183,
   March 2010.
 
+\bibitem{harrisLocationalModelsGeographic1993}
+Britton Harris and Michael Batty.
+\newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
+  Support Systems}}.
+\newblock {\em Journal of the American Planning Association}, 55(1), 1993.
+
+\bibitem{jankowskiIntegratingGeographicalInformation1995}
+Piotr Jankowski.
+\newblock Integrating geographical information systems and multiple criteria
+  decision-making methods.
+\newblock {\em International Journal of Geographical Information Systems},
+  9(3):251--273, May 1995.
+
+\bibitem{borjesonScenarioTypesTechniques2006}
+Lena B{\"o}rjeson, Mattias H{\"o}jer, Karl-Henrik Dreborg, Tomas Ekvall, and
+  G{\"o}ran Finnveden.
+\newblock Scenario types and techniques: {{Towards}} a user's guide.
+\newblock {\em Futures}, 38(7):723--739, September 2006.
+
+\bibitem{avinUsingExploratoryScenarios2020}
+Uri Avin and Robert Goodspeed.
+\newblock Using {{Exploratory Scenarios}} in {{Planning Practice}}.
+\newblock {\em Journal of the American Planning Association}, 86(4):403--416,
+  October 2020.
+
+\bibitem{maierUncertainFutureDeep2016}
+H.~R. Maier, J.~H.~A. Guillaume, H.~{van Delden}, G.~A. Riddell, M.~Haasnoot,
+  and J.~H. Kwakkel.
+\newblock An uncertain future, deep uncertainty, scenarios, robustness and
+  adaptation: {{How}} do they fit together?
+\newblock {\em Environmental Modelling \& Software}, 81:154--164, July 2016.
+
+\bibitem{goodspeedScenarioPlanningCities2020}
+Robert Goodspeed.
+\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
+  {{Managing}} and {{Envisioning Uncertain Futures}}}.
+\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
+
+\bibitem{bradfieldOriginsEvolutionScenario2005}
+Ron Bradfield, George Wright, George Burt, George Cairns, and Kees Van
+  Der~Heijden.
+\newblock The origins and evolution of scenario techniques in long range
+  business planning.
+\newblock {\em Futures}, 37(8):795--812, October 2005.
+
+\bibitem{tessunScenarioAnalysisEarly1997}
+Franz Tessun.
+\newblock Scenario analysis and early warning systems at {{Daimler-Benz}}
+  aerospace.
+\newblock {\em Competitive Intelligence Review}, 8(4):30--40, 1997.
+
+\bibitem{oregonsustainabletransportationinitiativeScenarioPlanningGuidelines2017}
+{Oregon Sustainable Transportation Initiative}.
+\newblock Scenario {{Planning Guidelines}}.
+\newblock Technical report, {Oregon Department of Transportation}, {Salem, OR},
+  August 2017.
+
+\bibitem{zapataRadicalUncertaintyScenario2015}
+Marisa~A Zapata and Nikhil Kaza.
+\newblock Radical uncertainty: Scenario planning for futures.
+\newblock {\em Environment and Planning B: Planning and Design},
+  42(4):754--770, July 2015.
+
+\bibitem{klostermanCommunityAnalysisPlanning1990}
+Richard~E. Klosterman.
+\newblock {\em Community {{Analysis}} and {{Planning Techniques}}}.
+\newblock {Rowman \& Littlefield Publishers}, {Savage, Md}, 50185th edition
+  edition, April 1990.
+
+\bibitem{walkerPlannersGuideCommunityViz2017}
+Doug Walker.
+\newblock {\em The {{Planners Guide}} to {{CommunityViz}}: {{The Essential
+  Tool}} for a {{New Generation}} of {{Planning}}}.
+\newblock {Routledge}, November 2017.
+
 \bibitem{internationalorganizationforstandardizationSystemsSoftwareEngineering2010}
 {International Organization for Standardization}, {International
   Electrotechnical Commission}, and {Institute of Electrical {and} Electronics
@@ -660,135 +771,6 @@ Peter Vascik, Adam~M. Ross, and Donna~H. Rhodes.
 \newblock In {\em Proceedings of the 12th {{Annual Acquisition Research
   Symposium}}}, {Fort Belvoir, VA}, April 2015. {Defense Technical Information
   Center}.
-
-\bibitem{meadowsLimitsGrowth1972}
-Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
-\newblock {\em The {{Limits}} to {{Growth}}}.
-\newblock {Potomac Associates}, {Washington D.C.}, 1972.
-
-\bibitem{shahumyanIntegrationLandUse2017}
-Harutyun Shahumyan and Rolf Moeckel.
-\newblock Integration of land use, land cover, transportation, and
-  environmental impact models: {{Expanding}} scenario analysis with multiple
-  modules.
-\newblock {\em Environment and Planning B: Urban Analytics and City Science},
-  44(3):531--552, May 2017.
-
-\bibitem{waddellUrbanSimModelingUrban2002}
-Paul Waddell.
-\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
-  {{Transportation}}, and {{Environmental Planning}}.
-\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
-  September 2002.
-
-\bibitem{millerHistoricalValidationIntegrated2011}
-Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
-\newblock Historical {{Validation}} of {{Integrated
-  Transport}}\textendash{{Land Use Model System}}.
-\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
-
-\bibitem{BottlenecksBlockingWidespread}
-Bottlenecks {{Blocking Widespread Usage}} of {{Planning Support Systems}} -
-  {{Guido Vonk}}, {{Stan Geertman}}, {{Paul Schot}}, 2005.
-\newblock https://journals.sagepub.com/doi/abs/10.1068/a3712.
-
-\bibitem{geertmanPlanningSupportSystems2004}
-Stan Geertman and John Stillwell.
-\newblock Planning support systems: An inventory of current practice.
-\newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310, July
-  2004.
-
-\bibitem{laufUncoveringLanduseDynamics2012}
-S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
-\newblock Uncovering land-use dynamics driven by human decision-making
-  \textendash{} {{A}} combined model approach using cellular automata and
-  system dynamics.
-\newblock {\em Environmental Modelling \& Software}, 27--28:71--82, January
-  2012.
-
-\bibitem{pertParticipatoryDevelopmentNew2013}
-Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
-\newblock Participatory development of a new interactive tool for capturing
-  social and ecological dynamism in conservation prioritization.
-\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
-
-\bibitem{millerIntegratedUrbanModeling2018}
-Eric~J. Miller.
-\newblock Integrated urban modeling: {{Past}}, present, and future.
-\newblock {\em Journal of Transport and Land Use}, 11(1):387--399, 2018.
-
-\bibitem{hatryCriteriaEvaluationPlanning1972}
-Harry~P. Hatry.
-\newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
-  Programs}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{cliftonQuantitativeAnalysisUrban2008}
-Kelly Clifton, Reid Ewing, and Gerrit-Jan Knapp.
-\newblock Quantitative analysis of urban form: A multidisciplinary review.
-\newblock {\em Journal of Urbanism}, 1(1):17--45, 2008.
-
-\bibitem{scottRoleUrbanForm2008}
-Darren~M. Scott and Mark~W. Horner.
-\newblock The role of urban form in shaping access to opportunities: {{An}}
-  exploratory spatial data analysis.
-\newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
-
-\bibitem{gaheganMultivariateGeovisualization2007}
-Mark Gahegan.
-\newblock Multivariate {{Geovisualization}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
-
-\bibitem{harrisQuantitativeModelsUrban1972}
-Britton Harris.
-\newblock Quantitative {{Models}} of {{Urban Development}}: {{Their}} role in
-  {{Metropolitan Decision-Making}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{yamuAssumingItAll2016}
-Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
-\newblock Assuming it is all about conditions. {{Framing}} a simulation model
-  for complex, adaptive urban space.
-\newblock {\em Environment and Planning B: Planning and Design},
-  43(6):1019--1039, November 2016.
-
-\bibitem{krutillaWelfareAspectsBenefitCost1961}
-J.~Krutilla.
-\newblock Welfare {{Aspects}} of {{Benefit-Cost Analysis}}.
-\newblock {\em Journal of Political Economy}, 1961.
-
-\bibitem{hillGoalsAchievementMatrixEvaluating1972}
-Morris Hill.
-\newblock A {{Goals-Achievement Matrix}} for {{Evaluating Alternative Plans}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{ashbyRequisiteVarietyIts1991}
-W.~Ross Ashby.
-\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
-  {{Complex Systems}}.
-\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
-  International {{Federation}} for {{Systems Research International Series}} on
-  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
-  {Boston, MA}, 1991.
-
-\bibitem{mcloughlinSystemGuidanceControl1972}
-Brian~J. McLoughlin.
-\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
-\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
-  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
-  1972.
-
-\bibitem{tacoliRuralurbanInteractionsGuide1998}
-Cecilia Tacoli.
-\newblock Rural-urban interactions: A guide to the literature.
-\newblock {\em Environment and Urbanization}, 10(1):147--166, April 1998.
 
 \bibitem{mazlish1963}
 Bruce Mazlish.
@@ -872,12 +854,6 @@ David~L. Tulloch.
 \newblock Theoretical {{Model}} of {{Multipurpose Land Information Systems
   Development}}.
 \newblock {\em Transactions in GIS}, 3(3):259--283, 1999.
-
-\bibitem{goodspeedScenarioPlanningCities2020}
-Robert Goodspeed.
-\newblock {\em Scenario {{Planning}} for {{Cities}} and {{Regions}}:
-  {{Managing}} and {{Envisioning Uncertain Futures}}}.
-\newblock {Lincoln Institute of Land Policy}, {Cambridge}, May 2020.
 
 \bibitem{krygierCeEstPas2011}
 John Krygier and Denis Wood.
@@ -1045,7 +1021,7 @@ Jonathan Furner.
 \newblock {\em KO Knowledge Organization}, 34(3):144--168, 2007.
 
 \bibitem{mazza2017}
-Johnn Friedmann.
+John Friedmann.
 \newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
 \newblock In Seymour Mandelbaum, Luigi Mazza, and Robert Burchell, editors,
   {\em Explorations in {{Planning Theory}}}, pages 10--29. {Routledge}, {New
@@ -1057,6 +1033,13 @@ Ira~M. Robinson, editor.
   Methodologies}.
 \newblock {Sage Publications}, {Beverly Hills}, January 1972.
 
+\bibitem{mcloughlinSystemGuidanceControl1972}
+Brian~J. McLoughlin.
+\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
+\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
+  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
+  1972.
+
 \bibitem{mcloughlinChartingPossibleCourses1972}
 Brian~J. McLoughlin.
 \newblock Charting {{Possible Courses}} of the {{System}}.
@@ -1064,17 +1047,27 @@ Brian~J. McLoughlin.
   {{An}} Introduction to New Methodologies}, pages 103--114. {SAGE
   Publications, Inc}, {Beverly Hills, CA}, first edition, 1972.
 
+\bibitem{ashbyRequisiteVarietyIts1991}
+W.~Ross Ashby.
+\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
+  {{Complex Systems}}.
+\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
+  International {{Federation}} for {{Systems Research International Series}} on
+  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
+  {Boston, MA}, 1991.
+
 \bibitem{leejrRequiemLargeScaleModels1973}
 Douglass B.~Lee Lee~Jr.
 \newblock Requiem for {{Large-Scale Models}}.
 \newblock {\em Journal of the American Institute of Planners}, 39(3):163--178,
   May 1973.
 
-\bibitem{walkerPlannersGuideCommunityViz2017}
-Doug Walker.
-\newblock {\em The {{Planners Guide}} to {{CommunityViz}}: {{The Essential
-  Tool}} for a {{New Generation}} of {{Planning}}}.
-\newblock {Routledge}, November 2017.
+\bibitem{waddellUrbanSimModelingUrban2002}
+Paul Waddell.
+\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
+  {{Transportation}}, and {{Environmental Planning}}.
+\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
+  September 2002.
 
 \bibitem{wilsonHandbookGeographicInformation2007}
 John~P. Wilson and A.~Stewart Fotheringham, editors.
@@ -1088,6 +1081,11 @@ David Boyce.
 \newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
   {{An}} Introduction to New Methodologies}, pages 62--84. {SAGE Publications,
   Inc}, {Beverly Hills, CA}, first edition, 1972.
+
+\bibitem{cliftonQuantitativeAnalysisUrban2008}
+Kelly Clifton, Reid Ewing, and Gerrit-Jan Knapp.
+\newblock Quantitative analysis of urban form: A multidisciplinary review.
+\newblock {\em Journal of Urbanism}, 1(1):17--45, 2008.
 
 \bibitem{readAssetbasedEconomicDevelopment2012}
 A~Read, K~Takai, H~Wolford, and E~Berman.
@@ -1113,11 +1111,18 @@ Michael Batty.
 \newblock {\em Cities and {{Complexity}}}.
 \newblock {The MIT Press}, {Cambridge, MA}, September 2005.
 
-\bibitem{zapataRadicalUncertaintyScenario2015}
-Marisa~A Zapata and Nikhil Kaza.
-\newblock Radical uncertainty: Scenario planning for futures.
-\newblock {\em Environment and Planning B: Planning and Design},
-  42(4):754--770, July 2015.
+\bibitem{laufUncoveringLanduseDynamics2012}
+S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
+\newblock Uncovering land-use dynamics driven by human decision-making
+  \textendash{} {{A}} combined model approach using cellular automata and
+  system dynamics.
+\newblock {\em Environmental Modelling \& Software}, 27--28:71--82, January
+  2012.
+
+\bibitem{millerIntegratedUrbanModeling2018}
+Eric~J. Miller.
+\newblock Integrated urban modeling: {{Past}}, present, and future.
+\newblock {\em Journal of Transport and Land Use}, 11(1):387--399, 2018.
 
 \bibitem{moeckelTrendsIntegratedLanduse2018}
 Rolf Moeckel, Carlos~Llorca Garcia, Ana T.~Moreno Chou, and Matthew~Bediako
@@ -1125,6 +1130,14 @@ Rolf Moeckel, Carlos~Llorca Garcia, Ana T.~Moreno Chou, and Matthew~Bediako
 \newblock Trends in integrated land-use/transport modeling: {{An}} evaluation
   of the state of the art.
 \newblock {\em Journal of Transport and Land Use}, 11(1):463--476, 2018.
+
+\bibitem{shahumyanIntegrationLandUse2017}
+Harutyun Shahumyan and Rolf Moeckel.
+\newblock Integration of land use, land cover, transportation, and
+  environmental impact models: {{Expanding}} scenario analysis with multiple
+  modules.
+\newblock {\em Environment and Planning B: Urban Analytics and City Science},
+  44(3):531--552, May 2017.
 
 \bibitem{mcdermidComplexityConceptCauses2000}
 John McDermid.
@@ -1256,6 +1269,13 @@ Tariq Banuri.
   {{Resistance}}}, pages 73--101. {Clarendon Press}, {Oxford : New York}, 1
   edition edition, October 1990.
 
+\bibitem{yamuAssumingItAll2016}
+Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
+\newblock Assuming it is all about conditions. {{Framing}} a simulation model
+  for complex, adaptive urban space.
+\newblock {\em Environment and Planning B: Planning and Design},
+  43(6):1019--1039, November 2016.
+
 \bibitem{brillSystemsEngineeringRetrospective1998}
 James~H. Brill.
 \newblock Systems engineering? {{A}} retrospective view.
@@ -1296,6 +1316,12 @@ Dian Nostikasari.
 \newblock Representations of everyday travel experiences: {{Case}} study of the
   {{Dallas-Fort Worth Metropolitan Area}}.
 \newblock {\em Transport Policy}, 44:96--107, November 2015.
+
+\bibitem{pertParticipatoryDevelopmentNew2013}
+Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
+\newblock Participatory development of a new interactive tool for capturing
+  social and ecological dynamism in conservation prioritization.
+\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
 
 \bibitem{ulibarriCollaborativeModelDevelopment2018}
 Nicola Ulibarri.
@@ -1373,6 +1399,73 @@ John Dewey.
   {{Social Psychology}}}.
 \newblock {Cosimo Classics}, {New York, N.Y}, March 2007.
 
+\bibitem{meadowsLimitsGrowth1972}
+Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
+\newblock {\em The {{Limits}} to {{Growth}}}.
+\newblock {Potomac Associates}, {Washington D.C.}, 1972.
+
+\bibitem{millerHistoricalValidationIntegrated2011}
+Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
+\newblock Historical {{Validation}} of {{Integrated
+  Transport}}\textendash{{Land Use Model System}}.
+\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
+
+\bibitem{BottlenecksBlockingWidespread}
+Bottlenecks {{Blocking Widespread Usage}} of {{Planning Support Systems}} -
+  {{Guido Vonk}}, {{Stan Geertman}}, {{Paul Schot}}, 2005.
+\newblock https://journals.sagepub.com/doi/abs/10.1068/a3712.
+
+\bibitem{geertmanPlanningSupportSystems2004}
+Stan Geertman and John Stillwell.
+\newblock Planning support systems: An inventory of current practice.
+\newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310, July
+  2004.
+
+\bibitem{hatryCriteriaEvaluationPlanning1972}
+Harry~P. Hatry.
+\newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
+  Programs}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{scottRoleUrbanForm2008}
+Darren~M. Scott and Mark~W. Horner.
+\newblock The role of urban form in shaping access to opportunities: {{An}}
+  exploratory spatial data analysis.
+\newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
+
+\bibitem{gaheganMultivariateGeovisualization2007}
+Mark Gahegan.
+\newblock Multivariate {{Geovisualization}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{harrisQuantitativeModelsUrban1972}
+Britton Harris.
+\newblock Quantitative {{Models}} of {{Urban Development}}: {{Their}} role in
+  {{Metropolitan Decision-Making}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{krutillaWelfareAspectsBenefitCost1961}
+J.~Krutilla.
+\newblock Welfare {{Aspects}} of {{Benefit-Cost Analysis}}.
+\newblock {\em Journal of Political Economy}, 1961.
+
+\bibitem{hillGoalsAchievementMatrixEvaluating1972}
+Morris Hill.
+\newblock A {{Goals-Achievement Matrix}} for {{Evaluating Alternative Plans}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{tacoliRuralurbanInteractionsGuide1998}
+Cecilia Tacoli.
+\newblock Rural-urban interactions: A guide to the literature.
+\newblock {\em Environment and Urbanization}, 10(1):147--166, April 1998.
+
 \bibitem{monmonierHowLieMaps1996}
 Mark Monmonier and H.~J. de~Blij.
 \newblock {\em How to {{Lie}} with {{Maps}}}.
@@ -1392,12 +1485,6 @@ Jeremy Crampton.
   Rethinking {{Maps}}: {{New Frontiers}} in {{Cartographic Theory}}}, pages
   26--49. {Routledge}, June 2011.
 
-\bibitem{harrisLocationalModelsGeographic1993}
-Britton Harris and Michael Batty.
-\newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
-  Support Systems}}.
-\newblock {\em Journal of the American Planning Association}, 55(1), 1993.
-
 \bibitem{shifterInteractiveMultimediaPlanning1995}
 M~J Shifter.
 \newblock Interactive {{Multimedia Planning Support}}: {{Moving}} from
@@ -1416,5 +1503,34 @@ Michael Batty, David Chapman, Steve Evans, Mordechai Haklay, Stefan Kueppers,
 Jeremy~W. Crampton.
 \newblock Maps as social constructions: Power, communication and visualization.
 \newblock {\em Progress in Human Geography}, 25(2):235--252, June 2001.
+
+\bibitem{baileyMoreOriginMisogynoir}
+Moya Bailey.
+\newblock More on the origin of {{Misogynoir}}.
+
+\bibitem{sobieszczanski-sobieskiMultidisciplinaryAerospaceDesign1997}
+J~{Sobieszczanski-Sobieski} and R~T Haftka.
+\newblock Multidisciplinary aerospace design optimization: Survey of recent
+  developments.
+\newblock {\em Structural Optimization}, 14(1):1--23, 1997.
+
+\bibitem{garberMultiStakeholderTradeSpace2015}
+Melissa Garber, Shahram Sarkani, and Thomas~A. Mazzuchi.
+\newblock Multi-{{Stakeholder Trade Space Exploration Using Group Decision
+  Making Methodologies}}.
+\newblock {\em INCOSE International Symposium}, 25(1):1118--1132, 2015.
+
+\bibitem{masutaniObservingSystemSimulation2010}
+Michiko Masutani, Thomas~W. Schlatter, Ronald~M. Errico, Ad~Stoffelen, Erik
+  Andersson, William Lahoz, John~S. Woollen, G.~David Emmitt, Lars-Peter
+  Riishojgaard, and Stephen~J. Lord.
+\newblock Observing {{System Simulation Experiments}}.
+\newblock In {\em Data {{Assimilation}}: {{Making Sense}} of {{Observations}}},
+  pages 647--679. {Springer}, {New York City, NY}, 2010.
+
+\bibitem{rossTradespaceExplorationParadigm2005}
+Adam~M. Ross and Daniel~E. Hastings.
+\newblock The {{Tradespace Exploration Paradigm}}.
+\newblock {\em INCOSE International Symposium}, 15(1):1706--1718, 2005.
 
 \end{thebibliography}
