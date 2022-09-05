@@ -13,57 +13,63 @@ A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 10635 items from 5000.
+Reallocated field_info (elt_size=4) to 12107 items from 5000.
 Database file #1: main.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "reidaInteractiveModelAssessing2020"
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
 Warning--empty institution in sussmanTeachingComplexSociotechnical2010
+Warning--there's a number but no volume in forneyEconomicValueRemoteSensing2012
 Warning--empty publisher in goodchildOverviewDefinitionGIS1992
 Warning--empty institution in internationalorganizationforstandardizationSystemsSoftwareEngineering2010
 Warning--empty journal in hayesRaysHopeTransition1977
 Warning--empty year in simoniteWhatReallyHappened
+Warning--empty institution in riderParametricModelAllocation1975
 Warning--empty institution in sussmanCollectedViewsComplexity2002
 Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--empty school in martinFrameworkQuantifyingComplexity2004
-You've used 245 entries,
+Warning--empty journal in kimChallengesApplyingModelbased2019
+Warning--empty publisher in crawley2004
+You've used 308 entries,
             1791 wiz_defined-function locations,
-            1951 strings with 57537 characters,
-and the built_in function-call counts, 55573 in all, are:
-= -- 5131
-> -- 2203
-< -- 46
-+ -- 844
-- -- 599
-* -- 3693
-:= -- 8743
-add.period$ -- 780
-call.type$ -- 245
-change.case$ -- 256
+            2323 strings with 73294 characters,
+and the built_in function-call counts, 68462 in all, are:
+= -- 6265
+> -- 2828
+< -- 54
++ -- 1081
+- -- 773
+* -- 4559
+:= -- 10854
+add.period$ -- 972
+call.type$ -- 308
+change.case$ -- 309
 chr.to.int$ -- 0
-cite$ -- 255
-duplicate$ -- 2651
-empty$ -- 5665
-format.name$ -- 599
-if$ -- 12538
+cite$ -- 322
+duplicate$ -- 3241
+empty$ -- 6911
+format.name$ -- 773
+if$ -- 15379
 int.to.chr$ -- 0
-int.to.str$ -- 245
-missing$ -- 247
-newline$ -- 1219
-num.names$ -- 320
-pop$ -- 821
+int.to.str$ -- 308
+missing$ -- 307
+newline$ -- 1534
+num.names$ -- 384
+pop$ -- 1021
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1064
+skip$ -- 1286
 stack$ -- 0
-substring$ -- 3240
-swap$ -- 541
-text.length$ -- 46
+substring$ -- 3843
+swap$ -- 643
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 10
-while$ -- 581
-width$ -- 248
-write$ -- 2742
-(There were 10 warnings)
+warning$ -- 14
+while$ -- 693
+width$ -- 311
+write$ -- 3434
+(There were 15 warnings)

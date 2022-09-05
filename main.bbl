@@ -293,6 +293,14 @@ Jonathan Shieber and Ingrid Lunden.
 \newblock Astro {{Digital}} launched its first imaging satellites.
 \newblock {\em TechCrunch}, July 2017.
 
+\bibitem{zhangMappingExtentMagnitude2018}
+B.~Zhang, S.~Wdowinski, T.~{Oliver-Cabrera}, R.~Koirala, M.~J. Jo, and
+  B.~Osmanoglu.
+\newblock Mapping the extent and magnitude of sever flooding induced by
+  hurricane {{Irma}} with multi-temporal {{Sentinel-1 SAR}} and {{InSAR}}
+  observations.
+\newblock {\em Department of Earth and Environment}, April 2018.
+
 \bibitem{schroederNewVIIRS375m2014}
 Wilfrid Schroeder, Patricia Oliva, Louis Giglio, and Ivan~A. Csiszar.
 \newblock The {{New VIIRS}} 375m active fire detection data product:
@@ -319,10 +327,29 @@ Matthew Mcgill, Thorsten Markus, Stanley~S. Scott, and Thomas Neumann.
 \newblock {\em Journal of Atmospheric and Oceanic Technology}, 30(2):345--352,
   2013.
 
-\bibitem{biancamariaSWOTMissionIts2016}
-Sylvain Biancamaria, Dennis~P. Lettenmaier, and Tamlin~M. Pavelsky.
-\newblock The {{SWOT Mission}} and {{Its Capabilities}} for {{Land Hydrology}}.
-\newblock {\em Surveys in Geophysics}, 37(2):307--337, 2016.
+\bibitem{sanchezSARSupportWar2022}
+Gabriela~Quintana S{\'a}nchez.
+\newblock {{SAR}} in {{Support}} of the {{War}} in {{Ukraine}}, June 2022.
+
+\bibitem{khanLongHardJourney2009}
+Maudood Khan, Ashutosh Limaye, William Crosson, Alper Unal, nancy Kete, and
+  Douglas Rickman.
+\newblock The {{Long}}, {{Hard Journey}}: {{Expanding}} the {{Use}} of {{NASA
+  Data}} and {{Models}} for {{Sustainable Development Planning Around}} the
+  {{World}}.
+\newblock In {\em The {{International Geoscience}} and {{Remote Sensing
+  Symposium}} ({{IGARSS}}) 2009}, {Cape Town}, July 2009.
+
+\bibitem{nasaappliedsciencesprogramWhatWeNASA}
+{NASA Applied Sciences Program}.
+\newblock What {{We Do}} | {{NASA Applied Sciences}}.
+\newblock http://appliedsciences.nasa.gov/what-we-do.
+
+\bibitem{nasaearthscienceappliedsciencesNASAAppliedSciences2021}
+{NASA Earth Science Applied Sciences}.
+\newblock {{NASA Applied Sciences}}.{{Strategic Plan}} 2021-2026.
+\newblock Technical Report NP-2021-00-000-AS, {National Aeronautics and Space
+  Administration}, {Washington D.C.}, 2021.
 
 \bibitem{irwinSERVIRServicePlanning2017}
 Dan Irwin and Jenny {Frankel-Reed}.
@@ -375,6 +402,32 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
   Trettin, Aur{\'e}lie Shapiro, and Mwita~M. Mangora.
 \newblock Measuring mangrove carbon loss and gain in deltas.
 \newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
+
+\bibitem{macauleyValueInformationMeasuring2006}
+Molly~K. Macauley.
+\newblock The value of information: {{Measuring}} the contribution of
+  space-derived earth science data to resource management.
+\newblock {\em Space Policy}, 22(4):274--282, 2006.
+
+\bibitem{cookeUsingSocialCost2016}
+Roger Cooke, Alexander Golub, Bruce~A. Wielicki, David~F. Young, Martin~G.
+  Mlynczak, and Rosemary~R. Baize.
+\newblock Using the social cost of carbon to value earth observing systems.
+\newblock {\em Climate Policy}, 3062(January):1--16, 2016.
+
+\bibitem{forneyEconomicValueRemoteSensing2012}
+Willam~M. Forney, Ronald~P. Raunikar, Richard~L. Bernkopf, and Shruti~K.
+  Mishra.
+\newblock An {{Economic Value}} of {{Remote-Sensing Information}} \textemdash{}
+  {{Application}} to {{Agricultural Production}} and {{Maintaining Groundwater
+  Quality}}.
+\newblock {\em U.S. Geological Survey Professional Paper}, (1796), 2012.
+
+\bibitem{kruseGEOValueSocioeconomicValue2017}
+Jamie Kruse, Joep Crompvoets, and Fran{\c c}oise Pearlman, editors.
+\newblock {\em {{GEOValue}}: {{The}} Socioeconomic Value of Geospatial
+  Information}.
+\newblock {CRC Press}, {New York, NY}, 2017.
 
 \bibitem{sheppardGISSocietyResearch1995}
 Eric Sheppard.
@@ -546,6 +599,22 @@ Renee Sieber.
 \newblock {\em Annals of the Association of American Geographers},
   96(3):491--507, September 2006.
 
+\bibitem{williamsDataActionUsing2020}
+Sarah Williams.
+\newblock {\em Data {{Action}}: {{Using Data}} for {{Public Good}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}, December 2020.
+
+\bibitem{dignazioDataFeminism2020}
+Catherine D'Ignazio and Lauren~F. Klein.
+\newblock {\em Data {{Feminism}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}, March 2020.
+
+\bibitem{costanza-chockDesignJusticeCommunityLed2020}
+Sasha {Costanza-Chock}.
+\newblock {\em Design {{Justice}}: {{Community-Led Practices}} to {{Build}} the
+  {{Worlds We Need}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}, March 2020.
+
 \bibitem{weinerParticipatoryGeographicInformation2007}
 Daniel Weiner and Trevor~M. Harris.
 \newblock Participatory {{Geographic Information Systems}}.
@@ -597,10 +666,6 @@ Marco {te Br{\"o}mmelstroet}.
 \newblock {\em Environment and Planning B: Planning and Design}, 36(1):4--7,
   February 2009.
 
-\bibitem{poppertNavigatingFieldCivic2021}
-Derek Poppert.
-\newblock Navigating the field of civic tech, May 2021.
-
 \bibitem{williamsonTheirworkDevelopmentSustainable2011}
 Dominica Williamson and Emmet Connolly.
 \newblock Theirwork: {{The}} development of sustainable mapping.
@@ -621,11 +686,30 @@ Z.~Asl{\i}g{\"u}l G{\"o}{\c c}men and Stephen~J. Ventura.
 \newblock {\em Journal of the American Planning Association}, 76(2):172--183,
   March 2010.
 
+\bibitem{lernerSimpleEconomicsOpen2002}
+Josh Lerner and Jean Tirole.
+\newblock Some {{Simple Economics}} of {{Open Source}}.
+\newblock {\em The Journal of Industrial Economics}, 50(2):197--234, 2002.
+
+\bibitem{vermaUbuntuLinuxMost2015}
+Arpit Verma.
+\newblock Ubuntu {{Linux}} is the {{Most Popular Operating System}} in
+  {{Cloud}}.
+\newblock
+  https://fossbytes.com/ubuntu-linux-is-the-most-popular-operating-system-in-cloud/,
+  August 2015.
+
 \bibitem{harrisLocationalModelsGeographic1993}
 Britton Harris and Michael Batty.
 \newblock Locational {{Models}}, {{Geographic Information}} and {{Planning
   Support Systems}}.
 \newblock {\em Journal of the American Planning Association}, 55(1), 1993.
+
+\bibitem{borjesonScenarioTypesTechniques2006}
+Lena B{\"o}rjeson, Mattias H{\"o}jer, Karl-Henrik Dreborg, Tomas Ekvall, and
+  G{\"o}ran Finnveden.
+\newblock Scenario types and techniques: {{Towards}} a user's guide.
+\newblock {\em Futures}, 38(7):723--739, September 2006.
 
 \bibitem{jankowskiIntegratingGeographicalInformation1995}
 Piotr Jankowski.
@@ -633,12 +717,6 @@ Piotr Jankowski.
   decision-making methods.
 \newblock {\em International Journal of Geographical Information Systems},
   9(3):251--273, May 1995.
-
-\bibitem{borjesonScenarioTypesTechniques2006}
-Lena B{\"o}rjeson, Mattias H{\"o}jer, Karl-Henrik Dreborg, Tomas Ekvall, and
-  G{\"o}ran Finnveden.
-\newblock Scenario types and techniques: {{Towards}} a user's guide.
-\newblock {\em Futures}, 38(7):723--739, September 2006.
 
 \bibitem{avinUsingExploratoryScenarios2020}
 Uri Avin and Robert Goodspeed.
@@ -1020,6 +1098,53 @@ Jonathan Furner.
 \newblock Dewey deracialized: {{A}} critical race-theoretic perspective.
 \newblock {\em KO Knowledge Organization}, 34(3):144--168, 2007.
 
+\bibitem{smithSystemsApproachUrban1968}
+R.~G. Smith.
+\newblock The {{Systems Approach}} and the {{Urban Dilemma}}.
+\newblock Staff {{Discussion Paper}} 181, {The George Washington University},
+  {United States}, July 1968.
+
+\bibitem{fosterUrbanDevelopmentApplications1970}
+Richard Foster.
+\newblock Urban development applications project {{Quarterly}} report, 1
+  {{Oct}}. - 31 {{Dec}}. 1970.
+\newblock Contractor {{Report}} NASA-CR-119025, {National Aeronautics and Space
+  Administration}, {New York City}, December 1970.
+
+\bibitem{karenTechnologyTransferNew1973}
+A.~Karen, D.~Orrick, and T.~Anuskiewicz.
+\newblock Technology transfer in {{New York City}} - {{The NASA}}/{{NYC
+  Applications Project}}.
+\newblock In {\em 3rd {{Urban Technology Conference}} and {{Technical
+  Display}}}, {Boston, MA}, September 1973. {American Institute of Aeronautics
+  and Astronautics}.
+
+\bibitem{forresterSystemsAnalysisTool1970}
+Jay~W. Forrester.
+\newblock Systems {{Analysis}} as a {{Tool}} for {{Urban Planning}}.
+\newblock {\em IEEE Transactions on Systems Science and Cybernetics},
+  6(4):258--265, October 1970.
+
+\bibitem{meadowsLimitsGrowth1972}
+Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
+\newblock {\em The {{Limits}} to {{Growth}}}.
+\newblock {Potomac Associates}, {Washington D.C.}, 1972.
+
+\bibitem{forresterSystemDynamicsPersonal2007a}
+Jay~W. Forrester.
+\newblock System dynamics\textemdash a personal view of the first fifty years.
+\newblock {\em System Dynamics Review}, 23(2-3):345--358, 2007.
+
+\bibitem{kraemerRequiemUSAC1979}
+Kenneth~L. Kraemer and John~Leslie King.
+\newblock A {{Requiem}} for {{USAC}}.
+\newblock {\em Policy Analysis}, 5(3):313--349, 1979.
+
+\bibitem{wilsonModellingSystemsAnalysis1968}
+A.~G. Wilson.
+\newblock Modelling and {{Systems Analysis}} in {{Urban Planning}}.
+\newblock {\em Nature}, 220, December 1968.
+
 \bibitem{mazza2017}
 John Friedmann.
 \newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
@@ -1027,34 +1152,106 @@ John Friedmann.
   {\em Explorations in {{Planning Theory}}}, pages 10--29. {Routledge}, {New
   York, New York, USA}, September 2017.
 
+\bibitem{szantonAnalysisUrbanGovernment1972}
+Peter~L. Szanton.
+\newblock Analysis and {{Urban Government}}: {{Experience}} of the {{New York
+  City-Rand Institute}}.
+\newblock {\em Policy Sciences}, 3(2):153--161, 1972.
+
+\bibitem{rushRemoteSensingUtility1976}
+M.~Rush and A.~Holguin.
+\newblock Remote sensing utility in a disaster struck urban environment.
+\newblock Technical Report NASA-CR-149103, {National Aeronautics and Space
+  Administration}, {Houston, TX}, September 1976.
+
+\bibitem{haggertySpinoff19801980}
+James Haggerty.
+\newblock Spinoff 1980.
+\newblock Technical report, {National Aeronautics and Space Administration},
+  {Washington D.C.}, 1980.
+
+\bibitem{medinaCyberneticRevolutionariesTechnology2011}
+Eden Medina.
+\newblock {\em Cybernetic {{Revolutionaries}}: {{Technology}} and {{Politics}}
+  in {{Allende}}'s {{Chile}}}.
+\newblock {MIT Press}, {Cambridge, MA, USA}, October 2011.
+
+\bibitem{medinaDesigningFreedomRegulating2006}
+Eden Medina.
+\newblock Designing {{Freedom}}, {{Regulating}} a {{Nation}}: {{Socialist
+  Cybernetics}} in {{Allende}}'s {{Chile}}.
+\newblock {\em Journal of Latin American Studies}, 38(3):571--606, August 2006.
+
 \bibitem{robinsonDecisionmakingUrbanPlanning1972}
 Ira~M. Robinson, editor.
 \newblock {\em Decision-Making in Urban Planning: {{An}} Introduction to New
   Methodologies}.
 \newblock {Sage Publications}, {Beverly Hills}, January 1972.
 
-\bibitem{mcloughlinSystemGuidanceControl1972}
-Brian~J. McLoughlin.
-\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
-\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
-  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
-  1972.
+\bibitem{gorodSystemofSystemsEngineeringManagement2008}
+Alex Gorod, Brian Sauser, and John Boardman.
+\newblock System-of-{{Systems Engineering Management}}: {{A Review}} of
+  {{Modern History}} and a {{Path Forward}}.
+\newblock {\em IEEE Systems Journal}, 2(4):484--499, December 2008.
 
-\bibitem{mcloughlinChartingPossibleCourses1972}
-Brian~J. McLoughlin.
-\newblock Charting {{Possible Courses}} of the {{System}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}, pages 103--114. {SAGE
-  Publications, Inc}, {Beverly Hills, CA}, first edition, 1972.
+\bibitem{bootonDevelopmentSystemsEngineering1984}
+Richard~C. Booton and Simon Ramo.
+\newblock The {{Development}} of {{Systems Engineering}}.
+\newblock {\em IEEE Transactions on Aerospace and Electronic Systems},
+  AES-20(4):306--310, July 1984.
 
-\bibitem{ashbyRequisiteVarietyIts1991}
-W.~Ross Ashby.
-\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
-  {{Complex Systems}}.
-\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
-  International {{Federation}} for {{Systems Research International Series}} on
-  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
-  {Boston, MA}, 1991.
+\bibitem{hallHallMethodologySystems1962}
+Arthur~D. Hall.
+\newblock {\em Hall's {{A Methodology}} for {{Systems Engineering}}: 1962
+  {{Edition}}}.
+\newblock {van Nostrand}, 1966th edition edition, January 1962.
+
+\bibitem{brillSystemsEngineeringRetrospective1998}
+James~H. Brill.
+\newblock Systems engineering? {{A}} retrospective view.
+\newblock {\em Systems Engineering}, 1(4):258--266, 1998.
+
+\bibitem{honourINCOSEHistoryInternational1998}
+Eric~C. Honour.
+\newblock {{INCOSE}}: {{History}} of the {{International Council}} on {{Systems
+  Engineering}}.
+\newblock {\em Systems Engineering}, 1(1):4--13, 1998.
+
+\bibitem{talbottWhySystemsFail1993}
+Marvin Talbott.
+\newblock Why {{Systems Fail}} (viewed from {{Hindsight}}).
+\newblock {\em INCOSE International Symposium}, 3(1):721--728, 1993.
+
+\bibitem{terrybahillRequirementsDevelopmentVerification2005}
+A.~Terry~Bahill and Steven~J. Henderson.
+\newblock Requirements development, verification, and validation exhibited in
+  famous failures.
+\newblock {\em Systems Engineering}, 8(1):1--14, 2005.
+
+\bibitem{petroskiEngineerHumanRole1992}
+Henry Petroski.
+\newblock {\em To {{Engineer Is Human}}: {{The Role}} of {{Failure}} in
+  {{Successful Design}}}.
+\newblock {Vintage}, {New York}, March 1992.
+
+\bibitem{petroskiDesignParadigmsCase1994}
+Henry Petroski.
+\newblock {\em Design {{Paradigms}}: {{Case Histories}} of {{Error}} and
+  {{Judgment}} in {{Engineering}}}.
+\newblock {Cambridge University Press}, {Cambridge England ; New York, N.Y},
+  May 1994.
+
+\bibitem{slegersLearningFailureSystems2012}
+Nathan~J. Slegers, Ronald~T. Kadish, Gary~E. Payton, John Thomas, Michael~D.
+  Griffin, and Dan Dumbacher.
+\newblock Learning from failure in systems engineering: {{A}} panel discussion.
+\newblock {\em Systems Engineering}, 15(1):74--82, 2012.
+
+\bibitem{reidSystemsEngineeringAppliedPendingPublication}
+Jack Reid and Danielle Wood.
+\newblock Systems {{Engineering Applied}} to {{Urban Planning}} \&
+  {{Development}}: {{A Review}} \& {{Research Agenda}}.
+\newblock {\em Systems Engineering}, 2022.
 
 \bibitem{leejrRequiemLargeScaleModels1973}
 Douglass B.~Lee Lee~Jr.
@@ -1062,17 +1259,22 @@ Douglass B.~Lee Lee~Jr.
 \newblock {\em Journal of the American Institute of Planners}, 39(3):163--178,
   May 1973.
 
-\bibitem{waddellUrbanSimModelingUrban2002}
-Paul Waddell.
-\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
-  {{Transportation}}, and {{Environmental Planning}}.
-\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
-  September 2002.
+\bibitem{riderParametricModelAllocation1975}
+K.~L. Rider.
+\newblock A {{Parametric Model}} for the {{Allocation}} of {{Fire Companies}}.
+\newblock Technical report, {United States}, April 1975.
 
-\bibitem{wilsonHandbookGeographicInformation2007}
-John~P. Wilson and A.~Stewart Fotheringham, editors.
-\newblock {\em The {{Handbook}} of {{Geographic Information Science}}}.
-\newblock {Wiley-Blackwell}, {Malden, MA}, 1st edition edition, August 2007.
+\bibitem{forresterUrbanDynamics1969}
+Jay~W. Forrester.
+\newblock {\em Urban {{Dynamics}}}.
+\newblock {Pegasus Communications, Inc.}, {Waltham, MA}, January 1969.
+
+\bibitem{brewerSystemsAnalysisUrban1973}
+G.~D. Brewer.
+\newblock Systems {{Analysis}} in the {{Urban Complex}}: {{Potential}} and
+  {{Limitations}}.
+\newblock Technical report, {RAND Corporation}, {Santa Monica, CA}, December
+  1973.
 
 \bibitem{boyceFrameworkDefiningApplying1972}
 David Boyce.
@@ -1138,6 +1340,13 @@ Harutyun Shahumyan and Rolf Moeckel.
   modules.
 \newblock {\em Environment and Planning B: Urban Analytics and City Science},
   44(3):531--552, May 2017.
+
+\bibitem{checklandSystemsThinkingSystems1999}
+Peter Checkland.
+\newblock {\em Systems {{Thinking}}, {{Systems Practice}}: {{Includes}} a
+  30-{{Year Retrospective}}}.
+\newblock {Wiley}, {Chichester ; New York}, 1st edition edition, September
+  1999.
 
 \bibitem{mcdermidComplexityConceptCauses2000}
 John McDermid.
@@ -1243,9 +1452,30 @@ Florian Sch{\"o}ttl and Udo Lindemann.
   \textendash{} {{A Generic}} , {{Interdisciplinary Approach}}.
 \newblock {\em Procedia - Procedia Computer Science}, 2015.
 
-\bibitem{reymondetComplexityEmergence2016}
+\bibitem{reymondetFrameworkSenseMakingComplex2016}
 Lucie Reymondet.
-\newblock Complexity\&{{Emergence}}, 2016.
+\newblock A {{Framework}} for {{Sense-Making}} of {{Complex Sociotechnical
+  Systems}}.
+\newblock Master's thesis, Massachusetts Institute of Technology, 2016.
+
+\bibitem{zhangRobustStochasticFuzzy2009}
+Xiaodong Zhang, Guo~H. Huang, and Xianghui Nie.
+\newblock Robust stochastic fuzzy possibilistic programming for environmental
+  decision making under uncertainty.
+\newblock {\em Science of The Total Environment}, 408(2):192--201, December
+  2009.
+
+\bibitem{liuInexactStochasticFuzzy2015}
+Zhengping Liu, Guohe Huang, and Wei Li.
+\newblock An inexact stochastic\textendash fuzzy jointed chance-constrained
+  programming for regional energy system management under uncertainty.
+\newblock {\em Engineering Optimization}, 47(6):788--804, June 2015.
+
+\bibitem{sillittoSystemsEngineeringSystem2019}
+Hillary Sillitto, James Martin, Dorothy McKinney, Regina Griego, Dov Dori,
+  Daniel Krob, Patrick Godfrey, Eileen Arnold, and Scott Jackson.
+\newblock Systems {{Engineering}} and {{System Definitions}}.
+\newblock Technical Report INCOSE-TP-2020-002-06, {INCOSE}, July 2019.
 
 \bibitem{incoseINCOSESystemsEngineering2015}
 INCOSE.
@@ -1260,14 +1490,73 @@ Wen Feng, Edward~F. Crawley, Olivier~L. {de Weck}, Rene Keller, and Bob
 \newblock In {\em Proceedings of the 12th {{International DSM Conference}}},
   {Cambridge, UK}, 2010. {Design Society}.
 
-\bibitem{banuriModernatizationItsDiscontents1990}
-Tariq Banuri.
-\newblock Modernatization and its {{Discontents}}: {{A Cultural Perspective}}
-  on the {{Theories}} of {{Development}}.
-\newblock In Fr{\'e}d{\'e}rique~Apffel Marglin and Stephen~A. Marglin, editors,
-  {\em Dominating {{Knowledge}}: {{Development}}, {{Culture}}, and
-  {{Resistance}}}, pages 73--101. {Clarendon Press}, {Oxford : New York}, 1
-  edition edition, October 1990.
+\bibitem{samarasSystemsEngineeringPerspective2005}
+George~M. Samaras and Richard~L. Horst.
+\newblock A systems engineering perspective on the human-centered design of
+  health information systems.
+\newblock {\em Journal of Biomedical Informatics}, 38(1):61--74, February 2005.
+
+\bibitem{longoValueOrientedEthicalTechnology2020}
+Francesco Longo, Antonio Padovano, and Steven Umbrello.
+\newblock Value-{{Oriented}} and {{Ethical Technology Engineering}} in
+  {{Industry}} 5.0: {{A Human-Centric Perspective}} for the {{Design}} of the
+  {{Factory}} of the {{Future}}.
+\newblock {\em Applied Sciences}, 10(12):4182, June 2020.
+
+\bibitem{kimChallengesApplyingModelbased2019}
+So~Young Kim, David Wagner, and Alejandro Jimenez.
+\newblock Challenges in applying model-based systems engineering:
+  Human-centered design perspective.
+\newblock September 2019.
+
+\bibitem{ritterFoundationsDesigningUserCentered2014}
+Frank~E. Ritter, Gordon~D. Baxter, and Elizabeth~F. Churchill.
+\newblock {\em Foundations for {{Designing User-Centered Systems}}}.
+\newblock {Springer London}, {London}, 2014.
+
+\bibitem{sparrevikUseMulticriteriaInvolvement2011}
+Magnus Sparrevik, David~N Barton, Amy~MP Oen, Nagothu~Udaya Sehkar, and Igor
+  Linkov.
+\newblock Use of multicriteria involvement processes to enhance transparency
+  and stakeholder participation at {{Bergen Harbor}}, {{Norway}}.
+\newblock {\em Integrated Environmental Assessment and Management},
+  7(3):414--425, 2011.
+
+\bibitem{goodspeedDeathLifeCollaborative2016}
+Robert Goodspeed.
+\newblock The {{Death}} and {{Life}} of {{Collaborative Planning Theory}}.
+\newblock {\em Urban Planning}, 1(4):1--5, November 2016.
+
+\bibitem{pertParticipatoryDevelopmentNew2013}
+Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
+\newblock Participatory development of a new interactive tool for capturing
+  social and ecological dynamism in conservation prioritization.
+\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
+
+\bibitem{waddellUrbanSimModelingUrban2002}
+Paul Waddell.
+\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
+  {{Transportation}}, and {{Environmental Planning}}.
+\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
+  September 2002.
+
+\bibitem{wilsonHandbookGeographicInformation2007}
+John~P. Wilson and A.~Stewart Fotheringham, editors.
+\newblock {\em The {{Handbook}} of {{Geographic Information Science}}}.
+\newblock {Wiley-Blackwell}, {Malden, MA}, 1st edition edition, August 2007.
+
+\bibitem{doriObjectProcessMethodologyHolistic2002}
+Dov Dori.
+\newblock {\em Object-{{Process Methodology}}: {{A Holistic Systems Paradigm}}
+  ; with {{CD-ROM}}}.
+\newblock {Springer Science \& Business Media}, July 2002.
+
+\bibitem{ramosModelBasedSystemsEngineering2012}
+Ana~Lu{\'i}sa Ramos, Jos{\'e}~Vasconcelos Ferreira, and Jaume Barcel{\'o}.
+\newblock Model-{{Based Systems Engineering}}: {{An Emerging Approach}} for
+  {{Modern Systems}}.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part C
+  (Applications and Reviews)}, 42(1):101--111, January 2012.
 
 \bibitem{yamuAssumingItAll2016}
 Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
@@ -1276,58 +1565,62 @@ Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
 \newblock {\em Environment and Planning B: Planning and Design},
   43(6):1019--1039, November 2016.
 
-\bibitem{brillSystemsEngineeringRetrospective1998}
-James~H. Brill.
-\newblock Systems engineering? {{A}} retrospective view.
-\newblock {\em Systems Engineering}, 1(4):258--266, 1998.
+\bibitem{chertowIndustrialEcologyDeveloping2008}
+Marian~R. Chertow.
+\newblock Industrial {{Ecology}} in a {{Developing Context}}.
+\newblock In Corrado Clini, Ignazio Musu, and Maria~Lodovica Gullino, editors,
+  {\em Sustainable {{Development}} and {{Environmental Management}}:
+  {{Experiences}} and {{Case Studies}}}, pages 335--349. {Springer
+  Netherlands}, {Dordrecht}, 2008.
 
-\bibitem{sregantanSingaporePipsLondon2018}
-Navin Sregantan.
-\newblock Singapore pips {{London}}, {{NY}} to top global smart city ranking.
-\newblock {\em The Strait Times}, March 2018.
+\bibitem{bristowWhyCitiesGrow2015}
+David Bristow and Christopher Kennedy.
+\newblock Why {{Do Cities Grow}}? {{Insights}} from {{Nonequilibrium
+  Thermodynamics}} at the {{Urban}} and {{Global Scales}}.
+\newblock {\em Journal of Industrial Ecology}, 19(2):211--221, 2015.
 
-\bibitem{franciscoSmartCityDigital2020}
-Abigail Francisco, Neda Mohammadi, and John~E. Taylor.
-\newblock Smart {{City Digital Twin}}\textendash{{Enabled Energy Management}}:
-  {{Toward Real-Time Urban Building Energy Benchmarking}}.
-\newblock {\em Journal of Management in Engineering}, 36(2):04019045, March
-  2020.
+\bibitem{purvisThermodynamicEntropyIndicator2017}
+Ben Purvis, Yong Mao, and Darren Robinson.
+\newblock Thermodynamic {{Entropy}} as an {{Indicator}} for {{Urban
+  Sustainability}}?
+\newblock {\em Procedia Engineering}, 198:802--812, January 2017.
 
-\bibitem{ruohomakiSmartCityPlatform2018}
-Timo Ruohom{\"a}ki, Enni Airaksinen, Petteri Huuska, Outi Kes{\"a}niemi, Mikko
-  Martikka, and Jarmo Suomisto.
-\newblock Smart {{City Platform Enabling Digital Twin}}.
-\newblock In {\em 2018 {{International Conference}} on {{Intelligent Systems}}
-  ({{IS}})}, pages 155--161, September 2018.
+\bibitem{kennedyStudyUrbanMetabolism2011}
+C.~Kennedy, S.~Pincetl, and P.~Bunje.
+\newblock The study of urban metabolism and its applications to urban planning
+  and design.
+\newblock {\em Environmental Pollution}, 159(8):1965--1973, August 2011.
 
-\bibitem{gohBuildingSingaporeDigital2015}
-Gabey Goh.
-\newblock Building {{Singapore}}'s 'digital twin'.
-\newblock {\em Digital News Asia}, 2015(September 15), 2015.
+\bibitem{loboUrbanScalingProduction2013}
+Jos{\'e} Lobo, Lu{\'i}s M.~A. Bettencourt, Deborah Strumsky, and Geoffrey~B.
+  West.
+\newblock Urban {{Scaling}} and the {{Production Function}} for {{Cities}}.
+\newblock {\em PLOS ONE}, 8(3):e58407, March 2013.
 
-\bibitem{volanteNavajosUpsetAshes1998}
-Enric Volante.
-\newblock Navajos {{Upset After Ashes Sent To Moon}}; {{Nasa Apologizes}} |
-  {{The Spokesman-Review}}.
-\newblock {\em The Spokesman-Review}, January 1998.
+\bibitem{checklandSoftSystemsMethodology2000}
+Peter Checkland.
+\newblock Soft systems methodology: A thirty year retrospective.
+\newblock {\em Systems Research and Behavioral Science}, 17(S1):S11--S58, 2000.
 
-\bibitem{nostikasariRepresentationsEverydayTravel2015}
-Dian Nostikasari.
-\newblock Representations of everyday travel experiences: {{Case}} study of the
-  {{Dallas-Fort Worth Metropolitan Area}}.
-\newblock {\em Transport Policy}, 44:96--107, November 2015.
-
-\bibitem{pertParticipatoryDevelopmentNew2013}
-Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
-\newblock Participatory development of a new interactive tool for capturing
-  social and ecological dynamism in conservation prioritization.
-\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
+\bibitem{donaldsonPraiseOlogiesDiscussion2017}
+William Donaldson.
+\newblock In {{Praise}} of the ``{{Ologies}}'': {{A Discussion}} of and
+  {{Framework}} for {{Using Soft Skills}} to {{Sense}} and {{Influence Emergent
+  Behaviors}} in {{Sociotechnical Systems}}.
+\newblock {\em Systems Engineering}, 20(5):467--478, 2017.
 
 \bibitem{ulibarriCollaborativeModelDevelopment2018}
 Nicola Ulibarri.
 \newblock Collaborative model development increases trust in and use of
   scientific information in environmental decision-making.
 \newblock {\em Environmental Science \& Policy}, 82:136--142, April 2018.
+
+\bibitem{bennettPoliticsPixelsReview2022}
+Mia~M Bennett, Janice~K Chen, Luis~F Alvarez~Le{\'o}n, and Colin~J Gleason.
+\newblock The politics of pixels: {{A}} review and agenda for critical remote
+  sensing.
+\newblock {\em Progress in Human Geography}, page 03091325221074691, January
+  2022.
 
 \bibitem{campbellGreenCitiesGrowing2016}
 Scott Campbell.
@@ -1382,11 +1675,6 @@ Ashis BaNandynuri and Shiv Visvanathan.
   {{Resistance}}}, pages 145--184. {Clarendon Press}, {Oxford : New York}, 1
   edition edition, October 1990.
 
-\bibitem{goodspeedDeathLifeCollaborative2016}
-Robert Goodspeed.
-\newblock The {{Death}} and {{Life}} of {{Collaborative Planning Theory}}.
-\newblock {\em Urban Planning}, 1(4):1--5, November 2016.
-
 \bibitem{vonkSociotechnicalPSSDevelopment2010}
 Guido Vonk and Arend Ligtenberg.
 \newblock Socio-technical {{PSS}} development to improve functionality and
@@ -1398,11 +1686,6 @@ John Dewey.
 \newblock {\em Human {{Nature}} and {{Conduct}}: {{An Introduction}} to
   {{Social Psychology}}}.
 \newblock {Cosimo Classics}, {New York, N.Y}, March 2007.
-
-\bibitem{meadowsLimitsGrowth1972}
-Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
-\newblock {\em The {{Limits}} to {{Growth}}}.
-\newblock {Potomac Associates}, {Washington D.C.}, 1972.
 
 \bibitem{millerHistoricalValidationIntegrated2011}
 Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
@@ -1461,10 +1744,140 @@ Morris Hill.
   {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
   Hills, CA}, first edition, 1972.
 
-\bibitem{tacoliRuralurbanInteractionsGuide1998}
-Cecilia Tacoli.
-\newblock Rural-urban interactions: A guide to the literature.
-\newblock {\em Environment and Urbanization}, 10(1):147--166, April 1998.
+\bibitem{ashbyRequisiteVarietyIts1991}
+W.~Ross Ashby.
+\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
+  {{Complex Systems}}.
+\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
+  International {{Federation}} for {{Systems Research International Series}} on
+  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
+  {Boston, MA}, 1991.
+
+\bibitem{mcloughlinSystemGuidanceControl1972}
+Brian~J. McLoughlin.
+\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
+\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
+  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
+  1972.
+
+\bibitem{crawley2004}
+Edward Crawley, Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering,
+  Joel Schindall, David Wallace, Daniel Whitney~(chair, Edward Crawley,
+  Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering, Joel
+  Schindall, David Wallace, and Daniel Whitney~(chair.
+\newblock {\em The Influence of Architecture in Engineering Systems
+  (Monograph}.
+\newblock 2004.
+
+\bibitem{ovienmhadaInclusiveDesignEarth2021}
+Ufuoma Ovienmhada, Fohla Mouftaou, and Danielle Wood.
+\newblock Inclusive {{Design}} of {{Earth Observation Decision Support
+  Systems}} for {{Environmental Governance}}: {{A Case Study}} of {{Lake
+  Nokou\'e}}.
+\newblock {\em Frontiers in Climate}, 3:105, 2021.
+
+\bibitem{rossGamebasedLearningSystems2014}
+Adam~M. Ross, Matthew~E. Fitzgerald, and Donna~H. Rhodes.
+\newblock Game-based {{Learning}} for {{Systems Engineering Concepts}}.
+\newblock In Azad~M. Madni and Michael Sievers, editors, {\em Conference on
+  {{Systems Engineering Research}}}, volume~28, pages 430--440, {Redondo Beach,
+  CA}, 2014. {Elsevier}.
+
+\bibitem{hansonImprovingOperationalWargaming2016}
+Matthew~E Hanson.
+\newblock {\em Improving {{Operational Wargaming}} : {{It}}'s {{All Fun}} and
+  {{Games Until Someone Loses}} a {{War}}}.
+\newblock Monograph, United States Army Command and General Staff College, {For
+  Leavenworth, Kansas}, 2016.
+
+\bibitem{selvaRevitalizingWargamingNecessary15}
+Paul Selva.
+\newblock Revitalizing {{Wargaming}} is {{Necessary}} to be {{Prepared}} for
+  {{Future Wars}}.
+\newblock {\em War On The Rocks2}, December 15.
+
+\bibitem{shlapakReinforcingDeterrenceNATO2016}
+David~A Shlapak and Michael~W Johnson.
+\newblock {\em Reinforcing {{Deterrence}} on {{NATO}}'s {{Eastern Flank}}:
+  {{Wargaming}} the {{Defence}} of the {{Baltics}}}.
+\newblock {RAND Corporation}, {Washington D.C.}, 2016.
+
+\bibitem{groganStrategicEngineeringGaming2012}
+Paul~T. Grogan and Olivier~L. {de Weck}.
+\newblock Strategic {{Engineering Gaming}} for {{Improved Design}} and
+  {{Interoperation}} of {{Infrastructure Systems}}.
+\newblock Working {{Paper}}, {Massachusetts Institute of Technology.
+  Engineering Systems Division}, March 2012.
+
+\bibitem{groganFederatedSimulationGaming2012}
+P.~T. Grogan and O.~L. {de Weck}.
+\newblock Federated {{Simulation}} and {{Gaming Framework}} for a
+  {{Decentralized Space-Based Resource Economy}}.
+\newblock In {\em Thirteenth {{ASCE Aerospace Division Conference}} on
+  {{Engineering}}, {{Science}}, {{Construction}}, and {{Operations}} in
+  {{Challenging Environments}}, and the 5th {{NASA}}/{{ASCE Workshop On
+  Granular Materials}} in {{Space Exploration}}}, pages 1468--1477, {Pasadena,
+  California}, July 2012. {American Society of Civil Engineers}.
+
+\bibitem{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}
+Seamus Lombardo, Steven Israel, and Danielle Wood.
+\newblock The {{Environment-Vulnerability-Decision-Technology Framework}} for
+  {{Decision Support}} in {{Indonesia}}.
+\newblock In {\em 2022 {{IEEE Aerospace Conference}} ({{AERO}})}, pages 1--15,
+  March 2022.
+
+\bibitem{bluerasterBlueRasterVida2021}
+{Blue Raster}.
+\newblock Blue {{Raster Vida Repository}}.
+\newblock https://github.com/blueraster/mit-vida, August 2021.
+
+\bibitem{reidEVDTRepository2020}
+Jack Reid.
+\newblock {{EVDT Repository}}.
+\newblock https://github.com/mitmedialab/evdt, June 2020.
+
+\bibitem{reidMITVidaRepository2021}
+Jack Reid, Seamus Lombardo, and Danielle Wood.
+\newblock {{MIT Vida Repository}}.
+\newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
+
+\bibitem{needellEfficientlySimulatingPersonal2018}
+Zachary~A Needell and Jessika~E Trancik.
+\newblock Efficiently simulating personal vehicle energy consumption in
+  mesoscopic transport models.
+\newblock In {\em Transportation Research Board 97th Annual Meeting},
+  {Washington D.C.}, 2018.
+
+\bibitem{azevedoTripodSustainableTravel2018}
+Carlos~Lima Azevedo, Ravi Seshadri, Song Gao, Bilge Atasoy, Arun~Prakash
+  Akkinepally, Eleni Christofa, Fang Zhao, Jessika Trancik, and Moshe
+  {Ben-Akiva}.
+\newblock Tripod: {{Sustainable}} travel incentives with prediction,
+  optimization, and personalization.
+\newblock In {\em Transportation Research Board 97th Annual Meeting},
+  {Washington D.C.}, 2018. {Transportation Research Board}.
+
+\bibitem{masutaniObservingSystemSimulation2010}
+Michiko Masutani, Thomas~W. Schlatter, Ronald~M. Errico, Ad~Stoffelen, Erik
+  Andersson, William Lahoz, John~S. Woollen, G.~David Emmitt, Lars-Peter
+  Riishojgaard, and Stephen~J. Lord.
+\newblock Observing {{System Simulation Experiments}}.
+\newblock In {\em Data {{Assimilation}}: {{Making Sense}} of {{Observations}}},
+  pages 647--679. {Springer}, {New York City, NY}, 2010.
+
+\bibitem{erricoDevelopmentValidationObservingsystem2013}
+Ronald~M. Errico, Runhua Yang, Nikki~C. Priv{\'e}, King~Sheng Tai, Ricardo
+  Todling, Meta~E. Sienkiewicz, and Jing Guo.
+\newblock Development and validation of observing-system simulation experiments
+  at {{NASA}}'s global modeling and assimilation office.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society},
+  139(674):1162--1178, 2013.
+
+\bibitem{kumarMissionSimulationEvaluation2015}
+Sujay~V Kumar, Christa~D {Peters-lidard}, Dalia Kirschbaum, Ken Harrison,
+  Joseph Santanello, and Soni Yatheendradas.
+\newblock A mission simulation and evaluation platform for terrestrial
+  hydrology using the {{NASA Land Information System}}, 2015.
 
 \bibitem{monmonierHowLieMaps1996}
 Mark Monmonier and H.~J. de~Blij.
@@ -1519,14 +1932,6 @@ Melissa Garber, Shahram Sarkani, and Thomas~A. Mazzuchi.
 \newblock Multi-{{Stakeholder Trade Space Exploration Using Group Decision
   Making Methodologies}}.
 \newblock {\em INCOSE International Symposium}, 25(1):1118--1132, 2015.
-
-\bibitem{masutaniObservingSystemSimulation2010}
-Michiko Masutani, Thomas~W. Schlatter, Ronald~M. Errico, Ad~Stoffelen, Erik
-  Andersson, William Lahoz, John~S. Woollen, G.~David Emmitt, Lars-Peter
-  Riishojgaard, and Stephen~J. Lord.
-\newblock Observing {{System Simulation Experiments}}.
-\newblock In {\em Data {{Assimilation}}: {{Making Sense}} of {{Observations}}},
-  pages 647--679. {Springer}, {New York City, NY}, 2010.
 
 \bibitem{rossTradespaceExplorationParadigm2005}
 Adam~M. Ross and Daniel~E. Hastings.
