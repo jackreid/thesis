@@ -28,10 +28,11 @@ Clifton et al. breaks down the various ways of modeling the urban form into five
 
 \begin{table}[h]
 %\begin{center}
+\small
 \caption[Five categories of urban form models]{Five categories of urban form models. Adapted from \cite{cliftonQuantitativeAnalysisUrban2008}}
 \label{table:urban_form}
 \makebox[\linewidth]{
-\begin{tabular}{ L{3cm} L{3cm}  L{3cm} L{3cm} L{3cm} L{3cm}} \hline
+\begin{tabular}{ L{2.5cm} L{2.5cm}  L{2.5cm} L{2.5cm} L{2.5cm} L{2.5cm}} \hline
 Perspective & Principal concern & Disciplinary Orientation & Scale & Nature of Data & Common Metrics  \\ \hline
 
 Landscape ecology & Environmental protection & Natural scientists & Regional & Land cover & Land cover change; Contagion \\ 
@@ -105,7 +106,7 @@ More details modeling, as well as breaking down specific costs and benefits (as 
 
 The Law of requisite variety from the field of cybernetics says that the variety (the number of elements or states) of the control device must be at least equal to that of the disturbances \cite{ashbyRequisiteVarietyIts1991}. Any development plan is going to fall far short of the variety expressed by human society and the natural environment. Planning efforts must then make reliance on the natural homeostasis behavior of such systems and of more flexible, ad hoc measures not specified in the plan in order to make up the difference in variety. \cite{mcloughlinSystemGuidanceControl1972}
 
-\section{\hlc[red]{The Framework}} 
+\section{\hlc[yellow]{The Framework}} 
 
 The \ac{evdt} Framework is process for developing a \ac{dss} for a sustainable development application. This processed is characterized by five basic elements: 
 
@@ -126,7 +127,7 @@ The first element of the \ac{evdt} Framework builds upon Maier's \cite{maierArtS
 \begin{figure}[t] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap3/SAF.png}
-\caption{Left: Six steps of \ac{saf}. Right: Components of the system as envisioned by \ac{saf}}
+\caption[Six steps of SAF]{Six steps of \ac{saf}.}
 \label{fig:saf}
 \end{figure}
 
@@ -150,7 +151,7 @@ Involving stakeholders in the development process, in addition to the requiremen
 
 \subsection{\hlc[cyan]{EVDT Questions \& Models}} 
 
-The \ac{evdt} Framework conceptualizes the application system from two different perspectives. The first is the system boundaries and stakeholders perspective from \ac{saf} shown in Figure \ref{fig:saf}. The second perspective focuses on combining the established fields of sociotechnical systems \cite{rouseUnderstandingChangeComplex2012,siddiqiSociotechnicalSystemsSustainability2017,sussmanTeachingComplexSociotechnical2010} and socio-environmental systems \cite{elsawahEightGrandChallenges2020} into \ac{sets}. To accomplish this, at least four components are considered: the Environment (data including Landsat, Sentinel, VIIRs, in-situ environmental data and knowledge, etc.); Human Vulnerability and Societal Impact (data including census and survey-based demographic data, eocsystem services valuations, NASA's Socioeconomic Data and Applications Center, local knowledge of impacts, etc.); Human Behavior and Decision-Making (data including policy histories, mobility data, urban nightlight data, community input, etc.); and Technology Design for earth observation systems including satellites, airborne platforms and in-situ sensors (data including design parameter vectors for such systems). The data from each of these domains is used by established models in each domain, which are adapted to work in concert to address the needs identified during the stakeholder analysis. These four components, shown in Figure \ref{fig:flow}, seek to encapsulate the major interacting aspects of sustainable development and consider them from a \ac{sets} perspective. 
+The \ac{evdt} Framework conceptualizes the application system from two different perspectives. The first is the system boundaries and stakeholders perspective from \ac{saf} shown in Figure \ref{fig:saf}. The second perspective focuses on combining the established fields of sociotechnical systems \cite{rouseUnderstandingChangeComplex2012,siddiqiSociotechnicalSystemsSustainability2017,sussmanTeachingComplexSociotechnical2010} and socio-environmental systems \cite{elsawahEightGrandChallenges2020} into \ac{sets}. To accomplish this, at least four components are considered: the Environment (data including Landsat, Sentinel, VIIRs, in-situ environmental data and knowledge, etc.); Human Vulnerability and Societal Impact (data including census and survey-based demographic data, eocsystem services valuations, NASA's Socioeconomic Data and Applications Center, local knowledge of impacts, etc.); Human Behavior and Decision-Making (data including policy histories, mobility data, urban nightlight data, community input, etc.); and Technology Design for earth observation systems including satellites, airborne platforms and in-situ sensors (data including design parameter vectors for such systems). The data from each of these domains is used by established models in each domain, which are adapted to work in concert to address the needs identified during the stakeholder analysis. These four components, shown in Figure \ref{fig:model}, seek to encapsulate the major interacting aspects of sustainable development and consider them from a \ac{sets} perspective. 
 
 We are far from the first to argue that such integration is necessary, nor to recognize that it is easier said than done. The closest attempt to what is proposed here is probably that of Shahumyan and Moeckel, though their approach focused on linking together existing models in a loose manner using ArcGIS Model Builder, to avoid having to gain access to proprietary source code. While their example focused on combining transportation, land use, mobile emissions, building emissions, and land cover, with only limited feedbacks, their approach could be extended to capture the full feedback loops proposed by \ac{evdt}. Their example is also proof that the kind of loose integration of library of models that \ac{evdt} envisions is possible \cite{shahumyanIntegrationLandUse2017}. 
 
@@ -159,7 +160,7 @@ The motivation for combining so many variables from different disciplines stems 
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.3]{/home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap3/modelflow.png}
-    \caption{Baseline version of the Environment - Vulnerability - Decision - Technology Model (Generic Case)}
+    \caption[Generic version of EVDT Model] {Generic version of the Environment - Vulnerability - Decision - Technology Model}
     \label{fig:model}
 \end{figure}
 
@@ -182,7 +183,7 @@ A key aspect of the term \ac{dss} is the word "support." Crawley et al. state th
 
 \subsection{\hlc[yellow]{Re-use \& Community Development}} 
 
-One of the key motivations of participatory, stakeholder-involved processes is capacity building. In the case of the \ac{evdt} Framework, this includes both capacity building in a specific application community and in the broader practitioner community of those using \ac{eo}, \ac{gis}, and systems engineering for sustainable development. To that end, the \ac{dss} should be designed with re-use and modularity in mind. The ability to track mangrove health in Brazil \cite{reidaInteractiveModelAssessing2020} proved to be useful in a later application in Indonesia \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}. A key aspect of this is making as much of the \ac{dss} code available in open source repositories.
+One of the key motivations of participatory, stakeholder-involved processes is capacity building. In the case of the \ac{evdt} Framework, this includes both capacity building in a specific application community and in the broader practitioner community of those using \ac{eo}, \ac{gis}, and systems engineering for sustainable development. To that end, the \ac{dss} should be designed with re-use and modularity in mind. The ability to track mangrove health in Brazil \cite{reidInteractiveModelAssessing2020} proved to be useful in a later application in Indonesia \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}. A key aspect of this is making as much of the \ac{dss} code available in open source repositories.
 
 The second form of capacity building is pursued by developing a community of practice around \ac{evdt} and related endeavors.
 
@@ -192,12 +193,12 @@ The second form of capacity building is pursued by developing a community of pra
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.30]{/home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap3/Graphic_2_Development.png}
+	\includegraphics[scale=0.25]{/home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap3/Graphic_2_Development.png}
 	\caption[The EVDT development pipeline] {The EVDT development pipeline. Note that the different community groups, shown in blue, are not necessarily discrete and one individual could simultaneously participate in multiple.}
 	\label{fig:development}
 \end{figure}
 
-It is worth further describing some of the categories of \ac{evdt} community members shown in the blue boxes of Figure \ref{fig:development}. What follows will be a generalized discussion of these categories. Specific instances for this thesis are discussed in Section \ref{sec:cases}.
+It is worth further describing some of the categories of \ac{evdt} community members shown in the blue boxes of Figure \ref{fig:development}. What follows will be a generalized discussion of these categories. Specific instances for this thesis are discussed in Chapters \ref{ch:mangroves} and \ref{ch:vida}.
 
 Moving from left to right, the \textit{Core Team} refers to those directly involved in the development of the \ac{evdt} Framework. Right now this is essentially a set of researchers in Space Enabled and some close academic affiliates. This team is likely to remain predominently academic moving forward, though could transition to involving individuals or organizations from \acp{ngo} in the future. The members of this team will typically have expertise with sustainable development and \acp{dss}, significant experience with \ac{evdt}, and investment in its success. Particularly once \ac{evdt} is more developed, this core team is likely to be formally defined.
 
@@ -241,7 +242,7 @@ Finally, this envisioned development and expansion process is fundamentally a "s
 \clearpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.6]{/home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap3/Loops_Combined.png}
+	\includegraphics[scale=0.5]{/home/jackreid/Documents/School/Research/Space_Enabled/Thesis/Figures/chap3/Loops_Combined.png}
 	\caption{Three example EVDT research configurations}
 	\label{fig:combo}
 \end{figure}
@@ -264,9 +265,24 @@ Nor can it be said that \ac{evdt} is the first to advance the concept of multidi
 
 In the field of earth science, integrated models have also become increasingly common. Originally developed for operational weather forecasting, \acp{osse} have found widespread use for designing earth observation systems at \ac{nasa} and elsewhere \cite{masutaniObservingSystemSimulation2010}, by linking models of environmental phenomena with simulations of observing platforms (both hypothetical and real). These models are rigorously validated \cite{erricoDevelopmentValidationObservingsystem2013} and are often custom-made for a particular mission. Significant progress has been made however by the  Hydrological Sciences Laboratory and Earth Science Technology Office at \ac{nasa} in developing the \ac{lis}, a more reusable and inter-operable modeling tool with numerous earth sciences applications (soil moisture, hydrology, meteorology, etc.) \cite{kumarMissionSimulationEvaluation2015}. One of these uses is the easier development of \acp{osse}, as a means of facilitating technological development. Since the development of the \ac{lis}, the Hydrological Sciences Laboratory has worked to make the earth science models more accurate, utilize  a broader range of computational methods, and standardize the validation and evaluation processes for \acp{osse}.
 
-All of this clearly demonstrates that I am far from the first to argue that such multidiscplinary integration is necessary, nor to recognize that it is easier said than done \cite{shahumyanIntegrationLandUse2017}. What then, does the \ac{evdt} framework specifically have to offer? 
+Systems engineering has also recently seen a handful of approaches proposed for use in sustainable development. In 2020, Honoré-Livermore et al. sought to address the \acp{sdg} in arctic coastal regions via an approach grounded in \ac{ses} and the \ac{spade} methodology \cite{honore-livermoreAddressingSustainableDevelopment2020}. The \ac{spade} methodology was developed specifically for sustainable development applications. The five components of its name constitute five non-linear steps, each of which has various specific associated methodologies \cite{haskinsSystemsEngineeringAnalyzed2008}, as shown in Figure 3.
 
-First, there is the developmental process and theoretical underpinnings of \ac{evdt}: the combination of systems architecture (and other systems engineering techniques), \ac{gis}, collaborative planning, and remote observation. As was argued in \ref{sec:background}, these fields each of complementary aspects that can be brought to bear in the development of future \acp{dss}.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{Figures/chap3/spade.png}
+\caption[The SPADE Methodology and associated methods]{The Stakeholders-Problem-Alternatives-Decision-Making-Evaluation (SPADE) Methodology and associated methods. Adapted from Haskins, 2008 \cite{haskinsSystemsEngineeringAnalyzed2008} as seen in \cite{reidSystemsEngineeringAppliedPendingPublication}.}
+\label{fig:spade}
+\end{figure}
+
+Van Zyl and Root meanwhile used a transdisciplinary approach involving Wilbur's integral systems theory \cite{esbjorn-hargensOverviewIntegralTheory2010} and the \ac{catwoe} framework from \ac{ssm} \cite{checklandSoftSystemsMethodology2000} to design sustainable agricultural principles in New Zealand \cite{vanzylTransdisciplinaryDesignImplementation2020}.
+
+Other recent approaches focus on scenario planning and education for understanding evolution of the urban form \cite{geyerSystemsEngineeringMethodology2014}, sustainable land-use planning that relies upon multilevel stakeholder partnerships \cite{puchol-salortUrbanPlanningSustainability2021}, a synthesis of participatory planning with systems engineering for sustainable regional planning \cite{aspenDevelopingParticipatoryPlanning2021}, and leveraging human-centered design to address the \acp{sdg} \cite{muellerUsingHumanCenteredDesign2020}. A survey of sustainable development applications of systems engineering can be found in Yang and Cormican, 2021 \cite{yangCrossoversConnectivitySystems2021}, which itself was published in a special issue of \textit{Sustainability} dedicated to systems engineering \cite{haskinsSystemsEngineeringSustainable2021}.
+
+Common across all of these methods are a significant consideration of a wide set of stakeholders and an adoption of different systems engineering techniques for integrating these stakeholder needs into the system design and development process.
+
+All of this clearly demonstrates that I am far from the first to argue that such multidisciplinary integration is necessary, for the potential utility for systems engineering in sustainable development, nor to recognize that both are easier said than done \cite{shahumyanIntegrationLandUse2017}. What then, does the \ac{evdt} framework specifically have to offer? 
+
+First, there is the developmental process and theoretical underpinnings of \ac{evdt}: the combination of systems architecture (and other systems engineering techniques), \ac{gis}, collaborative planning, and remote observation. As was argued in Chapter \ref{ch:theory}, these fields each of complementary aspects that can be brought to bear in the development of future \acp{dss}.
 
 Second, there are distinct advantages to the development and codification of a concrete framework for such integrated modeling projects for sustainable development applications. Many of the above examples of integrated models were developed either without such a framework at all (a one off model intended to solve a particular problem or demonstrate a particular technique) or for a different class of applications (the \ac{osse} framework is fundamentally about designing better \acp{eos} for scientific purposes). Those few that have both a dedicated framework and a sustainable development focus (this includes \ac{servir}, \ac{fews}, and various \ac{un}-affiliated programs such as the World Food Program) are intended for large governmental (often multi-nation and/or multi-agency) teams and typically are aimed at national or even multinational applications. There is a real need for a framework that is dedicated for sustainable development applications of small scales, accessible to relatively small teams for specific, targeted projects. The \ac{evdt} framework has the potential to fill that gap. Research Question 1 is aimed at developing the \ac{evdt} Framework in detail and identying these advantages. Research Question 2 is then aimed at demonstrating these advantages.
 
