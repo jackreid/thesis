@@ -403,6 +403,19 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock Measuring mangrove carbon loss and gain in deltas.
 \newblock {\em Environmental Research Letters}, 14(2):025002, January 2019.
 
+\bibitem{southernhemispheresummerspaceprogram2013CommonHorizonsWhite2013}
+{Southern Hemisphere Summer space Program 2013}.
+\newblock Common {{Horizons White Paper}}.
+\newblock Technical Report SHS-SP13, {International Space University}, {Mawson
+  Lakes, Australia}, 2013.
+
+\bibitem{bennettPoliticsPixelsReview2022}
+Mia~M Bennett, Janice~K Chen, Luis~F Alvarez~Le{\'o}n, and Colin~J Gleason.
+\newblock The politics of pixels: {{A}} review and agenda for critical remote
+  sensing.
+\newblock {\em Progress in Human Geography}, page 03091325221074691, January
+  2022.
+
 \bibitem{macauleyValueInformationMeasuring2006}
 Molly~K. Macauley.
 \newblock The value of information: {{Measuring}} the contribution of
@@ -422,6 +435,20 @@ Willam~M. Forney, Ronald~P. Raunikar, Richard~L. Bernkopf, and Shruti~K.
   {{Application}} to {{Agricultural Production}} and {{Maintaining Groundwater
   Quality}}.
 \newblock {\em U.S. Geological Survey Professional Paper}, (1796), 2012.
+
+\bibitem{siddiqiIntegratingGloballyDispersed2020}
+Afreen Siddiqi, Sheila Baber, Olivier de~Weck, Chris Durell, Brandon Russell,
+  and Jeff Holt.
+\newblock Integrating {{Globally Dispersed Calibration}} in {{Small Satellites
+  Mission Value}}.
+\newblock In {\em Small {{Satellite Conference}}}, {Logan, Utah}, August 2020.
+
+\bibitem{siddiqiValuingRadiometricQuality2021}
+Afreen Siddiqi, Sheila Baber, and Olivier De~Weck.
+\newblock Valuing {{Radiometric Quality}} of {{Remote Sensing Data}} for
+  {{Decisions}}.
+\newblock In {\em 2021 {{IEEE International Geoscience}} and {{Remote Sensing
+  Symposium IGARSS}}}, pages 5724--5727, {Brussels, Belgium}, July 2021.
 
 \bibitem{kruseGEOValueSocioeconomicValue2017}
 Jamie Kruse, Joep Crompvoets, and Fran{\c c}oise Pearlman, editors.
@@ -1615,13 +1642,6 @@ Nicola Ulibarri.
   scientific information in environmental decision-making.
 \newblock {\em Environmental Science \& Policy}, 82:136--142, April 2018.
 
-\bibitem{bennettPoliticsPixelsReview2022}
-Mia~M Bennett, Janice~K Chen, Luis~F Alvarez~Le{\'o}n, and Colin~J Gleason.
-\newblock The politics of pixels: {{A}} review and agenda for critical remote
-  sensing.
-\newblock {\em Progress in Human Geography}, page 03091325221074691, January
-  2022.
-
 \bibitem{campbellGreenCitiesGrowing2016}
 Scott Campbell.
 \newblock Green {{Cities}}, {{Growing Cities}}, {{Just Cities}}? {{Urban
@@ -1848,6 +1868,13 @@ Jack Reid.
 Jack Reid, Seamus Lombardo, and Danielle Wood.
 \newblock {{MIT Vida Repository}}.
 \newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
+
+\bibitem{siddiqiValuingNewEarth2019}
+Afreen Siddiqi, Eric Magliarditi, and Olivier de~Week.
+\newblock Valuing {{New Earth Observation Missions}} for {{System Architecture
+  Trade-Studies}}.
+\newblock In {\em {{IGARSS}} 2019 - 2019 {{IEEE International Geoscience}} and
+  {{Remote Sensing Symposium}}}, pages 5297--5300, July 2019.
 
 \bibitem{needellEfficientlySimulatingPersonal2018}
 Zachary~A Needell and Jessika~E Trancik.

@@ -13,7 +13,7 @@ A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 12475 items from 5000.
+Reallocated field_info (elt_size=4) to 12567 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -30,45 +30,45 @@ Warning--there's a number but no volume in incosecomplexsystemsworkinggroupCompl
 Warning--empty school in martinFrameworkQuantifyingComplexity2004
 Warning--empty journal in kimChallengesApplyingModelbased2019
 Warning--empty publisher in crawley2004
-You've used 325 entries,
+You've used 329 entries,
             1791 wiz_defined-function locations,
-            2425 strings with 78707 characters,
-and the built_in function-call counts, 72731 in all, are:
-= -- 6655
-> -- 3024
-< -- 57
-+ -- 1153
-- -- 828
-* -- 4875
-:= -- 11519
-add.period$ -- 1026
-call.type$ -- 325
-change.case$ -- 325
+            2451 strings with 79891 characters,
+and the built_in function-call counts, 73923 in all, are:
+= -- 6768
+> -- 3070
+< -- 60
++ -- 1170
+- -- 841
+* -- 4947
+:= -- 11686
+add.period$ -- 1038
+call.type$ -- 329
+change.case$ -- 329
 chr.to.int$ -- 0
-cite$ -- 339
-duplicate$ -- 3442
-empty$ -- 7306
-format.name$ -- 828
-if$ -- 16338
+cite$ -- 343
+duplicate$ -- 3507
+empty$ -- 7421
+format.name$ -- 841
+if$ -- 16623
 int.to.chr$ -- 0
-int.to.str$ -- 325
-missing$ -- 323
-newline$ -- 1619
-num.names$ -- 401
-pop$ -- 1060
+int.to.str$ -- 329
+missing$ -- 326
+newline$ -- 1639
+num.names$ -- 405
+pop$ -- 1080
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1391
+skip$ -- 1429
 stack$ -- 0
-substring$ -- 4115
-swap$ -- 699
-text.length$ -- 57
+substring$ -- 4195
+swap$ -- 726
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 14
-while$ -- 731
-width$ -- 328
-write$ -- 3627
+while$ -- 741
+width$ -- 332
+write$ -- 3673
 (There were 14 warnings)
