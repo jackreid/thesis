@@ -13,15 +13,14 @@ A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 14453 items from 5000.
+Reallocated field_info (elt_size=4) to 14821 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--I didn't find a database entry for "branderEcosystemServiceValues2012"
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
 Warning--empty institution in sussmanTeachingComplexSociotechnical2010
+Warning--empty institution in internationalorganizationforstandardizationSystemsSoftwareEngineering2010
 Warning--there's a number but no volume in forneyEconomicValueRemoteSensing2012
 Warning--empty publisher in goodchildOverviewDefinitionGIS1992
-Warning--empty institution in internationalorganizationforstandardizationSystemsSoftwareEngineering2010
 Warning--empty journal in hayesRaysHopeTransition1977
 Warning--empty year in simoniteWhatReallyHappened
 Warning--empty institution in riderParametricModelAllocation1975
@@ -30,6 +29,8 @@ Warning--empty journal in incosecomplexsystemsworkinggroupComplexityPrimerSystem
 Warning--there's a number but no volume in incosecomplexsystemsworkinggroupComplexityPrimerSystems2016
 Warning--empty school in martinFrameworkQuantifyingComplexity2004
 Warning--empty journal in kimChallengesApplyingModelbased2019
+Warning--empty institution in grouponearthobservationsStrategicImplementationPlan
+Warning--empty year in grouponearthobservationsStrategicImplementationPlan
 Warning--empty publisher in crawley2004
 Warning--empty journal in viehoffPoliticsMegaeventPlanning2016
 Warning--empty institution in 100resilientcitiesResilienceStrategyCity2017
@@ -39,45 +40,45 @@ Warning--empty journal in castroOSDESAFIOSPLANEJAMENTO2012
 Warning--there's a number but no volume in castroOSDESAFIOSPLANEJAMENTO2012
 Warning--there's a number but no volume in vicenteAvaliacaoHidrogeologicaRegioes2010
 Warning--empty institution in haines-youngCommonInternationalClassification2018
-You've used 410 entries,
+You've used 427 entries,
             1791 wiz_defined-function locations,
-            2902 strings with 102073 characters,
-and the built_in function-call counts, 90472 in all, are:
-= -- 8177
-> -- 3945
-< -- 65
-+ -- 1500
-- -- 1090
-* -- 6128
-:= -- 14467
-add.period$ -- 1278
-call.type$ -- 410
-change.case$ -- 410
+            2995 strings with 106406 characters,
+and the built_in function-call counts, 93999 in all, are:
+= -- 8500
+> -- 4093
+< -- 68
++ -- 1558
+- -- 1131
+* -- 6363
+:= -- 15035
+add.period$ -- 1329
+call.type$ -- 427
+change.case$ -- 425
 chr.to.int$ -- 0
-cite$ -- 432
-duplicate$ -- 4180
-empty$ -- 8978
-format.name$ -- 1090
-if$ -- 20167
+cite$ -- 451
+duplicate$ -- 4343
+empty$ -- 9319
+format.name$ -- 1131
+if$ -- 20947
 int.to.chr$ -- 0
-int.to.str$ -- 410
-missing$ -- 384
-newline$ -- 2040
-num.names$ -- 486
-pop$ -- 1287
+int.to.str$ -- 427
+missing$ -- 398
+newline$ -- 2124
+num.names$ -- 502
+pop$ -- 1331
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1708
+skip$ -- 1778
 stack$ -- 0
-substring$ -- 5074
-swap$ -- 828
-text.length$ -- 65
+substring$ -- 5278
+swap$ -- 862
+text.length$ -- 68
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 22
-while$ -- 901
-width$ -- 413
-write$ -- 4536
-(There were 23 warnings)
+warning$ -- 24
+while$ -- 935
+width$ -- 430
+write$ -- 4721
+(There were 24 warnings)

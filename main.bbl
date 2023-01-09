@@ -248,6 +248,89 @@ Therese Bennich, Nina Weitz, and Henrik Carlsen.
 \newblock Global indicator framework for the {{Sustainable Development Goals}}
   and targets of the 2030 {{Agenda}} for {{Sustainable Development}}, 2017.
 
+\bibitem{internationalorganizationforstandardizationSystemsSoftwareEngineering2010}
+{International Organization for Standardization}, {International
+  Electrotechnical Commission}, and {Institute of Electrical {and} Electronics
+  Engineers}.
+\newblock Systems and {{Software Engineering}} - {{System}} and {{Software
+  Engineering Vocabulary}} ({{SEVocab}}).
+\newblock Technical Report ISO/IEC/IEEE 24765:2010, {Geneva, Switzerland},
+  2010.
+
+\bibitem{systemsengineeringbodyofknowledgeSystemsEngineeringGlossary2021}
+{Systems Engineering Body of Knowledge}.
+\newblock Systems {{Engineering}} (glossary).
+\newblock https://www.sebokwiki.org/wiki/Systems\_Engineering\_(glossary), May
+  2021.
+
+\bibitem{deweckInvestigatingRelationshipsSemantic2012}
+Olivier~L. {de Weck}, Adam~Michael Ross, and Donna~H. Rhodes.
+\newblock Investigating {{Relationships}} and {{Semantic Sets}} amongst
+  {{System Lifecycle Properties}} ({{Ilities}}).
+\newblock Working {{Paper}}, {Massachusetts Institute of Technology.
+  Engineering Systems Division}, March 2012.
+
+\bibitem{fitzgeraldEffectsEnhancedMultiparty2015}
+Matthew~E Fitzgerald and Adam~M Ross.
+\newblock Effects of {{Enhanced Multi-party Tradespace Visualization}} on a
+  {{Two-person Negotiation}}.
+\newblock {\em Procedia Computer Science}, 44:466--475, 2015.
+
+\bibitem{fitzgeraldRecommendationsFramingMultistakeholder2016}
+Matthew~E Fitzgerald and Adam~M Ross.
+\newblock Recommendations for framing multi-stakeholder tradespace exploration.
+\newblock In {\em {{INCOSE}} International Symposium}, {Edinburgh, UK}, 2016.
+
+\bibitem{weckMULTISTAKEHOLDERSIMULATIONGAMING2012}
+O.~Weck.
+\newblock {{MULTI-STAKEHOLDER SIMULATION AND GAMING ENVIRONMENT FOR A FUTURE
+  RESOURCE ECONOMY IN SPACE}}.
+\newblock
+  /paper/MULTI-STAKEHOLDER-SIMULATION-AND-GAMING-ENVIRONMENT-Weck/8d4c0bf1b644a5fa0e6d8f9ef02e7054d89be124,
+  2012.
+
+\bibitem{groganInteractiveModelsSystem2015}
+Paul~T Grogan, Olivier~L De~Weck, Adam~M Ross, and Donna~H Rhodes.
+\newblock Interactive models as a system design tool: {{Applications}} to
+  system project management.
+\newblock In {\em Conference on {{Systems Engineering Research}}}, {Hoboken,
+  NJ}, 2015. {Elsevier}.
+
+\bibitem{rossMultiAttributeTradespaceExploration2004}
+Adam~M. Ross, Daniel~E. Hastings, and Joyce~M. Warmkessel.
+\newblock Multi-{{Attribute Tradespace Exploration}} as {{Front End}} for
+  {{Effective Space System Design}}.
+\newblock {\em Journal of Spacecraft and Rockets}, 41(1):20--28, 2004.
+
+\bibitem{selvavaleroRulebasedSystemArchitecting2012}
+Daniel~Selva Selva~Valero.
+\newblock {\em Rule-Based System Architecting of Earth Observation Satellite
+  Systems}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2012.
+
+\bibitem{rossUsingNaturalValueCentric2008}
+Adam~M Ross and Donna~H Rhodes.
+\newblock Using {{Natural Value-Centric Time Scales}} for {{Conceptualizing
+  System Timelines}} through {{Epoch-Era Analysis}}.
+\newblock In {\em {{INCOSE International Symposium}}}, {Utrecht, the
+  Netherlands}, 2008.
+
+\bibitem{vascikMethodExploringProgram2015}
+Peter Vascik, Adam~M. Ross, and Donna~H. Rhodes.
+\newblock A {{Method}} for {{Exploring Program}} and {{Portfolio Affordability
+  Tradeoffs Under Uncertainty Using Epoch-Era Analysis}}: {{A Case
+  Application}} to {{Carrier Strike Group Design}}:.
+\newblock In {\em Proceedings of the 12th {{Annual Acquisition Research
+  Symposium}}}, {Fort Belvoir, VA}, April 2015. {Defense Technical Information
+  Center}.
+
+\bibitem{brommelstroetPlanningSupportSystems2010}
+Marco~Te Br{\"o}mmelstroet and Pieter~M Schrijnen.
+\newblock From {{Planning Support Systems}} to {{Mediated Planning Support}}:
+  {{A Structured Dialogue}} to {{Overcome}} the {{Implementation Gap}}.
+\newblock {\em Environment and Planning B: Planning and Design}, 37(1):3--20,
+  February 2010.
+
 \bibitem{shirahNASAEarthObserving2017}
 Greg Shirah.
 \newblock {{NASA}}'s {{Earth Observing Fleet}}: {{March}} 2017.
@@ -679,13 +762,6 @@ W.J. Drummond and S.P. French.
   Technologies}} and {{Diverging Interests}}.
 \newblock {\em Journal of the American Planning Association}, 7(2), 2008.
 
-\bibitem{brommelstroetPlanningSupportSystems2010}
-Marco~Te Br{\"o}mmelstroet and Pieter~M Schrijnen.
-\newblock From {{Planning Support Systems}} to {{Mediated Planning Support}}:
-  {{A Structured Dialogue}} to {{Overcome}} the {{Implementation Gap}}.
-\newblock {\em Environment and Planning B: Planning and Design}, 37(1):3--20,
-  February 2010.
-
 \bibitem{tebrommelstroetRelevanceResearchPlanning2009}
 Marco {te Br{\"o}mmelstroet}.
 \newblock The {{Relevance}} of {{Research}} in {{Planning Support Systems}}:
@@ -801,81 +877,129 @@ Doug Walker.
   Tool}} for a {{New Generation}} of {{Planning}}}.
 \newblock {Routledge}, November 2017.
 
-\bibitem{internationalorganizationforstandardizationSystemsSoftwareEngineering2010}
-{International Organization for Standardization}, {International
-  Electrotechnical Commission}, and {Institute of Electrical {and} Electronics
-  Engineers}.
-\newblock Systems and {{Software Engineering}} - {{System}} and {{Software
-  Engineering Vocabulary}} ({{SEVocab}}).
-\newblock Technical Report ISO/IEC/IEEE 24765:2010, {Geneva, Switzerland},
-  2010.
+\bibitem{meadowsLimitsGrowth1972}
+Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
+\newblock {\em The {{Limits}} to {{Growth}}}.
+\newblock {Potomac Associates}, {Washington D.C.}, 1972.
 
-\bibitem{systemsengineeringbodyofknowledgeSystemsEngineeringGlossary2021}
-{Systems Engineering Body of Knowledge}.
-\newblock Systems {{Engineering}} (glossary).
-\newblock https://www.sebokwiki.org/wiki/Systems\_Engineering\_(glossary), May
-  2021.
+\bibitem{shahumyanIntegrationLandUse2017}
+Harutyun Shahumyan and Rolf Moeckel.
+\newblock Integration of land use, land cover, transportation, and
+  environmental impact models: {{Expanding}} scenario analysis with multiple
+  modules.
+\newblock {\em Environment and Planning B: Urban Analytics and City Science},
+  44(3):531--552, May 2017.
 
-\bibitem{deweckInvestigatingRelationshipsSemantic2012}
-Olivier~L. {de Weck}, Adam~Michael Ross, and Donna~H. Rhodes.
-\newblock Investigating {{Relationships}} and {{Semantic Sets}} amongst
-  {{System Lifecycle Properties}} ({{Ilities}}).
-\newblock Working {{Paper}}, {Massachusetts Institute of Technology.
-  Engineering Systems Division}, March 2012.
+\bibitem{waddellUrbanSimModelingUrban2002}
+Paul Waddell.
+\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
+  {{Transportation}}, and {{Environmental Planning}}.
+\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
+  September 2002.
 
-\bibitem{fitzgeraldEffectsEnhancedMultiparty2015}
-Matthew~E Fitzgerald and Adam~M Ross.
-\newblock Effects of {{Enhanced Multi-party Tradespace Visualization}} on a
-  {{Two-person Negotiation}}.
-\newblock {\em Procedia Computer Science}, 44:466--475, 2015.
+\bibitem{millerHistoricalValidationIntegrated2011}
+Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
+\newblock Historical {{Validation}} of {{Integrated
+  Transport}}\textendash{{Land Use Model System}}.
+\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
 
-\bibitem{fitzgeraldRecommendationsFramingMultistakeholder2016}
-Matthew~E Fitzgerald and Adam~M Ross.
-\newblock Recommendations for framing multi-stakeholder tradespace exploration.
-\newblock In {\em {{INCOSE}} International Symposium}, {Edinburgh, UK}, 2016.
+\bibitem{BottlenecksBlockingWidespread}
+Bottlenecks {{Blocking Widespread Usage}} of {{Planning Support Systems}} -
+  {{Guido Vonk}}, {{Stan Geertman}}, {{Paul Schot}}, 2005.
+\newblock https://journals.sagepub.com/doi/abs/10.1068/a3712.
 
-\bibitem{weckMULTISTAKEHOLDERSIMULATIONGAMING2012}
-O.~Weck.
-\newblock {{MULTI-STAKEHOLDER SIMULATION AND GAMING ENVIRONMENT FOR A FUTURE
-  RESOURCE ECONOMY IN SPACE}}.
-\newblock
-  /paper/MULTI-STAKEHOLDER-SIMULATION-AND-GAMING-ENVIRONMENT-Weck/8d4c0bf1b644a5fa0e6d8f9ef02e7054d89be124,
+\bibitem{geertmanPlanningSupportSystems2004}
+Stan Geertman and John Stillwell.
+\newblock Planning support systems: An inventory of current practice.
+\newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310, July
+  2004.
+
+\bibitem{laufUncoveringLanduseDynamics2012}
+S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
+\newblock Uncovering land-use dynamics driven by human decision-making
+  \textendash{} {{A}} combined model approach using cellular automata and
+  system dynamics.
+\newblock {\em Environmental Modelling \& Software}, 27--28:71--82, January
   2012.
 
-\bibitem{groganInteractiveModelsSystem2015}
-Paul~T Grogan, Olivier~L De~Weck, Adam~M Ross, and Donna~H Rhodes.
-\newblock Interactive models as a system design tool: {{Applications}} to
-  system project management.
-\newblock In {\em Conference on {{Systems Engineering Research}}}, {Hoboken,
-  NJ}, 2015. {Elsevier}.
+\bibitem{pertParticipatoryDevelopmentNew2013}
+Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
+\newblock Participatory development of a new interactive tool for capturing
+  social and ecological dynamism in conservation prioritization.
+\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
 
-\bibitem{rossMultiAttributeTradespaceExploration2004}
-Adam~M. Ross, Daniel~E. Hastings, and Joyce~M. Warmkessel.
-\newblock Multi-{{Attribute Tradespace Exploration}} as {{Front End}} for
-  {{Effective Space System Design}}.
-\newblock {\em Journal of Spacecraft and Rockets}, 41(1):20--28, 2004.
+\bibitem{millerIntegratedUrbanModeling2018}
+Eric~J. Miller.
+\newblock Integrated urban modeling: {{Past}}, present, and future.
+\newblock {\em Journal of Transport and Land Use}, 11(1):387--399, 2018.
 
-\bibitem{selvavaleroRulebasedSystemArchitecting2012}
-Daniel~Selva Selva~Valero.
-\newblock {\em Rule-Based System Architecting of Earth Observation Satellite
-  Systems}.
-\newblock PhD thesis, Massachusetts Institute of Technology, 2012.
+\bibitem{hatryCriteriaEvaluationPlanning1972}
+Harry~P. Hatry.
+\newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
+  Programs}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
 
-\bibitem{rossUsingNaturalValueCentric2008}
-Adam~M Ross and Donna~H Rhodes.
-\newblock Using {{Natural Value-Centric Time Scales}} for {{Conceptualizing
-  System Timelines}} through {{Epoch-Era Analysis}}.
-\newblock In {\em {{INCOSE International Symposium}}}, {Utrecht, the
-  Netherlands}, 2008.
+\bibitem{cliftonQuantitativeAnalysisUrban2008}
+Kelly Clifton, Reid Ewing, and Gerrit-Jan Knapp.
+\newblock Quantitative analysis of urban form: A multidisciplinary review.
+\newblock {\em Journal of Urbanism}, 1(1):17--45, 2008.
 
-\bibitem{vascikMethodExploringProgram2015}
-Peter Vascik, Adam~M. Ross, and Donna~H. Rhodes.
-\newblock A {{Method}} for {{Exploring Program}} and {{Portfolio Affordability
-  Tradeoffs Under Uncertainty Using Epoch-Era Analysis}}: {{A Case
-  Application}} to {{Carrier Strike Group Design}}:.
-\newblock In {\em Proceedings of the 12th {{Annual Acquisition Research
-  Symposium}}}, {Fort Belvoir, VA}, April 2015. {Defense Technical Information
-  Center}.
+\bibitem{scottRoleUrbanForm2008}
+Darren~M. Scott and Mark~W. Horner.
+\newblock The role of urban form in shaping access to opportunities: {{An}}
+  exploratory spatial data analysis.
+\newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
+
+\bibitem{gaheganMultivariateGeovisualization2007}
+Mark Gahegan.
+\newblock Multivariate {{Geovisualization}}.
+\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
+  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
+
+\bibitem{harrisQuantitativeModelsUrban1972}
+Britton Harris.
+\newblock Quantitative {{Models}} of {{Urban Development}}: {{Their}} role in
+  {{Metropolitan Decision-Making}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{yamuAssumingItAll2016}
+Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
+\newblock Assuming it is all about conditions. {{Framing}} a simulation model
+  for complex, adaptive urban space.
+\newblock {\em Environment and Planning B: Planning and Design},
+  43(6):1019--1039, November 2016.
+
+\bibitem{krutillaWelfareAspectsBenefitCost1961}
+J.~Krutilla.
+\newblock Welfare {{Aspects}} of {{Benefit-Cost Analysis}}.
+\newblock {\em Journal of Political Economy}, 1961.
+
+\bibitem{hillGoalsAchievementMatrixEvaluating1972}
+Morris Hill.
+\newblock A {{Goals-Achievement Matrix}} for {{Evaluating Alternative Plans}}.
+\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
+  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
+  Hills, CA}, first edition, 1972.
+
+\bibitem{ashbyRequisiteVarietyIts1991}
+W.~Ross Ashby.
+\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
+  {{Complex Systems}}.
+\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
+  International {{Federation}} for {{Systems Research International Series}} on
+  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
+  {Boston, MA}, 1991.
+
+\bibitem{mcloughlinSystemGuidanceControl1972}
+Brian~J. McLoughlin.
+\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
+\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
+  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
+  1972.
 
 \bibitem{mazlish1963}
 Bruce Mazlish.
@@ -1152,11 +1276,6 @@ Jay~W. Forrester.
 \newblock {\em IEEE Transactions on Systems Science and Cybernetics},
   6(4):258--265, October 1970.
 
-\bibitem{meadowsLimitsGrowth1972}
-Donella Meadows, Dennis Meadows, Jorgen Randgers, and William Behrens.
-\newblock {\em The {{Limits}} to {{Growth}}}.
-\newblock {Potomac Associates}, {Washington D.C.}, 1972.
-
 \bibitem{forresterSystemDynamicsPersonal2007a}
 Jay~W. Forrester.
 \newblock System dynamics\textemdash a personal view of the first fifty years.
@@ -1311,11 +1430,6 @@ David Boyce.
   {{An}} Introduction to New Methodologies}, pages 62--84. {SAGE Publications,
   Inc}, {Beverly Hills, CA}, first edition, 1972.
 
-\bibitem{cliftonQuantitativeAnalysisUrban2008}
-Kelly Clifton, Reid Ewing, and Gerrit-Jan Knapp.
-\newblock Quantitative analysis of urban form: A multidisciplinary review.
-\newblock {\em Journal of Urbanism}, 1(1):17--45, 2008.
-
 \bibitem{readAssetbasedEconomicDevelopment2012}
 A~Read, K~Takai, H~Wolford, and E~Berman.
 \newblock Asset-based economic development: {{Building}} sustainable small and
@@ -1340,33 +1454,12 @@ Michael Batty.
 \newblock {\em Cities and {{Complexity}}}.
 \newblock {The MIT Press}, {Cambridge, MA}, September 2005.
 
-\bibitem{laufUncoveringLanduseDynamics2012}
-S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.
-\newblock Uncovering land-use dynamics driven by human decision-making
-  \textendash{} {{A}} combined model approach using cellular automata and
-  system dynamics.
-\newblock {\em Environmental Modelling \& Software}, 27--28:71--82, January
-  2012.
-
-\bibitem{millerIntegratedUrbanModeling2018}
-Eric~J. Miller.
-\newblock Integrated urban modeling: {{Past}}, present, and future.
-\newblock {\em Journal of Transport and Land Use}, 11(1):387--399, 2018.
-
 \bibitem{moeckelTrendsIntegratedLanduse2018}
 Rolf Moeckel, Carlos~Llorca Garcia, Ana T.~Moreno Chou, and Matthew~Bediako
   Okrah.
 \newblock Trends in integrated land-use/transport modeling: {{An}} evaluation
   of the state of the art.
 \newblock {\em Journal of Transport and Land Use}, 11(1):463--476, 2018.
-
-\bibitem{shahumyanIntegrationLandUse2017}
-Harutyun Shahumyan and Rolf Moeckel.
-\newblock Integration of land use, land cover, transportation, and
-  environmental impact models: {{Expanding}} scenario analysis with multiple
-  modules.
-\newblock {\em Environment and Planning B: Urban Analytics and City Science},
-  44(3):531--552, May 2017.
 
 \bibitem{checklandSystemsThinkingSystems1999}
 Peter Checkland.
@@ -1554,19 +1647,6 @@ Robert Goodspeed.
 \newblock The {{Death}} and {{Life}} of {{Collaborative Planning Theory}}.
 \newblock {\em Urban Planning}, 1(4):1--5, November 2016.
 
-\bibitem{pertParticipatoryDevelopmentNew2013}
-Petina~L. Pert, Scott~N. Lieske, and Rosemary Hill.
-\newblock Participatory development of a new interactive tool for capturing
-  social and ecological dynamism in conservation prioritization.
-\newblock {\em Landscape and Urban Planning}, 114:80--91, June 2013.
-
-\bibitem{waddellUrbanSimModelingUrban2002}
-Paul Waddell.
-\newblock {{UrbanSim}}: {{Modeling Urban Development}} for {{Land Use}},
-  {{Transportation}}, and {{Environmental Planning}}.
-\newblock {\em Journal of the American Planning Association}, 68(3):297--314,
-  September 2002.
-
 \bibitem{wilsonHandbookGeographicInformation2007}
 John~P. Wilson and A.~Stewart Fotheringham, editors.
 \newblock {\em The {{Handbook}} of {{Geographic Information Science}}}.
@@ -1584,13 +1664,6 @@ Ana~Lu{\'i}sa Ramos, Jos{\'e}~Vasconcelos Ferreira, and Jaume Barcel{\'o}.
   {{Modern Systems}}.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part C
   (Applications and Reviews)}, 42(1):101--111, January 2012.
-
-\bibitem{yamuAssumingItAll2016}
-Claudia Yamu, Gert {de Roo}, and Pierre Frankhauser.
-\newblock Assuming it is all about conditions. {{Framing}} a simulation model
-  for complex, adaptive urban space.
-\newblock {\em Environment and Planning B: Planning and Design},
-  43(6):1019--1039, November 2016.
 
 \bibitem{chertowIndustrialEcologyDeveloping2008}
 Marian~R. Chertow.
@@ -1650,6 +1723,13 @@ Scott Campbell.
   {{Planning Theory}}}. {Wiley-Blackwell}, {Hoboken, NJ}, fourth edition,
   January 2016.
 
+\bibitem{fukuda-parrPowerNumbersCritical2014}
+Sakiko {Fukuda-Parr}, Alicia~Ely Yamin, and Joshua Greenstein.
+\newblock The {{Power}} of {{Numbers}}: {{A Critical Review}} of {{Millennium
+  Development Goal Targets}} for {{Human Development}} and {{Human Rights}}.
+\newblock {\em Journal of Human Development and Capabilities},
+  15(2-3):105--117, July 2014.
+
 \bibitem{alstonShipsPassingNight2005}
 Philip Alston.
 \newblock Ships {{Passing}} in the {{Night}}: {{The Current State}} of the
@@ -1657,18 +1737,49 @@ Philip Alston.
   {{Millennium Development Goals}}.
 \newblock {\em Human Rights Quarterly}, 27(3):755--829, 2005.
 
+\bibitem{officeoftheunitednationshighcommissionerforhumanrightsWhoWillBe2013}
+{Office of the United Nations High Commissioner for Human Rights} and {Center
+  for Economics and Social Rights}.
+\newblock Who {{Will Be Accountable}}? {{Human Rights}} and the {{Post-2015
+  Development Agenda}}.
+\newblock Technical Report HR/PUB/13/1, {United Nations}, {Geneva,
+  Switzerland}, 2013.
+
 \bibitem{reddyGlobalDevelopmentGoals2008}
 Sanjay Reddy and Antoine Heuty.
 \newblock Global {{Development Goals}}: {{The Folly}} of {{Technocratic
   Pretensions}}.
 \newblock {\em Development Policy Review}, 26(1):5--28, 2008.
 
-\bibitem{fukuda-parrPowerNumbersCritical2014}
-Sakiko {Fukuda-Parr}, Alicia~Ely Yamin, and Joshua Greenstein.
-\newblock The {{Power}} of {{Numbers}}: {{A Critical Review}} of {{Millennium
-  Development Goal Targets}} for {{Human Development}} and {{Human Rights}}.
-\newblock {\em Journal of Human Development and Capabilities},
-  15(2-3):105--117, July 2014.
+\bibitem{snowGlobalDistributionClinical2005}
+Robert~W. Snow, Carlos~A. Guerra, Abdisalan~M. Noor, Hla~Y. Myint, and Simon~I.
+  Hay.
+\newblock The global distribution of clinical episodes of {{Plasmodium}}
+  falciparum malaria.
+\newblock {\em Nature}, 434(7030):214--217, March 2005.
+
+\bibitem{DataDeprivationAnother}
+Data deprivation : Another deprivation to end.
+\newblock
+  https://documents.worldbank.org/en/publication/documents-reports/documentdetail/700611468172787967/Data-deprivation-another-deprivation-to-end.
+
+\bibitem{grouponearthobservationsStrategicImplementationPlan}
+{Group on Earth Observations}.
+\newblock Strategic {{Implementation Plan}} 2020-2024.
+\newblock Technical report.
+
+\bibitem{taylor1993full}
+Peter~J Taylor.
+\newblock Full circle, or new meaning for the global.
+\newblock {\em The challenge for geography: a changing world: a changing
+  discipline Blackwell, Oxford}, pages 181--97, 1993.
+
+\bibitem{veghMangroveEcosystemServices2014}
+Tibor Vegh, Megan Jungwiwattanaporn, Linwood Pendleton, and Brian Murray.
+\newblock Mangrove {{Ecosystem Services Valuation}}: {{State}} of the
+  {{Literature}}.
+\newblock Technical Report NI WP 14-06, {Nicholas Institute for Environmental
+  Policy Solutions, Duke University}, {Durham, NC}, July 2014.
 
 \bibitem{wiechmannErrorsExpectedAligning2008}
 Dr~Thorsten Wiechmann.
@@ -1707,78 +1818,31 @@ John Dewey.
   {{Social Psychology}}}.
 \newblock {Cosimo Classics}, {New York, N.Y}, March 2007.
 
-\bibitem{millerHistoricalValidationIntegrated2011}
-Eric~J. Miller, Bilal Farooq, Franco Chingcuanco, and David Wang.
-\newblock Historical {{Validation}} of {{Integrated
-  Transport}}\textendash{{Land Use Model System}}.
-\newblock {\em Transportation Research Record}, 2255(1):91--99, January 2011.
+\bibitem{woodAnalysisTechnologyTransfer2013}
+Danielle~R. Wood.
+\newblock Analysis of {{Technology Transfer}} within {{Satellite Programs}} in
+  {{Developing Countries}} using {{Systems Architecture}}.
+\newblock In {\em {{AIAA SPACE}} 2013 {{Conference}} and {{Exposition}}}, {San
+  Diego, CA}, 2013. {American Institute of Aeronautics and Astronautics}.
 
-\bibitem{BottlenecksBlockingWidespread}
-Bottlenecks {{Blocking Widespread Usage}} of {{Planning Support Systems}} -
-  {{Guido Vonk}}, {{Stan Geertman}}, {{Paul Schot}}, 2005.
-\newblock https://journals.sagepub.com/doi/abs/10.1068/a3712.
+\bibitem{woodApplyingSystemsArchitecture2014}
+Danielle Wood.
+\newblock 5.1.1 {{Applying Systems Architecture}} to {{Technology Policy
+  Research}}: {{Models}} of {{Space Activity}} in {{Developing Countries}}.
+\newblock {\em INCOSE International Symposium}, 23(1):1368--1384, 2014.
 
-\bibitem{geertmanPlanningSupportSystems2004}
-Stan Geertman and John Stillwell.
-\newblock Planning support systems: An inventory of current practice.
-\newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310, July
-  2004.
+\bibitem{kazanskyCurrentPotentialRole2016}
+Yaniv Kazansky, Danielle Wood, and Jacob Sutherlun.
+\newblock The current and potential role of satellite remote sensing in the
+  campaign against malaria.
+\newblock {\em Acta Astronautica}, 121:292--305, April 2016.
 
-\bibitem{hatryCriteriaEvaluationPlanning1972}
-Harry~P. Hatry.
-\newblock Criteria for {{Evaluation}} in {{Planning State}} and {{Local
-  Programs}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{scottRoleUrbanForm2008}
-Darren~M. Scott and Mark~W. Horner.
-\newblock The role of urban form in shaping access to opportunities: {{An}}
-  exploratory spatial data analysis.
-\newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
-
-\bibitem{gaheganMultivariateGeovisualization2007}
-Mark Gahegan.
-\newblock Multivariate {{Geovisualization}}.
-\newblock In {\em The {{Handbook}} of {{Geographic Information Science}}},
-  chapter~16, pages 292--316. {John Wiley \& Sons, Ltd}, 2007.
-
-\bibitem{harrisQuantitativeModelsUrban1972}
-Britton Harris.
-\newblock Quantitative {{Models}} of {{Urban Development}}: {{Their}} role in
-  {{Metropolitan Decision-Making}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{krutillaWelfareAspectsBenefitCost1961}
-J.~Krutilla.
-\newblock Welfare {{Aspects}} of {{Benefit-Cost Analysis}}.
-\newblock {\em Journal of Political Economy}, 1961.
-
-\bibitem{hillGoalsAchievementMatrixEvaluating1972}
-Morris Hill.
-\newblock A {{Goals-Achievement Matrix}} for {{Evaluating Alternative Plans}}.
-\newblock In Ira Robinson, editor, {\em Decision-Making in Urban Planning:
-  {{An}} Introduction to New Methodologies}. {SAGE Publications, Inc}, {Beverly
-  Hills, CA}, first edition, 1972.
-
-\bibitem{ashbyRequisiteVarietyIts1991}
-W.~Ross Ashby.
-\newblock Requisite {{Variety}} and {{Its Implications}} for the {{Control}} of
-  {{Complex Systems}}.
-\newblock In George~J. Klir, editor, {\em Facets of {{Systems Science}}},
-  International {{Federation}} for {{Systems Research International Series}} on
-  {{Systems Science}} and {{Engineering}}, pages 405--417. {Springer US},
-  {Boston, MA}, 1991.
-
-\bibitem{mcloughlinSystemGuidanceControl1972}
-Brian~J. McLoughlin.
-\newblock System {{Guidance}}, {{Control}}, and {{Review}}.
-\newblock In {\em Decision-Making in Urban Planning: {{An}} Introduction to New
-  Methodologies}. {SAGE Publications, Inc}, {Beverly Hills, CA}, first edition,
-  1972.
+\bibitem{ovienmhadaInclusiveDesignEarth2021}
+Ufuoma Ovienmhada, Fohla Mouftaou, and Danielle Wood.
+\newblock Inclusive {{Design}} of {{Earth Observation Decision Support
+  Systems}} for {{Environmental Governance}}: {{A Case Study}} of {{Lake
+  Nokou\'e}}.
+\newblock {\em Frontiers in Climate}, 3:105, 2021.
 
 \bibitem{crawley2004}
 Edward Crawley, Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering,
@@ -1789,12 +1853,44 @@ Edward Crawley, Olivier~De Weck, Christopher Magee, Joel Moses, Warren Seering,
   (Monograph}.
 \newblock 2004.
 
-\bibitem{ovienmhadaInclusiveDesignEarth2021}
-Ufuoma Ovienmhada, Fohla Mouftaou, and Danielle Wood.
-\newblock Inclusive {{Design}} of {{Earth Observation Decision Support
-  Systems}} for {{Environmental Governance}}: {{A Case Study}} of {{Lake
-  Nokou\'e}}.
-\newblock {\em Frontiers in Climate}, 3:105, 2021.
+\bibitem{nasaofficeofthechiefengineerNASASystemsEngineering2004}
+{NASA Office of the Chief Engineer}.
+\newblock {\em {{NASA Systems Engineering Handbook}}}.
+\newblock {National Aeronautics and Space Administration}, {Washington DC},
+  first edition, 2004.
+
+\bibitem{jaffeEnvironmentalEconomicSystems2022}
+Caroline Jaffe.
+\newblock {\em An {{Environmental}} and {{Economic Systems Analysis}} of {{Land
+  Use Decisions}} in the {{Massachusetts Cranberry Industry}}}.
+\newblock PhD thesis, Massachusetts Institute of Technology, {Cambridge, MA},
+  2022.
+
+\bibitem{hazelriggFundamentalsDecisionMaking2012}
+George~A. Hazelrigg.
+\newblock {\em Fundamentals of {{Decision Making}} for {{Engineering Design}}
+  and {{Systems Engineering}}}.
+\newblock {Neils Corp}, 2012.
+
+\bibitem{motieyanSustainableUrbanPlanning2017}
+Hamid Motieyan and Mohammad~Saadi Mesgari.
+\newblock Towards {{Sustainable Urban Planning Through Transit-Oriented
+  Development}} ({{A Case Study}}: {{Tehran}}).
+\newblock {\em ISPRS International Journal of Geo-Information}, 6(12):402,
+  December 2017.
+
+\bibitem{morganUrbanPlanningUsing1979}
+David~R. Morgan, John~P. Pelissero, and Robert~E. England.
+\newblock Urban {{Planning}}: {{Using}} a {{Delphi}} as a {{Decision-Making
+  Aid}}.
+\newblock {\em Public Administration Review}, 39(4):380--384, 1979.
+
+\bibitem{slatteryQuantitativeAssessmentSustainable2019}
+Zo{\"e} Slattery.
+\newblock {\em Quantitative {{Assessment}} in {{Sustainable Digital Urban
+  Planning}} Using {{Multi-Criteria Decision Analysis}}}.
+\newblock PhD thesis, KTH Royal Institute of Technology, {Stockholm, Sweden},
+  2019.
 
 \bibitem{rossGamebasedLearningSystems2014}
 Adam~M. Ross, Matthew~E. Fitzgerald, and Donna~H. Rhodes.
@@ -2517,17 +2613,17 @@ Luke~M. Brander, Raymond J. G.~M. Florax, and Jan~E. Vermaat.
 \newblock {\em Environmental and Resource Economics}, 33(2):223--250, February
   2006.
 
+\bibitem{branderEcosystemServiceValues2012}
+Luke Brander, Alfred Wagtendonk, Salman Hussain, Alistair McVittie, Peter~H.
+  Verburg, Rudolf~S. {de Groot}, and Sander {van der Ploeg}.
+\newblock Ecosystem service values for mangroves in {{Southeast Asia}}: {{A}}
+  meta-analysis and value transfer application.
+\newblock {\em Ecosystem Services}, 1(1):62--69, July 2012.
+
 \bibitem{salemEconomicValueMangroves2012}
 Marwa~E. Salem and D.~Evan Mercer.
 \newblock The {{Economic Value}} of {{Mangroves}}: {{A Meta-Analysis}}.
 \newblock {\em Sustainability}, 4(3):359--383, March 2012.
-
-\bibitem{veghMangroveEcosystemServices2014}
-Tibor Vegh, Megan Jungwiwattanaporn, Linwood Pendleton, and Brian Murray.
-\newblock Mangrove {{Ecosystem Services Valuation}}: {{State}} of the
-  {{Literature}}.
-\newblock Technical Report NI WP 14-06, {Nicholas Institute for Environmental
-  Policy Solutions, Duke University}, {Durham, NC}, July 2014.
 
 \bibitem{voReviewValuationMethods2012}
 Quoc~Tuan Vo, C.~Kuenzer, Quang~Minh Vo, F.~Moder, and N.~Oppelt.
@@ -2582,6 +2678,20 @@ M{\'a}rio Soares.
 \newblock Estrutura vegetal e grau de perturba\c{c}\~ao dos manguezais da
   {{Lagoa}} da {{Tijuca}}, {{Rio}} de {{Janeiro}}, {{RJ}}, {{Brasil}}.
 \newblock {\em Revista Brasileira de Biologia}, 59, August 1999.
+
+\bibitem{cavalcantiEvaluatingMangroveConservation2009}
+V.~F. Cavalcanti, M.~L.~G. Soares, G.~C.~D. Estrada, and F.~O. Chaves.
+\newblock Evaluating {{Mangrove Conservation}} through the {{Analysis}} of
+  {{Forest Structure Data}}.
+\newblock {\em Journal of Coastal Research}, pages 390--394, 2009.
+
+\bibitem{jimenezRecoverySoilProcesses2022}
+La{\'i}s Coutinho~Zayas Jimenez, Hermano~Melo Queiroz, Gabriel~Nuto
+  N{\'o}brega, Danilo~Jefferson Romero, Youjun Deng, Xos{\'e}~Luis Otero, and
+  Tiago~Os{\'o}rio Ferreira.
+\newblock Recovery of {{Soil Processes}} in {{Replanted Mangroves}}:
+  {{Implications}} for {{Soil Functions}}.
+\newblock {\em Forests}, 13(3):422, March 2022.
 
 \bibitem{deweckHandlingCOVID192020}
 Olivier {de Weck}, Daniel Krob, Li~Lefei, Pao~Chuen Lui, Antoine Rauzy, and

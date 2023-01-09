@@ -12,7 +12,9 @@ Over the past two decades satellite-based remote observation has blossomed. We h
 
 This is remarkable because, despite some efforts in previous decades \cite{lightWarfareWelfareDefense2005}, \ac{eo} data has been largely used only by governments and academics for military and scientific purposes, with the latter focused on understanding and predicting environmental phenomena. Large corporations and \acp{ngo} have recently been conducting their own analyses (as seen in the growing industry of climate consultants \cite{cohenTop10Climate2011}), but these have required significant expertise and resources, and the results have sadly been mostly unavailable to the broader public.
 
-The proliferation of \ac{eo} (and other) data, and in particular the improvements in spatial and temporal resolution, have open the door for new kinds of applications. Among these are those at smaller spatial scales and shorter durations. Where historical civilian applications focused on how the environments of nations or continents changed over the course of years or decades, we can increasingly ask questions of on a much more human scale: neighborhoods, towns, and even individual buildings. Obviously new methods must be developed for such applications. Models that work well on a global scale often do not function at the scale of a few blocks. The our understanding of context and our ethical framework must also adapt. No longer are we asking questions about "agriculture in Canada" or "the Brazilian Amazon." We are now asking questions about particular farms, ranches, homes, and communities. The residents of this places should have not just a say, but significant involvement in how this data is used to impact their lives. This moves us from the fields that have traditionally dominated \ac{eo} (earth science, aerospace engineering, physics, etc.) to those that specialize in operating at such scales (urban planning, anthropology, community organizing, etc.). This poses a problem, as most of those who seek to apply \ac{eo} data in these new domains come from the former background, not the latter. They may not understand the expertise, history, and ethics needed to operate on these scales and may seek to continue to apply their traditional techniques. This risks not just failing in their own eyes, but also inflicting collateral damage on the communities that they are seeking to help.
+The proliferation of \ac{eo} (and other) data, and in particular the improvements in spatial and temporal resolution, have opened the door for new kinds of applications. Among these are those at smaller spatial scales and shorter durations. Where historical civilian applications focused on how the environments of nations or continents changed over the course of years or decades, we can increasingly ask questions of on a much more human scale: neighborhoods, towns, and even individual buildings. Obviously new methods must be developed for such applications. Models that work well on a global scale often do not function at the scale of a few blocks. The our understanding of context and our ethical framework must also adapt. No longer are we asking questions about "agriculture in Canada" or "the Brazilian Amazon." We are now asking questions about particular farms, ranches, homes, and communities. The residents of this places should have not just a say, but significant involvement in how this data is used to impact their lives. This moves us from the fields that have traditionally dominated \ac{eo} (earth science, aerospace engineering, physics, etc.) to those that specialize in operating at such scales (urban planning, anthropology, community organizing, etc.). This poses a problem, as most of those who seek to apply \ac{eo} data in these new domains come from the former background, not the latter. They may not understand the expertise, history, and ethics needed to operate on these scales and may seek to continue to apply their traditional techniques. This risks not just failing in their own eyes, but also inflicting collateral damage on the communities that they are seeking to help.
+
+[consider adding text about sustainable development here] Along with this increase in supply of data and analysis capabilities, there has been a corresponding increase in demand, particularly for sustainable development applications. Where previously the fields of environmental conservation and human welfare / economic development were handled largely separately, sustainable development treats this domains as jointly bound in complex systems. 
 
 There is a thus real need for:
 
@@ -22,7 +24,7 @@ There is a thus real need for:
 	\item{Building or adapting frameworks that community participation and collaboration in the use of \ac{eo} data. This includes putting policy and sensor design decision-making in the hands of a broader population.}
 \end{enumerate}
 
-This work aims to demonstrate the viability of a particular methodology for advancing towards each of these three goals. To that end, this work centers on exploring the efficacy and difficulties of \textbf{\textit{collaboratively developing}} a \textbf{\textit{systems-architecture-informed}}, multidisciplinary \textbf{\textit{\ac{gis} \ac{dss}}} for \textbf{\textit{sustainable development}} applications that makes significant use of \textbf{\textit{remote observation data}}. This involves expanding and codifying the previously proposed \ac{evdt} Modeling Framework  for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development \cite{reidCombiningSocialEnvironmental2019}. Specifically this work will seek to address the following numbered research questions via the listed letter deliverables. The chapters that primarily address each deliverable are noted.
+This work aims to demonstrate the viability of a particular methodology for advancing towards each of these three goals. To that end, this work centers on exploring the efficacy and difficulties of \textbf{\textit{collaboratively developing}} a \textbf{\textit{systems-architecture-informed}}, multidisciplinary \textbf{\textit{\ac{gis} \ac{dss}}} for \textbf{\textit{sustainable development}} applications that makes significant use of \textbf{\textit{remote observation data}}. This involves expanding and codifying the previously proposed \ac{evdt} Modeling Framework  for combining \ac{eo} and other types of data to inform decision-making in complex socio-environmental systems, particularly those pertaining to sustainable development \cite{reidCombiningSocialEnvironmental2019}. Specifically this work will seek to address the following numbered \textbf{Research Questions} via the listed lettered \textbf{Research Deliverables}. The chapters that primarily address each deliverable are noted.
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
 	\item{What aspects of systems architecture (and systems engineering in general) are relevant and useful for approaching issues of sustainability in complex \ac{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to enable avoid the technocratic excesses of the past?}
@@ -73,6 +75,8 @@ It should be noted that pursuing these principles is forever a process of improv
 
 \section{\hlc[cyan]{Methodology Summary \& Structure of Thesis}}
 
+The structure of this thesis, along with the connections of each component to the Research Deliverables (RDs), is summarized in Figure \ref{fig:structure} below.
+
 Chapter \ref{ch:theory} presents the theoretical underpinnings of this work, motivation for its pursuit, and various critical analysis based on literature reviews. The last of these will constitute Research Deliverable 1a and are primarily contained in Section \ref{sec:critiques} but are reliant upon the earlier sections. This will serve to expand upon the research problems introduced in Section \ref{sec:questions} and justify the novelty of the research contributions in the subsequent chapters. 
 
 Chapter \ref{ch:evdt} provides details on the \ac{evdt} Framework, its intended applications, and its novelty. This constitutes Deliverable 1b. 
@@ -81,7 +85,18 @@ Chapters \ref{ch:mangroves} and \ref{ch:vida} contain the primary experimental c
 
 Chapter \ref{ch:discussion} contains discussion on both applications and lessons learned. This will serve to address Research Question 3, lessons learned will be identified from the two case studies and from other \ac{evdt} projects undertaken by fellow students and I. These will be used to lay out a future development path for \ac{evdt} will be laid out.
 
-Chapter \ref{ch:conclusion} provides a short conclusion summarizing this thesis. 
+Chapter \ref{ch:conclusion} provides a short conclusion summarizing this thesis.
+
+\clearpage
+\begin{landscape}
+\begin{figure}[t]
+	\centering
+	\includegraphics[scale=0.3]{Figures/chap1/structure.png}
+	\caption[Thesis Structure]{Thesis Structure}
+	\label{fig:structure}
+\end{figure}
+\end{landscape}
+ 
 
 \section{\hlc[red]{Intended Audiences For This Thesis}}
 

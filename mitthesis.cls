@@ -480,6 +480,13 @@ at the
 \vfill
 \end{titlepage}}
 
+%% a macro to change the (expanded) argument to uppercase.
+\def\makesigtitle{
+\large
+{\Large\bf \choosecase{\@title} \par}
+by\par
+{\Large  \choosecase{\@author}}}
+
 % this environment should probably be called abstract,
 % but we want people to also be able to get at the more
 % basic abstract environment
