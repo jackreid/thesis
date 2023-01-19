@@ -2425,6 +2425,13 @@ Tyler Strobl.
   {{Pushes Forward}}.
 \newblock https://www.rioonwatch.org/?p=46329, 2018.
 
+\bibitem{herzogLocalAssessmentRio2013}
+Cecilia~P Herzog and Ricardo Finotti.
+\newblock Local assessment of {{Rio}} de {{Janeiro}} city: {{Two}} case studies
+  of urbanization trends and ecological impacts.
+\newblock In {\em Urbanization, Biodiversity and Ecosystem Services:
+  {{Challenges}} and Opportunities}, pages 609--628. {Springer}, 2013.
+
 \bibitem{amadorBaiaGuanabaraOcupacao2013}
 Elmo da~Silva Amador.
 \newblock {\em {Ba\'ia de Guanabara. Ocupa\c{c}\~ao Hist\'orica e
@@ -2515,34 +2522,6 @@ C.~Vancutsem, F.~Achard, J.-F. Pekel, G.~Vieilledent, S.~Carboni, D.~Simonetti,
   in the humid tropics.
 \newblock {\em Science Advances}, March 2021.
 
-\bibitem{olagokeIndividualMangroveTree2015}
-Adewole Olagoke, Christophe Proisy, Jean-Baptiste F{\'e}ret, Elodie Blanchard,
-  Fran{\c c}ois Fromard, Ulf Mehlig, Moirah~Machado {de Menezes},
-  Valdenira~Ferreira {dos Santos}, and Uta Berger.
-\newblock Individual mangrove tree measurement using {{UAV-based LiDAR}} data:
-  {{Possibilities}} and challenges.
-\newblock {\em Remote Sensing of Environment}, 223:34--49, 19/December/2015.
-
-\bibitem{cloughAllometricRelationshipsEstimating1989}
-B.~F. Clough and K.~Scott.
-\newblock Allometric relationships for estimating above-ground biomass in six
-  mangrove species.
-\newblock {\em Forest Ecology and Management}, 27(2):117--127, May 1989.
-
-\bibitem{fatoyinboEstimatingMangroveAboveground2018}
-Temilola Fatoyinbo, Emanuelle~A. Feliciano, David Lagomasino, Seung~Kuk Lee,
-  and Carl Trettin.
-\newblock Estimating mangrove aboveground biomass from airborne {{LiDAR}} data:
-  A case study from the {{Zambezi River}} delta.
-\newblock {\em Environmental Research Letters}, 13(2):025012, February 2018.
-
-\bibitem{lagomasinoComparisonMangroveCanopy2016}
-David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
-  Trettin, and Marc Simard.
-\newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
-  Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
-\newblock {\em Remote Sensing}, 8(4):327, April 2016.
-
 \bibitem{jarvisHolefilledSRTMGlobe2008}
 A.~Jarvis, H.I. Reuter, A.~Nelson, and E.~Guevara.
 \newblock Hole-filled {{SRTM}} for the globe {{Version}} 4, available from the
@@ -2599,6 +2578,34 @@ Caiyun Zhang, Sara~Denka Durgan, and David Lagomasino.
   {{Hurricane Irma}}.
 \newblock {\em Estuarine, Coastal and Shelf Science}, 224:108--116, August
   2019.
+
+\bibitem{olagokeIndividualMangroveTree2015}
+Adewole Olagoke, Christophe Proisy, Jean-Baptiste F{\'e}ret, Elodie Blanchard,
+  Fran{\c c}ois Fromard, Ulf Mehlig, Moirah~Machado {de Menezes},
+  Valdenira~Ferreira {dos Santos}, and Uta Berger.
+\newblock Individual mangrove tree measurement using {{UAV-based LiDAR}} data:
+  {{Possibilities}} and challenges.
+\newblock {\em Remote Sensing of Environment}, 223:34--49, 19/December/2015.
+
+\bibitem{cloughAllometricRelationshipsEstimating1989}
+B.~F. Clough and K.~Scott.
+\newblock Allometric relationships for estimating above-ground biomass in six
+  mangrove species.
+\newblock {\em Forest Ecology and Management}, 27(2):117--127, May 1989.
+
+\bibitem{fatoyinboEstimatingMangroveAboveground2018}
+Temilola Fatoyinbo, Emanuelle~A. Feliciano, David Lagomasino, Seung~Kuk Lee,
+  and Carl Trettin.
+\newblock Estimating mangrove aboveground biomass from airborne {{LiDAR}} data:
+  A case study from the {{Zambezi River}} delta.
+\newblock {\em Environmental Research Letters}, 13(2):025012, February 2018.
+
+\bibitem{lagomasinoComparisonMangroveCanopy2016}
+David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
+  Trettin, and Marc Simard.
+\newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
+  Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
+\newblock {\em Remote Sensing}, 8(4):327, April 2016.
 
 \bibitem{oxfordpovertyandhumandevelopmentinitiativeChartingPathewaysOut2020}
 {Oxford Poverty and Human Development Initiative}.
@@ -2677,19 +2684,6 @@ Edward~B. Barbier.
   Damages}}: {{An Economic Perspective}}.
 \newblock {\em Frontiers in Climate}, 2, 2020.
 
-\bibitem{jungBrazilNationalEnvironmental2017}
-Suhyun Jung, Laura~Vang Rasmussen, Cristy Watkins, Peter Newton, and Arun
-  Agrawal.
-\newblock Brazil's {{National Environmental Registry}} of {{Rural Properties}}:
-  {{Implications}} for {{Livelihoods}}.
-\newblock {\em Ecological Economics}, 136:53--61, June 2017.
-
-\bibitem{jungPartnershipsPreventDeforestation2018}
-Suhyun Jung and Stephen Polasky.
-\newblock Partnerships to prevent deforestation in the {{Amazon}}.
-\newblock {\em Journal of Environmental Economics and Management}, 92:498--516,
-  November 2018.
-
 \bibitem{granadoAssessingGeneticDiversity2018}
 Renan Granado, Luiza~C. Pinto~Neta, Andr{\'e}~F. {Nunes-Freitas}, Carolina~M.
   Voloch, and Catarina~F. Lira.
@@ -2722,12 +2716,118 @@ La{\'i}s Coutinho~Zayas Jimenez, Hermano~Melo Queiroz, Gabriel~Nuto
   {{Implications}} for {{Soil Functions}}.
 \newblock {\em Forests}, 13(3):422, March 2022.
 
+\bibitem{jungBrazilNationalEnvironmental2017}
+Suhyun Jung, Laura~Vang Rasmussen, Cristy Watkins, Peter Newton, and Arun
+  Agrawal.
+\newblock Brazil's {{National Environmental Registry}} of {{Rural Properties}}:
+  {{Implications}} for {{Livelihoods}}.
+\newblock {\em Ecological Economics}, 136:53--61, June 2017.
+
+\bibitem{jungPartnershipsPreventDeforestation2018}
+Suhyun Jung and Stephen Polasky.
+\newblock Partnerships to prevent deforestation in the {{Amazon}}.
+\newblock {\em Journal of Environmental Economics and Management}, 92:498--516,
+  November 2018.
+
 \bibitem{deweckHandlingCOVID192020}
 Olivier {de Weck}, Daniel Krob, Li~Lefei, Pao~Chuen Lui, Antoine Rauzy, and
   Xinguo Zhang.
 \newblock Handling the {{COVID}}-19 crisis: {{Toward}} an agile model-based
   systems approach.
 \newblock {\em Systems Engineering}, page sys.21557, August 2020.
+
+\bibitem{elvidgeDimmingLightsChina2020}
+Christopher~D. Elvidge, Tilottama Ghosh, Feng-Chi Hsu, Mikhail Zhizhin, and
+  Morgan Bazilian.
+\newblock The {{Dimming}} of {{Lights}} in {{China}} during the {{COVID-19
+  Pandemic}}.
+\newblock {\em Remote Sensing}, 12(17):2851, January 2020.
+
+\bibitem{isaifanDramaticImpactCoronavirus2020}
+R.~J. Isaifan.
+\newblock The dramatic impact of {{Coronavirus}} outbreak on air quality:
+  {{Has}} it saved as much as it has killed so far?
+\newblock {\em Global Journal of Environmental Science and Management},
+  6(3):275--288, July 2020.
+
+\bibitem{aroraCoronavirusLockdownHelped2020}
+Shefali Arora, Kanchan~Deoli Bhaukhandi, and Pankaj~Kumar Mishra.
+\newblock Coronavirus lockdown helped the environment to bounce back.
+\newblock {\em Science of The Total Environment}, 742:140573, November 2020.
+
+\bibitem{romanNASABlackMarble2018}
+Miguel~O. Rom{\'a}n, Zhuosen Wang, Qingsong Sun, Virginia Kalb, Steven~D.
+  Miller, Andrew Molthan, Lori Schultz, Jordan Bell, Eleanor~C. Stokes,
+  Bhartendu Pandey, Karen~C. Seto, Dorothy Hall, Tomohiro Oda, Robert~E. Wolfe,
+  Gary Lin, Navid Golpayegani, Sadashiva Devadiga, Carol Davidson, Sudipta
+  Sarkar, Cid Praderas, Jeffrey Schmaltz, Ryan Boller, Joshua Stevens, Olga~M.
+  Ramos~Gonz{\'a}lez, Elizabeth Padilla, Jos{\'e} Alonso, Yasm{\'i}n
+  Detr{\'e}s, Roy Armstrong, Ismael Miranda, Yasm{\'i}n Conte, Nitza Marrero,
+  Kytt MacManus, Thomas Esch, and Edward~J. Masuoka.
+\newblock {{NASA}}'s {{Black Marble}} nighttime lights product suite.
+\newblock {\em Remote Sensing of Environment}, 210:113--143, June 2018.
+
+\bibitem{institutopereirapassosDataRio2017}
+{Instituto Pereira Passos}.
+\newblock Data {{Rio}}.
+\newblock https://www.data.rio/, 2017.
+
+\bibitem{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}
+{Ministerio de Ciencia, Tecnolog\'ia, Conocimiento, e Innovaci\'on}.
+\newblock Datos-{{COVID19}}, September 2021.
+
+\bibitem{homerSystemDynamicsModeling2006}
+Jack~B. Homer and Gary~B. Hirsch.
+\newblock System {{Dynamics Modeling}} for {{Public Health}}: {{Background}}
+  and {{Opportunities}}.
+\newblock {\em American Journal of Public Health}, 96(3):452--458, March 2006.
+
+\bibitem{deutschCommunitybasedSystemDynamics2020}
+Arielle~R Deutsch, Rebecca Lustfield, and Mohammad~S Jalali.
+\newblock Community-based {{System Dynamics Modeling}} of {{Sensitive Public
+  Health Issues}}: {{Maximizing Diverse Representation}} of {{Individuals}}
+  with {{Personal Experiences}}.
+\newblock {\em Preprint, Submitted for peer review}, page~22, 2020.
+
+\bibitem{xuModestImpactWeather2020}
+Ran Xu, Hazhir Rahmandad, Marichi Gupta, Catherine DiGennaro, Heresh Amini, and
+  Mohammad~S Jalali.
+\newblock The {{Modest Impact}} of {{Weather}} and {{Air Pollution}} on
+  {{COVID-19 Transmission}}.
+\newblock Technical report, {Cambridge, MA}, 2020.
+
+\bibitem{googleCOVID19CommunityMobility}
+{Google}.
+\newblock {{COVID-19 Community Mobility Report}}.
+\newblock https://www.google.com/covid19/mobility?hl=en.
+
+\bibitem{iplanrioIndicadoresPlanoRetomada2020}
+{IplanRio}.
+\newblock Indicadores do {{Plano}} de {{Retomada}}.
+\newblock http://inteligencia.rio/plano-de-retomada/, September 2020.
+
+\bibitem{CoronaNetResearchProject}
+{{CoronaNet Research Project}}.
+\newblock https://www.coronanet-project.org/.
+
+\bibitem{xbsdScipy2021Predicting2021}
+{xbsd}.
+\newblock Scipy 2021: {{Predicting}} the economic impact of {{COVID-19}} using
+  real-time images from space, August 2021.
+
+\bibitem{ahmedVarianceSystemDynamics2012}
+Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
+\newblock Variance in {{System Dynamics}} and {{Agent Based Modelling Using}}
+  the {{SIR Model}} of {{Infectious Disease}}.
+\newblock {{SSRN Scholarly Paper}} ID 2829229, {Social Science Research
+  Network}, {Rochester, NY}, January 2012.
+
+\bibitem{bluerasterMITVidaSupportBoston2021}
+{Blue Raster}.
+\newblock {{MIT-Vida Support}} - {{Boston}}, {{MA}}.
+\newblock
+  https://blueraster.maps.arcgis.com/apps/dashboards/2475062b48dc410195ee9955c178b2b0,
+  2021.
 
 \bibitem{baileyMoreOriginMisogynoir}
 Moya Bailey.
