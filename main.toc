@@ -31,100 +31,100 @@
 \contentsline {section}{\numberline {3.1}\hlc [green]{Chapter Purpose \& Structure}}{103}{section.3.1}%
 \contentsline {section}{\numberline {3.2}\hlc [cyan]{The Framework}}{104}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}\hlc [cyan]{System Architecture Framework}}{106}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}\hlc [green]{Understand System Context}}{109}{subsubsection.3.2.1.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}\hlc [green]{Analyze System Stakeholders}}{109}{subsubsection.3.2.1.2}%
-\contentsline {subsubsection}{\numberline {3.2.1.3}\hlc [green]{Understand Desired Outcomes \& Objectives}}{110}{subsubsection.3.2.1.3}%
-\contentsline {subsubsection}{\numberline {3.2.1.4}\hlc [green]{Select System Functions}}{112}{subsubsection.3.2.1.4}%
-\contentsline {subsubsection}{\numberline {3.2.1.5}\hlc [green]{Assign Functions to Forms}}{112}{subsubsection.3.2.1.5}%
-\contentsline {subsubsection}{\numberline {3.2.1.6}\hlc [green]{Monitor and Evaluate Systems}}{113}{subsubsection.3.2.1.6}%
-\contentsline {subsubsection}{\numberline {3.2.1.7}\hlc [cyan]{A Note on Perspective}}{114}{subsubsection.3.2.1.7}%
-\contentsline {subsection}{\numberline {3.2.2}\hlc [cyan]{Collaborative Development}}{114}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}\hlc [cyan]{EVDT Questions \& Models}}{116}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}\hlc [cyan]{Interactive Decision Support System}}{118}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}\hlc [cyan]{Re-use \& Community Development}}{122}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}\hlc [cyan]{Intended Applications \& User Types}}{123}{section.3.3}%
-\contentsline {section}{\numberline {3.4}\hlc [cyan]{Novelty and Utility of EVDT}}{129}{section.3.4}%
-\contentsline {section}{\numberline {3.5}\hlc [green]{Conclusion}}{134}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Rio de Janeiro Mangroves}{137}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\hlc [cyan]{Chapter Purpose \& Structure}}{137}{section.4.1}%
-\contentsline {section}{\numberline {4.2}\hlc [green]{Systems Architecture Framework}}{138}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\hlc [green]{SAF Methodology}}{138}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}\hlc [cyan]{System Context}}{138}{subsubsection.4.2.1.1}%
-\contentsline {paragraph}{\numberline {4.2.1.1.1}\hlc [cyan]{Study Area}}{139}{paragraph.4.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}\hlc [yellow]{Analyze System Stakeholders}}{141}{subsubsection.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {4.2.1.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{142}{subsubsection.4.2.1.3}%
-\contentsline {subsubsection}{\numberline {4.2.1.4}\hlc [red]{Select System Functions}}{142}{subsubsection.4.2.1.4}%
-\contentsline {subsubsection}{\numberline {4.2.1.5}\hlc [red]{Assign Function to Forms}}{142}{subsubsection.4.2.1.5}%
-\contentsline {subsubsection}{\numberline {4.2.1.6}\hlc [red]{Monitor and Evaluate Systems}}{142}{subsubsection.4.2.1.6}%
-\contentsline {subsection}{\numberline {4.2.2}\hlc [red]{SAF Results}}{142}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}\hlc [green]{System Context}}{142}{subsubsection.4.2.2.1}%
-\contentsline {paragraph}{\numberline {4.2.2.1.1}\hlc [green]{Big Plans and Megaevents in Rio de Janeiro}}{142}{paragraph.4.2.2.1.1}%
-\contentsline {paragraph}{\numberline {4.2.2.1.2}\hlc [green]{Overlapping Jurisdictions in Guaratiba}}{146}{paragraph.4.2.2.1.2}%
-\contentsline {paragraph}{\numberline {4.2.2.1.3}\hlc [cyan]{The Environment of Guaratiba}}{149}{paragraph.4.2.2.1.3}%
-\contentsline {paragraph}{\numberline {4.2.2.1.4}\hlc [green]{The People of Guaratiba}}{152}{paragraph.4.2.2.1.4}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}\hlc [yellow]{Analyze System Stakeholders}}{156}{subsubsection.4.2.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{156}{subsubsection.4.2.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.2.4}\hlc [red]{Select System Functions}}{156}{subsubsection.4.2.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.2.5}\hlc [red]{Assign Function to Forms}}{156}{subsubsection.4.2.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.2.6}\hlc [red]{Monitor and Evaluate Systems}}{157}{subsubsection.4.2.2.6}%
-\contentsline {section}{\numberline {4.3}\hlc [cyan]{EVDT Application}}{157}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}\hlc [cyan]{EVDT Methodology}}{159}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}\hlc [yellow]{Environment}}{159}{subsubsection.4.3.1.1}%
-\contentsline {paragraph}{\numberline {4.3.1.1.1}\hlc [yellow]{Mangrove Extent}}{160}{paragraph.4.3.1.1.1}%
-\contentsline {paragraph}{\numberline {4.3.1.1.2}\hlc [yellow]{Mangrove Health}}{161}{paragraph.4.3.1.1.2}%
-\contentsline {paragraph}{\numberline {4.3.1.1.3}\hlc [yellow]{Mangrove Height}}{163}{paragraph.4.3.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}\hlc [yellow]{Vulnerability}}{164}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}\hlc [cyan]{Decision-making}}{165}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}\hlc [red]{Technology}}{166}{subsubsection.4.3.1.4}%
-\contentsline {subsection}{\numberline {4.3.2}\hlc [red]{EVDT Results}}{166}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}\hlc [yellow]{Environment}}{166}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}\hlc [yellow]{Vulnerability}}{166}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}\hlc [yellow]{Decision-making}}{166}{subsubsection.4.3.2.3}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}\hlc [yellow]{Technology}}{166}{subsubsection.4.3.2.4}%
-\contentsline {section}{\numberline {4.4}\hlc [red]{Decision Support System}}{167}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}\hlc [red]{DSS Methodology}}{167}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\hlc [red]{DSS Results}}{167}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}\hlc [red]{Collaborative Development Process}}{168}{section.4.5}%
-\contentsline {section}{\numberline {4.6}\hlc [red]{Discussion}}{168}{section.4.6}%
-\contentsline {section}{\numberline {4.7}\hlc [red]{Conclusion}}{169}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Vida Decision Support System}{171}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\hlc [cyan]{Chapter Purpose \& Structure}}{171}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\hlc [cyan]{A Note on Credit / Contributions}}{172}{section.5.2}%
-\contentsline {section}{\numberline {5.3}\hlc [green]{Systems Architecture Framework}}{172}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}\hlc [green]{SAF Methodology}}{173}{subsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.1.1}\hlc [cyan]{System Context}}{173}{subsubsection.5.3.1.1}%
-\contentsline {subsubsection}{\numberline {5.3.1.2}\hlc [yellow]{Analyze System Stakeholders}}{174}{subsubsection.5.3.1.2}%
-\contentsline {subsubsection}{\numberline {5.3.1.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{175}{subsubsection.5.3.1.3}%
-\contentsline {subsubsection}{\numberline {5.3.1.4}\hlc [red]{Select System Functions}}{175}{subsubsection.5.3.1.4}%
-\contentsline {subsubsection}{\numberline {5.3.1.5}\hlc [red]{Assign Functions to Forms}}{175}{subsubsection.5.3.1.5}%
-\contentsline {subsubsection}{\numberline {5.3.1.6}\hlc [red]{Monitor and Evaluate Systems}}{175}{subsubsection.5.3.1.6}%
-\contentsline {subsection}{\numberline {5.3.2}\hlc [red]{SAF Results}}{175}{subsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.1}\hlc [red]{System Context}}{175}{subsubsection.5.3.2.1}%
-\contentsline {subsubsection}{\numberline {5.3.2.2}\hlc [red]{Analyze System Stakeholders}}{175}{subsubsection.5.3.2.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{175}{subsubsection.5.3.2.3}%
-\contentsline {subsubsection}{\numberline {5.3.2.4}\hlc [red]{Select System Functions}}{175}{subsubsection.5.3.2.4}%
-\contentsline {subsubsection}{\numberline {5.3.2.5}\hlc [red]{Assign Functions to Forms}}{175}{subsubsection.5.3.2.5}%
-\contentsline {subsubsection}{\numberline {5.3.2.6}\hlc [red]{Monitor and Evaluate Systems}}{176}{subsubsection.5.3.2.6}%
-\contentsline {section}{\numberline {5.4}\hlc [red]{EVDT Application}}{176}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}\hlc [red]{EVDT Methodology}}{176}{subsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.1}\hlc [cyan]{Environment}}{176}{subsubsection.5.4.1.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.2}\hlc [cyan]{Public Health}}{178}{subsubsection.5.4.1.2}%
-\contentsline {subsubsection}{\numberline {5.4.1.3}\hlc [yellow]{Vulnerability}}{179}{subsubsection.5.4.1.3}%
-\contentsline {subsubsection}{\numberline {5.4.1.4}\hlc [cyan]{Decision-making}}{180}{subsubsection.5.4.1.4}%
-\contentsline {subsubsection}{\numberline {5.4.1.5}\hlc [yellow]{Technology}}{181}{subsubsection.5.4.1.5}%
-\contentsline {subsection}{\numberline {5.4.2}\hlc [red]{EVDT Results}}{181}{subsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.1}\hlc [yellow]{Environment}}{181}{subsubsection.5.4.2.1}%
-\contentsline {subsubsection}{\numberline {5.4.2.2}\hlc [yellow]{Public Health}}{185}{subsubsection.5.4.2.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.3}\hlc [yellow]{Vulnerability}}{185}{subsubsection.5.4.2.3}%
-\contentsline {subsubsection}{\numberline {5.4.2.4}\hlc [red]{Decision-Making}}{186}{subsubsection.5.4.2.4}%
-\contentsline {subsubsection}{\numberline {5.4.2.5}\hlc [red]{Technology}}{186}{subsubsection.5.4.2.5}%
-\contentsline {section}{\numberline {5.5}\hlc [yellow]{Decision Support System}}{186}{section.5.5}%
-\contentsline {section}{\numberline {5.6}\hlc [red]{Collaborative Development Process}}{188}{section.5.6}%
-\contentsline {section}{\numberline {5.7}\hlc [red]{Discussion}}{189}{section.5.7}%
-\contentsline {section}{\numberline {5.8}\hlc [red]{Conclusion}}{190}{section.5.8}%
-\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion}}{191}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\hlc [red]{Lessons Learned}}{191}{section.6.1}%
-\contentsline {section}{\numberline {6.2}\hlc [red]{The Future of EVDT}}{191}{section.6.2}%
-\contentsline {chapter}{\numberline {7}\hlc [red]{Conclusion}}{193}{chapter.7}%
-\contentsline {section}{\numberline {7.1}\hlc [red]{Research Questions}}{193}{section.7.1}%
-\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{195}{appendix.A}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}\hlc [green]{Understand System Context}}{108}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}\hlc [green]{Analyze System Stakeholders}}{111}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}\hlc [green]{Understand Desired Outcomes \& Objectives}}{113}{subsubsection.3.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.2.1.4}\hlc [green]{Select System Functions}}{115}{subsubsection.3.2.1.4}%
+\contentsline {subsubsection}{\numberline {3.2.1.5}\hlc [green]{Assign Functions to Forms}}{116}{subsubsection.3.2.1.5}%
+\contentsline {subsubsection}{\numberline {3.2.1.6}\hlc [green]{Monitor and Evaluate Systems}}{118}{subsubsection.3.2.1.6}%
+\contentsline {subsubsection}{\numberline {3.2.1.7}\hlc [cyan]{A Note on Perspective}}{118}{subsubsection.3.2.1.7}%
+\contentsline {subsection}{\numberline {3.2.2}\hlc [cyan]{Collaborative Development}}{119}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\hlc [cyan]{EVDT Questions \& Models}}{120}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}\hlc [cyan]{Interactive Decision Support System}}{123}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}\hlc [cyan]{Re-use \& Community Development}}{126}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}\hlc [cyan]{Intended Applications \& User Types}}{127}{section.3.3}%
+\contentsline {section}{\numberline {3.4}\hlc [cyan]{Novelty and Utility of EVDT}}{133}{section.3.4}%
+\contentsline {section}{\numberline {3.5}\hlc [green]{Conclusion}}{138}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Rio de Janeiro Mangroves}{141}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\hlc [cyan]{Chapter Purpose \& Structure}}{141}{section.4.1}%
+\contentsline {section}{\numberline {4.2}\hlc [green]{Systems Architecture Framework}}{142}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}\hlc [green]{SAF Methodology}}{142}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}\hlc [cyan]{System Context}}{142}{subsubsection.4.2.1.1}%
+\contentsline {paragraph}{\numberline {4.2.1.1.1}\hlc [cyan]{Study Area}}{143}{paragraph.4.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}\hlc [yellow]{Analyze System Stakeholders}}{145}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{146}{subsubsection.4.2.1.3}%
+\contentsline {subsubsection}{\numberline {4.2.1.4}\hlc [red]{Select System Functions}}{146}{subsubsection.4.2.1.4}%
+\contentsline {subsubsection}{\numberline {4.2.1.5}\hlc [red]{Assign Function to Forms}}{146}{subsubsection.4.2.1.5}%
+\contentsline {subsubsection}{\numberline {4.2.1.6}\hlc [red]{Monitor and Evaluate Systems}}{146}{subsubsection.4.2.1.6}%
+\contentsline {subsection}{\numberline {4.2.2}\hlc [red]{SAF Results}}{146}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}\hlc [green]{System Context}}{146}{subsubsection.4.2.2.1}%
+\contentsline {paragraph}{\numberline {4.2.2.1.1}\hlc [green]{Big Plans and Megaevents in Rio de Janeiro}}{146}{paragraph.4.2.2.1.1}%
+\contentsline {paragraph}{\numberline {4.2.2.1.2}\hlc [green]{Overlapping Jurisdictions in Guaratiba}}{150}{paragraph.4.2.2.1.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1.3}\hlc [cyan]{The Environment of Guaratiba}}{153}{paragraph.4.2.2.1.3}%
+\contentsline {paragraph}{\numberline {4.2.2.1.4}\hlc [green]{The People of Guaratiba}}{156}{paragraph.4.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}\hlc [yellow]{Analyze System Stakeholders}}{160}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{160}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}\hlc [red]{Select System Functions}}{160}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}\hlc [red]{Assign Function to Forms}}{160}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}\hlc [red]{Monitor and Evaluate Systems}}{161}{subsubsection.4.2.2.6}%
+\contentsline {section}{\numberline {4.3}\hlc [cyan]{EVDT Application}}{161}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}\hlc [cyan]{EVDT Methodology}}{163}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}\hlc [yellow]{Environment}}{163}{subsubsection.4.3.1.1}%
+\contentsline {paragraph}{\numberline {4.3.1.1.1}\hlc [yellow]{Mangrove Extent}}{164}{paragraph.4.3.1.1.1}%
+\contentsline {paragraph}{\numberline {4.3.1.1.2}\hlc [yellow]{Mangrove Health}}{165}{paragraph.4.3.1.1.2}%
+\contentsline {paragraph}{\numberline {4.3.1.1.3}\hlc [yellow]{Mangrove Height}}{167}{paragraph.4.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}\hlc [yellow]{Vulnerability}}{168}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}\hlc [cyan]{Decision-making}}{169}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}\hlc [red]{Technology}}{170}{subsubsection.4.3.1.4}%
+\contentsline {subsection}{\numberline {4.3.2}\hlc [red]{EVDT Results}}{170}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}\hlc [yellow]{Environment}}{170}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}\hlc [yellow]{Vulnerability}}{170}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}\hlc [yellow]{Decision-making}}{170}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}\hlc [yellow]{Technology}}{170}{subsubsection.4.3.2.4}%
+\contentsline {section}{\numberline {4.4}\hlc [red]{Decision Support System}}{171}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}\hlc [red]{DSS Methodology}}{171}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}\hlc [red]{DSS Results}}{171}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}\hlc [red]{Collaborative Development Process}}{172}{section.4.5}%
+\contentsline {section}{\numberline {4.6}\hlc [red]{Discussion}}{172}{section.4.6}%
+\contentsline {section}{\numberline {4.7}\hlc [red]{Conclusion}}{173}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Vida Decision Support System}{175}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\hlc [cyan]{Chapter Purpose \& Structure}}{175}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\hlc [cyan]{A Note on Credit / Contributions}}{176}{section.5.2}%
+\contentsline {section}{\numberline {5.3}\hlc [green]{Systems Architecture Framework}}{176}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}\hlc [green]{SAF Methodology}}{177}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}\hlc [cyan]{System Context}}{177}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}\hlc [yellow]{Analyze System Stakeholders}}{178}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{179}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}\hlc [red]{Select System Functions}}{179}{subsubsection.5.3.1.4}%
+\contentsline {subsubsection}{\numberline {5.3.1.5}\hlc [red]{Assign Functions to Forms}}{179}{subsubsection.5.3.1.5}%
+\contentsline {subsubsection}{\numberline {5.3.1.6}\hlc [red]{Monitor and Evaluate Systems}}{179}{subsubsection.5.3.1.6}%
+\contentsline {subsection}{\numberline {5.3.2}\hlc [red]{SAF Results}}{179}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}\hlc [red]{System Context}}{179}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}\hlc [red]{Analyze System Stakeholders}}{179}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{179}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}\hlc [red]{Select System Functions}}{179}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}\hlc [red]{Assign Functions to Forms}}{179}{subsubsection.5.3.2.5}%
+\contentsline {subsubsection}{\numberline {5.3.2.6}\hlc [red]{Monitor and Evaluate Systems}}{180}{subsubsection.5.3.2.6}%
+\contentsline {section}{\numberline {5.4}\hlc [red]{EVDT Application}}{180}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}\hlc [red]{EVDT Methodology}}{180}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}\hlc [cyan]{Environment}}{180}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}\hlc [cyan]{Public Health}}{182}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}\hlc [yellow]{Vulnerability}}{183}{subsubsection.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}\hlc [cyan]{Decision-making}}{184}{subsubsection.5.4.1.4}%
+\contentsline {subsubsection}{\numberline {5.4.1.5}\hlc [yellow]{Technology}}{185}{subsubsection.5.4.1.5}%
+\contentsline {subsection}{\numberline {5.4.2}\hlc [red]{EVDT Results}}{185}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}\hlc [yellow]{Environment}}{185}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}\hlc [yellow]{Public Health}}{189}{subsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}\hlc [yellow]{Vulnerability}}{189}{subsubsection.5.4.2.3}%
+\contentsline {subsubsection}{\numberline {5.4.2.4}\hlc [red]{Decision-Making}}{190}{subsubsection.5.4.2.4}%
+\contentsline {subsubsection}{\numberline {5.4.2.5}\hlc [red]{Technology}}{190}{subsubsection.5.4.2.5}%
+\contentsline {section}{\numberline {5.5}\hlc [yellow]{Decision Support System}}{190}{section.5.5}%
+\contentsline {section}{\numberline {5.6}\hlc [red]{Collaborative Development Process}}{192}{section.5.6}%
+\contentsline {section}{\numberline {5.7}\hlc [red]{Discussion}}{193}{section.5.7}%
+\contentsline {section}{\numberline {5.8}\hlc [red]{Conclusion}}{194}{section.5.8}%
+\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion}}{195}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\hlc [red]{Lessons Learned}}{195}{section.6.1}%
+\contentsline {section}{\numberline {6.2}\hlc [red]{The Future of EVDT}}{195}{section.6.2}%
+\contentsline {chapter}{\numberline {7}\hlc [red]{Conclusion}}{197}{chapter.7}%
+\contentsline {section}{\numberline {7.1}\hlc [red]{Research Questions}}{197}{section.7.1}%
+\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{199}{appendix.A}%

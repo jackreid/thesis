@@ -6,7 +6,7 @@ The aim of this chapter is to detail a framework for developing a \acf{dss} for 
 
 \blockquote{\textit{A proposed framework for applying systems engineering for sustainable development in an anticolonialist manner.}} 
 
-This framework, called the \acf{evdt} Framework, builds upon the lessons and priorities identified in Chapter \ref{ch:theory}. Compared to most frameworks for applying \acf{eo} data for sustainable development, the \ac{evdt} Framework aims to be applicable to a wider range of spatial and temporal scales (particularly on the smaller and shorter end of things); to involve a wider range of stakeholders throughout the development process; and to be attentive to both environmental and human wellness, rather than just one or the other. In this way, the chapter aims to propose an answer to Research Question 1: 
+This framework, called the \acf{evdt} Framework, builds upon the lessons and priorities identified in Chapter \ref{ch:theory}. Compared to most frameworks for applying \acf{eo} data for sustainable development, the \ac{evdt} Framework aims to to create management approaches and toolsets for sustainable development application that the stakeholders find useful; to be applicable to a wider range of spatial and temporal scales (particularly on the smaller and shorter end of things); to involve a wider range of stakeholders throughout the development process; and to be attentive to both environmental and human wellness, rather than just one or the other. In this way, the chapter aims to propose an answer to Research Question 1: 
 
 \blockquote{\textit{What aspects of systems architecture (and systems engineering in general) are relevant and useful for approaching issues of sustainability in complex \acf{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to enable avoid the technocratic excesses of the past?}}
 
@@ -33,7 +33,7 @@ Each of these elements span the entire lifecycle of an \ac{evdt} project, but ca
 \begin{landscape}
 \begin{figure}[t]
 	\centering
-	\includegraphics[scale=0.225]{Figures/chap3/evdt_framework_v2.png}
+	\includegraphics[scale=0.225]{Figures/chap3/evdt_framework.png}
 	\caption[Overall EVDT Framework]{Overall EVDT Framework. Lettered circles label the components of the framework. A) The iterations of the Systems Architecture Framework; B) Collaborative development; C) the environment-vulnerability-decisionmaking-technology conceptualization; D) the interactive decision support system output; E) Modularity and re-use}
 	\label{fig:evdt_framework}
 \end{figure}
@@ -42,11 +42,11 @@ Each of these elements span the entire lifecycle of an \ac{evdt} project, but ca
 
 \subsection{\hlc[cyan]{System Architecture Framework}} \label{sec:saf}
 
-The \acf{saf} is the first element of the \ac{evdt} Framework. The \ac{saf} was developed by Danielle Wood and has gone through several revisions and expansions since its inception \cite{woodAnalysisTechnologyTransfer2013, woodApplyingSystemsArchitecture2014, kazanskyCurrentPotentialRole2016}. It predates the creation of the \ac{evdt} Framework. The version here is based on the most recent version, as seen in Ovienmhada et al. \cite{ovienmhadaInclusiveDesignEarth2021}. The \ac{saf} itself builds upon prior work in systems engineering, particularly the subdiscipline of systems architecture as laid out by Maier \cite{maierArtSystemsArchitecting2009} and Crawley \cite{crawley2004}. This prior work tended to be nominally application agnostic, but in practice tended to see application in large aerospace and civil engineering projects. \ac{saf} is similarly application agnostic but has seen its primary uses in international collaborations \cite{pfotenhauerArchitectingComplexInternational2016} and sustainable development \cite{ovienmhadaInclusiveDesignEarth2021}. 
+The \acf{saf} is the first element of the \ac{evdt} Framework. The \ac{saf} as seen in this thesis was developed by Danielle Wood and has gone through several revisions and expansions since its inception \cite{woodAnalysisTechnologyTransfer2013, woodApplyingSystemsArchitecture2014, kazanskyCurrentPotentialRole2016}. It predates the creation of the \ac{evdt} Framework. The version here is based on the most recent version, as seen in Ovienmhada et al. \cite{ovienmhadaInclusiveDesignEarth2021}. The \ac{saf} itself builds upon prior work in systems engineering, particularly the subdiscipline of systems architecture as laid out by Maier, Rechtin, Crawley, Cameron, and Selva \cite{crawley2004, crawleySystemArchitectureStrategy2015, maierArtSystemsArchitecting2009}, with \ac{saf} drawing its definitions most directly from Crawley et al. \cite{crawley2004}. This prior work tended to be nominally application agnostic, but in practice tended to see application in large aerospace and civil engineering projects. \ac{saf} is similarly application agnostic but has seen its primary uses in international collaborations \cite{pfotenhauerArchitectingComplexInternational2016} and sustainable development \cite{ovienmhadaInclusiveDesignEarth2021}. 
 
 It should be noted that the \ac{saf} includes a variety of technical terms that have similar but not identical definitions to their colloquial use. This terms will typically be indicated with capitalization (e.g. System Boundary). Definitions will be supplied at their first occurrence, but are also listed in the glossary found in Appendix \ref{glossary}.
 
-As defined by Maier, \textit{systems architecture} the art and science of creating and building complex systems, and in particular that part of systems development most concerned with scoping, structuring, and certification \cite{maierArtSystemsArchitecting2009}. This tends to refer to the high level form and function of a system, rather than detailed design. Others, such as Crawley prefer to characterize systems architecture as the mapping of Function to Form such that the essential features of the system are represented. System Functions here mean the specific actions or processes that the system performs. System Forms meanwhile refers to the approaches and structures used to enable the Functions (i.e. the physical ``stuff" of the system). The intent of architecture is to reduce ambiguity, employ creativity, and manage complexity \cite{crawleySystemArchitectureStrategy2015}. Arguably this is a more specific formulation of Maier's definition. In general, Space Enabled and I tend to use Crawley's definition, both due to its clarity, and for the various qualitative and quantitative methods that have been developed to work well with this formulation. 
+As defined by Maier, \textit{systems architecture} the art and science of creating and building complex systems, and in particular that part of systems development most concerned with scoping, structuring, and certification \cite{maierArtSystemsArchitecting2009}. This tends to refer to the high level form and function of a system, rather than detailed design. Others, such as Crawley prefer to characterize systems architecture as the mapping of Function to Form such that the essential features of the system are represented. System Functions here mean the specific actions or processes that the system performs. System Forms meanwhile refers to the approaches and structures used to enable the Functions (i.e. the ``stuff" of the system, including tangible objects, software-based objects and organizations). The intent of architecture is to reduce ambiguity, employ creativity, and manage complexity \cite{crawleySystemArchitectureStrategy2015}. Arguably this is a more specific formulation of Maier's definition. In general, Space Enabled and I tend to use Crawley's definition, both due to its clarity, and for the various qualitative and quantitative methods that have been developed to work well with this formulation. 
 
 The current version of \ac{saf} involves six steps, shown in Figure \ref{fig:saf}. It seeks to center the full network of stakeholders and invite them into a collaborative development process. By stakeholders, I mean the people, organizations, and communities that either influence the design and operation of the system or are impacted by the system, or as NASA defines the term: those who are affected by or accountable for an undertaking \cite{nasaofficeofthechiefengineerNASASystemsEngineering2004}. 
 
@@ -71,45 +71,47 @@ As discussed in Sections \ref{sec:se} and \ref{sec:se_critique}, traditionally s
 
 The following subsections walk through the \ac{saf} steps individually, providing potential methods to achieve each step and discussing continued stakeholder involvement. Section \ref{sec:evdt-collab} will expand how to ensure collaboration and participation throughout the process as well.
 
-A summary of useful methods for each step of \ac{saf} is available in Table \ref{tab:saf_methods}. It should be noted that many of these methods are useful in multiple steps but are listed here in the step that they are primarily associated with. Not all methods are recommended for every application. 
+A summary of useful methods for each step of \ac{saf} is available in Table \ref{tab:saf_methods}, along with useful references. Italicized methods are defined in the corresponding following subsection of this chapter. It should be noted that many of these methods are useful in multiple steps but are listed here in the step that they are primarily associated with. Not all methods are recommended for every application. 
 
 \begin{table}[H]
-\caption[Methods for SAF Steps]{Methods for SAF Steps.}
+\caption[Methods for SAF Steps]{Methods for SAF steps. Italicized methods are defined in the corresponding following subsection of this chapter.}
 \label{tab:saf_methods}
 \begin{center}
-\begin{tabular}{ C{4cm} |  L{10cm} } \hline
+\scriptsize
+\begin{tabular}{ C{2.5cm} |  L{5.75cm}  L{5.75cm} } \hline
 
-\textbf{SAF Step} & \textbf{Useful Methods}  \\ \hlinewd{2pt}
+\textbf{SAF Step} & \multicolumn{2}{c}{\textbf{Useful Methods}}  \\ \hlinewd{2pt}
 
-\multirow{6}{4cm}{\centering \textbf{1.} Understand System Context} & - Academic literature survey \\
-& - Survey of newspapers, periodicals, popular media, and local museums \\ 
-& - Informal conversations with stakeholders \\
-& - Stakeholder interviews \\
-& - Stakeholder surveys \\
-& - Direct observation \\ \hline
+\multirow{7}{2.5cm}{\centering \textbf{1.} Understand System Context} & \multicolumn{1}{c}{Data Collection} & \multicolumn{1}{c}{Analysis/Synthesis} \\
+& - Academic literature survey & - Critical Analysis\\
+& - Survey of newspapers, periodicals, popular media, and local museums & - \textit{System Scales/Dimensions} \\ 
+& - Informal conversations with stakeholders & - History Narrative\\
+& - Stakeholder interviews & \\
+& - Stakeholder surveys & \\
+& - Direct observation & \\ \hline
 
-\multirow{4}{4cm}{\centering \textbf{2.} Analyze System Stakeholders} & Primary-Secondary-Tertiary Classification \\
-& - Flowchart relational mapping \\
-& - Stakeholder Value Network Analysis \\
-& - Agent-based modeling \\ \hline
+\multirow{4}{2.5cm}{\centering \textbf{2.} Analyze System Stakeholders} & \multicolumn{2}{l}{- \textit{Primary-Secondary-Tertiary Classification}} \\
+& \multicolumn{2}{l}{- Flowchart relational mapping \cite{jaffeEnvironmentalEconomicSystems2022}} \\
+& \multicolumn{2}{l}{- Stakeholder Value Network Analysis \cite{fengDependencyStructureMatrix2010a}} \\
+& \multicolumn{2}{l}{- Agent-based modeling \cite{battyCitiesComplexity2005}} \\ \hline
 
-\multirow{3}{4cm}{\centering \textbf{3.} Understand Desired Outcomes \& Objectives} & Unified objective function and constraints \\
-& Monetary conversions (e.g. ecosystem services) \\
-& Multi-stakeholder negotiations \\ \hline
+\multirow{3}{2.5cm}{\centering \textbf{3.} Understand Desired Outcomes \& Objectives} & \multicolumn{2}{l}{- Unified objective function and constraints \cite{hazelriggFundamentalsDecisionMaking2012}} \\
+& \multicolumn{2}{l}{- Monetary conversions (e.g. ecosystem services) \cite{grootEcosystemServicesValuation2020, viscusiEconomicsRegulationAntitrust2018, ackermanPricingPricelessCostBenefit2001}} \\
+& \multicolumn{2}{l}{- Multi-stakeholder negotiations \cite{fitzgeraldRecommendationsFramingMultistakeholder2016}}\\ \hline
 
-\multirow{3}{4cm}{\centering \textbf{4.} Select System Functions \& Objectives} & Multicriteria negotiations \\
-& Pairwise comparisons \\
-& Delphi method \\ \hline
+\multirow{3}{2.5cm}{\centering \textbf{4.} Select System Functions \& Objectives} & \multicolumn{2}{l}{- Multicriteria negotiations \cite{sparrevikUseMulticriteriaInvolvement2011}} \\
+& \multicolumn{2}{l}{- Pairwise comparisons \cite{motieyanSustainableUrbanPlanning2017}} \\
+& \multicolumn{2}{l}{- Delphi method  \cite{morganUrbanPlanningUsing1979}} \\ \hline
 
-\multirow{4}{4cm}{\centering \textbf{5.} Assign Functions to Forms}
-& System diagramming \\
-& Scenario planning workshops \\
-& Multi-stakeholder tradespace exploration \\
-& Collaborative sketch planning \\ \hline
+\multirow{4}{2.5cm}{\centering \textbf{5.} Assign Functions to Forms}
+& \multicolumn{2}{l}{- \textit{System diagramming}} \\
+& \multicolumn{2}{l}{- Scenario planning workshops \cite{goodspeedScenarioPlanningCities2020}} \\
+& \multicolumn{2}{l}{- Multi-stakeholder tradespace exploration \cite{fitzgeraldRecommendationsFramingMultistakeholder2016}} \\
+& \multicolumn{2}{l}{- Collaborative sketch planning \cite{vonkSociotechnicalPSSDevelopment2010}} \\ \hline
 
-\multirow{2}{4cm}{\centering \textbf{6.} Monitor and Evaluate Systems}
-& Retrospective evaluations \\
-& Stakeholder surveys \\ \hline
+\multirow{2}{2.5cm}{\centering \textbf{6.} Monitor and Evaluate Systems}
+& \multicolumn{2}{l}{- Retrospective evaluations} \\
+& \multicolumn{2}{l}{- Stakeholder surveys \cite{jaffeEnvironmentalEconomicSystems2022}} \\ \hline
 
 \end{tabular}
 \end{center}
@@ -121,14 +123,58 @@ A summary of useful methods for each step of \ac{saf} is available in Table \ref
 
 The first step of \ac{saf} is to understand the System Context: the external factors that influence and constrain the system. This includes learning about the history of the environments, communities, and organizations that intersect with the system. This information can be of multiple temporal or spatial scales (eg. local, provincial, or international). This step has multiple objectives. The first is to refine the System Boundary: the limit demarcating the system of interest from the rest of the universe. The System Boundary determines what is considered part of the system (and thus subject to the decisions of the designer and stakeholders) and what is not (and is thus considered beyond their control, for the purposes of this project at least). It should be set narrowly enough to provide some level of tractability to both the designer and the major stakeholders, but not so narrowly as to unduly exclude potential interventions from consideration. The designer almost certainly will already have some preconceived System Boundary in mind when starting the project. This step provides a key opportunity to revise that conception, potentially dramatically. Another objective of this step is to identify the stakeholders in the system of interest. This list need not be definitive or exhaustive, as it will be revisited in the next step. Finally, an understanding of the system Context will also inform the feasibility assessment of various system Forms later in the \ac{saf} process.
 
-Methodologies for this step include surveys of literature (including both academic and non-academic literature, including popular media as needed), informal conversations, interviews, surveys, and observation. 
+Methodologies for this step include surveys of literature (including both academic and non-academic literature, including popular media as needed), informal conversations, interviews, surveys, and observation. Once information has been gathered, it needs to be organized into a useful form. For this, it is often useful to consider the system of interest at a variety of System Context Scales and System Context Dimensions. The former refers to how spatially or organizationally "zoomed in/out" one's perspective. Figure \ref{fig:scale} shows a set of generic such scales, though more or fewer can be used as needed. 
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.4\textwidth]{Figures/chap3/scale.png}
+\caption[Generic System Context Scales]{Generic System Context Scales}
+\label{fig:scale}
+\end{figure}
+
+Dimensions meanwhile refers to the topical perspective taken within a Scale. There are innumerable potential such perspectives that one can take, but Figure \ref{fig:dimensions_generic} shows four basic ones that are commonly relevant in \ac{evdt} projects (and that roughly mean the \ac{evdt} questions discussed in Section \ref{sec:evdt-questions}). It also provides examples of the kinds of information that can be summarized with each Dimension.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.7\textwidth]{Figures/chap3/dimensions_generic.png}
+\caption[Generic System Context Dimensions]{Generic System Context Dimensions, including example topics to include.}
+\label{fig:dimensions_generic}
+\end{figure}
+
+Note that the most relevant dimensions may change as one progresses through the different Scales. Figure \ref{fig:dimensions_example} provides two examples. Each represents a different project and a different scale. The first is at the local scale for an \ac{evdt} project lead by Lombardo \cite{lombardoDevelopmentDecisionSupport2021, lombardoUtilizingSatelliteEarth2022}. It thus closely mirrors the generic case from above. The latter is at the national scale for a project looking at the creation of a new space agency \cite{woodBuildingTechnologicalCapability2012}. The relevant dimensions are thus quite different and even the dimensions that are similar (economic and technical) contain different types of information.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.7\textwidth]{Figures/chap3/dimensions_examples.png}
+\caption[Example System Context Dimensions]{Example System Context Dimensions. \textbf{Top:} Four dimensions for the local scale Yurok tribe EVDT Project. Adapted from \cite{lombardoDevelopmentDecisionSupport2021}. \textbf{Bottom:} Four dimensions for the creation of a space agency at the national scale. Adapted from ???}
+\label{fig:dimensions_example}
+\end{figure} 
 
 
 \subsubsection{\hlc[green]{Analyze System Stakeholders}} \label{sec:saf_stakeholders}
 
 During the second \ac{saf} step, the various stakeholders, along with the relationships between them, are analyzed. This process may result in the identification of additional stakeholders or the decision to exclude stakeholders from consideration, though the latter should not be done lightly. The primary objectives of this step are (1) to understand how best to engage the stakeholders throughout the rest of the \ac{saf} and \ac{evdt} process; and (2) gain an understanding of how the Stakeholder Needs and Desired Outcomes overlap or conflict. The latter will be further examined in the next step.
 
-A common initial approach for this step is to separate stakeholders into three categories: Primary, Secondary, and Tertiary. This approach, which draws on Crawley et al. \cite{crawleySystemArchitectureStrategy2015} and refined by Wood et al \cite{ovienmhadaInclusiveDesignEarth2021}, defines Primary Stakeholders as those who make direct decision on the design or operation of the system. Secondary Stakeholders are those who have direct influence on the Primary Stakeholders, typically via authority or funding. Tertiary Stakeholders are those that exert either little control or primarily indirect control on the system, but ae impacted by the system. These are somewhat reductive categories and the listing of primary-secondary-tertiary should not be taken to understand a hierarchy of stakeholder worth or importance.
+A common initial approach for this step is to separate stakeholders into three categories: Primary, Secondary, and Tertiary, as shown in Table \ref{tab:primary-secondary-tertiary}. This approach, which draws on Crawley et al. \cite{crawleySystemArchitectureStrategy2015} and refined by Wood et al \cite{ovienmhadaInclusiveDesignEarth2021}, defines Primary Stakeholders as those who make direct decision on the design or operation of the system. Secondary Stakeholders are those who have direct influence on the Primary Stakeholders, typically via authority or funding. Tertiary Stakeholders are those that exert either little control or primarily indirect control on the system, but are impacted by the system. These are somewhat reductive categories and the listing of primary-secondary-tertiary should not be taken to understand a hierarchy of stakeholder worth or importance.
+
+\begin{table}[H]
+\caption[Primary-Secondary-Tertiary Classification of Stakeholders]{Primary-Secondary-Tertiary classification of stakeholders, including examples from \cite{ovienmhadaEarthObservationTechnology2020}}
+\label{tab:primary-secondary-tertiary}
+\begin{center}
+\scriptsize
+\begin{tabular}{ L{1.75cm} L{3.75cm}   L{3.75cm}  L{3.75cm} } \hline
+
+& \textbf{Primary} & \textbf{Secondary} & \textbf{Tertiary}  \\ \hline
+
+Description & Those who make direct decision on the design or operation of the system &  Those who have direct influence on the Primary Stakeholders, typically via authority or funding & Those that exert either little control or primarily indirect control on the system, but ae impacted by the system \\ \hline
+
+Stakeholders & \tabitem \ac{gka} & 	\tabitem{National Institute of Water}
+& \tabitem{People who participate in fishing or acadja practices} \\
+& & \tabitem{\ac{gka} investors} & \tabitem{\ac{gka} harvesters} \\
+& &	\tabitem{Benin government ministries} &	\tabitem{Lake Nokoue community and surrounding cities} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 Other methods include both qualitative approaches such as flowchart creation or mapping, and more quantitative approaches such as Stakeholder Value Network Analysis \cite{fengDependencyStructureMatrix2010a} or agent-based modeling. The last of these is more relevant once Stakeholder Needs and Desired Outcomes have been identified. An example of stakeholder relational mapping can be seen in Figure \ref{fig:jaffe-stakeholder}. In its current form, it provided an excellent qualitative aid to understanding stakeholder relations, but it could also have been extended into a more quantitative Stakeholder Value Network Analysis if that had been considered useful.
 
@@ -141,36 +187,73 @@ Other methods include both qualitative approaches such as flowchart creation or 
 
 \subsubsection{\hlc[green]{Understand Desired Outcomes \& Objectives}}
 
-System Needs refer to anything that a stakeholder is lacking. These are not necessarily tied to the system of interest. Desired Outcomes meanwhile are the end states that stakeholder would like to attain. Stakeholder Values are things that stakeholders hold as benefit in relation to needs and desired outcomes. It is important to note that Needs, Desired Outcomes, and Values do not exist in the abstract, but only when tied to a particular stakeholder. This is a critical component of \ac{saf} and one of its major distinguishing characteristics compared to earlier applications of systems engineering to urban planning and development, as discussed at length in Sections \ref{sec:technocracy} and \ref{sec:se_critique}. They will vary from stakeholder to stakeholder, sometimes aligning in constructive ways and sometimes opposing one another. As a result, no singular, objective ``solution" will exist. Tradeoffs will need to be made and the system will serve the interests of some stakeholders more than others. The designer should be aware of this and honest about it. The goal of this step is to synthesize these Needs, Desired Outcomes, and Values, into System Objectives: the high level description of what the system will do.
+System Needs refer to anything that a stakeholder is lacking. These are not necessarily tied to the system of interest. Desired Outcomes meanwhile are the end states that stakeholder would like to attain. Stakeholder Values are things that stakeholders hold as benefit in relation to needs and desired outcomes. It is important to note that Needs, Desired Outcomes, and Values do not exist in the abstract, but only when tied to a particular stakeholder, as shown in the example Table \ref{tab:need-outcome-objective}. This is a critical component of \ac{saf} and one of its major distinguishing characteristics compared to earlier applications of systems engineering to urban planning and development, as discussed at length in Sections \ref{sec:technocracy} and \ref{sec:se_critique}. They will vary from stakeholder to stakeholder, sometimes aligning in constructive ways and sometimes opposing one another. As a result, no singular, objective ``solution" will exist. Tradeoffs will need to be made and the system will serve the interests of some stakeholders more than others. The designer should be aware of this and honest about it. The goal of this step is to synthesize these Needs, Desired Outcomes, and Values, into System Objectives: the high level description of what the system will do.
+
+\begin{table}[H]
+\caption[Example Set of Needs, Outcomes, and Objectives]{Example set of Needs, Outcomes, and Objectives. Table from \cite{jaffeEnvironmentalEconomicSystems2022}}
+\label{tab:need-outcome-objective}
+\begin{center}
+\scriptsize
+\begin{tabular}{ L{1.75cm} | L{3.75cm} | L{3.75cm} | L{3.75cm} } \hline
+
+\textbf{Stakeholder Group} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes} & System Objectives \\ \hline
+
+Cranberry farmers & Make a sustainable living, recoup investment in land, provide for family & Improve profitability of farming or sell land for sufficient price, possibly keep land natural/open & Support/justify competitive sale pricing for land \\ \hline
+
+MA Department of Ecological Restoration & Benefit people and the environment through restoration/protection of watersheds and wetlands; improve knowledge of restoration best practices & Widespread restoration/conservation of former cranberry farms; affordable and accessible restoration program & support/justify value of restoration projects; disseminate knowledge on restoration best practices; prototype novel funding models \\ \hline
+
+Local municipalities & Provide clean drinking water, open/recreational space to citizens, address climate threats & Be able to provide high standard of safe, climate-resilient living to all residents & Support investment in projects/properties/programs that support clean water, open space, climate resilience \\ \hline
+
+Local and regional nonprofits & Address risks of climate change and local environmental issues & Effective and affordable interventions to protect drinking water, become more climate resilient & Identify financing mechanisms, develop knowledge and best practices to support projects \\ \hline 
+
+\end{tabular}
+\end{center}
+\end{table}
 
 The methods described in the previous step for understanding relationships between stakeholders are also useful here to see how their needs, desires, and values overlap.
 
-There are at least two schools of thought about how to approach balancing the needs of multiple stakeholders. One school argues for aggregating needs, values, and constraints into a singular objective function and set of constraints prior to considering any particular system functions or forms \cite{hazelriggFundamentalsDecisionMaking2012}. This can be done (a) unilaterally by the designer or a primary stakeholder; (b) through a reduction of all values to a common metric, often monetary; or (c) through a negotiation process among the stakeholders. In general for the kinds of sustainable development applications that \ac{evdt} is envisioned to address, I suggest against this approach. Option (a) is essentially a return to the technocratic hubris criticized in Chapter 2. Option (b) is often difficult and morally problematic. It is difficult because many stakeholder values are difficult to reduce to monetary terms, particularly those values around the natural environment. While the field of ecosystem services (discussed further in Section \ref{sec:rio-vulnerability}) provides some help in this regard, such data is still sparse and unlikely to be comprehensive for a particular application. This option is also morally problematic because reducing values to monetary terms tends to prioritize the needs of wealthy stakeholders (who have more to lose) over economically poorer stakeholders. For example, if a designer is seeking to situate a seawall to reduce damages from cyclones, a purely monetary metric would suggest placing the seawall in front of large vacation homes instead of in front of smaller primary residences. If Option (b) is chosen, I strongly urge the designer to adjust values based on stakeholder wealth to more accurately capture actual impact on the stakeholder. This, of course, adds additional complexity. Option (c) in theory is fine, but many stakeholders will find it difficult to negotiate abstractly, without concrete alternatives available before them. This approach tends to reward those most familiar with fields that deal with the optimization of objective functions, such as systems engineering and economics. By choosing this option, the designer runs the risk of such stakeholders ``gaming the system." This is only worsened by the fact that such stakeholders are disproportionately likely to be in possession of other forms of power and authority.
+There are at least two schools of thought about how to approach balancing the needs of multiple stakeholders. One school argues for aggregating needs, values, and constraints into a singular objective function and set of constraints prior to considering any particular system functions or forms \cite{hazelriggFundamentalsDecisionMaking2012}. This can be done (a) unilaterally by the designer or a primary stakeholder; (b) through a reduction of all values to a common metric, often monetary \cite{viscusiEconomicsRegulationAntitrust2018}; or (c) through a negotiation process among the stakeholders. In general for the kinds of sustainable development applications that \ac{evdt} is envisioned to address, I suggest against this approach. Option (a) is essentially a return to the technocratic hubris criticized in Chapter 2. Option (b) is often difficult and morally problematic. It is difficult because many stakeholder values are difficult to reduce to monetary terms, particularly those values around the natural environment \cite{ackermanPricingPricelessCostBenefit2001}. While the field of ecosystem services (discussed further in Section \ref{sec:rio-vulnerability}) provides some help in this regard, such data is still sparse and unlikely to be comprehensive for a particular application. This option is also morally problematic because reducing values to monetary terms tends to prioritize the needs of wealthy stakeholders (who have more to lose) over economically poorer stakeholders. For example, if a designer is seeking to situate a seawall to reduce damages from cyclones, a purely monetary metric would suggest placing the seawall in front of large vacation homes instead of in front of smaller primary residences. If Option (b) is chosen, I strongly urge the designer to adjust values based on stakeholder wealth to more accurately capture actual impact on the stakeholder. This, of course, adds additional complexity. Option (c) in theory is fine, but many stakeholders will find it difficult to negotiate abstractly, without concrete alternatives available before them. This approach tends to reward those most familiar with fields that deal with the optimization of objective functions, such as systems engineering and economics. By choosing this option, the designer runs the risk of such stakeholders ``gaming the system." This is only worsened by the fact that such stakeholders are disproportionately likely to be in possession of other forms of power and authority.
 
 The second approach is avoid making a unified objective function altogether or at the very least not to set the objective function in stone. Instead various concrete system objectives and form alternatives are proposed to stakeholders and compared in some form of negotiation or voting process. This option is preferred for most \ac{evdt} applications and is discussed further in the following two sections.  
+
+
+
+
 
 \subsubsection{\hlc[green]{Select System Functions}}
 
 During this step, the designer must work with the stakeholder to set System Objectives. These are high level descriptions of what the system must accomplish. They can be quantitative or qualitative. Some sources will use the term System Goals to refer to these to distinguish them from the optimization term ``objective function" \cite{nasaofficeofthechiefengineerNASASystemsEngineering2004}. These objectives will in turn be used to specify System Functions, the actions or processes that the system will perform to accomplish the Objectives.
 
-Multiple techniques are available for coordinating input and involvement from various stakeholders, with varying levels of detail, time requirements, and balance of quantitative versus qualitative information. Examples include  multicriteria negotiations \cite{sparrevikUseMulticriteriaInvolvement2011},  pairwise comparison \cite{motieyanSustainableUrbanPlanning2017}, and various forms of the Delphi method \cite{morganUrbanPlanningUsing1979}. For an excellent survey of multicriteria decision-making analysis methods as applied to sustainable urban planning see Slattery, 2019 \cite{slatteryQuantitativeAssessmentSustainable2019}.
+Multiple techniques are available for coordinating input and involvement from various stakeholders, with varying levels of detail, time requirements, and balance of quantitative versus qualitative information. Many but not all have the person or persons facilitating the systems architecture process to conduct some form of negotiation process, supporting each of the stakeholders as needed. Examples include  multicriteria negotiations \cite{sparrevikUseMulticriteriaInvolvement2011},  pairwise comparison \cite{motieyanSustainableUrbanPlanning2017}, and various forms of the Delphi method \cite{morganUrbanPlanningUsing1979}. For an excellent survey of multicriteria decision-making analysis methods as applied to sustainable urban planning see Slattery, 2019 \cite{slatteryQuantitativeAssessmentSustainable2019}.
 
 By moving stakeholder negotiations into this step (or even into the following step), the designer is able to provide more concrete examples to stakeholders, reducing the possibility of unforeseen consequences or misstated values. Where time and resources allow, it can be useful to iterate these negotiations at multiple phases: first when selecting System Objectives, again when defining System Functions, and a final time when designing the System Form.
 
-\subsubsection{\hlc[green]{Assign Functions to Forms}}
+
+
+\subsubsection{\hlc[green]{Assign Functions to Forms}} \label{sec:saf-assign}
 
 The System Form is what a system is, rather than what it does. The System Form provides the instrument necessary for the System Functions. A particular bicycle is a Form that enables the Function of converting periodic human motion (pedaling) into linear motion (actually going somewhere).
 
 The methods outlined in the previous section are largely still applicable here, as well as some additional approaches that depend on concrete system form alternatives, such as multi-stakeholder tradespace exploration \cite{fitzgeraldRecommendationsFramingMultistakeholder2016} and collaborative sketch planning \cite{vonkSociotechnicalPSSDevelopment2010}. When the system or system intervention is primarily a matter of a policy action, scenario planning workshops can be quite helpful for facilitating the expression of stakeholder preferences or even inducing stakeholders to generate new System Form proposals.
 
-We generally recommend that Steps 1 through 5 be summarized in a concrete visual representation such as Figure \ref{fig:system-diagram}. These can be useful in describing the structure and dependencies within the system, as well as distilling the key aspects of the system in an easily understandable fashion.
+We generally recommend that Steps 1 through 5 be summarized in a concrete visual representation such as Figure \ref{fig:system-diagram}. These can be useful in describing the structure and dependencies within the system, as well as distilling the key aspects of the system in an easily understandable fashion. An alternative, list-based presentation can be seen in Ovienmhada et al. \cite{ovienmhadaInclusiveDesignEarth2021}.
 
-\begin{figure}[h] 
+\begin{figure}[H] 
 \centering
-\includegraphics[width=0.9\textwidth]{Figures/chap3/system-diagram.jpg}
-\caption[Example system diagram]{Example system diagram. Credit: Danielle Wood}
+\includegraphics[width=0.9\textwidth]{Figures/chap3/system-diagram-combined.png}
+\caption[Example system diagrams]{Example system diagrams. \textbf{Top:} Generic version. Credit to Danielle Wood. \textbf{Bottom:} Example from a coastal resilience \ac{evdt} project in Pekalongan, Indonesia. From \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}}
 \label{fig:system-diagram}
 \end{figure}
+
+%\begin{figure}[h] 
+%\centering
+%\includegraphics[width=0\begin{figure}[h] 
+%\centering
+%\includegraphics[width=0.9\textwidth]{Figures/chap3/system-diagram.png}
+%\caption[Example system diagram]{Example system diagram. Credit: Danielle Wood}
+%\label{fig:system-diagram}
+%\end{figure}
+
 
 \subsubsection{\hlc[green]{Monitor and Evaluate Systems}}
 

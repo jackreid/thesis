@@ -80,7 +80,7 @@ Audre Lorde.
   110--114. {Crossing Press}, {Berkeley, CA}, 1984.
 
 \bibitem{maierArtSystemsArchitecting2009}
-Mark~W. Maier.
+Mark~W. Maier and Eberhardt Rechtin.
 \newblock {\em The {{Art}} of {{Systems Architecting}}}.
 \newblock {CRC Press}, {Boca Raton}, 3 edition edition, January 2009.
 
@@ -1882,6 +1882,18 @@ George~A. Hazelrigg.
   and {{Systems Engineering}}}.
 \newblock {Neils Corp}, 2012.
 
+\bibitem{viscusiEconomicsRegulationAntitrust2018}
+W.~Kip Viscusi, Joseph E.~Harrington Jr, and David E.~M. Sappington.
+\newblock {\em Economics of {{Regulation}} and {{Antitrust}}, Fifth Edition}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts; London, England}, fifth
+  edition edition, August 2018.
+
+\bibitem{ackermanPricingPricelessCostBenefit2001}
+Frank Ackerman and Lisa Heinzerling.
+\newblock Pricing the {{Priceless}}: {{Cost-Benefit Analysis}} of
+  {{Environmental Protection}}.
+\newblock {\em University of Pennsylvania Law Review}, 150(5):1553--1584, 2001.
+
 \bibitem{motieyanSustainableUrbanPlanning2017}
 Hamid Motieyan and Mohammad~Saadi Mesgari.
 \newblock Towards {{Sustainable Urban Planning Through Transit-Oriented
@@ -1895,12 +1907,49 @@ David~R. Morgan, John~P. Pelissero, and Robert~E. England.
   Aid}}.
 \newblock {\em Public Administration Review}, 39(4):380--384, 1979.
 
+\bibitem{lombardoDevelopmentDecisionSupport2021}
+Seamus Lombardo, Javier Kinney, Steven Israel, and Danielle Wood.
+\newblock Development of {{Decision Support Systems Utilizing Earth
+  Observation}} and the {{Environment-Vulnerability-Decision-Technology}}
+  modeling framework {{Towards Natural Resource Management}} for the {{Yurok
+  Tribe}}.
+\newblock In {\em American {{Geophysical Union Fall Meeting}}}, volume 2021,
+  pages GC44A--03, {New Orleans, LA}, December 2021.
+
+\bibitem{lombardoUtilizingSatelliteEarth2022}
+Seamus Lombardo, Javier Kinney, Steven Israel, and Danielle Wood.
+\newblock Utilizing {{Satellite Earth Observation Analyses}} and the
+  {{Environment-Vulnerability-Decision-Technology Modelling Framework}} to
+  {{Support}} the {{Yurok Tribe}} in {{Mitigating Climate Change Impacts}}
+  through {{Natural Resource Management}}.
+\newblock In {\em International {{Astronautical Congress}}}, {Paris, France},
+  September 2022.
+
+\bibitem{woodBuildingTechnologicalCapability2012}
+Danielle~Renee Wood.
+\newblock {\em Building {{Technological Capability}} within {{Satellite
+  Programs}} in {{Developing Countries}}}.
+\newblock Doctoral, Massachusetts Institute of Technology, 2012.
+
+\bibitem{ovienmhadaEarthObservationTechnology2020}
+Ufuoma Ovienmhada.
+\newblock {\em Earth Observation Technology Applied to Environmental Management
+  : A Case Study in {{Benin}}}.
+\newblock Thesis, Massachusetts Institute of Technology, 2020.
+
 \bibitem{slatteryQuantitativeAssessmentSustainable2019}
 Zo{\"e} Slattery.
 \newblock {\em Quantitative {{Assessment}} in {{Sustainable Digital Urban
   Planning}} Using {{Multi-Criteria Decision Analysis}}}.
 \newblock PhD thesis, KTH Royal Institute of Technology, {Stockholm, Sweden},
   2019.
+
+\bibitem{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}
+Seamus Lombardo, Steven Israel, and Danielle Wood.
+\newblock The {{Environment-Vulnerability-Decision-Technology Framework}} for
+  {{Decision Support}} in {{Indonesia}}.
+\newblock In {\em 2022 {{IEEE Aerospace Conference}} ({{AERO}})}, pages 1--15,
+  March 2022.
 
 \bibitem{gaheganMultivariateGeovisualization2007}
 Mark Gahegan.
@@ -1991,13 +2040,6 @@ Jack~B. Reid and Danielle Wood.
   {{Janeiro Using Earth Observation Data}}.
 \newblock In {\em Jack {{Reid}}}, {2020}, October 2020. {International
   Astronautical Federation}.
-
-\bibitem{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}
-Seamus Lombardo, Steven Israel, and Danielle Wood.
-\newblock The {{Environment-Vulnerability-Decision-Technology Framework}} for
-  {{Decision Support}} in {{Indonesia}}.
-\newblock In {\em 2022 {{IEEE Aerospace Conference}} ({{AERO}})}, pages 1--15,
-  March 2022.
 
 \bibitem{bluerasterBlueRasterVida2021}
 {Blue Raster}.
@@ -2136,12 +2178,6 @@ Darren~M. Scott and Mark~W. Horner.
 \newblock The role of urban form in shaping access to opportunities: {{An}}
   exploratory spatial data analysis.
 \newblock {\em Journal of Transport and Land Use}, 1(2):89--119, 2008.
-
-\bibitem{ovienmhadaEarthObservationTechnology2020}
-Ufuoma Ovienmhada.
-\newblock {\em Earth Observation Technology Applied to Environmental Management
-  : A Case Study in {{Benin}}}.
-\newblock Thesis, Massachusetts Institute of Technology, 2020.
 
 \bibitem{umlaufRioCityTransformed2016}
 Taylor Umlauf and Youjin Shin.
@@ -2571,6 +2607,13 @@ Alijafar Mousivand, Massimo Menenti, Ben Gorte, and Wout Verhoef.
 \newblock Global sensitivity analysis of the spectral radiance of a
   soil\textendash vegetation system.
 \newblock {\em Remote Sensing of Environment}, 145:131--144, April 2014.
+
+\bibitem{planetlabspbcPlanetAnnouncesNew2022}
+{Planet Labs PBC}.
+\newblock Planet {{Announces New Details}} of {{Hyperspectral Offering}}.
+\newblock
+  https://www.planet.com/pulse/planet-announces-new-details-of-hyperspectral-offering/,
+  September 2022.
 
 \bibitem{zhangModelingRiskMangroves2019}
 Caiyun Zhang, Sara~Denka Durgan, and David Lagomasino.
