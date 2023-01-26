@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  23 JAN 2023 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  25 JAN 2023 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,40 +694,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
  [9] [10]
-Overfull \hbox (0.45009pt too wide) in paragraph at lines 61--61
+Overfull \hbox (0.45009pt too wide) in paragraph at lines 63--63
  [][] [][][]  []\T1/cmr/m/n/12 Big[] [][][]Plans[] [][][]and[] [][][]Megaevents
 [] [][][]in[] [][][]Rio[] [][][]de[] [][][]Janeiro 
  []
 
-[11])
+[11] [12])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [12] (./main.lof [13
+ [13] [14
 
-])
+] (./main.lof [15])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [14] (./main.lot)
+ [16] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [15
+ [17
 
-] [16
+] [18
 
 ]
 Underfull \vbox (badness 6284) has occurred while \output is active []
 
- [17]
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
-[19]
+ [20])
+[21]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex [20
+ (./chap1.tex [22
 
 
 
@@ -743,18 +743,18 @@ Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:ngo' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-[21
+[23
 
-] [22]
+] [24]
 Package acronym Info: Label `acro:sets' newly defined as it shall be overridden
 
 although it is yet undefined on input line 28.
- [23]
+ [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 50.
 
-[24] [25]
+[26] [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 68.
@@ -771,32 +771,28 @@ although it is yet undefined on input line 70.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 76.
 
-
-Underfull \vbox (badness 5954) has occurred while \output is active []
-
- [26]
+[28]
 Package acronym Info: Label `acro:saf' newly defined as it shall be overridden
 although it is yet undefined on input line 84.
-
-[27]
-<Figures/chap1/structure.png, id=1434, 1719.42375pt x 1235.61626pt>
+ [29]
+<Figures/chap1/structure.png, id=1452, 1719.42375pt x 1235.61626pt>
 File: Figures/chap1/structure.png Graphic file (type png)
 <use Figures/chap1/structure.png>
 Package pdftex.def Info: Figures/chap1/structure.png  used on input line 94.
 (pdftex.def)             Requested size: 515.83112pt x 370.68774pt.
- [28 <./Figures/chap1/structure.png>]
+ [30 <./Figures/chap1/structure.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 101.
 
-) [29
+) [31
 
 
 
 ]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex [30
+ (./chap2.tex [32
 
 
 
@@ -813,8 +809,8 @@ Overfull \hbox (8.03265pt too wide) in paragraph at lines 8--8
 in com-plex socio-environmental-
  []
 
-[31] [32]
-<Figures/chap2/lit_survey_structure.png, id=1515, 2015.53pt x 886.31125pt>
+[33] [34]
+<Figures/chap2/lit_survey_structure.png, id=1533, 2015.53pt x 886.31125pt>
 File: Figures/chap2/lit_survey_structure.png Graphic file (type png)
 <use Figures/chap2/lit_survey_structure.png>
 Package pdftex.def Info: Figures/chap2/lit_survey_structure.png  used on input 
@@ -825,7 +821,7 @@ Overfull \hbox (48.18712pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-[33 <./Figures/chap2/lit_survey_structure.png>]
+[35 <./Figures/chap2/lit_survey_structure.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 27.
@@ -836,7 +832,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package acronym Info: Label `acro:mit' newly defined as it shall be overridden
 although it is yet undefined on input line 33.
-[34
+[36
 
 
 ]
@@ -851,13 +847,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-[36]
+ [37]
+[38]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 64.
 
-<Figures/chap2/Planetary_Boundaries.png, id=1560, 739.76375pt x 594.22pt>
+<Figures/chap2/Planetary_Boundaries.png, id=1579, 739.76375pt x 594.22pt>
 File: Figures/chap2/Planetary_Boundaries.png Graphic file (type png)
 <use Figures/chap2/Planetary_Boundaries.png>
 Package pdftex.def Info: Figures/chap2/Planetary_Boundaries.png  used on input 
@@ -866,7 +862,7 @@ line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/chap2/vulnerability_map.jpg, id=1563, 247.50662pt x 148.40729pt>
+<Figures/chap2/vulnerability_map.jpg, id=1582, 247.50662pt x 148.40729pt>
 File: Figures/chap2/vulnerability_map.jpg Graphic file (type jpg)
 <use Figures/chap2/vulnerability_map.jpg>
 Package pdftex.def Info: Figures/chap2/vulnerability_map.jpg  used on input lin
@@ -880,11 +876,11 @@ Overfull \hbox (4.73355pt too wide) in paragraph at lines 93--93
  \T1/cmr/m/n/6 Caribbean| 
  []
 
-[37] [38 <./Figures/chap2/Planetary_Boundaries.png>]
+[39] [40 <./Figures/chap2/Planetary_Boundaries.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./Figures/chap2/vulnerability_map.jpg>]
-<Figures/chap2/services_wellbeing.png, id=1602, 1052.93375pt x 750.805pt>
+ [41 <./Figures/chap2/vulnerability_map.jpg>]
+<Figures/chap2/services_wellbeing.png, id=1621, 1052.93375pt x 750.805pt>
 File: Figures/chap2/services_wellbeing.png Graphic file (type png)
 <use Figures/chap2/services_wellbeing.png>
 Package pdftex.def Info: Figures/chap2/services_wellbeing.png  used on input li
@@ -894,20 +890,20 @@ Package acronym Info: Label `acro:sts' newly defined as it shall be overridden
 although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:ses' newly defined as it shall be overridden
 although it is yet undefined on input line 130.
- [40 <./Figures/chap2/services_wellbeing.png>]
+ [42 <./Figures/chap2/services_wellbeing.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 132.
 
 Package acronym Info: Label `acro:mdg' newly defined as it shall be overridden
 although it is yet undefined on input line 134.
-[41]
-<Figures/chap2/SDG.png, id=1654, 1374.13374pt x 846.16125pt>
+[43]
+<Figures/chap2/SDG.png, id=1673, 1374.13374pt x 846.16125pt>
 File: Figures/chap2/SDG.png Graphic file (type png)
 <use Figures/chap2/SDG.png>
 Package pdftex.def Info: Figures/chap2/SDG.png  used on input line 154.
 (pdftex.def)             Requested size: 343.5326pt x 211.5398pt.
- [42 <./Figures/chap2/SDG.png>]
+ [44 <./Figures/chap2/SDG.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 165.
@@ -925,11 +921,11 @@ although it is yet undefined on input line 171.
 Package acronym Info: Label `acro:sebok' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 171.
-[43]
+[45]
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [44]
-Overfull \hbox (6.33348pt too wide) in paragraph at lines 197--197
+ [46]
+Overfull \hbox (6.33348pt too wide) in paragraph at lines 198--198
 []  []\T1/cmr/bx/n/14.4 Why[] [][][]Re[]-[]mote[] [][][]Ob[]-[]ser[]-[]va[]-[]t
 ion[] [][][]and[] [][][]Earth[] [][][]Ob[]-[]ser[]-[]va[]-[]tion[] [][][]Data? 
 
@@ -937,77 +933,77 @@ ion[] [][][]and[] [][][]Earth[] [][][]Ob[]-[]ser[]-[]va[]-[]tion[] [][][]Data?
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 197.
+(hyperref)                removing `\hlc' on input line 198.
 
 Package acronym Info: Label `acro:geo' newly defined as it shall be overridden
-although it is yet undefined on input line 201.
+although it is yet undefined on input line 202.
 Package acronym Info: Label `acro:nasa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:esa' newly defined as it shall be overridden
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:jaxa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:eoc' newly defined as it shall be overridden
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:cbers' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:ostp' newly defined as it shall be overridden
 
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:epa' newly defined as it shall be overridden
-although it is yet undefined on input line 205.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:ota' newly defined as it shall be overridden
-although it is yet undefined on input line 205.
-[45] [46]
+although it is yet undefined on input line 206.
+[47] [48]
 Package acronym Info: Label `acro:modis' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 221.
+although it is yet undefined on input line 222.
 Package acronym Info: Label `acro:viirs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 221.
+although it is yet undefined on input line 222.
 Package acronym Info: Label `acro:sar' newly defined as it shall be overridden
-although it is yet undefined on input line 221.
+although it is yet undefined on input line 222.
 Package acronym Info: Label `acro:gpm' newly defined as it shall be overridden
-although it is yet undefined on input line 221.
+although it is yet undefined on input line 222.
 Package acronym Info: Label `acro:icesat2' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 221.
- [47]
+although it is yet undefined on input line 222.
+ [49]
 Package acronym Info: Label `acro:geoss' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-23.
+24.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package acronym Info: Label `acro:ceos' newly defined as it shall be overridden
 
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:usgs' newly defined as it shall be overridden
 
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:noaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:usaid' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:servir' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:fews' newly defined as it shall be overridden
 
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 224.
 Package acronym Info: Label `acro:fema' newly defined as it shall be overridden
 
-although it is yet undefined on input line 225.
+although it is yet undefined on input line 226.
 
-[48]
-Overfull \hbox (3.42514pt too wide) in paragraph at lines 227--228
+[50]
+Overfull \hbox (3.42514pt too wide) in paragraph at lines 228--229
 []\T1/cmr/m/n/12 These de-vel-op-ments have pow-er-ful im-pli-ca-tions for eq-u
 ity. "The ge-og-ra-phy agenda
  []
@@ -1015,25 +1011,25 @@ ity. "The ge-og-ra-phy agenda
 
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [49]
+ [51]
 Package acronym Info: Label `acro:valuables' newly defined as it shall be overr
 idden
-although it is yet undefined on input line 231.
+although it is yet undefined on input line 232.
 Package acronym Info: Label `acro:rff' newly defined as it shall be overridden
-although it is yet undefined on input line 231.
+although it is yet undefined on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 235.
+(hyperref)                removing `\hlc' on input line 236.
 
 Package acronym Info: Label `acro:gisc' newly defined as it shall be overridden
 
-although it is yet undefined on input line 237.
-[50]
-<Figures/chap2/GIScience.png, id=1921, 932.48375pt x 829.0975pt>
+although it is yet undefined on input line 238.
+[52]
+<Figures/chap2/GIScience.png, id=1939, 932.48375pt x 829.0975pt>
 File: Figures/chap2/GIScience.png Graphic file (type png)
 <use Figures/chap2/GIScience.png>
-Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 246.
+Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 247.
 (pdftex.def)             Requested size: 372.9869pt x 331.63313pt.
 
 
@@ -1042,19 +1038,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [51]
+ [53]
 Package acronym Info: Label `acro:lidar' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 258.
+although it is yet undefined on input line 259.
 
-[52 <./Figures/chap2/GIScience.png>]
+[54 <./Figures/chap2/GIScience.png>]
 Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
-although it is yet undefined on input line 263.
-<Figures/chap2/GISMarketplace.png, id=1973, 816.04875pt x 714.67pt>
+although it is yet undefined on input line 264.
+<Figures/chap2/GISMarketplace.png, id=1992, 816.04875pt x 714.67pt>
 File: Figures/chap2/GISMarketplace.png Graphic file (type png)
 <use Figures/chap2/GISMarketplace.png>
 Package pdftex.def Info: Figures/chap2/GISMarketplace.png  used on input line 2
-84.
+85.
 (pdftex.def)             Requested size: 326.41371pt x 285.86293pt.
 
 
@@ -1062,148 +1058,148 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 289.
+(hyperref)                removing `\hlc' on input line 290.
 
-[53] [54 <./Figures/chap2/GISMarketplace.png>]
-<Figures/chap2/east2.jpg, id=2003, 1084.05pt x 505.89pt>
+[55] [56 <./Figures/chap2/GISMarketplace.png>]
+<Figures/chap2/east2.jpg, id=2022, 1084.05pt x 505.89pt>
 File: Figures/chap2/east2.jpg Graphic file (type jpg)
 <use Figures/chap2/east2.jpg>
-Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 295.
+Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 296.
 (pdftex.def)             Requested size: 433.61232pt x 202.3524pt.
 
-Overfull \hbox (3.6077pt too wide) in paragraph at lines 295--296
+Overfull \hbox (3.6077pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
-[55 <./Figures/chap2/east2.jpg>]
+[57 <./Figures/chap2/east2.jpg>]
 Package acronym Info: Label `acro:ppgis' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 304.
+although it is yet undefined on input line 305.
 Package acronym Info: Label `acro:pgis' newly defined as it shall be overridden
 
-although it is yet undefined on input line 304.
+although it is yet undefined on input line 305.
 Package acronym Info: Label `acro:pss' newly defined as it shall be overridden
-although it is yet undefined on input line 304.
+although it is yet undefined on input line 305.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [56]
-[57]
+ [58]
+[59]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 330.
+(hyperref)                removing `\hlc' on input line 331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 332.
+(hyperref)                removing `\hlc' on input line 333.
 
-[58] [59] [60]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 418.
-
-[61] [62]
+[60] [61] [62]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 437.
+(hyperref)                removing `\hlc' on input line 419.
 
-[63]
+[63] [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 450.
+(hyperref)                removing `\hlc' on input line 438.
 
-[64] [65]
-Overfull \hbox (2.20743pt too wide) in paragraph at lines 469--470
+[65]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 451.
+
+[66] [67]
+Overfull \hbox (2.20743pt too wide) in paragraph at lines 470--471
 []\T1/cmr/m/n/12 The ideas of Mum-ford and Win-ner have be-come com-mon-place. 
 Even self-admitted
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 473.
+(hyperref)                removing `\hlc' on input line 474.
 
-[66]
-<Figures/chap2/gis_equity.png, id=2270, 932.48375pt x 756.8275pt>
+[68]
+<Figures/chap2/gis_equity.png, id=2289, 932.48375pt x 756.8275pt>
 File: Figures/chap2/gis_equity.png Graphic file (type png)
 <use Figures/chap2/gis_equity.png>
-Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 489.
+Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 490.
 (pdftex.def)             Requested size: 279.74728pt x 227.05pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67]
+[69]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [68 <./Figures/chap2/gis_equity.png>] [69]
+ [70 <./Figures/chap2/gis_equity.png>] [71]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 521.
+(hyperref)                removing `\hlc' on input line 524.
 
-[70]
-Overfull \hbox (0.31892pt too wide) in paragraph at lines 535--536
+[72]
+Overfull \hbox (0.31892pt too wide) in paragraph at lines 538--539
 \T1/cmr/m/n/12 [[]]. The Plan-ners, mean-while, fash-ion them-selves into benev
 -o-lent dic-ta-tors (though
  []
 
 
-Overfull \hbox (2.03009pt too wide) in paragraph at lines 541--542
+Overfull \hbox (2.03009pt too wide) in paragraph at lines 544--545
 []\T1/cmr/m/n/12 A "high-modernist ide-ol-ogy," which Scott de-fines as a "stro
 ng," "muscle-bound"
  []
 
-[71] [72] [73] [74]
-<Figures/chap2/civic_ladder.png, id=2417, 513.92pt x 461.725pt>
+[73] [74] [75] [76]
+<Figures/chap2/civic_ladder.png, id=2435, 513.92pt x 461.725pt>
 File: Figures/chap2/civic_ladder.png Graphic file (type png)
 <use Figures/chap2/civic_ladder.png>
-Package pdftex.def Info: Figures/chap2/civic_ladder.png  used on input line 577
+Package pdftex.def Info: Figures/chap2/civic_ladder.png  used on input line 580
 .
 (pdftex.def)             Requested size: 256.95937pt x 230.86194pt.
- [75 <./Figures/chap2/civic_ladder.png>]
+ [77 <./Figures/chap2/civic_ladder.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 609.
+(hyperref)                removing `\hlc' on input line 613.
 
 Package acronym Info: Label `acro:nycri' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 611.
+although it is yet undefined on input line 615.
 Package acronym Info: Label `acro:aiaa' newly defined as it shall be overridden
 
-although it is yet undefined on input line 611.
+although it is yet undefined on input line 615.
 Package acronym Info: Label `acro:usac' newly defined as it shall be overridden
 
-although it is yet undefined on input line 611.
-[76] [77] [78]
-<Figures/chap2/friedman_timeline.png, id=2498, 987.69pt x 554.07pt>
+although it is yet undefined on input line 615.
+[78] [79] [80]
+<Figures/chap2/friedman_timeline.png, id=2517, 987.69pt x 554.07pt>
 File: Figures/chap2/friedman_timeline.png Graphic file (type png)
 <use Figures/chap2/friedman_timeline.png>
 Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
-e 639.
+e 643.
 (pdftex.def)             Requested size: 592.61858pt x 332.44456pt.
 
-Overfull \hbox (36.14201pt too wide) in paragraph at lines 639--640
+Overfull \hbox (36.14201pt too wide) in paragraph at lines 643--644
  [][] 
  []
 
-[79 <./Figures/chap2/friedman_timeline.png>]
+[81 <./Figures/chap2/friedman_timeline.png>]
 Package acronym Info: Label `acro:mbse' newly defined as it shall be overridden
 
-although it is yet undefined on input line 646.
+although it is yet undefined on input line 650.
 Package acronym Info: Label `acro:sos' newly defined as it shall be overridden
-although it is yet undefined on input line 646.
+although it is yet undefined on input line 650.
 Package acronym Info: Label `acro:tdrss' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 646.
+although it is yet undefined on input line 650.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [80
+ [82
 
 
 
 
 ]
-[81]
+[83]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1237,29 +1233,29 @@ Underfull \vbox (badness 1874) has occurred while \output is active []
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \vbox (59.07143pt too high) detected at line 666
+Overfull \vbox (59.07143pt too high) detected at line 670
  []
 
 
-Overfull \vbox (75.8066pt too high) detected at line 668
+Overfull \vbox (75.8066pt too high) detected at line 672
  []
 
 
-Overfull \vbox (9.12746pt too high) detected at line 672
+Overfull \vbox (9.12746pt too high) detected at line 676
  []
 
 
-Overfull \hbox (4.8016pt too wide) in paragraph at lines 664--675
+Overfull \hbox (4.8016pt too wide) in paragraph at lines 668--679
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 21.78615pt on input line 676.
+LaTeX Warning: Float too large for page by 21.78615pt on input line 680.
 
-[82]
+[84]
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [83
+ [85
 
 
 
@@ -1267,20 +1263,20 @@ Underfull \vbox (badness 6332) has occurred while \output is active []
 ]
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [84]
+ [86]
 Package acronym Info: Label `acro:ssm' newly defined as it shall be overridden
-although it is yet undefined on input line 699.
+although it is yet undefined on input line 703.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [85]
+ [87]
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [86]
+ [88]
 Package acronym Info: Label `acro:opm' newly defined as it shall be overridden
-although it is yet undefined on input line 705.
+although it is yet undefined on input line 709.
 
-[87]
+[89]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1314,88 +1310,88 @@ although it is yet undefined on input line 705.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \vbox (24.0pt too high) detected at line 724
+Overfull \vbox (24.0pt too high) detected at line 728
  []
 
 
-Overfull \vbox (25.58022pt too high) detected at line 728
+Overfull \vbox (25.58022pt too high) detected at line 732
  []
 
-[88
+[90
 
 
-] [89
+] [91
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 768.
+(hyperref)                removing `\hlc' on input line 772.
 
-[90]
-Overfull \hbox (1.58562pt too wide) in paragraph at lines 784--784
+[92]
+Overfull \hbox (1.58562pt too wide) in paragraph at lines 788--788
 []\T1/cmr/m/n/12 The pes-simistic thought is that sus-tain-able de-vel-op-ment 
 has been stripped
  []
 
-[91]
-<Figures/chap2/sustainable_triangle.png, id=2750, 1156.32pt x 578.16pt>
+[93]
+<Figures/chap2/sustainable_triangle.png, id=2769, 1156.32pt x 578.16pt>
 File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
 <use Figures/chap2/sustainable_triangle.png>
 Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
-line 800.
+line 804.
 (pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
- [92 <./Figures/chap2/sustainable_triangle.png>]
+ [94 <./Figures/chap2/sustainable_triangle.png>]
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [93]
+ [95]
 Package acronym Info: Label `acro:who' newly defined as it shall be overridden
-although it is yet undefined on input line 813.
+although it is yet undefined on input line 817.
 Package acronym Info: Label `acro:esvd' newly defined as it shall be overridden
 
-although it is yet undefined on input line 815.
+although it is yet undefined on input line 819.
 
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [94]
-[95]
+ [96]
+[97]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 848.
+(hyperref)                removing `\hlc' on input line 852.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]
-<Figures/chap2/projections.jpg, id=2858, 1333.98375pt x 458.71375pt>
+ [98]
+<Figures/chap2/projections.jpg, id=2877, 1333.98375pt x 458.71375pt>
 File: Figures/chap2/projections.jpg Graphic file (type jpg)
 <use Figures/chap2/projections.jpg>
-Package pdftex.def Info: Figures/chap2/projections.jpg  used on input line 854.
+Package pdftex.def Info: Figures/chap2/projections.jpg  used on input line 858.
 
 (pdftex.def)             Requested size: 426.88353pt x 146.7914pt.
 
-[97 <./Figures/chap2/projections.jpg>]
+[99 <./Figures/chap2/projections.jpg>]
 Package acronym Info: Label `acro:lunr' newly defined as it shall be overridden
 
-although it is yet undefined on input line 865.
+although it is yet undefined on input line 869.
 
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [98]
+ [100]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 876.
+(hyperref)                removing `\hlc' on input line 882.
 
 
-Overfull \hbox (8.03265pt too wide) in paragraph at lines 880--880
+Overfull \hbox (8.03265pt too wide) in paragraph at lines 886--886
 \T1/cmr/m/n/12 vant and use-ful for ap-proach-ing is-sues of sus-tain-abil-ity 
 in com-plex socio-environmental-
  []
 
-[99] [100]) [101]
+[101] [102]) [103]
 \openout2 = `chap3.aux'.
 
- (./chap3.tex [102
+ (./chap3.tex [104
 
 
 
@@ -1406,281 +1402,272 @@ Chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 3.
 
-
-Overfull \hbox (8.0384pt too wide) in paragraph at lines 11--11
+[105]
+Overfull \hbox (8.0384pt too wide) in paragraph at lines 13--13
 \T1/cmr/m/it/12 vant and use-ful for ap-proach-ing is-sues of sus-tain-abil-ity
  in com-plex socio-environmental-
  []
 
-[103]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 15.
+(hyperref)                removing `\hlc' on input line 17.
 
-[104]
-<Figures/chap3/evdt_framework.png, id=2978, 2509.375pt x 1307.88625pt>
+[106]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 30.
+
+[107]
+Package acronym Info: Label `acro:ilute' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 40.
+Package acronym Info: Label `acro:osse' newly defined as it shall be overridden
+
+although it is yet undefined on input line 47.
+Package acronym Info: Label `acro:lis' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+ [108]
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [109]
+Package acronym Info: Label `acro:spade' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 55.
+<Figures/chap3/spade.png, id=3053, 855.195pt x 288.07625pt>
+File: Figures/chap3/spade.png Graphic file (type png)
+<use Figures/chap3/spade.png>
+Package pdftex.def Info: Figures/chap3/spade.png  used on input line 59.
+(pdftex.def)             Requested size: 342.07195pt x 115.22844pt.
+
+Underfull \hbox (badness 1215) in paragraph at lines 60--60
+[]\T1/cmr/m/n/12 Figure 3-1: []The Stakeholders-Problem-Alternatives-Decision-M
+aking-Evaluation
+ []
+
+Package acronym Info: Label `acro:catwoe' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 64.
+[110 <./Figures/chap3/spade.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 72.
+
+[111] [112]
+<Figures/chap3/evdt_framework.png, id=3114, 2509.375pt x 1307.88625pt>
 File: Figures/chap3/evdt_framework.png Graphic file (type png)
 <use Figures/chap3/evdt_framework.png>
-Package pdftex.def Info: Figures/chap3/evdt_framework.png  used on input line 3
-6.
+Package pdftex.def Info: Figures/chap3/evdt_framework.png  used on input line 8
+9.
 (pdftex.def)             Requested size: 564.6233pt x 294.28166pt.
 
-Overfull \hbox (8.14674pt too wide) in paragraph at lines 36--37
+Overfull \hbox (8.14674pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-[105 <./Figures/chap3/evdt_framework.png>]
+[113 <./Figures/chap3/evdt_framework.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 43.
+(hyperref)                removing `\hlc' on input line 99.
 
-<Figures/chap3/SAF.jpg, id=3007, 960.58875pt x 717.68124pt>
+[114
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 114.
+
+[115]
+<Figures/chap3/SAF.jpg, id=3181, 960.58875pt x 717.68124pt>
 File: Figures/chap3/SAF.jpg Graphic file (type jpg)
 <use Figures/chap3/SAF.jpg>
-Package pdftex.def Info: Figures/chap3/SAF.jpg  used on input line 55.
+Package pdftex.def Info: Figures/chap3/SAF.jpg  used on input line 128.
 (pdftex.def)             Requested size: 387.00153pt x 289.13713pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[106
-
-
-] [107 <./Figures/chap3/SAF.jpg>]
-Overfull \hbox (4.73392pt too wide) in paragraph at lines 81--117
+ [116 <./Figures/chap3/SAF.jpg>]
+Overfull \hbox (4.73392pt too wide) in paragraph at lines 154--190
  [] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 122.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[108]
-<Figures/chap3/scale.png, id=3067, 694.595pt x 691.58376pt>
+ [117]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 194.
+
+[118]
+<Figures/chap3/scale.png, id=3237, 694.595pt x 691.58376pt>
 File: Figures/chap3/scale.png Graphic file (type png)
 <use Figures/chap3/scale.png>
-Package pdftex.def Info: Figures/chap3/scale.png  used on input line 130.
+Package pdftex.def Info: Figures/chap3/scale.png  used on input line 202.
 (pdftex.def)             Requested size: 171.99922pt x 171.24928pt.
- [109 <./Figures/chap3/scale.png>]
-<Figures/chap3/dimensions_generic.png, id=3078, 1002.74625pt x 555.07375pt>
+<Figures/chap3/dimensions_generic.png, id=3242, 1002.74625pt x 555.07375pt>
 File: Figures/chap3/dimensions_generic.png Graphic file (type png)
 <use Figures/chap3/dimensions_generic.png>
 Package pdftex.def Info: Figures/chap3/dimensions_generic.png  used on input li
-ne 139.
+ne 211.
 (pdftex.def)             Requested size: 301.00192pt x 166.61656pt.
-<Figures/chap3/dimensions_examples.png, id=3084, 993.7125pt x 1359.0775pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119 <./Figures/chap3/scale.png>]
+<Figures/chap3/dimensions_examples.png, id=3253, 993.7125pt x 1359.0775pt>
 File: Figures/chap3/dimensions_examples.png Graphic file (type png)
 <use Figures/chap3/dimensions_examples.png>
 Package pdftex.def Info: Figures/chap3/dimensions_examples.png  used on input l
-ine 148.
+ine 220.
 (pdftex.def)             Requested size: 301.00192pt x 411.6666pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110 <./Figures/chap3/dimensions_generic.png>]
+ [120 <./Figures/chap3/dimensions_generic.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 154.
+(hyperref)                removing `\hlc' on input line 226.
 
-[111 <./Figures/chap3/dimensions_examples.png>]
+[121 <./Figures/chap3/dimensions_examples.png>]
 Package acronym Info: Label `acro:gka' newly defined as it shall be overridden
-although it is yet undefined on input line 171.
-<Figures/chap3/jaffe-stakeholder.png, id=3113, 928.46875pt x 512.91624pt>
+although it is yet undefined on input line 243.
+<Figures/chap3/jaffe-stakeholder.png, id=3282, 928.46875pt x 512.91624pt>
 File: Figures/chap3/jaffe-stakeholder.png Graphic file (type png)
 <use Figures/chap3/jaffe-stakeholder.png>
 Package pdftex.def Info: Figures/chap3/jaffe-stakeholder.png  used on input lin
-e 183.
+e 255.
 (pdftex.def)             Requested size: 387.00153pt x 213.79544pt.
 
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [112]
+ [122]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 188.
+(hyperref)                removing `\hlc' on input line 260.
 
-
-Overfull \hbox (3.00732pt too wide) in paragraph at lines 205--205
+[123 <./Figures/chap3/jaffe-stakeholder.png>]
+Overfull \hbox (3.00732pt too wide) in paragraph at lines 283--283
 \T1/cmr/m/n/8 projects/properties/programs 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [113 <./Figures/chap3/jaffe-stakeholder.png>] [114]
+[124]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 223.
-
-[115]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 233.
-
-<Figures/chap3/system-diagram-combined.png, id=3158, 939.51pt x 1115.16624pt>
-File: Figures/chap3/system-diagram-combined.png Graphic file (type png)
-<use Figures/chap3/system-diagram-combined.png>
-Package pdftex.def Info: Figures/chap3/system-diagram-combined.png  used on inp
-ut line 243.
-(pdftex.def)             Requested size: 387.00153pt x 459.34813pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [116]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 258.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [117 <./Figures/chap3/system-diagram-combined.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 262.
-
-[118]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 272.
-
-[119]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 290.
-
-[120]
-<Figures/chap3/modelflow.png, id=3246, 1228.59pt x 676.5275pt>
-File: Figures/chap3/modelflow.png Graphic file (type png)
-<use Figures/chap3/modelflow.png>
-Package pdftex.def Info: Figures/chap3/modelflow.png  used on input line 300.
-(pdftex.def)             Requested size: 368.57985pt x 202.95981pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[121]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 324.
-
-
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
- [122 <./Figures/chap3/modelflow.png>]
-<Figures/chap3/jaffe_application.png, id=3294, 1908.12875pt x 971.63pt>
-File: Figures/chap3/jaffe_application.png Graphic file (type png)
-<use Figures/chap3/jaffe_application.png>
-Package pdftex.def Info: Figures/chap3/jaffe_application.png  used on input lin
-e 332.
-(pdftex.def)             Requested size: 381.61899pt x 194.32256pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[123] [124 <./Figures/chap3/jaffe_application.png>]
-Overfull \hbox (4.33392pt too wide) in paragraph at lines 358--432
- [] 
- []
+(hyperref)                removing `\hlc' on input line 298.
 
 [125]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 439.
+(hyperref)                removing `\hlc' on input line 307.
 
-[126]
+<Figures/chap3/system-diagram-combined.png, id=3324, 939.51pt x 1115.16624pt>
+File: Figures/chap3/system-diagram-combined.png Graphic file (type png)
+<use Figures/chap3/system-diagram-combined.png>
+Package pdftex.def Info: Figures/chap3/system-diagram-combined.png  used on inp
+ut line 317.
+(pdftex.def)             Requested size: 387.00153pt x 459.34813pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 447.
+(hyperref)                removing `\hlc' on input line 334.
 
-<Figures/chap3/Graphic_2_Development.png, id=3391, 1637.11626pt x 683.55376pt>
-File: Figures/chap3/Graphic_2_Development.png Graphic file (type png)
-<use Figures/chap3/Graphic_2_Development.png>
-Package pdftex.def Info: Figures/chap3/Graphic_2_Development.png  used on input
- line 453.
-(pdftex.def)             Requested size: 409.27806pt x 170.88802pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127 <./Figures/chap3/system-diagram-combined.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 338.
+
+[128]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 351.
+
+<Figures/chap3/modelflow.png, id=3372, 1228.59pt x 676.5275pt>
+File: Figures/chap3/modelflow.png Graphic file (type png)
+<use Figures/chap3/modelflow.png>
+Package pdftex.def Info: Figures/chap3/modelflow.png  used on input line 357.
+(pdftex.def)             Requested size: 368.57985pt x 202.95981pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[127] [128 <./Figures/chap3/Graphic_2_Development.png>] [129] [130] [131]
-<Figures/chap3/Loops_Combined.png, id=3489, 702.625pt x 985.6825pt>
+[129]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[130 <./Figures/chap3/modelflow.png>] [131]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 400.
+
+<Figures/chap3/jaffe_application.png, id=3439, 1908.12875pt x 971.63pt>
+File: Figures/chap3/jaffe_application.png Graphic file (type png)
+<use Figures/chap3/jaffe_application.png>
+Package pdftex.def Info: Figures/chap3/jaffe_application.png  used on input lin
+e 410.
+(pdftex.def)             Requested size: 381.61899pt x 194.32256pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[132] [133 <./Figures/chap3/jaffe_application.png>] [134]
+Overfull \hbox (4.33392pt too wide) in paragraph at lines 436--510
+ [] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 514.
+
+[135]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 524.
+
+[136] [137]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hlc' on input line 566.
+
+[138]
+<Figures/chap3/Graphic_2_Development.png, id=3604, 1637.11626pt x 683.55376pt>
+File: Figures/chap3/Graphic_2_Development.png Graphic file (type png)
+<use Figures/chap3/Graphic_2_Development.png>
+Package pdftex.def Info: Figures/chap3/Graphic_2_Development.png  used on input
+ line 574.
+(pdftex.def)             Requested size: 409.27806pt x 170.88802pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[139] [140 <./Figures/chap3/Graphic_2_Development.png>] [141] [142] [143]
+[144]
+<Figures/chap3/Loops_Combined.png, id=3712, 702.625pt x 985.6825pt>
 File: Figures/chap3/Loops_Combined.png Graphic file (type png)
 <use Figures/chap3/Loops_Combined.png>
-Package pdftex.def Info: Figures/chap3/Loops_Combined.png  used on input line 5
-10.
+Package pdftex.def Info: Figures/chap3/Loops_Combined.png  used on input line 6
+31.
 (pdftex.def)             Requested size: 351.31163pt x 492.84004pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[132 <./Figures/chap3/Loops_Combined.png>]
+[145 <./Figures/chap3/Loops_Combined.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 516.
+(hyperref)                removing `\hlc' on input line 662.
 
-Package acronym Info: Label `acro:ilute' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 528.
-
-Overfull \hbox (8.17036pt too wide) in paragraph at lines 532--533
-[]\T1/cmr/m/n/12 The clos-est at-tempt to what we are propos-ing here is prob-a
--bly that of Shahumyan
- []
-
-[133
+) [146
 
 
-]
-Package acronym Info: Label `acro:osse' newly defined as it shall be overridden
-
-although it is yet undefined on input line 535.
-Package acronym Info: Label `acro:lis' newly defined as it shall be overridden
-although it is yet undefined on input line 535.
-Package acronym Info: Label `acro:spade' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 537.
-
-Overfull \hbox (0.9636pt too wide) in paragraph at lines 537--538
-[][][]\T1/cmr/m/n/12 Stakeholders, Prob-lem, Al-ter-na-tives, Decision-making, 
-Eval-u-a-tion ([])[] method-
- []
-
-<Figures/chap3/spade.png, id=3535, 855.195pt x 288.07625pt>
-File: Figures/chap3/spade.png Graphic file (type png)
-<use Figures/chap3/spade.png>
-Package pdftex.def Info: Figures/chap3/spade.png  used on input line 541.
-(pdftex.def)             Requested size: 342.07195pt x 115.22844pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package acronym Info: Label `acro:catwoe' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 546.
-[134]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[135 <./Figures/chap3/spade.png>]
-Overfull \hbox (3.59068pt too wide) in paragraph at lines 582--583
-[]\T1/cmr/m/n/12 Third is the spe-cific ad-van-tages of the Environment-Vulnera
-bility-Decisionmaking-
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [136]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hlc' on input line 628.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [137]
-[138]) [139]
+] [147]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [140
+ (./chap4.tex [148
 
 
 
@@ -1691,7 +1678,7 @@ Chapter 4.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 3.
 
-[141]
+[149]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 20.
@@ -1704,7 +1691,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 26.
 
-[142]
+[150]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 32.
@@ -1716,13 +1703,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
 Package acronym Info: Label `acro:ra' newly defined as it shall be overridden
 although it is yet undefined on input line 34.
-[143]
-<Figures/chap4/RA2.png, id=3726, 714.7503pt x 502.42104pt>
+[151]
+<Figures/chap4/RA2.png, id=3827, 714.7503pt x 502.42104pt>
 File: Figures/chap4/RA2.png Graphic file (type png)
 <use Figures/chap4/RA2.png>
 Package pdftex.def Info: Figures/chap4/RA2.png  used on input line 40.
 (pdftex.def)             Requested size: 357.37428pt x 251.2099pt.
- [144 <./Figures/chap4/RA2.png>]
+ [152 <./Figures/chap4/RA2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 54.
@@ -1732,7 +1719,7 @@ although it is yet undefined on input line 56.
 Package acronym Info: Label `acro:ufrj' newly defined as it shall be overridden
 
 although it is yet undefined on input line 56.
-[145]
+[153]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 69.
@@ -1768,7 +1755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
 Package acronym Info: Label `acro:smu' newly defined as it shall be overridden
 although it is yet undefined on input line 96.
-[146]
+[154]
 Package acronym Info: Label `acro:unced' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 98.
@@ -1781,13 +1768,13 @@ although it is yet undefined on input line 102.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [147]
-<Figures/chap4/Relocation.png, id=3791, 1186.4325pt x 672.5125pt>
+ [155]
+<Figures/chap4/Relocation.png, id=3891, 1186.4325pt x 672.5125pt>
 File: Figures/chap4/Relocation.png Graphic file (type png)
 <use Figures/chap4/Relocation.png>
 Package pdftex.def Info: Figures/chap4/Relocation.png  used on input line 106.
 (pdftex.def)             Requested size: 355.9325pt x 201.7553pt.
-<Figures/chap4/Employment.png, id=3798, 1318.9275pt x 907.39pt>
+<Figures/chap4/Employment.png, id=3898, 1318.9275pt x 907.39pt>
 File: Figures/chap4/Employment.png Graphic file (type png)
 <use Figures/chap4/Employment.png>
 Package pdftex.def Info: Figures/chap4/Employment.png  used on input line 115.
@@ -1796,8 +1783,8 @@ Package pdftex.def Info: Figures/chap4/Employment.png  used on input line 115.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[148 <./Figures/chap4/Relocation.png>]
-<Figures/chap4/Transit.png, id=3810, 884.30376pt x 459.7175pt>
+[156 <./Figures/chap4/Relocation.png>]
+<Figures/chap4/Transit.png, id=3909, 884.30376pt x 459.7175pt>
 File: Figures/chap4/Transit.png Graphic file (type png)
 <use Figures/chap4/Transit.png>
 Package pdftex.def Info: Figures/chap4/Transit.png  used on input line 124.
@@ -1813,7 +1800,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [149 <./Figures/chap4/Employment.png>]
+ [157 <./Figures/chap4/Employment.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 131.
@@ -1823,7 +1810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-[150 <./Figures/chap4/Transit.png>]
+[158 <./Figures/chap4/Transit.png>]
 Package acronym Info: Label `acro:icmbio' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 135.
@@ -1841,15 +1828,15 @@ although it is yet undefined on input line 146.
 Package acronym Info: Label `acro:ctex' newly defined as it shall be overridden
 
 although it is yet undefined on input line 146.
- [151]
+ [159]
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [152]
+ [160]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 159.
 
-<Figures/chap4/MangroveExtent.png, id=3882, 1340.00626pt x 661.47125pt>
+<Figures/chap4/MangroveExtent.png, id=3982, 1340.00626pt x 661.47125pt>
 File: Figures/chap4/MangroveExtent.png Graphic file (type png)
 <use Figures/chap4/MangroveExtent.png>
 Package pdftex.def Info: Figures/chap4/MangroveExtent.png  used on input line 1
@@ -1858,7 +1845,7 @@ Package pdftex.def Info: Figures/chap4/MangroveExtent.png  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/chap4/NDVIanomaly_v2.png, id=3888, 928.46875pt x 552.0625pt>
+<Figures/chap4/NDVIanomaly_v2.png, id=3988, 928.46875pt x 552.0625pt>
 File: Figures/chap4/NDVIanomaly_v2.png Graphic file (type png)
 <use Figures/chap4/NDVIanomaly_v2.png>
 Package pdftex.def Info: Figures/chap4/NDVIanomaly_v2.png  used on input line 1
@@ -1867,8 +1854,8 @@ Package pdftex.def Info: Figures/chap4/NDVIanomaly_v2.png  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[153]
-<Figures/chap4/RBAG.png, id=3903, 1120.185pt x 845.1575pt>
+[161]
+<Figures/chap4/RBAG.png, id=4003, 1120.185pt x 845.1575pt>
 File: Figures/chap4/RBAG.png Graphic file (type png)
 <use Figures/chap4/RBAG.png>
 Package pdftex.def Info: Figures/chap4/RBAG.png  used on input line 183.
@@ -1877,7 +1864,7 @@ Package pdftex.def Info: Figures/chap4/RBAG.png  used on input line 183.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[154 <./Figures/chap4/MangroveExtent.png>]
+[162 <./Figures/chap4/MangroveExtent.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 194.
@@ -1887,22 +1874,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[155 <./Figures/chap4/NDVIanomaly_v2.png>]
+[163 <./Figures/chap4/NDVIanomaly_v2.png>]
 Package acronym Info: Label `acro:avl' newly defined as it shall be overridden
 although it is yet undefined on input line 198.
 
 Underfull \vbox (badness 2762) has occurred while \output is active []
 
- [156 <./Figures/chap4/RBAG.png>]
+ [164 <./Figures/chap4/RBAG.png>]
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
- [157]
-[158] [159]
+ [165]
+[166] [167]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 226.
 
-<Figures/chap4/Stakeholder_Map_v2.jpg, id=3976, 1085.05376pt x 875.27pt>
+<Figures/chap4/Stakeholder_Map_v2.jpg, id=4076, 1085.05376pt x 875.27pt>
 File: Figures/chap4/Stakeholder_Map_v2.jpg Graphic file (type jpg)
 <use Figures/chap4/Stakeholder_Map_v2.jpg>
 Package pdftex.def Info: Figures/chap4/Stakeholder_Map_v2.jpg  used on input li
@@ -1927,13 +1914,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 254.
 
-[160]
+[168]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 260.
 
-[161 <./Figures/chap4/Stakeholder_Map_v2.jpg>]
-<Figures/chap4/MangroveModelFlow.png, id=3992, 1391.1975pt x 839.135pt>
+[169 <./Figures/chap4/Stakeholder_Map_v2.jpg>]
+<Figures/chap4/MangroveModelFlow.png, id=4093, 1391.1975pt x 839.135pt>
 File: Figures/chap4/MangroveModelFlow.png Graphic file (type png)
 <use Figures/chap4/MangroveModelFlow.png>
 Package pdftex.def Info: Figures/chap4/MangroveModelFlow.png  used on input lin
@@ -1942,7 +1929,7 @@ e 292.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
+ [170]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 298.
@@ -1962,7 +1949,7 @@ although it is yet undefined on input line 305.
 Package acronym Info: Label `acro:srtm' newly defined as it shall be overridden
 
 although it is yet undefined on input line 305.
-[163 <./Figures/chap4/MangroveModelFlow.png>]
+[171 <./Figures/chap4/MangroveModelFlow.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 309.
@@ -1974,8 +1961,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
 Package acronym Info: Label `acro:oli' newly defined as it shall be overridden
 although it is yet undefined on input line 313.
-[164]
-<Figures/chap4/guaratiba_extent.png, id=4048, 929.4725pt x 575.14874pt>
+[172]
+<Figures/chap4/guaratiba_extent.png, id=4147, 929.4725pt x 575.14874pt>
 File: Figures/chap4/guaratiba_extent.png Graphic file (type png)
 <use Figures/chap4/guaratiba_extent.png>
 Package pdftex.def Info: Figures/chap4/guaratiba_extent.png  used on input line
@@ -1996,17 +1983,17 @@ Package acronym Info: Label `acro:ndvi' newly defined as it shall be overridden
 although it is yet undefined on input line 330.
 Package acronym Info: Label `acro:nir' newly defined as it shall be overridden
 although it is yet undefined on input line 330.
-[165 <./Figures/chap4/guaratiba_extent.png>]
-<Figures/chap4/guaratiba_ndvi.png, id=4071, 759.83875pt x 479.7925pt>
+[173 <./Figures/chap4/guaratiba_extent.png>]
+<Figures/chap4/guaratiba_ndvi.png, id=4171, 759.83875pt x 479.7925pt>
 File: Figures/chap4/guaratiba_ndvi.png Graphic file (type png)
 <use Figures/chap4/guaratiba_ndvi.png>
 Package pdftex.def Info: Figures/chap4/guaratiba_ndvi.png  used on input line 3
 39.
 (pdftex.def)             Requested size: 210.70462pt x 133.04515pt.
- [166 <./Figures/chap4/guaratiba_ndvi.png>]
+ [174 <./Figures/chap4/guaratiba_ndvi.png>]
 Package acronym Info: Label `acro:gee' newly defined as it shall be overridden
 although it is yet undefined on input line 353.
-<Figures/chap4/guaratiba_anomaly.png, id=4097, 928.46875pt x 538.01pt>
+<Figures/chap4/guaratiba_anomaly.png, id=4197, 928.46875pt x 538.01pt>
 File: Figures/chap4/guaratiba_anomaly.png Graphic file (type png)
 <use Figures/chap4/guaratiba_anomaly.png>
 Package pdftex.def Info: Figures/chap4/guaratiba_anomaly.png  used on input lin
@@ -2024,7 +2011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
 Package acronym Info: Label `acro:agb' newly defined as it shall be overridden
 although it is yet undefined on input line 364.
-[167 <./Figures/chap4/guaratiba_anomaly.png>]
+[175 <./Figures/chap4/guaratiba_anomaly.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 368.
@@ -2034,12 +2021,12 @@ Package acronym Info: Label `acro:ibge' newly defined as it shall be overridden
 although it is yet undefined on input line 372.
 Package acronym Info: Label `acro:ipm' newly defined as it shall be overridden
 although it is yet undefined on input line 372.
-[168]
+[176]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 385.
 
-[169]
+[177]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 397.
@@ -2064,7 +2051,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 436.
 
-[170]
+[178]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 456.
@@ -2077,7 +2064,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 462.
 
-<Figures/chap4/concept_flow.jpg, id=4173, 1665.22125pt x 1461.46pt>
+<Figures/chap4/concept_flow.jpg, id=4272, 1665.22125pt x 1461.46pt>
 File: Figures/chap4/concept_flow.jpg Graphic file (type jpg)
 <use Figures/chap4/concept_flow.jpg>
 Package pdftex.def Info: Figures/chap4/concept_flow.jpg  used on input line 472
@@ -2087,13 +2074,13 @@ Package pdftex.def Info: Figures/chap4/concept_flow.jpg  used on input line 472
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 477.
 
-[171]
+[179]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 483.
 
-[172 <./Figures/chap4/concept_flow.jpg>]
-<Figures/chap4/Method_Flowchart.png, id=4189, 1733.47626pt x 819.06pt>
+[180 <./Figures/chap4/concept_flow.jpg>]
+<Figures/chap4/Method_Flowchart.png, id=4289, 1733.47626pt x 819.06pt>
 File: Figures/chap4/Method_Flowchart.png Graphic file (type png)
 <use Figures/chap4/Method_Flowchart.png>
 Package pdftex.def Info: Figures/chap4/Method_Flowchart.png  used on input line
@@ -2104,10 +2091,10 @@ Package pdftex.def Info: Figures/chap4/Method_Flowchart.png  used on input line
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 512.
 
-) [173 <./Figures/chap4/Method_Flowchart.png>]
+) [181 <./Figures/chap4/Method_Flowchart.png>]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [174
+ (./chap5.tex [182
 
 
 
@@ -2118,7 +2105,7 @@ Chapter 5.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 4.
 
-[175]
+[183]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 18.
@@ -2144,14 +2131,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [176]
-<Figures/chap5/vida_map.png, id=4252, 2509.375pt x 1119.18124pt>
+ [184]
+<Figures/chap5/vida_map.png, id=4352, 2509.375pt x 1119.18124pt>
 File: Figures/chap5/vida_map.png Graphic file (type png)
 <use Figures/chap5/vida_map.png>
 Package pdftex.def Info: Figures/chap5/vida_map.png  used on input line 41.
 (pdftex.def)             Requested size: 387.00153pt x 172.60036pt.
 
-[177 <./Figures/chap5/vida_map.png>]
+[185 <./Figures/chap5/vida_map.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 50.
@@ -2196,7 +2183,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 78.
 
-<Figures/chap5/architecture.png, id=4266, 909.3975pt x 510.90875pt>
+<Figures/chap5/architecture.png, id=4366, 909.3975pt x 510.90875pt>
 File: Figures/chap5/architecture.png Graphic file (type png)
 <use Figures/chap5/architecture.png>
 Package pdftex.def Info: Figures/chap5/architecture.png  used on input line 82.
@@ -2205,7 +2192,7 @@ Package pdftex.def Info: Figures/chap5/architecture.png  used on input line 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [178]
+ [186]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 87.
@@ -2214,7 +2201,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 89.
 
-<Figures/chap5/Vida_Flowchart_v2.jpg, id=4273, 1649.16125pt x 588.1975pt>
+<Figures/chap5/Vida_Flowchart_v2.jpg, id=4372, 1649.16125pt x 588.1975pt>
 File: Figures/chap5/Vida_Flowchart_v2.jpg Graphic file (type jpg)
 <use Figures/chap5/Vida_Flowchart_v2.jpg>
 Package pdftex.def Info: Figures/chap5/Vida_Flowchart_v2.jpg  used on input lin
@@ -2223,7 +2210,7 @@ e 93.
 
 Underfull \vbox (badness 4467) has occurred while \output is active []
 
- [179 <./Figures/chap5/architecture.png>]
+ [187 <./Figures/chap5/architecture.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 98.
@@ -2232,22 +2219,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 101.
 
-[180 <./Figures/chap5/Vida_Flowchart_v2.jpg>]
-<Figures/chap5/nightlights_method.png, id=4292, 2509.375pt x 1266.7325pt>
+[188 <./Figures/chap5/Vida_Flowchart_v2.jpg>]
+<Figures/chap5/nightlights_method.png, id=4393, 2509.375pt x 1266.7325pt>
 File: Figures/chap5/nightlights_method.png Graphic file (type png)
 <use Figures/chap5/nightlights_method.png>
 Package pdftex.def Info: Figures/chap5/nightlights_method.png  used on input li
 ne 110.
 (pdftex.def)             Requested size: 387.00153pt x 195.35574pt.
- [181 <./Figures/chap5/nightlights_method.png>]
+ [189 <./Figures/chap5/nightlights_method.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 119.
 
 Package acronym Info: Label `acro:sir' newly defined as it shall be overridden
 although it is yet undefined on input line 121.
-[182]
-<Figures/chap5/SD_diagram.jpg, id=4321, 1407.2575pt x 978.65625pt>
+[190]
+<Figures/chap5/SD_diagram.jpg, id=4421, 1407.2575pt x 978.65625pt>
 File: Figures/chap5/SD_diagram.jpg Graphic file (type jpg)
 <use Figures/chap5/SD_diagram.jpg>
 Package pdftex.def Info: Figures/chap5/SD_diagram.jpg  used on input line 129.
@@ -2257,11 +2244,11 @@ Package pdftex.def Info: Figures/chap5/SD_diagram.jpg  used on input line 129.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 135.
 
-[183 <./Figures/chap5/SD_diagram.jpg>]
+[191 <./Figures/chap5/SD_diagram.jpg>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/chap5/ships.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/chap5/ships.pdf, id=4331, 1084.05pt x 325.215pt>
+<Figures/chap5/ships.pdf, id=4431, 1084.05pt x 325.215pt>
 File: Figures/chap5/ships.pdf Graphic file (type pdf)
 <use Figures/chap5/ships.pdf>
 Package pdftex.def Info: Figures/chap5/ships.pdf  used on input line 143.
@@ -2270,7 +2257,7 @@ Package pdftex.def Info: Figures/chap5/ships.pdf  used on input line 143.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 151.
 
-[184 <./Figures/chap5/ships.pdf>]
+[192 <./Figures/chap5/ships.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 157.
@@ -2283,7 +2270,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 163.
 
-<Figures/chap5/pm10.png, id=4352, 1233.10687pt x 691.08188pt>
+<Figures/chap5/pm10.png, id=4452, 1233.10687pt x 691.08188pt>
 File: Figures/chap5/pm10.png Graphic file (type png)
 <use Figures/chap5/pm10.png>
 Package pdftex.def Info: Figures/chap5/pm10.png  used on input line 169.
@@ -2291,8 +2278,8 @@ Package pdftex.def Info: Figures/chap5/pm10.png  used on input line 169.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[185]
-<Figures/chap5/Nightlights_TS.png, id=4364, 1785.67125pt x 1167.36125pt>
+[193]
+<Figures/chap5/Nightlights_TS.png, id=4465, 1785.67125pt x 1167.36125pt>
 File: Figures/chap5/Nightlights_TS.png Graphic file (type png)
 <use Figures/chap5/Nightlights_TS.png>
 Package pdftex.def Info: Figures/chap5/Nightlights_TS.png  used on input line 1
@@ -2302,7 +2289,7 @@ Package pdftex.def Info: Figures/chap5/Nightlights_TS.png  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/chap5/RioNightStats.jpg, id=4365, 928.46875pt x 274.02374pt>
+<Figures/chap5/RioNightStats.jpg, id=4466, 928.46875pt x 274.02374pt>
 File: Figures/chap5/RioNightStats.jpg Graphic file (type jpg)
 <use Figures/chap5/RioNightStats.jpg>
 Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 18
@@ -2311,9 +2298,9 @@ Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 18
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [186 <./Figures/chap5/pm10.PNG>] [187 <./Figures/chap5/Nightlights_TS.png> <./
+ [194 <./Figures/chap5/pm10.PNG>] [195 <./Figures/chap5/Nightlights_TS.png> <./
 Figures/chap5/RioNightStats.jpg>]
-<Figures/chap5/Nightlights_Graphs.png, id=4378, 1146.2825pt x 1537.745pt>
+<Figures/chap5/Nightlights_Graphs.png, id=4477, 1146.2825pt x 1537.745pt>
 File: Figures/chap5/Nightlights_Graphs.png Graphic file (type png)
 <use Figures/chap5/Nightlights_Graphs.png>
 Package pdftex.def Info: Figures/chap5/Nightlights_Graphs.png  used on input li
@@ -2327,12 +2314,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [188 <./Figures/chap5/Nightlights_Graphs.png>]
+ [196 <./Figures/chap5/Nightlights_Graphs.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 208.
 
-<Figures/chap5/Mobility-Graphs.jpg, id=4389, 1009.7725pt x 867.24pt>
+<Figures/chap5/Mobility-Graphs.jpg, id=4488, 1009.7725pt x 867.24pt>
 File: Figures/chap5/Mobility-Graphs.jpg Graphic file (type jpg)
 <use Figures/chap5/Mobility-Graphs.jpg>
 Package pdftex.def Info: Figures/chap5/Mobility-Graphs.jpg  used on input line 
@@ -2341,7 +2328,7 @@ Package pdftex.def Info: Figures/chap5/Mobility-Graphs.jpg  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/chap5/ships_over_time.png, id=4391, 506.985pt x 322.806pt>
+<Figures/chap5/ships_over_time.png, id=4490, 506.985pt x 322.806pt>
 File: Figures/chap5/ships_over_time.png Graphic file (type png)
 <use Figures/chap5/ships_over_time.png>
 Package pdftex.def Info: Figures/chap5/ships_over_time.png  used on input line 
@@ -2362,15 +2349,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 234.
 
-[189] [190 <./Figures/chap5/Mobility-Graphs.jpg>] [191 <./Figures/chap5/ships_o
+[197] [198 <./Figures/chap5/Mobility-Graphs.jpg>] [199 <./Figures/chap5/ships_o
 ver_time.png>]
-<Figures/chap5/VidaDesktopScreenshot.jpg, id=4412, 1373.13pt x 721.69624pt>
+<Figures/chap5/VidaDesktopScreenshot.jpg, id=4513, 1373.13pt x 721.69624pt>
 File: Figures/chap5/VidaDesktopScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaDesktopScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaDesktopScreenshot.jpg  used on input
  line 250.
 (pdftex.def)             Requested size: 365.50655pt x 192.09653pt.
-<Figures/chap5/VidaBlueScreenshot.jpg, id=4413, 929.4725pt x 456.70625pt>
+<Figures/chap5/VidaBlueScreenshot.jpg, id=4514, 929.4725pt x 456.70625pt>
 File: Figures/chap5/VidaBlueScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaBlueScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaBlueScreenshot.jpg  used on input li
@@ -2384,17 +2371,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 262.
 
-[192 <./Figures/chap5/VidaDesktopScreenshot.jpg>]
+[200 <./Figures/chap5/VidaDesktopScreenshot.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 268.
 
-[193 <./Figures/chap5/VidaBlueScreenshot.jpg>]
+[201 <./Figures/chap5/VidaBlueScreenshot.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 285.
 
-) [194]
+) [202]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
@@ -2403,7 +2390,7 @@ Chapter 6.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1.
 
-<Figures/chap6/EOChain.jpg, id=4442, 813.0375pt x 377.41pt>
+<Figures/chap6/EOChain.jpg, id=4542, 813.0375pt x 377.41pt>
 File: Figures/chap6/EOChain.jpg Graphic file (type jpg)
 <use Figures/chap6/EOChain.jpg>
 Package pdftex.def Info: Figures/chap6/EOChain.jpg  used on input line 9.
@@ -2416,7 +2403,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 18.
 
-) [195
+) [203
 
 
 
@@ -2424,7 +2411,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
  <./Figures/chap6/EOChain.jpg>]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [196
+ (./chap7.tex [204
 
 
 
@@ -2439,10 +2426,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 5.
 
-) [197]
+) [205]
 \openout2 = `appa.aux'.
 
- (./appa.tex [198
+ (./appa.tex [206
 
 
 
@@ -2453,10 +2440,10 @@ Appendix A.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1.
 
-[199] [200] [201] [202] [203])
+[207] [208] [209] [210] [211])
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl [204
+ (./biblio.tex (./main.bbl [212
 
 
 
@@ -2474,18 +2461,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
 rategy-
  []
 
-[205]
+[213]
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 []\T1/cmr/m/n/12 Definition of sus-tain-able | Dic-tio-nary.com.
  []
 
-[206]
+[214]
 Underfull \hbox (badness 1112) in paragraph at lines 140--149
 []\T1/cmr/m/n/12 Johan Rock-ström, Will Stef-fen, Kevin Noone, Åsa Pers-son, F.
  Stu-art
  []
 
-[207] [208]
+[215] [216]
 Underfull \hbox (badness 1412) in paragraph at lines 276--280
 []\T1/cmr/m/n/12 Systems En-gi-neer-ing Body of Knowl-edge.  Sys-tems En-gi-nee
 r-ing (glos-
@@ -2507,7 +2494,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--306
 \T1/cmr/m/n/12 EN-VI-RON-MENT FOR A FU-TURE RE-SOURCE ECON-OMY IN
  []
 
-[209]
+[217]
 Underfull \hbox (badness 10000) in paragraph at lines 350--353
 []\T1/cmr/m/n/12 Group on Earth Ob-ser-va-tions.  GEO at a Glance.
  []
@@ -2517,7 +2504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--364
 []\T1/cmr/m/n/12 Greg Shi-rah.  NASA's Earth Ob-serv-ing Fleet: March 2017.
  []
 
-[210] [211]
+[218] [219]
 Underfull \hbox (badness 10000) in paragraph at lines 470--474
 []\T1/cmr/m/n/12 NASA Jet Propul-sion Lab-o-ra-tory.  Satel-lite Radar De-
  []
@@ -2545,19 +2532,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 476--482
 ta-of-puerto-
  []
 
-[212] [213] [214] [215] [216]
+[220] [221] [222] [223] [224]
 Underfull \hbox (badness 1360) in paragraph at lines 842--848
 []\T1/cmr/m/n/12 Arpit Verma.  Ubuntu Linux is the Most Pop-u-lar Op-er-at-ing 
 Sys-tem
  []
 
-[217] [218]
+[225] [226]
 Underfull \hbox (badness 10000) in paragraph at lines 984--989
 \T1/cmr/m/n/12 https://www.project-syndicate.org/commentary/five-reasons-for-op
 timism-in-
  []
 
-[219] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229]
+[227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237]
 Underfull \hbox (badness 10000) in paragraph at lines 1753--1756
 []\T1/cmr/m/n/12 Data de-pri-va-tion : An-other de-pri-va-tion to end.
  []
@@ -2573,7 +2560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1753--1756
 er-
  []
 
-[230]
+[238]
 Underfull \hbox (badness 10000) in paragraph at lines 1783--1786
 []\T1/cmr/m/n/12 Bottlenecks Block-ing Widespread Us-age of Plan-ning Sup-port
  []
@@ -2583,111 +2570,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 1783--1786
 \T1/cmr/m/n/12 Sys-tems - Guido Vonk, Stan Geert-man, Paul Schot, 2005.
  []
 
-[231] [232] [233] [234] [235] [236]
-Underfull \hbox (badness 1270) in paragraph at lines 2213--2218
+[239] [240] [241] [242] [243] [244]
+Underfull \hbox (badness 1270) in paragraph at lines 2220--2225
 []\T1/cmr/m/n/12 Instituto Pereira Pas-sos| Data Rio.  Regiões de Plane-ja-ment
 o - In-di-
  []
 
-[237]
-Underfull \hbox (badness 10000) in paragraph at lines 2284--2290
+[245]
+Underfull \hbox (badness 10000) in paragraph at lines 2291--2297
 \T1/cmr/m/n/12 cariocas-a-utilizar-plataforma-para-plano-de-desenvolvimento-sus
 tentavel/,
  []
 
-[238]
-Underfull \hbox (badness 7759) in paragraph at lines 2325--2329
+[246]
+Underfull \hbox (badness 7759) in paragraph at lines 2332--2336
 []\T1/cmr/m/n/12 Cerianne Robert-son.  The Re-sults Are In: Costly Mega-Event
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 2325--2329
+Underfull \hbox (badness 5288) in paragraph at lines 2332--2336
 \T1/cmr/m/n/12 Trans-port Projects Did Not Ex-pand Mo-bil-ity, Ad-dress In-equa
 l-i-ties.
  []
 
-[239]
-Underfull \hbox (badness 5652) in paragraph at lines 2371--2377
+[247]
+Underfull \hbox (badness 5652) in paragraph at lines 2378--2384
 []\T1/cmr/m/n/12 Jennifer Chisholm.  Who's in-vad-ing whom? The com-plex bat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2377
+Underfull \hbox (badness 10000) in paragraph at lines 2378--2384
 \T1/cmr/m/n/12 tle for Rio de Janeiro's in-for-mal set-tle-ments on fed-eral la
 nd.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2377
+Underfull \hbox (badness 10000) in paragraph at lines 2378--2384
 \T1/cmr/m/n/12 https://blogs.lse.ac.uk/latamcaribbean/2017/11/14/whos-invading-
 whom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2377
+Underfull \hbox (badness 10000) in paragraph at lines 2378--2384
 \T1/cmr/m/n/12 the-complex-battle-for-rio-de-janeiros-informal-settlements-on-f
 ederal-land/,
  []
 
-[240]
-Underfull \hbox (badness 1043) in paragraph at lines 2441--2445
+[248]
+Underfull \hbox (badness 1043) in paragraph at lines 2448--2452
 \T1/cmr/m/n/12 CO-LAS PÚBLI-CAS EM GUARAT-IBA, RIO DE JANEIRO, US-ANDO
  []
 
-[241] [242]
-Underfull \hbox (badness 1946) in paragraph at lines 2612--2617
+[249] [250]
+Underfull \hbox (badness 1946) in paragraph at lines 2619--2624
 []\T1/cmr/m/n/12 Planet Labs PBC.  Planet An-nounces New De-tails of Hy-per-spe
 c-tral
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 2612--2617
+Underfull \hbox (badness 3068) in paragraph at lines 2619--2624
 \T1/cmr/m/n/12 Of-fer-ing.  https://www.planet.com/pulse/planet-announces-new-d
 etails-of-
  []
 
-[243] [244] [245] [246]
-Underfull \hbox (badness 10000) in paragraph at lines 2843--2846
+[251] [252] [253] [254]
+Underfull \hbox (badness 10000) in paragraph at lines 2850--2853
 []\T1/cmr/m/n/12 Google.  COVID-19 Com-mu-nity Mo-bil-ity Re-port.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2869--2874
+Underfull \hbox (badness 10000) in paragraph at lines 2876--2881
 []\T1/cmr/m/n/12 Blue Raster.  MIT-Vida Sup-port - Boston, MA.
  []
 
 
-Overfull \hbox (69.3801pt too wide) in paragraph at lines 2869--2874
+Overfull \hbox (69.3801pt too wide) in paragraph at lines 2876--2881
 \T1/cmr/m/n/12 https://blueraster.maps.arcgis.com/apps/dashboards/2475062b48dc4
 10195ee9955c178b2b0,
  []
 
-[247]
-Underfull \hbox (badness 1199) in paragraph at lines 2886--2890
+[255]
+Underfull \hbox (badness 1199) in paragraph at lines 2893--2897
 []\T1/cmr/m/n/12 Melissa Gar-ber, Shahram Sarkani, and Thomas A. Maz-zuchi.  Mu
 lti-
  []
 
-)) [248] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+)) [256] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./appa.aux) (./biblio.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C70401BA50125116DA280CA2B6A1F237;28071.
+(rerunfilecheck)             Checksum: 86550772F957E0DD544B86786ABE4C2C;28537.
  )
 (\end occurred when \ifx on line 104 was incomplete) 
 Here is how much of TeX's memory you used:
- 21642 strings out of 480129
- 452408 string characters out of 5893409
- 702752 words of memory out of 5000000
- 37879 multiletter control sequences out of 15000+600000
+ 21661 strings out of 480129
+ 452704 string characters out of 5893409
+ 703927 words of memory out of 5000000
+ 37887 multiletter control sequences out of 15000+600000
  489323 words of font info for 64 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 71i,15n,77p,2802b,2804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,15n,77p,2802b,2808s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive20
 21/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/jackreid/.texli
 ve2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/jackreid/.t
-exlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/jackrei
-d/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/jac
+exlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/jackrei
+d/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/jac
 kreid/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home
 /jackreid/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.600pk> </
 home/jackreid/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk
@@ -2715,10 +2702,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (248 pages, 28671385 bytes).
+Output written on main.pdf (256 pages, 28688476 bytes).
 PDF statistics:
- 6072 PDF objects out of 6186 (max. 8388607)
- 4696 compressed objects within 47 object streams
- 1243 named destinations out of 1440 (max. 500000)
- 1336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6179 PDF objects out of 6186 (max. 8388607)
+ 4789 compressed objects within 48 object streams
+ 1254 named destinations out of 1440 (max. 500000)
+ 1352 words of extra memory for PDF output out of 10000 (max. 10000000)
 

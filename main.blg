@@ -13,7 +13,7 @@ A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 15442 items from 5000.
+Reallocated field_info (elt_size=4) to 15465 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -41,45 +41,45 @@ Warning--there's a number but no volume in castroOSDESAFIOSPLANEJAMENTO2012
 Warning--there's a number but no volume in vicenteAvaliacaoHidrogeologicaRegioes2010
 Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty institution in xuModestImpactWeather2020
-You've used 454 entries,
+You've used 455 entries,
             1791 wiz_defined-function locations,
-            3149 strings with 113574 characters,
-and the built_in function-call counts, 99978 in all, are:
-= -- 9010
-> -- 4395
+            3155 strings with 113839 characters,
+and the built_in function-call counts, 100182 in all, are:
+= -- 9026
+> -- 4409
 < -- 76
-+ -- 1672
-- -- 1218
-* -- 6751
-:= -- 15960
-add.period$ -- 1407
-call.type$ -- 454
-change.case$ -- 450
++ -- 1677
+- -- 1222
+* -- 6766
+:= -- 15994
+add.period$ -- 1410
+call.type$ -- 455
+change.case$ -- 451
 chr.to.int$ -- 0
-cite$ -- 479
-duplicate$ -- 4599
-empty$ -- 9898
-format.name$ -- 1218
-if$ -- 22294
+cite$ -- 480
+duplicate$ -- 4609
+empty$ -- 9917
+format.name$ -- 1222
+if$ -- 22340
 int.to.chr$ -- 0
-int.to.str$ -- 454
-missing$ -- 414
-newline$ -- 2256
-num.names$ -- 524
-pop$ -- 1437
+int.to.str$ -- 455
+missing$ -- 416
+newline$ -- 2261
+num.names$ -- 525
+pop$ -- 1442
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1927
+skip$ -- 1929
 stack$ -- 0
 substring$ -- 5600
-swap$ -- 938
+swap$ -- 939
 text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 984
-width$ -- 457
-write$ -- 5004
+while$ -- 985
+width$ -- 458
+write$ -- 5016
 (There were 25 warnings)
