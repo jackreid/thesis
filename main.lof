@@ -29,35 +29,36 @@
 \contentsline {figure}{\numberline {3-12}{\ignorespaces Three example EVDT research configurations}}{145}{figure.3.12}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4-1}{\ignorespaces RAs of Rio de Janeiro. Guaratiba in blue and includes the barrios 151-153.}}{152}{figure.4.1}%
-\contentsline {figure}{\numberline {4-2}{\ignorespaces Favela Relocation Locations under MCMV between 2009 and 2013}}{156}{figure.4.2}%
-\contentsline {figure}{\numberline {4-3}{\ignorespaces Comparison of MCMV housing units and access to major employment centers.}}{157}{figure.4.3}%
-\contentsline {figure}{\numberline {4-4}{\ignorespaces Olympic-related transportation expansions and proximity to environmental protection areas}}{158}{figure.4.4}%
-\contentsline {figure}{\numberline {4-5}{\ignorespaces Mangrove extent in the greater Rio de Janeiro area in 2018}}{162}{figure.4.5}%
-\contentsline {figure}{\numberline {4-6}{\ignorespaces Change in Guaratiba area mangrove health from 2000 to 2018}}{163}{figure.4.6}%
-\contentsline {figure}{\numberline {4-7}{\ignorespaces Map of RBAG and nearby urbanization}}{164}{figure.4.7}%
-\contentsline {figure}{\numberline {4-8}{\ignorespaces Stakeholder Map for the Mangrove Forests of Rio de Janeiro}}{169}{figure.4.8}%
-\contentsline {figure}{\numberline {4-9}{\ignorespaces EVDT Model (Rio de Janeiro Mangrove Forest Case)}}{171}{figure.4.9}%
-\contentsline {figure}{\numberline {4-10}{\ignorespaces Classification of mangrove extent in western Rio de Janeiro for the year 2018}}{173}{figure.4.10}%
-\contentsline {figure}{\numberline {4-11}{\ignorespaces False-Color image of area of interest showing an NDVI composite}}{174}{figure.4.11}%
-\contentsline {figure}{\numberline {4-12}{\ignorespaces False-Color image depicting NDVI mean anomaly}}{175}{figure.4.12}%
-\contentsline {figure}{\numberline {4-13}{\ignorespaces Two potential user experience concepts for the Rio de Janeiro case study}}{180}{figure.4.13}%
-\contentsline {figure}{\numberline {4-14}{\ignorespaces Flowchart indicated various ways of estimating causal impact of one EVDT component on another}}{181}{figure.4.14}%
+\contentsline {figure}{\numberline {4-2}{\ignorespaces Favela Relocation Locations under MCMV between 2009 and 2013}}{158}{figure.4.2}%
+\contentsline {figure}{\numberline {4-3}{\ignorespaces Comparison of MCMV housing units and access to major employment centers.}}{159}{figure.4.3}%
+\contentsline {figure}{\numberline {4-4}{\ignorespaces Olympic-related transportation expansions and proximity to environmental protection areas}}{160}{figure.4.4}%
+\contentsline {figure}{\numberline {4-5}{\ignorespaces Mangrove extent in the greater Rio de Janeiro area in 2018}}{163}{figure.4.5}%
+\contentsline {figure}{\numberline {4-6}{\ignorespaces Change in Guaratiba area mangrove health from 2000 to 2018}}{164}{figure.4.6}%
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Map of RBAG and nearby urbanization}}{165}{figure.4.7}%
+\contentsline {figure}{\numberline {4-8}{\ignorespaces Stakeholder Map for the Mangrove Forests of Rio de Janeiro}}{170}{figure.4.8}%
+\contentsline {figure}{\numberline {4-9}{\ignorespaces EVDT Model (Rio de Janeiro Mangrove Forest Case)}}{172}{figure.4.9}%
+\contentsline {figure}{\numberline {4-10}{\ignorespaces Classification of mangrove extent in western Rio de Janeiro for the year 2018}}{174}{figure.4.10}%
+\contentsline {figure}{\numberline {4-11}{\ignorespaces False-Color image of area of interest showing an NDVI composite}}{175}{figure.4.11}%
+\contentsline {figure}{\numberline {4-12}{\ignorespaces False-Color image depicting NDVI mean anomaly}}{177}{figure.4.12}%
+\contentsline {figure}{\numberline {4-13}{\ignorespaces Two potential user experience concepts for the Rio de Janeiro case study}}{182}{figure.4.13}%
+\contentsline {figure}{\numberline {4-14}{\ignorespaces Flowchart indicated various ways of estimating causal impact of one EVDT component on another}}{183}{figure.4.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5-1}{\ignorespaces Metropolitan areas participating in the Vida DSS International Network}}{185}{figure.5.1}%
-\contentsline {figure}{\numberline {5-2}{\ignorespaces The high-level functional systems architecture of the Vida \ac {dss}.}}{187}{figure.5.2}%
-\contentsline {figure}{\numberline {5-3}{\ignorespaces The Vida Variant of the EVDT Model}}{188}{figure.5.3}%
-\contentsline {figure}{\numberline {5-4}{\ignorespaces Nightlights Processing Methodology}}{189}{figure.5.4}%
-\contentsline {figure}{\numberline {5-5}{\ignorespaces Current version of the Vida SIR system dynamics model}}{191}{figure.5.5}%
-\contentsline {figure}{\numberline {5-6}{\ignorespaces Ships identification process}}{192}{figure.5.6}%
-\contentsline {figure}{\numberline {5-7}{\ignorespaces Changes in PM10 in Rio de Janeiro}}{194}{figure.5.7}%
-\contentsline {figure}{\numberline {5-8}{\ignorespaces Changes in nightlights in Rio de Janeiro}}{195}{figure.5.8}%
-\contentsline {figure}{\numberline {5-9}{\ignorespaces Nightlight Statistics for Rio de Janeiro}}{195}{figure.5.9}%
-\contentsline {figure}{\numberline {5-10}{\ignorespaces Nightlight Trends for Rio de Janeiro and Bali}}{196}{figure.5.10}%
-\contentsline {figure}{\numberline {5-11}{\ignorespaces Mobility, coronavirus cases, and policy changes in Rio de Janeiro}}{198}{figure.5.11}%
-\contentsline {figure}{\numberline {5-12}{\ignorespaces Ship presence over time for the Luanda area.}}{199}{figure.5.12}%
-\contentsline {figure}{\numberline {5-13}{\ignorespaces Prototype of the desktop version of the Vida user interface for Rio de Janeiro.}}{200}{figure.5.13}%
-\contentsline {figure}{\numberline {5-14}{\ignorespaces Prototype of the online version of the Vida user interface for Boston.}}{201}{figure.5.14}%
+\contentsline {figure}{\numberline {5-1}{\ignorespaces Metropolitan areas participating in the Vida DSS International Network}}{187}{figure.5.1}%
+\contentsline {figure}{\numberline {5-2}{\ignorespaces The high-level functional systems architecture of the Vida \ac {dss}.}}{189}{figure.5.2}%
+\contentsline {figure}{\numberline {5-3}{\ignorespaces The Vida Variant of the EVDT Model}}{191}{figure.5.3}%
+\contentsline {figure}{\numberline {5-4}{\ignorespaces Nightlights Processing Methodology}}{192}{figure.5.4}%
+\contentsline {figure}{\numberline {5-5}{\ignorespaces Current version of the Vida SIR system dynamics model}}{194}{figure.5.5}%
+\contentsline {figure}{\numberline {5-6}{\ignorespaces Ships identification process}}{195}{figure.5.6}%
+\contentsline {figure}{\numberline {5-7}{\ignorespaces Changes in PM10 in Rio de Janeiro}}{197}{figure.5.7}%
+\contentsline {figure}{\numberline {5-8}{\ignorespaces Changes in nightlights in Rio de Janeiro}}{198}{figure.5.8}%
+\contentsline {figure}{\numberline {5-9}{\ignorespaces Nightlight Statistics for Rio de Janeiro}}{198}{figure.5.9}%
+\contentsline {figure}{\numberline {5-10}{\ignorespaces Nightlight Trends for Rio de Janeiro and Bali}}{199}{figure.5.10}%
+\contentsline {figure}{\numberline {5-11}{\ignorespaces Mobility, coronavirus cases, and policy changes in Rio de Janeiro}}{201}{figure.5.11}%
+\contentsline {figure}{\numberline {5-12}{\ignorespaces Ship presence over time for the Luanda area.}}{202}{figure.5.12}%
+\contentsline {figure}{\numberline {5-13}{\ignorespaces Prototype of the desktop version of the Vida user interface for Rio de Janeiro.}}{203}{figure.5.13}%
+\contentsline {figure}{\numberline {5-14}{\ignorespaces Prototype of the online version of the Vida user interface for Boston.}}{204}{figure.5.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6-1}{\ignorespaces Generic Earth Observation Data Value Chain}}{203}{figure.6.1}%
+\contentsline {figure}{\numberline {6-1}{\ignorespaces Generic Earth Observation Data Value Chain}}{207}{figure.6.1}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

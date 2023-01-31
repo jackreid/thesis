@@ -34,7 +34,18 @@ The following subsections work through the six steps of the \ac{saf} originally 
 
 \subsubsection{\hlc[cyan]{System Context}}
 
-As the coronavirus pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Modeling Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, coronavirus impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas across Angola, Brazil, Chile, Indonesia, Mexico, and the United States, as seen in Figure \ref{fig:vida_map}. In each of these areas, Vida was developed in collaboration with local government officials, university researchers, and general community members. 
+As the coronavirus pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Modeling Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, coronavirus impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas:
+
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+    \item{Luanda, Angola}
+    \item Rio de Janeiro, Brazil
+    \item Región Metropolitana de Santiago, Chile
+    \item{Java \& Sulawesi, Indonesia}
+    \item{Querétaro de Arteaga, Mexico}
+    \item{Boston, USA}
+\end{enumerate}
+
+These are shown in Figure \ref{fig:vida_map}. In each of these areas, Vida was developed in collaboration with local government officials, university researchers, and general community members. 
 
 \begin{figure}[h]
 	\centering
@@ -49,11 +60,11 @@ Whereas the first case study focuses on simulating the changes in mangrove fores
 
 \subsubsection{\hlc[yellow]{Analyze System Stakeholders}}
 
-The Technical Area Experts on this project included researchers from Harvard Medical School and \ac{nasa} Goddard Space Flight Center. Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The full list of Technical Area Experts and Local Area Experts are shown in Table [**insert table number] The intended Users are those same individuals as well as the various public health agencies / task forces that they are affiliated with.  Participation in the Vida \ac{dss} International Network was directed at two ends: (1) development of the Vida \ac{dss} to conduct analyses and presentations that can inform pandemic response; and (2) sharing more general information and resources among the participants for responding to the pandemic.
+The Technical Area Experts on this project included researchers from Harvard Medical School and \ac{nasa} Goddard Space Flight Center. Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The full list of Technical Area Experts and Local Area Experts are shown in Table [**insert table number] The intended Users are those same individuals as well as the various public health agencies / task forces that they are affiliated with.  Participation in the Vida \ac{dss} International Network was directed at two ends: (1) development of the Vida \ac{dss} to conduct analyses and presentations that can inform pandemic response; and (2) sharing more general information and resources among the participants for responding to the pandemic \cite{lombardoDesigningDecisionSupport2020}.
 
 [** insert table listing all experts]]
 
-Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes.
+%Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes.
 
 The Network is constituted by a mix of academic researchers, government officials, and private consultants, chosen for both their field-specific expertise and their familiarity with one or more of these locations of interest.
 
@@ -68,6 +79,11 @@ The Network is constituted by a mix of academic researchers, government official
 \subsection{\hlc[red]{SAF Results}} \label{sec:vida-saf-result}
 
 \subsubsection{\hlc[red]{System Context}}
+
+
+The second was a recognition that the impacts of and responses to the pandemic can be characterized as a complex system, thus warrenting the kind of multidisciplinary, model-based approach of which \ac{evdt} is an example \cite{deweckHandlingCOVID192020}.
+
+
 
 \subsubsection{\hlc[red]{Analyze System Stakeholders}}
 
@@ -86,7 +102,19 @@ The Network is constituted by a mix of academic researchers, government official
 
 \subsubsection{\hlc[red]{Monitor and Evaluate Systems}}
 
-\section{\hlc[red]{EVDT Application}} \label{sec:vida-evdt}
+\section{\hlc[cyan]{EVDT Application}} \label{sec:vida-evdt}
+
+he following subsections walk through the components of the system from an \acf{evdt} perspective, detailing what models were used and the results of those models. Before proceeding though, it is worth stating what exactly each of the four components of \ac{evdt} mean for this system. The onset of the COVID-19 pandemic was an immensely significant event around the world. Thus, while it would have been possible to consider public health as a component of the Vulnerability model, in order to properly center and prioritize the public health aspects of the pandemic, a dedicated Public Health Model was added to the default \ac{evdt} arrangement, as shown in Figure \ref{fig:vida_flow}. Returning to the four questions from Section \ref{sec:evdt-questions} (plus one additional one), we ask the following:
+
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+	\item \textbf{What is happening in in public health?} How is the COVID-19 pandemic spreading through the community? What portion of the infected are being hospitalized or dying? What factors impact transmission?
+	\item \textbf{What is happening in the natural environment?} How are air quality, water quality, and nightlights being altered by pandemic-related changes in human activity? What role does weather, smog, and other aspects of the environment have on COVID-19 transmission and symptoms?
+	\item \textbf{How will humans be impacted by what is happening in the natural environment and in public health?} Who is at most risk of falling ill or suffering from severe symptoms? How are pandemic response policies affecting different populations? Do pandemic-related changes in air quality have a noticeable impact on the residents of these metropolitan areas? How are different industries impacted by such sudden changes in both supply and demand?
+	\item \textbf{What decisions are humans making in response to environmental factors and why?} What are the different forms of pandemic response measures being taken by governments, both local and national? How are individual people altering their patterns of work, shopping, and recreation?  
+	\item \textbf{What technology system can be designed to provide high quality information that supports human decision making?} What testing regime is needed to effectively reduce the spread of the virus and resultant deaths? What other data sources are useful for informing decision-making?
+\end{enumerate}
+
+We can now discuss what approaches were taken for each of these components before presenting their outcomes.
 
 \begin{figure}[H]
 	\centering
@@ -95,13 +123,14 @@ The Network is constituted by a mix of academic researchers, government official
 	\label{fig:vida_flow}
 \end{figure}
 
-\subsection{\hlc[red]{EVDT Methodology}} \label{sec:vida-evdt-method}
+\subsection{\hlc[cyan]{EVDT Methodology}} \label{sec:vida-evdt-method}
 
 
 \subsubsection{\hlc[cyan]{Environment}} \label{sec:vida-evdt-e-method}
 
+Unlike the previous case study, which focused on a particular aspect of the environment (mangroves) that had an established literature, the onset of the COVID-19 pandemic resulted in many disparate impacts on the environment in quick succession. As discussed earlier, it also was not immediately clear what topics were the highest priority to stakeholders. As a result, many areas were explored and only some pursued in detail.
 
-There are numerous environmental phenomena generated or influenced by the coronavirus pandemic. Urban nighttime lighting patterns changed and (generally) dimmed \cite{elvidgeDimmingLightsChina2020}. Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. We pursued these using both remote sensing data (Landsat and Sentinel for air and water quality estimations, VIIRS for nighttime lighting, Planet and Sentinel SAR for traffic pattern changes) and in-situ sensors (such as the Rio de Janeiro MonitorAr program's air quality sensors).
+Urban nighttime lighting patterns changed and (generally) dimmed \cite{elvidgeDimmingLightsChina2020}. Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. We pursued these using both remote sensing data (Landsat and Sentinel for air and water quality estimations, VIIRS for nighttime lighting, Planet and Sentinel SAR for traffic pattern changes) and in-situ sensors (such as the Rio de Janeiro MonitorAr program's air quality sensors).
 
 For nightlights, the VIIRS VNP46A2 dataset was used \cite{romanNASABlackMarble2018}. This dataset contains daily panchromatic (visible and NIR) imagery at at a resolution of 15 arc-seconds (approximately 450m for the locations of interest) that has been corrected for atmospheric interference and moonlight variation. It is thus well suited for examining artificial lights, such as those generated by cities. We process it by masking out clouds and water (thereby eliminating transient lights from ships) using the supplied quality flag, then taking weekly median values to reduce intraweek variation, before calculating the relative anomaly compared to the 2019 median value for each pixel, thereby standardizing comparisons across time and space. We can then compare specific pre-and-post pandemic time periods to identify changes. Further normalization can be performed by identifying any long term trend from Jan 1st, 2019 to March 1st, 2020 (the approximate start of the pandemic) and subtracting this extrapolated trend from the post-pandemic data. This methodology is summarized below in Figure \ref{fig:nightlights_method}.
 
