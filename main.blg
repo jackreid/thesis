@@ -14,7 +14,7 @@ A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 15488 items from 5000.
+Reallocated field_info (elt_size=4) to 15741 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -42,45 +42,45 @@ Warning--there's a number but no volume in castroOSDESAFIOSPLANEJAMENTO2012
 Warning--there's a number but no volume in vicenteAvaliacaoHidrogeologicaRegioes2010
 Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty institution in xuModestImpactWeather2020
-You've used 456 entries,
+You've used 467 entries,
             1791 wiz_defined-function locations,
-            3161 strings with 114262 characters,
-and the built_in function-call counts, 100442 in all, are:
-= -- 9041
-> -- 4435
+            3224 strings with 117472 characters,
+and the built_in function-call counts, 103351 in all, are:
+= -- 9283
+> -- 4613
 < -- 76
-+ -- 1686
-- -- 1230
-* -- 6786
-:= -- 16041
-add.period$ -- 1413
-call.type$ -- 456
-change.case$ -- 452
++ -- 1750
+- -- 1283
+* -- 7055
+:= -- 16525
+add.period$ -- 1446
+call.type$ -- 467
+change.case$ -- 462
 chr.to.int$ -- 0
-cite$ -- 481
-duplicate$ -- 4621
-empty$ -- 9940
-format.name$ -- 1230
-if$ -- 22396
+cite$ -- 492
+duplicate$ -- 4721
+empty$ -- 10193
+format.name$ -- 1283
+if$ -- 22999
 int.to.chr$ -- 0
-int.to.str$ -- 456
-missing$ -- 417
-newline$ -- 2266
-num.names$ -- 526
-pop$ -- 1449
+int.to.str$ -- 467
+missing$ -- 429
+newline$ -- 2321
+num.names$ -- 537
+pop$ -- 1466
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1930
+skip$ -- 1963
 stack$ -- 0
-substring$ -- 5600
-swap$ -- 940
+substring$ -- 5834
+swap$ -- 951
 text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 986
-width$ -- 459
-write$ -- 5027
+while$ -- 1016
+width$ -- 470
+write$ -- 5147
 (There were 25 warnings)

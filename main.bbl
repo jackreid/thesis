@@ -2565,25 +2565,12 @@ C.~Vancutsem, F.~Achard, J.-F. Pekel, G.~Vieilledent, S.~Carboni, D.~Simonetti,
   in the humid tropics.
 \newblock {\em Science Advances}, March 2021.
 
-\bibitem{jarvisHolefilledSRTMGlobe2008}
-A.~Jarvis, H.I. Reuter, A.~Nelson, and E.~Guevara.
-\newblock Hole-filled {{SRTM}} for the globe {{Version}} 4, available from the
-  {{CGIAR-CSI SRTM}} 90m {{Database}}.
-\newblock http://srtm.csi.cgiar.org/, 2008.
-
-\bibitem{jhonnerieRandomForestClassification2015}
-Romie Jhonnerie, Vincentius~P Siregar, Bisman Nababan, Lilik~Budi Prasetyo, and
-  Sam Wouthuyzen.
-\newblock Random forest classification for mangrove land cover mapping using
-  {{Landsat}} 5 {{TM}} and {{ALOS PALSAR}} imageries.
-\newblock {\em Procedia Environmental Sciences}, page~7, 2015.
-
-\bibitem{royCharacterizationLandsat7Landsat82016}
-D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
-  A.~Egorov.
-\newblock Characterization of {{Landsat-7}} to {{Landsat-8}} reflective
-  wavelength and normalized difference vegetation index continuity.
-\newblock {\em Remote Sensing of Environment}, 185:57--70, November 2016.
+\bibitem{shimadaNewGlobalForest2014}
+Masanobu Shimada, Takuya Itoh, Takeshi Motooka, Manabu Watanabe, Tomohiro
+  Shiraishi, Rajesh Thapa, and Richard Lucas.
+\newblock New global forest/non-forest maps from {{ALOS PALSAR}} data
+  (2007\textendash 2010).
+\newblock {\em Remote Sensing of Environment}, 155:13--31, December 2014.
 
 \bibitem{fredenMonitoringVegetationSystems1974}
 Stanley~C. Freden, Enrico~P. Mercanti, and Margaret~A. Becker.
@@ -2608,6 +2595,59 @@ Nathalie Pettorelli, Jon~Olav Vik, Atle Mysterud, Jean-Michel Gaillard,
 \newblock Using the satellite-derived {{NDVI}} to assess ecological responses
   to environmental change.
 \newblock {\em Trends in Ecology \& Evolution}, 20(9):503--510, September 2005.
+
+\bibitem{shiNewSpectralMetrics2016}
+Tiezhu Shi, Jue Liu, Zhongwen Hu, Huizeng Liu, Junjie Wang, and Guofeng Wu.
+\newblock New spectral metrics for mangrove forest identification.
+\newblock {\em Remote Sensing Letters}, 7(9):885--894, September 2016.
+
+\bibitem{xuModificationNormalisedDifference2006}
+Hanqiu Xu.
+\newblock Modification of normalised difference water index ({{NDWI}}) to
+  enhance open water features in remotely sensed imagery.
+\newblock {\em International Journal of Remote Sensing}, 27(14):3025--3033,
+  July 2006.
+
+\bibitem{jordanDerivationLeafAreaIndex1969}
+Carl~F. Jordan.
+\newblock Derivation of {{Leaf-Area Index}} from {{Quality}} of {{Light}} on
+  the {{Forest Floor}}.
+\newblock {\em Ecology}, 50(4):663--666, 1969.
+
+\bibitem{ngothiEffectiveBandRatio2019}
+Dinh Ngo~Thi, Nguyen Thi~Thu Ha, Quy Tran~Dang, Katsuaki Koike, and Nhuan
+  Mai~Trong.
+\newblock Effective {{Band Ratio}} of {{Landsat}} 8 {{Images Based}} on
+  {{VNIR-SWIR Reflectance Spectra}} of {{Topsoils}} for {{Soil Moisture
+  Mapping}} in a {{Tropical Region}}.
+\newblock {\em Remote Sensing}, 11(6):716, January 2019.
+
+\bibitem{jiTerminologySpectralVegetation2011}
+Lei Ji, Li~Zhang, Bruce~K. Wylie, and Jennifer Rover.
+\newblock On the terminology of the spectral vegetation index ({{NIR}} -
+  {{SWIR}})/({{NIR}} + {{SWIR}}).
+\newblock {\em International Journal of Remote Sensing}, 32(21):6901--6909,
+  November 2011.
+
+\bibitem{jarvisHolefilledSRTMGlobe2008}
+A.~Jarvis, H.I. Reuter, A.~Nelson, and E.~Guevara.
+\newblock Hole-filled {{SRTM}} for the globe {{Version}} 4, available from the
+  {{CGIAR-CSI SRTM}} 90m {{Database}}.
+\newblock http://srtm.csi.cgiar.org/, 2008.
+
+\bibitem{jhonnerieRandomForestClassification2015}
+Romie Jhonnerie, Vincentius~P Siregar, Bisman Nababan, Lilik~Budi Prasetyo, and
+  Sam Wouthuyzen.
+\newblock Random forest classification for mangrove land cover mapping using
+  {{Landsat}} 5 {{TM}} and {{ALOS PALSAR}} imageries.
+\newblock {\em Procedia Environmental Sciences}, page~7, 2015.
+
+\bibitem{royCharacterizationLandsat7Landsat82016}
+D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
+  A.~Egorov.
+\newblock Characterization of {{Landsat-7}} to {{Landsat-8}} reflective
+  wavelength and normalized difference vegetation index continuity.
+\newblock {\em Remote Sensing of Environment}, 185:57--70, November 2016.
 
 \bibitem{mousivandGlobalSensitivityAnalysis2014}
 Alijafar Mousivand, Massimo Menenti, Ben Gorte, and Wout Verhoef.
@@ -2656,6 +2696,40 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
   Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
 \newblock {\em Remote Sensing}, 8(4):327, April 2016.
+
+\bibitem{jennerjahnRelevanceMangrovesProduction2002}
+Tim~C. Jennerjahn and Venugopalan Ittekkot.
+\newblock Relevance of mangroves for the production and deposition of organic
+  matter along tropical continental margins.
+\newblock {\em Naturwissenschaften}, 89(1):23--30, January 2002.
+
+\bibitem{kristensenOrganicCarbonDynamics2008}
+Erik Kristensen, Steven Bouillon, Thorsten Dittmar, and Cyril Marchand.
+\newblock Organic carbon dynamics in mangrove ecosystems: {{A}} review.
+\newblock {\em Aquatic Botany}, 89(2):201--219, August 2008.
+
+\bibitem{atwoodGlobalPatternsMangrove2017}
+Trisha~B. Atwood, Rod~M. Connolly, Hanan Almahasheer, Paul~E. Carnell,
+  Carlos~M. Duarte, Carolyn~J. Ewers~Lewis, Xabier Irigoien, Jeffrey~J.
+  Kelleway, Paul~S. Lavery, Peter~I. Macreadie, Oscar Serrano, Christian~J.
+  Sanders, Isaac Santos, Andrew D.~L. Steven, and Catherine~E. Lovelock.
+\newblock Global patterns in mangrove soil carbon stocks and losses.
+\newblock {\em Nature Climate Change}, 7(7):523--528, July 2017.
+
+\bibitem{takahiko2013Supplement20062014}
+Hiraishi Takahiko, Thelma Krug, Kiyoto Tanabe, Nalin Srivastava, Baasansuren
+  Jamsranjav, Maya Fukuda, and Tiffany Troxler.
+\newblock {\em 2013 {{Supplement}} to the 2006 {{IPCC Guidelines}} for
+  {{National Greenhouse Gas Inventories}}: {{Wetlands Methodological Guidance}}
+  on {{Lands}} with {{Wet}} and {{Drained Soils}}, and {{Constructed Wetlands}}
+  for {{Wastewater Treatment}}}.
+\newblock {IPCC}, 2014.
+
+\bibitem{lacerda1992carbon}
+LD~Lacerda.
+\newblock Carbon burial in mangrove sediments, a potential source of carbon to
+  the sea during events of sea level change.
+\newblock {\em Paleoclimatic changes and the carbon cycle}, 1:107--114, 1992.
 
 \bibitem{oxfordpovertyandhumandevelopmentinitiativeChartingPathewaysOut2020}
 {Oxford Poverty and Human Development Initiative}.

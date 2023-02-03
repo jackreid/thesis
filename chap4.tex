@@ -359,17 +359,76 @@ With these questions and goals in mind, a specific instance of the integrated mo
 The Environment Model of this case study is predominantly interested in the health, the size (as measured by geographic extent), and height of the mangrove forest over time. 
 
 Unlike some other forms of natural resources, which were extensively surveyed and quantified by colonial conquerors and explorers, historical information on pre-industrial Mangrove forest cover tends to be vague, primarily characterizing Mangroves as barriers to settlement \cite{amadorBaiaGuanabaraOcupacao2013}, likely due to historical perceptions of mangroves by colonists, who, as opposed to native inhabitants of the Americas, tended to view mangroves as gloomy sources of disease rather than as natural resources to be exploited \cite{friessEcosystemServicesDisservices2016}. Retroactive understanding of Rio de Janeiro area mangrove cover in this era has been supplemented by palaeoecological studies \cite{vilelaLateHoloceneEvolution2014} but only in a highly incomplete manner. This disregard for mangrove forests largely continued until, after a UN-led effort in the 1980s, international concern over their degradation increased, leading to greater efforts to monitor mangroves. In the second half of the 20th century, mangrove mapping efforts relied primarily on a combination of in-situ surveys and aerial and satellite photography. Investigations were typically site-specific, relied on human interpretation of images, and commonly only had one measurement every 1-2 decades \cite{lacerdaluizandmenezesmarceloandmussimolisanimauricioChangesMangroveExtension2007, fromardHalfCenturyDynamic2004}. These factors limited both spatial scalability and the potential for timely forest management. 
-In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques,   spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eos} processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the ALOS PALSAR platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. Similar advances, often driven by improvements in machine learning, have yielded global maps of human land use, which can be combined with mangrove-related data products to accurately identify drivers of loss \cite{goldbergGlobalDeclinesHuman2020}. Most recently, these tools have been used to generate global datasets in which the specific years of degradation and regrowth are mapped \cite{vancutsemLongterm199020192021}.
+In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques,   spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eos} processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the \ac{alos} \ac{palsar} platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. Similar advances, often driven by improvements in machine learning, have yielded global maps of human land use, which can be combined with mangrove-related data products to accurately identify drivers of loss \cite{goldbergGlobalDeclinesHuman2020}. Most recently, these tools have been used to generate global datasets in which the specific years of degradation and regrowth are mapped \cite{vancutsemLongterm199020192021}.
+
+A multi-step process was used to assess the state of the mangroves, as seen in Figure . This process relied upon everal different sources of \ac{eo} and derived data, summarized in Table \ref{tab:rio-environment-sources}
+
+\begin{table}[H]
+\caption[Rio de Janeiro Stakeholder Contacts]{Rio de Janeiro Stakeholder Contacts. This table does not include casual interactions or discussions about unrelated topics to this project.}
+\label{tab:rio-environment-sources}
+\begin{center}
+\scriptsize
+\begin{tabular}{| C{3cm} |  C{2cm} | C{2cm} | C{2cm} | C{2cm} | C{2cm} |} \hline
+
+ 
+\textbf{Data Source} & \textbf{Full Year Data Availability} & \textbf{Extent}  & \textbf{Health} & \textbf{Carbon} & \textbf{Reference} \\ \hlinewd{2pt}
+
+Landsat 5 \ac{tm} Collection 2 Surface Reflectance & 1984 - 2012 & \textbf{$\times$} & \textbf{$\times$} & & \\ \hline
+
+Landsat 7 \ac{etm} Collection 2 Surface Reflectance & 1999 - 2022 & \textbf{$\times$} & \textbf{$\times$} & & \\ \hline
+
+Landsat 8 \ac{oli} Collection 2 Surface Reflectance & 2013 - 2022 & \textbf{$\times$} & \textbf{$\times$} & & \\ \hline
+
+\ac{alos} \ac{palsar}/\ac{palsar}-2 Yearly Mosaic & 2007 - 2010, 2015 - 2020 & \textbf{$\times$} &  & & \cite{shimadaNewGlobalForest2014} \\ \hline
+
+Sentinel-2 \ac{msi} Harmonized Surface Reflectance & 2018 - 2022 & \textbf{$\times$} &  & & \\ \hline
+
+Giri et al.'s Global Mangrove Forests Distribution, v1 & 2000 & \textbf{$\times$} &  & & \cite{giriStatusDistributionMangrove2011} \\ \hline
+
+\ac{gmw} V2 & 1996, 2007 - 2010, 2015 - 2016 & \textbf{$\times$} &  & & \cite{buntingGlobalMangroveWatch2018} \\ \hline
+
+Simard et al.'s Canopy Height & 2000 & & & \textbf{$\times$} & \cite{simardMangroveCanopyHeight2019} \\ \hline
 
 
+
+\end{tabular}
+\end{center}
+\end{table}
 
 \paragraph{\hlc[yellow]{Mangrove Extent}} \label{sec:rio-mangrove-extent} \leavevmode\newline
 
 [** insert diagram of data processing flow, can adapt from one of the conference presentations, see draft in google drive folder]
 
-Regarding extent, the widely-used global mangrove extent maps such as  Giri and\ac{gmw}, are typically representative of specific years and, due to their global-scale, often have higher errors in specific localities, particularly involving the landward edge of mangrove forests and smaller copses of trees. In order to conduct extent-change tracking and to identify such copses, it is sometimes preferred to conduct more targeted estimations, as was done in this case. Mangrove extent was estimated using a Random Forest Classifier (100 trees, 8 variables per split) utilizing both single-band surface reflectance imagery and several multi-band indices from Landsat 7 ETM+, Landsat 8 \ac{oli}, Sentinel 2 MSI, and ALOS PALSAR. Training and validation data was identified using a combination of Giri's 2000 map, \ac{gmw}'s 2015 map, and firsthand field visits. 
+Regarding extent, the widely-used global mangrove extent maps such as Giri and \ac{gmw}, are typically representative of specific years and, due to their global-scale, often have higher errors in specific localities, particularly involving the landward edge of mangrove forests and smaller copses of trees. In order to conduct extent-change tracking and to identify such copses, it is sometimes preferred to conduct more targeted estimations, as was done in this case. Mangrove extent was estimated using a Random Forest Classifier (100 trees, 8 variables per split) utilizing both single-band surface reflectance imagery and several multi-band indices from Landsat 7 \ac{etm}, Landsat 8 \ac{oli}, Sentinel-2 \ac{msi}, and \ac{alos} \ac{palsar}. Training and validation data was identified using a combination of Giri's 2000 map, \ac{gmw}'s 2015 map, and firsthand field visits. 
 
 [** insert table / figure summarizing training and validation data]
+
+\begin{table}[H]
+\caption[Indices Used For Mangrove Classification]{Indices used for mangrove classification. Each of these were computed for both the Landsat and Sentinel-2 imagery.}
+\label{tab:indices}
+\begin{center}
+\scriptsize
+\begin{tabular}{| C{2.5cm} |  L{4.5cm} | C{2.5cm} | C{2cm} |} \hline
+
+ 
+\textbf{Index} & \centering \textbf{Description} & \textbf{Equation} & \textbf{Reference(s)}  \\ \hlinewd{2pt}
+
+\ac{ndvi} & Popular index used to identify vegetation and monitor changes in vegetation health & $\frac{R_{NIR} - R_{red}}{R_{NIR} + R_{red}}$ & \cite{fredenMonitoringVegetationSystems1974,haboudaneHyperspectralVegetationIndices2004, pettorelliUsingSatellitederivedNDVI2005} \\ \hline
+
+\ac{ndmi} & Used to distinguish mangroves from terrestrial forests & $\frac{R_{SWIR2} - R{green}}{R_{SWIR2} + R_{green}}$ & \cite{shiNewSpectralMetrics2016} \\ \hline
+
+\ac{mndwi} & Used to identify water, particularly in areas with significant vegetation, soil, and built-up noise. & $\frac{R_{green} - R_{SWIR1}}{R_{green} + R_{SWIR1}}$ & \cite{xuModificationNormalisedDifference2006} \\ \hline
+
+\ac{sr} & An old and popular index used to identify vegetation and monitor changes in vegetation health & $\frac{R_{NIR}}{R_{red}}$ & \cite{jordanDerivationLeafAreaIndex1969} \\ \hline
+
+Band Ratio 54 & Used to monitor soil moisture & $\frac{R_{SWIR1}}{R_{NIR}}$ & \cite{ngothiEffectiveBandRatio2019} \\ \hline
+
+Band Ratio 35 & Extension of the \ac{sr} concept to examine vegetation moisture & $\frac{R_{Red}}{R_{SWIR1}}$ & \cite{jiTerminologySpectralVegetation2011} \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
 
 In order to eliminate false positives, a mask was used to filter out flagged pixels at over 40m in elevation, as determined by the \ac{srtm} dataset \cite{jarvisHolefilledSRTMGlobe2008}, and a kernel filter was used to eliminate solitary and near solitary pixels that were erroneously classified as mangroves. This classification, for the year 2018, can be seen in Figure \ref{fig:gextent}. For a more detailed explanation of random forest classifier algorithms and their relevance to forest identification, see \cite{jhonnerieRandomForestClassification2015}.
 
@@ -422,6 +481,33 @@ More specifically to the Rio de Janeiro area, height of mangrove trees can be me
 
 [** add more text and figures about the height statistics in this region specifically]
 
+\paragraph{\hlc[yellow]{Mangrove Carbon Stocks}} \label{sec:rio-mangrove-height} \leavevmode\newline
+
+To estimate \ac{agb} density for the Guaratiba area, I used the Americas generic power allometric model developed by Simard et al. \cite{simardMangroveCanopyHeight2019}, shown in Equation \ref{eq:allo} where $H_{ba}$ refers to the basal area weighted height of the mangroves. This equation was chosen as it contained the highest $R^2$ value (0.71) and lowest \ac{rmse} (54.3 MgC/ha) of the equations that cover the region. 
+
+\begin{equation}
+\label{eq:allo}
+\ac{agb}_{density} = 1.418 * H_{ba}^{1.6038}
+\end{equation}
+
+By combining the Simard canopy height data with the Landsat-only extent classification\footnote{For mangroves identified by the Landsat-only extent classification that were not included in the Simard dataset, I assumed that $H_{ba}$ was equal to the average for the region.}, the \ac{agb} distribution of the region can be mapped, as seen in Figure . The total \ac{agb} for the region calculates to 120962 MgC for the year 2000, compared to the Simard estimate of 95032 MgC\footnote{Simard et al. do not specify whether they used the same allometric model to perform their \ac{agb}, as they propose several models. That said, I redid their calculations for the Guaratiba area and it does indeed seem that they used this same model.}
+
+[**insert map of AGB]
+
+
+To account for soil carbon and root biomass, in addition to \ac{agb}, Equation \ref{eq:carbon} was used. In it 270.1 MgC/ha represents an estimate of the mangrove soil carbon density. This is based on 19 samples (which ranged from 135 to 376 MgC/ha) taken by Jennerjahn et al. 2002 \cite{jennerjahnRelevanceMangrovesProduction2002} in Sepetiba bay (as reported in \cite{kristensenOrganicCarbonDynamics2008, atwoodGlobalPatternsMangrove2017}), making it directly relevant to this case study.  Total root biomass was estimated at 49\% of the \ac{agb}, as is specified by \ac{ipcc} guidelines \cite{takahiko2013Supplement20062014}. This accounting process is modeled after the methodology used in Simard et al. \cite{simardMangroveCanopyHeight2019}.
+
+
+\begin{equation}
+\label{eq:carbon}
+C_{density} = 1.49 * \ac{agb}_{density} + 270.1 
+\end{equation}
+
+[** add map of carbon density]
+
+For annual rate of carbon export, I used 2.2 MgC/ha. This is based on Lacerda, 1992 which also took samples from along the coast of Sepetiba bay \cite{lacerda1992carbon} (as reported in \cite{jennerjahnRelevanceMangrovesProduction2002}).
+
+
 \subsubsection{\hlc[yellow]{Vulnerability}} \label{sec:rio-vulnerability}
 
 [** summarize the datasets and outputs discussed in this section in a table]
@@ -465,12 +551,32 @@ The selection of these two axes of policy decisions (conservation status and urb
 
 [quantitative changes in mangrove extent]
 
+Net increase of approximately 290 ha from 2000 to 2018.
+
+
 [compare changes in protected areas to changes outside of protected areas]
 
 [discuss areas of particularly notable gain or loss, tie into other developments]
 	[steel mill construction]
 	[highway and rapid transit line]
 	[potential wood beetle infestation]
+	
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/chap4/extent_changes.png}
+\caption[Changes in Mangrove Extent 2000-2018]{Changes in mangrove extent in western Rio de Janeiro as classified by the Landsat-only process.}
+\label{fig:extent-changes}
+\end{figure}
+
+	
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/chap4/extent_over_time.png}
+\caption[Mangrove Extent Over Time]{Mangrove extent in western Rio de Janeiro lha 2000 to 2018 as measured by several different classification methods. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\label{fig:extent-over-time}
+\end{figure}
+
+
 
 \subsubsection{\hlc[yellow]{Vulnerability}} 
 
@@ -565,6 +671,8 @@ Beyond the scope of this thesis, in order to better understand and quantify the 
 \end{figure}
 
 The history of these two policy axes over the past several decades will be used in conjunction with the Environment and Vulnerability Models to estimate the regulatory impact on these two domains, as shown in Figure \ref{fig:method}.
+
+[potential inaccuracy of the allometric model used for AGB, and for the other assumptions made calculating carbon stock / export]
 
 \section{\hlc[red]{Conclusion}}
 
