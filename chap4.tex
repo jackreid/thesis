@@ -57,7 +57,7 @@ Our primary Local Context Experts and points of contact are at \ac{ipp}, which i
 
 Over the course of two field visits to Rio de Janeiro and Guaratiba (one in August of 2019 and the other in March of 2020), I conducted a series of interviews and meetings with various key stakeholders in the Guaratiba system, including local fishers; local academic researchers; and municipal, state, and federal government officials. I was introduced to these stakeholders using a snowball approach, starting with connections stemming from the Space Enabled Research Group and our primary point of contacts in Rio de Janeiro. Information about both contacted and noncontacted stakeholders are summarized in Table \ref{tab:rio-contacts}. Clearly there are some key stakeholders listed in the noncontacted categories. This demonstrates the flaws of a snowball approach and, while I did make attempts to contact them myself, these were to no avail. Further persistence and creativity may have rectified this but unfortunately the pandemic cut the second visit short. Similarly, I intended to follow up some of the unstructured meetings with formal interviews but did not have such an opportunity.
 
-\begin{table}[H]
+\begin{table}[!htb]
 \caption[Rio de Janeiro Stakeholder Contacts]{Rio de Janeiro Stakeholder Contacts. This table does not include casual interactions or discussions about unrelated topics to this project.}
 \label{tab:rio-contacts}
 \begin{center}
@@ -109,12 +109,12 @@ I coded the recordings and notes qualitatively based on the \ac{saf} in order to
 
 System functions were selected by considering the various Stakeholder Needs and identifying where significant overlap existed. These were then compared with the feasibility of each function given available data and other resources. Further input from stakeholders on potential functions was solicited during the March 2020 visit, where some an initial \ac{dss} prototype and analysis was available for concrete reference. Prior to the pandemic intervening, the intent was to use this latter set of meetings to construct a definite list of potential \ac{dss} functions and have stakeholders assign importance weights to each one, in order to guide further development.
 
-\subsubsection{\hlc[yellow]{Assign Function to Forms}}
+\subsubsection{\hlc[cyan]{Assign Function to Forms}}
 
-System functions were assigned to forms based on balancing the capabilities of the Space Enabled team with the needs and preferences of the stakeholders, particularly concerning usability. For instance, those at \ac{ipp} and \ac{smac} had significant experience working directly with remote observation imagery in \ac{gis} software, but not all stakeholders shared this competence. Forms had to thus be selected with such differences in mind.
+System functions were assigned to forms based on balancing the capabilities of the Space Enabled team with the needs and preferences of the stakeholders, particularly concerning usability. For instance, those at \ac{ipp} and \ac{smac} had significant experience working directly with remote observation imagery in \ac{gis} software, but not all stakeholders shared this competence. Forms had to thus be selected with such differences in mind. The outcome here was to develop a simple diagram of the system architecture as well as some basic requirements for the \ac{dss} to be developed.
 
 
-\subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}}
+\subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}} \label{sec:rio-monitor-method}
 
 The impact of the \ac{dss}, analyses, and other \ac{evdt} Framework outputs on policy cannot be directly evaluated in this case study because (a) the time scales at which mangrove conservation, urban development, and socioeconomic changes occur at are well beyond the duration of a single individual's doctoral process; and (b) there are innumerable confounding factors that make developing a reasonable counterfactual infeasible (e.g. political changes, macroeconomic changes, climate change, etc.). In lieu of such direct measurement of impact, the best alternative is to focus on perceived utility by the stakeholders. The plan to accomplish this was user study workshops in which various stakeholders would seek to answer various questions about desired policy choices both with and without the use of the \ac{dss} and other analytic products. Unfortunately the coronavirus pandemic prevented this from occurring, so only informal feedback from a subset of stakeholders was able to be solicited.
 
@@ -264,55 +264,136 @@ These items are merely specific, ad hoc solutions to a broader, meta-problem. De
 
 Unfortunately, neither option seems particularly likely at this time. As mentioned earlier, the city, state, and federal governments are either focused on other things or actively inamicable to such an effort. The residents, for the most part, have no tradition of collective action. Many residents have complained that, despite the relatively abundant land, there are essentially no public spaces in these communities \cite{herzogGuaratibaVerdeSubsidios2009}. They (rightly) decry an inattentive municipal government, but also take no action to create such spaces themselves or effectively agitate for their creation. 
 
-The author does not have the expertise or the experience with the region necessary to either recommend a specific course of action or predict the likely outcome these ongoing changes in Guaratiba. What can be said with certainty is that there is a real need for awareness raising in the area. Much of the data discussed in the past few sections and contained in most of the references, is qualitative and anecdotal. While hard facts and demonstrable harms are no substitute for an engaged populace or an interested government, they can be a first step towards creating such things. The remainder of this chapter will be aimed at this topic.
+The author does not have the expertise or the experience with the region necessary to either recommend a specific course of action or predict the likely outcome these ongoing changes in Guaratiba. What can be said with certainty is that there is a real need for awareness raising in the area. The following section will take a look at the relationships between stakeholders with a more specific focus.
 
-\subsubsection{\hlc[yellow]{Analyze System Stakeholders}}
+\subsubsection{\hlc[cyan]{Analyze System Stakeholders}}
 
-[add more discussions of who the stakeholders are]
+There are multiple ways to consider the relevant stakeholders and their relationships. One is to separate government stakeholders from non-government stakeholders. With regards to the former, as discussed in Section \ref{sec:rio-jurisdictions}, Rio de Janeiro's complicated history has resulted in a plethora of ministries with overlapping jurisdictions. Figure \ref{fig:government-agencies} summarize the most relevant municipal, state, and federal ministries, institutions, and initiatives. Each of these institution direct own and manage certain parcels of land within the city of Rio de Janeiro (not necessarily within this project's study area) in addition to regulating certain activities throughout the municipality. While they do certainly communicate and coordinate, their priorities are not necessarily in alignment (as will be discussed in the next section). 
 
-[revisit and update stakeholder map below]
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.8\textwidth]{Figures/chap4/government-agencies.png}
 \caption[Relevant government stakeholders in Rio de Janeiro case study]{Relevant government stakeholders in Rio de Janeiro case study, organized from left to right as municipal, state, and national.}
 \label{fig:government-agencies}
 \end{figure}
 
-\begin{figure}[H]
+The non-government actors include local actors such as residents (and their associations) and commercial developers. These are the stakeholders most directly impacted by land use decisions and the health of the mangroves.
+
+We can also analyze the stakeholders is by classifying them into primary-secondary-tertiary categories or mapping their relationships. Figure \ref{fig:rio_stakemap} does both of these simultaneously. The arrows between each stakeholder represent the means by which they influence one another. This can include direct orders or voicing of opinion (such as legislative policy), knowledge or information (such as information about the state of the mangroves), or tangible benefits (such as money, goods, or services).
+
+The primary stakeholders, marked in blue, represent those that have the most direct land use decision-making power in the study area. This is expressed both through land ownership/control and through policy regulations. The Pescadors / Local Residents Association is represented with a gradient as some members of this category manage land and some do not, or only do so in a legally precarious manner, such as the residents of the Araçatiba informal settlement. 
+
+The yellow boxes represent the secondary stakeholders, who advice and influence the primary stakeholders through information, funding, or policies. The municipal, state, and federal legislative bodies play important roles in translating the perspectives of their constituents into directives for the various ministries and secretariats. The scientific community and \ac{ipp} meanwhile provide the knowledge and information that shapes how these directives are carried out. The Space Enabled Research Group resides in this category, as the project is aimed at supporting decisions of the various primary stakeholders. 
+
+Finally the tertiary stakeholders are shown in red and include those who impacted by land use decisions and the health of the mangroves but who do not directly participate in decision-making. This includes some of the local fishers and residents who may not own land but still derive their living from it, as well as the global community who benefits from both ecotourism to the mangroves and from the carbon storage and sequestration that the mangroves provide.
+
+While not common to stakeholder mapping, I chose to represent that mangrove forests and other land of the study area as a stakeholder, albeit one outside of the primary-secondary-tertiary classification system. This is done for two reasons. First, it raise the profile of the environment from a mere incidental provider of human benefits to something worth direct recognition. Second, many of the relationships between the stakeholders are indirect, mediated through land use decisions and the mangrove forests themselves. Such relationships are difficult to map without including the land itself as a stakeholder.
+
+\begin{figure}[!htb]
 	\centering
-	\includegraphics[scale=0.3]{Figures/chap4/Stakeholder_Map_v2.jpg}
+	\includegraphics[width=0.9\textwidth]{Figures/chap4/Stakeholder_Map.png}
 	\caption[Stakeholder Map for the Mangrove Forests of Rio de Janeiro]{Stakeholder Map for the Mangrove Forests of Rio de Janeiro}
 	\label{fig:rio_stakemap}
 \end{figure}
 
-\subsubsection{\hlc[red]{Understand Desired Outcomes \& Objectives}}
+It should be noted that Figure \ref{fig:rio_stakemap} represents a descriptive perspective, focuses on land use decision-making. If one wanted to construct a map centered on this project's \ac{evdt} \ac{dss}, the map would differ significantly. For instance, the primary stakeholders would be the Space Enabled Research Group and \ac{ipp}, as those with the most direct involvement in the creation of the \ac{dss} (despite efforts to broaden the circle of collaboration wider). I did not think such a map was necessary to develop the System Objectives in the next section, but other case studies may find such a practice useful.
 
-[walk through the summary of stakeholder needs outcomes, and objectives, as identified from the interviews; can refer back to Section \ref{sec:saf}]
+\subsubsection{\hlc[cyan]{Understand Desired Outcomes \& Objectives}}
 
-[add table summarizing needs, outcomes, objectives]
+Based on both the literature survey and the interviews/meetings with stakeholders, I derived a set of key stakeholder's Needs, Desired Outcomes, and potential System Objectives, which are summarized below in Table \ref{tab:rio-needs}. The \ac{dss} will not address all of these but will be informed by them. This table, in conjunction with the stakeholder classification and mapping in the previous section, allowed for the identification of both shared and conflicting objectives. For example, a formal sewage system was noted as a priority by both the urban-planning-oriented \ac{smu} and the environment-oriented \ac{smac}. Notably this was not brought up by the fishers themselves (though it should be noted that I did not directly ask them about it either). 
 
-\subsubsection{\hlc[red]{Select System Functions}}
+In general, conservation and even replanting of the mangroves was a common Desired Outcome, but the reasoning and priority for this varied significantly, resulting in important differences. The fishers prioritized preservation of existing mangroves and replanting in recently deforested areas. They viewed city efforts to compensate for development-induced deforestation with replanting efforts elsewhere (including in areas deforested decades or centuries ago) as irrelevant to their needs. 
 
-[explain the primary questions to be answered by the EVDT analyses and the DSS]
+All of these key stakeholders were in agreement that improved understanding of mangrove ecosystem services would assist their decision-making and enable them to better argue for their interests.  
+
+Though not included in the table, \ac{icmbio}'s Needs, Desired Outcomes, and System Objectives were similar to those of \ac{smac}. It is also reasonable to suppose that \ac{inea}'s interests are similar (though certainly not identical) to those \ac{smac} and \ac{icmbio}.
+
+\begin{landscape}
+\begin{table}[t]
+\caption[Needs, Outcomes, and Objectives for Rio de Janeiro Case Study]{Stakeholder Needs, Desired Outcomes, and potential System Objectives for key stakeholders in the Rio de Janeiro Case Study}
+\label{tab:rio-needs}
+\begin{center}
+\scriptsize
+\begin{tabular}{| C{2cm} |  L{5.33cm} | L{5.33cm} | L{5.33cm} |} \hline
+ 
+\textbf{Stakeholder Group} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential System Objectives} \\ \hlinewd{2pt}
 
 
-\subsubsection{\hlc[red]{Assign Function to Forms}}
+\multirow{2}{*}{\centering Fishers} & \tabitem{Access to fish and wood in their historical locations} & \tabitem{Ability to conduct sustainable wood harvesting in the mangrove forests} & \tabitem{Support/justify mangrove preservation and restoration} \\ 
+ & \tabitem{Water access for boat storage and repair} & \tabitem{Preservation/restoration of existing mangroves} & \\ \hline
 
-[explain the general DSS concept chosen]
 
-\begin{figure}[H] 
+
+\multirow{5}{*}{\centering \ac{smu}} & \tabitem{Improved water quality and waste removal} & \tabitem{Formal sewage system} &  \tabitem{Support/justify zoning decisions}\\
+
+& \tabitem{Minimize gentrification} & \tabitem{Controlled drainage} & \tabitem{Inform sewage system project prioritization}\\
+
+& \tabitem{Encourage economic development and increased standard of living in area}  & \tabitem{Facilitate formalization of informal settlements} & \tabitem{Improve understanding of ecotourism in region}\\ 
+
+& \tabitem{Reduced flood risk} & \tabitem{Reduce sediment accumulation}  & \\
+
+&  & \tabitem{Economic connections/commuting to Campo Grande, not downtown Rio} & \\ \hline
+
+
+
+
+\multirow{5}{*}{\centering \ac{smac}} & \tabitem{Conservation of environment and biodiversity} & \tabitem{Protection of both mangroves and wetlands} & \tabitem{Inform definition of conservation unit boundaries} \\ 
+
+& \tabitem{Improved water quality} & \tabitem{Replanting/restoration of mangroves across the city} & \tabitem{Support/justify mangrove preservation and restoration} \\
+
+& \tabitem{Improved air quality} & \tabitem{Formal sewage system} & \tabitem{Inform targeting of new parks or replanting projects} \\
+
+& \tabitem{Sequestration of carbon} & \tabitem{Protection of riparian areas} & \tabitem{\ac{eo} data use capacity building} \\
+
+& \tabitem{Real time \& local scale environmental data} & \tabitem{Better use of \ac{eo} data} & \\ \hline
+
+
+
+
+\ac{ipp} & \tabitem{Ability to inform other municipal agencies} & \tabitem{Better socioenvironmental data/metrics} & \tabitem{Complex systems capacity building} \\
+
+& \tabitem{Understand future changes/threats} & \tabitem{Method for generating future scenarios, particularly climate change} & \tabitem{Scenario planning capacity building} \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{landscape}
+
+\subsubsection{\hlc[cyan]{Select System Functions}}
+
+Based on the above analysis, several \ac{dss} system functions were selected. These are:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+    \item{\textbf{Descriptively model environmental phenomena}, in particular mangrove health trends over the past two decades. This will inform the current state of the environment and possible future trajectories.}
+    \item{\textbf{Provide estimates of mangrove ecosystem services}, including both local and global services. This will help inform decision-making around mangroves by various stakeholders.}
+    \item{\textbf{Generate potential future conservation scenarios.}}
+\end{itemize}
+
+In addition to these \ac{dss}-specific functions, there are some additional functions to be performed by the Space Enabled - \ac{ipp} collaboration on this project, namely:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+    \item{\textbf{Modeling and \ac{dss} development capacity building.} This is primarily relevant to \ac{ipp}.}
+    \item{\textbf{\ac{eo} analysis capacity building.} This is most relevant to \ac{smac}, but \ac{smu} has also expressed such an interest.}
+\end{itemize}
+
+
+\subsubsection{\hlc[cyan]{Assign Function to Forms}}
+
+The particular form decided to implement these functions was a desktop-based data visualization and exploration tool. A desktop-based system, rather than an online or mobile system, was chosen for a few reasons. First, familiarity with non-phone computers and internet access varies significantly among the stakeholders. If an online version was developed, it would need to be easily accessible and intelligible on a mobile device. This was beyond the abilities of myself and other teammates, though it remains an option for the future. The preferred alternative was a desktop-based system that would be intended for use in workshops with stakeholders, rather than for independent use, thereby reducing those barriers of entry. This decision is not without its flaws, as discussed in Section \ref{sec:rio-discussion}. 
+
+The above \ac{saf} results are summarized in Figure \ref{fig:system-diagram-rio}. The rest of the chapter will detail the development of \ac{dss}, along with the models underlying it, before returning to the question of how well the resultant system fulfilled this vision.
+
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.8\textwidth]{Figures/chap4/system-diagram-rio.png}
 \caption[High level Systems Architecture Framework diagram for the Rio de Janeiro case study]{High level \ac{saf} diagram for the Rio de Janeiro case study}
 \label{fig:system-diagram-rio}
 \end{figure}
 
-\subsubsection{\hlc[red]{Monitor and Evaluate Systems}}
+\subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}}
 
-[discuss time scale and covid interruption]
-
-[discuss evolving situation, desired outcomes]
+As was stated in Section \ref{sec:rio-monitor-method}, long-term monitoring of the Guaratiba environment or the impacts of this project are beyond the scope of this thesis. Instead, feedback from a subset of the stakeholders was relied upon. This feedback is only intelligible in the context of the resulting \ac{dss}, so it is reported later in this chapter, in Section \ref{sec:rio-dss-results}.
 
 \section{\hlc[cyan]{EVDT Application}} \label{sec:rio-evdt}
 
@@ -354,14 +435,22 @@ With these questions and goals in mind, a specific instance of the integrated mo
 
 \subsection{\hlc[cyan]{EVDT Methodology}} \label{sec:rio-evdt-method}
 
-\subsubsection{\hlc[yellow]{Environment}} \label{sec:rio-evdt-e-method}
+\subsubsection{\hlc[cyan]{Environment}} \label{sec:rio-evdt-e-method}
 
-The Environment Model of this case study is predominantly interested in the health, the size (as measured by geographic extent), and height of the mangrove forest over time. 
+The Environment Model of this case study is primarily interested in the the size (as measured by geographic extent) and health mangrove forest over time. Secondarily it is interested in the carbon stock and annual carbon export potential that they represent. Each of these are dependent of a variety of sources of data measuring and mapping mangroves.
 
-Unlike some other forms of natural resources, which were extensively surveyed and quantified by colonial conquerors and explorers, historical information on pre-industrial Mangrove forest cover tends to be vague, primarily characterizing Mangroves as barriers to settlement \cite{amadorBaiaGuanabaraOcupacao2013}, likely due to historical perceptions of mangroves by colonists, who, as opposed to native inhabitants of the Americas, tended to view mangroves as gloomy sources of disease rather than as natural resources to be exploited \cite{friessEcosystemServicesDisservices2016}. Retroactive understanding of Rio de Janeiro area mangrove cover in this era has been supplemented by palaeoecological studies \cite{vilelaLateHoloceneEvolution2014} but only in a highly incomplete manner. This disregard for mangrove forests largely continued until, after a UN-led effort in the 1980s, international concern over their degradation increased, leading to greater efforts to monitor mangroves. In the second half of the 20th century, mangrove mapping efforts relied primarily on a combination of in-situ surveys and aerial and satellite photography. Investigations were typically site-specific, relied on human interpretation of images, and commonly only had one measurement every 1-2 decades \cite{lacerdaluizandmenezesmarceloandmussimolisanimauricioChangesMangroveExtension2007, fromardHalfCenturyDynamic2004}. These factors limited both spatial scalability and the potential for timely forest management. 
-In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques,   spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eos} processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the \ac{alos} \ac{palsar} platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. Similar advances, often driven by improvements in machine learning, have yielded global maps of human land use, which can be combined with mangrove-related data products to accurately identify drivers of loss \cite{goldbergGlobalDeclinesHuman2020}. Most recently, these tools have been used to generate global datasets in which the specific years of degradation and regrowth are mapped \cite{vancutsemLongterm199020192021}.
+Unlike some other forms of natural resources, which were extensively surveyed and quantified by colonial conquerors and explorers, historical information on pre-industrial Mangrove forest cover tends to be vague, primarily characterizing Mangroves as barriers to settlement \cite{amadorBaiaGuanabaraOcupacao2013}, likely due to historical perceptions of mangroves by colonists, who, as opposed to native inhabitants of the Americas, tended to view mangroves as gloomy sources of disease rather than as natural resources to be exploited \cite{friessEcosystemServicesDisservices2016}. Retroactive understanding of Rio de Janeiro area mangrove cover in this era has been supplemented by palaeoecological studies \cite{vilelaLateHoloceneEvolution2014} but only in a highly incomplete manner. 
 
-A multi-step process was used to assess the state of the mangroves, as seen in Figure . This process relied upon everal different sources of \ac{eo} and derived data, summarized in Table \ref{tab:rio-environment-sources}
+This disregard for mangrove forests largely continued until, after a UN-led effort in the 1980s, international concern over their degradation increased, leading to greater efforts to monitor mangroves. In the second half of the 20th century, mangrove mapping efforts relied primarily on a combination of in-situ surveys and aerial and satellite photography. Investigations were typically site-specific, relied on human interpretation of images, and commonly only had one measurement every 1-2 decades \cite{lacerdaluizandmenezesmarceloandmussimolisanimauricioChangesMangroveExtension2007, fromardHalfCenturyDynamic2004}. These factors limited both spatial scalability and the potential for timely forest management. 
+
+
+In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques,   spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eos} processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. 
+
+More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the \ac{alos} \ac{palsar} platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. 
+
+Similar advances, often driven by improvements in machine learning, have yielded global maps of human land use, which can be combined with mangrove-related data products to accurately identify drivers of loss \cite{goldbergGlobalDeclinesHuman2020}. Most recently, these tools have been used to generate global datasets in which the specific years of degradation and regrowth are mapped \cite{vancutsemLongterm199020192021}.
+
+Of these numerous sources of data and derived information, a subset were used to assess the Guaratiba region mangroves from the year 2000 to 2018. These data sources, along with what purpose they were put to are summarized in Table \ref{tab:rio-environment-sources}.
 
 \begin{table}[H]
 \caption[Rio de Janeiro Stakeholder Contacts]{Rio de Janeiro Stakeholder Contacts. This table does not include casual interactions or discussions about unrelated topics to this project.}
@@ -369,9 +458,8 @@ A multi-step process was used to assess the state of the mangroves, as seen in F
 \begin{center}
 \scriptsize
 \begin{tabular}{| C{3cm} |  C{2cm} | C{2cm} | C{2cm} | C{2cm} | C{2cm} |} \hline
-
  
-\textbf{Data Source} & \textbf{Full Year Data Availability} & \textbf{Extent}  & \textbf{Health} & \textbf{Carbon} & \textbf{Reference} \\ \hlinewd{2pt}
+\textbf{Data Source} & \textbf{Full Year Data Availability} & \textbf{Extent}  & \textbf{Health} & \textbf{Carbon} & \textbf{Reference(s)} \\ \hlinewd{2pt}
 
 Landsat 5 \ac{tm} Collection 2 Surface Reflectance & 1984 - 2012 & \textbf{$\times$} & \textbf{$\times$} & & \\ \hline
 
@@ -389,22 +477,36 @@ Giri et al.'s Global Mangrove Forests Distribution, v1 & 2000 & \textbf{$\times$
 
 Simard et al.'s Canopy Height & 2000 & & & \textbf{$\times$} & \cite{simardMangroveCanopyHeight2019} \\ \hline
 
-
-
 \end{tabular}
 \end{center}
 \end{table}
 
-\paragraph{\hlc[yellow]{Mangrove Extent}} \label{sec:rio-mangrove-extent} \leavevmode\newline
+These various data sources were used in a multi-step process was used to assess the state of the mangroves, as seen in Figure \ref{fig:extent_method}, to track changes in extent, health, and biomass of the mangroves from 2000 to 2018. The following subsections provide more details about each of these components. Unless otherwise stated, all \ac{eo} imagery processing and analysis took place using \acf{gee}, prior to being exported for use as part of the \ac{dss} (See Section \ref{sec:rio-dss}). \ac{gee} is a free, cloud-based, geospatial programming platform that hosts free satellite imagery from a variety of sources. This platform obviates the need to download such imagery onto a computer for individual manual analysis.
 
-[** insert diagram of data processing flow, can adapt from one of the conference presentations, see draft in google drive folder]
+\begin{landscape}
+\begin{figure}[t]
+	\centering
+	\includegraphics[scale=0.225]{Figures/chap4/extent_method.png}
+	\caption[Mangrove Analysis Methodology]{Methodology for Analyzed Mangrove Extent, Health, and Carbon. Primary outputs are shown in blue boxes.}
+	\label{fig:extent_method}
+\end{figure}
+\end{landscape}
 
-Regarding extent, the widely-used global mangrove extent maps such as Giri and \ac{gmw}, are typically representative of specific years and, due to their global-scale, often have higher errors in specific localities, particularly involving the landward edge of mangrove forests and smaller copses of trees. In order to conduct extent-change tracking and to identify such copses, it is sometimes preferred to conduct more targeted estimations, as was done in this case. Mangrove extent was estimated using a Random Forest Classifier (100 trees, 8 variables per split) utilizing both single-band surface reflectance imagery and several multi-band indices from Landsat 7 \ac{etm}, Landsat 8 \ac{oli}, Sentinel-2 \ac{msi}, and \ac{alos} \ac{palsar}. Training and validation data was identified using a combination of Giri's 2000 map, \ac{gmw}'s 2015 map, and firsthand field visits. 
+\paragraph{\hlc[cyan]{Mangrove Extent}} \label{sec:rio-mangrove-extent} \leavevmode\newline
 
-[** insert table / figure summarizing training and validation data]
+Regarding extent, the widely-used global mangrove extent maps such as Giri and \ac{gmw}, are typically representative of specific years and, due to their global-scale, often have higher errors in specific localities, particularly involving the landward edge of mangrove forests and smaller copses of trees. In order to conduct extent-change tracking and to identify such copses, it is sometimes preferred to conduct more targeted estimations, as was done in this case. Mangrove extent was estimated using a Random Forest Classifier (100 trees, 8 variables per split) utilizing both single-band surface reflectance imagery and several multi-band indices from Landsat 7 \ac{etm}, Landsat 8 \ac{oli}, Sentinel-2 \ac{msi}, and \ac{alos} \ac{palsar}. The indices used are summarized in Table \ref{tab:indices}. Not all of these satellites produced available data for the entire 2000-2018 range. For this reason, three separate versions of the classifier were trained, one that only uses Landsat data (full date change); one that uses Landsat and \ac{palsar} (for the years that \ac{palsar} data is available); and one that uses Landsat, \ac{palsar}, and Sentinel-2. Training data was identified using a combination of Giri's 2000 map, \ac{gmw}'s 2015 map, and firsthand field visits. 
+
+In order to eliminate false positives, a mask was used to filter out flagged pixels at over 40m in elevation, as determined by the \ac{srtm} dataset \cite{jarvisHolefilledSRTMGlobe2008}. For a more detailed explanation of random forest classifier algorithms and their relevance to forest identification, see \cite{jhonnerieRandomForestClassification2015}.
+
+For validation, the initial plan was to conduct \ac{uav} surveys of various parts of the Guaratiba mangrove forests. One such test survey for a particular plot of land was conducted in collaboration with the ESPAÇO research group in March of 2020. During the same visit, non-systematic visual inspection of areas identified by the classifier as damaged or lost mangroves were also conducted. The onset of the pandemic interrupted these plans, so instead validation relies upon comparison across the three classifiers, and with the Giri and \ac{gmw} maps.
+
+Planet Lab's PlanetScope surface reflectance imagery was also experimented with, but ultimately was determined to not provide sufficient identification improvements to warrant continued use. 
+
+Once the mangrove extent for each year has been classified, changes in extent can be identified for future consideration. Additionally an "all years inclusive" extent map can be generated, providing a basis for the spatial area to monitor for changes in vegetation health. 
+
 
 \begin{table}[H]
-\caption[Indices Used For Mangrove Classification]{Indices used for mangrove classification. Each of these were computed for both the Landsat and Sentinel-2 imagery.}
+\caption[Indices Used For Mangrove Classification]{Indices used for mangrove classification. Each of these were computed for both the Landsat and Sentinel-2 imagery. $R$ refers to surface reflectance values, with the subscripts indicating the specific band of light.}
 \label{tab:indices}
 \begin{center}
 \scriptsize
@@ -425,30 +527,16 @@ Band Ratio 54 & Used to monitor soil moisture & $\frac{R_{SWIR1}}{R_{NIR}}$ & \c
 
 Band Ratio 35 & Extension of the \ac{sr} concept to examine vegetation moisture & $\frac{R_{Red}}{R_{SWIR1}}$ & \cite{jiTerminologySpectralVegetation2011} \\ \hline
 
+\ac{gcvi} & Used to monitor the content of leaf chlorophyll in vegetation and thus indirectly to monitor plant stress $ frac{R_{NIR}}{R_{green}}-1$ & \\ \hline
+
 \end{tabular}
 \end{center}
 \end{table}
 
 
-In order to eliminate false positives, a mask was used to filter out flagged pixels at over 40m in elevation, as determined by the \ac{srtm} dataset \cite{jarvisHolefilledSRTMGlobe2008}, and a kernel filter was used to eliminate solitary and near solitary pixels that were erroneously classified as mangroves. This classification, for the year 2018, can be seen in Figure \ref{fig:gextent}. For a more detailed explanation of random forest classifier algorithms and their relevance to forest identification, see \cite{jhonnerieRandomForestClassification2015}.
+\paragraph{\hlc[cyan]{Mangrove Health}} \label{sec:rio-mangrove-health} \leavevmode\newline
 
-\begin{figure}[H] 
-\centering
-\includegraphics[width=0.49\textwidth]{Figures/chap4/guaratiba_extent.png}
-\caption[Classification of mangrove extent in western Rio de Janeiro for the year 2018]{Classification of mangrove extent in western Rio de Janeiro for the year 2018.}
-\label{fig:gextent}
-\end{figure}
-
-Planet Lab's PlanetScope surface reflectance imagery was also experimented with, but ultimately was determined to not provide sufficient identification improvements to warrant continued use. 
-
-\paragraph{\hlc[yellow]{Mangrove Health}} \label{sec:rio-magrove-health} \leavevmode\newline
-
-The Rio de Janeiro area contains three different species of mangroves (\textit{Avicennia schaueriana}, \textit{Laguncularia racemosa}, \textit{Rhizophora mangle}), each of which have somewhat different spectral reflectance properties, making exact identification and health tracking somewhat more difficult. Ultimately we elected to use the relatively simple and robust \ac{ndvi}, a normalized difference ratio of \ac{nir} and red surface reflectance, as seen in Equation \ref{eq:ndvi}. \ac{ndvi} returns a value between -1 and 1, with 1 indicating a high likelihood of healthy vegetation, -1 indicating an absence of vegetation, and intermediate values indicating either possible vegetation or unhealthy vegetation, as seen in Figure \ref{fig:gndvi}. In Landsat 8's \ac{oli}, the primary instrument used for tracking \ac{ndvi} in this case study, the \ac{nir} band captures \SIrange{0.845}{0.885}{\micro\metre} light while the red band captures \SIrange{0.630}{0.680}{\micro\metre} light. Landsat 5 and 7 surface reflectance imagery were used as well, harmonized according to Roy et al. \cite{royCharacterizationLandsat7Landsat82016}. \ac{ndvi} is the most commonly used surface reflectance index for tracking vegetation presence and health via remote observation, as well as being one of the more commonly used \ac{eo} indices overall \cite{fredenMonitoringVegetationSystems1974,haboudaneHyperspectralVegetationIndices2004, pettorelliUsingSatellitederivedNDVI2005}. 
-
-\begin{equation}
-\label{eq:ndvi}
-\ac{ndvi} = \frac{NIR - Red}{NIR + Red}
-\end{equation}
+While the classifier seeks to identify what land contains mangroves, it does not provide any information regarding the current or past health of those mangroves. For that we must turn to other approaches. Ultimately we elected to use the relatively simple and robust \ac{ndvi}, a normalized difference ratio of \ac{nir} and red surface reflectance, as seen in Table \ref{tab:indices}. \ac{ndvi} returns a value between -1 and 1, with 1 indicating a high likelihood of healthy vegetation, -1 indicating an absence of vegetation, and intermediate values indicating either possible vegetation or unhealthy vegetation, as seen in Figure \ref{fig:gndvi}. In Landsat 8's \ac{oli}, the one of the instruments used for tracking \ac{ndvi} in this case study, the \ac{nir} band captures \SIrange{0.845}{0.885}{\micro\metre} light while the red band captures \SIrange{0.630}{0.680}{\micro\metre} light. Landsat 5 and 7 surface reflectance imagery were used as well, harmonized according to Roy et al. \cite{royCharacterizationLandsat7Landsat82016}. \ac{ndvi} is the most commonly used surface reflectance index for tracking vegetation presence and health via remote observation, as well as being one of the more commonly used \ac{eo} indices overall \cite{fredenMonitoringVegetationSystems1974,haboudaneHyperspectralVegetationIndices2004, pettorelliUsingSatellitederivedNDVI2005}. 
 
 \begin{figure}[H] 
 \centering
@@ -457,16 +545,14 @@ The Rio de Janeiro area contains three different species of mangroves (\textit{A
 \label{fig:gndvi}
 \end{figure}
 
-In order to focus on significant, secular changes in mangrove health rather than cyclical or temporary changes, \ac{ndvi} mean anomaly was used, rather than a straightforward \ac{ndvi} time series. The equation for this can be seen in equation \ref{eq:mean}. Here \textit{NDVI\textsubscript{Ref}} refers to the median \ac{ndvi} value at a specific location (an individual pixel in this case) over a specified reference period. \textit{NDVI\textsubscript{i}} refers to the \ac{ndvi} value at that location for each of the images taken during the observation period, and \textit{n} refers to the number of usable images (i.e. clear, no clouds, etc.) at a specific location. As mentioned earlier, \ac{ndvi} is not a perfect measure of mangrove health in a multi-species ecosystem, but it is broadly accurate. With greater number of bands (more than 10) in the visual spectrum, it is sometimes possible to differentiate vegetation species in some cases, but existing free hyperspectral platforms have some combination of poor spatial resolution and insufficient coverage, making them inadequate for this application \cite{mousivandGlobalSensitivityAnalysis2014}. The upcoming launch of the Planet Tanager constellation may alter this situation \cite{planetlabspbcPlanetAnnouncesNew2022}.
+The specific metric used to assess mangrove health trends was \ac{ndvi} mean anomaly. The equation for this can be seen in equation \ref{eq:mean}. Here \textit{NDVI\textsubscript{Ref}} refers to the median \ac{ndvi} value at a specific location (an individual pixel in this case) over a specified reference period. \textit{NDVI\textsubscript{i}} refers to the \ac{ndvi} value at that location for each of the images taken during the observation period, and \textit{n} refers to the number of usable images (i.e. clear, no clouds, etc.) at a specific location. This metric has two primary benefits. First, it allows for a spatial consideration of health trends, where a straightforward \ac{ndvi} time series would show trends for only specific points or statistical aggregations. Second, unlike a mere start-end delta, the mean anomaly primarily represents significant, secular changes in mangrove health rather than cyclical or temporary changes. Both this method of health tracking and the classifier method of extent tracking is largely based upon methods used by Lagomasino et al. \cite{zhangModelingRiskMangroves2019}.
 
 \begin{equation}
 \label{eq:mean}
 Anomaly = \frac{\sum_{i=0}^{n} (NDVI_i - NDVI_{Ref})}{n}
 \end{equation}
 
-For this analysis, a reference period of August 31, 1999 to August 31, 2001 and an observation period was September 1, 2001 to September 1, 2018. It should be noted that mean anomaly is sensitive to the selection and duration of these periods, so the presented figures alone should not be taken as indicative of trends outside of the specified periods. 
-
-This \ac{eo} data was accessed and proceed using \ac{gee}, prior to being exported for use as part of the broader \ac{evdt} Modeling Framework. \ac{gee} is a free, cloud-based, geospatial programming platform that hosts free satellite imagery from a variety of sources. This platform obviates the need to download such imagery onto a computer for individual manual analysis. This method of extent and health tracking is largely based upon methods used by Lagomasino et al. \cite{zhangModelingRiskMangroves2019}. Once this historical mangrove data has been processed, it serves as the foundation of estimating causal impacts between the \ac{evdt} components.
+For this analysis, a reference period was defined as January 1st, 1999 to December 31, 2001 and the observation period was defined as January 1st, 2000 to December 31, 2018. It should be noted that mean anomaly is sensitive to the selection and duration of these periods, so the presented figures alone should not be taken as indicative of trends outside of the specified periods. 
 
 \begin{figure}[H] 
 \centering
@@ -475,13 +561,13 @@ This \ac{eo} data was accessed and proceed using \ac{gee}, prior to being export
 \label{fig:anomaly}
 \end{figure}
 
-\paragraph{\hlc[yellow]{Mangrove Height}} \label{sec:rio-mangrove-height} \leavevmode\newline
+\paragraph{\hlc[cyan]{Mangrove Height}} \label{sec:rio-mangrove-height} \leavevmode\newline
 
-More specifically to the Rio de Janeiro area, height of mangrove trees can be measured using aerial \ac{lidar} \cite{olagokeIndividualMangroveTree2015} and Rio de Janeiro has recently conducted such a survey of the entire municipality, though the data was not available in time for this work. Once it is, the height can be used to estimate \ac{agb} \cite{cloughAllometricRelationshipsEstimating1989, fatoyinboEstimatingMangroveAboveground2018}, which is important for improving estimates of the forests' carbon sequestration capabilities \cite{lagomasinoMeasuringMangroveCarbon2019}. Historical height data can be estimated using space-based \ac{lidar} and \ac{sar} data \cite{lagomasinoComparisonMangroveCanopy2016}, though this method lacks the spatial resolution of aerial methods.
+Previous I mentioned the Simard et al. 2020 global mangrove canopy height map was to be used in this analysis (see Table \ref{tab:rio-environment-sources}. While this map is specifically intended to represent the height of mangroves in the year 2000, it remains the best available information on mangrove height in the region. This however may not remain the case for long (see Section \ref{sec:rio-discussion} for discussion of ongoing data collection activities).
 
-[** add more text and figures about the height statistics in this region specifically]
+\paragraph{\hlc[cyan]{Mangrove Carbon Stocks and Exports}} \label{sec:rio-mangrove-carbon} \leavevmode\newline
 
-\paragraph{\hlc[yellow]{Mangrove Carbon Stocks}} \label{sec:rio-mangrove-height} \leavevmode\newline
+Th height estimates from Simard et al. can be used to estimate \ac{agb} \cite{cloughAllometricRelationshipsEstimating1989, fatoyinboEstimatingMangroveAboveground2018, simardMangroveCanopyHeight2019}, which is important for improving estimates of the forests' carbon sequestration capabilities \cite{lagomasinoMeasuringMangroveCarbon2019}. 
 
 To estimate \ac{agb} density for the Guaratiba area, I used the Americas generic power allometric model developed by Simard et al. \cite{simardMangroveCanopyHeight2019}, shown in Equation \ref{eq:allo} where $H_{ba}$ refers to the basal area weighted height of the mangroves. This equation was chosen as it contained the highest $R^2$ value (0.71) and lowest \ac{rmse} (54.3 MgC/ha) of the equations that cover the region. 
 
@@ -490,20 +576,14 @@ To estimate \ac{agb} density for the Guaratiba area, I used the Americas generic
 \ac{agb}_{density} = 1.418 * H_{ba}^{1.6038}
 \end{equation}
 
-By combining the Simard canopy height data with the Landsat-only extent classification\footnote{For mangroves identified by the Landsat-only extent classification that were not included in the Simard dataset, I assumed that $H_{ba}$ was equal to the average for the region.}, the \ac{agb} distribution of the region can be mapped, as seen in Figure . The total \ac{agb} for the region calculates to 120962 MgC for the year 2000, compared to the Simard estimate of 95032 MgC\footnote{Simard et al. do not specify whether they used the same allometric model to perform their \ac{agb}, as they propose several models. That said, I redid their calculations for the Guaratiba area and it does indeed seem that they used this same model.}
+By combining the Simard canopy height data with the Landsat-only extent classification\footnote{For mangroves identified by the Landsat-only extent classification that were not included in the Simard dataset, I assumed that $H_{ba}$ was equal to the average for the region.}, the \ac{agb} distribution of the region can be mapped for specific years, as seen in Figure . 
 
-[**insert map of AGB]
-
-
-To account for soil carbon and root biomass, in addition to \ac{agb}, Equation \ref{eq:carbon} was used. In it 270.1 MgC/ha represents an estimate of the mangrove soil carbon density. This is based on 19 samples (which ranged from 135 to 376 MgC/ha) taken by Jennerjahn et al. 2002 \cite{jennerjahnRelevanceMangrovesProduction2002} in Sepetiba bay (as reported in \cite{kristensenOrganicCarbonDynamics2008, atwoodGlobalPatternsMangrove2017}), making it directly relevant to this case study.  Total root biomass was estimated at 49\% of the \ac{agb}, as is specified by \ac{ipcc} guidelines \cite{takahiko2013Supplement20062014}. This accounting process is modeled after the methodology used in Simard et al. \cite{simardMangroveCanopyHeight2019}.
-
+To account for soil carbon and root biomass, in addition to \ac{agb}, Equation \ref{eq:carbon} was used. In it, $270.1$ represents an estimate of the mangrove soil carbon density in MgC/ha. This is based on 19 samples (which ranged from 135 to 376 MgC/ha) taken by Jennerjahn et al. 2002 \cite{jennerjahnRelevanceMangrovesProduction2002} in Sepetiba bay (as reported in \cite{kristensenOrganicCarbonDynamics2008, atwoodGlobalPatternsMangrove2017}), making it directly relevant to this case study.  Total root biomass was estimated at 49\% of the \ac{agb}, as is specified by \ac{ipcc} guidelines \cite{takahiko2013Supplement20062014} (thus the 1.49 multiplicative constant in Equation \ref{eq:carbon}). This accounting process is modeled after the methodology used in Simard et al. \cite{simardMangroveCanopyHeight2019}.
 
 \begin{equation}
 \label{eq:carbon}
 C_{density} = 1.49 * \ac{agb}_{density} + 270.1 
 \end{equation}
-
-[** add map of carbon density]
 
 For annual rate of carbon export, I used 2.2 MgC/ha. This is based on Lacerda, 1992 which also took samples from along the coast of Sepetiba bay \cite{lacerda1992carbon} (as reported in \cite{jennerjahnRelevanceMangrovesProduction2002}).
 
@@ -545,38 +625,97 @@ The selection of these two axes of policy decisions (conservation status and urb
 
 [discuss options future steps beyond the scope of this thesis (tradespace exploration)?]
 
-\subsection{\hlc[red]{EVDT Results}} \label{sec:rio-evdt-result}
+\subsection{\hlc[cyan]{EVDT Results}} \label{sec:rio-evdt-result}
 
-\subsubsection{\hlc[yellow]{Environment}} \label{sec:rio-evdt-e-result}
-
-[quantitative changes in mangrove extent]
-
-Net increase of approximately 290 ha from 2000 to 2018.
+\subsubsection{\hlc[cyan]{Environment}} \label{sec:rio-evdt-e-result}
 
 
-[compare changes in protected areas to changes outside of protected areas]
+\paragraph{\hlc[cyan]{Mangrove Extent}} \leavevmode\newline
 
-[discuss areas of particularly notable gain or loss, tie into other developments]
-	[steel mill construction]
-	[highway and rapid transit line]
-	[potential wood beetle infestation]
+We can see the differences, including both losses and new growth, of the mangroves between 2000 and 2018, as classified by the Landsat-only process, in Figure \ref{fig:extent-changes}. This represents a net increase of approximately 290 ha from 2000 to 2018, an approximately 9\% increase compared to the 3200 ha present in 2000.
+
+The primary areas of new mangroves in Guaratiba proper (shown in blue on the right of Figure \ref{fig:extent-changes}) are along the interior gaps in the forests. This areas, called \textit{apicum} in Brazilian Portuguese, consist of a mix of sand and salt marshes, and are a natural part of the mangrove forest ecosystem. The mangroves commonly encircle these areas and generate soil in them prior to the trees themselves sprouting along their edges. The primary areas of lost extent (shown in red) occur along the human-forest interface and, to a less extent, along the water ways of the biological reserve. In the northwest corner of the right image (between Pedra de Guaratiba and Sepetiba) can be seen new growth in smaller protected areas immediately adjacent to built-up land.
+
+In the left-hand image, different phenomena are apparent. The primary areas of new growth are along the coast, adjacent to Rio Guandu, a canalized river used as discharge by the Ternium steel plant and other industrial sites in Santa Cruz Industrial District. Primary losses meanwhile are directly along that, and the other canals, likely due to construction that took place around 2010. 
 	
 \begin{figure}[H] 
 \centering
-\includegraphics[width=0.8\textwidth]{Figures/chap4/extent_changes.png}
-\caption[Changes in Mangrove Extent 2000-2018]{Changes in mangrove extent in western Rio de Janeiro as classified by the Landsat-only process.}
+\includegraphics[width=0.95\textwidth]{Figures/chap4/extent_changes.png}
+\caption[Changes in Mangrove Extent 2000-2018]{Changes in mangrove extent in western Rio de Janeiro from 2000 to 2018 as classified by the Landsat-only process. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba}
 \label{fig:extent-changes}
 \end{figure}
 
-	
+The net changes in extent can also be seen temporally rather than spatially in Figure \ref{fig:extent-over-time}. This graph also compares the three different classifier processes used, along with the Giri and \ac{gmw} maps. As is expected, both of the global maps provide lower estimates for mangrove extent. It is notable, however, that the \ac{gmw} maps indicate quite little changes over time, seeming to miss many of the local phenomena just discussed. That said, the estimates provided by the Landsat + \ac{palsar} classification suggest that the Landsat-only classification is somewhat overestimating mangrove extent. It does seem to confirm the general trend of  increasing extent from approximately 2005 to 2018, however.  
+
 \begin{figure}[H] 
 \centering
-\includegraphics[width=0.8\textwidth]{Figures/chap4/extent_over_time.png}
-\caption[Mangrove Extent Over Time]{Mangrove extent in western Rio de Janeiro lha 2000 to 2018 as measured by several different classification methods. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\includegraphics[width=0.95\textwidth]{Figures/chap4/extent_over_time.png}
+\caption[Mangrove Extent Over Time]{Mangrove extent in western Rio de Janeiro from 2000 to 2018 as measured by several different classification methods.}
 \label{fig:extent-over-time}
 \end{figure}
 
+The Landsat-only classifications for each year from 2000 to 2018 were used to construct an "all years inclusive" extent map that shows all areas that were classified as mangroves in at least one year. This was used as to identify the area for health tracking.
 
+\paragraph{\hlc[cyan]{Mangrove Health}} \leavevmode\newline
+
+We can see the median \ac{ndvi} values for the 1999-2001 reference period in Figure \ref{fig:reference_median}. As might be expected, the highest \ac{ndvi} values are present in the interior, mature ares of the forest, with lower \ac{ndvi} values lying along the edge. However, it cannot be determined from this image alone whether these lower value areas represent areas of new growth (young saplings in previously unoccupied land or water) or areas of degraded health / loss.  
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/reference_median.png}
+\caption[Reference Median NDVI of Region]{Median NDVI for the reference period of 1999-01-01 through 2001-12-31. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\label{fig:reference_median}
+\end{figure}
+
+We can see the mean anomaly \ac{ndvi} in Figure \ref{fig:mean_anomaly_map}, which seems to corroborate the changes in classified extent presented in the previous section. In Guaratiba proper (in the right image), sustained increased in \ac{ndvi} are clearly evident along the interior apicum, while some (ambiguous) decreases are seen along the mangrove-human interface and the waterways. Similarly, in the left-hand image we can see the increases in \ac{ndvi} adjacent to the canal outlets and decreases along the canals themselves. In fact, it seems that, in addition to the noted increase in seaward extent noted previously, even the more interior mangroves downcurrent from the canal outlets have experienced significant growth. 
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/mean_anomaly_map.png}
+\caption[2000-2018 Mean Anomaly NDVI of Region]{2000-2018 Mean Anomaly \ac{ndvi}. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\label{fig:mean_anomaly_map}
+\end{figure}
+
+The areas of potential loss or damaged, as measured by changes in mean anomaly \ac{ndvi}, have been isolated in Figure \ref{fig:loss_map}, making the above noted changes more stark. In total these sum to approximately 108 ha of lost or damaged mangroves. In addition to the losses along the industrial canals, some loses can be seen in what is now the steel mill, representing its construction which began in the mid-2000s.  I visited many of the marked areas within the Guaratiba reserve (the right-hand image) during the August 2019 field visit and (non-systematically) confirmed that degradation was apparent in each of them, as can be seen in Figure \ref{fig:mangrove_photo}, though the causes of the degradation was not readily apparent.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/loss_map.png}
+\caption[Map of Mangrove Loss]{Map of Mangrove Loss from 2000 to 2018 as measured by Mean Anomaly \ac{ndvi}. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\label{fig:loss_map}
+\end{figure}
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/mangrove_photo.jpg}
+\caption[Photo of Localized Mangrove Damage]{Photo of Localized Mangrove Damage. Taken by author during the August 2019 field visit.}
+\label{fig:mangrove_photo}
+\end{figure}
+
+
+\paragraph{\hlc[cyan]{Mangrove Height}} \leavevmode\newline
+
+The Simard et al. datasets were used to derive some general statistical information for the study area, including a distribution of heights, shown in \ref{fig:height_histogram}. Note that the $H_{max}$ values in particular contain a small number of outlier aberrations (no 40+ meter mangrove trees were visible during either of my field visits). Based on this data, the mean basal area weighted height of the mangroves in the study area is 7.4m while the mean maximum height is 11.6m. This compares to a mean height of 11.9m for the country of Brazil as a whole, according to Simard et al. \cite{simardMangroveCanopyHeight2019} suggesting that these trees are significantly shorter than those found in the northeastern Amazonian portion of the country.
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/height_histogram.png}
+\caption[Histogram of Mangrove Height in Region]{Histogram of both the basal area weighted height ($H_{ba}$) and the maximum canopy height of each 30mx30m area ($H_{max}$).}
+\label{fig:height_histogram}
+\end{figure}
+
+\paragraph{\hlc[cyan]{Mangrove Carbon Stocks}} \leavevmode\newline
+
+As discussed in Section \ref{sec:rio-mangrove-carbon}, the above height data was used to estimate \ac{agb} and total carbon stocks for the region in 2018. The distribution of the total carbon stock density can be seen in Figure \ref{fig:carbon_density}, which roughly corresponds with the Figure \ref{fig:reference_median} map of median \ac{ndvi} during the reference period, as is to be expected. 
+
+The calculation process resulted in an estimated total \ac{agb} for the region of 121000 MgC for the year 2000, compared to the Simard estimate of 95000 MgC\footnote{Simard et al. do not specify whether they used the same allometric model to perform their \ac{agb} calculations, as they propose several models. That said, I redid their calculations for the Guaratiba area and it does indeed seem that they used this same model.} AGB increased from to approximately 131000 MgC (an 8.5\% increase). Total carbon meanwhile increased from 1045000 to 1138000 MgC (an 8.9\% increase).
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/carbon_density.png}
+\caption[Mangrove Carbon Stock Distribution]{Mangrove carbon stock distribution for the 2018 extent. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
+\label{fig:carbon_density}
+\end{figure}
 
 \subsubsection{\hlc[yellow]{Vulnerability}} 
 
@@ -622,7 +761,7 @@ The city of Rio de Janeiro has made significant use of \ac{eo} data dating back 
 
 [explain process and software used for the DSS]
 
-\subsection{\hlc[red]{DSS Results}}
+\subsection{\hlc[red]{DSS Results}} \label{sec:rio-dss-results}
 
 [explain the state of the prototype]
 
@@ -663,6 +802,8 @@ replanting mangroves helps the soil \cite{jimenezRecoverySoilProcesses2022}
 Beyond the scope of this thesis, in order to better understand and quantify the dynamics linking mangrove health and conservation policies with local socioeconomic impact, the team is currently pursuing collaborating with an ecosystem services economist to analyze historical data and potentially to conduct household surveys. This historical data will be used in conjunction with the mangrove health history to estimate the "Carbon and Raw Material Impact" and "Local Socioeconomic Impact of Mangrove Loss," as shown in Figure \ref{fig:method}. For more details on these types of methods, see \cite{jungBrazilNationalEnvironmental2017, jungPartnershipsPreventDeforestation2018}. Once these historical dynamics are better understood, we can progress to predictive simulation of vulnerability.
 
 
+
+
 \begin{figure}[t] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap4/Method_Flowchart.png}
@@ -673,6 +814,17 @@ Beyond the scope of this thesis, in order to better understand and quantify the 
 The history of these two policy axes over the past several decades will be used in conjunction with the Environment and Vulnerability Models to estimate the regulatory impact on these two domains, as shown in Figure \ref{fig:method}.
 
 [potential inaccuracy of the allometric model used for AGB, and for the other assumptions made calculating carbon stock / export]
+
+
+Unfortunately, the Rio de Janeiro area contains three different species of mangroves (\textit{Avicennia schaueriana}, \textit{Laguncularia racemosa}, \textit{Rhizophora mangle}), each of which have somewhat different spectral reflectance properties, making exact identification and health tracking somewhat more difficult.
+
+As mentioned earlier, \ac{ndvi} is not a perfect measure of mangrove health in a multi-species ecosystem, but it is broadly accurate. With greater number of bands (more than 10) in the visual spectrum, it is sometimes possible to differentiate vegetation species in some cases, but existing free hyperspectral platforms have some combination of poor spatial resolution and insufficient coverage, making them inadequate for this application \cite{mousivandGlobalSensitivityAnalysis2014}. The upcoming launch of the Planet Tanager constellation may alter this situation \cite{planetlabspbcPlanetAnnouncesNew2022}.
+
+The height of mangrove trees can be measured using aerial photogrammetry or \ac{lidar} \cite{olagokeIndividualMangroveTree2015} and Rio de Janeiro has recently conducted such a survey of the entire municipality, though the data was not available in time for this work. Historical height data can be estimated using space-based \ac{lidar} and \ac{sar} data \cite{lagomasinoComparisonMangroveCanopy2016}, though this method lacks the spatial resolution of aerial methods.
+
+\ac{gmw} has since released a v3 with later years included.
+
+Pescadors Association sent a delegation to the EU to protest the construction of the steel mill, resulting in mitigation of mangrove losses. 
 
 \section{\hlc[red]{Conclusion}}
 

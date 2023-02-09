@@ -146,7 +146,7 @@ The following subsections walk through the \ac{saf} steps individually, providin
 
 A summary of useful methods for each step of \ac{saf} is available in Table \ref{tab:saf_methods}, along with useful references. Italicized methods are defined in the corresponding following subsection of this chapter. It should be noted that many of these methods are useful in multiple steps but are listed here in the step that they are primarily associated with. Not all methods are recommended for every application. 
 
-\begin{table}[H]
+\begin{table}[!htb]
 \caption[Methods for SAF Steps]{Methods for SAF steps. Italicized methods are defined in the corresponding following subsection of this chapter.}
 \label{tab:saf_methods}
 \begin{center}
@@ -197,7 +197,7 @@ The first step of \ac{saf} is to understand the System Context: the external fac
 
 Methodologies for this step include surveys of literature (including both academic and non-academic literature, including popular media as needed), informal conversations, interviews, surveys, and observation. Once information has been gathered, it needs to be organized into a useful form. For this, it is often useful to consider the system of interest at a variety of System Context Scales and System Context Dimensions. The former refers to how spatially or organizationally "zoomed in/out" one's perspective. Figure \ref{fig:scale} shows a set of generic such scales, though more or fewer can be used as needed. 
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.4\textwidth]{Figures/chap3/scale.png}
 \caption[Generic System Context Scales]{Generic System Context Scales}
@@ -206,7 +206,7 @@ Methodologies for this step include surveys of literature (including both academ
 
 Dimensions meanwhile refers to the topical perspective taken within a Scale. There are innumerable potential such perspectives that one can take, but Figure \ref{fig:dimensions_generic} shows four basic ones that are commonly relevant in \ac{evdt} projects (and that roughly mean the \ac{evdt} questions discussed in Section \ref{sec:evdt-questions}). It also provides examples of the kinds of information that can be summarized with each Dimension.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/chap3/dimensions_generic.png}
 \caption[Generic System Context Dimensions]{Generic System Context Dimensions, including example items.}
@@ -215,7 +215,7 @@ Dimensions meanwhile refers to the topical perspective taken within a Scale. The
 
 Note that the most relevant dimensions may change as one progresses through the different Scales. Figure \ref{fig:dimensions_example} provides two examples. Each represents a different project and a different scale. The first is at the local scale for an \ac{evdt} project lead by Lombardo \cite{lombardoDevelopmentDecisionSupport2021, lombardoUtilizingSatelliteEarth2022}. It thus closely mirrors the generic case from above. The latter is at the national scale for a project looking at the creation of a new space agency \cite{woodBuildingTechnologicalCapability2012}. The relevant dimensions are thus quite different and even the dimensions that are similar (economic and technical) contain different types of information.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/chap3/dimensions_examples.png}
 \caption[Example System Context Dimensions]{Example System Context Dimensions. \textbf{Top:} Four dimensions for the local scale Yurok tribe EVDT Project. Adapted from \cite{lombardoDevelopmentDecisionSupport2021}. \textbf{Bottom:} Four dimensions for the creation of a space agency at the national scale. Adapted from ???}
@@ -229,7 +229,7 @@ During the second \ac{saf} step, the various stakeholders, along with the relati
 
 A common initial approach for this step is to separate stakeholders into three categories: Primary, Secondary, and Tertiary, as shown in Table \ref{tab:primary-secondary-tertiary}. This approach, which draws on Crawley et al. \cite{crawleySystemArchitectureStrategy2015} and refined by Wood et al \cite{ovienmhadaInclusiveDesignEarth2021}, defines Primary Stakeholders as those who make direct decision on the design or operation of the system. Secondary Stakeholders are those who have direct influence on the Primary Stakeholders, typically via authority or funding. Tertiary Stakeholders are those that exert either little control or primarily indirect control on the system, but are impacted by the system. These are somewhat reductive categories and the listing of primary-secondary-tertiary should not be taken to understand a hierarchy of stakeholder worth or importance.
 
-\begin{table}[H]
+\begin{table}[!htb]
 \caption[Primary-Secondary-Tertiary Classification of Stakeholders]{Primary-Secondary-Tertiary classification of stakeholders, including examples from \cite{ovienmhadaEarthObservationTechnology2020}}
 \label{tab:primary-secondary-tertiary}
 \begin{center}
@@ -250,7 +250,7 @@ Stakeholders & \tabitem \ac{gka} & 	\tabitem{National Institute of Water}
 
 Other methods include both qualitative approaches such as flowchart creation or mapping, and more quantitative approaches such as Stakeholder Value Network Analysis \cite{fengDependencyStructureMatrix2010a} or agent-based modeling. The last of these is more relevant once Stakeholder Needs and Desired Outcomes have been identified. An example of stakeholder relational mapping can be seen in Figure \ref{fig:jaffe-stakeholder}. In its current form, it provided an excellent qualitative aid to understanding stakeholder relations, but it could also have been extended into a more quantitative Stakeholder Value Network Analysis if that had been considered useful.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap3/jaffe-stakeholder.png}
 \caption[Example stakeholder map of the Massachusetts Cranberry Industry]{Example stakeholder map of the Massachusetts Cranberry Industry. Figure from \cite{jaffeEnvironmentalEconomicSystems2022}}
@@ -267,7 +267,7 @@ One way to consider this is with the concept Architectural Alignment. This conce
 
 The goal of this step is to synthesize these Needs, Desired Outcomes, and Values, into (well aligned) System Objectives: the high level description of what the system will do. These can be quantitative or qualitative. Some sources use the term System Goals instead, in order to distinguish them from the optimization term ``objective function" \cite{nasaofficeofthechiefengineerNASASystemsEngineering2004}
 
-\begin{table}[H]
+\begin{table}[!htb]
 \caption[Example Set of Needs, Outcomes, and Objectives]{Example set of Needs, Outcomes, and Objectives. Table from \cite{jaffeEnvironmentalEconomicSystems2022}}
 \label{tab:need-outcome-objective}
 \begin{center}
@@ -312,7 +312,7 @@ The methods outlined in the previous section are largely still applicable here, 
 
 We generally recommend that Steps 1 through 5 be summarized in a concrete visual representation such as Figure \ref{fig:system-diagram}. These can be useful in describing the structure and dependencies within the system, as well as distilling the key aspects of the system in an easily understandable fashion. An alternative, list-based presentation can be seen in Ovienmhada et al. \cite{ovienmhadaInclusiveDesignEarth2021}.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap3/system-diagram-combined.png}
 \caption[Example system diagrams]{Example system diagrams. \textbf{Top:} Generic version. Credit to Danielle Wood. \textbf{Bottom:} Example from a coastal resilience \ac{evdt} project in Pekalongan, Indonesia. From \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}}
@@ -428,7 +428,7 @@ For example, initial \ac{evdt} projects featured quite large graphics. Tufte arg
 
 In general, care should be taken in making fundamental architectural decisions in the development of the \ac{dss}. As with most \ac{gis} software \cite{heikkilaGISDeadLong1998}, early \ac{evdt} projects were structured as entirely object-oriented, and later versions remained primarily object-oriented. This has many advantages but also comes at certain costs, the most important of which include (a) difficulty in recording continuous spatial variables and (b) a requirement to pre-identify the different classes (objects) to sort phenomena and relationships into \cite{goodchildModelingEarth2011}. Similarly care, must be taken such that the form of the \ac{dss} supports the circumstances in which it will be used. Jankowski proposed four different kinds of meeting arrangements, shown in Table \ref{table:meeting_arrangements}, each with their advantages and disadvantages. Not all \acp{dss} forms are equally suited for each of these arrangements.
 
-\begin{table}[H]
+\begin{table}[!htb]
 \caption[Different types of meeting arrangements]{Different types of meeting arrangements. Adapted from \cite{jankowskiGISGroupDecision2001}}
 \label{table:meeting_arrangements}
 \begin{center}

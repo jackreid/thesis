@@ -2572,6 +2572,19 @@ Masanobu Shimada, Takuya Itoh, Takeshi Motooka, Manabu Watanabe, Tomohiro
   (2007\textendash 2010).
 \newblock {\em Remote Sensing of Environment}, 155:13--31, December 2014.
 
+\bibitem{jarvisHolefilledSRTMGlobe2008}
+A.~Jarvis, H.I. Reuter, A.~Nelson, and E.~Guevara.
+\newblock Hole-filled {{SRTM}} for the globe {{Version}} 4, available from the
+  {{CGIAR-CSI SRTM}} 90m {{Database}}.
+\newblock http://srtm.csi.cgiar.org/, 2008.
+
+\bibitem{jhonnerieRandomForestClassification2015}
+Romie Jhonnerie, Vincentius~P Siregar, Bisman Nababan, Lilik~Budi Prasetyo, and
+  Sam Wouthuyzen.
+\newblock Random forest classification for mangrove land cover mapping using
+  {{Landsat}} 5 {{TM}} and {{ALOS PALSAR}} imageries.
+\newblock {\em Procedia Environmental Sciences}, page~7, 2015.
+
 \bibitem{fredenMonitoringVegetationSystems1974}
 Stanley~C. Freden, Enrico~P. Mercanti, and Margaret~A. Becker.
 \newblock Monitoring vegetation systems in the {{Great Plans}} with {{ERTS}}.
@@ -2629,19 +2642,6 @@ Lei Ji, Li~Zhang, Bruce~K. Wylie, and Jennifer Rover.
 \newblock {\em International Journal of Remote Sensing}, 32(21):6901--6909,
   November 2011.
 
-\bibitem{jarvisHolefilledSRTMGlobe2008}
-A.~Jarvis, H.I. Reuter, A.~Nelson, and E.~Guevara.
-\newblock Hole-filled {{SRTM}} for the globe {{Version}} 4, available from the
-  {{CGIAR-CSI SRTM}} 90m {{Database}}.
-\newblock http://srtm.csi.cgiar.org/, 2008.
-
-\bibitem{jhonnerieRandomForestClassification2015}
-Romie Jhonnerie, Vincentius~P Siregar, Bisman Nababan, Lilik~Budi Prasetyo, and
-  Sam Wouthuyzen.
-\newblock Random forest classification for mangrove land cover mapping using
-  {{Landsat}} 5 {{TM}} and {{ALOS PALSAR}} imageries.
-\newblock {\em Procedia Environmental Sciences}, page~7, 2015.
-
 \bibitem{royCharacterizationLandsat7Landsat82016}
 D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
   A.~Egorov.
@@ -2649,33 +2649,12 @@ D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
   wavelength and normalized difference vegetation index continuity.
 \newblock {\em Remote Sensing of Environment}, 185:57--70, November 2016.
 
-\bibitem{mousivandGlobalSensitivityAnalysis2014}
-Alijafar Mousivand, Massimo Menenti, Ben Gorte, and Wout Verhoef.
-\newblock Global sensitivity analysis of the spectral radiance of a
-  soil\textendash vegetation system.
-\newblock {\em Remote Sensing of Environment}, 145:131--144, April 2014.
-
-\bibitem{planetlabspbcPlanetAnnouncesNew2022}
-{Planet Labs PBC}.
-\newblock Planet {{Announces New Details}} of {{Hyperspectral Offering}}.
-\newblock
-  https://www.planet.com/pulse/planet-announces-new-details-of-hyperspectral-offering/,
-  September 2022.
-
 \bibitem{zhangModelingRiskMangroves2019}
 Caiyun Zhang, Sara~Denka Durgan, and David Lagomasino.
 \newblock Modeling risk of mangroves to tropical cyclones: {{A}} case study of
   {{Hurricane Irma}}.
 \newblock {\em Estuarine, Coastal and Shelf Science}, 224:108--116, August
   2019.
-
-\bibitem{olagokeIndividualMangroveTree2015}
-Adewole Olagoke, Christophe Proisy, Jean-Baptiste F{\'e}ret, Elodie Blanchard,
-  Fran{\c c}ois Fromard, Ulf Mehlig, Moirah~Machado {de Menezes},
-  Valdenira~Ferreira {dos Santos}, and Uta Berger.
-\newblock Individual mangrove tree measurement using {{UAV-based LiDAR}} data:
-  {{Possibilities}} and challenges.
-\newblock {\em Remote Sensing of Environment}, 223:34--49, 19/December/2015.
 
 \bibitem{cloughAllometricRelationshipsEstimating1989}
 B.~F. Clough and K.~Scott.
@@ -2689,13 +2668,6 @@ Temilola Fatoyinbo, Emanuelle~A. Feliciano, David Lagomasino, Seung~Kuk Lee,
 \newblock Estimating mangrove aboveground biomass from airborne {{LiDAR}} data:
   A case study from the {{Zambezi River}} delta.
 \newblock {\em Environmental Research Letters}, 13(2):025012, February 2018.
-
-\bibitem{lagomasinoComparisonMangroveCanopy2016}
-David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
-  Trettin, and Marc Simard.
-\newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
-  Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
-\newblock {\em Remote Sensing}, 8(4):327, April 2016.
 
 \bibitem{jennerjahnRelevanceMangrovesProduction2002}
 Tim~C. Jennerjahn and Venugopalan Ittekkot.
@@ -2852,6 +2824,34 @@ Suhyun Jung and Stephen Polasky.
 \newblock Partnerships to prevent deforestation in the {{Amazon}}.
 \newblock {\em Journal of Environmental Economics and Management}, 92:498--516,
   November 2018.
+
+\bibitem{mousivandGlobalSensitivityAnalysis2014}
+Alijafar Mousivand, Massimo Menenti, Ben Gorte, and Wout Verhoef.
+\newblock Global sensitivity analysis of the spectral radiance of a
+  soil\textendash vegetation system.
+\newblock {\em Remote Sensing of Environment}, 145:131--144, April 2014.
+
+\bibitem{planetlabspbcPlanetAnnouncesNew2022}
+{Planet Labs PBC}.
+\newblock Planet {{Announces New Details}} of {{Hyperspectral Offering}}.
+\newblock
+  https://www.planet.com/pulse/planet-announces-new-details-of-hyperspectral-offering/,
+  September 2022.
+
+\bibitem{olagokeIndividualMangroveTree2015}
+Adewole Olagoke, Christophe Proisy, Jean-Baptiste F{\'e}ret, Elodie Blanchard,
+  Fran{\c c}ois Fromard, Ulf Mehlig, Moirah~Machado {de Menezes},
+  Valdenira~Ferreira {dos Santos}, and Uta Berger.
+\newblock Individual mangrove tree measurement using {{UAV-based LiDAR}} data:
+  {{Possibilities}} and challenges.
+\newblock {\em Remote Sensing of Environment}, 223:34--49, 19/December/2015.
+
+\bibitem{lagomasinoComparisonMangroveCanopy2016}
+David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
+  Trettin, and Marc Simard.
+\newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
+  Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
+\newblock {\em Remote Sensing}, 8(4):327, April 2016.
 
 \bibitem{deweckHandlingCOVID192020}
 Olivier {de Weck}, Daniel Krob, Li~Lefei, Pao~Chuen Lui, Antoine Rauzy, and
