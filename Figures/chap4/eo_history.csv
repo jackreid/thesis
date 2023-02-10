@@ -1,19 +1,20 @@
-Year,Type of product,Platform
-1975,Ortophoto,Aerial (???cm)
-1999,Ortophoto,Analog camera (scanned to 85cm)
-2004,Ortophoto,Analog camera (scanned to 50cm)
-2006,Satellite imagery,Quickbird (60 cm)
-2008,Satellite imagery,Quickbird (60 cm)
-2009,Ortophoto,Digital camera (25 cm)
-2010,Lidar survey,Aerial (10 pts/m2)
-2010,Ortophoto,Digital camera (25 cm)
-2011,Ortophoto,Digital camera (20 cm)
-2012,Ortophoto,Digital camera (20 cm)
-2013,Lidar survey,Aerial (2 pts/m2)
-2013,Ortophoto,Digital camera (10 cm)
-2015,Ortophoto,Digital camera (15 cm)
-2016,Satellite imagery,Worldview 3 (30 cm)
-2017,Satellite imagery,Worldview 2 (46 cm)
-2018,Satellite imagery,Worldview 3 (32 cm)
-2019,True Ortophoto,Digital camera (15 cm)
-2019,Lidar survey,Aerial (8 pts/m2)
+Year(s),Type of product,Platform,Collecting Agency,Primary Use
+1975,Aerial Orthophoto,"Analog Camera (???cm, undigitized)",SMU,Land Cover / Land Use Classification
+199x – Present (Sporadic),Satellite Imagery ,Landsat 5 – 8 \& SPOT 2-6,SMAC,Rainforest Health Monitoring
+1999,Aerial Orthophoto,Analog camera (scanned to 85cm),SMU,Land Cover / Land Use Classification
+2004,Aerial Orthophoto,Analog camera (scanned to 50cm),IPP,Land Cover / Land Use Classification
+2006,Satellite Imagery ,Quickbird (60 cm),IPP,Land Cover / Land Use Classification
+2008,Satellite Imagery ,Quickbird (60 cm),IPP,Land Cover / Land Use Classification
+2009,Aerial Orthophoto,Digital camera (25 cm),IPP,Land Cover / Land Use Classification
+2010,Aerial Lidar Survey,Unknown (10 pts/m2),IPP,Building Height Estimation
+2010,Aerial Orthophoto,Digital camera (25 cm),IPP,Land Cover / Land Use Classification
+2011,Aerial Orthophoto,Digital camera (20 cm),IPP,Land Cover / Land Use Classification
+2012,Aerial Orthophoto,Digital camera (20 cm),IPP,Land Cover / Land Use Classification
+2013,Aerial Lidar Survey,Unknown (2 pts/m2),IPP,Building Height Estimation
+2013,Aerial Orthophoto,Digital camera (10 cm),IPP,Land Cover / Land Use Classification
+2015,Aerial Orthophoto,Digital camera (15 cm),IPP,Land Cover / Land Use Classification
+2016,Satellite Imagery ,Worldview 3 (30 cm),IPP,Land Cover / Land Use Classification
+2017,Satellite Imagery ,Worldview 2 (46 cm),IPP,Land Cover / Land Use Classification
+2018,Satellite Imagery ,Worldview 3 (32 cm),IPP,Land Cover / Land Use Classification
+2019,Aerial Orthophoto,Digital camera (15 cm),IPP,Land Cover / Land Use Classification
+2020,Aerial Lidar Survey,Unnown (8 pts/m2),IPP,TBD

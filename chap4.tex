@@ -16,6 +16,17 @@ It should be noted that, as stated in Section \ref{sec:questions}, each case stu
 
 Finally, this research was begun in 2017. Field visits took place in 2019 and 2020, the latter of which was interrupted by the onset of the COVID-19 pandemic (as was this project in general). Our research and development priorities (both mine and those of our Rio de Janeiro colleagues) shifted to more urgent concerns. This means that aspects of this chapter are a couple of years old at the time of writing and various desired objectives were never reached. This is discussed further in Section \ref{sec:rio-discussion}.
 
+\section{\hlc[cyan]{A Note on Credit / Contributions}}
+
+Prior to this project, I had little experience with mangroves and no experience with Brazil. This project would not have been possible without the contributions of quite a number of people, some of whom I would like to acknowledge here.
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{Felipe Mandarino: Served as my primary point-of-contact over the course of several years and was the anchor of this project.}
+	\item{David Lagomasino: Taught me how to use \ac{gee} and work with satellite imagery.}
+	\item{Carla Madureira, Rafael Silva de Barros, and all of their students at \ac{ufrj}: Taught me about the local mangroves, took me on field visits, and helped me to buy my first pair of Havaianas.}
+	\item{Suhyun Jung and Emily Joiner: Taught me about ecosystem services and compiled many of the valuation studies referred to in this chapter.}
+\end{itemize}
+
 
 \section{\hlc[green]{Systems Architecture Framework}} \label{sec:rio-saf}
 
@@ -425,7 +436,7 @@ With these questions and goals in mind, a specific instance of the integrated mo
 \end{itemize}
 
 
-\begin{figure}[H]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap4/MangroveModelFlow.png}
 \caption[EVDT Model (Rio de Janeiro Mangrove Forest Case)]{Environment - Vulnerability - Decision - Technology Model (Rio de Janeiro Mangrove Forest Case)}
@@ -576,7 +587,7 @@ To estimate \ac{agb} density for the Guaratiba area, I used the Americas generic
 \ac{agb}_{density} = 1.418 * H_{ba}^{1.6038}
 \end{equation}
 
-By combining the Simard canopy height data with the Landsat-only extent classification\footnote{For mangroves identified by the Landsat-only extent classification that were not included in the Simard dataset, I assumed that $H_{ba}$ was equal to the average for the region.}, the \ac{agb} distribution of the region can be mapped for specific years, as seen in Figure . 
+By combining the Simard canopy height data with the Landsat-only extent classification\footnote{For mangroves identified by the Landsat-only extent classification that were not included in the Simard dataset, I assumed that $H_{ba}$ was equal to the average for the region.}, the \ac{agb} distribution of the region can be mapped for specific years.
 
 To account for soil carbon and root biomass, in addition to \ac{agb}, Equation \ref{eq:carbon} was used. In it, $270.1$ represents an estimate of the mangrove soil carbon density in MgC/ha. This is based on 19 samples (which ranged from 135 to 376 MgC/ha) taken by Jennerjahn et al. 2002 \cite{jennerjahnRelevanceMangrovesProduction2002} in Sepetiba bay (as reported in \cite{kristensenOrganicCarbonDynamics2008, atwoodGlobalPatternsMangrove2017}), making it directly relevant to this case study.  Total root biomass was estimated at 49\% of the \ac{agb}, as is specified by \ac{ipcc} guidelines \cite{takahiko2013Supplement20062014} (thus the 1.49 multiplicative constant in Equation \ref{eq:carbon}). This accounting process is modeled after the methodology used in Simard et al. \cite{simardMangroveCanopyHeight2019}.
 
@@ -585,14 +596,15 @@ To account for soil carbon and root biomass, in addition to \ac{agb}, Equation \
 C_{density} = 1.49 * \ac{agb}_{density} + 270.1 
 \end{equation}
 
-For annual rate of carbon export, I used 2.2 MgC/ha. This is based on Lacerda, 1992 which also took samples from along the coast of Sepetiba bay \cite{lacerda1992carbon} (as reported in \cite{jennerjahnRelevanceMangrovesProduction2002}).
+For annual rate of carbon export, I used 5.85 MgC/ha. This is based on two sources. The first is Estrada \cite{estrada2013analise} who sampled sites throughout the \ac{rbag}, sorted the mangroves into three categories, and estimated rate of \ac{agb} change resulting from growth and recruitment. These three categories are fringe, basin, and transition, for each Estrada estimated annual carbon sequestration rates of 2.64, 1.90, and 2.39 MgC/ha respectively. We can use these to calculate an area-weighted average of 2.05 MgC/ha-year. 
 
+The other source is Lacerda \cite{lacerda1992carbon} (as reported in \cite{jennerjahnRelevanceMangrovesProduction2002}) who, based on samples liter fall from mangroves along the coast of Sepetiba bay, estimated an annual carbon sequestration rate of 3.8 MgC/ha (2.2 being exported into the ocean and the remainder being incorporated into the sediment).
 
-\subsubsection{\hlc[yellow]{Vulnerability}} \label{sec:rio-vulnerability}
+Since these two sources both based on samples from the study area (albeit not in the precise same location) and they measure different mechanisms of carbon sequestration, I added them together to reach the figure of 5.85 MgC/ha-year. This is acknowledged to be imprecise both due to variations in the type of mangrove forest throughout the region and in the high levels of uncertainty in each of the underlying sources.
 
-[** summarize the datasets and outputs discussed in this section in a table]
+\subsubsection{\hlc[cyan]{Vulnerability}} \label{sec:rio-vulnerability}
 
-Social impact and vulnerability in this case study has several different forms. First there are general socioeconomic trends and pressures in the Guaratiba area. A qualitative history of these was presented in Section \ref{sec:rio-context}. In addition to this history, various quantitative socioeconomic and demographic data, including employment rates and population density, were collected at several geographic scales, including bairros (neighborhoods), census blocks, and census microgrids. Much of this data was sourced from the national statistics agency, the \ac{ibge}. These were supplemented with municipally collected data, organized by \ac{ipp}. Such data includes a UN-developed \ac{ipm} \cite{oxfordpovertyandhumandevelopmentinitiativeChartingPathewaysOut2020}, a municipally-customized social progress index \cite{puliciRelatorioMetodologicoIndice2016}, and detailed land use / land cover maps \cite{regoAutomaticClassificationLand2003}. This data varies significantly in its geographic and temporal resolution. 
+Social impact and vulnerability in this case study has several different forms. First there are general socioeconomic trends and pressures in the Guaratiba area. A qualitative history of these was presented in Section \ref{sec:rio-context}. In addition to this history, various quantitative socioeconomic and demographic data, including employment rates and population density, were collected at several geographic scales, including bairros (neighborhoods), census blocks, and census microgrids. Much of this data was sourced from the national statistics agency, the \ac{ibge}. These were supplemented with municipally collected data, organized by \ac{ipp}. Such data includes a UN-developed \ac{ipm} \cite{oxfordpovertyandhumandevelopmentinitiativeChartingPathewaysOut2020}, a municipally-customized \ac{ips} \cite{puliciRelatorioMetodologicoIndice2016}, and detailed land use / land cover maps \cite{regoAutomaticClassificationLand2003}. This data varies significantly in its geographic and temporal resolution. This process was primarily descriptive and provided the basis for various layers to be displayed in the \ac{dss}.
 
 The second form of social impact and vulnerability comes in the form of ecosystem services provided, directly or directly, by the mangroves. Ecosystem services are often sorted into three categories: provisioning (providing some raw material), regulating (moderating the ambient environment in a helpful manner), and cultural (non-material benefits) \cite{haines-youngCommonInternationalClassification2018}. Mangrove forests around the world provide each of these:
 
@@ -602,7 +614,7 @@ The second form of social impact and vulnerability comes in the form of ecosyste
 	\item{Cultural: Tourism, general biodiversity}
 \end{itemize}
 
-As mentioned previously, it is known that the local communities in the Guaratiba area benefit from various ecosystem services provided by the mangroves, but the exact forms these services take are unknown and their values have not been quantified. Some bounds on these values can be estimated from valuation studies focusing on mangroves elsewhere in the region and elsewhere around the world. To this end, we examined mangrove ecosystem services valuations from the \ac{esvd} \cite{grootEcosystemServicesValuation2020} (an open source database maintained by the Foundation for Sustainable Development) and nine meta-analyses or review papers \cite{branderEmpiricsWetlandValuation2006,branderEcosystemServiceValues2012, salemEconomicValueMangroves2012, veghMangroveEcosystemServices2014, voReviewValuationMethods2012, himes-cornellMangroveEcosystemService2018, getznerEcosystemServicesMangrove2020, barbierProtectiveServiceMangrove2016, barbierEstuarineCoastalEcosystems2020} in order to determine a potential range of values for the various mangrove ecosystem services in the Guaratiba area. Additionally, we use Simard et al.'s global map of mangrove canopy height, \ac{agb}, and carbon stock per hectare in the year 2000 \cite{simardMangroveCanopyHeight2019} to provide a baseline carbon storage estimate for the Guaratiba mangroves. We can use changes in mangrove extent over the 2000-2018 period to estimate likely changes in carbon stocks. In the future, when the aforementioned aerial \ac{lidar} survey data becomes available, these estimates can be revised.
+As mentioned previously, it is known that the local communities in the Guaratiba area benefit from various ecosystem services provided by the mangroves, but the exact forms these services take are unknown and their values have not been quantified. Some bounds on these values can be estimated from valuation studies focusing on mangroves elsewhere in the region and elsewhere around the world. To this end, we examined mangrove ecosystem services valuations from the \ac{esvd} \cite{grootEcosystemServicesValuation2020} (an open source database maintained by the Foundation for Sustainable Development) and nine meta-analyses or review papers \cite{branderEmpiricsWetlandValuation2006,branderEcosystemServiceValues2012, salemEconomicValueMangroves2012, veghMangroveEcosystemServices2014, voReviewValuationMethods2012, himes-cornellMangroveEcosystemService2018, getznerEcosystemServicesMangrove2020, barbierProtectiveServiceMangrove2016, barbierEstuarineCoastalEcosystems2020} in order to determine a potential range of values for the various mangrove ecosystem services in the Guaratiba area. Additionally, I build upon the analyses conducted in the Environment section to estimate the value of the carbon regulating services provided by the mangroves. 
 
 
 \subsubsection{\hlc[cyan]{Decision-making}}
@@ -613,17 +625,13 @@ Conservation status, on the other hand, is more complicated, as discussed in Sec
 
 In addition to conservation, there is the potential for replanting and restoration of mangroves. Numerous replanting and restoration projects have taken place in the Rio de Janeiro area in recent years, both in dedicated conservation areas \cite{granadoAssessingGeneticDiversity2018} and in more urban and peri-urban areas \cite{rioprefeituraEnvironmentalRecoveryRodrigo2019, soaresEstruturaVegetalGrau1999}. Siting of these restoration areas ideally depends both on the environmental viability of a potential site and its likely ecosystem service impacts.
 
-The selection of these two axes of policy decisions (conservation status and urban zoning) was based on meetings and discussions with government officials from several municipal and federal agencies, university researchers, and local community members. Other axes were discussed and were of interest to particular audiences (such as transit network changes and conservation policy enforcement stringency), but these two held broad appeal and relative accessibility, while still having concrete historical data that are either quantitative or code-able qualitative in nature. 
+The selection of these two axes of policy decisions (conservation status and urban zoning) was based on meetings and discussions with government officials from several municipal and federal agencies, university researchers, and local community members. Other axes were discussed and were of interest to particular audiences (such as transit network changes, conservation policy enforcement stringency, and sewage infrastructure improvements), but these two held broad appeal and relative accessibility, while still having concrete historical data that are either quantitative or code-able qualitative in nature. 
 
+\subsubsection{\hlc[cyan]{Technology}}
 
+The primary technologies of interest in this project are sensing and measurement methods for informing policymakers and the other \ac{evdt} components. Among the commonly noted concerns during the stakeholder analysis process discussed in Section \ref{sec:rio-saf} were gaps in data on important topics, including changes in land cover, the value of ecosystem services, and the state of the environment. To better understand the current state of system, I inquired what sensing technologies or methods various stakeholders were currently using. The Technology component of this project will summarize this history of use and identify potential additional sensing technologies that may be of use. 
 
-\subsubsection{\hlc[red]{Technology}}
-
-[will look at the history of remote sensing use in Rio de Janeiro]
-
-[consider possible additional sensing uses/platforms in the future]
-
-[discuss options future steps beyond the scope of this thesis (tradespace exploration)?]
+In the future, the \ac{evdt} Framework is intended to inform sensing technology selection and design. While this is not a major focus of this thesis or this case study, the potential for this will be discussed further in Section \ref{sec:rio-discussion}.
 
 \subsection{\hlc[cyan]{EVDT Results}} \label{sec:rio-evdt-result}
 
@@ -647,7 +655,7 @@ In the left-hand image, different phenomena are apparent. The primary areas of n
 
 The net changes in extent can also be seen temporally rather than spatially in Figure \ref{fig:extent-over-time}. This graph also compares the three different classifier processes used, along with the Giri and \ac{gmw} maps. As is expected, both of the global maps provide lower estimates for mangrove extent. It is notable, however, that the \ac{gmw} maps indicate quite little changes over time, seeming to miss many of the local phenomena just discussed. That said, the estimates provided by the Landsat + \ac{palsar} classification suggest that the Landsat-only classification is somewhat overestimating mangrove extent. It does seem to confirm the general trend of  increasing extent from approximately 2005 to 2018, however.  
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/extent_over_time.png}
 \caption[Mangrove Extent Over Time]{Mangrove extent in western Rio de Janeiro from 2000 to 2018 as measured by several different classification methods.}
@@ -660,7 +668,7 @@ The Landsat-only classifications for each year from 2000 to 2018 were used to co
 
 We can see the median \ac{ndvi} values for the 1999-2001 reference period in Figure \ref{fig:reference_median}. As might be expected, the highest \ac{ndvi} values are present in the interior, mature ares of the forest, with lower \ac{ndvi} values lying along the edge. However, it cannot be determined from this image alone whether these lower value areas represent areas of new growth (young saplings in previously unoccupied land or water) or areas of degraded health / loss.  
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/reference_median.png}
 \caption[Reference Median NDVI of Region]{Median NDVI for the reference period of 1999-01-01 through 2001-12-31. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
@@ -669,7 +677,7 @@ We can see the median \ac{ndvi} values for the 1999-2001 reference period in Fig
 
 We can see the mean anomaly \ac{ndvi} in Figure \ref{fig:mean_anomaly_map}, which seems to corroborate the changes in classified extent presented in the previous section. In Guaratiba proper (in the right image), sustained increased in \ac{ndvi} are clearly evident along the interior apicum, while some (ambiguous) decreases are seen along the mangrove-human interface and the waterways. Similarly, in the left-hand image we can see the increases in \ac{ndvi} adjacent to the canal outlets and decreases along the canals themselves. In fact, it seems that, in addition to the noted increase in seaward extent noted previously, even the more interior mangroves downcurrent from the canal outlets have experienced significant growth. 
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/mean_anomaly_map.png}
 \caption[2000-2018 Mean Anomaly NDVI of Region]{2000-2018 Mean Anomaly \ac{ndvi}. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
@@ -678,16 +686,16 @@ We can see the mean anomaly \ac{ndvi} in Figure \ref{fig:mean_anomaly_map}, whic
 
 The areas of potential loss or damaged, as measured by changes in mean anomaly \ac{ndvi}, have been isolated in Figure \ref{fig:loss_map}, making the above noted changes more stark. In total these sum to approximately 108 ha of lost or damaged mangroves. In addition to the losses along the industrial canals, some loses can be seen in what is now the steel mill, representing its construction which began in the mid-2000s.  I visited many of the marked areas within the Guaratiba reserve (the right-hand image) during the August 2019 field visit and (non-systematically) confirmed that degradation was apparent in each of them, as can be seen in Figure \ref{fig:mangrove_photo}, though the causes of the degradation was not readily apparent.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/loss_map.png}
 \caption[Map of Mangrove Loss]{Map of Mangrove Loss from 2000 to 2018 as measured by Mean Anomaly \ac{ndvi}. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
 \label{fig:loss_map}
 \end{figure}
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
-\includegraphics[width=0.95\textwidth]{Figures/chap4/mangrove_photo.jpg}
+\includegraphics[width=0.75\textwidth]{Figures/chap4/mangrove_photo.jpg}
 \caption[Photo of Localized Mangrove Damage]{Photo of Localized Mangrove Damage. Taken by author during the August 2019 field visit.}
 \label{fig:mangrove_photo}
 \end{figure}
@@ -697,35 +705,75 @@ The areas of potential loss or damaged, as measured by changes in mean anomaly \
 
 The Simard et al. datasets were used to derive some general statistical information for the study area, including a distribution of heights, shown in \ref{fig:height_histogram}. Note that the $H_{max}$ values in particular contain a small number of outlier aberrations (no 40+ meter mangrove trees were visible during either of my field visits). Based on this data, the mean basal area weighted height of the mangroves in the study area is 7.4m while the mean maximum height is 11.6m. This compares to a mean height of 11.9m for the country of Brazil as a whole, according to Simard et al. \cite{simardMangroveCanopyHeight2019} suggesting that these trees are significantly shorter than those found in the northeastern Amazonian portion of the country.
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/height_histogram.png}
 \caption[Histogram of Mangrove Height in Region]{Histogram of both the basal area weighted height ($H_{ba}$) and the maximum canopy height of each 30mx30m area ($H_{max}$).}
 \label{fig:height_histogram}
 \end{figure}
 
-\paragraph{\hlc[cyan]{Mangrove Carbon Stocks}} \leavevmode\newline
+\paragraph{\hlc[cyan]{Mangrove Carbon Stocks and Sequestration}} \leavevmode\newline
 
 As discussed in Section \ref{sec:rio-mangrove-carbon}, the above height data was used to estimate \ac{agb} and total carbon stocks for the region in 2018. The distribution of the total carbon stock density can be seen in Figure \ref{fig:carbon_density}, which roughly corresponds with the Figure \ref{fig:reference_median} map of median \ac{ndvi} during the reference period, as is to be expected. 
 
-The calculation process resulted in an estimated total \ac{agb} for the region of 121000 MgC for the year 2000, compared to the Simard estimate of 95000 MgC\footnote{Simard et al. do not specify whether they used the same allometric model to perform their \ac{agb} calculations, as they propose several models. That said, I redid their calculations for the Guaratiba area and it does indeed seem that they used this same model.} AGB increased from to approximately 131000 MgC (an 8.5\% increase). Total carbon meanwhile increased from 1045000 to 1138000 MgC (an 8.9\% increase).
+The calculation process resulted in an estimated total \ac{agb} for the region of 121000 MgC for the year 2000, compared to the Simard estimate of 95,000 MgC\footnote{Simard et al. do not specify whether they used the same allometric model to perform their \ac{rbag} calculations, as they propose several models. That said, I redid their calculations for the Guaratiba area and it does indeed seem that they used this same model.} \ac{agb} increased from to approximately 131,000 MgC (an 8.5\% increase). Total carbon meanwhile increased from 1,045,000 to 1,138,000 MgC (an 8.9\% increase). It should be noted that the \ac{agb} estimate is significantly lower than the estimate of 193,168 for the \ac{rbag} alone in Estrada et al. \cite{estradaEconomicEvaluationCarbon2015}. This estimate, which was based on an extent estimate for the year 2002 that are only slightly higher than that presented here, seems to differ primarily due to different allometric models. It is not implausible that these models, which were developed based on samples from within the \ac{rbag} are more accurate for this study area than the Americas generic power allometric model from Simard et al. \cite{simardMangroveCanopyHeight2019}. Unfortunately, Estrada et al.'s models are based on diamater at breast height, not height, and were only published for individual trees, not based on areal extent, making it difficult to replicate their calculation method or extend it to study changes over time. 
 
-\begin{figure}[H] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.95\textwidth]{Figures/chap4/carbon_density.png}
 \caption[Mangrove Carbon Stock Distribution]{Mangrove carbon stock distribution for the 2018 extent. Left: Ilha da Madeira, Santa Cruz, and Sepetiba. Right: Guaratiba and Pedra de Guaratiba.}
 \label{fig:carbon_density}
 \end{figure}
 
-\subsubsection{\hlc[yellow]{Vulnerability}} 
+Total carbon sequestration for the year 2018 is estimated at 20400 MgC. The lost 108 ha of mangroves represent 631 MgC/year or 3\% of the total. 
+
+\subsubsection{\hlc[red]{Vulnerability}} 
 
 [quantitative socioeconomic/demographic data from IBGE census and multidimensional poverty index]
 
+In 2016 Guaratiba ranked 28 out of 32 of the \acp{ra} on the \ac{ips} with a score of 45.27 compared to the city-wide score of 60.77. This score is based on 36 indicators which are divided into three dimensions: Basic Human Necessities, Fundamentals of Well Being, and Opportunities. Figures \ref{fig:social_progress_indicator} and \ref{fig:ips_maps} shows how Guaratiba scores on each of these three dimensions relative to the other \acp{ra} of the city. The data that these scores are based on is available in \cite{institutopereirapassosBaseDadosIndice2022} and the methodology in \cite{puliciRelatorioMetodologicoIndice2016}.
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/social_progress_indicator.png}
+\caption[Graph of Social Progress Indicator for Rio de Janeiro]{The \acf{ips} dimension scores for each \ac{ra} in Rio de Janeiro, with Guaratiba highlighted. Dashed lines indicate the city-wide score for the respective dimension.}
+\label{fig:social_progress_indicator}
+\end{figure}
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/ips_maps.png}
+\caption[Map of Social Progress Indicator for Rio de Janeiro]{The \acf{ips} and dimension scores for each \ac{ra} in Rio de Janeiro. Guaratiba is visible in the bottom left of each map.}
+\label{fig:ips_maps}
+\end{figure}
+
+
+2016 Employment sector data from \cite{institutopereirapassosNumeroEmpregadosPor2018}. 2010 population data is available from \cite{institutopereirapassosPopulacaoResidentePor2018}.
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/agriculture_employment.png}
+\caption[Agricultural Employment Across Rio de Janeiro]{Rates of Agricultural employment (relative to all employment) in each bairro in Rio de Janeiro.}
+\label{fig:agriculture_employment}
+\end{figure}
+
 [estimates of mangrove ecosystem services from review of valuation studies]
+
+When it comes to mangrove ecosystem services, we can separate out carbon storage and sequestration as these have already been estimated in the Environment section of this chapter. All that remains is to put a value on those amounts and rates of carbon. One option is to use a government-endorsed price that is actively traded on a market. In 2017, Brazil created the RenovaBio program which sells carbon credits, called CBIOs, in exchange for biofuel production. Using CBIO prices pose two problems. First is that CBIO prices have been highly variable, ranging from 10USD/MgC \cite{castroBrazilianCarbonCredit2020} to more than 38USD/MgC \cite{barrosBiofuelsAnnual2022}. This is compounded by the fact that CBIOs were first sold in 2020, after the period of study, preventing us from directly linking annual carbon sequestration with a particular CBIO price for that year.
+
+The other problem with using CBIO prices is that they are intended to encourage biofuel production and are not necessarily representative of the actual value of carbon in general or of mangrove forests in particular.   
+
+This can be compared to estimates for specifically the Guaratiba reserve (as opposed to the full region) by Estrada et al. They estimated that the Guaratiba mangrove forest, as of the year  sequester approximately \$456K of worth of carbon per year and their total \ac{agb} represents \$3.5M \cite{estradaEconomicEvaluationCarbon2015}. It should be noted that they used a somewhat different methodology, first estimating the extent of different types of mangrove forest within the reserve (fringe, basin, transition) and the typical carbon storage/sequestration levels for each of these types. These were then multiplied by a value of \$18/MgC, attributed to Medeiros et al. \cite{medeirosContribuicaoUnidadesConservacao2011}. Confusingly enough, Medeiros et al. does not contain this valuation nor do they create their own valuation. Instead, they refer to Hamilton et al. \cite{hamiltonStateForestCarbon2010} to pull the value of \$4.76/MgC. Estrada et al. meanwhile separate cites Hamilton et al. for a figure of \$7.88/MgC. 
+
+Upon examining Hamilton et al. myself, it appears that they conducted a global survey of forest carbon credits in 2009. \$7.88/MgC was the volume-weighted average price that they found. \$4.76/MgC was the average of temporary Certified Emissions Reduction credits, which must be replaced or reissued at the end of their crediting period. Notably, neither Estrada nor Medeiros updated this dollar amounts from 2009 to the years in which their studies took place. 
+
+
+
+ 
 
 [calculation of year 2000 carbon stock, then how changes in extent could have impacted that]
 
-\subsubsection{\hlc[yellow]{Decision-making}} 
+\subsubsection{\hlc[red]{Decision-making}} 
 
 [revisit how mangroves fared inside and outside of protected areas]
 
@@ -735,25 +783,30 @@ The calculation process resulted in an estimated total \ac{agb} for the region o
 
 [consider moving the recommendations synthesized from previous reports in the System Context section here]
 
-\subsubsection{\hlc[yellow]{Technology}} 
+\subsubsection{\hlc[cyan]{Technology}} 
 
-The city of Rio de Janeiro has made significant use of \ac{eo} data dating back to 1975, as can be seen in Table \ref{tab:history}, but it is only in recent years that this data usage has become fairly regular. Even now, there has not been any particular consistency with the choice of imagery source, with the city switching back and forth between aerial and satellite surveys every few years. And there has been a significant lack in the use of civil scientific satellites such as Landsat for mapping and decision-making purposes, further pointing towards the need for tools to facilitate the use of such satellite data.
+The city government of Rio de Janeiro has made significant use of \ac{eo} data dating back to 1975, as can be seen in Table \ref{tab:history}, but it is only in recent years that this data usage has become fairly regular. This regularization roughly corresponds with the creation of \ac{ipp} in 1999. Even now, there has not been any particular consistency with the choice of imagery source, with the city switching back and forth between aerial and satellite surveys every few years. The primary use of this data, \acf{lclu} classification, was performed via a combination of updating previous \ac{lclu} maps, visual classification of the imagery, and in-situ surveys.
 
-\begin{table}[H]\centering
-	\caption[EO data use by Rio de Janeiro]{\ac{eo} data use by the  municipal Urban Planning Secretariat of Rio de Janeiro}\label{tab:history}
+There have also been some efforts outside of remote observation. \ac{smac} has recently been experimenting with a process for integrating photos taken by cell phones into forest degradation monitoring. The ESPAÇO research group has been conducted \ac{uav} surveys of certain portions of mangrove forest, with particular interest in photogrammetry. 
+
+Certain aspects of this use history are worth noting. First, there has been little to no active monitoring of the city or environment at anything approximating a real-time pace. Based on the stakeholder analysis conducted in Section \ref{sec:rio-saf}, this is likely due to a combination of lack of perceived need, cost, and lack of capacity (the last primarily being the result the former two). The pace at which a city government operates and at which many of the relevant environmental phenomena develop simply do not typically necessitate daily, weekly, or even monthly imagery.
+
+Second, outside of the occasional use of Landsat series imagery by \ac{smac} for forest health monitoring via \ac{ndvi} (particularly deforestation and fire measurements), there has been a noticeable lack in the use of civil scientific satellites such as Landsat for mapping and decision-making purposes. This is partially a matter of spatial resolution. As can be seen in Table \ref{tab:history}, most of the imagery used has an order of magnitude finer resolution than the 30m of the Landsat series. This limitation of civil satellites for urban use is by no means unique to Rio de Janeiro or new, as was discussed in Section \ref{sec:remote}. That said, there are a variety of potentially useful analysis methods beyond manual visual classification or a basic \ac{ndvi} interpretation (including those used shown earlier in this chapter in Section \ref{sec:rio-evdt-e-method}). The lack of such methods may indicate either difficulty in accessing the civil imagery or a lack of capacity for working with them.
+
+\begin{table}[!htb]\centering
+	\caption[EO data use by Rio de Janeiro]{\ac{eo} data use by municipal government agencies of Rio de Janeiro}\label{tab:history}
 	% \small
 	\fontsize{8}{10}\selectfont
-	\csvreader[tabular=|C{0.8cm}|L{4cm}|L{5cm}|, 
+	\csvreader[tabular=|C{1.75cm}|L{3cm}|L{4cm}|C{1.75cm}|L{3cm}|, 
 		table head=\hline 
-		\textbf{Year} & \textbf{Product} & \textbf{Platform} \\ \hline,
+		\textbf{Year(s)} & \textbf{Product} & \textbf{Platform} & \textbf{Collecting Agency} & \textbf{Primary Use} \\ \hline,
 		table foot=\hline,
 		late after line=\\\hline]
-		{Figures/chap4/eo_history.csv}%
-		{1=\year,2=\type,3=\platform}
-		{\year & \type & \platform}
+		{Figures/chap4/eo_history.csv}
+		{1=\year,2=\type,3=\platform,4=\agency,5=\primary}
+		{\year & \type & \platform & \agency & \primary}
 \end{table}
 
-[research and mapping programs by espaco and others]
 
 \section{\hlc[red]{Decision Support System}} \label{sec:rio-dss}
 
@@ -769,7 +822,7 @@ The city of Rio de Janeiro has made significant use of \ac{eo} data dating back 
 
 [insert link to code]
 
-\begin{figure}[t] 
+\begin{figure}[H] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap4/concept_flow.jpg}
 \caption[Two potential user experience concepts for the Rio de Janeiro case study]{Two potential user experience concepts for this case study}
@@ -825,6 +878,10 @@ The height of mangrove trees can be measured using aerial photogrammetry or \ac{
 \ac{gmw} has since released a v3 with later years included.
 
 Pescadors Association sent a delegation to the EU to protest the construction of the steel mill, resulting in mitigation of mangrove losses. 
+
+We can use changes in mangrove extent over the 2000-2018 period to estimate likely changes in carbon stocks. In the future, when the aforementioned aerial \ac{lidar} survey data becomes available, these estimates can be revised.
+
+Using evdt for technology design / selection in this and other case studies.
 
 \section{\hlc[red]{Conclusion}}
 
