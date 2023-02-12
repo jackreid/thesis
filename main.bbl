@@ -2462,12 +2462,6 @@ A.~Begossi.
   {{Atlantic Forest}} ({{Brazil}}).
 \newblock {\em Regional Environmental Change}, 2(1):1--12, August 2001.
 
-\bibitem{stroblFollowingRecentEviction2018}
-Tyler Strobl.
-\newblock Following {{Recent Eviction Threats}}, {{Ara\c{c}atiba Unites}} and
-  {{Pushes Forward}}.
-\newblock https://www.rioonwatch.org/?p=46329, 2018.
-
 \bibitem{herzogLocalAssessmentRio2013}
 Cecilia~P Herzog and Ricardo Finotti.
 \newblock Local assessment of {{Rio}} de {{Janeiro}} city: {{Two}} case studies
@@ -2711,6 +2705,20 @@ LD~Lacerda.
 \newblock volume~1, pages 107--114. {Soc Bras Geoquim}, {Rio de Janeiro,
   Brazil}, 1992.
 
+\bibitem{haines-youngCommonInternationalClassification2018}
+Roy {Haines-Young} and Marion Potschin.
+\newblock Common {{International Classification}} of {{Ecosystem Services}}
+  ({{CICES}}) {{V5}}.1 and {{Guidance}} on the {{Application}} of the {{Revised
+  Structure}}.
+\newblock Technical report, 2018.
+
+\bibitem{getznerEcosystemServicesMangrove2020}
+Michael Getzner and Muhammad~Shariful Islam.
+\newblock Ecosystem {{Services}} of {{Mangrove Forests}}: {{Results}} of a
+  {{Meta-Analysis}} of {{Economic Values}}.
+\newblock {\em International Journal of Environmental Research and Public
+  Health}, 17(16):5830, January 2020.
+
 \bibitem{oxfordpovertyandhumandevelopmentinitiativeChartingPathewaysOut2020}
 {Oxford Poverty and Human Development Initiative}.
 \newblock Charting patheways out of multidimensional poverty: {{Achieving}} the
@@ -2732,19 +2740,68 @@ L.F.G. Rego and B.~Koch.
   Sensing}} and {{Data Fusion}} over {{Urban Areas}}}, pages 172--176, May
   2003.
 
-\bibitem{haines-youngCommonInternationalClassification2018}
-Roy {Haines-Young} and Marion Potschin.
-\newblock Common {{International Classification}} of {{Ecosystem Services}}
-  ({{CICES}}) {{V5}}.1 and {{Guidance}} on the {{Application}} of the {{Revised
-  Structure}}.
-\newblock Technical report, 2018.
+\bibitem{institutopereirapassosNumeroEmpregadosPor2018}
+{Instituto Pereira Passos}.
+\newblock N\'umero de empregados por atividade econ\^omica segundo as
+  {{\'Areas}} de {{Planejamento}} ({{AP}}), {{Regi\~oes Administrativas}}
+  ({{RA}}) e {{Bairros}} no {{Munic\'ipio}} do {{Rio}} de {{Janeiro}} em
+  2005-2021.
+\newblock
+  https://www.data.rio/documents/n\%C3\%BAmero-de-empregados-por-atividade-econ\%C3\%B4mica-segundo-as-\%C3\%A1reas-de-planejamento-ap-regi\%C3\%B5es-administrativas-ra-e-bairros-no-munic\%C3\%ADpio-do-rio-de-janeiro-em-2005-2021/about,
+  September 2018.
 
-\bibitem{getznerEcosystemServicesMangrove2020}
-Michael Getzner and Muhammad~Shariful Islam.
-\newblock Ecosystem {{Services}} of {{Mangrove Forests}}: {{Results}} of a
-  {{Meta-Analysis}} of {{Economic Values}}.
-\newblock {\em International Journal of Environmental Research and Public
-  Health}, 17(16):5830, January 2020.
+\bibitem{institutopereirapassosPopulacaoResidentePor2018}
+{Instituto Pereira Passos}.
+\newblock Popula\c{c}\~ao residente, por idade e por grupos de idade, segundo
+  as {{\'Areas}} de {{Planejamento}} ({{AP}}), {{Regi\~oes Administrativas}}
+  ({{RA}}) e {{Bairros}} em 2000/2010.
+\newblock
+  https://www.data.rio/documents/popula\%C3\%A7\%C3\%A3o-residente-por-idade-e-por-grupos-de-idade-segundo-as-\%C3\%A1reas-de-planejamento-ap-regi\%C3\%B5es-administrativas-ra-e-bairros-em-2000-2010-/about,
+  September 2018.
+
+\bibitem{castroBrazilianCarbonCredit2020}
+Nicolle~Monteiro de~Castro.
+\newblock Brazilian carbon credit first trade at near \$10/{{CBIO}}.
+\newblock {\em S\&P Global Commodity Insights}, June 2020.
+
+\bibitem{barrosBiofuelsAnnual2022}
+Sergio Barros.
+\newblock Biofuels {{Annual}}.
+\newblock Technical Report BR2022-0047, {United States Department of
+  Agriculture Foreign Agricultural Service}, {Sao Paulo, Brazil}, September
+  2022.
+
+\bibitem{estradaEconomicEvaluationCarbon2015}
+Gustavo Calderucio~Duque Estrada, M{\'a}rio Luiz~Gomes Soares, Viviane
+  Fernadez, and Paula Maria~Moura {de Almeida}.
+\newblock The economic evaluation of carbon storage and sequestration as
+  ecosystem services of mangroves: A case study from southeastern {{Brazil}}.
+\newblock {\em International Journal of Biodiversity Science, Ecosystem
+  Services \& Management}, 11(1):29--35, January 2015.
+
+\bibitem{medeirosContribuicaoUnidadesConservacao2011}
+Rodrigo Medeiros and Carlos Eduardo~Frickmann Young.
+\newblock {Contribui\c{c}\~ao das unidades de conserva\c{c}\~ao brasileiras
+  para a economia nacional: relat\'orio final}.
+\newblock Technical report, {Centro para Monitoramento da Conserva\c{c}\~ao
+  Mundial do Programa das Na\c{c}\~oes Unidas para o Meio Ambiente}, {Rio de
+  Janeiro, Brazil}, May 2011.
+
+\bibitem{hamiltonStateForestCarbon2010}
+Katherine Hamilton, Unna Chokkalingam, and Maria Bendana.
+\newblock State of the {{Forest Carbon Markets}} 2009.
+\newblock Technical report, {Forest Trends}, {Washington D.C.}, February 2010.
+
+\bibitem{salinasNonpermanence2011}
+Zenia Salinas and Ellysar Baroudy.
+\newblock Non-permanence.
+\newblock In {\em {{BioCarbon Fund Experience}} : {{Insights}} from
+  {{Afforestation}} and {{Reforestation Clean Development Mechanism
+  Projects}}}. {World Bank}, {Washington D.C.}, 2011.
+
+\bibitem{EUCarbonPermits2023}
+{{EU Carbon Permits}}.
+\newblock https://tradingeconomics.com/commodity/carbon, 2023.
 
 \bibitem{branderEmpiricsWetlandValuation2006}
 Luke~M. Brander, Raymond J. G.~M. Florax, and Jan~E. Vermaat.
@@ -2788,31 +2845,23 @@ Edward~B. Barbier.
   Damages}}: {{An Economic Perspective}}.
 \newblock {\em Frontiers in Climate}, 2, 2020.
 
-\bibitem{granadoAssessingGeneticDiversity2018}
-Renan Granado, Luiza~C. Pinto~Neta, Andr{\'e}~F. {Nunes-Freitas}, Carolina~M.
-  Voloch, and Catarina~F. Lira.
-\newblock Assessing {{Genetic Diversity}} after {{Mangrove Restoration}} in
-  {{Brazil}}: {{Why Is It So Important}}?
-\newblock {\em Diversity}, 10(2):27, June 2018.
+\bibitem{jungGapsMangroveForestInReview}
+Suhyun Jung, Emily Joiner, Jack Reid, and Danielle Wood.
+\newblock Gaps in {{Mangrove Forest Data}} and {{Valuation Methods Limit
+  Understanding}} of {{Socioeconomic Benefits}}.
+\newblock In Review.
 
-\bibitem{rioprefeituraEnvironmentalRecoveryRodrigo2019}
-{Rio Prefeitura}.
-\newblock Environmental {{Recovery}} of {{Rodrigo}} de {{Freitas Lagoon}}.
-\newblock http://www.rio.rj.gov.br/web/recuperacao-lagoa/principal-en, 2019.
+\bibitem{derezendeEconomicValuationMangrove2015}
+Carlos~Eduardo {de Rezende}, James~R. Kahn, Layra Passareli, and William~F.
+  V{\'a}squez.
+\newblock An economic valuation of mangrove restoration in {{Brazil}}.
+\newblock {\em Ecological Economics}, 120:296--302, December 2015.
 
-\bibitem{soaresEstruturaVegetalGrau1999}
-M{\'a}rio Soares.
-\newblock Estrutura vegetal e grau de perturba\c{c}\~ao dos manguezais da
-  {{Lagoa}} da {{Tijuca}}, {{Rio}} de {{Janeiro}}, {{RJ}}, {{Brasil}}.
-\newblock {\em Revista Brasileira de Biologia}, 59, August 1999.
-
-\bibitem{estradaEconomicEvaluationCarbon2015}
-Gustavo Calderucio~Duque Estrada, M{\'a}rio Luiz~Gomes Soares, Viviane
-  Fernadez, and Paula Maria~Moura {de Almeida}.
-\newblock The economic evaluation of carbon storage and sequestration as
-  ecosystem services of mangroves: A case study from southeastern {{Brazil}}.
-\newblock {\em International Journal of Biodiversity Science, Ecosystem
-  Services \& Management}, 11(1):29--35, January 2015.
+\bibitem{souzaEcologicalEconomicValuation2011}
+Flavo E.~S. Souza and Carlos~Augusto {Ramos e Silva}.
+\newblock Ecological and economic valuation of the {{Potengi}} estuary mangrove
+  wetlands ({{NE}}, {{Brazil}}) using ancillary spatial data.
+\newblock {\em Journal of Coastal Conservation}, 15(1):195--206, March 2011.
 
 \bibitem{institutopereirapassosBaseDadosIndice2022}
 {Instituto Pereira Passos}.
@@ -2822,49 +2871,21 @@ Gustavo Calderucio~Duque Estrada, M{\'a}rio Luiz~Gomes Soares, Viviane
 \newblock https://www.data.rio/search?q=\%C3\%8DNDICE\%20DE\%20PROGRESSO, July
   2022.
 
-\bibitem{institutopereirapassosNumeroEmpregadosPor2018}
+\bibitem{institutopereirapassosAreasProtegidas2021}
 {Instituto Pereira Passos}.
-\newblock N\'umero de empregados por atividade econ\^omica segundo as
-  {{\'Areas}} de {{Planejamento}} ({{AP}}), {{Regi\~oes Administrativas}}
-  ({{RA}}) e {{Bairros}} no {{Munic\'ipio}} do {{Rio}} de {{Janeiro}} em
-  2005-2021.
-\newblock
-  https://www.data.rio/documents/n\%C3\%BAmero-de-empregados-por-atividade-econ\%C3\%B4mica-segundo-as-\%C3\%A1reas-de-planejamento-ap-regi\%C3\%B5es-administrativas-ra-e-bairros-no-munic\%C3\%ADpio-do-rio-de-janeiro-em-2005-2021/about,
-  September 2018.
+\newblock \'areas {{Protegidas}}.
+\newblock https://www.data.rio/datasets/\%C3\%A1reas-protegidas/explore,
+  January 2021.
 
-\bibitem{institutopereirapassosPopulacaoResidentePor2018}
+\bibitem{institutopereirapassosSetores2022}
 {Instituto Pereira Passos}.
-\newblock Popula\c{c}\~ao residente, por idade e por grupos de idade, segundo
-  as {{\'Areas}} de {{Planejamento}} ({{AP}}), {{Regi\~oes Administrativas}}
-  ({{RA}}) e {{Bairros}} em 2000/2010.
-\newblock
-  https://www.data.rio/documents/popula\%C3\%A7\%C3\%A3o-residente-por-idade-e-por-grupos-de-idade-segundo-as-\%C3\%A1reas-de-planejamento-ap-regi\%C3\%B5es-administrativas-ra-e-bairros-em-2000-2010-/about,
-  September 2018.
+\newblock {Setores}.
+\newblock https://www.data.rio/maps/setores, October 2022.
 
-\bibitem{castroBrazilianCarbonCredit2020}
-Nicolle~Monteiro de~Castro.
-\newblock Brazilian carbon credit first trade at near \$10/{{CBIO}}.
-\newblock {\em S\&P Global Commodity Insights}, June 2020.
-
-\bibitem{barrosBiofuelsAnnual2022}
-Sergio Barros.
-\newblock Biofuels {{Annual}}.
-\newblock Technical Report BR2022-0047, {United States Department of
-  Agriculture Foreign Agricultural Service}, {Sao Paulo, Brazil}, September
-  2022.
-
-\bibitem{medeirosContribuicaoUnidadesConservacao2011}
-Rodrigo Medeiros and Carlos Eduardo~Frickmann Young.
-\newblock {Contribui\c{c}\~ao das unidades de conserva\c{c}\~ao brasileiras
-  para a economia nacional: relat\'orio final}.
-\newblock Technical report, {Centro para Monitoramento da Conserva\c{c}\~ao
-  Mundial do Programa das Na\c{c}\~oes Unidas para o Meio Ambiente}, {Rio de
-  Janeiro, Brazil}, May 2011.
-
-\bibitem{hamiltonStateForestCarbon2010}
-Katherine Hamilton, Unna Chokkalingam, and Maria Bendana.
-\newblock State of the {{Forest Carbon Markets}} 2009.
-\newblock Technical report, {Forest Trends}, {Washington D.C.}, February 2010.
+\bibitem{prefeitodacidadedoriodejaneiroDecretoNo3221976}
+{Prefeito da Cidade do Rio de Janeiro}.
+\newblock Decreto n\textordmasculine{} 322 de 3 de mar\c{c}o de 1976, March
+  1976.
 
 \bibitem{cavalcantiEvaluatingMangroveConservation2009}
 V.~F. Cavalcanti, M.~L.~G. Soares, G.~C.~D. Estrada, and F.~O. Chaves.
@@ -2920,6 +2941,30 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
 \newblock A {{Comparison}} of {{Mangrove Canopy Height Using Multiple
   Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
 \newblock {\em Remote Sensing}, 8(4):327, April 2016.
+
+\bibitem{granadoAssessingGeneticDiversity2018}
+Renan Granado, Luiza~C. Pinto~Neta, Andr{\'e}~F. {Nunes-Freitas}, Carolina~M.
+  Voloch, and Catarina~F. Lira.
+\newblock Assessing {{Genetic Diversity}} after {{Mangrove Restoration}} in
+  {{Brazil}}: {{Why Is It So Important}}?
+\newblock {\em Diversity}, 10(2):27, June 2018.
+
+\bibitem{rioprefeituraEnvironmentalRecoveryRodrigo2019}
+{Rio Prefeitura}.
+\newblock Environmental {{Recovery}} of {{Rodrigo}} de {{Freitas Lagoon}}.
+\newblock http://www.rio.rj.gov.br/web/recuperacao-lagoa/principal-en, 2019.
+
+\bibitem{soaresEstruturaVegetalGrau1999}
+M{\'a}rio Soares.
+\newblock Estrutura vegetal e grau de perturba\c{c}\~ao dos manguezais da
+  {{Lagoa}} da {{Tijuca}}, {{Rio}} de {{Janeiro}}, {{RJ}}, {{Brasil}}.
+\newblock {\em Revista Brasileira de Biologia}, 59, August 1999.
+
+\bibitem{stroblFollowingRecentEviction2018}
+Tyler Strobl.
+\newblock Following {{Recent Eviction Threats}}, {{Ara\c{c}atiba Unites}} and
+  {{Pushes Forward}}.
+\newblock https://www.rioonwatch.org/?p=46329, 2018.
 
 \bibitem{deweckHandlingCOVID192020}
 Olivier {de Weck}, Daniel Krob, Li~Lefei, Pao~Chuen Lui, Antoine Rauzy, and

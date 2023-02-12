@@ -14,7 +14,7 @@ A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 15948 items from 5000.
+Reallocated field_info (elt_size=4) to 16132 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -42,46 +42,47 @@ Warning--there's a number but no volume in castroOSDESAFIOSPLANEJAMENTO2012
 Warning--there's a number but no volume in vicenteAvaliacaoHidrogeologicaRegioes2010
 Warning--empty booktitle in lacerda1992carbon
 Warning--empty institution in haines-youngCommonInternationalClassification2018
+Warning--empty journal in jungGapsMangroveForestInReview
 Warning--empty institution in xuModestImpactWeather2020
-You've used 476 entries,
+You've used 484 entries,
             1791 wiz_defined-function locations,
-            3268 strings with 120264 characters,
-and the built_in function-call counts, 104832 in all, are:
-= -- 9421
-> -- 4670
+            3309 strings with 121861 characters,
+and the built_in function-call counts, 106193 in all, are:
+= -- 9537
+> -- 4727
 < -- 79
-+ -- 1774
-- -- 1298
-* -- 7127
-:= -- 16774
-add.period$ -- 1474
-call.type$ -- 476
-change.case$ -- 472
++ -- 1797
+- -- 1313
+* -- 7199
+:= -- 16985
+add.period$ -- 1497
+call.type$ -- 484
+change.case$ -- 480
 chr.to.int$ -- 0
-cite$ -- 502
-duplicate$ -- 4791
-empty$ -- 10343
-format.name$ -- 1298
-if$ -- 23334
+cite$ -- 511
+duplicate$ -- 4850
+empty$ -- 10501
+format.name$ -- 1313
+if$ -- 23643
 int.to.chr$ -- 0
-int.to.str$ -- 476
-missing$ -- 431
-newline$ -- 2366
-num.names$ -- 546
-pop$ -- 1496
+int.to.str$ -- 484
+missing$ -- 435
+newline$ -- 2404
+num.names$ -- 553
+pop$ -- 1535
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1996
+skip$ -- 2022
 stack$ -- 0
-substring$ -- 5860
-swap$ -- 967
+substring$ -- 5910
+swap$ -- 974
 text.length$ -- 79
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 26
-while$ -- 1028
-width$ -- 479
-write$ -- 5248
-(There were 26 warnings)
+warning$ -- 27
+while$ -- 1039
+width$ -- 487
+write$ -- 5327
+(There were 27 warnings)
