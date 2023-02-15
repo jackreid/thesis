@@ -100,13 +100,13 @@
 \contentsline {subsection}{\numberline {4.5.2}\hlc [cyan]{Spatial and Textual Data Display}}{211}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}\hlc [cyan]{Scenario Generation}}{212}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}\hlc [cyan]{Collaborative Development Process}}{217}{section.4.6}%
-\contentsline {section}{\numberline {4.7}\hlc [red]{Discussion}}{218}{section.4.7}%
+\contentsline {section}{\numberline {4.7}\hlc [cyan]{Discussion}}{218}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}\hlc [cyan]{The State and Future of the Guaratiba Socio-environmental System}}{218}{subsection.4.7.1}%
 \contentsline {subsection}{\numberline {4.7.2}\hlc [cyan]{Methodological Limitations and Potential Improvements}}{221}{subsection.4.7.2}%
 \contentsline {subsubsection}{\numberline {4.7.2.1}\hlc [cyan]{Environment}}{221}{subsubsection.4.7.2.1}%
 \contentsline {subsubsection}{\numberline {4.7.2.2}\hlc [cyan]{Vulnerability}}{222}{subsubsection.4.7.2.2}%
-\contentsline {subsubsection}{\numberline {4.7.2.3}\hlc [cyan]{Decision-Making}}{223}{subsubsection.4.7.2.3}%
-\contentsline {subsubsection}{\numberline {4.7.2.4}\hlc [cyan]{Technology}}{224}{subsubsection.4.7.2.4}%
+\contentsline {subsubsection}{\numberline {4.7.2.3}\hlc [cyan]{Decision-Making}}{224}{subsubsection.4.7.2.3}%
+\contentsline {subsubsection}{\numberline {4.7.2.4}\hlc [cyan]{Technology}}{225}{subsubsection.4.7.2.4}%
 \contentsline {subsubsection}{\numberline {4.7.2.5}\hlc [cyan]{Stakeholder Collaboration and Engagement}}{225}{subsubsection.4.7.2.5}%
 \contentsline {subsubsection}{\numberline {4.7.2.6}\hlc [cyan]{Decision Support System}}{227}{subsubsection.4.7.2.6}%
 \contentsline {subsection}{\numberline {4.7.3}\hlc [cyan]{Lessons Learned for the EVDT Framework}}{228}{subsection.4.7.3}%

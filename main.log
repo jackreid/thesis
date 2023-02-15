@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  14 FEB 2023 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  14 FEB 2023 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2539,7 +2539,7 @@ File: Figures/chap4/apa_sepetiba.png Graphic file (type png)
 Package pdftex.def Info: Figures/chap4/apa_sepetiba.png  used on input line 108
 2.
 (pdftex.def)             Requested size: 301.00192pt x 169.30878pt.
- [219 <./Figures/chap4/apa_sepetiba.png>] [220]
+ [219] [220 <./Figures/chap4/apa_sepetiba.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1102.
@@ -2554,7 +2554,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1120.
 
 [222]
-<Figures/chap4/Method_Flowchart.png, id=5182, 1733.47626pt x 819.06pt>
+<Figures/chap4/Method_Flowchart.png, id=5181, 1733.47626pt x 819.06pt>
 File: Figures/chap4/Method_Flowchart.png Graphic file (type png)
 <use Figures/chap4/Method_Flowchart.png>
 Package pdftex.def Info: Figures/chap4/Method_Flowchart.png  used on input line
@@ -2565,20 +2565,18 @@ Package pdftex.def Info: Figures/chap4/Method_Flowchart.png  used on input line
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1137.
 
-[223 <./Figures/chap4/Method_Flowchart.png>]
+[223 <./Figures/chap4/Method_Flowchart.png>] [224]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1150.
 
-[224]
-<Figures/chap4/data_source_selection_panel.png, id=5222, 1308.89pt x 688.5725pt
+<Figures/chap4/data_source_selection_panel.png, id=5223, 1308.89pt x 688.5725pt
 >
 File: Figures/chap4/data_source_selection_panel.png Graphic file (type png)
 <use Figures/chap4/data_source_selection_panel.png>
 Package pdftex.def Info: Figures/chap4/data_source_selection_panel.png  used on
  input line 1163.
 (pdftex.def)             Requested size: 387.00153pt x 203.58942pt.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1169.
@@ -2592,14 +2590,11 @@ although it is yet undefined on input line 1175.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1179.
 
+[227]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1187.
 
-
-Underfull \vbox (badness 5064) has occurred while \output is active []
-
- [227]
 [228]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2652,7 +2647,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 1888) has occurred while \output is active []
 
  [232]
-<Figures/chap5/vida_map.png, id=5381, 2509.375pt x 1119.18124pt>
+<Figures/chap5/vida_map.png, id=5382, 2509.375pt x 1119.18124pt>
 File: Figures/chap5/vida_map.png Graphic file (type png)
 <use Figures/chap5/vida_map.png>
 Package pdftex.def Info: Figures/chap5/vida_map.png  used on input line 53.
@@ -2691,7 +2686,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [234]
-<Figures/chap5/dimensions_vida.png, id=5406, 997.7275pt x 658.46pt>
+<Figures/chap5/dimensions_vida.png, id=5407, 997.7275pt x 658.46pt>
 File: Figures/chap5/dimensions_vida.png Graphic file (type png)
 <use Figures/chap5/dimensions_vida.png>
 Package pdftex.def Info: Figures/chap5/dimensions_vida.png  used on input line 
@@ -2714,7 +2709,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 101.
 
-<Figures/chap5/architecture.png, id=5407, 909.3975pt x 510.90875pt>
+<Figures/chap5/architecture.png, id=5408, 909.3975pt x 510.90875pt>
 File: Figures/chap5/architecture.png Graphic file (type png)
 <use Figures/chap5/architecture.png>
 Package pdftex.def Info: Figures/chap5/architecture.png  used on input line 105
@@ -2733,7 +2728,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 112.
 
 [236 <./Figures/chap5/architecture.png>]
-<Figures/chap5/Vida_Flowchart_v2.jpg, id=5425, 1649.16125pt x 588.1975pt>
+<Figures/chap5/Vida_Flowchart_v2.jpg, id=5426, 1649.16125pt x 588.1975pt>
 File: Figures/chap5/Vida_Flowchart_v2.jpg Graphic file (type jpg)
 <use Figures/chap5/Vida_Flowchart_v2.jpg>
 Package pdftex.def Info: Figures/chap5/Vida_Flowchart_v2.jpg  used on input lin
@@ -2749,7 +2744,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 136.
 
 [237 <./Figures/chap5/Vida_Flowchart_v2.jpg>]
-<Figures/chap5/nightlights_method.png, id=5440, 2509.375pt x 1266.7325pt>
+<Figures/chap5/nightlights_method.png, id=5441, 2509.375pt x 1266.7325pt>
 File: Figures/chap5/nightlights_method.png Graphic file (type png)
 <use Figures/chap5/nightlights_method.png>
 Package pdftex.def Info: Figures/chap5/nightlights_method.png  used on input li
@@ -2763,7 +2758,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package acronym Info: Label `acro:sir' newly defined as it shall be overridden
 although it is yet undefined on input line 157.
 [239 <./Figures/chap5/nightlights_method.png>]
-<Figures/chap5/SD_diagram.jpg, id=5469, 1407.2575pt x 978.65625pt>
+<Figures/chap5/SD_diagram.jpg, id=5470, 1407.2575pt x 978.65625pt>
 File: Figures/chap5/SD_diagram.jpg Graphic file (type jpg)
 <use Figures/chap5/SD_diagram.jpg>
 Package pdftex.def Info: Figures/chap5/SD_diagram.jpg  used on input line 165.
@@ -2777,7 +2772,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/chap5/ships.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/chap5/ships.pdf, id=5481, 1084.05pt x 325.215pt>
+<Figures/chap5/ships.pdf, id=5482, 1084.05pt x 325.215pt>
 File: Figures/chap5/ships.pdf Graphic file (type pdf)
 <use Figures/chap5/ships.pdf>
 Package pdftex.def Info: Figures/chap5/ships.pdf  used on input line 179.
@@ -2803,18 +2798,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 199.
 
-<Figures/chap5/pm10.png, id=5509, 1233.10687pt x 691.08188pt>
+<Figures/chap5/pm10.png, id=5510, 1233.10687pt x 691.08188pt>
 File: Figures/chap5/pm10.png Graphic file (type png)
 <use Figures/chap5/pm10.png>
 Package pdftex.def Info: Figures/chap5/pm10.png  used on input line 205.
 (pdftex.def)             Requested size: 387.00153pt x 216.89052pt.
-<Figures/chap5/Nightlights_TS.png, id=5516, 1785.67125pt x 1167.36125pt>
+<Figures/chap5/Nightlights_TS.png, id=5517, 1785.67125pt x 1167.36125pt>
 File: Figures/chap5/Nightlights_TS.png Graphic file (type png)
 <use Figures/chap5/Nightlights_TS.png>
 Package pdftex.def Info: Figures/chap5/Nightlights_TS.png  used on input line 2
 14.
 (pdftex.def)             Requested size: 387.00153pt x 252.99059pt.
-<Figures/chap5/RioNightStats.jpg, id=5517, 928.46875pt x 274.02374pt>
+<Figures/chap5/RioNightStats.jpg, id=5518, 928.46875pt x 274.02374pt>
 File: Figures/chap5/RioNightStats.jpg Graphic file (type jpg)
 <use Figures/chap5/RioNightStats.jpg>
 Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 22
@@ -2822,7 +2817,7 @@ Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 22
 (pdftex.def)             Requested size: 387.00153pt x 114.21948pt.
 [243] [244 <./Figures/chap5/pm10.PNG>] [245 <./Figures/chap5/Nightlights_TS.png
 > <./Figures/chap5/RioNightStats.jpg>]
-<Figures/chap5/Nightlights_Graphs.png, id=5533, 1146.2825pt x 1537.745pt>
+<Figures/chap5/Nightlights_Graphs.png, id=5534, 1146.2825pt x 1537.745pt>
 File: Figures/chap5/Nightlights_Graphs.png Graphic file (type png)
 <use Figures/chap5/Nightlights_Graphs.png>
 Package pdftex.def Info: Figures/chap5/Nightlights_Graphs.png  used on input li
@@ -2843,13 +2838,13 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 244.
 
-<Figures/chap5/Mobility-Graphs.jpg, id=5544, 1009.7725pt x 867.24pt>
+<Figures/chap5/Mobility-Graphs.jpg, id=5545, 1009.7725pt x 867.24pt>
 File: Figures/chap5/Mobility-Graphs.jpg Graphic file (type jpg)
 <use Figures/chap5/Mobility-Graphs.jpg>
 Package pdftex.def Info: Figures/chap5/Mobility-Graphs.jpg  used on input line 
 250.
 (pdftex.def)             Requested size: 387.00153pt x 332.37326pt.
-<Figures/chap5/ships_over_time.png, id=5546, 506.985pt x 322.806pt>
+<Figures/chap5/ships_over_time.png, id=5547, 506.985pt x 322.806pt>
 File: Figures/chap5/ships_over_time.png Graphic file (type png)
 <use Figures/chap5/ships_over_time.png>
 Package pdftex.def Info: Figures/chap5/ships_over_time.png  used on input line 
@@ -2869,13 +2864,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [247] [248 <./Figures/chap5/Mobility-Graphs.jpg>] [249 <./Figures/chap5/ships_o
 ver_time.png>]
-<Figures/chap5/VidaDesktopScreenshot.jpg, id=5568, 1373.13pt x 721.69624pt>
+<Figures/chap5/VidaDesktopScreenshot.jpg, id=5569, 1373.13pt x 721.69624pt>
 File: Figures/chap5/VidaDesktopScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaDesktopScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaDesktopScreenshot.jpg  used on input
  line 286.
 (pdftex.def)             Requested size: 365.50655pt x 192.09653pt.
-<Figures/chap5/VidaBlueScreenshot.jpg, id=5569, 929.4725pt x 456.70625pt>
+<Figures/chap5/VidaBlueScreenshot.jpg, id=5570, 929.4725pt x 456.70625pt>
 File: Figures/chap5/VidaBlueScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaBlueScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaBlueScreenshot.jpg  used on input li
@@ -2905,7 +2900,7 @@ Chapter 6.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hlc' on input line 1.
 
-<Figures/chap6/EOChain.jpg, id=5598, 813.0375pt x 377.41pt>
+<Figures/chap6/EOChain.jpg, id=5599, 813.0375pt x 377.41pt>
 File: Figures/chap6/EOChain.jpg Graphic file (type jpg)
 <use Figures/chap6/EOChain.jpg>
 Package pdftex.def Info: Figures/chap6/EOChain.jpg  used on input line 9.
@@ -3284,13 +3279,13 @@ lti-
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
 (./appa.aux) (./appb.aux) (./biblio.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 65C964124D4186635CB7C0C8F5FDD426;34410.
+(rerunfilecheck)             Checksum: 163A94EACDCA17862479E08206F7F024;34415.
  )
 (\end occurred when \ifx on line 108 was incomplete) 
 Here is how much of TeX's memory you used:
  23766 strings out of 480129
  503992 string characters out of 5893409
- 764409 words of memory out of 5000000
+ 764410 words of memory out of 5000000
  39675 multiletter control sequences out of 15000+600000
  489323 words of font info for 64 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -3334,10 +3329,10 @@ mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (312 pages, 51646947 bytes).
+Output written on main.pdf (312 pages, 51647259 bytes).
 PDF statistics:
- 7398 PDF objects out of 7423 (max. 8388607)
- 5817 compressed objects within 59 object streams
+ 7399 PDF objects out of 7423 (max. 8388607)
+ 5818 compressed objects within 59 object streams
  1475 named destinations out of 1728 (max. 500000)
  1683 words of extra memory for PDF output out of 10000 (max. 10000000)
 
