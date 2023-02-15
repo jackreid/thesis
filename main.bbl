@@ -1,5 +1,12 @@
 \begin{thebibliography}{100}
 
+\bibitem{jonesGainingSeatPolicy2002}
+Anita~K. Jones.
+\newblock Gaining a {{Seat}} at the {{Policy Table}}.
+\newblock In {\em Engineering and {{Environmental Challenges}}: {{Technical
+  Symposium}} on {{Earth Systems Engineering}}}, pages 59--64. {The National
+  Academies Press}, {Washington, DC}, 2002.
+
 \bibitem{belwardWhoLaunchedWhat2015}
 Alan~S. Belward and Jon~O. Sk{\o}ien.
 \newblock Who launched what, when and why; trends in global land-cover
@@ -96,13 +103,6 @@ Sebastian~M. Pfotenhauer, Danielle Wood, Dan Roos, and Dava Newman.
   partnerships ({{CISTIPs}}): {{A}} study of four global {{MIT}}
   collaborations.
 \newblock {\em Technological Forecasting and Social Change}, 104:38--56, 2016.
-
-\bibitem{jonesGainingSeatPolicy2002}
-Anita~K. Jones.
-\newblock Gaining a {{Seat}} at the {{Policy Table}}.
-\newblock In {\em Engineering and {{Environmental Challenges}}: {{Technical
-  Symposium}} on {{Earth Systems Engineering}}}, pages 59--64. {The National
-  Academies Press}, {Washington, DC}, 2002.
 
 \bibitem{hoosSystemsAnalysisPublic1983}
 Ida~R. Hoos.
@@ -2643,13 +2643,6 @@ D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
   wavelength and normalized difference vegetation index continuity.
 \newblock {\em Remote Sensing of Environment}, 185:57--70, November 2016.
 
-\bibitem{zhangModelingRiskMangroves2019}
-Caiyun Zhang, Sara~Denka Durgan, and David Lagomasino.
-\newblock Modeling risk of mangroves to tropical cyclones: {{A}} case study of
-  {{Hurricane Irma}}.
-\newblock {\em Estuarine, Coastal and Shelf Science}, 224:108--116, August
-  2019.
-
 \bibitem{cloughAllometricRelationshipsEstimating1989}
 B.~F. Clough and K.~Scott.
 \newblock Allometric relationships for estimating above-ground biomass in six
@@ -2887,32 +2880,30 @@ Flavo E.~S. Souza and Carlos~Augusto {Ramos e Silva}.
 \newblock Decreto n\textordmasculine{} 322 de 3 de mar\c{c}o de 1976, March
   1976.
 
+\bibitem{stroblFollowingRecentEviction2018}
+Tyler Strobl.
+\newblock Following {{Recent Eviction Threats}}, {{Ara\c{c}atiba Unites}} and
+  {{Pushes Forward}}.
+\newblock https://www.rioonwatch.org/?p=46329, 2018.
+
+\bibitem{institutopacsSemPeixeSem2021}
+{Instituto Pacs}.
+\newblock Sem peixe, sem renda, sem justi\c{c}a: Pescadores de {{Santa Cruz}}
+  ({{RJ}}) relatam impactos causados pela\ldots, January 2021.
+
 \bibitem{cavalcantiEvaluatingMangroveConservation2009}
 V.~F. Cavalcanti, M.~L.~G. Soares, G.~C.~D. Estrada, and F.~O. Chaves.
 \newblock Evaluating {{Mangrove Conservation}} through the {{Analysis}} of
   {{Forest Structure Data}}.
 \newblock {\em Journal of Coastal Research}, pages 390--394, 2009.
 
-\bibitem{jimenezRecoverySoilProcesses2022}
-La{\'i}s Coutinho~Zayas Jimenez, Hermano~Melo Queiroz, Gabriel~Nuto
-  N{\'o}brega, Danilo~Jefferson Romero, Youjun Deng, Xos{\'e}~Luis Otero, and
-  Tiago~Os{\'o}rio Ferreira.
-\newblock Recovery of {{Soil Processes}} in {{Replanted Mangroves}}:
-  {{Implications}} for {{Soil Functions}}.
-\newblock {\em Forests}, 13(3):422, March 2022.
-
-\bibitem{jungBrazilNationalEnvironmental2017}
-Suhyun Jung, Laura~Vang Rasmussen, Cristy Watkins, Peter Newton, and Arun
-  Agrawal.
-\newblock Brazil's {{National Environmental Registry}} of {{Rural Properties}}:
-  {{Implications}} for {{Livelihoods}}.
-\newblock {\em Ecological Economics}, 136:53--61, June 2017.
-
-\bibitem{jungPartnershipsPreventDeforestation2018}
-Suhyun Jung and Stephen Polasky.
-\newblock Partnerships to prevent deforestation in the {{Amazon}}.
-\newblock {\em Journal of Environmental Economics and Management}, 92:498--516,
-  November 2018.
+\bibitem{buntingGlobalMangroveExtent2022}
+Pete Bunting, Ake Rosenqvist, Lammert Hilarides, Richard~M. Lucas, Nathan
+  Thomas, Takeo Tadono, Thomas~A. Worthington, Mark Spalding, Nicholas~J.
+  Murray, and Lisa-Maria Rebelo.
+\newblock Global {{Mangrove Extent Change}} 1996\textendash 2020: {{Global
+  Mangrove Watch Version}} 3.0.
+\newblock {\em Remote Sensing}, 14(15):3657, January 2022.
 
 \bibitem{mousivandGlobalSensitivityAnalysis2014}
 Alijafar Mousivand, Massimo Menenti, Ben Gorte, and Wout Verhoef.
@@ -2942,6 +2933,40 @@ David Lagomasino, Temilola Fatoyinbo, SeungKuk Lee, Emanuelle Feliciano, Carl
   Independent Measurements}} from {{Land}}, {{Air}}, and {{Space}}.
 \newblock {\em Remote Sensing}, 8(4):327, April 2016.
 
+\bibitem{institutobrasileirodegeografiaeestatisticaPedidosComoFazer2014}
+{Instituto Brasileiro de Geografia e Estat\'istica}.
+\newblock {Pedidos: Como fazer}.
+\newblock
+  https://www.gov.br/acessoainformacao/pt-br/central-de-conteudo/infograficos/arquivos/peca-uma-informacao/peca-uma-informacao,
+  June 2014.
+
+\bibitem{jungBrazilNationalEnvironmental2017}
+Suhyun Jung, Laura~Vang Rasmussen, Cristy Watkins, Peter Newton, and Arun
+  Agrawal.
+\newblock Brazil's {{National Environmental Registry}} of {{Rural Properties}}:
+  {{Implications}} for {{Livelihoods}}.
+\newblock {\em Ecological Economics}, 136:53--61, June 2017.
+
+\bibitem{jungPartnershipsPreventDeforestation2018}
+Suhyun Jung and Stephen Polasky.
+\newblock Partnerships to prevent deforestation in the {{Amazon}}.
+\newblock {\em Journal of Environmental Economics and Management}, 92:498--516,
+  November 2018.
+
+\bibitem{jungEvidenceWealthImprovingEffects2019a}
+Suhyun Jung, Chuan Liao, Arun Agrawal, and Daniel~G. Brown.
+\newblock Evidence on {{Wealth-Improving Effects}} of {{Forest Concessions}} in
+  {{Liberia}}.
+\newblock {\em Journal of the Association of Environmental and Resource
+  Economists}, 6(5):961--1000, September 2019.
+
+\bibitem{salasFineGrainedLargeScaleVulnerable2021}
+Joaqu{\'i}n Salas, Pablo Vera, Marivel {Zea-Ortiz}, Elio-Atenogenes
+  Villase{\~n}or, Dagoberto Pulido, and Alejandra Figueroa.
+\newblock Fine-{{Grained Large-Scale Vulnerable Communities Mapping}} via
+  {{Satellite Imagery}} and {{Population Census Using Deep Learning}}.
+\newblock {\em Remote Sensing}, 13(18):3603, January 2021.
+
 \bibitem{granadoAssessingGeneticDiversity2018}
 Renan Granado, Luiza~C. Pinto~Neta, Andr{\'e}~F. {Nunes-Freitas}, Carolina~M.
   Voloch, and Catarina~F. Lira.
@@ -2960,11 +2985,13 @@ M{\'a}rio Soares.
   {{Lagoa}} da {{Tijuca}}, {{Rio}} de {{Janeiro}}, {{RJ}}, {{Brasil}}.
 \newblock {\em Revista Brasileira de Biologia}, 59, August 1999.
 
-\bibitem{stroblFollowingRecentEviction2018}
-Tyler Strobl.
-\newblock Following {{Recent Eviction Threats}}, {{Ara\c{c}atiba Unites}} and
-  {{Pushes Forward}}.
-\newblock https://www.rioonwatch.org/?p=46329, 2018.
+\bibitem{jimenezRecoverySoilProcesses2022}
+La{\'i}s Coutinho~Zayas Jimenez, Hermano~Melo Queiroz, Gabriel~Nuto
+  N{\'o}brega, Danilo~Jefferson Romero, Youjun Deng, Xos{\'e}~Luis Otero, and
+  Tiago~Os{\'o}rio Ferreira.
+\newblock Recovery of {{Soil Processes}} in {{Replanted Mangroves}}:
+  {{Implications}} for {{Soil Functions}}.
+\newblock {\em Forests}, 13(3):422, March 2022.
 
 \bibitem{deweckHandlingCOVID192020}
 Olivier {de Weck}, Daniel Krob, Li~Lefei, Pao~Chuen Lui, Antoine Rauzy, and

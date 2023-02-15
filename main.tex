@@ -48,6 +48,8 @@
 \usepackage{color}
 \usepackage[usenames,dvipsnames,table]{xcolor}
 
+\usepackage[inkscapeformat=eps]{svg}
+
 \usepackage[sort&compress]{natbib}
 
 \pdfpagewidth 8.5in
@@ -56,6 +58,9 @@
 \usepackage{csvsimple}
 
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+%\usepackage{silence}
+
 
 \usepackage{siunitx}
 
@@ -108,8 +113,10 @@
 
 
 
-
 \begin{document}
+
+
+
 
 \include{cover}
 % Some departments (e.g. 5) require an additional signature page.  See
@@ -117,6 +124,8 @@
 % applicable.
 % \include{signature}
 \pagestyle{plain}
+
+
 \include{contents}
 \include{chap1}
 \include{chap2}

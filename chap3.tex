@@ -54,7 +54,7 @@ So what dedicated frameworks exist that are focused more directly on sustainable
 
 There are some frameworks operating in this space, some of which include both systems engineering and a participative element. In 2020, Honoré-Livermore et al. sought to address the \acp{sdg} in arctic coastal regions via an approach grounded in \ac{ses} and the \ac{spade} methodology \cite{honore-livermoreAddressingSustainableDevelopment2020}. The \ac{spade} methodology was developed specifically for sustainable development applications. The five components of its name constitute five non-linear steps, each of which has various specific associated methodologies \cite{haskinsSystemsEngineeringAnalyzed2008}, as shown in Figure 3.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.4]{Figures/chap3/spade.png}
 \caption[The SPADE Methodology and associated methods]{The Stakeholders-Problem-Alternatives-Decision-Making-Evaluation (SPADE) Methodology and associated methods. Adapted from Haskins, 2008 \cite{haskinsSystemsEngineeringAnalyzed2008} as seen in \cite{reidSystemsEngineeringAppliedPendingPublication}.}
@@ -123,7 +123,7 @@ As defined by Maier, \textit{systems architecture} the art and science of creati
 
 The current version of \ac{saf} involves six steps, shown in Figure \ref{fig:saf}. It seeks to center the full network of stakeholders and invite them into a collaborative development process. This process can be used to describe an existing system, identify some system modification, or design an entirely new system. By stakeholders, I mean the people, organizations, and communities that either influence the design and operation of the system or are impacted by the system, or as NASA defines the term: those who are affected by or accountable for an undertaking \cite{nasaofficeofthechiefengineerNASASystemsEngineering2004}. 
 
-\begin{figure}[h] 
+\begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap3/SAF.jpg}
 \caption[Six steps of SAF]{Six steps of \ac{saf}.}
@@ -312,6 +312,8 @@ The methods outlined in the previous section are largely still applicable here, 
 
 We generally recommend that Steps 1 through 5 be summarized in a concrete visual representation such as Figure \ref{fig:system-diagram}. These can be useful in describing the structure and dependencies within the system, as well as distilling the key aspects of the system in an easily understandable fashion. An alternative, list-based presentation can be seen in Ovienmhada et al. \cite{ovienmhadaInclusiveDesignEarth2021}.
 
+\clearpage
+
 \begin{figure}[!htb] 
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap3/system-diagram-combined.png}
@@ -352,7 +354,7 @@ By comparing the results of Iteration 1 and Iteration 2 with Iteration 1.5, the 
 
 The \ac{evdt} Framework conceptualizes the application system from two different perspectives. The first is the system boundaries and stakeholders perspective from \ac{saf} shown in Figure \ref{fig:saf} and discussed in Section \ref{sec:saf}. The second perspective focuses on combining the established fields of sociotechnical systems \cite{rouseUnderstandingChangeComplex2012,siddiqiSociotechnicalSystemsSustainability2017,sussmanTeachingComplexSociotechnical2010} and socio-environmental systems \cite{elsawahEightGrandChallenges2020} into \ac{sets}. To accomplish this, at least four components are considered: the Environment (data including Landsat, Sentinel, VIIRs, in-situ environmental data and knowledge, etc.); Human Vulnerability and Societal Impact (data including census and survey-based demographic data, eocsystem services valuations, NASA's Socioeconomic Data and Applications Center, local knowledge of impacts, etc.); Human Behavior and Decision-Making (data including policy histories, mobility data, urban nightlight data, community input, etc.); and Technology Design for earth observation systems including satellites, airborne platforms and in-situ sensors (data including design parameter vectors for such systems). The data from each of these domains is used by established models in each domain, which are adapted to work in concert to address the objectives identified with the \ac{saf} and develop the \ac{dss} discussed later in Section \ref{sec:dss}. The four components, shown in Figure \ref{fig:model}, seek to encapsulate the major interacting aspects of sustainable development and consider them from a \ac{sets} perspective. 
 
-\begin{figure}[h]
+\begin{figure}[!htb]
     \centering
     \includegraphics[scale=0.3]{Figures/chap3/modelflow.png}
     \caption[Generic version of EVDT Model] {Generic version of the Environment - Vulnerability - Decision - Technology Model}
@@ -363,7 +365,7 @@ There are specific advantages to this perspective. As discussed in Section \ref{
 
 Such an approach, which seeks to simultaneously consider both humans and the environment, stands in contrast to some historical categorizations of planning models. Clifton et al., for instance, breaks down the various ways of modeling the urban form into five categories (though they do not assert that these are comprehensive), as seen in Table \ref{table:urban_form} \cite{cliftonQuantitativeAnalysisUrban2008}. Notably, each model ``perspective" is associated with a ``principal concern" and ``disciplinary orientation" that seems to exclude the others. An \ac{evdt} approach argues that each of these modeling perspectives must be considered simultaneously as problems as ``environmental protection, economic efficiency, accessibility, social welfare, and aesthetics." This is not to say that every \ac{evdt} \ac{dss} must simultaneously model landscape ecology and transportation planning, but it should acknowledge the various (competing or cooperating) concerns. While \ac{evdt} does not focus specifically on urban form, it is interested in these types of models, with the case studies presented in this work focusing on landscape ecology and community design in particular. One downside of examinations of urban form is that they tend to focus on areas and residences, while various forms of social exclusion are better measured by focusing on individuals instead \cite{scottRoleUrbanForm2008}.
 
-\begin{table}[h]
+\begin{table}[!htb]
 \begin{center}
 \scriptsize
 \caption[Five categories of urban form models]{Five categories of urban form models. Adapted from \cite{cliftonQuantitativeAnalysisUrban2008}}
@@ -405,7 +407,7 @@ A key aspect of the term \ac{dss} is the word "support." Crawley et al. state th
 
 The form and functions of the \ac{dss} may vary significantly and should be based on the results of the \ac{saf} iterations. Regarding form, both of the case studies discussed in this work (Chapters \ref{ch:mangroves} and \ref{ch:vida}) present desktop-based computer applications. Jaffe used a web-based application, showin in Figure \ref{fig:jaffe_application} (the full application is, at time of writing, available at \url{https://cranberry-land-use-explorer.herokuapp.com/}) \cite{jaffeEnvironmentalEconomicSystems2022}. Another potential form includes paper maps and other forms of data used as part of an interactive session. Note that paper maps are not, in and of themselves interactive, and they run the risk of merely presenting a solution to the stakeholders rather than engaging them to make a decision. In general, \ac{evdt} takes a somewhat Harleian approach to visualization, in which ``\textit{presentation} is de-emphasized in favor of \textit{exploration} of data" \cite{cramptonMapsSocialConstructions2001}.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.2]{Figures/chap3/jaffe_application.png}
 	\caption[Screenshot of Jaffe's Decision Support System] {Screenshot of Jaffe's Decision Support System. See \cite{jaffeEnvironmentalEconomicSystems2022} for more information.}
@@ -541,7 +543,7 @@ The \ac{evdt} Framework invites participation in different forms throughout the 
 
 The \ac{evdt} Framework also certainly builds upon Jankowski's and Nyerges' macro-micro strategy for participatory decision-making \cite{jankowskiGISGroupDecision2001}. This strategy, shown in Table \ref{tab:macro-micro}, envisions decion-making as taking place across three macro-phases (Intelligence, Design, and Choice), each of which are made up of an iteration of the same four micro-activities (Gather, Organize, Select, and Review). The first iteration of the \ac{saf} is essentially a specific approach for accomplishing Phase 1A through 2A. The second iteration of \ac{saf} results in the creation of a \ac{dss} that in turn supports the community in accomplishing Phase 2B through 3D. 
 
-\begin{table}[h]
+\begin{table}[!htb]
 \footnotesize
 \caption[Generic macro-micro, participatory decision strategy]{Generic macro-micro, participatory decision strategy. Adapted from \cite{jankowskiGISGroupDecision2001}}
 \label{tab:macro-micro}
@@ -569,7 +571,7 @@ Now that the \ac{evdt} Framework has been laid out, it is worth considering who 
 
 First off, as a generalized and participative approach, the \ac{evdt} Framework is not intended to be a closed source, proprietary program of Space Enabled. This thesis is partially intended as a guide for others interested in using this framework. It also is not intended to be a framework used by isolated individuals. We actively invite involvement from other systems engineers and those from other disciplines. Through this proposed thesis and other related projects, the framework will be refined, initial applications demonstrated, a basis of code built (already available online \cite{bluerasterBlueRasterVida2021,reidEVDTRepository2020,reidMITVidaRepository2021}), and a community of collaboration sprouted. These can be built upon for building a community of practice, where individuals can contribute in a variety of ways, as shown in Figure \ref{fig:development}. In this way we can increase the number of potential users who are aware of \ac{evdt} while also scaling the capacity of facilitators to take on projects with additional communities.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.25]{Figures/chap3/Graphic_2_Development.png}
 	\caption[The EVDT development pipeline] {The EVDT development pipeline. Note that the different community groups, shown in blue, are not necessarily discrete and one individual could simultaneously participate in multiple.}
@@ -626,7 +628,7 @@ It should also be recognized that not all users will engage with the \ac{evdt} \
 Finally, this envisioned development and expansion process is fundamentally a "snowball model." Existing team members collaborate with new partners and their communities. This results in additional team members who can then collaborate with others. \ac{evdt} may (and should aim) to one day be easily accessible even in the absence of connections to existing community members, but that is not in the immediate future.
 
 \clearpage
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.5]{Figures/chap3/Loops_Combined.png}
 	\caption{Three example EVDT research configurations}

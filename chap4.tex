@@ -4,11 +4,11 @@
 
 The case study detailed in this chapter is in service to multiple objectives. First, it seeks to address Research Question 2: ``What are the sustainability benefits of collaborative development of \acp{dss} using the \acf{evdt} Modeling Framework in complex \acf{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
 
-	\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
-		\item{System architecture analyses of each of the case studies} 
-		\item{Development of an \ac{evdt}-based \acf{dss} for each of the case studies} 
-		\item{An interview-based assessment of the development process and usefulness of each \ac{dss}} 
-	\end{enumerate}
+\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
+	\item{System architecture analyses of each of the case studies} 
+	\item{Development of an \ac{evdt}-based \acf{dss} for each of the case studies} 
+	\item{An interview-based assessment of the development process and usefulness of each \ac{dss}} 
+\end{enumerate}
 	
 Through these deliverables, this chapter serves as a demonstration of the \ac{evdt} Framework. The structure of this chapter thus mirrors the components of the framework laid out in Section \ref{sec:framework}. It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:rio-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:rio-saf-method}) and the results of each step (Section \ref{sec:rio-saf-results}. Then, in Section \ref{sec:rio-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These two are separated in methodology (Section \ref{sec:rio-evdt-method}) and results (Section \ref{sec:rio-evdt-result}. These are then integrated into a prototype \ac{dss} in Section \ref{sec:rio-dss}. Finally Section \ref{sec:rio-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. The remaining sections examine and discuss the outcomes of this case study. The following chapter will similarly present a second case study.  
 
@@ -46,7 +46,7 @@ Guaratiba is a relatively rural district of Rio de Janeiro situated in the south
 
 These mangroves are vulnerable due to landward urbanization, including a recently opened urban transit line, and rising sea levels \cite{goldbergEcoMapDecisionsupportTool2018}. They provide a variety of ecosystem services, including serving as a mechanism for highly efficient carbon sequestration, supporting a small-scale industry of fishing and crab catching, preventing coastal erosion, and attracting the aforementioned local ecotourism industry \cite{schwenkResearchEnvironmentalSocioeconomical2008}. Government policies to conserve the mangroves can use integrated modeling tools to consider both the benefits of protecting the forests as well as the economic needs of low-income communities. This, coupled with the Rio de Janeiro municipal government's pre-existing interest in generating useful datasets and making them available online through the Data.Rio platform \cite{matheusOpenGovernmentData2014}, made the Guaratiba mangroves a particularly suitable case study for the \ac{evdt} Modeling Framework.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.5]{Figures/chap4/RA2.png}
 	\caption{RAs of Rio de Janeiro. Guaratiba in blue and includes the barrios 151-153.}
@@ -155,7 +155,7 @@ A plethora of plans does not necessarily result in smooth sailing, however (in f
 
 Of particular relevance to Guaratiba is how the megaevent-related development reshaped transportation patterns and commercial development throughout the city. This phenomena is perhaps best explained through the use of three maps. Figure \ref{fig:relocation} shows the origin and destination of most of the favela relocation efforts (both voluntary and mandatory) in the years leading up to the World Cup and Olympics. Most of the new settlements were constructed under the \ac{mcmv} program, a federal program started in 2009 that enabled the some of the poorest households in Brazil to purchase new homes with little-to-no down payments, interest rates of near-zero, and income-adjusted monthly payments. The program was initially aimed at building one million homes nationwide, then later expanded to three million, of which more than 100,000 were assigned to the city of Rio de Janeiro \cite{nadalMinhaCasaMinha2018}. The city partly used this allocation of federal funds to support favela relocation efforts as part of megaevent-related development.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.3]{Figures/chap4/Relocation.png}
 	\caption[Favela Relocation Locations under MCMV between 2009 and 2013]{Favela Relocation Locations under \ac{mcmv} between 2009 and 2013. From \cite{faulhaberRioMaravilhaProjetos2012}}
@@ -164,7 +164,7 @@ Of particular relevance to Guaratiba is how the megaevent-related development re
 
 The relocation of favela inhabitants from east to northwest introduced problems, however. The original siting of informal settlements in Rio de Janeiro was partially driven by the availability of proximal employment. This is why historically, despite low land prices in the rural western parts of the city, most of the city's poor elected to live in high density favelas in the eastern, urban neighborhoods. Figure \ref{fig:employment} shows that while the new, formal \ac{mcmv} homes may have been higher quality than the old favela homes, they were also much further away from major centers of employment. Getting a nicer home is not much consolation for losing your job. 
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.3]{Figures/chap4/Employment.png}
 	\caption[Comparison of MCMV housing units and access to major employment centers.]{Comparison of MCMV housing units and access to major employment centers. From \cite{sanchezMegaeventsUrbanRegeneration2013}}
@@ -173,7 +173,7 @@ The relocation of favela inhabitants from east to northwest introduced problems,
 
 The Rio de Janeiro government was neither completely ignorant nor completely callous, however. As is common in the lead-up to sports megaevents, the city planned significant renovations, improvements, and extensions to the existing public transit system, as shown in Figure \ref{fig:transit}. Some of these, in particular the extension of the metro and the dedicated-lane bus Transoesto from Copacabana towards Barra Da Tijuca, were intended primarily to improve access to the major Olympic sporting venues. Many of the extensions, however were intended to better connect the northern and northwestern reaches of the city with the centers of employment, alleviating the concerns of those being relocated, while also improving accessibility for the existing residents of those areas. 
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.5]{Figures/chap4/Transit.png}
 	\caption[Olympic-related transportation expansions and proximity to environmental protection areas]{Olympic-related transportation expansions and proximity to environmental protection areas. From \cite{kassens-noorOlympicTransportLegacies2018}}
@@ -204,7 +204,7 @@ Of these various units, the following are in or in direct proximity to the Guara
 
 This means that those who live and work in the Guaratiba area will regularly come into contact with eight different municipal and state-run conservation areas that are then collectively coordinated by the federal government. Such an arrangement has both benefits and costs. On the positive side, it can help ensure a certain minimum level of environmental protection amid shifting government priorities. For instance, at the time of writing, the state government of Rio de Janeiro is prioritizing security \cite{kaiserRioGovernorConfirms2019} while the federal government is actively scaling back environmental protections \cite{simoesBrazilBolsonaroEnvironment2019}. If one of these levels of government were solely in charge of environmental protection within the city of Rio de Janeiro, significant harm to the environment might occur, but since there are overlapping jurisdictions, the municipal government can continue to guarantee some minimum level of protections. Unfortunately, this system can (and does) not only lead to perhaps overly cumbersome permitting requirements for certain development projects, but can also lead to a diffusion of responsibility for environmental protections and inconsistent enforcement. 
  
-This confusion of jurisdiction can have real consequences for residents of the area, particularly the disenfranchised. Take the case of Araçatiba, a small favela almost completely surrounded by the \ac{rbag}. The favela ended up in its current position in the 1970s after commercial development (specifically television filming) pushed residents away from their previous location. At the time, this land was controlled by the Brazilian Army \ac{ctex}. In 2006, the \ac{ctex} transferred most of the land in this area to the state government to form the \ac{rbag} and to protect the local mangrove forests. Some additional land, including the Araçatiba favela, was transferred to the civilian federal government. Over the next several years, the federal government took various measures to formalize the settlement, only to reverse course in 2014 and seek evictions instead \cite{chisholmWhoInvadingWhom2017}. The mayor at the time, Eduardo Paes, promised to prevent these evictions, but his successor did not follow suit, resulting in the demolition of several homes in 2017 and the threat of continued demolitions in the months to come \cite{stroblSOSAracatibaCommunity2018}. After protests organized by the favela residents, the federal government and \ac{inea} (the state environmental agency) apologized for the demolitions. Meanwhile, progress towards formal titling has stalled as it is dependent on homes being ``upgraded," which the city government has shown little interest in pursuing. Amid all of this is a somewhat bizarre digression that the federal government claimed that proper notice had been given prior to the demolitions via a message delivered to the president of the Araçatiba Residents Association, an organization that had not met in more than ten years \cite{stroblFourCoreCriticisms2018}. 
+This confusion of jurisdiction can have real consequences for residents of the area, particularly the disenfranchised. Take the case of Araçatiba, a small informal settlement almost completely surrounded by the \ac{rbag}. The favela ended up in its current position in the 1970s after commercial development (specifically television filming) pushed residents away from their previous location. At the time, this land was controlled by the Brazilian Army \ac{ctex}. In 2006, the \ac{ctex} transferred most of the land in this area to the state government to form the \ac{rbag} and to protect the local mangrove forests. Some additional land, including the Araçatiba informal settlement, was transferred to the civilian federal government. Over the next several years, the federal government took various measures to formalize the settlement, only to reverse course in 2014 and seek evictions instead \cite{chisholmWhoInvadingWhom2017}. The mayor at the time, Eduardo Paes, promised to prevent these evictions, but his successor did not follow suit, resulting in the demolition of several homes in 2017 and the threat of continued demolitions in the months to come \cite{stroblSOSAracatibaCommunity2018}. After protests organized by the favela residents, the federal government and \ac{inea} (the state environmental agency) apologized for the demolitions. Meanwhile, progress towards formal titling has stalled as it is dependent on homes being ``upgraded," which the city government has shown little interest in pursuing. Amid all of this is a somewhat bizarre digression that the federal government claimed that proper notice had been given prior to the demolitions via a message delivered to the president of the Araçatiba Residents Association, an organization that had not met in more than ten years \cite{stroblFourCoreCriticisms2018}. 
 
 To summarize, the federal government tore down homes on federal land after being prevented for several years from doing so by the city government. The ensuing protests resulted in an apology by the state government and a refusal by the city government to certify the formalization of the settlement, which is still on federal land.
 
@@ -214,7 +214,7 @@ Of course, one favela is not necessarily representative of an entire region. The
 
 The distinguishing environmental aspect of the coastal Guaratiba area is its significant mangrove forest, made of five different mangrove species. Prior to colonization, most of the Rio de Janeiro coastal areas were either mountains or covered by mangroves. Over the centuries, the lowland mangrove forests were incrementally destroyed and filled in order to accommodate the growing city. The remaining mangrove trees of the greater Rio area, shown in Figure \ref{fig:mangrove-extent}\footnote{The methodology used to generate this and other original figures in the section are presented in Section \ref{sec:rio-evdt-e-method}.}, are confined primarily to northern Guanabara Bay (outside of the municipality) and eastern Sepetiba Bay (the bay on the western side of the city). This means that the Guaratiba forest, and the \ac{rbag} in particular, is the largest copse of mangroves within the city’s jurisdiction. These mangroves provide a variety of ecosystem services, including serving as a mechanism for highly efficient carbon sequestration, supporting a subsistence industry of fishing and crab catching (supporting vulnerable, juvenile shrimp in particular \cite{costaPensarMarPara1992}), preventing coastal erosion, and attracting a local ecotourism industry. Even these trees are under an ongoing threat.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.25]{Figures/chap4/MangroveExtent.png}
 	\caption[Mangrove extent in the greater Rio de Janeiro area in 2018]{Mangrove extent in the greater Rio de Janeiro area in 2018, as estimated using a combination of Landsat, Sentinel, and PALSAR imagery.}
@@ -223,7 +223,7 @@ The distinguishing environmental aspect of the coastal Guaratiba area is its sig
 
 Just up the cost from Pedra de Guaratiba, in the Santa Cruz \ac{ra}, the Ternium steel mill opened in 2010\footnote{Ternium purchased the steel mill in 2017. At its opening in 2010, the factory and associated port were operated by Thyssenküpp.}. This mill, along with its associated facilities, including an expanded canal, a bridge, a dam, and dredging of the bay directly replaced or caused the death of a significant number of mangroves (approximately 145 hectares) \cite{ecologusESTUDOIMPACTOAMBIENTALE2005}. Various indirect damages, including pollutants, silt disturbances, and changes in hydrology have resulted in further loses over the past several years \cite{lopesTerritorialidadesEmConflitos2013}. These effects are visible in the northwest corner of Figure \ref{fig:mangrove-ndvi-anomaly}. In this figure, red indicates damage to mangroves, including both decay and outright losses. Green indicates growth, both of existing trees and of new trees.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.4]{Figures/chap4/NDVIanomaly_v2.png}
 	\caption[Change in Guaratiba area mangrove health from 2000 to 2018]{Change in Guaratiba area mangrove health from 2000 to 2018, with the Gerdau Cosigua and Ternium steel mills indicated.}
@@ -232,7 +232,7 @@ Just up the cost from Pedra de Guaratiba, in the Santa Cruz \ac{ra}, the Ternium
 
 While outside our direct area of interest, the steel mills of Santa Cruz have indirect effects on Guaratiba and are demonstrative of the results of potential industrial development further down the coast. In Guaratiba proper, the direct human-interfaces with the \ac{rbag} include \ac{ctex} in the center of the reserve, the Barra de Guaratiba neighborhood to the southeast, the Ilha de Guaratiba neighborhood\footnote{Ilha de Guaratiba is technically just a subdivision of Barra de Guaratiba. That said the two names are typically used to refer to different areas that have substantially different histories and economies and are only connected by a strip of land. Barra de Guaratiba is the urban cluster on the coast at the southern tip of the \ac{ra}. It was historically a fishing village and more recently a tourist destination. Ilha de Guaratiba, on the northern end of the official neighborhood along the highway, is a historical agricultural marketplace. The use of these names in this paper will stick to the common usage, particularly as we are more interested in the coastal regions rather than more inland areas such as Ilha de Guaratiba.} to the northeast, the Embrapa Agroindústria de Alimentos to the north, and the Araçatiba favela on the northeastern edge. Most of these areas are clearly visible in Figure \ref{fig:rbag}.
 
-\begin{figure}[h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.3]{Figures/chap4/RBAG.png}
 	\caption[Map of RBAG and nearby urbanization]{Map of RBAG and nearby urbanization. Excerpted from \cite{herzogGuaratibaVerdeSubsidios2009} and originally made by IPP.}
@@ -294,7 +294,7 @@ While not common to stakeholder mapping, I chose to represent that mangrove fore
 
 It should be noted that Figure \ref{fig:rio_stakemap} represents a descriptive perspective, focuses on land use decision-making. If one wanted to construct a map centered on this project's \ac{evdt} \ac{dss}, the map would differ significantly. For instance, the primary stakeholders would be the Space Enabled Research Group and \ac{ipp}, as those with the most direct involvement in the creation of the \ac{dss} (despite efforts to broaden the circle of collaboration wider). I did not think such a map was necessary to develop the System Objectives in the next section, but other case studies may find such a practice useful.
 
-\subsubsection{\hlc[cyan]{Understand Desired Outcomes \& Objectives}}
+\subsubsection{\hlc[cyan]{Understand Desired Outcomes \& Objectives}} \label{sec:rio-saf-objectives-result}
 
 Based on both the literature survey and the interviews/meetings with stakeholders, I derived a set of key stakeholder's Needs, Desired Outcomes, and potential System Objectives, which are summarized below in Table \ref{tab:rio-needs}. The \ac{dss} will not address all of these but will be informed by them. This table, in conjunction with the stakeholder classification and mapping in the previous section, allowed for the identification of both shared and conflicting objectives. For example, a formal sewage system was noted as a priority by both the urban-planning-oriented \ac{smu} and the environment-oriented \ac{smac}. Notably this was not brought up by the fishers themselves (though it should be noted that I did not directly ask them about it either). 
 
@@ -386,9 +386,18 @@ The above \ac{saf} results are summarized in Figure \ref{fig:system-diagram-rio}
 \label{fig:system-diagram-rio}
 \end{figure}
 
+This was not the only form considered. For example, Figure \ref{fig:concept_flow} shows two potential user experience concepts for a \ac{dss}. Each is aimed primarily at the needs of a particular stakeholder group. Ultimately the selected form was essentially the left option as it satisfied the needs of more of the involved stakeholders. 
+
+\begin{figure}[H] 
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap4/concept_flow.jpg}
+\caption[Two potential user experience concepts for the Rio de Janeiro case study]{Two potential user experience concepts for this case study}
+\label{fig:concept_flow}
+\end{figure}
+
 \subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}}
 
-As was stated in Section \ref{sec:rio-monitor-method}, long-term monitoring of the Guaratiba environment or the impacts of this project are beyond the scope of this thesis. Instead, feedback from a subset of the stakeholders was relied upon. This feedback is only intelligible in the context of the resulting \ac{dss}, so it is reported later in this chapter, in Section \ref{sec:rio-dss-results}.
+As was stated in Section \ref{sec:rio-monitor-method}, long-term monitoring of the Guaratiba environment or the impacts of this project are beyond the scope of this thesis. Instead, feedback from a subset of the stakeholders was relied upon. This feedback is only intelligible in the context of the resulting \ac{dss}, so it is reported later in this chapter, in Section \ref{sec:rio-dss}.
 
 \section{\hlc[cyan]{EVDT Application}} \label{sec:rio-evdt}
 
@@ -447,8 +456,8 @@ Similar advances, often driven by improvements in machine learning, have yielded
 
 Of these numerous sources of data and derived information, a subset were used to assess the Guaratiba region mangroves from the year 2000 to 2018. These data sources, along with what purpose they were put to are summarized in Table \ref{tab:rio-environment-sources}.
 
-\begin{table}[H]
-\caption[Rio de Janeiro Stakeholder Contacts]{Rio de Janeiro Stakeholder Contacts. This table does not include casual interactions or discussions about unrelated topics to this project.}
+\begin{table}[!htb]
+\caption[Datasets used for Rio Environmental Analyses]{Datasets used for each component of the environmental analyses performed for this case study}
 \label{tab:rio-environment-sources}
 \begin{center}
 \scriptsize
@@ -540,7 +549,7 @@ While the classifier seeks to identify what land contains mangroves, it does not
 \label{fig:gndvi}
 \end{figure}
 
-The specific metric used to assess mangrove health trends was \ac{ndvi} mean anomaly. The equation for this can be seen in equation \ref{eq:mean}. Here \textit{NDVI\textsubscript{Ref}} refers to the median \ac{ndvi} value at a specific location (an individual pixel in this case) over a specified reference period. \textit{NDVI\textsubscript{i}} refers to the \ac{ndvi} value at that location for each of the images taken during the observation period, and \textit{n} refers to the number of usable images (i.e. clear, no clouds, etc.) at a specific location. This metric has two primary benefits. First, it allows for a spatial consideration of health trends, where a straightforward \ac{ndvi} time series would show trends for only specific points or statistical aggregations. Second, unlike a mere start-end delta, the mean anomaly primarily represents significant, secular changes in mangrove health rather than cyclical or temporary changes. Both this method of health tracking and the classifier method of extent tracking is largely based upon methods used by Lagomasino et al. \cite{zhangModelingRiskMangroves2019}.
+The specific metric used to assess mangrove health trends was \ac{ndvi} mean anomaly. The equation for this can be seen in equation \ref{eq:mean}. Here \textit{NDVI\textsubscript{Ref}} refers to the median \ac{ndvi} value at a specific location (an individual pixel in this case) over a specified reference period. \textit{NDVI\textsubscript{i}} refers to the \ac{ndvi} value at that location for each of the images taken during the observation period, and \textit{n} refers to the number of usable images (i.e. clear, no clouds, etc.) at a specific location. This metric has two primary benefits. First, it allows for a spatial consideration of health trends, where a straightforward \ac{ndvi} time series would show trends for only specific points or statistical aggregations. Second, unlike a mere start-end delta, the mean anomaly primarily represents significant, secular changes in mangrove health rather than cyclical or temporary changes. Both this method of health tracking and the classifier method of extent tracking is largely based upon methods used by Lagomasino et al. \cite{lagomasinoMeasuringMangroveCarbon2019, goldbergGlobalDeclinesHuman2020}.
 
 \begin{equation}
 \label{eq:mean}
@@ -805,7 +814,7 @@ Using the ecosystem services rates from Souza \& Ramos e Silva \cite{souzaEcolog
 \end{figure}
 
 
-\subsubsection{\hlc[cyan]{Decision-making}} 
+\subsubsection{\hlc[cyan]{Decision-making}} \label{sec:rio-evdt-decision-results}
 
 In order to discuss potential decisions regarding protected areas and zoning, or understand the impacts of such decisions, we must first understand their layout across the study area. \ac{smu} urban planning zones \cite{institutopereirapassosAreasProtegidas2021} and \ac{smac} environmentally protected areas \cite{institutopereirapassosSetores2022} are shown in Figure \ref{fig:zones}. These zone categories are based on the categories used by \ac{smu} with two primary differences. First, they are somewhat simplified. Each of these zone categories have various subcategories (e.g. Agriculture 1, Agriculture 2, etc.). I have reduced them to just \textit{Agriculture}. Similarly, \textit{Special and Misc.} is a synthetic category including special zones, areas of civil infrastructure construction, recycling centers, and much more. 
 
@@ -899,92 +908,174 @@ Second, outside of the occasional use of Landsat series imagery by \ac{smac} for
 \end{table}
 
 
-\section{\hlc[red]{Decision Support System}} \label{sec:rio-dss}
+\section{\hlc[cyan]{Decision Support System}} \label{sec:rio-dss}
 
-\subsection{\hlc[red]{DSS Methodology}}
+The lessons, data, and analysis from the \ac{saf} (Section \ref{sec:rio-saf}) and the \ac{evdt} framing (Section \ref{sec:rio-evdt}) were used to design and develop a \acf{dss}. To revisit the System Functions, the primary functions of the \ac{dss} were to:
 
-[explain process and software used for the DSS]
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+    \item{\textbf{Descriptively model environmental phenomena}, in particular mangrove health trends over the past two decades. This will inform the current state of the environment and possible future trajectories.}
+    \item{\textbf{Provide estimates of mangrove ecosystem services}, including both local and global services. This will help inform decision-making around mangroves by various stakeholders.}
+    \item{\textbf{Generate potential future conservation scenarios.}}
+\end{itemize}
 
-\subsection{\hlc[red]{DSS Results}} \label{sec:rio-dss-results}
+Much of the development took place in fall of 2019 and spring of 2020, including some rapid iterations involving stakeholders during my March 2020 field visit. Both this field visit and the development of the \ac{dss} were cut short by the onset of the coronavirus pandemic. The \ac{dss} should thus be viewed as an incomplete product with significant room for improvement, as will be discussed further in Section \ref{sec:rio-discussion}.
 
-[explain the state of the prototype]
+\subsection{\hlc[cyan]{Overview of Components and Initialization}}
 
-[insert screenshots]
+The \ac{dss} was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS. It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All codes is available at [**insert code repository]. The display language is in Brazilian Portuguese as this is the most common language known to the stakeholders.
 
-[insert link to code]
+The \ac{dss} consists of three primary components:
 
-\begin{figure}[H] 
+\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
+	\item{\textbf{A map display} capable of showing a variety of both raster and vector data including a a satellite view of the area, jurisdictional boundaries, chloropleth statistics, and mangrove extent and health. It is capable of zooming in and out on a user selected point. By default it includes most of the study area, stretching from Ilha da Madeira to Barra de Guaratiba.}
+	\item{\textbf{A text display} of various demographic, economic, and environmental data at any location selected by the user.}
+	\item{\textbf{A simulator} capable of generating future scenarios for the year 2028 and displaying them via the above two components. These scenarios were based the user selectively altering the categories of the protected areas and planning zones. Only a rudimentary such simulator was developed prior to the project cutoff.}
+\end{enumerate}
+
+All three such components are immediately presented to the user upon initialization, as seen in Figure \ref{fig:rio-dss-startup-screenshot}. The software steps that take place during this initialization are described in detail in Figure \ref{fig:ui_flowchart_initialization}. This layout and the underlying functions were developed in an iterative process with stakeholders, involving mockups, proofs-of-concepts, and quick revisions. Figure \ref{fig:mockup} shows two examples of such mockups, dating back to before the decision was made to display Portuguese instead of English. These were used to ensure user intelligibility and usability at each step of the development process. 
+
+\begin{figure}[!htb] 
 \centering
-\includegraphics[width=0.9\textwidth]{Figures/chap4/concept_flow.jpg}
-\caption[Two potential user experience concepts for the Rio de Janeiro case study]{Two potential user experience concepts for this case study}
-\label{fig:concept_flow}
+\includegraphics[width=0.95\textwidth]{Figures/chap4/rio-dss-startup-screenshot.png}
+\caption[Screenshot of Startup Screen of the Rio de Janeiro DSS]{Screenshot of the \ac{dss} prototype's startup screen.}
+\label{fig:rio-dss-startup-screenshot}
 \end{figure}
 
-\section{\hlc[red]{Collaborative Development Process}} \label{sec:rio-collab}
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/display_and_input.png}
+\caption[Rio DSS Mockups]{Mockups of the \ac{dss} used during the development process. Left: How both spatial and nonspatial information might be displayed. Right: How user inputs on protected areas and zoning might appear.}
+\label{fig:mockup}
+\end{figure}
 
+\subsection{\hlc[cyan]{Spatial and Textual Data Display}}
 
-[discuss ongoing collaboration beyond the initial interviews]
+In order to explain the various information display functions of the \ac{dss}, I will refer to the Figure \ref{fig:rio-dss-screenshot} screenshot, which represents the state of the \ac{dss} after the user has made various data selections. Drop-down menus in the top left allow the user to control:
 
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Unidade de Análise:} The spatial unit of analysis. This dictates both what chloropleths are available and what information is available in the \textit{Informações da Unidade} box on the bottom right. Options are bairros (neighborhoods), Áreas Protegidas (the environmentally protected areas), and Zonas de Planejamento (the urban planning zones). In this screenshot, the Áreas Protegidas are selected, resulting in corresponding red outlines on the map.}
+	\item{\textbf{Cor da zona:} The metric on which the chloropleth is based. What options are available depend on the Unidade de Análise selected. The full listing is shown in Table \ref{tab:rio-dss-data}. Here the classification of the protected areas, as defined in Section \ref{sec:rio-evdt-decision-results}, is selected, resulting in the various shades of green. It is also possible to select none, in which case the units of analysis will be transparent.}
+	\item{\textbf{Imagem do Mapa:} The underlying image of the region. In this version the only two options where the Google Maps Satellite view (shown here) or none.}
+	\item{\textbf{Overlays:} Data derived from spatial raster sources that can be overlain on the map. The options are mangrove health (as measured by \ac{ndvi} mean anomaly from 2000 to 2018), mangrove loss from 2000 to 2018, or none. Here mangrove health is selected.} 
+\end{itemize}
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/rio-dss-screenshot.png}
+\caption[Screenshot of Rio de Janeiro DSS]{Screenshot of the \ac{dss} prototype. The orange square indicates where the user has selected.}
+\label{fig:rio-dss-screenshot}
+\end{figure}
+
+\begin{table}[!htb]
+\caption[Data Displayed by the Rio DSS]{Data available for display by the \ac{dss}, sorted by the unit of analysis and the category of data. Bolded entries indicate what variables a user is able to edit for the purposes of scenario generation. This table is written in English and thus does not directly match the Portuguese labels seen in the screenshots of the actual \ac{dss}.}
+\label{tab:rio-dss-data}
+\begin{center}
+\scriptsize
+\begin{tabular}{| C{3cm} |  L{4cm} | L{4cm} |} \hline
+ 
+\textbf{Unit of Analysis} & \textbf{Data Categories} & \textbf{Available Data}  \\ \hlinewd{2pt}
+
+\multirow{11}{*}{Neighborhoods} & ID & Name \\ \hline
+& \multirow{2}{*}{Demographics} & Population \\
+& & Population Density \\ \hline
+& \multirow{4}{*}{Economy} & 2017 Agriculture Workers \\
+& & 2017 Number Employed \\
+& & 2017 Proportion of Agriculture Jobs \\
+& & 2017 Employment Rate \\ \hline
+& \multirow{2}{*}{Geography} & Area of Unit \\ 
+& & Mangrove Loss \\ \hline
+& \multirow{2}{*}{Miscellaneous} & \acf{ra} \\
+& & \acf{ap} \\ \hline
+
+\multirow{7}{*}{Protected Areas} & ID & Name \\  \hline
+& Environmental & \textbf{Group} \\  \hline
+& \multirow{2}{*}{Geography} & Area of Unit \\ 
+& & Mangrove Loss \\ \hline
+& \multirow{3}{*}{Miscellaneous} & Jurisdiction (municipal, state, or federal) \\
+& & Creation Method (municipal legislation, federal regulation, etc.) \\
+& & Creation Number (statute, code, etc.) \\ \hline
+
+\multirow{4}{*}{Planning Zones} & ID & Zone ID Number \\ \hline
+& Economy & \textbf{Group} \\ \hline
+& \multirow{2}{*}{Geography} & Area of Unit \\ 
+& & Mangrove Loss \\ \hline
+& Miscellaneous & Governing Legislation \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+The user can select any location on the map, resulting in an orange square indicator being placed there. Once this has been done, the user can zoom in or out using the slider in the top-center. The map zoom level and focus can be reset by clicking the \textit{Restaurar Zoom} button in the bottom left. Various data available for the selected unit of analysis will populate the different tabs of the \textit{Informações da Unidade} box on the bottom right. 
+
+The \textit{Exibição de Dados} (Data Exhibit) in the top right shows a variety of information about the entire study area. In the Figure \ref{fig:rio-dss-screenshot}, this includes the 2018 mangrove extent, the area of recent growth, the area of recent loss, area of mangroves at risk of loss, and the net change in mangroves since 2000\footnote{This figures shown in this screenshot are from an older analysis and with a slightly different study area and period. They thus do not match the values reported in Section \ref{sec:rio-evdt-e-result}.}. 
+
+\subsection{\hlc[cyan]{Scenario Generation}}
+
+In order to generate a future scenario for the year 2028, the user simply clicks the \textit{Calcular} button in the bottom center of the interface. After a period of calculation, the \ac{dss} display will transition from showing real world data to simulated data, as seen in Figure \ref{fig:rio-dss-simulation}. Note that the redtext in the top right of the map specifies both the date of the displayed information and whether the information is real or simulated.
+
+In this prototype, the scenario generation process consists of a highly simplistic toy model in which mangrove health increases, remains the same, or decreases depending on the combination of environmental protection area category and the planning area category that the mangrove is present in. The directionality and magnitude of these changes are roughly based on the correlations noted in Section \ref{sec:rio-evdt-decision-results}. 
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/chap4/rio-dss-simulation.png}
+\caption[Demonstration of the Rio DSS Scenario Generation]{Left: A screenshot of the \ac{dss} prior to scenario generation. Right: A screenshot of the \ac{dss} after scenario generation.}
+\label{fig:rio-dss-simulation}
+\end{figure}
+
+By default, the scenario generation process assumes that there are no policy changes (i.e. the types and boundaries of both the protected areas and planning zones do not change). The user can, however, alter the types of the protected areas and/or planning zones at their discretion. To accomplish this, the user must first switch the map to the appropriate unit of analysis type (using the \textit{Unidade de Análise} drop-down menu in the top-left), and then click on the particular desired unit on the map. Now, in the \textit{Informações da Unidade} box, the variables available for alteration will be highlighted in yellow, as seen in Figure \ref{fig:rio-dss-screenshot}. The user can click on such variables and change them to any of the other policy categories listed in Section \ref{sec:rio-evdt-decision-results}.
+
+Once the user has altered the protected areas and planning zones to their desire, they can generate the new scenario by clicking on the \textit{Calcular} button. If they wish to go back and try different inputs, the \textit{Restaurar Original} resets the scenario back to 2018. If they wish to visually compare the real world 2018 data to the simulated 2028 scenario, the \textit{Mostrar Futuro Simulado / Mostrar Presente} button allows them to switch back and forth without having to repeat the scenario generation process.
+
+The full set of user actions, along with the resulting software processes, are detailed in Figure \ref{fig:ui_flowchart_user_actions}.
+
+\begin{landscape}
+
+\begin{figure}[t] 
+\centering
+\includegraphics[scale=0.2]{Figures/chap4/ui_flowchart_initialization}
+\caption[Flowchart of Rio DSS Initialization]{Flowchart showing the initialization process of the Rio \ac{dss}. Note: This figure is a vector image that should support significant zooming in the PDF version of this thesis.}
+\label{fig:ui_flowchart_initialization}
+\end{figure}
+
+\begin{figure}[t] 
+\centering
+\includegraphics[scale=0.075]{Figures/chap4/ui_flowchart_user_actions}
+\caption[Flowchart of Rio DSS Actions]{Flowchart showing the various actions that a user of the \ac{dss} can perform and how the system executes them. Note: This figure is a vector image that should support significant zooming in the PDF version of this thesis.}
+\label{fig:ui_flowchart_user_actions}
+\end{figure}
+\end{landscape}
+
+\section{\hlc[cyan]{Collaborative Development Process}} \label{sec:rio-collab}
+
+As explained in Section \ref{sec:evdt-collab}, the \ac{evdt} Framework calls for stakeholder engagement, participation, and collaboration throughout the project. This starts with that initial contacts, meetings, discussions, and interviews that make up the Stakeholder Analysis step of the \ac{saf}. Such activities for this case study were detailed previously in Section \ref{sec:rio-saf}. Collaboration does not end there, however, and several other forms of stakeholder involvement were relied upon for this project.
+
+With \ac{ipp}, regular one-on-one meetings were held with myself and Felipe Mandarino throughout this project and the Vida project detailed in Chapter \ref{ch:vida}. The frequency of these meetings fluctuated from weekly to monthly depending on the needs of this project and our other professional responsibilities. These meetings were used to demonstrate and critique prototypes of the \ac{dss}, discuss potential additional datasets, and plan ways of engaging other stakeholders.
+
+During my field visits in 2019 and 2020, I also spent significant time in the offices / workspace of \ac{ipp}, ESPAÇO, and \ac{smac}. This enabled me to observe the day-to-day work life of these stakeholders, learn more about the work that they do (both relevant to this project and not), and get direct input and feedback on the \ac{dss} and \ac{evdt} analyses. 
+
+During these visits, I also had the opportunity to visit the mangroves of Guaratiba and the surrounding communities multiple times. One of these trips involved an ESPAÇO-led tour of the \ac{rbag} and an \ac{uav} photogrammetry survey of a portion of the mangrove forest near the Araçatiba settlement. A later trip involved a tour led by a local fisher of Pedra de Guaratiba, the eastern portion of the Sepetiba bay, and some of the mangroves surrounding the bay. Over the course of both of these visits, stakeholders shared information about their socioeconomic status, their relationship with the mangroves, and their hopes for the future. I was also able to directly observe how the mangroves and their associated environment was being used.
+
+Additional correspondence with \ac{smac}, \ac{smu}, ESPAÇO, and \ac{ipp} took place over email and video conference calls throughout the duration of the project. Finally, various stakeholders were invited to participate (and in fact did so) with the monthly \ac{evdt} community meetings once those began in 2022 (see Chapter \ref{ch:vida} for more discussion of these meetings). 
+
+It is recognized that this level of collaboration fell short of what was originally envisioned at the onset of this project. Part of this was the onset of the coronavirus pandemic which cut short the project and resulted in my departure from the second visit early. This prevented a series of future rounds of interviews and workshops with stakeholders. The first of these would have revisited each of the stakeholders, presented them with potential functions of a \ac{dss}, and had them select their preferences in a systematic way (such as through pairwise comparison or weights). A round would have presented them with a \ac{dss} prototype itself as part of some initial user trials.
+
+I also failed to recruit any of the Cariocans to directly work on the \ac{dss} code or the \ac{evdt} analyses. I believe that this limited both the capacity building of this project and the likelihood of the \ac{dss} being further developed and put into practice. This is not to say that either of these problems (pandemic-caused cancellation of interviews/workshops or lack of direct participation on coding) were irresolvable. Potential means by how I could have done so are presented in Section \ref{sec:rio-discuss-stakeholder} of the Discussion below.
 
 \section{\hlc[red]{Discussion}} \label{sec:rio-discussion}
 
 
-evidence that the protected areas in the greater Rio de Janeiro have helped the mangroves \cite{cavalcantiEvaluatingMangroveConservation2009}
 
-replanting mangroves helps the soil \cite{jimenezRecoverySoilProcesses2022}
+\subsection{\hlc[cyan]{The State and Future of the Guaratiba Socio-environmental System}} 
 
-[lessons learned]
-	[pros and cons of having a fairly neutral (at least as far as the government is concerned) primary point of contact]
-	
-[potential for future development]
-	[moving online]
-	[informing the bounds of APA da Orla da Baía de Sepetiba]
-	[household survey studies to inform ecosystem services]
-	[use aerial lidar survey to revise height / biomass estimates]
-	[use of Planet Tanager for species differentiation]
+The information gathered during the \ac{saf} process (Section \ref{sec:rio-saf} and the analyses conducted as part of the \ac{evdt} framing (Section \ref{sec:rio-evdt}) show that both the people and the environment of coastal Guaratiba are under active threat from a multitude of directions. Local environmentalists have a saying about this: “Guanabara is the past, Guaratiba is the present, Paraty is the future.” By this they mean that Guanabara Bay, which downtown Rio de Janeiro sits upon, is a lost environmental cause. Paraty, an area approximately 230km to the west of Rio de Janeiro, is relatively well preserved and unlikely to face serious human pressures in the next few decades. Guaratiba is where the current fight is. 
 
-Beyond the scope of this thesis, in order to better understand and quantify the dynamics linking mangrove health and conservation policies with local socioeconomic impact, the team is currently pursuing collaborating with an ecosystem services economist to analyze historical data and potentially to conduct household surveys. This historical data will be used in conjunction with the mangrove health history to estimate the "Carbon and Raw Material Impact" and "Local Socioeconomic Impact of Mangrove Loss," as shown in Figure \ref{fig:method}. For more details on these types of methods, see \cite{jungBrazilNationalEnvironmental2017, jungPartnershipsPreventDeforestation2018}. Once these historical dynamics are better understood, we can progress to predictive simulation of vulnerability.
+But while those who use this phrase are typically referring solely to the environment, it seems to be true for the people of Guaratiba as well. The local communities around Sepetiba Bay, and particularly in Guaratiba, are highly dependent on ecosystem services provided by the region's mangrove forests and are vulnerable to losses of these mangroves caused by sea level rise or urban development.  And the city, caught up in its grand Rio-wide plans for cleaning up the east and developing the north, seems not to have realized this. As one community leader recounted about an interaction with the mayor in 2018: ``The mayor looked at me and asked, `Where is Araçatiba? I don’t know.’ I said, `By Barra da Guaratiba.’ And he said, `Where is Barra da Guaratiba?'" \cite{stroblFollowingRecentEviction2018}. 
 
+While the local residents have by no means led zero-impact lives, they at least had direct economic incentive in the preservation of the flora and fauna of their region. Their vulnerability to the loss of ecosystem services is thus certainly not news to them. The local fishers sent a delegation to the EU to protest the expansion of the Ternium steel mill, successfully negotiating a mitigation of mangrove losses. They have also protested locally, tying their boats to a local dam associated with the steel mill that was impeding navigability \cite{institutopacsSemPeixeSem2021}. Estimating annual economic value of \$110M of these ecosystem services, as was done in Section \ref{sec:rio-evdt-result}, may help to provide additional leverage in future negotiations and policymaking.
 
+The Decision-making analysis also suggests that designating certain areas as protected via either environmentally policy or municipal planning zones has a material impact on reducing losses of mangroves. This is in agreement with Cavalcanti et al., who found that designating certain forests just to the east of Rio de Janeiro as federally protected resulted in higher structural development \cite{cavalcantiEvaluatingMangroveConservation2009}. The city could thus promote mangrove conservation by either defining new protected areas or by changing some of the current planning zones. 
 
-
-\begin{figure}[t] 
-\centering
-\includegraphics[width=0.9\textwidth]{Figures/chap4/Method_Flowchart.png}
-\caption{Flowchart indicated various ways of estimating causal impact of one EVDT component on another}
-\label{fig:method}
-\end{figure}
-
-The history of these two policy axes over the past several decades will be used in conjunction with the Environment and Vulnerability Models to estimate the regulatory impact on these two domains, as shown in Figure \ref{fig:method}.
-
-[potential inaccuracy of the allometric model used for AGB, and for the other assumptions made calculating carbon stock / export]
-
-
-Unfortunately, the Rio de Janeiro area contains three different species of mangroves (\textit{Avicennia schaueriana}, \textit{Laguncularia racemosa}, \textit{Rhizophora mangle}), each of which have somewhat different spectral reflectance properties, making exact identification and health tracking somewhat more difficult.
-
-As mentioned earlier, \ac{ndvi} is not a perfect measure of mangrove health in a multi-species ecosystem, but it is broadly accurate. With greater number of bands (more than 10) in the visual spectrum, it is sometimes possible to differentiate vegetation species in some cases, but existing free hyperspectral platforms have some combination of poor spatial resolution and insufficient coverage, making them inadequate for this application \cite{mousivandGlobalSensitivityAnalysis2014}. The upcoming launch of the Planet Tanager constellation may alter this situation \cite{planetlabspbcPlanetAnnouncesNew2022}.
-
-The height of mangrove trees can be measured using aerial photogrammetry or \ac{lidar} \cite{olagokeIndividualMangroveTree2015} and Rio de Janeiro has recently conducted such a survey of the entire municipality, though the data was not available in time for this work. Historical height data can be estimated using space-based \ac{lidar} and \ac{sar} data \cite{lagomasinoComparisonMangroveCanopy2016}, though this method lacks the spatial resolution of aerial methods.
-
-\ac{gmw} has since released a v3 with later years included.
-
-Pescadors Association sent a delegation to the EU to protest the construction of the steel mill, resulting in mitigation of mangrove losses. 
-
-We can use changes in mangrove extent over the 2000-2018 period to estimate likely changes in carbon stocks. In the future, when the aforementioned aerial \ac{lidar} survey data becomes available, these estimates can be revised.
-
-Using evdt for technology design / selection in this and other case studies.
-
-Overall potential improvements in methodology (surveys / choice experiments for ecosystem services, including other metrics, studying the tourism and aquaculture industries).
-
-Visualize ecosystem service value and losses by bairro 
-
-[discuss enforcement, including differential enforcement]
-
-[fishers want control over where mangrove replanting occurs]
-
-In addition to conservation, there is the potential for replanting and restoration of mangroves. Numerous replanting and restoration projects have taken place in the Rio de Janeiro area in recent years, both in dedicated conservation areas \cite{granadoAssessingGeneticDiversity2018} and in more urban and peri-urban areas \cite{rioprefeituraEnvironmentalRecoveryRodrigo2019, soaresEstruturaVegetalGrau1999}. Siting of these restoration areas ideally depends both on the environmental viability of a potential site and its likely ecosystem service impacts.
-
-There is also another planned protected area that has been decreed by the municipal legislature, the \ac{apa} da Orla da Baía de Sepetiba. At the time of writing in 2022, the exact boundaries of it have not been set, though tentative boundaries are shown in Figure \ref{fig:apa_sepetiba}, nor have the category or set of protections been determined. It includes the \ac{rbag}, but also much of the coast of Sepetiba bay and several inland areas that are currently in the Uso Sustentável and Zona de Amortecimento categories. Such actions represent potential decisions that could be supported by a future \ac{evdt} project.
+There is, in fact, efforts being made in this direction. Another planned protected area that has been decreed by the municipal legislature, the \ac{apa} da Orla da Baía de Sepetiba. At the time of writing in 2022, the exact boundaries of it have not been set, though tentative boundaries are shown in Figure \ref{fig:apa_sepetiba}, nor have the category or set of protections been determined. It includes the \ac{rbag}, but also much of the coast of Sepetiba bay and several inland areas that are currently in the Uso Sustentável and Zona de Amortecimento categories. 
 
 \begin{figure}[!htb] 
 \centering
@@ -994,29 +1085,136 @@ There is also another planned protected area that has been decreed by the munici
 \end{figure}
 
 
-%%%%%%%
-
-Perhaps the primary conclusion of this high-level examination is that both the people and the environment of coastal Guaratiba are under active threat from a multitude of directions. Local environmentalists have a saying about this: “Guanabara is the past, Guaratiba is the present, Paraty is the future.” By this they mean that Guanabara Bay, which downtown Rio de Janeiro sits upon, is a lost environmental cause. Paraty, an area approximately 230km to the west of Rio de Janeiro, is relatively well preserved and unlikely to face serious human pressures in the next few decades. Guaratiba is where the current fight is. 
-
-But while those who use this phrase are typically referring solely to the environment, it seems to be true for the people of Guaratiba as well. And the city, caught up in its grand Rio-wide plans for cleaning up the east and developing the north, seems not to have realized this. As one community leader recounted about an interaction with the mayor in 2018: ``The mayor looked at me and asked, `Where is Araçatiba? I don’t know.’ I said, `By Barra da Guaratiba.’ And he said, `Where is Barra da Guaratiba?'" \cite{stroblFollowingRecentEviction2018} Up until now, to the extent that the environment, and the mangrove forests in particular, have been protected, it has not been through government protection, but rather due to isolation and benign neglect. While the local residents have by no means led zero-impact lives, they at least had direct economic incentive in the preservation of the flora and fauna of their region. This is not true of the industrial and commercial development rapidly occurring the region.
-
-Analysis and reports have already been commissioned on a variety of specific topics in the area, from reforming the educational system of Guaratiba \cite{pizzolatoLOCALIZACAOESCOLASPUBLICAS2013} to the installation of green infrastructure \cite{herzogGuaratibaVerdeSubsidios2009} to means of protecting both the marine life and the artisan fishers of the area \cite{lopesTerritorialidadesEmConflitos2013}. A comparison of such reports does bring to light certain key themes, some high priority action items that the city or region could pursue. These include:
+Beyond the work presented in this chapter, analysis and reports have been commissioned on a variety of specific topics in the Guaratiba area, from reforming the educational system \cite{pizzolatoLOCALIZACAOESCOLASPUBLICAS2013} to the installation of green infrastructure \cite{herzogGuaratibaVerdeSubsidios2009} to means of protecting both the marine life and the artisan fishers of the area \cite{lopesTerritorialidadesEmConflitos2013}. A comparison of such reports does bring to light certain key themes, some high priority action items that the city or region could pursue. These include:
 
 \begin{itemize}[itemsep=0pt,parsep=0pt]
 	\item{Create a proper sewage and water treatment system. This would improve the health of both the people and the environment and could make use of the natural drainage geography of the Guaratiba basin.}
 	\item{Create a tiered licensing authority to permit certain low-impact artisanal activities in protected areas, while maintaining restrictions on higher impact activities. Once again, this helps the environment while also providing some degree of economic security for the historical residents.}
-	\item{Strengthen environmental protections in forest-adjacent areas, such as construction limits in the Barra de Guaratiba neighborhood. This would prevent indirect pressures on the mangroves and slow both real estate speculation and commercial development, thereby preventing existing residents from being forced out. }
+	\item{Strengthen environmental protections in forest-adjacent areas, such as construction limits in the Barra de Guaratiba neighborhood. This would prevent indirect pressures on the mangroves and slow both real estate speculation and commercial development, thereby preventing existing residents from being forced out.}
 \end{itemize}
 
 These items are merely specific, ad hoc solutions to a broader, meta-problem. Despite the overabundance of municipal, state, and federal government agencies operating in the area, there is no cohesive governance of the environment, the local residents (largely informal settlers), and their interactions. Without this, it is unlikely the any of these ideas will be properly implemented and broader economic forces healthily channeled. There are multiple options for such a governance structure. It could be a top-down entity, one that manages the entire drainage basin, such as the Tennessee Valley Authority or any of its numerous imitators around the world. It could also be a bottoms-up, mass participatory effort by the various communities of the area. Either way, such an entity would be able to not only implement these high priority items, but a host of others as well, such as managing the currently ad hoc diverting of the numerous regional waterways by government agencies, companies, and individuals, much to the detriment of the people and mangroves living downstream.
 
-Unfortunately, neither option seems particularly likely at this time. As mentioned earlier, the city, state, and federal governments are either focused on other things or actively inamicable to such an effort. The residents, for the most part, have no tradition of collective action. Many residents have complained that, despite the relatively abundant land, there are essentially no public spaces in these communities \cite{herzogGuaratibaVerdeSubsidios2009}. They (rightly) decry an inattentive municipal government, but also take no action to create such spaces themselves or effectively agitate for their creation. 
+Unfortunately, neither option seems particularly likely at this time. As mentioned earlier, the city, state, and federal governments are either focused on other things or actively inamicable to such an effort. The residents, for the most part, seem to have little tradition of collective action outside of their profession (such as the protests of the steel mill by fishers) or their immediate neighborhood (such as Araçatiba-based advocacy for formal recognition). 
 
 The author does not have the expertise or the experience with the region necessary to either recommend a specific course of action or predict the likely outcome these ongoing changes in Guaratiba. What can be said with certainty is that there is a real need for awareness raising in the area.
 
-\section{\hlc[red]{Conclusion}}
+\subsection{\hlc[cyan]{Methodological Limitations and Potential Improvements}} \label{sec:rio-limitations}
+
+This project was by no means a flawless execution of the \ac{evdt} Framework, nor does it resolve all the questions the stakeholders have. This section will review such limitations and consider opportunities for future projects (\ac{evdt} or otherwise) in the area. 
+
+\subsubsection{\hlc[cyan]{Environment}}
+
+The assessment of mangrove extent, health, height, and \ac{agb} involved various simplifications and assumptions, some of which were briefly noted in Sections \ref{sec:rio-evdt-e-method} and \ref{sec:rio-evdt-e-result}. 
+
+First, as noted in Table \ref{tab:rio-environment-sources}, the \ac{gmw}v2 extent map was used for as a point of comparison and to assist selection of training data. Since this work was originally performed, \ac{gmw} has since released a v3 that includes annual extent maps for 2017-2020 and fixes various errors in previous version \cite{buntingGlobalMangroveExtent2022}.If this analysis were to be preformed again, it should be updated to the most current version of the \ac{gmw} dataset.
+
+Second, the Rio de Janeiro area contains three different species of mangroves (\textit{Avicennia schaueriana}, \textit{Laguncularia racemosa}, \textit{Rhizophora mangle}), each of which have somewhat different spectral reflectance properties. This can introduce additional errors into identification and health.
+
+As mentioned in Section \ref{sec:rio-evdt-e-method}, \ac{ndvi} is not a perfect measure of mangrove health in a multi-species ecosystem, but it is broadly accurate. With greater number of bands (more than 10) in the visual spectrum, it is sometimes possible to differentiate vegetation species in some cases, but existing free hyperspectral platforms have some combination of poor spatial resolution and insufficient coverage, making them inadequate for this application \cite{mousivandGlobalSensitivityAnalysis2014}. The upcoming launch of the Planet Tanager constellation may alter this situation \cite{planetlabspbcPlanetAnnouncesNew2022}. In the future, such hyperspectral imagery may allow for distinguishing one species of mangrove overtaking another from changes in mangrove health. 
+
+Next, the analyses in this case study relied upon Simard et al.'s \ac{srtm}-based height estimation from a particular year \cite{simardMangroveCanopyHeight2019}. It is possible to gather height information on additional years or at improved spatial resolution using aerial photogrammetry or \ac{lidar} \cite{olagokeIndividualMangroveTree2015}. Rio de Janeiro has recently conducted such a survey of the entire municipality, though the data was not available in time for this work. Future work though could make use such data, providing at least one additional point in time. Historical height data can also be estimated using space-based \ac{lidar} and \ac{sar} data \cite{lagomasinoComparisonMangroveCanopy2016}, though this method lacks the spatial resolution of aerial methods.
+
+Finally, in Section \ref{sec:rio-evdt-e-result} I noted substantial differences in this estimate of \ac{agb} (based on one of Simard et al.'s allometric models) to those of Estrada et al. \cite{estradaEconomicEvaluationCarbon2015}. Hyperspectral-based species differentiation and higher resolution height measurements could enable a refinement of the allometric models used, improving \ac{agb} estimates. 
+
+\subsubsection{\hlc[cyan]{Vulnerability}}
+
+Despite the limitations in the environmental data discussed just above, its spatial and temporal resolutions were actually quite fine compared to the bulk of the socioeconomic data used in this study. Most employment and population data was available only on a decennial basis and much of it was at the neighborhood or \ac{ra} level, rather than the 30m of much of the satellite data. 
+
+There are multiple potential ways to overcome this. One method is to get access to finer grain socioeconomic data collected by \ac{ibge}, Brazil's national statistical agency. \ac{ibge} does in fact have a process for this though it requires pre-approval of the analysis method and the data to be used, for the analysis to take place in-person at a particular \ac{ibge} office, and that only anonymized, aggregate statistics are removed from the site \cite{institutobrasileirodegeografiaeestatisticaPedidosComoFazer2014}. Conveniently enough, this facility is located in the city of Rio de Janeiro. Several collaborators and I were considering just such an option, including sketching out what kind of analysis would be most useful to support the \ac{dss}, when the onset of the pandemic resulted in the closure of such nonessential government facilities and sent me back to the US. 
+
+Another method would be to simply ask, that is to conduct household surveys or surveys of local tourism and aquaculture businesses. This could have not only provided the useful socioeconomic data, but also could have furnished useful information on how local stakeholders valued ecosystem services and the local mangroves. Such surveys could have involved direct reporting or more sophisticated choice experiments. I consulted with Suhyun Jung, an ecosystem services economist with experience with such approaches \cite{jungBrazilNationalEnvironmental2017, jungPartnershipsPreventDeforestation2018, jungEvidenceWealthImprovingEffects2019a}, about doing just this. This resulted in an ongoing collaboration, sadly beyond the scope of this thesis, to better understand and quantify the dynamics linking mangrove health and conservation policies with local socioeconomic impact. In this study historical data and potentially household surveys will be used in conjunction with the mangrove health history to estimate the "Carbon and Raw Material Impact" and "Local Socioeconomic Impact of Mangrove Loss," as shown in Figure \ref{fig:method}. This represents a refinement of the \ac{evdt} analyses performed in this chapter. Once these historical dynamics are better understood, we can progress to predictive simulation of vulnerability.
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap4/Method_Flowchart.png}
+\caption{Flowchart indicated various ways of estimating causal impact of one EVDT component on another}
+\label{fig:method}
+\end{figure}
+
+A more novel method would have been to apply a similar kind of remote observation analysis used to assess the mangroves to assess the socioeconomic state of the region. Salas et al. have recently demonstrated the viability of using fine-grained census data in combination with Landsat imagery to train a deep learning model to estimate various forms of socioeconomic vulnerability in Mexico \cite{salasFineGrainedLargeScaleVulnerable2021}. Such a method could be used to generate annual assessments between decennial census data.
+
+\subsubsection{\hlc[cyan]{Decision-Making}}
+
+Only a rudimentary analysis of the relationship between environmentally protected areas and planning zones with mangrove health and extent was conducted in this chapter. The aforementioned collaboration with Jung (Figure \ref{fig:method}, could help expand this analysis. Further improvements could be obtained by examining when changes in policy occurred (such as the creation of a protected area) to see if a natural experiment could be constructed. This might help not only determine the directionality of the casual impact of such policies on the mangroves, but perhaps even to measure the magnitude. 
+
+Other potential improvements could involve considering enforcement of the policy decisions. During each of my visits to the \ac{rbag}, I witnessed locals fishing among the mangroves, an activity that is nominally prohibited within the reserve. The number of informal settlements throughout Rio de Janeiro similarly suggest that planning zones are not always strictly adhered to. If enforcement of these policies has varied over time, particularly if such variation has gone unrecorded, it could muddy the waters when seeking to determine what impact different policies have on the mangroves.
+
+On the other hand, studying such variations in enforcement could provide insight onto which aspects of protected areas and planning zones (each of which are essentially a bundle of many different regulations) are actually most relevant for protected mangroves. It is entirely possible that small-scale, artisanal fishing and timber harvesting (important ecosystem services) within the \ac{rbag} would not harm the mangroves or their ecosystem. If this is the case, such sustainable use of the forests could be officially licensed, providing additional legal and economic security to the local communities. Future work could examine this very question.
+
+In addition to conservation, there is the potential for replanting and restoration of mangroves. Numerous replanting and restoration projects have taken place in the Rio de Janeiro area in recent years, both in dedicated conservation areas \cite{granadoAssessingGeneticDiversity2018} and in more urban and peri-urban areas \cite{rioprefeituraEnvironmentalRecoveryRodrigo2019, soaresEstruturaVegetalGrau1999}. There is evidence that such replanting projects can cause the soil to rapidly regain carbon storage and sequestration capacity \cite{jimenezRecoverySoilProcesses2022}.
+
+Siting of these restoration areas ideally depends both on the environmental viability of a potential site and its likely ecosystem service impacts. As discussed in Section \ref{sec:rio-saf-objectives-result}, some government initiatives have replaced mangroves lost to development with replanting projects elsewhere in the region. The local fishing community, who more directly rely upon the local non-carbon ecosystem services, would prefer to have more control over where such replanting efforts occur. There is potential for an \ac{evdt} project aimed specifically at balancing such stakeholder concerns when siting restoration areas.
 
 
+\subsubsection{\hlc[cyan]{Technology}}
+
+The technology component in this case study was the most underdeveloped of the four \ac{evdt} components. Two potential expansions are readily apparent. The first would be a more detailed study of the historical relationships between the use of \ac{eo} data and environmental or socioeconomic phenomena. Does increased use of such data result in better outcomes? The project with Jung, shown earlier in Figure \ref{fig:method}, would attempt to partially address this via its ``Earth Observation Data Value Estimation." This would be accomplished both by studying variations in the use of \ac{eo} data by Rio de Janeiro over time and by comparison to other nearby municipalities that either do or do not make use of such data. 
+
+Another method would be to integrate choice of sensing technologies into the \ac{dss}, turning it into a kind of urban planning \ac{osse}. This was considered in early phases of this project. The concept was that, when the \ac{dss} was initialized, the user would be presented with a screen asking them to select what datasets they wished to rely upon. Figure \ref{fig:data_source_selection_panel} shows a mockup of such a screen from when this was being considered. The \ac{dss} would then adjust the spatial and temporal resolution of both the real world data presented and the generated scenarios. By comparing their ability to make informed decisions under each of these different data source situations, the user could start to assess how valuable each sensing technology was. 
+
+Either of these two methods could help inform stakeholders as to the extent to which they should prioritize integrating \ac{eo} into their decision-making processes, either in terms of money or capacity building. For instance, they could determine whether freely available Landsat imagery was sufficient for their needs or whether commissioned high resolution Worldview surveys were necessary. 
+
+Ultimately, however, neither of these two methods were pursued during this case study itself. This was essentially because making such \ac{eo} data acquisition decisions was only relevant to a subset of stakeholders (primarily \ac{ipp} and \ac{smac}, secondarily to \ac{smu}) and even to them it was considered a lower priority than using currently available data more effectively. Both approaches remain intriguing possibilities for future work, however.
+
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap4/data_source_selection_panel.png}
+\caption[Mockup of Rio DSS Data Source Selection]{Mockup of a proposed data source selection panel in the \ac{dss}.}
+\label{fig:data_source_selection_panel}
+\end{figure}
+	
+
+\subsubsection{\hlc[cyan]{Stakeholder Collaboration and Engagement}} \label{sec:rio-discuss-stakeholder}
+
+As stated in Section \ref{sec:rio-collab}, stakeholder participation and collaboration was less than desired or planned for in multiple ways, reducing the impact of this project. While this is partially attributable to the pandemic, other actions could have been taken to minimize such impacts. I could have switched to conducting remote interviews over platforms such as Zoom and could have reconfigured the planned user study workshops to function in a virtual or hybrid environment. It is unlikely that these would have been able to reach all of the involved stakeholders, as both internet access and familiarity with computers vary across the city, but I would have been able to maintain a higher level of stakeholder participation.
+
+There was also a missed opportunity to engage at least some of the stakeholders in direct coding of the \ac{dss} or \ac{evdt} analysis. Out of desire to increase accessibility to a variety of stakeholders, I placed an emphasis on the \ac{dss} being written from the ground up in Python as a free and open-source project. Similarly, I conducted much of the analysis using the free (though not entirely open-source) \ac{gee}. This failed to recognize that the stakeholders most likely to directly participate in the coding and analysis (\ac{ipp} and ESPAÇO) were not familiar with either Python or \ac{gee}. Instead they were familiar with and active users of ESRI's ArcGIS products (which are notably neither free nor open-source). It may have been more worthwhile to focus efforts on software and processes that could be more easily integrated into existing processes. That said, such a course of action would raise the potential for merely confirming existing processes (particularly governmental processes) at the expense of less digitally enfranchised stakeholders. 
+
+Additionally this case study did not contact or seek to involve certain stakeholders not in regular communication with the network shown in Figure \ref{fig:rio_stakemap}. Among these are the \ac{inpe}, Brazil's space agency. I had originally planned on contacting them with regards to this project and including them as a secondary stakeholder, including to go as far as to sketch out a potential user experience \ref{fig:concept_flow}. Ultimately it became clear that \ac{inpe} is primarily focused on the Amazon rainforest and does not generally involve itself in municipal affairs. The primary envisioned role of \ac{inpe} was in selecting or even designing new \ac{eo} platforms as part of the Technology component, along the lines of the \ac{cbers} program. When this component was de-prioritized (as discussed in the previous section, I was de-prioritized contacting \ac{inpe}. 
+
+Another potential contacted stakeholder would be officials in the EU legislatures, regulatory bodies, or investors. During initial stakeholder outreach, a member of the Pedra de Guaratiba Fishers Association mentioned that a number of years ago, they sent a delegation to protest the expansion of the (EU-headquartered) steel mill before such bodies. Presenting the ecosystem services impact of such projects could be another use of the analysis here or a properly designed \ac{dss}. 
+
+\subsubsection{\hlc[cyan]{Decision Support System}}
+
+As stated in Section \ref{sec:rio-dss}, certain aspects of the \ac{dss} system remain undone and many others remain largely untested. Not all of the data and results presented in Section \ref{sec:rio-evdt-result} were integrated into the \ac{dss}. One of the most notable such items were the ecosystem services value estimations. Ideally these would have been presented both in total in the \textit{Exibição de Dados} and spatially on a per bairro basis (and/or the other units of analysis).
+
+Another unimplemented feature is, beyond changing the category of protected areas or planning zones, the ability to alter their boundaries or define entirely new such areas. This would have been particularly relevant for using the \ac{dss} for defining the boundaries or policies of the new \ac{apa} da Orla da Baía de Sepetiba (discussed earlier in this section). In the fall of 2022, I discussed with individuals at \ac{ipp} and \ac{smac} the prospect of renewing this project with specifically this purpose in mind. Ultimately it was decided that the time scale for such endeavors would put it outside the conclusion of this doctoral program. That said, it remains a potential future \ac{evdt} project for another student or researcher. 
+
+Another point worth noting is that there were significant drawbacks to having a desktop-based system rather than an online system. While there were reasons for this choice (see Section \ref{sec:rio-dss}), in retrospect it seems to have limited both the usability of the \ac{dss} and the ability to receive prompt feedback, particularly once the pandemic set it. Such issues were seen again in the Vida project (Chapter \ref{ch:vida}). Based on both of those experiences, I can state that hosting the \ac{dss} online is generally to be preferred and more recent \ac{evdt} projects informed by this experience, such as Jaffe's thesis work \cite{jaffeEnvironmentalEconomicSystems2022}, seem to have performed better.  
+
+\subsection{\hlc[cyan]{Lessons Learned for the EVDT Framework}} \label{sec:rio-lessons-learned}
+
+This case study was one of the first full implementation of the \ac{evdt} Framework, or at least its initial version of it, alongside Ovienmhada's water hyacinth project in Benin \cite{ovienmhadaInclusiveDesignEarth2021}. As such it, both its successes and shortcomings (many of which were noted above) directly informed revisions of the framework, leading to the version presented in Chapter \ref{ch:evdt}. It is worth detailing some of these specific lessons learned.
+
+
+\textbf{The need for the two separate iterations of the \ac{saf}.} Earlier version of the \ac{evdt} Framework where not as strictly linear as Figure \ref{fig:evdt_framework}. Both the \ac{saf} and the \ac{evdt} components were viewed as spanning the entire project and not being particularly distinct, with only one iteration of the \ac{saf} explicitly called for. 
+
+This led to ambiguity about whether the \ac{evdt} practitioner should be focusing the \ac{saf} process on the existing {sets} that the community is operating in or on the \ac{dss} that was to be developed. Lombardo et al., working on coastal flooding in Indonesia, situate the Space Enabled researchers as the primary stakeholder, the \ac{evdt} components as the System Form, and the \ac{dss} as the output of the process \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}.   Jaffe meanwhile situated herself as a secondary stakeholder (advising the primary stakeholders involved in cranberry farming and restoration in Massachusetts) but still focused the \ac{saf} process on defining requirements for the \ac{dss} \cite{jaffeEnvironmentalEconomicSystems2022}. Ovienmhada et al. took the time to define the forms and functions of the existing water hyacinth harvesting \ac{sets} in Benin prior to embarking on the design of the \ac{dss} \cite{ovienmhadaInclusiveDesignEarth2021}. Even this case study did not clearly separate the two (note that there is only one \ac{saf} section in this chapter). 
+
+Through this case study and through comparison with the above cited peers of mine, we realized that it is important to first use the \ac{saf} to define and provide information on the existing \ac{sets} that stakeholders live in, then frame that \ac{sets} using the \ac{evdt} components, and only then embark on the design of a \ac{dss} using the \ac{saf}. This helps to avoid putting the cart before the horse and forcing a particular pre-conceived solution architecture upon the stakeholders. 
+
+\textbf{The importance of Local Context Experts.} While stakeholder participation and collaboration was key to the \ac{evdt} framework in even its earliest versions, the importance of Local Context Experts as discussed in Section \ref{sec:intended} was not fully appreciated. 
+
+In particular the importance of having firm connections to multiple stakeholders can be critical to properly involving as many stakeholders as possible. In this project, \ac{ipp} is situated as a reasonably neutral data provider and occasional mediator between other, sometimes rivalrous government agencies. Having introductions furnished by \ac{ipp} enabled for serious and engaged discussions with both \ac{smac} and \ac{smu}, for instance, where otherwise I may have been typecast as aligned with one or the other and dismissed accordingly.  
+
+Similarly working with ESPAÇO, a local university research group with close ties to the Guaratiba area and its communities, enabled interactions with stakeholders that would have been difficult if not impossible if arranged by government officials. Even so, I was not able to contact some more explicitly activism-oriented groups, as noted in Table \ref{tab:rio-contacts}.
+
+Sometimes, however, such alignment with certain stakeholders is desirable even if it runs the risk of alienating others, but such a decision should be consciously and explicitly made. Ovienmhada et al., for example, working on environmental justice in carceral landscapes of the US, intentionally positioned the project as a social justice endeavor that was aligned with prison abolition activists \cite{ovienmhadaEnvironmentVulnerabilityDecisionTechnologyModelingFramework2021}. 
+
+\textbf{The importance of appropriately scoping an \ac{evdt} project.} Involving as many stakeholders as possible and taking the multidisciplinary approach called for by the \ac{evdt} Framework can quickly cause a project to balloon out of the realm of feasibility. As noted in Section \ref{sec:rio-limitations}, there were innumerable other avenues that this project could have taken (and could still take in the future!). 
+
+This problem was exacerbated in this case by this being the initial trial of a new framework, being run by a new research group. As a result, there was not an abundance of reference materials and code, nor was there experience and institutional knowledge. Hopefully future projects, able to learn and build upon the experience of this and the other first generation of \ac{evdt} projects, will be able to more quickly identify a path and implement it.
+
+
+\section{\hlc[cyan]{Conclusion}}
+
+This chapter presented one of the first implementations of the \ac{evdt} Framework: supporting decision-making regarding the mangroves of Sepetiba Bay and the communities that live near them. I detailed the history of the Guaratiba \acl{sets} and its complicated network of stakeholders before presenting a series of analyses on mangrove health, carbon sequestration, ecosystem services, and sensitivity to government policy decisions. These were used to construct a prototype \ac{dss} for setting environmental protected areas and planning zones. 
+
+In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``What are the sustainability benefits of collaborative development of \acp{dss} using the \acf{evdt} Modeling Framework in complex \acf{sets}?"
+
+This implementation was not without its flaws and this experience informed refinements of the \ac{evdt} Framework. The following chapter will repeat this process for another case study, the Vida \ac{dss} International Network. This will be followed by Chapter \ref{ch:discussion} in which both case studies and the framework itself will be reviewed and future improvements and opportunities will be noted.
 
 
 
