@@ -1,0 +1,37 @@
+Location,Policy,Mask Mandate,Travel Restrictions,Business and Public Space Closures,Gathering Restrictions,Curfews,School Closures,Average,Categories
+Angola,Pre-Emergency,1,1,10,10,10,10,7.00,Light
+Angola,Emergency State - Initial,1,1,8,1,1,1,2.17,Strict
+Angola,Emergency State - Extension 1,3,1,2,3,4,1,2.33,Strict
+Angola,Emergency State - Extension 2,3,2,3,3,4,1,2.67,Strict
+Angola,Emergency State - Extension 3,3,2,4,4,6,1,3.33,Significant
+Angola,Catastrophic State - Initial,4,3,5,6,7,1,4.33,Significant
+Angola,Catastrophic State - Extension 1,4,3,5,6,7,1,4.33,Significant
+Angola,Catastrophic State - Extension 2,4,3,5,6,7,1,4.33,Significant
+Angola,Catastrophic State - Extension 3,4,3,6,6,7,1,4.50,Significant
+Angola,Catastrophic State - Extension 4,4,3,6,6,7,4,5.00,Moderate
+Angola,Catastrophic State - Extension 5,4,3,6,6,8,6,5.50,Moderate
+Angola,Catastrophic State - Extension 6,4,3,6,8,8,2,5.17,Moderate
+Chile,Stage 1: Quarantine,1,3,1,1,5,1,2.00,Strict
+Chile,Stage 2: Transition,1,3,2,2,5,4,2.83,Strict
+Chile,Stage 3: Preparation,1,5,4,2,5,4,3.50,Significant
+Chile,Stage 4: Initial Opening,1,5,6,3,5,4,4.00,Significant
+Chile,Stage 5: Advanced Opening,10,7,8,5,5,6,6.83,Moderate
+Chile,Stage of Emergency,1,2,1,1,4,1,1.67,Strict
+Querétaro,Initial Moderate Closures,1,10,8,3,8,1,5.17,Moderate
+Querétaro,Extraordinary Measures,1,10,1,4,8,5,4.83,Significant
+Querétaro,Starting to Re-Open,1,10,4,4,8,5,5.33,Moderate
+Querétaro,Scenario C: Containment,1,10,5,7,8,5,6.00,Moderate
+Querétaro,Scenario B: Prevention,1,10,7,7,8,5,6.33,Moderate
+Querétaro,Scenario A: Remission,8,10,9,8,8,1,7.33,Light
+Rio de Janeiro,Initial Closures,10,10,9,7,8,1,7.50,Light
+Rio de Janeiro,Phase 1,1,8,2,7,8,1,4.50,Significant
+Rio de Janeiro,Phase 2,1,8,3,7,8,1,4.67,Significant
+Rio de Janeiro,Phase 3a,1,8,4,7,8,1,4.83,Significant
+Rio de Janeiro,Phase 3b,1,8,4,7,8,2,5.00,Moderate
+Rio de Janeiro,Phase 4,1,9,5,7,8,3,5.50,Moderate
+Rio de Janeiro,Phase 5,1,9,5,7,8,4,5.67,Moderate
+Rio de Janeiro,Phase 6a,1,9,6,7,8,6,6.17,Moderate
+Rio de Janeiro,Phase 6b,1,9,6,7,8,7,6.33,Moderate
+Rio de Janeiro,Conservative Period,4,9,8,7,9,7,7.33,Light
+Jakarta,Large-scale social restrictions (PSBB),1,2,2,3,7,1,2.67,Strict
+Jakarta,Transitional PSBB,1,8,4,7,9,5,5.67,Moderate

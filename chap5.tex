@@ -13,7 +13,7 @@ Like Chapter \ref{ch:mangroves}, the case study detailed in this chapter is in s
 	
 Through these deliverables, this chapter serves as a demonstration of the \ac{evdt} Framework. The structure of this chapter thus mirrors the components of the framework laid out in Section \ref{sec:framework}. It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:vida-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:vida-saf-method}) and the results of each step (Section \ref{sec:vida-saf-result}. Then, in Section \ref{sec:vida-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These two are separated in methodology (Section \ref{sec:vida-evdt-method}) and results (Section \ref{sec:vida-evdt-result}. These are then integrated into a prototype \ac{dss} in Section \ref{sec:vida-dss}. Finally Section \ref{sec:vida-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. The remaining sections examine and discuss the outcomes of this case study. The following chapter will similarly present a second case study.  
 
-It should be noted that, as stated in Section \ref{sec:questions}, each case study also has its own objectives beyond supporting a chapter of this thesis. In this case, that means supporting COVID-19 pandemic response in each of the participating metropolitan areas. Readers interested in environmental analyses performed in the course of this research are pointed to Sections \ref{sec:vida-evdt-e-method}, \ref{sec:vida-evdt-e-result}, and \ref{sec:vida-discuss}.
+It should be noted that, as stated in Section \ref{sec:questions}, each case study also has its own objectives beyond supporting a chapter of this thesis. In this case, that means supporting \ac{covid} pandemic response in each of the participating metropolitan areas. Readers interested in environmental analyses performed in the course of this research are pointed to Sections \ref{sec:vida-evdt-e-method}, \ref{sec:vida-evdt-e-result}, and \ref{sec:vida-discuss}.
 
 \section{\hlc[cyan]{A Note on Credit / Contributions}}
 
@@ -29,13 +29,13 @@ All \ac{evdt} projects, by their nature, involved a large number of participants
 
 \section{\hlc[green]{Systems Architecture Framework}} \label{sec:vida-saf}
 
-The following subsections work through the six steps of the \ac{saf} originally detailed in Section \ref{sec:saf} as applied to the Vida COVID-19 response case study, first as methodology and then as results. The goal is to identify what information, analyses, and other forms of decision support would be useful to stakeholders in the various metropolitan areas involved in this case study.
+The following subsections work through the six steps of the \ac{saf} originally detailed in Section \ref{sec:saf} as applied to the Vida \ac{covid} response case study, first as methodology and then as results. The goal is to identify what information, analyses, and other forms of decision support would be useful to stakeholders in the various metropolitan areas involved in this case study.
 
 \subsection{\hlc[green]{SAF Methodology}} \label{sec:vida-saf-method}
 
 \subsubsection{\hlc[cyan]{System Context}}
 
-As the coronavirus pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Modeling Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, coronavirus impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas:
+As the \ac{covid} pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Modeling Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, \ac{covid} impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas:
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
     \item{Luanda, Angola}
@@ -56,7 +56,7 @@ These are shown in Figure \ref{fig:vida_map}. In each of these areas, Vida was d
 \end{figure}
 
 
-Whereas the first case study focuses on simulating the changes in mangrove forest over decades, the focus of Vida is examining hourly to weekly air and water quality data alongside daily coronavirus epidemiological data and weekly quarantine policies. Government officials need actionable data to both address the ongoing public health crisis and to cope with the resultant socioeconomic and environmental consequences. Community members need to understand why their government is making the decisions that it is and understand the risks associated with their own actions. The analysis of System Context will include existing public health infrastructure in these metropolitan areas, how vulnerable they are to epidemics, and how decision-making occurs.  
+Whereas the first case study focuses on simulating the changes in mangrove forest over decades, the focus of Vida is examining hourly to weekly air and water quality data alongside daily \ac{covid} epidemiological data and weekly quarantine policies. Government officials need actionable data to both address the ongoing public health crisis and to cope with the resultant socioeconomic and environmental consequences. Community members need to understand why their government is making the decisions that it is and understand the risks associated with their own actions. The analysis of System Context will include existing public health infrastructure in these metropolitan areas, how vulnerable they are to epidemics, and how decision-making occurs.  
 
 
 \subsubsection{\hlc[yellow]{Analyze System Stakeholders}}
@@ -111,7 +111,7 @@ The second was a recognition that the impacts of and responses to the pandemic c
 
 \section{\hlc[cyan]{EVDT Application}} \label{sec:vida-evdt}
 
-he following subsections walk through the components of the system from an \acf{evdt} perspective, detailing what models were used and the results of those models. Before proceeding though, it is worth stating what exactly each of the four components of \ac{evdt} mean for this system. The onset of the COVID-19 pandemic was an immensely significant event around the world. Thus, while it would have been possible to consider public health as a component of the Vulnerability model, in order to properly center and prioritize the public health aspects of the pandemic, a dedicated Public Health Model was added to the default \ac{evdt} arrangement, as shown in Figure \ref{fig:vida_flow}. Returning to the four questions from Section \ref{sec:evdt-questions} (plus one additional one), we ask the following:
+The following subsections walk through the components of the system from an \acf{evdt} perspective, detailing what models were used and the results of those models. Before proceeding though, it is worth stating what exactly each of the four components of \ac{evdt} mean for this system. The onset of the COVID-19 pandemic was an immensely significant event around the world. Thus, while it would have been possible to consider public health as a component of the Vulnerability model, in order to properly center and prioritize the public health aspects of the pandemic, a dedicated Public Health Model was added to the default \ac{evdt} arrangement, as shown in Figure \ref{fig:vida_flow}. Returning to the four questions from Section \ref{sec:evdt-questions} (plus one additional one), we ask the following:
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
 	\item \textbf{What is happening in in public health?} How is the COVID-19 pandemic spreading through the community? What portion of the infected are being hospitalized or dying? What factors impact transmission?
@@ -132,14 +132,34 @@ We can now discuss what approaches were taken for each of these components befor
 
 \subsection{\hlc[cyan]{EVDT Methodology}} \label{sec:vida-evdt-method}
 
+For each of the \ac{evdt} components (including the additional Public Health component), two levels of analysis were being conducted. At one level, we studied the relationship between different phenomena within each location to better understand how the pandemic was evolving in say Rio de Janeiro in particular. At the second level, we were studying phenomena across the different participating study areas, to understand what lessons were generalizable (and which were not). 
 
-\subsubsection{\hlc[cyan]{Environment}} \label{sec:vida-evdt-e-method}
+For this second level, data was normalized in various ways to facilitate comparison. Generally the state date for post-pandemic ($t=0$) was set at the date of first confirmed \ac{covid} case in each location. These correspond to (in order of occurrence):
+
+ \begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{Querétaro, Mexico: 10/Feb/2020}
+	\item{Metropolitana, Chile: 04/Mar/2020}
+	\item{Rio de Janeiro, Brazil: 07/Mar/2020}
+	\item{Jakarta, Indonesia: 19/Mar/20}
+	\item{Angola: 20/Mar/2020}
+\end{itemize}
+
+Similarly any statistic usually measured in ``number of people" (such as \textit{new cases of \ac{covid} per day}) were normalized into per-capita values, based on the population of that location. Various other, more particular, forms of normalization (such as for \ac{covid} response policies) are discussed in their respective sections below.
+
+Finally, much of this analysis focused on the first year of the pandemic, roughly early March of 2020 to early March of 2021.
+
+
+ \subsubsection{\hlc[cyan]{Environment}} \label{sec:vida-evdt-e-method}
 
 Unlike the previous case study, which focused on a particular aspect of the environment (mangroves) that had an established literature, the onset of the COVID-19 pandemic resulted in many disparate impacts on the environment in quick succession. As discussed earlier, it also was not immediately clear what topics were the highest priority to stakeholders. As a result, many areas were explored and only some pursued in detail.
 
-Urban nighttime lighting patterns changed and (generally) dimmed \cite{elvidgeDimmingLightsChina2020}. Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. We pursued these using both remote sensing data (Landsat and Sentinel for air and water quality estimations, VIIRS for nighttime lighting, Planet and Sentinel SAR for traffic pattern changes) and in-situ sensors (such as the Rio de Janeiro MonitorAr program's air quality sensors).
+Urban nighttime lighting patterns changed and (generally) dimmed \cite{elvidgeDimmingLightsChina2020}. Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. Before these were known, we elected to investigate and monitor these same three phenomena.
 
-For nightlights, the VIIRS VNP46A2 dataset was used \cite{romanNASABlackMarble2018}. This dataset contains daily panchromatic (visible and NIR) imagery at at a resolution of 15 arc-seconds (approximately 450m for the locations of interest) that has been corrected for atmospheric interference and moonlight variation. It is thus well suited for examining artificial lights, such as those generated by cities. We process it by masking out clouds and water (thereby eliminating transient lights from ships) using the supplied quality flag, then taking weekly median values to reduce intraweek variation, before calculating the relative anomaly compared to the 2019 median value for each pixel, thereby standardizing comparisons across time and space. We can then compare specific pre-and-post pandemic time periods to identify changes. Further normalization can be performed by identifying any long term trend from Jan 1st, 2019 to March 1st, 2020 (the approximate start of the pandemic) and subtracting this extrapolated trend from the post-pandemic data. This methodology is summarized below in Figure \ref{fig:nightlights_method}.
+For nightlights, the \ac{viirs} VNP46A2 dataset was used \cite{romanNASABlackMarble2018}. This dataset contains daily panchromatic (visible and NIR) imagery at at a resolution of 15 arc-seconds (approximately 450m for the locations of interest) that have been corrected for atmospheric interference and moonlight variation. It is thus well suited for examining artificial lights, such as those generated by cities. We process it by masking out clouds and water (thereby eliminating transient lights from ships) using the supplied quality flag, then taking weekly median values to reduce intraweek variation, before calculating the relative anomaly compared to the 2019 median value for each pixel, thereby standardizing comparisons across time and space. Further normalization can be performed by identifying any long term trend from Jan 1st, 2019 to March 1st, 2020 (the approximate start of the pandemic) and subtracting this extrapolated trend from the post-pandemic data. Once this has been completed, we can calculate the Theil-Sen trend estimator for each pixel to determine the trend in nightlights during the initial phases of the pandemic.
+
+We also statistically compare specific pre-and-post pandemic time periods at the various areas of interest to identify changes. In particular we performed a t-test to determine if a statistically significant difference exists between the pre-pandemic (January 2019 - Feb 2020) values and the post-pandemic (March 2020 - August 2020), calculated Pearson correlation coefficient to determine if there is a linear fit between the two periods and its directionality, and calculated the Theil-Sen trend estimator for both periods.
+
+This methodology is summarized below in Figure \ref{fig:nightlights_method}.
 
 \begin{figure}[!htb]
 \centering
@@ -148,15 +168,19 @@ For nightlights, the VIIRS VNP46A2 dataset was used \cite{romanNASABlackMarble20
 \label{fig:nightlights_method}
 \end{figure}
 
-For air quality, data from Rio de Janeiro MonitorAr air monitoring stations was used. In-situ sensors take hourly measurements to monitor a range of air quality parameters (e.g O3, CO, SO2, PM10, etc.) in 8 different barrios, or neighborhoods, of Rio de Jeneiro. The dataset is provided publicly and freely through Rio de Janeiro's Data.Rio website \cite{institutopereirapassosDataRio2017}. For the purposes of this study, we focused on changes in the measured PM10 pre-and-post pandemic. We process the data for each barrio by first calculating weekly averages to reduce intraweek variation, as we would expect there to be a difference in air emissions throughout the week (for instance, weekends versus weekdays). Then the data was fit using a least-squares estimate to a sinusoidal wave with an annual period. This sinusoidal curve is the average seasonal variation in PM10 for that barrio, and it is subsequently subtracted out from the data. A best-fit line is then calculated for this seasonally-corrected data. The best-fit line is long-term (multi-year) trend in PM10 measurements, and it is also subtracted out. At this point, the data is corrected for intraweek, seasonal, and annual trends, and we can then construct normalized histograms and compare the pre-and-post pandemic distributions to identify changes and trends. Similar analyses have been conducted using Chile's Sistema de Información Nacional de Calidad del Aire \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} for the Santiago area.
+For air quality, we primarily relied upon in-situ data from MonitorAr stations in Rio de Janeiro  and the Sistema de Información Nacional de Calidad del Aire stations in the Santiago area , though we also used Sentinel-5P \ac{tropomi} data. In Rio de Janeiro, these sensors take hourly measurements to monitor a range of air quality parameters (e.g O3, CO, SO2, PM10, etc.) in 8 different barrios, or neighborhoods, of Rio de Janeiro. The dataset is provided publicly and freely through Rio de Janeiro's Data.Rio website and data stretches back to 2011 \cite{institutopereirapassosDadosHorariosMonitoramento2018}. In Chile, there are  11 sensors across the Metropolitana region, one each of several different municipalities, including Santiago. This data, which stretches back to 2010, was made available as part of the \ac{minciencia} COVID019 data repository on Github \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}.
 
-Some experimentation was performed in assessing changes in air quality and traffic patterns in Rio de Janerio using \ac{eo} imagery. Further meetings with stakeholders suggested that this was of limited usefulness, particularly in the other locations. This, coupled with a lack of accessible validation data, resulted in us abandoning such efforts.
+For the purposes of this study, we focused on changes in the measured PM10 pre-and-post pandemic. We process the data for each barrio by first calculating weekly averages to reduce intraweek variation, as we would expect there to be a difference in air emissions throughout the week (for instance, weekends versus weekdays). Then the data was fit using a least-squares estimate to a sinusoidal wave with an annual period. This sinusoidal curve is the average seasonal variation in PM10 for that barrio, and it is subsequently subtracted out from the data. A best-fit line is then calculated for this seasonally-corrected data. The best-fit line is long-term (multi-year) trend in PM10 measurements, and it is also subtracted out. At this point, the data is corrected for intraweek, seasonal, and annual trends, and we can then construct normalized histograms and statistically compare the pre-and-post pandemic distributions to identify changes and trends. 
+
+There was one additional form of environmental analysis conducted as part of this project, but not reported on in detail in this thesis. Amanda Payton used the Sentinel-5 \ac{tropomi} instrument to measure air quality (specifically SO2 and NO2) in the Luanda area and the \ac{modis} Daily Fire dataset to monitor changes in outdoor fires acros the country.
 
 \subsubsection{\hlc[cyan]{Public Health}}
 
-The most notable variation that Vida has compared to previous \ac{evdt} applications is the addition of a dedicated Public Health Model. While the specific data collection definitions, coverage, and update cycles vary, each of the participant locations collected and published coronavirus-related epidemiological data on a regular basis, including newly identified infections, deaths, hospitalizations, etc. Vida ingests this data and uses it both to display historical trends alongside the other components and to conduct simulations of potential future behavior, with an emphasis on future trajectories of infections and hospitalizations. The Public Health component is based on a \ac{sir} system dynamics model. \ac{sir} is a compartmental epidemiological model and one of the most commonly used variants, due to its relative simplicity and flexibility. System dynamics is a modeling approach commonly used in both 'pure' epidemiological contexts \cite{homerSystemDynamicsModeling2006} and in broader public health policy contexts \cite{deutschCommunitybasedSystemDynamics2020}. Figure \ref{fig:vida_sd} shows a diagram depicting the layout of the Vida Public Health Model. In addition to the three traditional \ac{sir} components, it has two other health compartments: Hospitalizations and Deaths. These reflect some of the primary decision points and metrics of performance that policymakers are using. In most of our application contexts, population counts for each of these compartments is readily available on a daily or weekly basis. 
+The most notable variation that Vida has compared to previous \ac{evdt} applications is the addition of a dedicated Public Health Model. While the specific data collection definitions, coverage, and update cycles vary, each of the participant locations collected and published coronavirus-related epidemiological data on a regular basis, including newly identified infections, deaths, hospitalizations, etc. Vida ingests this data and uses it both to display historical trends alongside the other components and to conduct simulations of potential future behavior, with an emphasis on future trajectories of infections and hospitalizations. 
 
-In the top left and bottom left of the diagram, the initial inclusions of Environment and Vulnerability components are shown. These are obviously cursory and highly assumptive. Air pollutants, for example, are not merely a function of closure policy. In most locations that we have examined, and in research conducted by others \cite{isaifanDramaticImpactCoronavirus2020}, initial coronavirus-related closures resulted in a sudden drop of emissions (further discussion on this in the Section \ref{sec:vida-evdt-result}). Furthermore, there is some evidence that weather and air pollution have a modest impact on COVID-19 transmission \cite{xuModestImpactWeather2020}, leading to the inclusion of such an element in the top left of the diagram.
+The Public Health component is based on a \ac{sir} system dynamics model. \ac{sir} is a compartmental epidemiological model and one of the most commonly used variants, due to its relative simplicity and flexibility. System dynamics is a modeling approach commonly used in both 'pure' epidemiological contexts \cite{homerSystemDynamicsModeling2006} and in broader public health policy contexts \cite{deutschCommunitybasedSystemDynamics2020}. Figure \ref{fig:vida_sd} shows a diagram depicting the layout of the Vida Public Health Model. In addition to the three traditional \ac{sir} components, it has two other health compartments: Hospitalizations and Deaths. These reflect some of the primary decision points and metrics of performance that policymakers are using. In most of our application contexts, population counts for each of these compartments is readily available on a daily or weekly basis. 
+
+In the top left and bottom left of the diagram, the initial inclusions of Environment and Vulnerability components are shown. These are cursory and highly assumptive. Air pollutants, for example, are not merely a function of closure policy. In most locations that we have examined, and in research conducted by others \cite{isaifanDramaticImpactCoronavirus2020}, initial coronavirus-related closures resulted in a sudden drop of emissions (further discussion on this in the Section \ref{sec:vida-evdt-result}). Furthermore, there is some evidence that weather and air pollution have a modest impact on COVID-19 transmission \cite{xuModestImpactWeather2020}, leading to the inclusion of such an element in the top left of the diagram.
 
 This model is non-spatial, though in some locations of interest with distinct geographies (such as the Indonesian islands of Java and Sulawesi), multiple independent instances of the model are generated.
 
@@ -168,11 +192,15 @@ This model is non-spatial, though in some locations of interest with distinct ge
 \end{figure}
 
 
-\subsubsection{\hlc[yellow]{Vulnerability}}
+\subsubsection{\hlc[cyan]{Vulnerability}}
 
-Traditional, government-collected socioeconomic impact data largely does not exist at the fine temporal resolution required for coronavirus-related assessment, so we had to develop the Invisible Variables Initiative (not discussed at length in this thesis) to work with our collaborators to develop surveys and interview procedures to elicit needed information. This initiative is led by Dr. Katlyn Turner and funded by the Natural Hazards Center at the University of Colorado, Boulder. As the pandemic progressed, however, some more traditional metrics, such as unemployment data, that show responses to the crisis began to be released.
+Traditional, government-collected socioeconomic impact data largely does not exist at the fine temporal resolution required for coronavirus-related assessment, so we had to develop the Invisible Variables Initiative (not discussed at length in this thesis) to work with our collaborators to develop surveys and interview procedures to elicit needed information. This initiative was led by Dr. Katlyn Turner and funded by the Natural Hazards Center at the University of Colorado, Boulder. As the pandemic progressed, however, some more traditional metrics, such as unemployment data, that show responses to the crisis began to be released.
 
-Another aspect of societal impact and vulnerability that Vida monitors is mobility. This includes movement as demonstrated by telecommunications activity, automobile traffic, air traffic, and ship activity, the last of these primarily of relevance to the Luanda stakeholders. Telecommunications activity is being made in numerous jurisdictions either directly by private companies \cite{googleCOVID19CommunityMobility} or via government data repositories \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and integrated into Vida. Data on air traffic is commonly collected and published by local government authorities. Data on ship activity can be generated through the use of Sentinel radar imagery by masking out land and permanent structures, then looking for transient bright spots on navigable bodies of water, particularly around major ports. This process can be seen in Figure \ref{fig:ships}. The period of 2018 through the start of the pandemic was used to establish a baseline of ship presence. This was then compared with activity after the onset of the pandemic to identify changes. 
+Another aspect of societal impact and vulnerability that Vida monitors is mobility. This includes movement as demonstrated by telecommunications activity, automobile traffic, air traffic, and ship activity, the last of these primarily of relevance to the Luanda stakeholders. Telecommunications activity was made in numerous jurisdictions either directly by private companies \cite{googleCOVID19CommunityMobility} or via government data repositories \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and integrated into Vida. The former of these also broke mobility into various kinds (residential, transit, recreational, etc.). This is important because it does not just matter how many trips individuals are making per day but also where they are going.
+
+Data on air traffic is commonly collected and published by local government authorities. In particular telecommunications-based mobility data was tracked over time and compared to changes in closures policies (discussed further in the following Decision-making section).
+
+Data on ship activity can be generated through the use of Sentinel radar imagery by masking out land and permanent structures, then looking for transient bright spots on navigable bodies of water, particularly around major ports. This process can be seen in Figure \ref{fig:ships}. The period of 2018 through the start of the pandemic was used to establish a baseline of ship presence. This was then compared with activity after the onset of the pandemic to identify changes. 
 
 \begin{figure}[!htb]
 	\centering
@@ -181,33 +209,126 @@ Another aspect of societal impact and vulnerability that Vida monitors is mobili
 	\label{fig:ships}
 \end{figure}
 
-[** add explanation of the mobility methodology]
+Some experimentation was performed in assessing changes traffic patterns in Rio de Janerio using \ac{eo} imagery, particularly using Sentinel-1 \ac{sar} and higher resolution optical Planet imagery. Further meetings with stakeholders suggested that this was of limited usefulness, particularly in the other locations. This, coupled with a lack of accessible validation data, resulted in us abandoning such efforts fairly early on.
 
 
-\subsubsection{\hlc[cyan]{Decision-making}}
+\subsubsection{\hlc[cyan]{Decision-making}} \label{sec:vida-evdt-decision-method}
 
 Obviously the primary decision axis is containing the spread of coronavirus and properly treating those who are infected. In practice this tends to express itself as various forms of public area and business closures and restrictions, individual social distancing requirements (such as mask wearing), and medical equipment acquisition and allocation. In Rio de Janeiro, for example, many of these policies have been grouped together into a six phase Resumption Plan that has clear indicator-based conditions for when to advance to the next phase \cite{iplanrioIndicadoresPlanoRetomada2020}, which facilitates visualization and simulation in Vida. Most of the locations of interest have similar qualitative, ordinal policy categories, with varying numbers of steps or details. 
 
-We spent some effort at developing a consistent process for transforming such policies from qualitative ordinal categories into quantitative scores, building upon such projects as the CoronaNet Research Project \cite{CoronaNetResearchProject}. This was done both to enable consistent visualizations where various quantitative metrics (active coronavirus cases, air quality, mobility indices, etc.) can be directly compared to policy actions over time (e.g. in Fig \ref{fig:mob}). It also would enable some level of comparison across locations of interest in order to help draw causal relationships and identify the impacts, both positive and negative, of certain policies. Our approach to this was to break policies into different categories (e.g. social distancing / masking requirements, business closures or capacity limitations, travel restrictions, etc.) and define specific ranks within such category (e.g. no outdoor events with greater than 15 people vs no outdoor events with greater than 50 people). The local teams for each location of interest were involved in both the definition of these ranks and the categorization of local policies into them. Ultimately the Vida project concluded prior to this quantification process being completed.  
+We spent some effort at developing a consistent process for transforming such policies from qualitative ordinal categories into quantitative scores, building upon such projects as the CoronaNet Research Project \cite{CoronaNetResearchProject}. This was done both to enable consistent visualizations where various quantitative metrics (active coronavirus cases, air quality, mobility indices, etc.) can be directly compared to policy actions over time (e.g. in Fig \ref{fig:mobility-graphs-rio-santiago}). It also would enable some level of comparison across locations of interest in order to help draw causal relationships and identify the impacts, both positive and negative, of certain policies. Our initial approach to this was to break policies into six different categories:
 
-\subsubsection{\hlc[yellow]{Technology}}
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+\item{Mask Mandates}
+\item{Travel Restrictions}
+\item{Business and Public Space Closures}
+\item{Gathering Restrictions}
+\item{Curfews}
+\item{School Closures}
+\end{enumerate}
 
-Various forms of sensing technology are relevant during a viral epidemic. While our team has remained primarily focused on satellite-based earth observation technology and in-situ environmental sensors, another key form of relevant sensing technology is coronavirus testing (both the technology of the individual tests and the social technology that is the regional testing regime). Rates of testing can be integrated into the public health model through its influence on the difference (or lack thereof) and delay between the estimated number of active infections and the measured infections.
+For each policy regime, each of these six aspects would be scored on a 1 (highly restrictive) to 10 (no requirements or restrictions) scale. An evenly weighted average was then calculated and then sorted into bins: Strict (average score of less than 3), Significant (at least 3 and less than 5), Moderate (at least 5 and less than 7), Light (at least 7 and less than 9), and Minimal (9 or greater). Ultimately this scoring system was deemed too subjective, so an effort was made to better define specific ranks within such category (e.g. no outdoor events with greater than 15 people vs no outdoor events with greater than 50 people). The local teams for each location of interest were involved in both the definition of these ranks and the categorization of local policies into them. This categorization system is presented in Table \ref{tab:policy-system}. The intent was to develop a weighted average of the 0 to 3 policy strictness scores, with weights based on the importance of that particular policy aspect to \ac{covid} control. Ultimately the Vida project concluded prior to this second round being completed, but I will present what was completed on this front.
 
-\subsection{\hlc[red]{EVDT Results}} \label{sec:vida-evdt-result}
+These policy timelines were then compared with the telecom-based mobility data collected as part of the Vulnerability component. These were used to assess both the impact and the duration that various policy changes had on mobility.
 
-\subsubsection{\hlc[yellow]{Environment}} \label{sec:vida-evdt-e-result}
+\begin{landscape}
+\scriptsize
+%\begin{table}[!htb]
+%\caption[COVID-19 Policy Categorization System]{The second version of the \ac{covid} policy categorization system developed as part of the Vida project.}
+%\label{tab:policy-system}
+%\begin{center}
+\begin{longtable}{| C{2cm} |  C{2cm} |C{3cm} |C{3cm} |C{3cm} |C{3cm}|}
+\caption[COVID-19 Policy Categorization System]{The second version of the \ac{covid} policy categorization system developed as part of the Vida project.}
+\label{tab:policy-system} \\ \cline{3-6}
+\multicolumn{2}{C{4cm}|}{} & \multicolumn{4}{|C{12cm}|}{\textbf{Policy Strictness}} \\ \hline 
+\textbf{Policy Group} & \textbf{Policy} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} \\ \midrule \endfirsthead
+%\scriptsize
+%\begin{tabular}{| C{2cm} |  C{2cm} |C{2.5cm} |C{2.5cm} |C{2.5cm} |C{2.5cm}|} \hline 
 
-We ran two-samples t-tests and Anderson Darling tests on the normalized histograms of the pre-and-post pandemic variation-corrected PM10 data, assuming that the pre-pandemic distribution was approximately normally distributed. These tests determine if the pre-pandemic and post-pandemic PM10 measurements are actually different. In particular, as seen in Figure \ref{fig:pm}, we found that tourist areas had a significant decrease in measured PM10 post-pandemic, while some rural or residential areas had slight decreases. We found a significant increase in PM10 measurements post-pandemic in the downtown/business district, with some smaller increases in mixed use/residential and recreational areas. 
+\cline{3-6} \multicolumn{2}{C{4cm}|}{} & \multicolumn{4}{|C{12cm}|}{\textbf{Policy Strictness}} \\ \hline
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/pm10.png}
-\caption[Changes in PM10 in Rio de Janeiro]{Changes in PM10 levels in several bairros of Rio de Janeiro during the first two months of the pandemic, normalized for intraweek, seasonal, and annual trends.}
-\label{fig:pm}
-\end{figure}
+\textbf{Policy Group} & \textbf{Policy} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} \\ \midrule \endhead
 
-Similarly to other researchers, we detected significant changes in nightlights due to the onset of COVID-19 and later policy changes \cite{elvidgeDimmingLightsChina2020, xbsdScipy2021Predicting2021}. In particular, areas associated with air travel and tourism experienced significant decreases in nightlights and associated human activity (areas in purple along the eastern and southern edges of Rio de Janeiro in Figure \ref{fig:nlts}). Downtown and commercial areas experienced a similar, though less dramatic decrease. Primarily residential areas (the yellow, east-west arc across the middle of Figure \ref{fig:nlts}), meanwhile, significantly brightened. These trends are apparent both for relative percentage change across these areas and when the changes are normalized for long term trends. Graphs showing such changes for airports and specific tourist-centric areas in Rio de Janeiro, Brazil and Bali, Indonesia can be seen in Figure \ref{fig:nlg} of the Appendix. The results of basic statistical analysis, particularly t-tests to determine if pre-pandemic and post-pandemic brightness are actually different, for various bairros and areas of Rio de Janeiro can be seen in Figure \ref{fig:nstats}.
+\multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering\textbf{Restriction \& Regulation of Government Services}}}} & \textbf{Public Recreational Areas} & No closures or restrictions & Public recreational areas are open with some social distancing requirements & 	Public recreational areas have significant capacity limits and/or are only open during certain times & Public recreational areas are largely closed \\ \cline{2-6}
+
+& \textbf{School Closures} & No school closures or restrictions & Large, school-related gatherings/activities prohibited & Most schools are required to operate primarily in a hybrid mode (mix of in person and remote) & Most schools are either closed or operating remotely \\ \cline{2-6}
+
+& \textbf{Public Transit} & No restrictions on public transit & Public transit operational with social distancing and/or hygiene restrictions	 & Public transit operational with <50\% capacity & Public transit closed \\ \hline
+
+
+
+ \multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{2.5cm}{\centering\textbf{Travel \& Border Restrictions}}}} & \textbf{Quarantine of Travelers} &  No quarantines required & Self-quarantine encouraged but not enforced & Self-quarantine mandated and enforced & Quarantine in government-managed facilities required \\ \cline{2-6}
+
+& \textbf{International Travel} & No border restrictions & International travel to/from high risk areas is discouraged & International travel to/from high risk areas is largely prohibited & International travel is largely prohibited \\ \cline{2-6}
+
+& \textbf{International Shipping} & No border restrictions & Restrictions or precautions taken with commercial traffic from high risk areas & Restrictions or precautions taken with commercial traffic from most or all locations & International traffic heavily restricted from most or all locations \\ \hline
+
+
+
+\multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering\textbf{Social Distancing}}}} & \textbf{Stay-at-Home-Orders} & No lockdown & Long distance domestic travel restricted & Specific activities and visits to specific places allowed, other activities restricted & Specific activities and visits to specific places allowed and are confined to specific hours, other activities restricted \\ \cline{2-6}
+
+& \textbf{Masks} & No mask requirements & Masks wearing in public spaces is encouraged but not required & Masks required to be worn in indoor public spaces but not outdoors & Masks required to be worn in both indoor and outdoor public spaces \\ \cline{2-6}
+
+& \textbf{Mass Gatherings} & No restrictions on mass gatherings & Indoor gatherings of >50 prohibited, little or no restrictions on outdoor gatherings & Most or all indoor gatherings prohibited, outdoor gatherings of >100 prohibited & Most or all mass gatherings, indoor or outdoor, are prohibited \\ \hline
+
+
+
+\multirow{2}{*}{\rotatebox[origin=c]{90}{\parbox{2cm}{\centering\textbf{Restriction and Regulation of Businesses}}}} & \textbf{Essential Businesses} & No closures or restrictions & Most or all essential businesses are open, but must take social distancing measures & Most or all essential businesses must operate with <50\% capacity & Most or all essential businesses must operate via curbside pickup or delivery \\ \cline{2-6}
+
+& \textbf{Non-essential Businesses} & No closures or restrictions & Most or all non-essential businesses are open, but must take social distancing measures & Most or all non-essential businesses must operate with <50\% capacity & Most or all non-essential businesses are closed \\ \bottomrule
+
+%\end{tabular}
+%\end{center}
+%\end{table}
+
+\end{longtable}
+\end{landscape}
+
+
+
+%\begin{landscape}
+%\begin{table}[!htb]
+%\caption[COVID-19 Policy Categorization System]{The second version of the \ac{covid} policy categorization system developed as part of the Vida project.}
+%\label{tab:policy-system}
+%\begin{center}
+%\tiny
+%\begin{tabular}{| C{1cm} |  C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |C{1.75cm} |} \hline
+%
+%& \multicolumn{2}{|C{3.5cm}|}{\textbf{Restriction \& Regulation of Government Services}} & \multicolumn{3}{|C{5.25cm}|}{\textbf{Travel \& Border Restrictions}} & \textbf{Lockdown} & \multicolumn{3}{|C{5.25cm}|}{\textbf{Social Distancing}} &  \multicolumn{2}{|C{3.5cm}|}{\textbf{Restriction \& Regulation of Business}} \\ \hline
+% 
+%\textbf{Strictness} & \textbf{Public Recreational Areas} & \textbf{School Closures} & \textbf{Quarantine of Travelers} & \textbf{International Travel} & \textbf{International Shipping} & \textbf{Stay-at-Home Orders} & \textbf{Masks} & \textbf{Public Transit} & \textbf{Mass Gatherings} & \textbf{Essential Businesses} & \textbf{Non-Essential Businesses} \\ \hline
+% 
+%0 & No closures or restrictions & No school closures or restrictions & No quarantines required & No border restrictions & No border restrictions	& No lockdown & No mask requirements	& No restrictions on public transit	& No restrictions on mass gatherings	& No closures or restrictions & No closures or restrictions \\ \hline 
+%
+%1 & Public recreational areas are open with some social distancing requirements & Large, school-related gatherings/activities prohibited & Self-quarantine encouraged but not enforced & International travel to/from high risk areas is discouraged & Restrictions or precautions taken with commercial traffic from high risk areas & Long distance domestic travel restricted & Masks wearing in public spaces is encouraged but not required & Public transit operational with social distancing and/or hygiene restrictions & Indoor gatherings of >50 prohibited, little or no restrictions on outdoor gatherings & Most or all essential businesses are open, but must take social distancing measures & Most or all non-essential businesses are open, but must take social distancing measures \\ \hline
+%
+%2 & Public recreational areas have significant capacity limits and/or are only open during certain times & Most schools are required to operate primarily in a hybrid mode (mix of in person and remote) & Self-quarantine mandated and enforced & International travel to/from high risk areas is largely prohibited & Restrictions or precautions taken with commercial traffic from most or all locations & Specific activities and visits to specific places allowed, other activities restricted & Masks required to be worn in indoor public spaces but not outdoors & Public transit operational with <50\% capacity & Most or all indoor gatherings prohibited, outdoor gatherings of >100 prohibited & Most or all essential businesses must operate with <50\% capacity & Most or all non-essential businesses must operate with <50\% capacity \\ \hline
+%
+%3 & Public recreational areas are largely closed & Most schools are either closed or operating remotely & Quarantine in government managed facilities required & International travel is largely prohibited & International traffic heavily restricted from most or all locations & Specific activities and visits to specific places allowed and are confined to specific hours, other activities restricted & Masks required to be worn in both indoor and outdoor public spaces & Public transit closed & Most or all mass gatherings, indoor or outdoor, are prohibited & Most or all essential businesses must operate via curbside pickup or delivery & Most or all non-essential businesses are closed \\ \hline
+%
+%
+%\end{tabular}
+%\end{center}
+%\end{table}
+%
+%\end{landscape}
+
+
+
+
+\subsubsection{\hlc[cyan]{Technology}}
+
+Various forms of sensing technology are relevant during a viral epidemic. While our team was primarily focused on satellite-based earth observation technology and in-situ environmental sensors, another key form of relevant sensing technology is coronavirus testing (both the technology of the individual tests and the social technology that is the regional testing regime). Rates of \ac{pcr} testing can be integrated into the public health model through its influence on the difference (or lack thereof) and delay between the estimated number of active infections and the measured infections. Similarly to Chapter \ref{ch:mangroves}, the technology design and selection capabilities of the \ac{evdt} Framework were largely not explored in this case study. 
+
+\subsection{\hlc[cyan]{EVDT Results}} \label{sec:vida-evdt-result}
+
+\subsubsection{\hlc[cyan]{Environment}} \label{sec:vida-evdt-e-result}
+
+\paragraph{\hlc[cyan]{Urban Nightlights}} \leavevmode\newline
+
+Similarly to other researchers, we detected significant changes in nightlights due to the onset of COVID-19 and later policy changes \cite{elvidgeDimmingLightsChina2020, xbsdScipy2021Predicting2021}. In particular, areas associated with air travel and tourism experienced significant decreases in nightlights and associated human activity (areas in purple along the eastern and southern edges of Rio de Janeiro in Figure \ref{fig:nlts}). Downtown and commercial areas experienced a similar, though less dramatic decrease. Primarily residential areas (the yellow, east-west arc across the middle of Figure \ref{fig:nlts}), meanwhile, significantly brightened. These trends are apparent both for relative percentage change across these areas and when the changes are normalized for long term trends. Graphs showing such changes for airports and specific tourist-centric areas in Rio de Janeiro, Brazil and Bali, Indonesia can be seen in Figure \ref{fig:nlg}. 
+
+The results of basic statistical analysis, particularly t-tests to determine if pre-pandemic and post-pandemic brightness are actually different, for various bairros and areas of Rio de Janeiro can be seen in Figure \ref{fig:nstats}. These results mutually confirm each other and point towards the potential of urban nightlight imagery to supplement telecoms-based mobility data.
 
 \begin{figure}[!htb]
 \centering
@@ -233,26 +354,66 @@ Similarly to other researchers, we detected significant changes in nightlights d
 \label{fig:nlg}
 \end{figure}
 
+\paragraph{\hlc[cyan]{Air Quality}} \leavevmode\newline
 
+For each bairro in Rio de Janeiro, calculated weekly median PM10 levels, calculated a seasonal sinusoidal correction, and a linear secular correction. Figure \ref{fig:aq-combined} shows this process for the Centro bairro. We then ran two-samples t-tests and Anderson Darling tests on the normalized histograms of the pre-and-post pandemic variation-corrected PM10 data, assuming that the pre-pandemic distribution was approximately normally distributed. These tests determine if the pre-pandemic and post-pandemic PM10 measurements are actually different. In particular, as seen in Figure \ref{fig:pm}, we found that tourist areas had a significant decrease in measured PM10 post-pandemic, while some rural or residential areas had slight decreases. We found a significant increase in PM10 measurements post-pandemic in the downtown/business district, with some smaller increases in mixed use/residential and recreational areas. 
 
-\subsubsection{\hlc[yellow]{Public Health}}
+\clearpage
 
-In addition to presenting historical data, the desktop version of the \ac{dss} can also conduct public health simulations, using the system dynamics \ac{sir} model presented earlier. This simulations can either be run manually, with the user selecting specific policies at each week using the controls in the bottom left, or automatically for specified time periods, according to certain pre-coded decision rules (listed in the bottom right) based on the official policies of the location of interest.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/chap5/aq-combined.png}
+\caption[Normalization Results for PM10 in Rio de Janeiro for the Centro bairro.]{Normalization results for PM10 in the Centro bairro of Rio de Janeiro. Top: A sinusoidal correction for seasonal variation. Middle: A linear correction for secular variation. Bottom: Comparison of the corrected pre-and-post pandemic PM10 distributions.}
+\label{fig:aq-combined}
+\end{figure}
 
-This model is currently being calibrated using historical data, expanded as new dynamics become evident, and examined by public health experts. Various potential improvements are evident, including combining the \ac{sir} system dynamics model with an agent-based model to help address some of the deficiencies of the system dynamics approach \cite{ahmedVarianceSystemDynamics2012}, such as the lack of a spatial component.
-
-\subsubsection{\hlc[yellow]{Vulnerability}}
-
-Telecommunications-based measurements of Vida have also provided insightful for decision-makers. Figure \ref{fig:mob} compares mobility with active coronavirus cases and policy status in Santiago, Chile and Rio de Janeiro, Brazil. Some variations are unsurprising: a upward spike during Chile's constitutional referendum, downward spikes for the winter holidays. Others are more relevant for policy-making. Specifically, once the number of active cases declines, mobility increases even if policies remain restrictive.
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/Mobility-Graphs.jpg}
-\caption[Mobility, coronavirus cases, and policy changes in Rio de Janeiro]{Comparisons of coronavirus cases, policy changes, and mobility for Santiago and Rio de Janeiro. Day 0 is set at the first confirmed COVID-19 case in that location (04/Mar/20 for Santiago, 07/Mar/20 for Rio de Janeiro).}
-\label{fig:mob}
+\includegraphics[width=0.9\textwidth]{Figures/chap5/pm10.png}
+\caption[Changes in PM10 in Rio de Janeiro]{Changes in PM10 levels in several bairros of Rio de Janeiro during the first two months of the pandemic, normalized for intraweek, seasonal, and annual trends.}
+\label{fig:pm}
 \end{figure}
 
-Initial results regarding ship tracking in the harbor of Luanda, Angola suggest that there may be a visible change in ship number and location related to the pandemic. Compared to the preceding two years, the monthly average number of ships within the Bay increased slightly after the onset of the pandemic and continued to remain higher throughout the year. In the offshore area outside of the bay, the average monthly number of ships was lower than in the two years preceding the pandemic. As the number of COVID-19 cases in the country climbed, the number of ships within the bay further increased, while the number of ships in the offshore area decreased (as shown in Figure \ref{fig:shipst}). The extended docking within the harbor could reflect a reduction in ships conducting trade or delays in the process of loading and unloading ships due to COVID-19.  Further investigation is needed into the accuracy and statistical significance of these results in order to draw conclusions. However, at this early stage of analysis it appears that detecting changes in economic proxies such as ship movement using satellite imagery is possible and we plan to extend our analysis to other regions for comparison.
+\subsubsection{\hlc[cyan]{Public Health}}
+
+The simulation-related results are presented in Section \ref{sec:vida-dss} as part of the presentation on the Vida \ac{dss}. Here I will focus on briefly describing the historical data for the first year of the pandemic. The confirmed per-capita \ac{covid} cases for this period are shown in Figure \ref{fig:combined-cases}. 
+
+Several aspects immediately jump out. First, is that the magnitudes of the cases very immensely across locations with Indonesia, Querétaro and Angola having much lower cases per-capita than Rio de Janeiro or Metropolitana. This can be attributed to a few different causes. First are the different geographic scales that each of these datasets represent. It is no coincidence that the two areas representing dense metropolitan areas have the higher recorded cases and the areas representing larger geographic areas (including much less densely populated areas) have much lower. Population density affects the spread and intensity of the spread of \ac{covid}. This is also linked to another potential cause of the difference in recorded cases: testing regimes. The dense metropolitan areas likely had much more systematic testing regimes in place, resulting in a higher portion of total \ac{covid} cases being recorded (and made a part of these statistics). This phenomena lead to the Ministerio de Salud, el Ministerio de Ciencias commissioning an estimate of the total number of \ac{covid} cases (including those unrecorded by tests) \cite{icovidDatosCOVID19OutputProducto532020}. It also led to the differentiation of the \textit{Measured Infected Population} and the actual infected population in the \ac{sir} model in Figure \ref{fig:vida_sd}.
+
+Another aspect worth pointing out is first evidence of multiple waves of cases, most notable in the Rio de Janeiro curve. This was a common phenomena around the world over the course of the subsequent years and was noted as an important phenomena to capture in the \ac{sir} model to be used in the \ac{dss}. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.7\textwidth]{Figures/chap5/combined-cases.jpg}
+\caption[COVID-19 Cases Over Time]{Recorded per-capita \ac{covid} cases approximately the first year of the pandemic in each of the study locations.}
+\label{fig:combined-cases}
+\end{figure}
+
+\subsubsection{\hlc[cyan]{Vulnerability}}
+
+Telecom-based mobility data proved to be a powerful way of understanding how the populations of the study areas were responding to changes in both \ac{covid} case loads and official response policies. The relationship with the latter is explored more in Section \ref{sec:vida-evdt-decision-results} but here it is worth noting some important phenomena in the mobility data itself.
+
+Figure \ref{fig:transit-mobility-comparison} shows the transit-related mobility index from Google's \ac{covid} Community Mobility Reports for each of the study areas \cite{googleCOVID19CommunityMobility}, along with several notable phenomena across the locations. While the following section will explore the study areas more individually, the overall trend across the locations is remarkably similar. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap5/transit-mobility-comparison.png}
+\caption[Transit Mobility Over Time for All Locations]{Comparison of the transit mobility index across each of the locations over time.}
+\label{fig:transit-mobility-comparison}
+\end{figure}
+
+Not all forms of mobility showed this general trend of a sudden decrease followed by a long climb. As might be expected, the residential mobility index moved in the opposite direction as individuals suddenly found themselves spending much more time at home during the initial months of the pandemic. This is shown for Angola in Figure \ref{fig:policy-residential-mob}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.7\textwidth]{Figures/chap5/Policy_nat_residential_mob.jpg}
+\caption[Angola COVID-19 Response Policy \& Residential Mobility Over Time]{Comparison of the Angola \ac{covid} response policy strictness and the residential mobility index over time.}
+\label{fig:policy-residential-mob}
+\end{figure}
+
+
+Initial results regarding ship tracking in the harbor of Luanda, Angola suggest that there may be a measurable change in ship number and location related to the pandemic. Compared to the preceding two years, the monthly average number of ships within the Bay increased slightly after the onset of the pandemic and continued to remain higher throughout the year. In the offshore area outside of the bay, the average monthly number of ships was lower than in the two years preceding the pandemic. As the number of \ac{covid} cases in the country climbed, the number of ships within the bay further increased, while the number of ships in the offshore area decreased (as shown in Figure \ref{fig:shipst}). The extended docking within the harbor could reflect a reduction in ships conducting trade or delays in the process of loading and unloading ships due to \ac{covid}.  Further investigation is needed into the accuracy and statistical significance of these results in order to draw conclusions. However, at this early stage of analysis it appears that detecting changes in economic proxies such as ship movement using satellite imagery is possible and we plan to extend our analysis to other regions for comparison.
 
 \begin{figure}[!htb]
 \centering
@@ -261,32 +422,90 @@ Initial results regarding ship tracking in the harbor of Luanda, Angola suggest 
 \label{fig:shipst}
 \end{figure}
 
-\subsubsection{\hlc[red]{Decision-Making}}
+\subsubsection{\hlc[cyan]{Decision-Making}} \label{sec:vida-evdt-decision-results}
 
-\subsubsection{\hlc[red]{Technology}}
+The initial version of the \ac{covid} response policy quantification/scoring can be seen in Figure \ref{tab:covid-policy-scores}. In this chart, we can see a similar wave of initial closures, all happening within the initial days or weeks of the pandemic, though with varying levels of strictness. After some period of time, every location made some effort to re-open, though the start date of this varied significantly from around Day 80 (Jakarta, Indonesia) to around Day 210 (Metropolitana, Chile). After these intial attempts at re-opening, the locations diverge with some re-implementing stricter policies in response to subsequent waves (Indonesia and Metropolitana) and others seeking to remain on a re-opening trajectory (Querétaro, Angola, and Indonesia).
+
+More details on what each policy regime entailed and how they were scored is provided in Appendix \ref{app:policy-summary}. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap5/policy-comparison.png}
+\caption[COVID-19 Policy Strictness Over Time]{\ac{covid} policy strictness over time for each of the study areas, comparing the original, arbitrary numerical assignments with the initial round of normalization.}
+\label{fig:policy-comparison}
+\end{figure}
+
+Telecommunications-based measurements of Vida have also provided insightful for decision-makers. Figures \ref{fig:mobility-graphs-rio-santiago} and \ref{fig:mobility-graphs-angola-jakarta} compare mobility with active coronavirus cases and policy status across each of the study locations, noting particular notable phenomena. Some variations are unsurprising: a upward spike during Chile's constitutional referendum, downward spikes for the winter holidays. Others are more relevant for policy-making. Specifically, once the number of active cases declines, mobility increases even if policies remain restrictive. This suggests that the population's perception of infection risk (subject to growing desensitization) may have a stronger impact on mobility than official policy, at least during re-opening.
+
+\clearpage
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/chap5/mobility-graphs-rio-santiago.png}
+\caption[Mobility, coronavirus cases, and policy changes in Rio de Janeiro, Santiago, and Querétaro]{Comparisons of coronavirus cases, policy changes, and mobility for Rio de Janeiro, Santiago, and Querétaro.}
+\label{fig:mobility-graphs-rio-santiago}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/chap5/mobility-graphs-angola-jakarta.png}
+\caption[Mobility, coronavirus cases, and policy changes in Angola and Jakarta]{Comparisons of coronavirus cases, policy changes, and mobility for Angola and Jakarta.}
+\label{fig:mobility-graphs-angola-jakarta}
+\end{figure}
+
+\subsubsection{\hlc[cyan]{Technology}}
+
+Over the past several sections we saw significant differences in data availability across the study locations, with resulting differences in scale and comparability, as particularly noted in the Public Health component. This was exacerbated by the fact that the issues of highest priority to stakeholders (namely \ac{covid} cases and response policies) were not directly measurable by remote observation. The future possibility of using the \ac{evdt} Framework for designing testing regimes is discussed further in Section \ref{sec:vida-discuss}.
 
 
+\section{\hlc[cyan]{Decision Support System}} \label{sec:vida-dss}
 
-\section{\hlc[yellow]{Decision Support System}} \label{sec:vida-dss}
-
-At the time of writing, two distinct versions of the Vida \ac{dss} exist, both of which are undergoing active development and should not be viewed as final products. The first, shown in Figure \ref{fig:vidad}, is an open-source, desktop-based version written in Python (the code is available online \cite{reidMITVidaRepository2021}), that can be run on various operating systems (recent versions of Windows, MacOS, and various Linux distros have been tested). 
+At the time of writing, two distinct versions of the Vida \ac{dss} exist, both of which pursued with an iterative development process. The first, shown in Figure \ref{fig:vidad}, is an open-source, desktop-based version written in Python (the code is available online \cite{reidMITVidaRepository2021}), that can be run on various operating systems (recent versions of Windows, MacOS, and various Linux distros have been tested). 
 
 The user interface can be easily switched between languages (English, Spanish, and Portuguese are currently available, with easy functionality for adding additional languages) and between the locations of interest.
 
-This version can present temporal data, spatial data, and spatiotemporal data. The first of these is done through plots (visible on the left of Figure \ref{fig:vidad}, but the placement of the plots can be reconfigured by the user), with the data visible in the plots controllable through dropdown menus. The other two kinds of data are presented in the kinds of maps shown on the right, which is currently displaying visual imagery of the Rio de Janeiro area overlaid with the most recent PM10 measurements from in-situ monitoring stations. Should either the raster imagery or the vector geographic data be available at multiple points in time, additional slides appear at the bottom of the image to allow the user to select specific dates. Non-spatial data are saved in CSVs, vector spatial data in shapefiles, and raster spatial data in GeoTIFF format.
+This version can present temporal data, spatial data, and spatiotemporal data. The first of these is done through plots (visible on the left of Figure \ref{fig:vidad}), with the data visible in the plots controllable through dropdown menus. These are divided into eight categories:
 
-The goal is not for the authors to continue development of this model indefinitely ourselves, but rather to hand over the model and its associated user interface to local collaborators in each of the application areas, so that they can continue to adjust it to their local circumstances. Other future improvements include more automated ingestion of data from online data repositories, streamlined exporting of visualizations, and making this version accessible online.
-
-The second version of the Vida is online, created in collaboration with Blue Raster and hosted by Esri's ArcGIS Online \cite{bluerasterMITVidaSupportBoston2021}, and has somewhat different functionality. This version, shown in Figure \ref{fig:vidab} (using the Boston areas as an example), focuses on the presentation of historical data and thus lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface.
-
-The remaining portions of the Results section will focus on several specific insights and analysis that have arisen out of the Vida development and use processes.
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Policies \& Actions:} Closure policies, social distancing policies, and curfews.}
+	\item{\textbf{Health Parameters:} Various variables necessary for the \ac{sir} simulation but not directly measured, such as the typical contact rate between individuals or the average \ac{covid} illness duration.}
+	\item{\textbf{Health Populations:} The various constitutive populations from which the \acl{sir} model is named. Includes both the recorded sizes of these populations and estimates of their actual size.}
+	\item{\textbf{Health Flows:} Rates of change in the Health Populations.}
+	\item{\textbf{Equipment Supplies:} Available supplies such as hospital beds and \ac{pcr} tests.}
+	\item{\textbf{Environment:} Relevant environmental factors such as air quality.}
+	\item{\textbf{Economic:} Metrics such as unemployment rates and \ac{gdp}.}
+	\item{\textbf{Mobility:} Information pertaining to the movement of humans around the study areas.} 
+\end{itemize}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.85\textwidth]{Figures/chap5/VidaDesktopScreenshot.jpg}
-\caption{Prototype of the desktop version of the Vida user interface for Rio de Janeiro.}
+\caption[Desktop Vida DSS Screenshot]{Screenshot of the desktop version of the Vida \ac{dss}. Currently showing the Rio de Janeiro study area.}
 \label{fig:vidad}
 \end{figure}
+
+Some of these datasets were based on direct collection and reporting by public health officials and other government agencies in each of the study areas. Others, such as the Hospitalization Rate, were calculated from the directed reported values (e.g. by taking the difference in hospitalized populations between each reporting period). Still others, such as the Hospitalization Likelihood, were set as constants with estimates based on the \ac{covid} literature and data from each particular study area. A full list of the temporal data available in these plots for each study area is available in Table \ref{tab:vida-temporal}.
+
+The other two kinds of data are presented in the kinds of maps shown on the right in Figure \ref{fig:vidad}, which is currently displaying visual imagery of the Rio de Janeiro area overlaid with the most recent PM10 measurements from in-situ monitoring stations. Vector data is displayed using chloropleths, similarly to the \ac{dss} from Chapter \ref{ch:mangroves}. This typically included whatever of the temporal data was available in more geographically discrete forms, such as the various air quality measurements in Rio de Janeiro and Metropolitana.
+
+The raster imagery, displayed underneath the semi-transparent chloropleths included a basic Landsat-based visual imagery composite, median urban nightlights, nightlights mean anomaly, and (in the Luanda case) Sentinel-5-based air quality measurements.
+
+Should either the raster imagery or the vector geographic data be available at multiple points in time, additional slides appear at the bottom of the image to allow the user to select specific dates. Non-spatial data are saved in CSVs, vector spatial data in shapefiles, and raster spatial data in GeoTIFF format.
+
+The arrangement of the plots and maps can be changed by the user with the Arrange drop-down menu in the top left. This allows for swapping their locations, displaying an additional two plots instead of the map, or displaying an additional map instead of the two plots.
+
+In addition to presenting historical data, the desktop version of the \ac{dss} can also conduct public health simulations, using the system dynamics \ac{sir} model presented earlier. This simulations can either be run manually, with the user selecting specific policies at each week using the controls in the bottom left, or automatically for specified time periods, according to certain pre-coded decision rules (listed in the bottom right). These rules were based on the official policies of the location of interest. The user can then use the ``Clear Simulation" button to reset the simulation in order to re-run the simulation with different inputs. Figure \ref{fig:vida-dss-simulation} shows a screenshot of the \ac{dss} once the simulation had been run in the pre-coded decision rule format for 300 days in the Rio de Janeiro study area. You can see it forecast an immediately forthcoming spike, followed by a major decrease in cases until, about 150 days later when another spike would occur.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.85\textwidth]{Figures/chap5/vida-screenshot-simulation.png}
+\caption[Vida DSS SIR Simulation Screenshot]{Screenshot of desktop Vida \ac{dss} once the \ac{sir} simulation had been run using the pre-coded decision rules for a period of 300 days in the Rio de Janeiro study area.}
+\label{fig:vida-dss-simulation}
+\end{figure}
+
+Over the course of its development, the model was roughly calibrated using historical data, expanded as new dynamics become evident, and examined by public health experts. Various potential improvements are evident, including combining the \ac{sir} system dynamics model with an agent-based model to help address some of the deficiencies of the system dynamics approach \cite{ahmedVarianceSystemDynamics2012}, such as the lack of a spatial component.
+
+The second version of the Vida is online, created in collaboration with Blue Raster and hosted by Esri's ArcGIS Online \cite{bluerasterMITVidaSupportBoston2021}, and has somewhat different functionality. This version, shown in Figure \ref{fig:vidab} (using the Boston areas as an example), focuses on the presentation of historical data and thus lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface.
 
 \begin{figure}[!htb]
 \centering
@@ -299,13 +518,13 @@ The remaining portions of the Results section will focus on several specific ins
 
 The second objective of the Network is primarily accomplished through monthly, full Network meetings, at which participants present and discuss useful lessons and tactics for addressing coronavirus response, including topics not directly related to Vida. Examples of such topics are how to implement wastewater viral testing and how to integrate the data generated into decision-making, how to approach health surveillance in elderly care facilities, and how to identify high vulnerability neighborhoods. These discussions promote innovation and enable cross-location learning that may not otherwise occur.
 
-These activities are conducted through weekly or biweekly meetings between the Boston-based research team and individual site representatives and through online collaboration via the local collaborators own online data repositories (e.g. Rio de Janeiro's Data.Rio \cite{institutopereirapassosDataRio2017} or Chile's Datos-COVID19 \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}), the Vida project's own code repository \cite{reidMITVidaRepository2021}, and through interaction with the browser-based version of the Vida \ac{dss} prototype \cite{bluerasterMITVidaSupportBoston2021}.
+These activities are conducted through weekly or biweekly meetings between the Boston-based research team and individual site representatives and through online collaboration via the local collaborators own online data repositories (e.g. Rio de Janeiro's Data.Rio \cite{institutopereirapassosDataRio2017} or Chile's Datos-\ac{covid} \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}), the Vida project's own code repository \cite{reidMITVidaRepository2021}, and through interaction with the browser-based version of the Vida \ac{dss} prototype \cite{bluerasterMITVidaSupportBoston2021}.
 
 \section{\hlc[red]{Discussion}} \label{sec:vida-discuss}
 
 Moving forward, work is ongoing to improve the Vida \ac{dss} in several regards. This includes:
 
-\begin{enumerate}
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
     \item Automating data updates and ingestion
     \item Standardizing architecture and implementation to facilitate reuse of model components
     \item Add simulation capabilities to the online version
@@ -314,9 +533,13 @@ Moving forward, work is ongoing to improve the Vida \ac{dss} in several regards.
     \item Continue air quality, nightlight, and mobility analysis with the potential for integrating these into the simulation capability
 \end{enumerate}
 
-Furthermore, the Vida development process has had numerous ancillary benefits beyond the actual \ac{dss}. As mentioned earlier, the Vida International Network has facilitated international collaboration, allowing participants to share innovations and insights from their COVID-19 efforts. It has also encouraged intra-country collaboration but providing a motivation for outreach between government officials, academic researchers, and community leaders in order to fill data gaps and answer pressing questions. This process has also raised awareness of the utility of space-based \ac{eo} data, potentially preparing participants for future pandemic and non-pandemic applications. 
+Furthermore, the Vida development process has had numerous ancillary benefits beyond the actual \ac{dss}. As mentioned earlier, the Vida International Network has facilitated international collaboration, allowing participants to share innovations and insights from their \ac{covid} response efforts. It has also encouraged intra-country collaboration but providing a motivation for outreach between government officials, academic researchers, and community leaders in order to fill data gaps and answer pressing questions. This process has also raised awareness of the utility of space-based \ac{eo} data, potentially preparing participants for future pandemic and non-pandemic applications. 
 
 We are actively working to conduct more systematic analysis in this domain as well as examining the possibility of linking telecommunications-based mobility with nightlight measurements and thereby make spatial extrapolations.
+
+Benefits and difficulties of conducting an \ac{evdt} project focusing on multiple locations like this.
+
+The goal is not for the authors to continue development of this \ac{dss} indefinitely ourselves, but rather to hand over the \ac{dss} to local collaborators in each of the application areas, so that they can continue to adjust it to their local circumstances. Other future improvements include more automated ingestion of data from online data repositories, streamlined exporting of visualizations, and making this version accessible online.
 
 \section{\hlc[red]{Conclusion}} \label{sec:vida-concl}
 

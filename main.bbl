@@ -3040,10 +3040,12 @@ Miguel~O. Rom{\'a}n, Zhuosen Wang, Qingsong Sun, Virginia Kalb, Steven~D.
 \newblock {{NASA}}'s {{Black Marble}} nighttime lights product suite.
 \newblock {\em Remote Sensing of Environment}, 210:113--143, June 2018.
 
-\bibitem{institutopereirapassosDataRio2017}
+\bibitem{institutopereirapassosDadosHorariosMonitoramento2018}
 {Instituto Pereira Passos}.
-\newblock Data {{Rio}}.
-\newblock https://www.data.rio/, 2017.
+\newblock Dados hor\'arios do monitoramento da qualidade do ar - {{MonitorAr}}.
+\newblock
+  https://www.data.rio/datasets/PCRJ::dados-hor\%C3\%A1rios-do-monitoramento-da-qualidade-do-ar-monitorar/about,
+  October 2018.
 
 \bibitem{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}
 {Ministerio de Ciencia, Tecnolog\'ia, Conocimiento, e Innovaci\'on}.
@@ -3088,6 +3090,12 @@ Ran Xu, Hazhir Rahmandad, Marichi Gupta, Catherine DiGennaro, Heresh Amini, and
 \newblock Scipy 2021: {{Predicting}} the economic impact of {{COVID-19}} using
   real-time images from space, August 2021.
 
+\bibitem{icovidDatosCOVID19OutputProducto532020}
+{ICOVID}.
+\newblock Datos-{{COVID19}}/output/producto53 at master {$\cdot$}
+  {{MinCiencia}}/{{Datos-COVID19}}.
+\newblock https://github.com/MinCiencia/Datos-COVID19, August 2020.
+
 \bibitem{ahmedVarianceSystemDynamics2012}
 Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
 \newblock Variance in {{System Dynamics}} and {{Agent Based Modelling Using}}
@@ -3101,6 +3109,11 @@ Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
 \newblock
   https://blueraster.maps.arcgis.com/apps/dashboards/2475062b48dc410195ee9955c178b2b0,
   2021.
+
+\bibitem{institutopereirapassosDataRio2017}
+{Instituto Pereira Passos}.
+\newblock Data {{Rio}}.
+\newblock https://www.data.rio/, 2017.
 
 \bibitem{baileyMoreOriginMisogynoir}
 Moya Bailey.

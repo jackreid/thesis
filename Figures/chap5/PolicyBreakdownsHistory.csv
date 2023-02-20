@@ -1,0 +1,81 @@
+Location,Policy Name,Mask Mandate?,Border Closures?,Closures of Businesses and Public Spaces,Curfews (of individuals or for businesses),Impact on Schools
+Angola,Pre-Emergency (March 20 start),No,Yes - only humanitarian international flights allowed; no docking in national ports; people allowed in country must quarantine 14 days ,No,No,No
+Angola,Emergency State - Initial (March 27 start),NA,Yes - Sanitation fence (no transport across national territory),Yes - No meetings over 50 people; essential public services open; susceptible people (60+; chronic illness; pregnant; or mother of children under 12) dismissed from work,Yes - mandatory confinment (only authorized people allowed outside); suspended right to strike,Yes - Closed
+Angola,Emergency State - Extension 1 (April 11 start),NA,Yes - Sanitation fence (no transport across national territory),Yes - Commercial businesses closed; public services and supermarkets open 8am-1pm 3 days a week; public transport at 1/3 capacity; sports/workouts prohibited,Yes - Citizens able to leave homes for food; health; bank services; essential needs; authorization needed to go into work,Yes - Closed
+Angola,Emergency State - Extension 2 (April 26 start),NA,Yes - Sanitation fence loosened (commercial trucks with goods now allowed to enter or leave captial),Yes - Commercial businesses closed; public services and supermarkets open 8am-3pm - 1/2 capacity; informal market \& street vending 8am - 1pm 3 days a week; public transport at 1/2 capacity; sports/workouts allowed in open spaces 5am-6:30am 3 days a week (must be <2 km from residence),Yes - Citizens able to leave homes for food; health; bank services; essential needs; authorization needed to go into work,Yes - Closed
+Angola,Emergency State - Extension 3 (May 11 start),NA,Yes - Sanitation fence loosened (commercial trucks with goods now allowed to enter or leave captial),Yes - most commercial businesses closed; restuarants and bars allowed takeaway service; public services and supermarkets open 8am-3pm - 1/2 capacity; informal market \& street vending 6am - 1pm 5 days a week; public transport at 1/2 capacity; sports/workouts allowed in open spaces 5am-5pm weekends (must be <2 km from residence),Yes - domestic workers allowed from 6am to 3pm,Yes - Closed
+Angola,Catastrophic State - Initial (May 26 start),NA,Yes - Flights allowed for citizens returning to country; official or diplomatic reasons; postal services and goods allowed,Yes - public services operate 8am - 3pm; 50\% capacity; checkpoints for temperature checks and hand washing; hotels allowed to open with extra safety precautions; restaurants and bars open 6am - 3pm 6 days a week at 50\% capacity; sports/workouts allowed in open spaces 5am-6pm weekends (must be <2 km from residence),Yes - Activities with >150 people permitted ,Yes - Closed
+Angola,Catastrophic State - Extension 1 (June 8 start),NA,Same as above,Same as above; except public services at 75\% capacity; hours for restaurants and bars extended to 10:30; including concerts; and public transportation at 75\% capacity,Same as above,Yes - Closed
+Angola,Catastrophic State - Extension 2 (June 24 start),Yes - masks required at church,Same as above,Same as above; churchs open with 50\% capacity,Same as above,Yes - Closed
+Angola,Catastrophic State - Extension 3 (June 29 start),NA,Same as above,Same as above; except public services at 75\% capacity in Luanda and 100\% elsewhere,Same as above,Yes - Closed
+Angola,Catastrophic State - Extension 4 (July 13 start),NA,Same as above,Same as above; except public services at 100\% capacity in Luanda,Same as above,Yes - High School and University open
+Angola,Catastrophic State - Extension 5 (July 27 start),NA,Same as above,Same as above,Same as above,Yes - primary through university open; but no daycare
+Angola,Catastrophic State - unknown start - mid October?,NA,Same as above,Yes - sports and leisure 5am - 8pm and up to 10 people; all activities 50\% capacity and no more than 150 people; restaurants close by 9pm with max 4 people per table; takeaway allowed 6am - 10pm; commerce 7am-9pm with 75\% worker capacity and 50\% client; gyms allowed only with open space and <5 people per group; public pools; night clubs; ad beaches remain closed,Yes - max 15 people allowed in the home,Yes - high schools and universities closed; primary schools online only
+Chile,Stage 1: Quarantine (set at the comuna level; this system started on July 28),Yes,Restricted travel both from outside the country and within the country,"Most in-store shopping prohibited (have to do curbside pickup); bars; nightclubs; gyms; etc are closed
+All non essential in-person work is prohibited","No gatherings in private residences or in public; with the exception of funerals
+Curfew of 11pm to 5am
+With some exceptions; outdoor recreation has to take place between 7-8:30AM",In person schools closed
+Chile,Stage 2: Transition (set at the comuna level; this system started on July 28),Yes,"Restricted travel from outside the country
+Within country traveling requires a permit","Restaurants can serve people outside
+Gyms and indoor sports venues with proper ventilation can open with restricted capacity
+Most non-essential shopping still must be curbside pickup
+Bars and nightclubs are closed","Gatherings of up to 5 people allowed
+Curefew from 11pm to 5am
+Outdoor rectreation allowed on weekdays only",Primary and secondary schools can be in person; but tertiary and higher ed must stay remote
+Chile,Stage 3: Preparation (set at the comuna level; this system started on July 28),Yes,"Restricted travel from outside the country
+Within country travel is permited for all areas that in Stage 3+; still need permit to enter areas that are in 1-2","Public venues that don't serve food can have 75 people indoors; 150 people outside (smaller numbers allowed if food is served)
+Gyms and indoor sports venues with proper ventilation can open with restricted capacity
+Restaurants can now operate indoors with reduced capacity
+Bars and nightclubs are closed","Gatherings of up to 15 people allowed
+Curefew from 11pm to 5am",Primary and secondary schools can be in person; but tertiary and higher ed must stay remote
+Chile,Stage 4: Initial Opening (set at the comuna level; this system started on July 28),Yes,"Restricted travel from outside the country
+Within country travel is permited for all areas that in Stage 3+; still need permit to enter areas that are in 1-2","Public venues that don't serve food can have 150 people indoors; 300 people outside (smaller numbers allowed if food is served)
+Gyms and indoor sports venues with proper ventilation can open with restricted capacity
+Restaurants can now operate indoors with reduced capacity
+Bars and nightclubs are closed","Gatherings of up to 30 people allowed
+Curefew from 11pm to 5am",Primary and secondary schools can be in person; but tertiary and higher ed must stay remote
+Chile,Stage 5: Advanced Opening (set at the comuna level; this system started on July 28),No,???,???,???,???
+Chile,Stage of Emergency (Started March 19; went into 2021 at least; though other policies took priority over it)  ,Yes,Highly restricted travel both from outside the country and within,All non-essential businesses closed,10pm - 5am curfew nationwide,In person schools closed
+Querétaro,Initial Moderate Closures (Mar 19 - Mar 31),Yes,,High risk businesses and activities closed,,In person schools closed
+Querétaro,"Extraordinary Measures (Mar 31 - June 16)
+",Yes,,All non-essential busines closed,,
+Querétaro,Starting to Re-Open (June 16 - September 10),Yes,,,,
+Querétaro,Scenario C: Containment,Yes,,"Most commercial areas can only operate at 30\% capacity
+Restaurants can operate at 30\% Monday-Saturday; must be delivery only on Sundays","No alcohol sold on weekends
+Commercial centers must close at 5pm; grocery stores at 7pm
+No group recreational activities
+No outdoor gatherings/events of more than 100 people",
+Querétaro,Scenario B: Prevention,Yes,,"Theaters; nightclubs; bars can re-open but with 30\% capacity
+Indoor sports ist still prohibited but outdoors are allowed
+Most stores and restaurants are allowed to be open with between 30-50\% capacity","Commercial sites must close at 10pm
+Gatherings of up to 100 people outdoors are allowed",
+Querétaro,Scenario A: Remission,,,,,
+Rio de Janeiro,Initial Closures,No,,,,Schools completely closed
+Rio de Janeiro,Phase 1,Yes,No; though all tourist destinations are closed,"Most in-person commercial activities are prohibited
+Restaurants of all kinds are delivery only
+Gyms are closed",N/A,In person education prohibited
+Rio de Janeiro,Phase 2,Yes,No; though all tourist destinations are closed,"Most in-person commercial activities are prohibited
+Certain non-food stores can open with reduced capacity and only in the afternoon
+Restaurants of all kinds are delivery only
+Gyms are closed",Most businesses that are allowed to open can only be open in the afternoon,In person education prohibited
+Rio de Janeiro,Phase 3a,Yes,No; though all tourist destinations are closed,"Stores can be open in the afternoon with reduced capacity (1/3)
+Restaurants can open outdoor seating. Indoor seating is heavily restricted. 
+Certain gyms are allowed to open; as long as they can maintain hygeine and social distancing",Most businesses that are allowed to open can only be open in the afternoon,In person education prohibited
+Rio de Janeiro,Phase 3b,Yes,No; though all tourist destinations are closed,"Stores can be open in the afternoon with reduced capacity (1/3)
+Restaurants can open outdoor seating. Indoor seating is heavily restricted. Certain gyms are allowed to open; as long as they can maintain hygeine and social distancing",Most businesses that are allowed to open can only be open in the afternoon,"In person education prohibited
+School cafeterias are open"
+Rio de Janeiro,Phase 4,Yes,No; though all tourist destinations have only 1/3 capacity,"Stores can be open in the afternoon with reduced capacity (2/3)
+Restaurants can open outdoor seating. Indoor seating is heavily restricted (50\% capacity)
+Certain gyms are allowed to open; as long as they can maintain hygeine and social distancing",Most businesses that are allowed to open can only be open in the afternoon,"In person education prohibited
+School cafeterias are open
+Universities can host outdoor activities"
+Rio de Janeiro,Phase 5,Yes,No; though all tourist destinations have only 50\% capacity,"Stores can be open in the afternoon with reduced capacity (2/3)Restaurants can open outdoor seating. Indoor seating is heavily restricted (50\% capacity)
+Certain gyms are allowed to open; as long as they can maintain hygeine and social distancing",Most businesses that are allowed to open can only be open in the afternoon,"School cafeterias are open
+Universities can host outdoor activities and other extracurricular activities
+Private schools are allowed to have in-person classes with social distancing restrictions"
+Rio de Janeiro,Phase 6a,Yes,No; though all tourist destinations have only 2/3 capacity,"Stores can be open in the afternoon with reduced capacity (2/3)Restaurants can open outdoor seating. Indoor seating is heavily restricted (50\% capacity)
+All gyms are allowed to open; as long as they can maintain social distancing",Most businesses that are allowed to open can only be open in the afternoon,Schools are allowed to have in-perosn classes with social distancing restrictions
+Rio de Janeiro,Phase 6b,Yes,No; though all tourist destinations have only 2/3 capacity,Stores can be open in the afternoon with reduced capacity (2/3)Restaurants can open outdoor seating. Indoor seating is heavily restricted (50\% capacity),Most businesses that are allowed to open can only be open in the afternoon,Schools are allowed to have in-perosn classes with social distancing restrictions
+Rio de Janeiro,Conservative Period,,,,,
+Jakarta,Large-scale social restrictions (PSBB),Yes; though this measure under the category of PSBB; was only implemented in October [1],Checkpoints were setup on mainroads and at bus terminals to enforce PSBB [4],Businesses such entertainment sites were closed and in-person dining at resturaunts was banned. Public transportation was only allowed to operate at 50\% capacity [2][3],Public transportation is restricted to operate from only 6:00 AM - 6:00 PM [3],Schools were closed and learning conducted virtually [3]
+Jakarta,Transitional PSBB,wearing face masks in public places was a health protocol (unclear if it was mandatory) [5],,gradually opening places of worship; public transportation; and workplaces; but still requires public health protocols. Limits reopened spaces to 50\% capacity [5],,schools reopened with limited capacity [5]

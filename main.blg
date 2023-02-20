@@ -12,9 +12,11 @@ A level-1 auxiliary file: chap6.aux
 A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
+A level-1 auxiliary file: appc.aux
+A level-1 auxiliary file: appd.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 16224 items from 5000.
+Reallocated field_info (elt_size=4) to 16270 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -44,45 +46,45 @@ Warning--empty booktitle in lacerda1992carbon
 Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty journal in jungGapsMangroveForestInReview
 Warning--empty institution in xuModestImpactWeather2020
-You've used 488 entries,
+You've used 490 entries,
             1791 wiz_defined-function locations,
-            3330 strings with 123205 characters,
-and the built_in function-call counts, 107031 in all, are:
-= -- 9591
-> -- 4790
+            3342 strings with 123723 characters,
+and the built_in function-call counts, 107293 in all, are:
+= -- 9613
+> -- 4798
 < -- 79
-+ -- 1820
-- -- 1332
-* -- 7271
-:= -- 17128
-add.period$ -- 1508
-call.type$ -- 488
-change.case$ -- 484
++ -- 1824
+- -- 1334
+* -- 7277
+:= -- 17168
+add.period$ -- 1514
+call.type$ -- 490
+change.case$ -- 486
 chr.to.int$ -- 0
-cite$ -- 515
-duplicate$ -- 4878
-empty$ -- 10581
-format.name$ -- 1332
-if$ -- 23819
+cite$ -- 517
+duplicate$ -- 4888
+empty$ -- 10617
+format.name$ -- 1334
+if$ -- 23881
 int.to.chr$ -- 0
-int.to.str$ -- 488
+int.to.str$ -- 490
 missing$ -- 437
-newline$ -- 2423
-num.names$ -- 557
-pop$ -- 1550
+newline$ -- 2433
+num.names$ -- 559
+pop$ -- 1562
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2035
+skip$ -- 2041
 stack$ -- 0
 substring$ -- 5937
-swap$ -- 978
+swap$ -- 980
 text.length$ -- 79
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 27
-while$ -- 1045
-width$ -- 491
-write$ -- 5367
+while$ -- 1047
+width$ -- 493
+write$ -- 5387
 (There were 27 warnings)

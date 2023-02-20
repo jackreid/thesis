@@ -1,0 +1,31 @@
+\chapter{\hlc[green]{COVID-19 Response Policy Summary}} \label{app:policy-summary}
+
+The below tables summarize what specifically policies were included in each \ac{covid} response phase in each of the study locations for Chapter \ref{ch:vida}, as well as how these policies were quantified in the initial round of normalization. These are based on a combination of input from collaborating stakeholders and reference to news publications, official statutes, and CoronaNet \cite{CoronaNetResearchProject}. This was used to help construct the policy quantification scores shown in Figure \ref{fig:policy-comparison} and would have been used to help to construct the later version detailed in Table \ref{tab:policy-system}.
+
+\begin{landscape}
+\scriptsize
+\csvreader[
+  longtable=|C{1.5cm}|C{2cm}|C{1.5cm}|C{3cm}|C{3cm}|C{3cm}|C{2cm}|,
+  table head=\caption{A summary of the different policy actions taken by each partner region \label{tab:covid-policy-history}}\\
+    \toprule\textbf{Location} & \textbf{Policy Name} & \textbf{Mask Mandate?} & \textbf{Border Closures?} & \textbf{Closures of Businesses and Public Spaces}  & \textbf{Curfews (of individuals or for businesses)} & \textbf{Impact on Schools} \\ \midrule\endfirsthead
+    \toprule\textbf{Location} & \textbf{Policy Name} & \textbf{Mask Mandate?} & \textbf{Border Closures?} & \textbf{Closures of Businesses and Public Spaces}  & \textbf{Curfews (of individuals or for businesses)} & \textbf{Impact on Schools} \\ \midrule\endhead
+    \bottomrule\endfoot,
+  late after line=\\ \hline,
+]{Figures/chap5/PolicyBreakdownsHistory.csv}{1=\loc,2=\name,3=\mask,4=\border,5=\close,6=\curfew,7=\school}
+		{\loc & \name & \mask & \border & \close & \curfew & \school}
+
+\clearpage
+
+\scriptsize
+\csvreader[
+  longtable=|C{1.5cm}|C{2cm}|C{1.5cm}|C{1.5cm}|C{2cm}|C{2cm}|C{1cm}|C{1.5cm}|C{1cm}|C{1.5cm}|,
+  table head=\caption{COVID-19 Response Policy Quantification - Initial Version \label{tab:covid-policy-scores}}\\
+    \toprule\textbf{Location} & \textbf{Policy} & \textbf{Mask Mandate} & \textbf{Travel Restrictions} & \textbf{Business and Public Space Closures}  & \textbf{Gathering Restrictions} & \textbf{Curfews} & \textbf{School Closures} & \textbf{Average} & \textbf{Category} \\ \midrule\endfirsthead
+    \toprule\textbf{Location} & \textbf{Policy} & \textbf{Mask Mandate} & \textbf{Travel Restrictions} & \textbf{Business and Public Space Closures}  & \textbf{Gathering Restrictions} & \textbf{Curfews} & \textbf{School Closures} & \textbf{Average} & \textbf{Category} \\ \midrule\endhead
+    \bottomrule\endfoot,
+  late after line=\\ \hline,
+]{Figures/chap5/PolicyBreakdownsNormalization.csv}{1=\loc,2=\name,3=\mask,4=\border,5=\close,6=\curfew,7=\school,8=\rec,9=\ave,10=\cat}
+		{\loc & \name & \mask & \border & \close & \curfew & \school & \rec & \ave & \cat}
+
+
+\end{landscape}
