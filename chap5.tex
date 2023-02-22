@@ -1,4 +1,4 @@
-\chapter{Vida Decision Support System} \label{ch:vida}
+\chapter{Vida Decision Support System for COVID-19 Response} \label{ch:vida}
 
 
 \section{\hlc[cyan]{Chapter Purpose \& Structure}}
@@ -41,7 +41,7 @@ As the \ac{covid} pandemic swept the globe, many of the local points of contact 
     \item{Luanda, Angola}
     \item Rio de Janeiro, Brazil
     \item Región Metropolitana de Santiago, Chile
-    \item{Java \& Sulawesi, Indonesia}
+    \item{Java \& Sulawesi\footnote{The bulk of the Vida-related work focused on the provinces of West Java, Central Java, East Java, Jakarta, and South Sulawesi. Some analysis, particularly regarding urban nightlights (Section \ref{sec:vida-evdt-e-result}), included the province of Bali as well.}, Indonesia}
     \item{Querétaro de Arteaga, Mexico}
     \item{Boston, USA}
 \end{enumerate}
@@ -59,15 +59,36 @@ These are shown in Figure \ref{fig:vida_map}. In each of these areas, Vida was d
 Whereas the first case study focuses on simulating the changes in mangrove forest over decades, the focus of Vida is examining hourly to weekly air and water quality data alongside daily \ac{covid} epidemiological data and weekly quarantine policies. Government officials need actionable data to both address the ongoing public health crisis and to cope with the resultant socioeconomic and environmental consequences. Community members need to understand why their government is making the decisions that it is and understand the risks associated with their own actions. The analysis of System Context will include existing public health infrastructure in these metropolitan areas, how vulnerable they are to epidemics, and how decision-making occurs.  
 
 
-\subsubsection{\hlc[yellow]{Analyze System Stakeholders}}
+\subsubsection{\hlc[cyan]{Analyze System Stakeholders}}
 
-The Technical Area Experts on this project included researchers from Harvard Medical School and \ac{nasa} Goddard Space Flight Center. Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The full list of Technical Area Experts and Local Area Experts are shown in Table [**insert table number] The intended Users are those same individuals as well as the various public health agencies / task forces that they are affiliated with.  Participation in the Vida \ac{dss} International Network was directed at two ends: (1) development of the Vida \ac{dss} to conduct analyses and presentations that can inform pandemic response; and (2) sharing more general information and resources among the participants for responding to the pandemic \cite{lombardoDesigningDecisionSupport2020}.
+The Technical Area Experts on this project included researchers from Harvard Medical School, \ac{nasa} Goddard Space Flight Center, and East Carolina University, as well as private consultants from Blue Raster. Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The list of primary Local Area Experts are shown in Table \ref{tab:vida_participants}. This does not include other individuals who participated more briefly, such as other members of these experts' respective organizations, hospital administrators, and \ac{ngo} representatives. The intended Users are those same individuals as well as the various public health agencies and task forces that they are affiliated with.  
 
-[** insert table listing all experts]]
+\begin{table}[!htb]
+\caption[Vida DSS International Network Participants]{Primary Vida \ac{dss} International Network participants.} \label{tab:vida_participants}
+\begin{center}
+\scriptsize
+\begin{tabular}{|C{3cm}|C{3cm}|C{4cm}|} \hline
+ 
+\textbf{Study Area} & \textbf{Name} & \textbf{Organization} \\ \hlinewd{2pt}
 
-%Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes.
+\multirow{3}{3cm}{Luanda} & Gilson Santos & \ac{ggpen} \\
+& Eduina Teodoro & \ac{ggpen} \\
+& Zolana Joao & \ac{ggpen} \\ \hline
 
-The Network is constituted by a mix of academic researchers, government officials, and private consultants, chosen for both their field-specific expertise and their familiarity with one or more of these locations of interest.
+Rio de Janeiro & Felipe Mandarino & \ac{ipp} \\ \hline
+
+\multirow{2}{3cm}{Región Metropolitana} & Paulina Assmann & \ac{minciencia} \\
+& José Guridi & \ac{minciencia} \\ \hline
+
+\multirow{2}{3cm}{Java \& Sulawesi} & Hanifa Denny & Universitas Diponegoro \& the Indonesia Ministry of Health \\
+& Joga Setiawan & Universitas Diponegoro \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes. In general this resulted in a more iterative process than the fairly linear process depicted in Figure \ref{fig:evdt_framework}.
 
 \subsubsection{\hlc[red]{Understand Desired Outcomes \& Objectives}}
 
@@ -77,12 +98,37 @@ The Network is constituted by a mix of academic researchers, government official
 
 \subsubsection{\hlc[red]{Monitor and Evaluate Systems}}
 
-\subsection{\hlc[red]{SAF Results}} \label{sec:vida-saf-result}
+\subsection{\hlc[cyan]{SAF Results}} \label{sec:vida-saf-result}
 
-\subsubsection{\hlc[red]{System Context}}
+\subsubsection{\hlc[cyan]{System Context}}
 
+Both the impacts of \ac{covid} and the available means to respond to it are complicated and multi-faceted. Testing and vaccinations involve long, international supply chains. Medical treatment became an immense logistical problem as hospital beds and ventilators quickly reached capacity. Policy-makers found themselves making both public health decisions (such as social distancing, mask orders, and lockdowns) and economic measures (such as personal stimulus checks, increased unemployment benefits, and small business loans), the latter often seeking to mitigate the socioeconomic impacts of the former. Such impacts were considerable and diverse. Many places saw increases in unemployment, food insecurity, and housing cost burden, particularly for poorer or historically discriminated populations \cite{melnikGreaterBostonHousing2020}. Low-income children often rely upon free school meals and their parents rely upon said schools for daytime childcare. A transition to remote education threatened both \cite{nicolaSocioeconomicImplicationsCoronavirus2020}. Domestic abuse helplines saw an increase in calls during the pandemic lockdowns \cite{ivandicChangingPatternsDomestic2020}. 
 
-The second was a recognition that the impacts of and responses to the pandemic can be characterized as a complex system, thus warrenting the kind of multidisciplinary, model-based approach of which \ac{evdt} is an example \cite{deweckHandlingCOVID192020}.
+To monitor and mitigate the spread of the pandemic, use of technologies for tracking, infection screening, contract tracing, and clinical management have also been developed and implemented \cite{whitelawApplicationsDigitalTechnology2020}. Policymakers and every day community members found themselves juggling complicated relationships between public health, the environment, socioeconomic factors, decision-making, and the new technologies necessary to monitor and respond to the pandemic. It is thus clear that the impacts of and responses to the pandemic can be characterized as a complex system, thus warranting the kind of multidisciplinary, model-based approach of which \ac{evdt} is an example \cite{deweckHandlingCOVID192020}.
+
+The study areas themselves varied quite significantly in their response to the \ac{covid} pandemic, their preparedness for such events, and their vulnerability to is impacts. They also vary in more basic characteristics such as geographic size and population. Table \ref{tab:vida_area_stats} summarizes some basic facts about these cities. These differences, which vary by more than an order of magnitude in some cases, illustrate that the concerns, priorities, and decision-making processes are also likely to differ significantly from location to location, though they are united by a common desire to effectively respond to the \ac{covid} pandemic.
+
+\begin{table}[!htb]
+\caption[Vida Study Area Statistics]{Basic facts and statistics for each of the Vida study areas. All statistics are from their respective national statistical agency and may not be for precisely the same years as one another. The term \textit{province} is here used to refer to the administrative unit just smaller than that of the country. The actual term for this kind of unit varies from country to country. \textsuperscript{a} Statistics shown in this table are aggregated from the provinces of West Java, Central Java, East Java, Jakarta, and South Sulawesi. \textsuperscript{b} This figure is for the nation of Angola as I could not find reliable information for the Luanda metropolitan area.} \label{tab:vida_area_stats}
+\begin{center}
+\scriptsize
+\begin{tabular}{|C{2cm}|C{2cm}|C{1.5cm}|C{1cm}|C{1.5cm}|C{1.5cm}|C{1cm}|C{1.5cm}|} \hline
+ 
+\textbf{Study Area} & \textbf{Scale} & \textbf{Population (M)} & \textbf{Size (km2)} & \textbf{Population Density} & \textbf{Nominal GDP per Capita (\$)} & \textbf{Coastal Port} & \textbf{Capital} \\ \hlinewd{2pt}
+
+Luanda, Angola & Metropolitan Area / National & 8.33 & 1876 & 4440 & 3997\textsuperscript{b} & X & National \\ \hline
+Rio de Janeiro, Brazil & Municipality & 6.75 & 1221 & 5528 & 11032 & X & Provincial \\ \hline
+Región Metropolitana de Santiago, Chile & Province & 7 & 15403 & 454 & 13466 & & National \\ \hline
+Java \& Sulawesi\textsuperscript{a}, Indonesia & Multi-Provincial & 144.99 & 163360 & 888 & 4593 & X & National \\ \hline
+Querétaro, Mexico & Province & 2.37 & 11699 & 203 & 9179 & & \\ \hline
+Boston, USA & Metropolitan Area & 4.94 & 11700 & 422 & 83597 & X & Provincial \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Each of these areas had other assets and obstacles not easily seen in such bulk statistics. Brazil in general, and Rio de Janeiro in particular, has robust and historically successful public vaccination infrastructure. Nonetheless, troubled by misinformation and federal mismanagement, this process did not go near so smoothly during this pandemic \cite{ferreiraEstimatingImpactImplementation2023}. The Boston area contains numerous medical research institutions, some of whom were able to retool to providing community \ac{covid} testing for the region \cite{eisenstadtHowBroadInstitute2020}. Chile's had a Ministry of Science that was prepared to serve as the coordinator for numerous datasets \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and to quickly create a wastewater testing system \cite{gallardo-escarateWastewaterMicrobiomeNovel2021}.
+
+Figure \ref{fig:dimensions_vida} summarize the commonalities among the study areas as these are what guided much of the Vida development process.
 
 \begin{figure}[!htb] 
 \centering
@@ -96,7 +142,23 @@ The second was a recognition that the impacts of and responses to the pandemic c
 
 \subsubsection{\hlc[red]{Understand Desired Outcomes \& Objectives}}
 
-\subsubsection{\hlc[red]{Select System Functions}}
+\subsubsection{\hlc[yellow]{Select System Functions}}
+
+Participation in the Vida \ac{dss} International Network was directed at two ends: (1) development of the Vida \ac{dss} to conduct analyses and presentations that can inform pandemic response; and (2) sharing more general information and resources among the participants for responding to the pandemic \cite{lombardoDesigningDecisionSupport2020}.
+
+There are certain key design requirements that this team has identified for the development of \ac{evdt} applications. Some of these are listed here.
+
+\textit{Rapid Prototyping \& Co-Design:} In order to confirm that the proper data and dynamics are being captured, as well as to ensure the utility of the model to decision-makers and designers, the key stakeholders must be involved at all stages of the design process. Additionally, since most individuals have a difficult time providing concrete advice and criticism when discussing the abstract, rapid prototyping and mock-ups are important for stimulating feedback. One key component of this is always making sure that the user interface is available in the native language of the primary users.
+
+\textit{Enlist appropriate experts:} The design of any \ac{eos} is inherently interdisciplinary and this is also true for \ac{eo} applications. For this reason the development necessarily involves a wide range of collaborators who vary both in terms of discipline (systems engineering, earth science, economics, etc.) and it terms of institution (academic researchers, government officials, \ac{ngo} and corporate leaders, local activists, etc.). Rather than make assumptions when confronted with an issue outside our expertise, we do our utmost to recruit or consult with a relevant expert. Obviously such a large and diverse team is not feasible for every application nor does it scale particularly well. This is why the next requirement is present.
+
+\textit{Open Access and Modularity for Adaptation and Reuse:} The intent is not for this team to develop complete, black-box products, but rather to facilitate the the tool development process for others. Part of this includes the co-design requirement, but another part is making the code itself readily available online and designing the implementation of the framework to be as reusable as possible. In this way, local government officials may be able to reuse previous \ac{eo} data processing techniques, while focusing on the vulnerability or decision-making components. This is also important to provide clarity on ultimate ownership and responsibility for the product.
+
+\textit{Ensure computational accessibility:} Cloud-based and internet-hosted tools eliminate the need to direct possession of high performance computing equipment by either the end users or the developers. This reduces cost-of-entry for potential developers of \ac{evdt} models and ensures that end users can interact with, critique, and apply the models wherever they are, provided they have internet access. That is why our processing techniques and code either are hosted online or are designed to be able to run on a standard work laptop.
+
+% Discuss different stakeholder interests and needs
+
+\textit{Awareness of different stakeholder needs and interests:} While specific examples are discussed in the earlier sections, collaborators and users have a variety of educational backgrounds and personal priorities. This vary not only across institutions (such as government officials and local activists having different priorities) but also within an institution (such as an urban planning official assigned to a particular neighborhood versus one responsible for city macroplanning). We are often not aware of all of these differences, nor of pre-existing relationships and dynamics. For this reason it is important to cultivate relationships with a variety of local stakeholders, rather than relying on just on point of contact. The "outside expert" dynamic is also one prone to unintended consequences \cite{easterly2015}, which is why our team focuses on providing useful tools and insights, rather than on making concrete recommendations.
 
 \subsubsection{\hlc[red]{Assign Functions to Forms}}
 
@@ -233,17 +295,13 @@ These policy timelines were then compared with the telecom-based mobility data c
 
 \begin{landscape}
 \scriptsize
-%\begin{table}[!htb]
-%\caption[COVID-19 Policy Categorization System]{The second version of the \ac{covid} policy categorization system developed as part of the Vida project.}
-%\label{tab:policy-system}
-%\begin{center}
+
 \begin{longtable}{| C{2cm} |  C{2cm} |C{3cm} |C{3cm} |C{3cm} |C{3cm}|}
 \caption[COVID-19 Policy Categorization System]{The second version of the \ac{covid} policy categorization system developed as part of the Vida project.}
 \label{tab:policy-system} \\ \cline{3-6}
 \multicolumn{2}{C{4cm}|}{} & \multicolumn{4}{|C{12cm}|}{\textbf{Policy Strictness}} \\ \hline 
 \textbf{Policy Group} & \textbf{Policy} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} \\ \midrule \endfirsthead
-%\scriptsize
-%\begin{tabular}{| C{2cm} |  C{2cm} |C{2.5cm} |C{2.5cm} |C{2.5cm} |C{2.5cm}|} \hline 
+
 
 \cline{3-6} \multicolumn{2}{C{4cm}|}{} & \multicolumn{4}{|C{12cm}|}{\textbf{Policy Strictness}} \\ \hline
 
@@ -257,7 +315,7 @@ These policy timelines were then compared with the telecom-based mobility data c
 
 
 
- \multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{2.5cm}{\centering\textbf{Travel \& Border Restrictions}}}} & \textbf{Quarantine of Travelers} &  No quarantines required & Self-quarantine encouraged but not enforced & Self-quarantine mandated and enforced & Quarantine in government-managed facilities required \\ \cline{2-6}
+\multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{2.5cm}{\centering\textbf{Travel \& Border Restrictions}}}} & \textbf{Quarantine of Travelers} &  No quarantines required & Self-quarantine encouraged but not enforced & Self-quarantine mandated and enforced & Quarantine in government-managed facilities required \\ \cline{2-6}
 
 & \textbf{International Travel} & No border restrictions & International travel to/from high risk areas is discouraged & International travel to/from high risk areas is largely prohibited & International travel is largely prohibited \\ \cline{2-6}
 
@@ -277,9 +335,7 @@ These policy timelines were then compared with the telecom-based mobility data c
 
 & \textbf{Non-essential Businesses} & No closures or restrictions & Most or all non-essential businesses are open, but must take social distancing measures & Most or all non-essential businesses must operate with <50\% capacity & Most or all non-essential businesses are closed \\ \bottomrule
 
-%\end{tabular}
-%\end{center}
-%\end{table}
+
 
 \end{longtable}
 \end{landscape}
@@ -514,11 +570,24 @@ The second version of the Vida is online, created in collaboration with Blue Ras
 \label{fig:vidab}
 \end{figure}
 
-\section{\hlc[red]{Collaborative Development Process}} \label{sec:vida-collab}
+\section{\hlc[cyan]{Collaborative Development Process}} \label{sec:vida-collab}
 
-The second objective of the Network is primarily accomplished through monthly, full Network meetings, at which participants present and discuss useful lessons and tactics for addressing coronavirus response, including topics not directly related to Vida. Examples of such topics are how to implement wastewater viral testing and how to integrate the data generated into decision-making, how to approach health surveillance in elderly care facilities, and how to identify high vulnerability neighborhoods. These discussions promote innovation and enable cross-location learning that may not otherwise occur.
+The ways in which stakeholders were involved in setting priorities and requirements and surfacing data were detailed previously in Section \ref{sec:vida-saf}. These were by no means the extent of stakeholder collaboration as part of the Vida \ac{dss} International Network.
 
-These activities are conducted through weekly or biweekly meetings between the Boston-based research team and individual site representatives and through online collaboration via the local collaborators own online data repositories (e.g. Rio de Janeiro's Data.Rio \cite{institutopereirapassosDataRio2017} or Chile's Datos-\ac{covid} \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}), the Vida project's own code repository \cite{reidMITVidaRepository2021}, and through interaction with the browser-based version of the Vida \ac{dss} prototype \cite{bluerasterMITVidaSupportBoston2021}.
+Various stakeholders participated in the development of the \ac{dss} itself. This took place in two primary ways. The first was actually working on the \ac{dss} itself either by directly submitting pull requests to the GitHub repository or by submitting proposed code changes to myself or Seamus Lombardo (who worked with me to manage the code base, as well as contributing significantly to the \ac{dss} code himself). The \ac{dss} code was structured to be quite modular, facilitating this process. In particular, stakeholders were able to add new historical datasets or components to the \ac{sir} model fairly readily, as well as improving or extending the display language translations. 
+
+The second method was by providing feedback based on either presentations of the \acp{dss}, by accessing the online \ac{dss} themselves, or by running the desktop \ac{dss} themselves. The last of these was possible by either downloading and running the Python code or through the use of executables that Lombardo and I put together using PyInstaller for specific stakeholders. These activities were conducted through weekly or biweekly meetings between the Boston-based research team and individual site representatives and through online collaboration via the local collaborators own online data repositories (e.g. Rio de Janeiro's Data.Rio \cite{institutopereirapassosDataRio2017} or Chile's Datos-\ac{covid} \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}), the Vida project's own code repository \cite{reidMITVidaRepository2021}, and through interaction with the browser-based version of the Vida \ac{dss} prototype \cite{bluerasterMITVidaSupportBoston2021}.
+
+Beyond the \ac{dss} however, there was the additional objective to ``shar[e] more general information and resources among the participants for responding to the pandemic." This was accomplished primarily accomplished through monthly, full Network meetings, at which participants presented and discussed useful lessons and tactics for addressing coronavirus response, including topics not directly related to Vida. Examples of such topics were how to implement wastewater viral testing and how to integrate the data generated into decision-making, how to approach health surveillance in elderly care facilities, and how to identify high vulnerability neighborhoods. An example agenda for can be seen in \ref{fig:vida-network-agenda}. These discussions, which cycled between several different times-of-day and days-of-week to maximize accessibility to participants from around the world, promoted innovation and enabled cross-location learning that may not otherwise occur. They also enabled participants to communicate with one another in a shared, non-English language when this was helpful. Recordings of these full Network meetings were made available online, along with slides from presentations.
+
+We also proposed organizing dedicated webinars on various topics, hosted by relevant experts from among the participants, but surveys of Network participants suggested that this was not a priority, so this was not pursued. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.5\textwidth]{Figures/chap5/vida-network-agenda.png}
+\caption{Vida Network Meeting Agenda}
+\label{fig:vida-network-agenda}
+\end{figure}
 
 \section{\hlc[red]{Discussion}} \label{sec:vida-discuss}
 
@@ -540,6 +609,8 @@ We are actively working to conduct more systematic analysis in this domain as we
 Benefits and difficulties of conducting an \ac{evdt} project focusing on multiple locations like this.
 
 The goal is not for the authors to continue development of this \ac{dss} indefinitely ourselves, but rather to hand over the \ac{dss} to local collaborators in each of the application areas, so that they can continue to adjust it to their local circumstances. Other future improvements include more automated ingestion of data from online data repositories, streamlined exporting of visualizations, and making this version accessible online.
+
+Transition of Vida Network meetings to more general EVDT community meetings. Possibility for future webinars / courses?
 
 \section{\hlc[red]{Conclusion}} \label{sec:vida-concl}
 
