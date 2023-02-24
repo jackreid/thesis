@@ -69,8 +69,8 @@
 \contentsline {subsubsection}{\numberline {4.3.2.3}\hlc [cyan]{Understand Desired Outcomes \& Objectives}}{173}{subsubsection.4.3.2.3}%
 \contentsline {subsubsection}{\numberline {4.3.2.4}\hlc [cyan]{Select System Functions}}{176}{subsubsection.4.3.2.4}%
 \contentsline {subsubsection}{\numberline {4.3.2.5}\hlc [cyan]{Assign Function to Forms}}{176}{subsubsection.4.3.2.5}%
-\contentsline {subsubsection}{\numberline {4.3.2.6}\hlc [cyan]{Monitor and Evaluate Systems}}{178}{subsubsection.4.3.2.6}%
-\contentsline {section}{\numberline {4.4}\hlc [cyan]{EVDT Application}}{178}{section.4.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}\hlc [cyan]{Monitor and Evaluate Systems}}{177}{subsubsection.4.3.2.6}%
+\contentsline {section}{\numberline {4.4}\hlc [cyan]{EVDT Application}}{177}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}\hlc [cyan]{EVDT Methodology}}{180}{subsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.1.1}\hlc [cyan]{Environment}}{180}{subsubsection.4.4.1.1}%
 \contentsline {paragraph}{\numberline {4.4.1.1.1}\hlc [cyan]{Mangrove Extent}}{184}{paragraph.4.4.1.1.1}%
@@ -118,48 +118,48 @@
 \contentsline {subsection}{\numberline {5.3.1}\hlc [green]{SAF Methodology}}{233}{subsection.5.3.1}%
 \contentsline {subsubsection}{\numberline {5.3.1.1}\hlc [cyan]{System Context}}{233}{subsubsection.5.3.1.1}%
 \contentsline {subsubsection}{\numberline {5.3.1.2}\hlc [cyan]{Analyze System Stakeholders}}{234}{subsubsection.5.3.1.2}%
-\contentsline {subsubsection}{\numberline {5.3.1.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{235}{subsubsection.5.3.1.3}%
-\contentsline {subsubsection}{\numberline {5.3.1.4}\hlc [red]{Select System Functions}}{235}{subsubsection.5.3.1.4}%
-\contentsline {subsubsection}{\numberline {5.3.1.5}\hlc [red]{Assign Functions to Forms}}{235}{subsubsection.5.3.1.5}%
-\contentsline {subsubsection}{\numberline {5.3.1.6}\hlc [red]{Monitor and Evaluate Systems}}{235}{subsubsection.5.3.1.6}%
-\contentsline {subsection}{\numberline {5.3.2}\hlc [cyan]{SAF Results}}{235}{subsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.1}\hlc [cyan]{System Context}}{235}{subsubsection.5.3.2.1}%
-\contentsline {subsubsection}{\numberline {5.3.2.2}\hlc [red]{Analyze System Stakeholders}}{236}{subsubsection.5.3.2.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.3}\hlc [red]{Understand Desired Outcomes \& Objectives}}{236}{subsubsection.5.3.2.3}%
-\contentsline {subsubsection}{\numberline {5.3.2.4}\hlc [yellow]{Select System Functions}}{236}{subsubsection.5.3.2.4}%
-\contentsline {subsubsection}{\numberline {5.3.2.5}\hlc [red]{Assign Functions to Forms}}{239}{subsubsection.5.3.2.5}%
-\contentsline {subsubsection}{\numberline {5.3.2.6}\hlc [red]{Monitor and Evaluate Systems}}{240}{subsubsection.5.3.2.6}%
-\contentsline {section}{\numberline {5.4}\hlc [cyan]{EVDT Application}}{240}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}\hlc [cyan]{EVDT Methodology}}{241}{subsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.1}\hlc [cyan]{Environment}}{242}{subsubsection.5.4.1.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.2}\hlc [cyan]{Public Health}}{244}{subsubsection.5.4.1.2}%
-\contentsline {subsubsection}{\numberline {5.4.1.3}\hlc [cyan]{Vulnerability}}{245}{subsubsection.5.4.1.3}%
-\contentsline {subsubsection}{\numberline {5.4.1.4}\hlc [cyan]{Decision-making}}{246}{subsubsection.5.4.1.4}%
-\contentsline {subsubsection}{\numberline {5.4.1.5}\hlc [cyan]{Technology}}{251}{subsubsection.5.4.1.5}%
-\contentsline {subsection}{\numberline {5.4.2}\hlc [cyan]{EVDT Results}}{251}{subsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.1}\hlc [cyan]{Environment}}{251}{subsubsection.5.4.2.1}%
-\contentsline {paragraph}{\numberline {5.4.2.1.1}\hlc [cyan]{Urban Nightlights}}{251}{paragraph.5.4.2.1.1}%
-\contentsline {paragraph}{\numberline {5.4.2.1.2}\hlc [cyan]{Air Quality}}{254}{paragraph.5.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.2}\hlc [cyan]{Public Health}}{256}{subsubsection.5.4.2.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.3}\hlc [cyan]{Vulnerability}}{257}{subsubsection.5.4.2.3}%
-\contentsline {subsubsection}{\numberline {5.4.2.4}\hlc [cyan]{Decision-Making}}{260}{subsubsection.5.4.2.4}%
-\contentsline {subsubsection}{\numberline {5.4.2.5}\hlc [cyan]{Technology}}{262}{subsubsection.5.4.2.5}%
-\contentsline {section}{\numberline {5.5}\hlc [cyan]{Decision Support System}}{263}{section.5.5}%
-\contentsline {section}{\numberline {5.6}\hlc [cyan]{Collaborative Development Process}}{266}{section.5.6}%
-\contentsline {section}{\numberline {5.7}\hlc [red]{Discussion}}{267}{section.5.7}%
-\contentsline {section}{\numberline {5.8}\hlc [red]{Conclusion}}{269}{section.5.8}%
-\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion \& Conclusion}}{271}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\hlc [red]{Summary and Contributions}}{271}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}\hlc [red]{Theory \& Critical Analysis}}{271}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}\hlc [red]{The EVDT Framework}}{271}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}\hlc [red]{Rio de Janeiro Development \& Mangroves}}{271}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}\hlc [red]{Vida Decision Support System for COVID-19 Response}}{271}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}\hlc [red]{Opportunities for Future Inquiry}}{271}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}\hlc [red]{In Rio de Janeiro \& Mangroves Globally}}{272}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}\hlc [red]{Lessons from COVID-19}}{272}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}\hlc [red]{The Future of EVDT}}{272}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}\hlc [red]{Advancing Stakeholder-Informed Sustainable Development Decision-making}}{272}{section.6.3}%
-\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{273}{appendix.A}%
-\contentsline {chapter}{\numberline {B}\hlc [green]{Rio de Janeiro Stakeholder Interview Questions}}{279}{appendix.B}%
-\contentsline {chapter}{\numberline {C}\hlc [green]{COVID-19 Response Policy Summary}}{281}{appendix.C}%
-\contentsline {chapter}{\numberline {D}\hlc [yellow]{Vida DSS Supplemental Information}}{291}{appendix.D}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}\hlc [cyan]{Understand Desired Outcomes \& Objectives}}{235}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}\hlc [cyan]{Select System Functions}}{236}{subsubsection.5.3.1.4}%
+\contentsline {subsubsection}{\numberline {5.3.1.5}\hlc [cyan]{Assign Functions to Forms}}{236}{subsubsection.5.3.1.5}%
+\contentsline {subsubsection}{\numberline {5.3.1.6}\hlc [cyan]{Monitor and Evaluate Systems}}{236}{subsubsection.5.3.1.6}%
+\contentsline {subsection}{\numberline {5.3.2}\hlc [cyan]{SAF Results}}{236}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}\hlc [cyan]{System Context}}{236}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}\hlc [cyan]{Analyze System Stakeholders}}{237}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}\hlc [cyan]{Understand Desired Outcomes \& Objectives}}{239}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}\hlc [cyan]{Select System Functions}}{243}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}\hlc [cyan]{Assign Functions to Forms}}{243}{subsubsection.5.3.2.5}%
+\contentsline {subsubsection}{\numberline {5.3.2.6}\hlc [cyan]{Monitor and Evaluate Systems}}{244}{subsubsection.5.3.2.6}%
+\contentsline {section}{\numberline {5.4}\hlc [cyan]{EVDT Application}}{245}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}\hlc [cyan]{EVDT Methodology}}{246}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}\hlc [cyan]{Environment}}{247}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}\hlc [cyan]{Public Health}}{249}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}\hlc [cyan]{Vulnerability}}{250}{subsubsection.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}\hlc [cyan]{Decision-making}}{252}{subsubsection.5.4.1.4}%
+\contentsline {subsubsection}{\numberline {5.4.1.5}\hlc [cyan]{Technology}}{256}{subsubsection.5.4.1.5}%
+\contentsline {subsection}{\numberline {5.4.2}\hlc [cyan]{EVDT Results}}{256}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}\hlc [cyan]{Environment}}{256}{subsubsection.5.4.2.1}%
+\contentsline {paragraph}{\numberline {5.4.2.1.1}\hlc [cyan]{Urban Nightlights}}{256}{paragraph.5.4.2.1.1}%
+\contentsline {paragraph}{\numberline {5.4.2.1.2}\hlc [cyan]{Air Quality}}{259}{paragraph.5.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}\hlc [cyan]{Public Health}}{261}{subsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}\hlc [cyan]{Vulnerability}}{262}{subsubsection.5.4.2.3}%
+\contentsline {subsubsection}{\numberline {5.4.2.4}\hlc [cyan]{Decision-Making}}{265}{subsubsection.5.4.2.4}%
+\contentsline {subsubsection}{\numberline {5.4.2.5}\hlc [cyan]{Technology}}{267}{subsubsection.5.4.2.5}%
+\contentsline {section}{\numberline {5.5}\hlc [cyan]{Decision Support System}}{268}{section.5.5}%
+\contentsline {section}{\numberline {5.6}\hlc [cyan]{Collaborative Development Process}}{271}{section.5.6}%
+\contentsline {section}{\numberline {5.7}\hlc [red]{Discussion}}{272}{section.5.7}%
+\contentsline {section}{\numberline {5.8}\hlc [red]{Conclusion}}{274}{section.5.8}%
+\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion \& Conclusion}}{275}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\hlc [red]{Summary and Contributions}}{275}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}\hlc [red]{Theory \& Critical Analysis}}{275}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}\hlc [red]{The EVDT Framework}}{275}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}\hlc [red]{Rio de Janeiro Development \& Mangroves}}{275}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}\hlc [red]{Vida Decision Support System for COVID-19 Response}}{275}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}\hlc [red]{Opportunities for Future Inquiry}}{275}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}\hlc [red]{In Rio de Janeiro \& Mangroves Globally}}{276}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}\hlc [red]{Lessons from COVID-19}}{276}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}\hlc [red]{The Future of EVDT}}{276}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}\hlc [red]{Advancing Stakeholder-Informed Sustainable Development Decision-making}}{278}{section.6.3}%
+\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{279}{appendix.A}%
+\contentsline {chapter}{\numberline {B}\hlc [green]{Rio de Janeiro Stakeholder Interview Questions}}{285}{appendix.B}%
+\contentsline {chapter}{\numberline {C}\hlc [green]{COVID-19 Response Policy Summary}}{287}{appendix.C}%
+\contentsline {chapter}{\numberline {D}\hlc [yellow]{Vida DSS Supplemental Information}}{297}{appendix.D}%

@@ -51,7 +51,7 @@ These are shown in Figure \ref{fig:vida_map}. In each of these areas, Vida was d
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Figures/chap5/vida_map.png}
-	\caption{Metropolitan areas participating in the Vida DSS International Network}
+	\caption{Areas participating in the Vida DSS International Network}
 	\label{fig:vida_map}
 \end{figure}
 
@@ -83,6 +83,9 @@ Rio de Janeiro & Felipe Mandarino & \ac{ipp} \\ \hline
 \multirow{2}{3cm}{Java \& Sulawesi} & Hanifa Denny & Universitas Diponegoro \& the Indonesia Ministry of Health \\
 & Joga Setiawan & Universitas Diponegoro \\ \hline
 
+\multirow{2}{3cm}{Querétaro} & Joaquín Salas & \ac{ipn} \\
+& Alejandro Monsiváis Huertero & \ac{aem} \\ \hline
+
 \end{tabular}
 \end{center}
 \end{table}
@@ -90,13 +93,23 @@ Rio de Janeiro & Felipe Mandarino & \ac{ipp} \\ \hline
 
 Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes. In general this resulted in a more iterative process than the fairly linear process depicted in Figure \ref{fig:evdt_framework}.
 
-\subsubsection{\hlc[red]{Understand Desired Outcomes \& Objectives}}
+\subsubsection{\hlc[cyan]{Understand Desired Outcomes \& Objectives}}
 
-\subsubsection{\hlc[red]{Select System Functions}}
+While the initial overarching objective of the Vida project was to support effective decision-making in response to the \ac{covid} pandemic, there was still work to be done defining what exactly this entailed and how it varied from stakeholder to stakeholder. This was done iteratively. The Local Area Experts from each study area would identify specific Needs, Desired Outcomes, and potential System Objectives. They would also identify other stakeholders in their study area, who would in turn be contacted and involved in this process. They also helped gather core datasets for use in the Vida \ac{dss} (discussed further in Section \ref{sec:vida-evdt}). 
 
-\subsubsection{\hlc[red]{Assign Functions to Forms}}
+Various team members and I would then use these to develop analyses and improve the \ac{dss}. These would be presented to the Local Area Experts. They would then update and revise their needs based on these prototypes, on seeing similar prototypes for the other study areas, and on the dynamic nature of the pandemic. What I will present here is a synthesis from over the course of the project, rather than indicative of any particular point in time.
 
-\subsubsection{\hlc[red]{Monitor and Evaluate Systems}}
+\subsubsection{\hlc[cyan]{Select System Functions}}
+
+System Functions were selected by considering the various Stakeholder Needs, Desired Outcomes, and System Objectives to identify where significant overlap existed. These were then compared with the feasibility of each function given available data and other resources, which varied from study area to study area. 
+
+\subsubsection{\hlc[cyan]{Assign Functions to Forms}}
+
+System functions were assigned to forms based on balancing the capabilities of the Space Enabled team with the needs and preferences of the stakeholders. The \ac{dss} and analyses were built upon existing expertise and code base from the \ref{ch:mangroves} case study, which both facilitated a rapid start but also brought along certain limitations. As needed, additional Technical Area Experts were enlisted to expand our capabilities. 
+
+\subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}}
+
+The impact of the Vida \acp{dss} on \ac{covid} response policy cannot be directly evaluated because of the infeasibility of comparing their use with counterfactual scenarios in which they were not used (not to mention the ethical concerns if this was possible). In the absence of a direct evaluation, we focused on perceived utility by the stakeholders and on general lessons learned from the analyses and \ac{dss} development process. This took the form of iterative reviews and improvements throughout the project lifespan. Within each component of the \ac{dss}, more particular forms of monitoring and evaluation were possible. For example in for the public health modeling component, simulated scenarios could be compared to actual case counts as the pandemic developed.
 
 \subsection{\hlc[cyan]{SAF Results}} \label{sec:vida-saf-result}
 
@@ -138,38 +151,113 @@ Figure \ref{fig:dimensions_vida} summarize the commonalities among the study are
 \end{figure}
 
 
-\subsubsection{\hlc[red]{Analyze System Stakeholders}}
+\subsubsection{\hlc[cyan]{Analyze System Stakeholders}}
 
-\subsubsection{\hlc[red]{Understand Desired Outcomes \& Objectives}}
+Analyzing the relationships between stakeholders in this case study posed some challenges particular to this situation. While some generalizations can be made across the study areas (e.g. policies on international travel were set by national government agencies; \ac{covid} response policies tended to involve some combination of mask mandates and closures of public spaces), there was significant variation between the study areas in how decisions were made and who made them. This was both due to differences in the underlying political structure of the study areas (in some, decisions are made primarily centrally and in others decisions are more decentralized) and to the fact that the \ac{covid} pandemic upended normal decision-making processes. These were replaced by much more dynamic and distributed decision-making relationships that involved much of society in one way or another. This can be glimpsed even in the Table \ref{tab:vida_participants} list of direct Vida participants, which includes health, science, and space ministries, among others.
 
-\subsubsection{\hlc[yellow]{Select System Functions}}
+For this reason, even a detailed, stationary stakeholder relational map for  each particular study area would contain inaccuracies and over simplifications. Instead, I opted for a basic primary-secondary-tertiary classification of stakeholders, as seen in Figure \ref{tab:vida-stakeholders}, that focuses on the Vida project, rather than \ac{covid} decision-making as a whole. 
 
-Participation in the Vida \ac{dss} International Network was directed at two ends: (1) development of the Vida \ac{dss} to conduct analyses and presentations that can inform pandemic response; and (2) sharing more general information and resources among the participants for responding to the pandemic \cite{lombardoDesigningDecisionSupport2020}.
+\begin{table}[!htb]
+\caption[Vida Stakeholders]{Primary-Secondary-Tertiary classification of Vida stakeholders}
+\label{tab:vida-stakeholders}
+\begin{center}
+\scriptsize
+\begin{tabular}{ L{4cm} L{4cm} L{4cm} } \hline
 
-There are certain key design requirements that this team has identified for the development of \ac{evdt} applications. Some of these are listed here.
+\textbf{Primary} & \textbf{Secondary} & \textbf{Tertiary}  \\ \hline
 
-\textit{Rapid Prototyping \& Co-Design:} In order to confirm that the proper data and dynamics are being captured, as well as to ensure the utility of the model to decision-makers and designers, the key stakeholders must be involved at all stages of the design process. Additionally, since most individuals have a difficult time providing concrete advice and criticism when discussing the abstract, rapid prototyping and mock-ups are important for stimulating feedback. One key component of this is always making sure that the user interface is available in the native language of the primary users.
+\tabitem{Vida International Network Participants} & \tabitem{US Vida Team} & \tabitem{General public in each study area} \\
+ 
+ & \tabitem{Other government agencies involved in \ac{covid} response} & \tabitem{Healthcare providers} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
-\textit{Enlist appropriate experts:} The design of any \ac{eos} is inherently interdisciplinary and this is also true for \ac{eo} applications. For this reason the development necessarily involves a wide range of collaborators who vary both in terms of discipline (systems engineering, earth science, economics, etc.) and it terms of institution (academic researchers, government officials, \ac{ngo} and corporate leaders, local activists, etc.). Rather than make assumptions when confronted with an issue outside our expertise, we do our utmost to recruit or consult with a relevant expert. Obviously such a large and diverse team is not feasible for every application nor does it scale particularly well. This is why the next requirement is present.
 
-\textit{Open Access and Modularity for Adaptation and Reuse:} The intent is not for this team to develop complete, black-box products, but rather to facilitate the the tool development process for others. Part of this includes the co-design requirement, but another part is making the code itself readily available online and designing the implementation of the framework to be as reusable as possible. In this way, local government officials may be able to reuse previous \ac{eo} data processing techniques, while focusing on the vulnerability or decision-making components. This is also important to provide clarity on ultimate ownership and responsibility for the product.
+\subsubsection{\hlc[cyan]{Understand Desired Outcomes \& Objectives}}
 
-\textit{Ensure computational accessibility:} Cloud-based and internet-hosted tools eliminate the need to direct possession of high performance computing equipment by either the end users or the developers. This reduces cost-of-entry for potential developers of \ac{evdt} models and ensures that end users can interact with, critique, and apply the models wherever they are, provided they have internet access. That is why our processing techniques and code either are hosted online or are designed to be able to run on a standard work laptop.
+Over the course of the Vida International Network collaboration, a wide variety of Stakeholder Needs, Desired Outcomes, and potential \ac{dss} System Objectives were surfaced. Table \ref{tab:vida-needs} summarizes these. Significant overlap can be seen across the stakeholders, but so too can certain differences, particularly in the System Objectives column. 
 
-% Discuss different stakeholder interests and needs
+In general, stakeholders expressed the need the ability to visualize multiple different kinds of data and understanding the relationships between them, including future looking. Most of the study areas quickly began collecting and publishing pandemic-related data, both directly tied to public health and more distantly related to the pandemic (e.g. \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}). Some even maintained interactive visualizations of \ac{covid} cases and hospitalizations (e.g. \cite{rioprefeituraPainelRioCOVID192020}). In general, however, they lacked visualizations capable of showing the public health status along side other factors such as socioeconomic impacts/vulnerability, environmental effects and risk factors, and future projections.
 
-\textit{Awareness of different stakeholder needs and interests:} While specific examples are discussed in the earlier sections, collaborators and users have a variety of educational backgrounds and personal priorities. This vary not only across institutions (such as government officials and local activists having different priorities) but also within an institution (such as an urban planning official assigned to a particular neighborhood versus one responsible for city macroplanning). We are often not aware of all of these differences, nor of pre-existing relationships and dynamics. For this reason it is important to cultivate relationships with a variety of local stakeholders, rather than relying on just on point of contact. The "outside expert" dynamic is also one prone to unintended consequences \cite{easterly2015}, which is why our team focuses on providing useful tools and insights, rather than on making concrete recommendations.
+This provided enough alignment to pursue a shared foundation moving forward, with particular datasets and analyses to be customized to the Needs and Desired Outcomes of each study area.
 
-\subsubsection{\hlc[red]{Assign Functions to Forms}}
+\begin{landscape}
+\scriptsize
+\begin{longtable}{| C{2cm} |  L{5.33cm} | L{5.33cm} | L{5.33cm} |}
+\caption[Needs, Outcomes, and Objectives for Rio de Janeiro Case Study]{Stakeholder Needs, Desired Outcomes, and potential System Objectives for key stakeholders in the Rio de Janeiro Case Study}
+\label{tab:vida-needs} \\ \hline
+\textbf{Study Area} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential \ac{dss} System Objectives} \\ \hlinewd{2pt} \endfirsthead
+
+\textbf{Study Area} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential \ac{dss} System Objectives} \\ \hlinewd{2pt} \endhead
+
+\multirow{4}{2cm}{\centering Luanda} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\ 
+ & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Monitor and analyze air quality and fires in the region} \\ 
+& \tabitem{Understand the dynamics and impacts of \ac{covid}} & \tabitem{Keep supply chains operational} & \tabitem{Monitor and analyze changes in ship traffic in Luanda Bay} \\ 
+& & \tabitem{Know how the pandemic will evolve and change in the coming days, weeks, and months} & \tabitem{Forecast \ac{covid} cases and their impacts} \\ \hline
+ 
+\multirow{4}{2cm}{\centering Rio de Janeiro} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\ 
+ & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Monitor and analyze air quality in the region} \\ 
+& \tabitem{Understand the dynamics and impacts of \ac{covid}} & \tabitem{Know how individuals are responding to \ac{covid} policies} & \tabitem{Monitor and analyze changes in human activity and mobility} \\ 
+& & \tabitem{Know how the pandemic will evolve and change in the coming days, weeks, and months} & \tabitem{Forecast \ac{covid} cases and their impacts} \\ \hline
+
+\multirow{5}{2cm}{\centering Metropolitana} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\ 
+ & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Monitor air quality in the region} \\ 
+& \tabitem{Understand the dynamics and impacts of \ac{covid}} & \tabitem{Know how individuals are responding to \ac{covid} policies} & \tabitem{Monitor and analyze changes in human activity and mobility} \\* 
+& & \tabitem{Know how the pandemic will evolve and change in the coming days, weeks, and months} & \tabitem{Forecast \ac{covid} cases and their impacts} \\* 
+& & & \tabitem{Visualize and analyze already published data in the \ac{covid} repository} \\ \noalign{\penalty-5000} \hline
+
+\multirow{1}{2cm}{\centering Java \& Sulawesi} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\* 
+ & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Visualize and monitor changes over multiple distinct areas} \\* 
+& \tabitem{Understand the dynamics and impacts of \ac{covid}} & \tabitem{Know how individuals are responding to \ac{covid} policies} & \tabitem{Monitor and analyze changes in human activity and mobility} \\* 
+& & \tabitem{Know how the pandemic will evolve and change in the coming days, weeks, and months} & \tabitem{Forecast \ac{covid} cases and their impacts} \\*
+& & \tabitem{Know what economic consequences the pandemic is causing} & \tabitem{Monitor and analyze a variety of economic impacts of the pandemic} \\  \hline
+
+\multirow{1}{2cm}{\centering Querétaro} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\ 
+ & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Monitor and analyze changes in human activity and mobility} \\ 
+& \tabitem{Understand the dynamics and impacts of \ac{covid}} & \tabitem{Know how the pandemic will evolve and change in the coming days, weeks, and months} & \tabitem{Forecast \ac{covid} cases and their impacts} \\ \hline
+
+\end{longtable}
+
+\end{landscape}
+
+
+\subsubsection{\hlc[cyan]{Select System Functions}}
+
+Based on the above analysis, several \ac{dss} system functions were selected. These are:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Visualize historical public-health and relevant non-public-health data.} The public health data includes \ac{covid} cases, deaths, and hospitalizations, among others. The relevant non-public-health data is based on the priorities of each study area but include such things as \ac{covid} response policy decisions, air quality, economic indicators, and mobility data.}
+	\item{\textbf{Identify and highlight connections between public health and non-public-health phenomena.} These can go in either direction, such as the impact of weather and air quality on the infectiousness of \ac{covid} or the impact of \ac{covid} on jobs.}
+	\item{\textbf{Simulate potential future trajectories of the pandemic based on different policy decisions.} True forecasting was deemed to be beyond the capabilities of this team, but scenario generation was considered an acceptable alternative for raising the potential implications of different policy choices.} 
+\end{itemize}
+
+In addition to these \ac{dss}-specific functions, there were some additional functions to be performed by the Vida International Network as a whole, namely:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Share information on \ac{covid} response across participants.} Analyses undertaken for a particular study area may turn out to be relevant to another. Additionally, independent of the Vida project, each study area was experimenting with a variety of response measures. The successes and failures of these measures constitute useful information for other participants.}
+	\item{\textbf{Build capacity for multidisciplinary analysis and visualization.} This is useful beyond the \ac{covid} pandemic and the Vida International Network constitutes an opportunity for participants to learn from each other in this regard, in addition to the benefits of developing the Vida \ac{dss}.}
+\end{itemize}
+
+\subsubsection{\hlc[cyan]{Assign Functions to Forms}}
+
+In order to implement the \ac{dss} functions, two distinct forms were selected to be developed in parallel. The first was a desktop-based tool, based upon the design and code base of the \ac{dss} from Chapter \ref{ch:mangroves}. This was chosen primarily to facilitate the quick start to prototyping that was required by the urgency of the situation. It also ensured that the code and its assets were open-source and freely available, an important factor as the ability to pay varied from stakeholder to stakeholder. Finally, the familiarity with existing \ac{gis} software varied immensely from stakeholder to stakeholder, with some coming from completely different fields. There was thus less of a pressure to adopt an existing software platform, particularly since the situation was so novel as to not have much in the way of existing procedures to disrupt. This form, along with the overall \ac{saf} results, are summarized in Figure \ref{fig:vida-architecture}.
+
+The other, parallel form was an online tool based in ArcGIS Online. Due to the limitations of the platform, it would focus on data visualization and would lack any scenario generation capability. This tool was developed primarily by Blue Raster, with members of the Space Enabled team (including myself) providing direction and certain datasets. Unlike the desktop version, which pursued each of the study areas simultaneously and in parallel, the online version would be developed for study areas sequentially, starting with a Boston area prototype.
+
+The primary form to address the non-\ac{dss} functions were multilateral meetings in which all of the participants could share lessons and information. These are discussed further in Section \ref{sec:vida-collab}.
+
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.4]{Figures/chap5/architecture.png}
 	\caption{The high-level functional systems architecture of the Vida \ac{dss}.}
-	\label{fig:architecture}
+	\label{fig:vida-architecture}
 \end{figure}
 
-\subsubsection{\hlc[red]{Monitor and Evaluate Systems}}
+\subsubsection{\hlc[cyan]{Monitor and Evaluate Systems}}
+
+The monitoring and evaluation of the Vida \acp{dss} were highly iterative, with stakeholders regularly surfacing new needs and new datasets to help address those needs. Various threads would be proposed, investigated, and then abandoned if they did not prove to be feasible or useful. Several of these are mentioned throughout \ref{sec:vida-evdt} as they come up. A more wholistic evaluation of the entire Vida project takes place in Section \ref{sec:vida-discuss}.
 
 \section{\hlc[cyan]{EVDT Application}} \label{sec:vida-evdt}
 
@@ -207,6 +295,37 @@ For this second level, data was normalized in various ways to facilitate compari
 \end{itemize}
 
 Similarly any statistic usually measured in ``number of people" (such as \textit{new cases of \ac{covid} per day}) were normalized into per-capita values, based on the population of that location. Various other, more particular, forms of normalization (such as for \ac{covid} response policies) are discussed in their respective sections below.
+
+Table \ref{tab:vida_data} provides a summary of the common data types across the study areas. The following subsections describe how they datasets are used in more detail.
+
+\begin{table}[!htb]
+\caption[Common Vida Data Types]{Common Vida data types} \label{tab:vida_data}
+\begin{center}
+\scriptsize
+\begin{tabular}{|C{3cm}|C{6cm}|} \hline
+
+\multirow{4}{3cm}{Public Health} & \tabitem{Coronavirus cases (active \& cumulative)} \\
+& \tabitem{Hospitalizations and/or ICU occupancy} \\
+& \tabitem{Coronavirus-attributed deaths} \\
+& \tabitem{Case recoveries} \\ \hline
+
+\multirow{2}{3cm}{Environment} & \tabitem{Air quality (particular matter, NOx, CO, etc.)} \\
+& \tabitem{Urban nightlights} \\ \hline
+
+\multirow{3}{3cm}{Socioeconomic Impacts} & \tabitem{Local \& national unemployment rates} \\
+& \tabitem{Air and ship traffic} \\
+& \tabitem{Intra-urban mobility rates \& patterns} \\ \hline
+
+\multirow{2}{3cm}{Public Policy} & \tabitem{Business \& public activity closures and restrictions} \\
+& \tabitem{Individual social distancing \& mask requirements} \\ \hline
+
+\multirow{3}{3cm}{Technology Development} & \tabitem{Daily testing capacity} \\
+& \tabitem{Ventilator availability} \\
+& \tabitem{Sensing technology access} \\
+\end{tabular}
+\end{center}
+\end{table}
+
 
 Finally, much of this analysis focused on the first year of the pandemic, roughly early March of 2020 to early March of 2021.
 
@@ -419,7 +538,7 @@ For each bairro in Rio de Janeiro, calculated weekly median PM10 levels, calcula
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{Figures/chap5/aq-combined.png}
-\caption[Normalization Results for PM10 in Rio de Janeiro for the Centro bairro.]{Normalization results for PM10 in the Centro bairro of Rio de Janeiro. Top: A sinusoidal correction for seasonal variation. Middle: A linear correction for secular variation. Bottom: Comparison of the corrected pre-and-post pandemic PM10 distributions.}
+\caption[PM10 Normalization for the Centro bairro of Rio de Janeiro]{Normalization results for PM10 in the Centro bairro of Rio de Janeiro. Top: A sinusoidal correction for seasonal variation. Middle: A linear correction for secular variation. Bottom: Comparison of the corrected pre-and-post pandemic PM10 distributions.}
 \label{fig:aq-combined}
 \end{figure}
 
@@ -464,7 +583,7 @@ Not all forms of mobility showed this general trend of a sudden decrease followe
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/chap5/Policy_nat_residential_mob.jpg}
-\caption[Angola COVID-19 Response Policy \& Residential Mobility Over Time]{Comparison of the Angola \ac{covid} response policy strictness and the residential mobility index over time.}
+\caption[Angola COVID-19 Policy \& Residential Mobility]{Comparison of the Angola \ac{covid} response policy strictness and the residential mobility index over time.}
 \label{fig:policy-residential-mob}
 \end{figure}
 
@@ -498,14 +617,14 @@ Telecommunications-based measurements of Vida have also provided insightful for 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\textwidth]{Figures/chap5/mobility-graphs-rio-santiago.png}
-\caption[Mobility, coronavirus cases, and policy changes in Rio de Janeiro, Santiago, and Querétaro]{Comparisons of coronavirus cases, policy changes, and mobility for Rio de Janeiro, Santiago, and Querétaro.}
+\caption[Mobility, COVID, \& policy in Rio de Janeiro, Santiago, and Querétaro]{Comparisons of coronavirus cases, policy changes, and mobility for Rio de Janeiro, Santiago, and Querétaro.}
 \label{fig:mobility-graphs-rio-santiago}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\textwidth]{Figures/chap5/mobility-graphs-angola-jakarta.png}
-\caption[Mobility, coronavirus cases, and policy changes in Angola and Jakarta]{Comparisons of coronavirus cases, policy changes, and mobility for Angola and Jakarta.}
+\caption[Mobility, COVID, \& policy in Angola and Jakarta]{Comparisons of coronavirus cases, policy changes, and mobility for Angola and Jakarta.}
 \label{fig:mobility-graphs-angola-jakarta}
 \end{figure}
 
@@ -561,7 +680,7 @@ In addition to presenting historical data, the desktop version of the \ac{dss} c
 
 Over the course of its development, the model was roughly calibrated using historical data, expanded as new dynamics become evident, and examined by public health experts. Various potential improvements are evident, including combining the \ac{sir} system dynamics model with an agent-based model to help address some of the deficiencies of the system dynamics approach \cite{ahmedVarianceSystemDynamics2012}, such as the lack of a spatial component.
 
-The second version of the Vida is online, created in collaboration with Blue Raster and hosted by Esri's ArcGIS Online \cite{bluerasterMITVidaSupportBoston2021}, and has somewhat different functionality. This version, shown in Figure \ref{fig:vidab} (using the Boston areas as an example), focuses on the presentation of historical data and thus lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface.
+The second version of the Vida is online, created in collaboration with Blue Raster and hosted by Esri's ArcGIS Online, and has somewhat different functionality. This version, shown in Figure \ref{fig:vidab} (using the Boston areas as an example), focuses on the presentation of historical data and thus lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface. Ultimately this version of the Vida \ac{dss} was created for Boston \cite{bluerasterMITVidaSupportBoston2021} and Rio de Janeiro \cite{bluerasterRioJaneiroVida2021}, but not for the other study areas.
 
 \begin{figure}[!htb]
 \centering

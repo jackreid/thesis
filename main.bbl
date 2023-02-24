@@ -3056,14 +3056,12 @@ Cristian {Gallardo-Esc{\'a}rate}, Valentina {Valenzuela-Mu{\~n}oz}, Gustavo
   surveillance.
 \newblock {\em The Science of the Total Environment}, 764:142867, April 2021.
 
-\bibitem{lombardoDesigningDecisionSupport2020}
-Seamus Lombardo, Jack Reid, Katlyn Turner, Mulan Jiang, David Lagomasino,
-  Mohammad Jalali, Eric Ashcroft, and Danielle Wood.
-\newblock Designing {{Decision Support Systems}} with {{Interdisciplinary}},
-  {{International Teams}}: {{A Case Study}} of the {{Environment}},
-  {{Vulnerability}}, {{Decision}}, {{Technology Model}}.
-\newblock In {\em American {{Geophysical Union Fall Meeting}}}, {Virtual},
-  2020.
+\bibitem{rioprefeituraPainelRioCOVID192020}
+{Rio Prefeitura}.
+\newblock Painel {{Rio COVID-19}}.
+\newblock
+  https://experience.arcgis.com/experience/38efc69787a346959c931568bd9e2cc4,
+  June 2020.
 
 \bibitem{elvidgeDimmingLightsChina2020}
 Christopher~D. Elvidge, Tilottama Ghosh, Feng-Chi Hsu, Mikhail Zhizhin, and
@@ -3157,9 +3155,16 @@ Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
 
 \bibitem{bluerasterMITVidaSupportBoston2021}
 {Blue Raster}.
-\newblock {{MIT-Vida Support}} - {{Boston}}, {{MA}}.
+\newblock Boston {{Vida Dashboard}}.
 \newblock
   https://blueraster.maps.arcgis.com/apps/dashboards/2475062b48dc410195ee9955c178b2b0,
+  2021.
+
+\bibitem{bluerasterRioJaneiroVida2021}
+{Blue Raster}.
+\newblock Rio de {{Janeiro Vida Dashboard}}.
+\newblock
+  https://blueraster.maps.arcgis.com/apps/dashboards/c77ab815dd694039ba29e292772e0684,
   2021.
 
 \bibitem{institutopereirapassosDataRio2017}

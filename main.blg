@@ -15,7 +15,7 @@ A level-1 auxiliary file: appc.aux
 A level-1 auxiliary file: appd.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 16431 items from 5000.
+Reallocated field_info (elt_size=4) to 16454 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty year in worldcommissiononenvironmentanddevelopmentOurCommonFuture
@@ -45,45 +45,45 @@ Warning--empty booktitle in lacerda1992carbon
 Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty journal in jungGapsMangroveForestInReview
 Warning--empty institution in xuModestImpactWeather2020
-You've used 497 entries,
+You've used 498 entries,
             1791 wiz_defined-function locations,
-            3385 strings with 126380 characters,
+            3388 strings with 126283 characters,
 and the built_in function-call counts, 108924 in all, are:
-= -- 9729
-> -- 4931
+= -- 9736
+> -- 4913
 < -- 79
-+ -- 1871
-- -- 1374
-* -- 7415
-:= -- 17459
-add.period$ -- 1535
-call.type$ -- 497
-change.case$ -- 494
++ -- 1866
+- -- 1368
+* -- 7399
+:= -- 17452
+add.period$ -- 1538
+call.type$ -- 498
+change.case$ -- 495
 chr.to.int$ -- 0
-cite$ -- 524
-duplicate$ -- 4939
-empty$ -- 10750
-format.name$ -- 1374
-if$ -- 24219
+cite$ -- 525
+duplicate$ -- 4937
+empty$ -- 10763
+format.name$ -- 1368
+if$ -- 24225
 int.to.chr$ -- 0
-int.to.str$ -- 497
-missing$ -- 441
-newline$ -- 2468
-num.names$ -- 566
-pop$ -- 1579
+int.to.str$ -- 498
+missing$ -- 440
+newline$ -- 2473
+num.names$ -- 567
+pop$ -- 1584
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2062
+skip$ -- 2067
 stack$ -- 0
 substring$ -- 6007
-swap$ -- 986
+swap$ -- 987
 text.length$ -- 79
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 27
-while$ -- 1058
-width$ -- 500
-write$ -- 5463
+while$ -- 1059
+width$ -- 501
+write$ -- 5472
 (There were 27 warnings)
