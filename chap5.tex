@@ -708,28 +708,84 @@ We also proposed organizing dedicated webinars on various topics, hosted by rele
 \label{fig:vida-network-agenda}
 \end{figure}
 
-\section{\hlc[red]{Discussion}} \label{sec:vida-discuss}
+\section{\hlc[cyan]{Discussion}} \label{sec:vida-discuss}
 
-Moving forward, work is ongoing to improve the Vida \ac{dss} in several regards. This includes:
+This section will discuss the results and lessons of the previous sections of this chapter. It starts by considering the various limitations of this work and the potential for future work, before discussing the lessons this project have for the \ac{evdt} Framework in general.
+
+\subsection{\hlc[cyan]{Methodological Limitations and Potential Improvements}}
+
+The combination of the novelty of the \ac{covid} pandemic (limiting prior understanding of its potential impacts), the suddenness of its onset (with the resulting limitations in available data), the juggling of the priorities for multiple different study areas, and the limitations of my own abilities and those of the US Vida team meant that there were various shortcomings in this project's implementation. There are also a variety of potential future opportunities, both \ac{evdt} and otherwise, in this space. This section considers both.
+
+
+\subsubsection{\hlc[cyan]{Environment}}
+
+The air quality analysis presented here was based on a relatively small number of in-situ monitoring stations throughout Rio de Janeiro and the Metropolitana region. This limited our ability to connect these changes with \ac{covid} cases, nightlights, or other subjects of analysis that had much greater spatial detail. As mentioned in Section \ref{sec:vida-evdt-e-method}, some visualizations of SO2 and NO2 did make their way into the desktop \ac{dss} for the Luanda area, this was not repeated for the study areas with in-situ stations. Connecting the two could allow for calibrating the \ac{eo}-based air quality data and a better understanding of spatial variation across each of the study areas.
+
+\subsubsection{\hlc[cyan]{Public Health}}
+
+The \ac{sir} public health model used in this project is relatively simple. This had certain benefits, including allowing for fast simulations within the \ac{dss}. It obviously comes with various limitations. Perhaps chief among these was the lack of spatial differentiation within each study area (except for Indonesia, in which separate models were run for Java and Sulawesi). Such bulk simulations have some utility for a municipality like Rio de Janeiro, as most \ac{covid} response policies applied equally across the city. It makes less sense for a larger region like Metropolitana or Java, which is likely to have different dynamics at play in different parts of the region and have policies being made for particular municipalities or sub-regions.
+
+It may make sense to extent the concept that was used for Java and Sulawesi, to run distinct \ac{sir} models in parallel at the scale of primary policymaking while also adding in connections between these subregions based on human travel and infection vectors.
+
+Another potential improvement is to add a stochastic element to the \ac{sir} model. Many of the underlying parameters, such as the likelihood of infection upon contact and the number of unreported \ac{covid} cases, were not directly measured and were instead estimates based on the best available evidence. These estimates have some (sometimes large) level of uncertainty. An improved model could integrate these uncertainty levels and run in a Monte Carlo fashion, presenting a distribution of possible future scenarios rather than a single one.
+
+Both simulations would come at the cost of additional required computation power, but the speed of the current version of the \ac{dss} suggests that significant additional computational complexity could be accommodated without drastically impacting usability.
+
+\subsubsection{\hlc[cyan]{Vulnerability}}
+
+The relatively poor temporal and spatial resolution of many economic metrics (unemployment rates, GDP, etc.) limited our ability to make serious connections between \ac{covid} and socioeconomic impacts during this project. One potential solution to this is to collect the missing data to whatever extent is feasible. This was the intent of the Invisible Variables Initiative, which conducted longitudinal, qualitative surveys of individuals over the course of the pandemic to better understand impacts of \ac{covid} on individuals safety, means, and autonomy \cite{turnerInvisibleVariablesImpact2021}. This initiative had a relatively small sample size and was only conducted for the Greater Boston area, but the concept could be extended to other areas and the resulting findings could help inform future disease-response \ac{evdt} projects.
+
+The mobility analysis was limited by the lack of publicly available pre-covid data. Both the Google \ac{covid} Community Mobility Reports \cite{googleCOVID19CommunityMobility} and the Chilean Indice de Movilidad \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} only reported data for mid-to-late February 2020 onward. This prevented us from correcting for any periodic or secular trends in the data unrelated to \ac{covid} (as was done for the air quality analysis). Both also stopped being updated in 2022, meaning that such corrections will not be possible even for future pandemics. 
+
+One possibility to help address this, as well as to add a higher level of spatial resolution to such mobility data (which is typically at the city, county, or provincial level) is to connect it with urban nightlight data or some other potential \ac{eo}-based proxy. Nightlight data has a history of use as a proxy for economic activity \cite{delvalleMangrovesProtectCoastal2020}. Some post-pandemic studies have found correlations with regional mobility data (such as the Google \ac{covid} Community Mobility Reports) and urban nightlight data \cite{schweikertMobilityNightlightsAir2022}. If researchers could access more spatially fine-grain telecom-based mobility data, such as what the City Science Research Group had for the microstate of Andorra \cite{doorleyMobilityCOVID19Andorra2022}, these correlations might be able to be extended to the scale of neighborhoods. Alternatively, so-called ``synthetic population models" could be used in lieu of actual mobility data \cite{akbarpourSocioeconomicNetworkHeterogeneity2020}.
+
+\subsubsection{\hlc[cyan]{Decision-Making}}
+
+As was discussed in Section \ref{sec:vida-evdt-decision-method}, the second, more systematic quantitative categorization of \ac{covid} response policies for the study areas was never completed. If it had, the next step would have been to develop either a composite score or individual policy type scores to provide the Public Health model. These connections would be based on the current understanding of the impact (public health and otherwise) that various policies have. This is an area with a rapidly increasing corpus in the literature (e.g. \cite{bennettAllThingsEqual2021, wibbensWhichCOVIDPolicies2020, dergiadesEffectivenessGovernmentPolicies2020}). As this corpus develops, care must be taken to identify what was unique to the \ac{covid} pandemic and what is generalizable to future outbreaks.
+
+\subsubsection{\hlc[cyan]{Technology}}
+
+As with the case study presented in Chapter \ref{ch:mangroves}, the Technology component was the most underdeveloped in this project. It primarily came into play with some minor use of information about testing regimes in each study area to estimate the number of unreported \ac{covid} cases. One potential improvement would be to include the selection of a testing regime as a policy choice in the \ac{dss}. This would require more detailed knowledge that was available to us regarding the influence of testing regimes on \ac{covid} cases or other phenomena, but this might be remedied by an increasing body of literature on the subject \cite{cordesSpatialAnalysisCOVID192020, souchCommentaryRuralUrban2021}.
+
+\subsubsection{\hlc[cyan]{Stakeholder Collaboration and Engagement}}
+
+Compared to the \ref{ch:mangroves} case study, the Vida project had a higher level of stakeholder participation and collaboration in the development of the \ac{dss} and in conducting the \ac{evdt} analyses, with some of the stakeholders contributing relevant analyses of their own as well. This is likely partially attributable to the urgency of the pandemic and to the fact that the pandemic forced many of us to become more comfortable with remote collaboration. 
+
+This project did suffer from not significantly engaging a diverse set of stakeholders within each study area however. Pressured by the urgency of the pandemic and the complications inherent to handling so many different study areas simultaneously, we rushed through much of the stakeholder analysis portion of the \ac{saf}. While many stakeholders beyond the primary contacts listed in Table \ref{tab:vida_participants} were briefly involved in discussions, meetings, and presentations, few were engaged in any sustained manner. This represents a major area for improvement, as is discussed further in Section \ref{sec:vida-lessons}.
+
+One of the more successful forms of stakeholder collaboration and engagement were the multilateral Vida Network meetings. These resulted in the continuation of such meetings for a more general \ac{evdt} community audience after the conclusion of the Vida project.
+
+\subsubsection{\hlc[cyan]{Decision-Support System}}
+
+The \acp{dss} developed in these projects were not final products and had numerous potential avenues for improvement. These included:
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
-    \item Automating data updates and ingestion
-    \item Standardizing architecture and implementation to facilitate reuse of model components
+    \item Automating data updates and ingestion, allowing the \ac{dss} to remain up to date without manual intervention from the US team or others. 
+    \item Standardizing architecture and implementation to facilitate reuse of model components. This was already partially done, as much of the desktop \ac{dss} code was based on code from the Chapter \ref{ch:mangroves} \ac{dss}, but futher improvements are certainly possible.
     \item Add simulation capabilities to the online version
-    \item Improving visualizations
-    \item Adding a spatial component to the epidemiological model
-    \item Continue air quality, nightlight, and mobility analysis with the potential for integrating these into the simulation capability
+    \item Improving visualizations, including adding the ability to zoom in/out on the maps.
+    \item Adding a spatial component to the epidemiological model, as was discussed above.
+    \item Continue air quality, nightlight, and mobility analysis with the potential for integrating these more fully into the simulation capability. 
 \end{enumerate}
 
-Furthermore, the Vida development process has had numerous ancillary benefits beyond the actual \ac{dss}. As mentioned earlier, the Vida International Network has facilitated international collaboration, allowing participants to share innovations and insights from their \ac{covid} response efforts. It has also encouraged intra-country collaboration but providing a motivation for outreach between government officials, academic researchers, and community leaders in order to fill data gaps and answer pressing questions. This process has also raised awareness of the utility of space-based \ac{eo} data, potentially preparing participants for future pandemic and non-pandemic applications. 
+That said, the goal of this project was not for the Space Enabled team to indefinitely improve and maintain these \acp{dss}. Instead we were seeking to provide what decision support we could, while providing a proof-of-concept and some level of capacity building for the collaborating study areas. 
 
-We are actively working to conduct more systematic analysis in this domain as well as examining the possibility of linking telecommunications-based mobility with nightlight measurements and thereby make spatial extrapolations.
+\subsection{\hlc[cyan]{Lessons Learned for the EVDT Framework}} \label{sec:vida-lessons}
 
-Benefits and difficulties of conducting an \ac{evdt} project focusing on multiple locations like this.
+This project diverged significantly from the original concept of an \ac{evdt} project both in its speed and in its inclusion of some many distinct study areas. Such differences are useful, however, in generating lessons for the \ac{evdt} Framework.
 
-The goal is not for the authors to continue development of this \ac{dss} indefinitely ourselves, but rather to hand over the \ac{dss} to local collaborators in each of the application areas, so that they can continue to adjust it to their local circumstances. Other future improvements include more automated ingestion of data from online data repositories, streamlined exporting of visualizations, and making this version accessible online.
+\textbf{The benefits of multi-study-area or multi-project communication and collaboration.} As mentioned earlier, the Vida International Network has facilitated international collaboration, allowing participants to share innovations and insights from their \ac{covid} response efforts. It has also encouraged intra-country collaboration by providing a motivation for outreach between government officials, academic researchers, and community leaders in order to fill data gaps and answer pressing questions. This process has also raised awareness of the utility of space-based \ac{eo} data, potentially preparing participants for future pandemic and non-pandemic applications. 
 
-Transition of Vida Network meetings to more general EVDT community meetings. Possibility for future webinars / courses?
+The success of the multilateral Network meetings prompted us to continue such meetings for a more general EVDT community audience, as well as to consider other potential means of engagement such as webinars or online resources. This likely would not have occurred if we had continued to pursue more individual, siloed \ac{evdt} projects as was the norm.
 
-\section{\hlc[red]{Conclusion}} \label{sec:vida-concl}
+\textbf{The importance of clearly scoped problem and use.} Overall, the Vida project included many unsuccessful experiments (such as monitoring vehicle traffic) and disconnected components (such as the separate in-situ and \ac{eo}-based air quality analyses). It resulted in some interesting results that did not find their way into the \ac{dss} proper or to supporting decision-making in other ways. This was partially due to the rushed stakeholder analysis, which was in turn due to the urgency of the situation and the complexity of multiple study areas. As such, it was potentially unavoidable in this case study but nonetheless represents a cautionary tale for future \ac{evdt} analyses.
+
+
+\section{\hlc[cyan]{Conclusion}} \label{sec:vida-concl}
+
+This chapter presented one of the more unique implementations of the \ac{evdt} framework. Where most other \ac{evdt} applications to date have focused on a particular study area and little urgency (at least on the scale of weeks to months), this project sought to rapidly support \ac{covid} response across several different regions around the world. To this end, I detailed the situation that these regions (and the world at large) faced and what the stakeholder needs were. This was followed by a series of analyses on how air quality, nightlights, \ac{covid} cases, mobility, and policies. These were used to construct two prototype \acp{dss} for viewing \ac{covid}-related data and simulating various policy outcomes.
+
+In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``What are the sustainability benefits of collaborative development of \acp{dss} using the \acf{evdt} Modeling Framework in complex \acf{sets}?"
+
+This implementation was not without its flaws and this experience informed refinements of the \ac{evdt} Framework. The following chapter will use these lessons to evaluate the framework itself.
 

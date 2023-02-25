@@ -146,20 +146,29 @@
 \contentsline {subsubsection}{\numberline {5.4.2.5}\hlc [cyan]{Technology}}{267}{subsubsection.5.4.2.5}%
 \contentsline {section}{\numberline {5.5}\hlc [cyan]{Decision Support System}}{268}{section.5.5}%
 \contentsline {section}{\numberline {5.6}\hlc [cyan]{Collaborative Development Process}}{271}{section.5.6}%
-\contentsline {section}{\numberline {5.7}\hlc [red]{Discussion}}{272}{section.5.7}%
-\contentsline {section}{\numberline {5.8}\hlc [red]{Conclusion}}{274}{section.5.8}%
-\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion \& Conclusion}}{275}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\hlc [red]{Summary and Contributions}}{275}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}\hlc [red]{Theory \& Critical Analysis}}{275}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}\hlc [red]{The EVDT Framework}}{275}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}\hlc [red]{Rio de Janeiro Development \& Mangroves}}{275}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}\hlc [red]{Vida Decision Support System for COVID-19 Response}}{275}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}\hlc [red]{Opportunities for Future Inquiry}}{275}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}\hlc [red]{In Rio de Janeiro \& Mangroves Globally}}{276}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}\hlc [red]{Lessons from COVID-19}}{276}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}\hlc [red]{The Future of EVDT}}{276}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}\hlc [red]{Advancing Stakeholder-Informed Sustainable Development Decision-making}}{278}{section.6.3}%
-\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{279}{appendix.A}%
-\contentsline {chapter}{\numberline {B}\hlc [green]{Rio de Janeiro Stakeholder Interview Questions}}{285}{appendix.B}%
-\contentsline {chapter}{\numberline {C}\hlc [green]{COVID-19 Response Policy Summary}}{287}{appendix.C}%
-\contentsline {chapter}{\numberline {D}\hlc [yellow]{Vida DSS Supplemental Information}}{297}{appendix.D}%
+\contentsline {section}{\numberline {5.7}\hlc [cyan]{Discussion}}{272}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}\hlc [cyan]{Methodological Limitations and Potential Improvements}}{273}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}\hlc [cyan]{Environment}}{274}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}\hlc [cyan]{Public Health}}{274}{subsubsection.5.7.1.2}%
+\contentsline {subsubsection}{\numberline {5.7.1.3}\hlc [cyan]{Vulnerability}}{275}{subsubsection.5.7.1.3}%
+\contentsline {subsubsection}{\numberline {5.7.1.4}\hlc [cyan]{Decision-Making}}{275}{subsubsection.5.7.1.4}%
+\contentsline {subsubsection}{\numberline {5.7.1.5}\hlc [cyan]{Technology}}{276}{subsubsection.5.7.1.5}%
+\contentsline {subsubsection}{\numberline {5.7.1.6}\hlc [cyan]{Stakeholder Collaboration and Engagement}}{276}{subsubsection.5.7.1.6}%
+\contentsline {subsubsection}{\numberline {5.7.1.7}\hlc [cyan]{Decision-Support System}}{276}{subsubsection.5.7.1.7}%
+\contentsline {subsection}{\numberline {5.7.2}\hlc [cyan]{Lessons Learned for the EVDT Framework}}{277}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}\hlc [cyan]{Conclusion}}{278}{section.5.8}%
+\contentsline {chapter}{\numberline {6}\hlc [red]{Discussion \& Conclusion}}{279}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\hlc [red]{Summary and Contributions}}{279}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}\hlc [red]{Theory \& Critical Analysis}}{279}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}\hlc [red]{The EVDT Framework}}{279}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}\hlc [red]{Rio de Janeiro Development \& Mangroves}}{279}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}\hlc [red]{Vida Decision Support System for COVID-19 Response}}{279}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}\hlc [red]{Opportunities for Future Inquiry}}{279}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}\hlc [red]{In Rio de Janeiro \& Mangroves Globally}}{280}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}\hlc [red]{Lessons from COVID-19}}{280}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}\hlc [red]{The Future of EVDT}}{280}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}\hlc [red]{Advancing Stakeholder-Informed Sustainable Development Decision-making}}{282}{section.6.3}%
+\contentsline {chapter}{\numberline {A}\hlc [yellow]{Glossary}}{283}{appendix.A}%
+\contentsline {chapter}{\numberline {B}\hlc [green]{Rio de Janeiro Stakeholder Interview Questions}}{289}{appendix.B}%
+\contentsline {chapter}{\numberline {C}\hlc [green]{COVID-19 Response Policy Summary}}{291}{appendix.C}%
+\contentsline {chapter}{\numberline {D}\hlc [yellow]{Vida DSS Supplemental Information}}{301}{appendix.D}%
