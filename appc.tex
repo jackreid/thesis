@@ -1,6 +1,10 @@
-\chapter{\hlc[green]{COVID-19 Response Policy Summary}} \label{app:policy-summary}
+\chapter{Vida DSS Supplemental Information} \label{app:policy-summary}
 
-The below tables summarize what specifically policies were included in each \ac{covid} response phase in each of the study locations for Chapter \ref{ch:vida}, as well as how these policies were quantified in the initial round of normalization. These are based on a combination of input from collaborating stakeholders and reference to news publications, official statutes, and CoronaNet \cite{CoronaNetResearchProject}. This was used to help construct the policy quantification scores shown in Figure \ref{fig:policy-comparison} and would have been used to help to construct the later version detailed in Table \ref{tab:policy-system}.
+The below tables contain supplementary information for the Vida case study discussed in Chapter \ref{ch:vida}, particularly surrounding the \ac{covid} response policies taken by each of the participating study areas. 
+
+The first two summarize what specifically policies were included in each \ac{covid} response phase in each of the study locations for Chapter \ref{ch:vida}, as well as how these policies were quantified in the initial round of normalization. These are based on a combination of input from collaborating stakeholders and reference to news publications, official statutes, and CoronaNet \cite{CoronaNetResearchProject}. This was used to help construct the policy quantification scores shown in Figure \ref{fig:policy-comparison} and would have been used to help to construct the later version detailed in Table \ref{tab:policy-system}.
+
+The third table summarizes what sets of information were available for inclusion in the Vida \ac{dss} for each study area.
 
 \begin{landscape}
 \scriptsize
@@ -29,3 +33,105 @@ The below tables summarize what specifically policies were included in each \ac{
 
 
 \end{landscape}
+
+\begin{center}
+\tiny
+\begin{longtable}{|C{1.5cm}|C{2.5cm}|C{0.75cm}|C{1cm}|C{1cm}|C{2cm}|C{1.5cm}|C{1.5cm}|C{1cm}|}
+\caption[Vida DSS Temporal Data]{Temporal data available for display in the Vida \ac{dss}. In the \textbf{Type} column, P indicates that the value is a preset constant, E indicates that the data is calculated from other data, and H indicates that actual historical data is available. For the H type, Xs indicate each locations have such data available for use in the \ac{dss}. Some of these datasets were further broken down into more specific locations, such as Java vs. Sulawesi in the Indonesia case.}
+\label{tab:vida-temporal}\\ \cline{4-8}
+
+\multicolumn{3}{c}{} & \multicolumn{5}{|c|}{\textbf{Locations with Historical Data}} \\ \hline
+
+\textbf{Category} & \textbf{Name} & \textbf{Type} & \textbf{Rio de Janeiro} & \textbf{Metropolitana} & \textbf{Java/ Sulawesi} & \textbf{Querétaro} & \textbf{Luanda} \\ \midrule \endfirsthead
+
+\cline{4-8} \multicolumn{3}{c}{} & \multicolumn{5}{|c|}{\textbf{Locations with Historical Data}} \\ \hline
+
+\textbf{Category} & \textbf{Name} & \textbf{Type} & \textbf{Rio de Janeiro} & \textbf{Metropolitana} & \textbf{Java/ Sulawesi} & \textbf{Querétaro} & \textbf{Luanda} \\ \midrule \endhead
+
+\multirow{2}{2.5cm}{\parbox{1.5cm}{\centering \textbf{Policies \& Actions}}} & Closure Policy & H & X & X & X & X & X \\* \cline{2-8}
+& Social Distancing Policy & H & & & X & & \\ \hline
+
+\multirow{13}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Parameters}}}} & Base Contact Rate & P &  & & & & \\*  \cline{2-8}
+& Contact Rate & E & & & & & \\* \cline{2-8}
+& Infectivity & P & & & & & \\* \cline{2-8}
+& Average Illness Duration & P & & & & & \\* \cline{2-8}
+& Hospitalization Likelihood & P & & & & & \\* \cline{2-8}
+& Base Hospitalized Recovery Likelihood & P & & & & & \\* \cline{2-8}
+& Unhospitalized Mortality Likelihood & P & & & & & \\* \cline{2-8}
+& Unhospitalized Recovery Likelihood & P & & & & & \\* \cline{2-8}
+& Hospitalized Recovery Likelihood & P & & & & & \\* \cline{2-8}
+& Hospitalized Mortality Likelihood & P & & & & & \\* \cline{2-8}
+& Recovery Likelihood & E & & & & & \\* \cline{2-8}
+& Mortality Likelihood & E & & & & & \\* \cline{2-8}
+& Average Hospitalization Duration & P & & & & & \\ \hline
+
+\multirow{8}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Populations}}}} & Susceptible Population & H & X & X & X & X & X \\* \cline{2-8}
+& `Estimated' Unhospitalized Infected Population & E & & & & & \\* \cline{2-8}
+& Deaths & H & X & X & X & X & X \\ \cline{2-8}
+& Hospitalized Population' & H & X & X & X & X & X \\* \cline{2-8}
+& Known Recovered Population & H & X & X & X & X & X \\* \cline{2-8}
+& Measured Unhospitalized Infected Population & H & X & X & X & X & X \\* \cline{2-8}
+& Measured Total Infected Population & H & X & X & X & X & X \\* \cline{2-8}
+& 'Estimated' Total Infected Population & E & & & & & \\ \hline
+
+\multirow{7}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Flows}}}} & `Estimated' Infection Rate & E & & & & & \\* \cline{2-8}
+& Measured Infection Rate & H & X & X & X & X & X \\* \cline{2-8}
+& Unhospitalized Recovery Rate & E & & & & & \\* \cline{2-8}
+& Unhospitalized Mortality Rate & E & & & & & \\* \cline{2-8}
+& Hospital Recovery Rate & E & & & & & \\* \cline{2-8}
+& Hospital Mortality Rate & E & & & & & \\* \cline{2-8}
+& Hospitalization Rate & H & X & X & X & X & X \\ \hline
+
+
+\multirow{2}{2.5cm}{\parbox{1.5cm}{\centering \textbf{Equipment Supplies}}} & Hospital Bed Capacity & P & & & & & \\* \cline{2-8}
+& Daily \ac{pcr} Tests & H & & X & & & \\ \hline
+
+
+\multirow{13}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Environment}}}} & Temperature & H & X & & & & \\* \cline{2-8}
+& SO2 & H & X & & & & X\\* \cline{2-8}
+& NO2 & H & X & & & & X\\* \cline{2-8}
+& HCNM & H & X & & & & \\* \cline{2-8}
+& HCT & H & X & & & & \\* \cline{2-8}
+& CH4 & H & X & & & & \\* \cline{2-8}
+& CO & H & X & & & & \\* \cline{2-8}
+& NO & H & X & & & & \\* \cline{2-8}
+& NOx & H & X & & & & \\* \cline{2-8}
+& O3 & H & X & & & & \\* \cline{2-8}
+& PM10 & H & X & & & & \\* \cline{2-8}
+& PM2.5 & H & X & & & & \\* \cline{2-8}
+& Nighttime Radiance & H & & & & & X \\ \hline
+
+\multirow{18}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Economic}}}} & Local Unemployment Rate & H & X & & & & \\* \cline{2-8}
+& National Unemployment Rate & H & X & & & & \\* \cline{2-8}
+& Gross Domestic Product & H & & & X & & \\* \cline{2-8}
+& Oil \& Gas Imports & H & & & X & & \\* \cline{2-8}
+& Household Expenditures & H & & & X & & \\* \cline{2-8}
+& Consumption Expenditure LNPRT & H & & & X & & \\* \cline{2-8}
+& Government Consumption Expenditure & H & & & X & & \\* \cline{2-8}
+& Net Exports & H & & & X & & \\* \cline{2-8}
+& Manufacturing GDP' & H & & & X & & \\* \cline{2-8}
+& Construction GDP & H & & & X & & \\* \cline{2-8}
+& Retail GDP & H & & & X & & \\* \cline{2-8}
+& Communication GDP & H & & & X & & \\* \cline{2-8}
+& Health \& Social Work GDP & H & & & X & & \\* \cline{2-8}
+& Accommodation \& Food Service GDP & H & & & X & & \\* \cline{2-8}
+& Closing Composite Stock Index & H & & & X & & \\* \cline{2-8}
+& Farmer Terms of Trade & H & & & X & & \\* \cline{2-8}
+& Inflation & H & & & X & & \\* \cline{2-8}
+& Ships Loitering & H & & & & & X \\ \hline
+
+\multirow{12}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Mobility}}}} & Retail \& Recreation & H & X  & & X & X & X \\* \cline{2-8}
+& Grocery \& Pharmacy & H & X & & X & X & X\\* \cline{2-8}
+& Parks & H & X  & & X & X & X\\* \cline{2-8}
+& Transit & H & X  & & X & X & X \\* \cline{2-8}
+& Workplace & H & X  & & X & X & X\\* \cline{2-8}
+& Residential & H & X  & & X & X & X\\* \cline{2-8}
+& General Mobility & H & & X & & & \\* \cline{2-8}
+& Daily Flight Passengers & H & & X & & & \\* \cline{2-8}
+& Visitor Arrivals & H & & & X & & \\* \cline{2-8}
+& Foreign Visitors & H & & & X & & \\* \cline{2-8}
+& Hotel Occupancy & H & & & X & & \\* \cline{2-8}
+& Foreign Visitors & H & & & X & & \\ \hline
+
+\end{longtable}
+\end{center}

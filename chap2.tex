@@ -1,11 +1,11 @@
 
 \chapter{Motivation, Theory,  \& Critical Analysis} \label{ch:theory}
 
-\section{\hlc[cyan]{Chapter Purpose \& Structure}}
+\section{Chapter Purpose \& Structure}
 
 This chapter aims to advance Research Question 1: 
 
-\blockquote{ 1. What aspects of systems architecture (and systems engineering in general) are relevant and useful for approaching issues of sustainability in complex \acf{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to avoid the technocratic excesses of the past?}
+\blockquote{What aspects of systems architecture (and systems engineering in general) can be used to support sustainability in complex \ac{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to avoid the technocratic excesses of the past?}
 
 It accomplishes this by supplying Research Deliverable 1a: ``A critical analysis of systems engineering, \acf{gis}, and the other fields relied upon in this work." This chapter thus serves both as a survey of the relevant literature to the construction of the \acf{evdt} framework (which is itself laid out in Chapter \ref{ch:evdt}) and as a critical analysis of some of that literature.
 
@@ -24,11 +24,11 @@ The final portion of the chapter, Section \ref{sec:chap2-conc}, summarizes the l
 \end{figure}
 \end{landscape}
 
-\section{\hlc[green]{Motivation \& Literature Survey}} \label{sec:motivation}
+\section{Motivation \& Literature Survey} \label{sec:motivation}
 
 The question of motivation includes several elements. Why sustainable development? Why remote observation data? Why systems architecture and engineering? Why these particular case studies? Why me? This section will address these questions as well as lay the groundwork for the discussion of several critiques of the chosen approach that takes place in Section \ref{sec:critiques}.
 
-\subsection{\hlc[green]{Personal Motivation}}
+\subsection{Personal Motivation}
 
 My background may make my interest in this work, collaborative modeling for sustainable development, seem a bit odd. Almost all of my prior work was either funded by the military or done directly for the military, from improving weapons testing procedures at Sandia National Labs to defense acquisition policy analysis for my masters degree at \ac{mit} to summers spent at the RAND Corporation helping the US military to plan aircraft and air defense acquisitions, to name just a few. My one purely private sector job (an engineering internship at a fossil fuel refinery on the coast of Texas) was hardly emblematic of a great commitment to sustainability.
 
@@ -42,11 +42,11 @@ Finally, I have the history, both positive and negative, of my \ac{mit} predeces
 
 The answer to that is multifaceted. For one, I believe that the relevant fields have advanced significantly and, to some extent at least, have learned from their prior missteps. This is elaborated on in my detail throughout this chapter. Another aspect is that I (and my advisor evidently) believe that my knowledge and systems engineering in general does still have something to offer humanity beyond building rockets. Additionally, I and my peers, with our particular commitment to the principles outlined earlier, may have an important role to play on influencing the aerospace/systems engineering communities, urging them to curb their worst impulses and learn from their own history. Finally, it is because I want to be of service to humanity. As my aerospace education and career progressed, I found myself increasingly faced with only two options: "pure" scientific work or defense work. Reluctant to choose either, I was being quickly sucked into the gravity of the default: the aerospace defense sector. The Space Enabled Research Group, and the work detailed in this thesis in particular, offered me a third option, to apply my skills and interests to directly help humans on Earth. Now all that is left to is to do it.
 
-\subsection{\hlc[green]{Why Sustainable Development?}} \label{sec:sustainable_development}
+\subsection{Why Sustainable Development?} \label{sec:sustainable_development}
 
 Before exploring the various methodologies and theoretical frameworks used in this work, it is worth exploring exactly what it is we are hoping to accomplish and why it is important. We need to talk about sustainable development.
  
-\subsubsection{\hlc[green]{What is Sustainable Development?}} \label{sec:sustain}
+\subsubsection{What is Sustainable Development?} \label{sec:sustain}
 
 The term \textit{sustainable development} is simultaneously one that invites immediate, intuitive understanding, and yet can remain frustratingly vague. \textit{Sustainable} here means something somewhat more specific than its general definitions of "able to be maintained or kept going" or "capable of being supported or upheld." Instead, it builds upon these and gains some association with the natural environment: "pertaining to a system that maintains its own viability by using techniques that allow for continual reuse" \cite{DefinitionSustainableDictionary}. As to what "system" we are talking about here, the "development" half of sustainable development, we mean generally, human society and wellbeing. This is of course still much too vague, so let us turn to the first official use of the term, which was in the 1987 report by the \ac{un} World Commission on Environment and Development, commonly known as the Brundtland Report, after the name of the chair of the commission. This report defined sustainable development as "the development that meets the needs of the present without compromising the ability of future generations to meet their own needs" \cite{worldcommissiononenvironmentanddevelopmentOurCommonFuture}. We have now helpfully clarified the time scale under which this system needs to "maintain its own viability" but still have done little to clarify what aspects of human society are included within "development." 
 
@@ -61,7 +61,7 @@ We now have three linked components along with a set of potential actions for im
 
 Questions remain, however. Why all this effort? And what are these SDGs?
 
-\subsubsection{\hlc[green]{Why is Sustainable Development Important?}}
+\subsubsection{Why is Sustainable Development Important?}
 
 As former \ac{un} Secretary-General Ban Ki-moon put it:"Sustainable development is the central challenge of our times" \cite{sachsAgeSustainableDevelopment2015}. Despite significant progress in certain domains and certain regions, many individuals and communities are still suffering from severe privations of food, water, healthcare, and more. This is no mere issue of production, but is also connected with issues of allocation (economic inequality is swiftly rising in many parts of the world, including in the author's own country), political mismanagement and oppression, and environmental changes. This work will not detail these numerous concerns (instead I recommend Jeffrey Sach's \textit{The Age of Sustainable Development} for an accessible survey), but it is worth point out that the last of these issues, that of environmental changes, is particularly important as it shapes how we can seek to rectify the others. Historical means of economic development (such as the extensive use of fossil fuels) is no longer seen as sustainable, due to humanity butting up against and even exceeding certain planetary boundaries or capacity limits, particularly those of climate change, biodiversity loss, ocean acidification, and the nitrogen cycle, as seen in Figure \ref{fig:boundaries}.
 
@@ -129,7 +129,7 @@ Fortunately, economists and earth scientists in recent decades have embarked on 
 
 It is important to note that common to all these perspectives on sustainable development is the interaction of multiple domains that have historically been considered separately. In this way, the pursuit of sustainable development can considered to be a combination of the established fields of \acf{sts} \cite{rouseUnderstandingChangeComplex2012,siddiqiSociotechnicalSystemsSustainability2017,sussmanTeachingComplexSociotechnical2010} and \acf{ses} \cite{elsawahEightGrandChallenges2020}, thereby making sustainable development contexts into \acf{sets}.
 
-\subsubsection{\hlc[green]{What about the Sustainable Development Goals?}}
+\subsubsection{What about the Sustainable Development Goals?}
 
 At the end of Section \ref{sec:sustain}, I quoted a passage that referred to the \acp{sdg}, though I did not explain what these were. Now I shall address that deficiency, as the \acp{sdg} are a key part of how sustainable development is currently thought about around the world, to the extent that Sachs wrote that, "Our new era will son be described by new global goals, the SDGs" \cite{sachsAgeSustainableDevelopment2015}. In order to understand the \acp{sdg}, however, we must first go back fifteen years prior to their creation, when the nations of the world sought to proactively face the new millennium. In 2000, the \ac{un} established eight \acp{mdg} that the nations of the world pledged to pursue for the next fifteen years. These were [emphasis added]:
 
@@ -162,7 +162,7 @@ Despite their short, clear formulations, actually achieving many of the \acp{sdg
 
 It is at this need that the research questions of this thesis are addressed.
 
-\subsection{\hlc[green]{Why Systems Engineering?}} \label{sec:se}
+\subsection{Why Systems Engineering?} \label{sec:se}
 
 Before answering this section's title question, we must first offer an a definition of systems engineering, as, unlike many other fields of engineering (aerospace, mechanical, electrical, biomedical, etc.) the name is not self-explanatory. 
 
@@ -195,7 +195,7 @@ External to the field itself, the rise of sustainable development, with its inte
 
 %Refer to epoch-era analysis and tie that in to scenario planning history.
 
-\subsection{\hlc[green]{Why Remote Observation and Earth Observation Data?}} \label{sec:remote}
+\subsection{Why Remote Observation and Earth Observation Data?} \label{sec:remote}
 
 Remote observation, often used interchangeably with remote sensing, refers to any form of data collection that takes place at some remote distance from the subject matter \cite{jensenRemoteSensingEnvironment2006}. The term is fundamentally about \textit{how} the observation is taking place rather than \textit{what} is being observed, as it includes both astronomical telescopes and aircraft-based surveys of farmland. While there is no specific distance determining whether a collector is `remote,' in practice this tends to mean some distance of more than a quarter of a kilometer. Handheld infrared measurement devices are thus usually excluded (and thereby classified as \textit{in-situ} observations. Aerial and satellite imagery are definitively in the remote observation category. Low altitude drone imagery, particularly when the operator is standing in the field of view, is a gray area that is not well categorized at this time.
 
@@ -233,7 +233,7 @@ As stated in the \textit{Common Horizons} report, "space technology provides awa
 
 More is needed to enable the use of \ac{eo} data for human decision-making in such a way that acknowledges the linkages between the environment and humans. This is major aim of this work. 
 
-\subsection{\hlc[green]{Why GIS?}} \label{sec:gis}
+\subsection{Why GIS?} \label{sec:gis}
 
 The term \ac{gis} refers to any digital system for storing, visualizing, and analyzing geospatial data, that is data that has some geographic component. It can be used to discuss specific systems, a method that uses such systems, a field of studying focusing on or involving such systems, or even the set of institutions and social practices that make use of such a system \cite{sheppardGISSocietyResearch1995}. This may seem vague, but due to the diversity of its use, it is difficulty to hammer out a more specific definition without excluding important aspects \cite{goodchildOverviewDefinitionGIS1992, picklesToolScienceGIS1997, chrismanWhatDoesGIS1999, heikkilaGISDeadLong1998}. One perspective, however, is to view \ac{gis} to the underlying computer systems enabling the middle three components of the broader \ac{gisc} methodology, as shown in Figure \ref{fig:boundaries}. In that sense, the work related in this thesis can be seen as an exercise in \ac{gisc} spanning all five components, while the specific software produced for this work are instances of \ac{gis}. It should be noted that this distinction is not commonly made outside of academia, with \ac{gis} commonly being used generically to encompass both \ac{gisc} and \ac{gis}. Along these lines, there being some debate about whether \ac{gis} is best viewed as a scientific field in its own right, or as a mere tool for use in various other fields of science (such as environmental science, economics, etc.) \cite{goodchildGeographicalInformationScience1992,goodchildTwentyYearsProgress2010}. One important aspect of the 
 ac{gisc} perspective that is not included in Figure \ref{fig:boundaries}, is that includes "institutional, managerial, and ethical issues \cite{goodchildGeographicalInformationScience1992}, something that is naturally core to this work. 
@@ -287,7 +287,7 @@ There is now a well established marketplace for geographic data (as shown in \re
 	\label{fig:marketplace}
 \end{figure}
 
-\subsection{\hlc[green]{Why Collaborative \& Open Source?}} \label{sec:collaborative}
+\subsection{Why Collaborative \& Open Source?} \label{sec:collaborative}
 
 As was mentioned in Section \ref{sec:remote}, many of the early applications of remote observation data were technology-driven rather than need-driven. So it was with the closely related field of \ac{gis} as well, leading to powerful critiques by Pickles and others \cite{picklesGroundTruthSocial1994}. These critiques resulted in a reconsideration of the top-down nature of the field and the identification of several potent reasons for broadening the base of participation. First, there was the recognition that the developer of a \ac{gis} is not the supreme authority on all fields. "It is the geomorphologist who is best able to choose the data model for representation of terrain in a GIS, not the computer scientist or the statistician, and it is the urban geographer who is best able to advice on how to represent the many facets of the urban environment in a GIS designed for urban planning" \cite{goodchildGeographicInformationSystems1994}. This means that, while collaborations certainly can introduce additional difficulties, such as cultural conflicts, issues of interpersonal trust, effort required to establish rules and norms of participation, they are also immensely rewarding and can improve the results of the work \cite{tullochInstitutionalGeographicInformation2007}. The dynamics at play in such collaborations can be seen in Figure \ref{fig:east2}. This is certainly a more complicated situation than the traditional, straightforward, academic implementation of a \ac{gis} project.
 
@@ -328,9 +328,9 @@ This passionate call for open source software is about more than a philosophical
 It should be noted that some work has placed the responsibility for limited adoption of \ac{gis} tools on the planners/users themselves, specifically their lack of will and training with the tools \cite{gocmenBarriersGISUse2010}. While this may be the case, this lack of will and training is almost certainly itself due to a lack of outreach on behalf of the tool developers, and thus \ac{pgis} is still reasonable strategy to address these barriers. Other challenges around open source tools involve concerns about long-term support. As many (though certainly not all) open source projects are volunteer or academic-driven, changes of interest, financial support, or time availability can have major impacts on the software development and maintenance process. That said, similar concerns can be raised around commercial software products, which can be abruptly canceled, leaving the users with little recourse. It should be acknowledging that the economics, incentives, and decision-theory surrounding open source vs. closed source software is complex \cite{lernerSimpleEconomicsOpen2002}, but the continued endurance of open source software (or even thriving, as virtually all servers used for cloud computing are running on open source operating systems \cite{vermaUbuntuLinuxMost2015}), suggests that open source is a viable choice for software projects moving forward. 
 
 
-\subsection{\hlc[cyan]{Why Decision Support \& Scenario Planning?}} \label{sec:scenario}
+\subsection{Why Decision Support \& Scenario Planning?} \label{sec:scenario}
 
-\subsubsection{\hlc[cyan]{Decision Support Systems}}
+\subsubsection{Decision Support Systems}
 
 One common use of \ac{gis} is in \acp{dss}. These are technical systems aimed at facilitating and improving decision-making. Functions can include visualization of data, analysis of past data, simulations of future outcomes, and comparisons of options. Such \ac{gis} \acp{dss} are particularly common in development and planning spheres. Planning here refers to "the premeditation of action, in contrast to management [which is] the direct control of action" \cite{harrisLocationalModelsGeographic1993}. In general, planning tends to concern itself with more long-term affairs that management does. Planning strives for the "avoidance of unintended consequences while pursuing intended goals." Models, and their specific implementations as decision/planning support tools, are one means of achieving this. 
 
@@ -416,7 +416,7 @@ The framework laid out in Chapter \ref{ch:evdt} is agnostic with regards to thes
 
 Largely in this discussion is a consideration of what kinds of decisions are \acp{dss} supporting? These vary immensely and while Chapter \ref{ch:evdt} will provide more detail on the kinds of decisions of interest in this work, it is worth discussing one kind of decision-making process in more detail: scenario planning.
 
-\subsubsection{\hlc[cyan]{Scenario Planning}}
+\subsubsection{Scenario Planning}
 
 Scenario planning is a method for planning that centers on considering multiple, plausible futures of the system of interest (scenarios). It typically focuses on the longer term, strategic level, rather than immediate operational decisions \cite{goodspeedScenarioPlanningCities2020}. Scenario planning arose in the mid 20th century from two independent sources: (1) Herman Kahn at the RAND Corporation working for the Air Defense System Missile Command and (2) Gaston Berger at the Centre d'Etudes Prospectives \cite{bradfieldOriginsEvolutionScenario2005}. These in turn were further developed in the private sector by Shell and GE, with the former publishing more openly on the topic. Numerous variations of scenario planning exist. For instance, Kahn's original formulation was probabilistic, focusing on the most likely scenarios. Berger's, on the other hand, was normative, focusing on the scenarios to be aimed for. Lastly, Shell's has eschewed both of these, focusing instead on capturing a range of potential future scenarios and using them to explore responses and to educate decision-makers. Regardless of the focus, scenario planning centers around the construction of some number discrete "future worlds" that consist of a set of both quantitative and qualitative parameters. Impact on the organization and potential responses are then explored. While the exact methodology varies and different organizations use scenario planning for different purposes, most private corporations and city planners use it primarily for long range business planning \cite{bradfieldOriginsEvolutionScenario2005}, or as Goodchild puts it, ``vision, framework, comprehensive, system, and redevelopment plans and for those with long time horizons and low or moderate detail" \cite{goodspeedScenarioPlanningCities2020}. That said, scenarios planning has also been used to construct early warning systems, by identifying the important areas and trends to monitor to inform decision-making \cite{tessunScenarioAnalysisEarly1997}.
 
@@ -435,7 +435,7 @@ One of the more detailed practical guides to scenario planning was put together 
 
 This is a clear example of the normative form of scenario planning. The framework developed in Chapter \ref{ch:evdt} is fairly agnostic among the three types, but in practice most projects tend to be of the normative or exploratory variety, as probabilistic models can be difficult to develop for complex \acf{sets}. That said Maier et al. (not to be confused with the Maier referred to in Section \ref{sec:se} have put forth some methods of distinguishing at least the most ``plausible" scenarios in high uncertainty systems \cite{maierUncertainFutureDeep2016}.
 
-\section{\hlc[green]{Critical Analysis}} \label{sec:critiques}
+\section{Critical Analysis} \label{sec:critiques}
 
 While many of the earlier sections of this chapter have discussed various problems in the history of the fields that this work draws upon. Prior to proceeding to the \ac{evdt} Framework and its applications, it is important to more squarely address those problems and understand what must be done to avoid the mistakes of the past. To that end, this section will consider and respond to several critiques that can be raised against a work such as this.
 
@@ -448,7 +448,7 @@ While many of the earlier sections of this chapter have discussed various proble
 These are not the only critiques that may be raised against the fields and methods discussed in this thesis. Many others are discussed incidentally throughout the work. Ultimately, however, these were the ones deemed to be most relevant to what is already any overly long work.
 
 
-\subsection{\hlc[green]{Technology is inherently elitist, colonialist, racist, etc.}} \label{sec:elitism}
+\subsection{Technology is inherently elitist, colonialist, racist, etc.} \label{sec:elitism}
 
 It may not be clear why I am including this section. After all, most readers and certainly the evaluators of this thesis are certainly not of this opinion, or else they would not be working at the forefront of their respective fields, all of which heavily involve the use of technology. Nonetheless, I am reluctant to discard this argument out of hand, particularly when technology has been so integrally involved with so many of the evils of the past several centuries.
 
@@ -471,7 +471,7 @@ The ideas of Mumford and Winner have become commonplace. Even self-admitted tech
 
 The question then is, which category do the technologies used in this fall into? That is what the following sections will address.
 
-\subsubsection{\hlc[green]{GIS \& Mapping}} \label{sec:mapping_critique}
+\subsubsection{GIS \& Mapping} \label{sec:mapping_critique}
 
 It is undeniable that the history of mapping and thus of \ac{gis} is one of centralization and authoritarianism. National mapping in the US originated in motives that were explicitly of means for resource exploitation and control \cite{mchaffieManufacturingMetaphors1994}. Furthermore, as pointed out by Pickles, historically within the GIS research community and its predecessors, there has been a certain "technocratic myopia" and unwillingness to consider novel, insurgent uses of GIS that has led critics to label it as an "inherently conservative form of analysis" \cite{picklesRepresentationsElectronicAge1994}, or as McHaffie put more movingly, "Perhaps the `frightened Africans' who once `threw spears at an Aero Service aircraft' or the `suspicious moonshiners in Appalachia' who `took a few rifle shots' at aerial mappers did so not because the intentions of the mappers were 'not always understood,' but because those intentions, and the powerful forces being them, were understood only too well" \cite{mchaffieManufacturingMetaphors1994}. Jackson, meanwhile, relates the results of an ethnographic study that highlighted the almost comically numerous negative consequences (both intentional and unintentional) of the introduction of \ac{gis} into local planning in Kansas City \cite{jacksonCityThirtyThousand2008}.
 
@@ -505,7 +505,7 @@ Additionally, in some ways, we want to avoid making a seamless tool, as "the mos
 
 I do align myself with those who feel that:
 
-\blockquote{Even though the funding or research and development... of GIS and other imaging systems has come primarily from business, state, and military sources, advocates of the progressive potential information and imaging technologies argue that access is hard to deny, networks are difficult to control, information is readily accessible and used by individuals and groups with limited budgets and expertise, and the ability to use the technology in depth permits groups like environmental organizations to counter claims by polluters about their environmental impacts, by developers about likely local effects of runoff and ground water, and so on... GIS enables communities to make better decisions by providing access to more and better information. It offers more powerful tools for local planning agencies; it offers exciting possibilities for data coordination, access, and exchange; and it permits more efficient allocation of resources, and a more open rational decision-making process} \cite{picklesRepresentationsElectronicAge1994}. 
+\blockquote{Even though the funding or research and development... of GIS and other imaging systems has come primarily from business, state, and military sources, advocates of the progressive potential information and imaging technologies argue that access is hard to deny, networks are difficult to control, information is readily accessible and used by individuals and groups with limited budgets and expertise, and the ability to use the technology in depth permits groups like environmental organizations to counter claims by polluters about their environmental impacts, by developers about likely local effects of runoff and ground water, and so on... GIS enables communities to make better decisions by providing access to more and better information. It offers more powerful tools for local planning agencies; it offers exciting possibilities for data coordination, access, and exchange; and it permits more efficient allocation of resources, and a more open rational decision-making process \cite{picklesRepresentationsElectronicAge1994}.} 
 
 That said, I don't believe that any of this is guaranteed or effortless. It requires intentionality and reflection on the part of the designers, as well as a humble willingness to listen to criticism from anyone, including those who are not `experts.' This was a key point of the various critical \ac{gis} movements discussed in Section \ref{sec:collaborative}. Their work is demonstration that it is possible develop and apply \ac{gis} in a collaborative and participatory manner.
 
@@ -521,7 +521,7 @@ As we proceed, we must keep in mind that "the very notion that technologies are 
 
 %"Those who have the power to design systems - classification or technical - hold the ability to prioritize hierarchical schemes that privilege certain tyeps of information over others." \cite{nobleAlgorithmsOppressionHow2018}
 
-\subsubsection{\hlc[green]{Technocratic Planning \& International Development}} \label{sec:technocracy}
+\subsubsection{Technocratic Planning \& International Development} \label{sec:technocracy}
 
 I should start off by noting that this section is not intended to consider all of the arguments for and against planning in general (for that see Klosterman \cite{klostermanArgumentsPlanning1985}), but instead to focus in on the narrower question of whether \textit{technocratic planning}, particularly in an international context, can be helpful and ethical. This is important because many \ac{evdt} applications are international or multinational projects, including both of those focused upon in this work.
 
@@ -610,7 +610,7 @@ So, while I argue that a combination of new methodologies and technologies, coll
 %
 %De Soto argues that the poor already have assets, just needs to be formalized. \cite{sotoMysteryCapitalWhy2003} though others argue that this is just results in a cycle of appeasment / welfare \cite{hollandForbearanceRedistributionPolitics2017}
 
-\subsubsection{\hlc[green]{Systems Engineering}} \label{sec:se_critique}
+\subsubsection{Systems Engineering} \label{sec:se_critique}
 
 So how does systems engineering relate to this discussion of technocratic planning? Well, systems engineering constituted one of the primary fields that technocrats drew upon, particularly in the 1950s-1970s. In 1964, the state of California commissioned four aerospace companies to conduct studies and develop models of the state's transportation needs for the coming decades \cite{smithSystemsApproachUrban1968}. US Vice President Herbert Humphrey said in a 1968 speech that ``The techniques that are going to put a man on the Moon are going to be exactly the techniques that we are going to need to clean up our cities" \cite{lightWarfareWelfareDefense2005}. In the same year, the RAND Corporation established the \ac{nycri} in an attempt to bring systems analysis and engineering to urban planning. Around the same time, the \ac{aiaa} hosted meetings on urban technologies to bring aerospace expertise to bear on the urban crises of the time \cite{lightWarfareWelfareDefense2005}. In 1970, NASA established the Urban Development Applications Project \cite{fosterUrbanDevelopmentApplications1970}, followed by a New York City Applications Project in 1972, and an NSF Urban Technology System Experiment in 1973 \cite{karenTechnologyTransferNew1973}. Also in 1970, Jay Forrester published his seminal paper ``Systems Analysis as a Tool for Urban Planning" \cite{forresterSystemsAnalysisTool1970} which in 1972 would be expanded upon with the World3 model used in the (in)famous book \textit{The Limits to Growth} \cite{meadowsLimitsGrowth1972}. System dynamics, the modeling approach underlying both of these, would go on to have major impacts on business management, urban development, and environmentalism \cite{forresterSystemDynamicsPersonal2007a}. The very same year, the US federal government established the \ac{usac} to bring systems engineering and analysis tools to municipalities across the country \cite{kraemerRequiemUSAC1979}. Outside of the US, the London-based think-tank, Centre for Environmental Studies, was advocating for the use of multiscale and multidomain urban models as early as 1968 \cite{wilsonModellingSystemsAnalysis1968}. It was a heady time, with engineers feeling ``that, having reached the moon, they could now turn their energies to solving the problem of growing violence in cities along with other urban ``crises" \cite{mazza2017}. These applications were justified by several different rationale, chief among them were \cite{lightWarfareWelfareDefense2005}: 
 
@@ -769,7 +769,7 @@ The third approach is appropriate not only because it allows for plenty of resea
 
 The question then, is what domain would be fruitful for this endeavor? Campbell suggests that ``the idea of sustainability lends itself nicely to the meeting on common ground of competing value systems." As should be obvious at this point, I tend to agree with him, while noting that just because sustainable development is an apt proving ground, it does not mean that it is the only domain well suited for such collaboration.
 
-\subsection{\hlc[green]{Sustainable Development \& the SDGs}} \label{sec:sdg_critique}
+\subsection{Sustainable Development \& the SDGs} \label{sec:sdg_critique}
 
 The concept of sustainable development as espoused by \acp{ngo} and UN agencies is not without critique. Nor is the specific substantiation of sustainable development in the \acp{sdg}. There are three primary such critiques that this section will address:
 
@@ -849,7 +849,7 @@ Williamson and Connolly point out that "the term sustainability exists and opera
 We can seek to act similarly, perhaps. The \acp{sdg} and the \ac{un}'s concept of sustainable development are useful for communicating with a broad audience and coordinating action, but they should not be used to overrun more local concepts of sustainability. These are all important lessons to consider during the development of a framework in the following chapter.
 
 
-\subsection{\hlc[cyan]{Scenario Planning \& Decision-Support is unfounded}} \label{sec:scenario_critique}
+\subsection{Scenario Planning \& Decision-Support is unfounded} \label{sec:scenario_critique}
 
 Skepticism of the usefulness of model-based \acp{dss} are not new. As far back as the 1970s, there have been critiques of the use of complicated, multi-domain models to address multiple concerns at the same time. The models of this era were (rightfully) criticized for failing to provide accurate results, requiring too detailed data while outputting uselessly coarse data, mis-applying theory, being black boxes, and expense \cite{leejrRequiemLargeScaleModels1973}. Similarly, as late as 1990, many researchers were arguing that \ac{gis} was not mature enough to serve as the basis for a \ac{dss} \cite{jankowskiIntegratingGeographicalInformation1995}. And as recently as 2010, existing \ac{pss} have been criticized for being lacking with regard to "visioning, storytelling sketching, and developing strategies," as well as being "too generic, too complex, inflexible, incompatible..., oriented towards technology rather than problems" \cite{brommelstroetPlanningSupportSystems2010}" This leads to what some have called the "implementation gap" of \acp{pss} \cite{BottlenecksBlockingWidespread}. This argument was explored in more depth in Section \ref{sec:se_critique} with regards to systems engineering, but it also impacts decision support in key ways. If the models underlying a \ac{dss} cannot be trusted, neither can the \ac{dss}. If you cannot simulate plausible scenarios (as Figure \ref{fig:projections} would suggest is often the case) you cannot conduct scenario planning.  
 
@@ -879,11 +879,11 @@ Even assuming that participative, model-based decision support has been conclusi
 
 %Is not itself a means of planning and implementing projects. It is not a full life-cycle tool such as \ac{ppbs} \cite{hatryCriteriaEvaluationPlanning1972}
 
-\section{\hlc[cyan]{Lessons \& Conclusion}} \label{sec:chap2-conc}
+\section{Lessons \& Conclusion} \label{sec:chap2-conc}
 
 This chapter discussed a variety of fields with varying levels of connection, as well as some significant critiques of those fields and how they have been applied in recent centuries. The impetus of this chapter was the question:
 
-\blockquote{ 1. What aspects of systems architecture (and systems engineering in general) are relevant and useful for approaching issues of sustainability in complex \acf{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to avoid the technocratic excesses of the past?}
+\blockquote{ 1. What aspects of systems architecture (and systems engineering in general) can be used to support sustainability in complex \ac{sets}? In particular, how can they be adapted using techniques from collaborative planning theory and other critical approaches to avoid the technocratic excesses of the past?}
 
 Are we now prepared to answer it?
 

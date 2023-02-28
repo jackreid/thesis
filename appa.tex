@@ -1,8 +1,10 @@
-\chapter{\hlc[yellow]{Glossary}} \label{glossary}
+\chapter{Glossary} \label{glossary}
 
 Language in general and technical jargon (of which this glossary qualifies) in particular is intended to communicate. This requires that both the speaker and the listener have some common understanding of the terms used. For this reason, I rarely find it helpful to generate new definitions for commonly used words, except to clarify when there is some significant discrepancies in how the term is commonly used. It is generally preferable to coin a new term if a new meaning is required (see, for instance Myoa Bailey's coining of the term \textit{misogynoir} \cite{baileyMoreOriginMisogynoir} or the significantly less elegant \textit{socio-environmental-technical system} used in this document).  
 
 \textbf{Accessibility:} The degree to which something (usually data in this thesis) is easy to access for a given person or group. Greater accessibility means that a larger set of people can access and use the data with minimal difficulty. To be compared with \textit{availability}.
+
+\textbf{Architectural Alignment:} The extent to which a particular system architecture constitutes a satisfactory balance of preferences of a wide set of stakeholders. For more discussion, see Section \ref{sec:desired-outcomes}.
 
 \textbf{Availability:} The degree to which something (usually data in this thesis) is available for use by someone. Barriers to availability include a time delay and lack of sensors. Availability is primarily based on what data is ``out there" independent of how easy it is to gain access to it or to use it. To be compared with \textit{accessibility}. 
 
@@ -10,7 +12,11 @@ Language in general and technical jargon (of which this glossary qualifies) in p
 
 \textbf{Context:} See \textit{System Context}.
 
+\textbf{Core Team:} With regard to the \ac{evdt} Modeling Framework, this refers to those directly involved in the development of the framework in general, beyond any particular \ac{evdt} project. For more discussion, see Section \ref{sec:intended}.
+
 \textbf{Critical Remote Sensing:} A new field, most clearly laid out by Bennet et al. that reconsiders the rationales for the use of satellite data in a more critical light than has been common \cite{bennettPoliticsPixelsReview2022}. In particular, they advocate for a tripartite research agenda of \textit{exposing}, \textit{engaging}, and \textit{empowering}. By exposing, they mean using remote sensing to provide evidence of socioeconomic and environmental injustices, with a particular emphasis on clandestine activities. By engaging, they mean recognizing the very much non-objective perspective of remote sensing and seeking to integrate remote sensing with local knowledge rather than supplant it. By empowering, they mean partnering with groups that remote sensing is collecting data about, particularly marginalized groups, for capacity building and participating in the use of the data.
+
+\textbf{Developer:} With regard to the \ac{evdt} Modeling Framework, an individual directly involved with developing the models, user interfaces, visualizations, and other associated aspects of the \ac{dss} software for the various \ac{evdt} projects. For more discussion, see Section \ref{sec:intended}.
 
 \textbf{\acf{dss}:} A technical system aimed at facilitating and improving decision-making. Functions can include visualization of data, analysis of past data, simulations of future outcomes, and comparisons of options.
 
@@ -25,6 +31,8 @@ Language in general and technical jargon (of which this glossary qualifies) in p
 \textbf{Function:} See \textit{System Function}.
 
 \textbf{\acf{gis}:} Any digital system for storing, visualizing, and analyzing geospatial data, that is data that has some geographic component. The term can also be used to discuss specific systems, a method that uses such systems, a field of studying focusing on or involving such systems, or even the set of institutions and social practices that make use of such a system \cite{sheppardGISSocietyResearch1995}. For more discussion of this definition, see Section \ref{sec:gis}.
+
+\textbf{Local Context Expert:} With regards to an \ac{evdt} project, one who has a high level of knowledge of the \ac{sets} and stakeholders. This could include a local community leader, an experienced activist, or a local government official. For more discussion, see Section \ref{sec:initiate} and \ref{sec:intended}.
 
 \textbf{Multidisciplinary Optimization:} A methodology for the design of systems in which strong interaction between disciplines motivates designers to simultaneously manipulate variables in several disciplines \cite{sobieszczanski-sobieskiMultidisciplinaryAerospaceDesign1997}.
 
@@ -48,6 +56,8 @@ Language in general and technical jargon (of which this glossary qualifies) in p
 
 \textbf{Remote Sensing:} See \textit{remote observation}.
 
+\textbf{Scale:} See \textit{System Context Scale}.
+
 \textbf{Scenario Planning}: A particular form of planning that focuses on long-term strategic decisions through the representation of multiple, plausible futures of a system of interest \cite{goodspeedScenarioPlanningCities2020}. These futures are often generated by models such as \ac{evdt}.
 
 \textbf{Secondary Stakeholder:} Those who have direct influence on the Primary Stakeholders, typically via authority or funding.
@@ -64,12 +74,15 @@ Language in general and technical jargon (of which this glossary qualifies) in p
 
 \textbf{Sustainable Development}: The integration of three separate, previously separate fields: economic development, social development and environmental protection \cite{worldsummitonsustainabledevelopmentPlanImplementationWorld2002}.  For a more detailed discussion of the history of this term, see Section \ref{sec:sustain}.
 
-
 \textbf{Systems Architecture/Architeting:} The mapping of function to form such that the essential features of the system are represented. The intent of architecture is to reduce ambiguity, employ creativity, and manage complexity \cite{crawleySystemArchitectureStrategy2015}. For more discussion including alternative definitions, see Section \ref{sec:saf_stakeholders}.
 
 \textbf{System Boundary:} The limit demarcating the system of interest from the rest of the universe. The System Boundary determines what is considered part of the system (and thus subject to the decisions of the designer and stakeholders) and what is not (and is thus considered beyond their control, for the purposes of this project at least). See Section \ref{sec:saf_context} for more details.
 
 \textbf{System Context:} The external factors that influence and constrain the system. For more discussion, see Section \ref{sec:saf_context}.
+
+\textbf{System Context Scale:} In the context of the \ac{saf}, this refers to how spatially or organizationally "zoomed in/out" one's perspective is. Examples include municipal, provincial, and national. For more discussion, see Section \ref{sec:saf_context}.
+
+\textbf{System Context Dimension:} In the context of the \ac{saf}, this refers to the topical perspective taken within a Scale. Examples include regulations, environment, and technology. For more discussion, see Section \ref{sec:saf_context}.
 
 \textbf{Systems Engineering:} An interdisciplinary approach and means to enable the realization of successful systems. It focuses on holistically and concurrently understanding stakeholder needs; exploring opportunities; documenting requirements; and synthesizing, verifying, validating, and evolving solutions while considering the complete problem, from system concept exploration through system disposal \cite{systemsengineeringbodyofknowledgeSystemsEngineeringGlossary2021}. 
 For a more detailed discussion of this definition, including its flaws, see Section \ref{sec:se}.
@@ -80,11 +93,15 @@ For a more detailed discussion of this definition, including its flaws, see Sect
 
 \textbf{System Objective:} The high level description of what the system will do.
 
+\textbf{Technical Area Expert:} With regards to an \ac{evdt} project, a holder of some level of expertise with regards to one or more components of the \ac{sets} of interest who is willing to participate in the project. Examples include a botanist specializing in mangroves or a public health researcher specializing in infectious diseases. For more discussion, see Section \ref{sec:initiate} and \ref{sec:intended}.
+
 \textbf{Tertiary Stakeholder:} Those that exert either little control or primarily indirect control on the system, but ae impacted by the system.
 
 \textbf{Tradespace:}  The space spanned by the completely enumerated design variables, i.e. the set of possible design options \cite{rossTradespaceExplorationParadigm2005}.
 
 \textbf{Tradespace Exploration:} A process by which various options with a tradespace may be examined and compared in the absence of a single utility function, such as when multiple stakeholders are involved or multiple contexts with no clear priority exist \cite{rossTradespaceExplorationParadigm2005}.
+
+\textbf{User:} With regard to the \ac{evdt} Modeling Framework, an individual who directly uses the \ac{dss} software developed through an \ac{evdt} project. Exactly who these are will depend on the specific project. For more discussion, see Section \ref{sec:intended}.
 
 \clearpage
 \newpage
