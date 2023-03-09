@@ -114,7 +114,7 @@
 % 	\thesisdate{December 10, 1986}
 %% If the thesis is copyright by the Institute, leave this line out and
 %% the standard copyright line will be used instead.
-% 	\copyrightnotice{J. Casey Salas, 1986}
+% 	\copyrightnotice{Jack B. Reid, 2023}
 %% If there is more than one supervisor, use the \supervisor command
 %% once for each.
 % 	\supervisor{John D. Galli}{Director, Sound Instrument Laboratory}

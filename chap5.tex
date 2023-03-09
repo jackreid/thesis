@@ -3,15 +3,39 @@
 
 \section{Chapter Purpose \& Structure}
 
-Like Chapter \ref{ch:mangroves}, the case study detailed in this chapter is in service to multiple objectives. First, it seeks to address Research Question 2: ``Does the \ac{evdt} Modeling Framework effectively support decision-making in in complex \acf{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
+This chapter details an application of the \acf{evdt} Framework for supporting \ac{covid} response in several different regions around the world, varying in size from municipalities to multiple provinces. It thus serves as a case study intended both to demonstrate the utility of the framework and to be a useful reference for those seeking to apply the framework themselves. In this way, this chapter seeks to address Research Question 2: ``Does the \ac{evdt} Framework effectively support decision-making in in complex \ac{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
 
-	\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
-		\item{System architecture analyses of each of the case studies} 
-		\item{Development of an \ac{evdt}-based \acf{dss} for each of the case studies} 
-		\item{An interview-based assessment of the development process and usefulness of each \ac{dss}} 
-	\end{enumerate}
+\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
+	\item{System architecture analyses of each of the case studies} 
+	\item{Development of an \ac{evdt}-based \acf{dss} for each of the case studies} 
+	\item{An interview-based assessment of the development process and usefulness of each \ac{dss}} 
+\end{enumerate}
+
+It should be noted that this case study differs from that presented in Chapter \ref{ch:mangroves} in several key ways and in many ways is quite unlike the originally envisioned \ac{evdt} use case detailed in Chapter \ref{ch:evdt}. Rather than dealing with a particular, relatively small study area, this case study includes it involves several distinct study areas of varying sizes (some quite large) with similar but not identical problems to be addressed (the impacts of \ac{covid} manifested quite differently around the world). While there were certainly gaps in our understanding of mangrove health and ecosystem services, these gaps paled in comparison to our understanding of \ac{covid} dynamics and impacts, particularly early in the pandemic (when this project was taking place). 
+
+Finally, due to the urgency and complexity of the \ac{covid} pandemic, a much more iterative \ac{evdt} Framework process was used, with individual steps abbreviated. For instance, during the initial \ac{saf}, we did not contact and formally interview all identified stakeholders, as this would have been quite time consumptive both in terms of the number of such stakeholders across the study areas and their availability for an interview in the early days of the pandemic. Instead, we relied upon multiple iterative cycles to incorporate the perspectives and needs of additional stakeholders over time. Figure \ref{fig:saf-comparison} shows this in a graphical form.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Figures/chap5/saf-comparison.png}
+	\caption[Comparison of the standard EVDT Framework with the Vida Process]{Comparison of the standard EVDT Framework (top, showing only the middle steps) with the process used during the Vida project (bottom)}
+	\label{fig:saf-comparison}
+\end{figure}
+
+
+These factors raise the question of why this case study is included in this thesis at all. I include it for three primary reasons. First, this was the first of the ``second generation" \ac{evdt} projects and thus represented our first chance to re-use assets from earlier projects and make use of lessons learned. Second, partially due to these notable differences, this case study resulted in important lessons for the \ac{evdt} Framework that were key to its current formulation. Finally, I think it important to show how the framework does (and does not) perform under the stresses of urgency and complexity.
 	
-Through these deliverables, this chapter serves as a demonstration of the \ac{evdt} Framework. The structure of this chapter thus mirrors the components of the framework laid out in Section \ref{sec:framework}. It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:vida-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:vida-saf-method}) and the results of each step (Section \ref{sec:vida-saf-result}. Then, in Section \ref{sec:vida-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These two are separated in methodology (Section \ref{sec:vida-evdt-method}) and results (Section \ref{sec:vida-evdt-result}. These are then integrated into a prototype \ac{dss} in Section \ref{sec:vida-dss}. Finally Section \ref{sec:vida-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. The remaining sections examine and discuss the outcomes of this case study. The following chapter will similarly present a second case study.  
+Despite these differences in process, the structure of this chapter will still follow the components of the standard framework laid out in Section \ref{sec:framework}. Each section will present a summary of the overall methods employed and results obtained, rather than detailing each of the iterations of Figure \ref{fig:saf-comparison}. Similarly, this chapter focuses on an overview of the Vida project across study areas, employing some highlights and examples from specific study areas as needed, but not comprehensively covering each.
+
+It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:vida-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:vida-saf-method}) and the results of each step (Section \ref{sec:vida-saf-result}. Here I outline the various study areas; explain the nature of stakeholder interactions for the project; show how stakeholder needs align and vary across the study areas; and synthesize particular topics of interest for analysis and inclusion in the \ac{dss}.
+
+Then, in Section \ref{sec:vida-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These are also separated into methodology (Section \ref{sec:vida-evdt-method}) and results (Section \ref{sec:vida-evdt-result}. Unlike Chapter \ref{ch:mangroves}, there is no primary flow to these analyses (something that is discussed towards the end of this chapter). Environmental analyses included tracking (in-situ) air quality and urban nightlights. Public health relied predominantly on a systems dynamics model of cases over time. Vulnerability considered various forms of economic and human impacts, such as telecommunications-based mobility trends and ship traffic. Decision-making focused on government policies to reduce the spread of \ac{covid} such as mask mandates and public area closures.
+
+These are then integrated into a prototype \ac{dss} in Section \ref{sec:vida-dss} that built upon the code base from the previous chapter's \ac{dss}, displaying spatiotemporal data and generating public health scenarios based on user inputs.
+
+Section \ref{sec:vida-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. This was a key point of this case study as the fact that this project covered multiple stakeholders meant that in some ways, this project consisted of multiple, parallel \ac{evdt} projects. It thus had new opportunities for collaboration across study areas.
+
+Section \ref{sec:vida-discuss} provides the primary discussion of the chapter, considering the various methodological limitations at each stage of this project and what lessons were learned for the \ac{evdt} Framework as a whole; in particular the benefits of multi-study-area or multi-project communication and collaboration, and the importance of clearly scoped problem and use. These lessons are revisited in Chapter \ref{ch:conclusion} as part of a broader evaluation of the \ac{evdt} Framework.
 
 It should be noted that, as stated in Section \ref{sec:questions}, each case study also has its own objectives beyond supporting a chapter of this thesis. In this case, that means supporting \ac{covid} pandemic response in each of the participating metropolitan areas. Readers interested in environmental analyses performed in the course of this research are pointed to Sections \ref{sec:vida-evdt-e-method}, \ref{sec:vida-evdt-e-result}, and \ref{sec:vida-discuss}.
 
@@ -35,7 +59,7 @@ The following subsections work through the six steps of the \ac{saf} originally 
 
 \subsubsection{System Context}
 
-As the \ac{covid} pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Modeling Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, \ac{covid} impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas:
+As the \ac{covid} pandemic swept the globe, many of the local points of contact working with Space Enabled on \ac{evdt} and other projects had sudden changes in priorities. Several of them raised the possibility of adapting and expanding the \ac{evdt} Framework to approach coronavirus-related decision-making and impact analysis. This seemed relevant because, as others have noted, \ac{covid} impacts and response can be characterized as a complex system warranting a multi-domain, model-based approach \cite{deweckHandlingCOVID192020}. This project,  which ultimately became known as the Vida \ac{dss} International Network (or just Vida for short), constitutes the second case study of this thesis. It came to involve six metropolitan areas:
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
     \item{Luanda, Angola}
@@ -61,7 +85,11 @@ Whereas the first case study focuses on simulating the changes in mangrove fores
 
 \subsubsection{Analyze System Stakeholders}
 
-The Technical Area Experts on this project included researchers from Harvard Medical School, \ac{nasa} Goddard Space Flight Center, and East Carolina University, as well as private consultants from Blue Raster. Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The list of primary Local Area Experts are shown in Table \ref{tab:vida_participants}. This does not include other individuals who participated more briefly, such as other members of these experts' respective organizations, hospital administrators, and \ac{ngo} representatives. The intended Users are those same individuals as well as the various public health agencies and task forces that they are affiliated with.  
+The Technical Area Experts on this project included researchers from Harvard Medical School, \ac{nasa} Goddard Space Flight Center, and East Carolina University, as well as private consultants from Blue Raster. Thes individuals were recruited by Prof. Danielle Wood and myself specifically to fill gaps in the Space Enabled team's expertise.
+
+Meanwhile the Local Area Experts (many of whom are technical experts in their own right) included a mix of government officials and academic researchers, most of whom work in the public health and/or in \ac{gis}. The government officials themselves span several different offices, including public health departments, data management authorities, science ministries, and space agencies. The list of primary Local Area Experts are shown in Table \ref{tab:vida_participants}. This does not include other individuals who participated more briefly, such as other members of these experts' respective organizations, hospital administrators, and \ac{ngo} representatives. These individuals joined in the Vida project in a variety of ways. Some, such as Felipe Mandarino of \ac{ipp} was already working with Space Enabled on an \ac{evdt} project (namely the Chapter \ref{ch:mangroves} case study). The onset of the pandemic caused those projects to pause or end and our collaborators asked if we could pivot to supporting \ac{covid} response, providing the initial impetus for the Vida project. Others, such as officials at Chile's \ac{minciencia} or Indonesia's Universitas Dipnegoro, we are corresponded with previously but had no ongoing projects with. When the pandemic started, either they contacted us or we contacted them (it varied from stakeholder to stakeholder) about joining in the Vida project.
+
+The intended Users are those same individuals as well as the various public health agencies and task forces that they are affiliated with.  
 
 \begin{table}[!htb]
 \caption[Vida DSS International Network Participants]{Primary Vida \ac{dss} International Network participants.} \label{tab:vida_participants}
@@ -321,7 +349,7 @@ Table \ref{tab:vida_data} provides a summary of the common data types across the
 
 \multirow{3}{3cm}{Technology Development} & \tabitem{Daily testing capacity} \\
 & \tabitem{Ventilator availability} \\
-& \tabitem{Sensing technology access} \\
+& \tabitem{Sensing technology access} \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -636,11 +664,39 @@ Over the past several sections we saw significant differences in data availabili
 
 \section{Decision Support System} \label{sec:vida-dss}
 
-At the time of writing, two distinct versions of the Vida \ac{dss} exist, both of which pursued with an iterative development process. The first, shown in Figure \ref{fig:vidad}, is an open-source, desktop-based version written in Python (the code is available online \cite{reidMITVidaRepository2021}), that can be run on various operating systems (recent versions of Windows, MacOS, and various Linux distros have been tested). 
+The lessons, data, and analysis from the \ac{saf} (Section \ref{sec:vida-saf}) and the \ac{evdt} framing (Section \ref{sec:vida-evdt}) were used to design and develop a \acf{dss}. To revisit the System Functions, the primary functions of the \ac{dss} were to:
 
-The user interface can be easily switched between languages (English, Spanish, and Portuguese are currently available, with easy functionality for adding additional languages) and between the locations of interest.
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Visualize historical public-health and relevant non-public-health data.} The public health data includes \ac{covid} cases, deaths, and hospitalizations, among others. The relevant non-public-health data is based on the priorities of each study area but include such things as \ac{covid} response policy decisions, air quality, economic indicators, and mobility data.}
+	\item{\textbf{Identify and highlight connections between public health and non-public-health phenomena.} These can go in either direction, such as the impact of weather and air quality on the infectiousness of \ac{covid} or the impact of \ac{covid} on jobs.}
+	\item{\textbf{Simulate potential future trajectories of the pandemic based on different policy decisions.} True forecasting was deemed to be beyond the capabilities of this team, but scenario generation was considered an acceptable alternative for raising the potential implications of different policy choices.} 
+\end{itemize}
 
-This version can present temporal data, spatial data, and spatiotemporal data. The first of these is done through plots (visible on the left of Figure \ref{fig:vidad}), with the data visible in the plots controllable through dropdown menus. These are divided into eight categories:
+\subsection{Overview of Components and Initialization}
+
+The \ac{dss} was built upon the Chater \ref{ch:mangroves} \ac{dss}, re-using and improving its code. It was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package, with much of the development taking place in late spring of 2020 through mid-2021. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS (with recent versions of all three being tested for use with the \ac{dss}). It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All code is available in Appendix \ref{app:code}. The user interface can be easily switched between languages (English, Spanish, and Portuguese are currently available, with easy functionality for adding additional languages) and between each of the study areas.
+
+The \ac{dss} consists of three primary components:
+
+\begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
+	\item{\textbf{A map display} capable of showing a variety of both raster and vector data including a a satellite view of the area, jurisdictional boundaries, and chloropleth statistics.}
+	\item{\textbf{A graph display} containing two graphs, each capable of displaying various public health, economic, and environmental data over time.}
+	\item{\textbf{A simulator} capable of generating future \ac{covid} scenarios and displaying them via the above graphs. These scenarios are based either on the user manually entering \ac{covid} response policies and on a weekly basis or by running the simulation according to various pre-coded decision rules.}
+\end{enumerate}
+
+All three such components are immediately presented to the user upon initialization, as seen in Figure \ref{fig:vidad}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.85\textwidth]{Figures/chap5/VidaDesktopScreenshot.jpg}
+\caption[Desktop Vida DSS Screenshot]{Screenshot of the desktop version of the Vida \ac{dss}. Currently showing the Rio de Janeiro study area.}
+\label{fig:vidad}
+\end{figure}
+
+
+\subsection{Spatiotemporal Data Display}
+
+This \ac{dss} can present temporal data, spatial data, and spatiotemporal data. The first of these is done through plots (visible on the left of Figure \ref{fig:vidad}), with the data visible in the plots controllable through dropdown menus. These are divided into eight categories:
 
 \begin{itemize}[itemsep=0pt,parsep=0pt]
 	\item{\textbf{Policies \& Actions:} Closure policies, social distancing policies, and curfews.}
@@ -653,13 +709,6 @@ This version can present temporal data, spatial data, and spatiotemporal data. T
 	\item{\textbf{Mobility:} Information pertaining to the movement of humans around the study areas.} 
 \end{itemize}
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.85\textwidth]{Figures/chap5/VidaDesktopScreenshot.jpg}
-\caption[Desktop Vida DSS Screenshot]{Screenshot of the desktop version of the Vida \ac{dss}. Currently showing the Rio de Janeiro study area.}
-\label{fig:vidad}
-\end{figure}
-
 Some of these datasets were based on direct collection and reporting by public health officials and other government agencies in each of the study areas. Others, such as the Hospitalization Rate, were calculated from the directed reported values (e.g. by taking the difference in hospitalized populations between each reporting period). Still others, such as the Hospitalization Likelihood, were set as constants with estimates based on the \ac{covid} literature and data from each particular study area. A full list of the temporal data available in these plots for each study area is available in Table \ref{tab:vida-temporal}.
 
 The other two kinds of data are presented in the kinds of maps shown on the right in Figure \ref{fig:vidad}, which is currently displaying visual imagery of the Rio de Janeiro area overlaid with the most recent PM10 measurements from in-situ monitoring stations. Vector data is displayed using chloropleths, similarly to the \ac{dss} from Chapter \ref{ch:mangroves}. This typically included whatever of the temporal data was available in more geographically discrete forms, such as the various air quality measurements in Rio de Janeiro and Metropolitana.
@@ -669,6 +718,8 @@ The raster imagery, displayed underneath the semi-transparent chloropleths inclu
 Should either the raster imagery or the vector geographic data be available at multiple points in time, additional slides appear at the bottom of the image to allow the user to select specific dates. Non-spatial data are saved in CSVs, vector spatial data in shapefiles, and raster spatial data in GeoTIFF format.
 
 The arrangement of the plots and maps can be changed by the user with the Arrange drop-down menu in the top left. This allows for swapping their locations, displaying an additional two plots instead of the map, or displaying an additional map instead of the two plots.
+
+\subsection{Scenario Generation}
 
 In addition to presenting historical data, the desktop version of the \ac{dss} can also conduct public health simulations, using the system dynamics \ac{sir} model presented earlier. This simulations can either be run manually, with the user selecting specific policies at each week using the controls in the bottom left, or automatically for specified time periods, according to certain pre-coded decision rules (listed in the bottom right). These rules were based on the official policies of the location of interest. The user can then use the ``Clear Simulation" button to reset the simulation in order to re-run the simulation with different inputs. Figure \ref{fig:vida-dss-simulation} shows a screenshot of the \ac{dss} once the simulation had been run in the pre-coded decision rule format for 300 days in the Rio de Janeiro study area. You can see it forecast an immediately forthcoming spike, followed by a major decrease in cases until, about 150 days later when another spike would occur.
 
@@ -681,7 +732,11 @@ In addition to presenting historical data, the desktop version of the \ac{dss} c
 
 Over the course of its development, the model was roughly calibrated using historical data, expanded as new dynamics become evident, and examined by public health experts. Various potential improvements are evident, including combining the \ac{sir} system dynamics model with an agent-based model to help address some of the deficiencies of the system dynamics approach \cite{ahmedVarianceSystemDynamics2012}, such as the lack of a spatial component.
 
-The second version of the Vida is online, created in collaboration with Blue Raster and hosted by Esri's ArcGIS Online, and has somewhat different functionality. This version, shown in Figure \ref{fig:vidab} (using the Boston areas as an example), focuses on the presentation of historical data and thus lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface. Ultimately this version of the Vida \ac{dss} was created for Boston \cite{bluerasterMITVidaSupportBoston2021} and Rio de Janeiro \cite{bluerasterRioJaneiroVida2021}, but not for the other study areas.
+\subsection{Experiment With An Online DSS}
+
+In addition to the primary, desktop-based \ac{dss}, we experimented with the possibility of deploying an online \ac{dss}. This was done in collaboration with Blue Raster, who provided the software infrastructure and hosted it with their Esri's ArcGIS Online account. Ultimately this version of the Vida \ac{dss}, which was intended to be exploratory and as a proof-of-concept rather than the primary \ac{dss}, was only created for Boston \cite{bluerasterMITVidaSupportBoston2021} and Rio de Janeiro \cite{bluerasterRioJaneiroVida2021}, but not for the other study areas. 
+
+This version, shown in Figure \ref{fig:vidab}, has different functionality than the desktop-based \ac{dss}. It focuses on the presentation of historical data (both temporal and spatial) and lacks simulation capability. It does however have the capability of showing more graphs at the same time, including allowing the user to merge multiple graphs into one for easy comparison, and an overall more streamlined interface. 
 
 \begin{figure}[!htb]
 \centering
@@ -786,7 +841,7 @@ The success of the multilateral Network meetings prompted us to continue such me
 
 This chapter presented one of the more unique implementations of the \ac{evdt} framework. Where most other \ac{evdt} applications to date have focused on a particular study area and little urgency (at least on the scale of weeks to months), this project sought to rapidly support \ac{covid} response across several different regions around the world. To this end, I detailed the situation that these regions (and the world at large) faced and what the stakeholder needs were. This was followed by a series of analyses on how air quality, nightlights, \ac{covid} cases, mobility, and policies. These were used to construct two prototype \acp{dss} for viewing \ac{covid}-related data and simulating various policy outcomes.
 
-In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``Does the \ac{evdt} Modeling Framework effectively support decision-making in in complex \ac{sets}?"
+In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``Does the \ac{evdt} Framework effectively support decision-making in in complex \ac{sets}?"
 
 This implementation was not without its flaws and this experience informed refinements of the \ac{evdt} Framework. The following chapter will use these lessons to evaluate the framework itself.
 

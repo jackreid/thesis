@@ -7,6 +7,10 @@ Anita~K. Jones.
   Symposium}} on {{Earth Systems Engineering}}}, pages 59--64. {The National
   Academies Press}, {Washington, DC}, 2002.
 
+\bibitem{baileyMoreOriginMisogynoir}
+Moya Bailey.
+\newblock More on the origin of {{Misogynoir}}.
+
 \bibitem{belwardWhoLaunchedWhat2015}
 Alan~S. Belward and Jon~O. Sk{\o}ien.
 \newblock Who launched what, when and why; trends in global land-cover
@@ -487,7 +491,7 @@ Matt Finer, Sidney Novoa, Mikaela~J. Weisse, Rachael Petersen, Joseph Mascaro,
 \newblock {\em Science}, 6395(360):1303--1305, 2018.
 
 \bibitem{overton1991further}
-M~Overton and PJ~Taylor.
+M~Overton and {\relax PJ}~Taylor.
 \newblock Further thoughts on geography and {{GIS}}: {{A}} preemptive strike?
 \newblock {\em Environment and Planning A}, 23:1087--1094, 1991.
 
@@ -2261,6 +2265,10 @@ Vinicius da~Silva Seabra and Carla~Madureira Cruz.
   hidrogr\'afica do Rio S\~ao Jo\~ao, RJ}.
 \newblock {\em Sociedade \& Natureza}, 25(2):411--426, August 2013.
 
+\bibitem{mandarinoNASARioJaneiroPartnership2018}
+Felipe Mandarino, Margaret~M. Hurwitz, and Dalia~B. Kirschbaum.
+\newblock The {{NASA-Rio}} de {{Janeiro Partnership}}, October 2018.
+
 \bibitem{prefeituradacidadedoriodejaneiroPLANOESTRATEGICOCIDADE2017}
 {Prefeitura da Cidade do Rio de Janeiro}.
 \newblock {{PLANO ESTRAT\'EGICO DA CIDADE DO RIO DE JANEIRO}}, 2017.
@@ -2272,7 +2280,7 @@ Jr~Acioly~C.
 \newblock {\em Geoforum}, 2001.
 
 \bibitem{desousasantosParticipatoryBudgetingPorto1998}
-BOAVENTURA {de SOUSA SANTOS}.
+{\relax BOAVENTURA}~{de SOUSA SANTOS}.
 \newblock Participatory {{Budgeting}} in {{Porto Alegre}}: {{Toward}} a
   {{Redistributive Democracy}}.
 \newblock {\em Politics \& Society}, 26(4):461--510, December 1998.
@@ -2462,13 +2470,6 @@ A.~Begossi.
   {{Atlantic Forest}} ({{Brazil}}).
 \newblock {\em Regional Environmental Change}, 2(1):1--12, August 2001.
 
-\bibitem{herzogLocalAssessmentRio2013}
-Cecilia~P Herzog and Ricardo Finotti.
-\newblock Local assessment of {{Rio}} de {{Janeiro}} city: {{Two}} case studies
-  of urbanization trends and ecological impacts.
-\newblock In {\em Urbanization, Biodiversity and Ecosystem Services:
-  {{Challenges}} and Opportunities}, pages 609--628. {Springer}, 2013.
-
 \bibitem{amadorBaiaGuanabaraOcupacao2013}
 Elmo da~Silva Amador.
 \newblock {\em {Ba\'ia de Guanabara. Ocupa\c{c}\~ao Hist\'orica e
@@ -2551,6 +2552,12 @@ Pete Bunting, Ake Rosenqvist, Richard~M. Lucas, Lisa-Maria Rebelo, Lammert
 \newblock The {{Global Mangrove Watch}}\textemdash{{A New}} 2010 {{Global
   Baseline}} of {{Mangrove Extent}}.
 \newblock {\em Remote Sensing}, 10(10):1669, October 2018.
+
+\bibitem{raisg-mapbiomasconsortiumMapBiomasAmazoniaProject2021}
+{RAISG-MapBiomas Consortium}.
+\newblock {{MapBiomas Amazon\'ia Project}} - {{Collection}} 6 of annual land
+  cover and land use maps.
+\newblock https://mapbiomas.org/, August 2021.
 
 \bibitem{vancutsemLongterm199020192021}
 C.~Vancutsem, F.~Achard, J.-F. Pekel, G.~Vieilledent, S.~Carboni, D.~Simonetti,
@@ -2636,6 +2643,13 @@ Lei Ji, Li~Zhang, Bruce~K. Wylie, and Jennifer Rover.
 \newblock {\em International Journal of Remote Sensing}, 32(21):6901--6909,
   November 2011.
 
+\bibitem{wuPotentialSatelliteDerived2012}
+Chaoyang Wu, Zheng Niu, and Shuai Gao.
+\newblock The potential of the satellite derived green chlorophyll index for
+  estimating midday light use efficiency in maize, coniferous forest and
+  grassland.
+\newblock {\em Ecological Indicators}, 14(1):66--73, March 2012.
+
 \bibitem{royCharacterizationLandsat7Landsat82016}
 D.~P. Roy, V.~Kovalskyy, H.~K. Zhang, E.~F. Vermote, L.~Yan, S.~S. Kumar, and
   A.~Egorov.
@@ -2685,14 +2699,14 @@ Hiraishi Takahiko, Thelma Krug, Kiyoto Tanabe, Nalin Srivastava, Baasansuren
 \newblock {IPCC}, 2014.
 
 \bibitem{estrada2013analise}
-GCD Estrada.
+{\relax GCD}~Estrada.
 \newblock {\em An\'alise Espa\c{c}o-Temporal Do Sequestro e Estoque de Carbono
   Na Biomassa A\'erea de Manguezais}.
 \newblock PhD thesis, Universidade Federal do Rio de Janeiro, {Rio de Janeiro,
   Brazil}, 2013.
 
 \bibitem{lacerda1992carbon}
-LD~Lacerda.
+{\relax LD}~Lacerda.
 \newblock Carbon burial in mangrove sediments, a potential source of carbon to
   the sea during events of sea level change.
 \newblock volume~1, pages 107--114. {Soc Bras Geoquim}, {Rio de Janeiro,
@@ -3253,10 +3267,6 @@ Danielle Wood.
 \newblock Partnerships to enable earth science applications.
 \newblock In {\em 68th {{International Astronautical Congress}}}, number
   September, pages 25--29, {Adelaide, Australia}, 2017. {IAF}.
-
-\bibitem{baileyMoreOriginMisogynoir}
-Moya Bailey.
-\newblock More on the origin of {{Misogynoir}}.
 
 \bibitem{sobieszczanski-sobieskiMultidisciplinaryAerospaceDesign1997}
 J~{Sobieszczanski-Sobieski} and R~T Haftka.

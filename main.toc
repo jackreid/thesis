@@ -1,9 +1,10 @@
 \contentsline {chapter}{\numberline {1}Introduction}{27}{chapter.1}%
 \contentsline {section}{\numberline {1.1}A Note On How To Read This Thesis}{27}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Research Problems, Questions, \& Contributions}{28}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Framing}{31}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Space Enabled Principles}{33}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Methodology Summary \& Structure of Thesis}{34}{section.1.5}%
+\contentsline {section}{\numberline {1.2}A Note On Vocabulary}{28}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Research Problems, Questions, \& Contributions}{29}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Framing}{32}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Space Enabled Principles}{33}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Methodology Summary \& Structure of Thesis}{34}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Motivation, Theory, \& Critical Analysis}{37}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Chapter Purpose \& Structure}{37}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Motivation \& Literature Survey}{40}{section.2.2}%
@@ -47,128 +48,133 @@
 \contentsline {subsection}{\numberline {3.4.6}E: Collaborative Development}{139}{subsection.3.4.6}%
 \contentsline {section}{\numberline {3.5}Intended Applications \& Users}{141}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Conclusion}{149}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Rio de Janeiro Development \& Mangroves}{151}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Western Rio de Janeiro Development \& Mangroves}{151}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Chapter Purpose \& Structure}{151}{section.4.1}%
-\contentsline {section}{\numberline {4.2}A Note on Credit / Contributions}{152}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systems Architecture Framework}{152}{section.4.3}%
+\contentsline {section}{\numberline {4.2}A Note on Credit / Contributions}{153}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systems Architecture Framework}{153}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}SAF Methodology}{153}{subsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.1.1}System Context}{153}{subsubsection.4.3.1.1}%
-\contentsline {paragraph}{\numberline {4.3.1.1.1}Study Area}{153}{paragraph.4.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Analyze System Stakeholders}{155}{subsubsection.4.3.1.2}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}Understand Desired Outcomes \& Objectives}{156}{subsubsection.4.3.1.3}%
-\contentsline {subsubsection}{\numberline {4.3.1.4}Select System Functions}{157}{subsubsection.4.3.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.1.5}Assign Function to Forms}{158}{subsubsection.4.3.1.5}%
-\contentsline {subsubsection}{\numberline {4.3.1.6}Monitor and Evaluate Systems}{158}{subsubsection.4.3.1.6}%
-\contentsline {subsection}{\numberline {4.3.2}SAF Results}{158}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}System Context}{158}{subsubsection.4.3.2.1}%
-\contentsline {paragraph}{\numberline {4.3.2.1.1}Big Plans and Megaevents in Rio de Janeiro}{159}{paragraph.4.3.2.1.1}%
-\contentsline {paragraph}{\numberline {4.3.2.1.2}Overlapping Jurisdictions in Guaratiba}{162}{paragraph.4.3.2.1.2}%
-\contentsline {paragraph}{\numberline {4.3.2.1.3}The Environment of Guaratiba}{166}{paragraph.4.3.2.1.3}%
-\contentsline {paragraph}{\numberline {4.3.2.1.4}The People of Guaratiba}{169}{paragraph.4.3.2.1.4}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Analyze System Stakeholders}{171}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Understand Desired Outcomes \& Objectives}{174}{subsubsection.4.3.2.3}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}Select System Functions}{176}{subsubsection.4.3.2.4}%
-\contentsline {subsubsection}{\numberline {4.3.2.5}Assign Function to Forms}{176}{subsubsection.4.3.2.5}%
-\contentsline {subsubsection}{\numberline {4.3.2.6}Monitor and Evaluate Systems}{177}{subsubsection.4.3.2.6}%
-\contentsline {section}{\numberline {4.4}EVDT Application}{177}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}EVDT Methodology}{180}{subsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.1}Environment}{180}{subsubsection.4.4.1.1}%
-\contentsline {paragraph}{\numberline {4.4.1.1.1}Mangrove Extent}{184}{paragraph.4.4.1.1.1}%
-\contentsline {paragraph}{\numberline {4.4.1.1.2}Mangrove Health}{185}{paragraph.4.4.1.1.2}%
-\contentsline {paragraph}{\numberline {4.4.1.1.3}Mangrove Height}{187}{paragraph.4.4.1.1.3}%
-\contentsline {paragraph}{\numberline {4.4.1.1.4}Mangrove Carbon Stocks and Exports}{187}{paragraph.4.4.1.1.4}%
-\contentsline {subsubsection}{\numberline {4.4.1.2}Vulnerability}{188}{subsubsection.4.4.1.2}%
-\contentsline {paragraph}{\numberline {4.4.1.2.1}Socioeconomic Situation}{189}{paragraph.4.4.1.2.1}%
-\contentsline {paragraph}{\numberline {4.4.1.2.2}Carbon Regulation Ecosystem Services}{189}{paragraph.4.4.1.2.2}%
-\contentsline {paragraph}{\numberline {4.4.1.2.3}Non-Carbon Ecosystem Services}{191}{paragraph.4.4.1.2.3}%
-\contentsline {subsubsection}{\numberline {4.4.1.3}Decision-making}{193}{subsubsection.4.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.4.1.4}Technology}{194}{subsubsection.4.4.1.4}%
-\contentsline {subsection}{\numberline {4.4.2}EVDT Results}{194}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.2.1}Environment}{194}{subsubsection.4.4.2.1}%
-\contentsline {paragraph}{\numberline {4.4.2.1.1}Mangrove Extent}{194}{paragraph.4.4.2.1.1}%
-\contentsline {paragraph}{\numberline {4.4.2.1.2}Mangrove Health}{196}{paragraph.4.4.2.1.2}%
-\contentsline {paragraph}{\numberline {4.4.2.1.3}Mangrove Height}{198}{paragraph.4.4.2.1.3}%
-\contentsline {paragraph}{\numberline {4.4.2.1.4}Mangrove Carbon Stocks and Sequestration}{199}{paragraph.4.4.2.1.4}%
-\contentsline {subsubsection}{\numberline {4.4.2.2}Vulnerability}{201}{subsubsection.4.4.2.2}%
-\contentsline {paragraph}{\numberline {4.4.2.2.1}Socioeconomic Situation}{201}{paragraph.4.4.2.2.1}%
+\contentsline {paragraph}{\numberline {4.3.1.1.1}Study Area}{154}{paragraph.4.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Analyze System Stakeholders}{156}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Understand Desired Outcomes \& Objectives}{158}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}Select System Functions}{158}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}Assign Function to Forms}{159}{subsubsection.4.3.1.5}%
+\contentsline {subsubsection}{\numberline {4.3.1.6}Monitor and Evaluate Systems}{159}{subsubsection.4.3.1.6}%
+\contentsline {subsection}{\numberline {4.3.2}SAF Results}{159}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}System Context}{159}{subsubsection.4.3.2.1}%
+\contentsline {paragraph}{\numberline {4.3.2.1.1}Big Plans and Megaevents in Rio de Janeiro}{160}{paragraph.4.3.2.1.1}%
+\contentsline {paragraph}{\numberline {4.3.2.1.2}Overlapping Jurisdictions in Guaratiba}{163}{paragraph.4.3.2.1.2}%
+\contentsline {paragraph}{\numberline {4.3.2.1.3}The Environment of Guaratiba}{167}{paragraph.4.3.2.1.3}%
+\contentsline {paragraph}{\numberline {4.3.2.1.4}The People of Guaratiba}{170}{paragraph.4.3.2.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Analyze System Stakeholders}{172}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Understand Desired Outcomes \& Objectives}{175}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Select System Functions}{177}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}Assign Function to Forms}{177}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}Monitor and Evaluate Systems}{178}{subsubsection.4.3.2.6}%
+\contentsline {section}{\numberline {4.4}EVDT Application}{178}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}EVDT Methodology}{181}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Environment}{181}{subsubsection.4.4.1.1}%
+\contentsline {paragraph}{\numberline {4.4.1.1.1}Mangrove Extent}{185}{paragraph.4.4.1.1.1}%
+\contentsline {paragraph}{\numberline {4.4.1.1.2}Mangrove Health}{186}{paragraph.4.4.1.1.2}%
+\contentsline {paragraph}{\numberline {4.4.1.1.3}Mangrove Height}{188}{paragraph.4.4.1.1.3}%
+\contentsline {paragraph}{\numberline {4.4.1.1.4}Mangrove Carbon Stocks and Exports}{188}{paragraph.4.4.1.1.4}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}Vulnerability}{189}{subsubsection.4.4.1.2}%
+\contentsline {paragraph}{\numberline {4.4.1.2.1}Socioeconomic Situation}{190}{paragraph.4.4.1.2.1}%
+\contentsline {paragraph}{\numberline {4.4.1.2.2}Carbon Regulation Ecosystem Services}{190}{paragraph.4.4.1.2.2}%
+\contentsline {paragraph}{\numberline {4.4.1.2.3}Non-Carbon Ecosystem Services}{192}{paragraph.4.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}Decision-making}{194}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}Technology}{195}{subsubsection.4.4.1.4}%
+\contentsline {subsection}{\numberline {4.4.2}EVDT Results}{195}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}Environment}{195}{subsubsection.4.4.2.1}%
+\contentsline {paragraph}{\numberline {4.4.2.1.1}Mangrove Extent}{195}{paragraph.4.4.2.1.1}%
+\contentsline {paragraph}{\numberline {4.4.2.1.2}Mangrove Health}{198}{paragraph.4.4.2.1.2}%
+\contentsline {paragraph}{\numberline {4.4.2.1.3}Mangrove Height}{199}{paragraph.4.4.2.1.3}%
+\contentsline {paragraph}{\numberline {4.4.2.1.4}Mangrove Carbon Stocks and Sequestration}{200}{paragraph.4.4.2.1.4}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}Vulnerability}{202}{subsubsection.4.4.2.2}%
+\contentsline {paragraph}{\numberline {4.4.2.2.1}Socioeconomic Situation}{202}{paragraph.4.4.2.2.1}%
 \contentsline {paragraph}{\numberline {4.4.2.2.2}Carbon Regulation Ecosystem Services}{202}{paragraph.4.4.2.2.2}%
-\contentsline {paragraph}{\numberline {4.4.2.2.3}Non-Carbon Ecosystem Services}{202}{paragraph.4.4.2.2.3}%
-\contentsline {subsubsection}{\numberline {4.4.2.3}Decision-making}{204}{subsubsection.4.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.4.2.4}Technology}{207}{subsubsection.4.4.2.4}%
-\contentsline {section}{\numberline {4.5}Decision Support System}{208}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Overview of Components and Initialization}{209}{subsection.4.5.1}%
+\contentsline {paragraph}{\numberline {4.4.2.2.3}Non-Carbon Ecosystem Services}{203}{paragraph.4.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}Decision-making}{203}{subsubsection.4.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.4.2.4}Technology}{208}{subsubsection.4.4.2.4}%
+\contentsline {section}{\numberline {4.5}Decision Support System}{210}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Overview of Components and Initialization}{210}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Spatial and Textual Data Display}{211}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Scenario Generation}{212}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Collaborative Development Process}{217}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Discussion}{218}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}The State and Future of the Guaratiba Socio-environmental System}{218}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Methodological Limitations and Potential Improvements}{221}{subsection.4.7.2}%
-\contentsline {subsubsection}{\numberline {4.7.2.1}Environment}{221}{subsubsection.4.7.2.1}%
-\contentsline {subsubsection}{\numberline {4.7.2.2}Vulnerability}{222}{subsubsection.4.7.2.2}%
+\contentsline {subsection}{\numberline {4.5.3}Scenario Generation}{213}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Collaborative Development Process}{218}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Discussion}{219}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}The State and Future of the Guaratiba Socio-environmental System}{219}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Methodological Limitations and Potential Improvements}{222}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}Environment}{222}{subsubsection.4.7.2.1}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}Vulnerability}{223}{subsubsection.4.7.2.2}%
 \contentsline {subsubsection}{\numberline {4.7.2.3}Decision-Making}{224}{subsubsection.4.7.2.3}%
-\contentsline {subsubsection}{\numberline {4.7.2.4}Technology}{225}{subsubsection.4.7.2.4}%
-\contentsline {subsubsection}{\numberline {4.7.2.5}Stakeholder Collaboration and Engagement}{225}{subsubsection.4.7.2.5}%
-\contentsline {subsubsection}{\numberline {4.7.2.6}Decision Support System}{227}{subsubsection.4.7.2.6}%
-\contentsline {subsection}{\numberline {4.7.3}Lessons Learned for the EVDT Framework}{228}{subsection.4.7.3}%
-\contentsline {section}{\numberline {4.8}Conclusion}{229}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Vida Decision Support System for COVID-19 Response}{231}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Chapter Purpose \& Structure}{231}{section.5.1}%
-\contentsline {section}{\numberline {5.2}A Note on Credit / Contributions}{232}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Systems Architecture Framework}{232}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}SAF Methodology}{233}{subsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.1.1}System Context}{233}{subsubsection.5.3.1.1}%
-\contentsline {subsubsection}{\numberline {5.3.1.2}Analyze System Stakeholders}{234}{subsubsection.5.3.1.2}%
-\contentsline {subsubsection}{\numberline {5.3.1.3}Understand Desired Outcomes \& Objectives}{235}{subsubsection.5.3.1.3}%
-\contentsline {subsubsection}{\numberline {5.3.1.4}Select System Functions}{236}{subsubsection.5.3.1.4}%
-\contentsline {subsubsection}{\numberline {5.3.1.5}Assign Functions to Forms}{236}{subsubsection.5.3.1.5}%
-\contentsline {subsubsection}{\numberline {5.3.1.6}Monitor and Evaluate Systems}{236}{subsubsection.5.3.1.6}%
-\contentsline {subsection}{\numberline {5.3.2}SAF Results}{236}{subsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.1}System Context}{236}{subsubsection.5.3.2.1}%
-\contentsline {subsubsection}{\numberline {5.3.2.2}Analyze System Stakeholders}{237}{subsubsection.5.3.2.2}%
-\contentsline {subsubsection}{\numberline {5.3.2.3}Understand Desired Outcomes \& Objectives}{239}{subsubsection.5.3.2.3}%
-\contentsline {subsubsection}{\numberline {5.3.2.4}Select System Functions}{243}{subsubsection.5.3.2.4}%
-\contentsline {subsubsection}{\numberline {5.3.2.5}Assign Functions to Forms}{243}{subsubsection.5.3.2.5}%
-\contentsline {subsubsection}{\numberline {5.3.2.6}Monitor and Evaluate Systems}{244}{subsubsection.5.3.2.6}%
-\contentsline {section}{\numberline {5.4}EVDT Application}{245}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}EVDT Methodology}{246}{subsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.1}Environment}{247}{subsubsection.5.4.1.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.2}Public Health}{249}{subsubsection.5.4.1.2}%
-\contentsline {subsubsection}{\numberline {5.4.1.3}Vulnerability}{250}{subsubsection.5.4.1.3}%
-\contentsline {subsubsection}{\numberline {5.4.1.4}Decision-making}{252}{subsubsection.5.4.1.4}%
-\contentsline {subsubsection}{\numberline {5.4.1.5}Technology}{256}{subsubsection.5.4.1.5}%
-\contentsline {subsection}{\numberline {5.4.2}EVDT Results}{256}{subsection.5.4.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.1}Environment}{256}{subsubsection.5.4.2.1}%
-\contentsline {paragraph}{\numberline {5.4.2.1.1}Urban Nightlights}{256}{paragraph.5.4.2.1.1}%
-\contentsline {paragraph}{\numberline {5.4.2.1.2}Air Quality}{259}{paragraph.5.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.2}Public Health}{261}{subsubsection.5.4.2.2}%
-\contentsline {subsubsection}{\numberline {5.4.2.3}Vulnerability}{262}{subsubsection.5.4.2.3}%
-\contentsline {subsubsection}{\numberline {5.4.2.4}Decision-Making}{265}{subsubsection.5.4.2.4}%
-\contentsline {subsubsection}{\numberline {5.4.2.5}Technology}{267}{subsubsection.5.4.2.5}%
-\contentsline {section}{\numberline {5.5}Decision Support System}{268}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Collaborative Development Process}{271}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Discussion}{272}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Methodological Limitations and Potential Improvements}{272}{subsection.5.7.1}%
-\contentsline {subsubsection}{\numberline {5.7.1.1}Environment}{273}{subsubsection.5.7.1.1}%
-\contentsline {subsubsection}{\numberline {5.7.1.2}Public Health}{274}{subsubsection.5.7.1.2}%
-\contentsline {subsubsection}{\numberline {5.7.1.3}Vulnerability}{274}{subsubsection.5.7.1.3}%
-\contentsline {subsubsection}{\numberline {5.7.1.4}Decision-Making}{275}{subsubsection.5.7.1.4}%
-\contentsline {subsubsection}{\numberline {5.7.1.5}Technology}{276}{subsubsection.5.7.1.5}%
-\contentsline {subsubsection}{\numberline {5.7.1.6}Stakeholder Collaboration and Engagement}{276}{subsubsection.5.7.1.6}%
-\contentsline {subsubsection}{\numberline {5.7.1.7}Decision-Support System}{276}{subsubsection.5.7.1.7}%
-\contentsline {subsection}{\numberline {5.7.2}Lessons Learned for the EVDT Framework}{277}{subsection.5.7.2}%
-\contentsline {section}{\numberline {5.8}Conclusion}{278}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Summary, Discussion, \& Conclusion}{279}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Chapter Purpose \& Structure}{279}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Summary \& Contributions}{279}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Theory \& Critical Analysis}{279}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}The EVDT Framework}{281}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Rio de Janeiro Development \& Mangroves}{282}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Vida DSS for COVID-19 Response}{283}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Lessons \& Opportunities for Future Inquiry}{284}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}In Rio de Janeiro \& Mangroves Globally}{284}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Lessons from COVID-19}{285}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}The Future of EVDT}{286}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Advancing Stakeholder-Informed Sustainable Development Decision-making}{288}{section.6.4}%
-\contentsline {chapter}{\numberline {A}Glossary}{291}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Rio de Janeiro Stakeholder Interview Questions}{297}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Vida DSS Supplemental Information}{299}{appendix.C}%
+\contentsline {subsubsection}{\numberline {4.7.2.4}Technology}{226}{subsubsection.4.7.2.4}%
+\contentsline {subsubsection}{\numberline {4.7.2.5}Stakeholder Collaboration and Engagement}{227}{subsubsection.4.7.2.5}%
+\contentsline {subsubsection}{\numberline {4.7.2.6}Decision Support System}{228}{subsubsection.4.7.2.6}%
+\contentsline {subsection}{\numberline {4.7.3}Lessons Learned for the EVDT Framework}{229}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}Conclusion}{231}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Vida Decision Support System for COVID-19 Response}{233}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Chapter Purpose \& Structure}{233}{section.5.1}%
+\contentsline {section}{\numberline {5.2}A Note on Credit / Contributions}{236}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Systems Architecture Framework}{236}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}SAF Methodology}{236}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}System Context}{236}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}Analyze System Stakeholders}{238}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}Understand Desired Outcomes \& Objectives}{239}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}Select System Functions}{240}{subsubsection.5.3.1.4}%
+\contentsline {subsubsection}{\numberline {5.3.1.5}Assign Functions to Forms}{240}{subsubsection.5.3.1.5}%
+\contentsline {subsubsection}{\numberline {5.3.1.6}Monitor and Evaluate Systems}{240}{subsubsection.5.3.1.6}%
+\contentsline {subsection}{\numberline {5.3.2}SAF Results}{240}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}System Context}{240}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Analyze System Stakeholders}{241}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}Understand Desired Outcomes \& Objectives}{243}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}Select System Functions}{247}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}Assign Functions to Forms}{247}{subsubsection.5.3.2.5}%
+\contentsline {subsubsection}{\numberline {5.3.2.6}Monitor and Evaluate Systems}{248}{subsubsection.5.3.2.6}%
+\contentsline {section}{\numberline {5.4}EVDT Application}{249}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}EVDT Methodology}{250}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}Environment}{251}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}Public Health}{253}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}Vulnerability}{254}{subsubsection.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}Decision-making}{256}{subsubsection.5.4.1.4}%
+\contentsline {subsubsection}{\numberline {5.4.1.5}Technology}{260}{subsubsection.5.4.1.5}%
+\contentsline {subsection}{\numberline {5.4.2}EVDT Results}{260}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Environment}{260}{subsubsection.5.4.2.1}%
+\contentsline {paragraph}{\numberline {5.4.2.1.1}Urban Nightlights}{260}{paragraph.5.4.2.1.1}%
+\contentsline {paragraph}{\numberline {5.4.2.1.2}Air Quality}{263}{paragraph.5.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}Public Health}{265}{subsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}Vulnerability}{266}{subsubsection.5.4.2.3}%
+\contentsline {subsubsection}{\numberline {5.4.2.4}Decision-Making}{269}{subsubsection.5.4.2.4}%
+\contentsline {subsubsection}{\numberline {5.4.2.5}Technology}{271}{subsubsection.5.4.2.5}%
+\contentsline {section}{\numberline {5.5}Decision Support System}{272}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Overview of Components and Initialization}{272}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Spatiotemporal Data Display}{273}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Scenario Generation}{275}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Experiment With An Online DSS}{276}{subsection.5.5.4}%
+\contentsline {section}{\numberline {5.6}Collaborative Development Process}{276}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Discussion}{278}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Methodological Limitations and Potential Improvements}{279}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}Environment}{279}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}Public Health}{279}{subsubsection.5.7.1.2}%
+\contentsline {subsubsection}{\numberline {5.7.1.3}Vulnerability}{280}{subsubsection.5.7.1.3}%
+\contentsline {subsubsection}{\numberline {5.7.1.4}Decision-Making}{281}{subsubsection.5.7.1.4}%
+\contentsline {subsubsection}{\numberline {5.7.1.5}Technology}{281}{subsubsection.5.7.1.5}%
+\contentsline {subsubsection}{\numberline {5.7.1.6}Stakeholder Collaboration and Engagement}{281}{subsubsection.5.7.1.6}%
+\contentsline {subsubsection}{\numberline {5.7.1.7}Decision-Support System}{282}{subsubsection.5.7.1.7}%
+\contentsline {subsection}{\numberline {5.7.2}Lessons Learned for the EVDT Framework}{282}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}Conclusion}{283}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Summary, Discussion, \& Conclusion}{285}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Chapter Purpose \& Structure}{285}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Summary \& Contributions}{285}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Theory \& Critical Analysis}{285}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}The EVDT Framework}{287}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Rio de Janeiro Development \& Mangroves}{288}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Vida DSS for COVID-19 Response}{289}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Lessons \& Opportunities for Future Inquiry}{290}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}In Rio de Janeiro \& Mangroves Globally}{290}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Lessons from COVID-19}{291}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}The Future of EVDT}{292}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Advancing Stakeholder-Informed Sustainable Development Decision-making}{294}{section.6.4}%
+\contentsline {chapter}{\numberline {A}Glossary}{297}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Rio de Janeiro Stakeholder Interview Questions}{303}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Vida DSS Supplemental Information}{305}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Code Repositories and Other EVDT Publications}{317}{appendix.D}%

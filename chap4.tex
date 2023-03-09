@@ -1,16 +1,25 @@
-\chapter{Rio de Janeiro Development \& Mangroves} \label{ch:mangroves}
+\chapter{Western Rio de Janeiro Development \& Mangroves} \label{ch:mangroves}
 
 \section{Chapter Purpose \& Structure}
 
-The case study detailed in this chapter is in service to multiple objectives. First, it seeks to address Research Question 2: ``Does the \ac{evdt} Modeling Framework effectively support decision-making in in complex \ac{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
+This chapter details an application of the \acf{evdt} Framework for supporting decision-making around mangrove conservation and economic development in a particular area of Rio de Janeiro, Brazil. It thus serves as a case study intended both to demonstrate the utility of the framework and to be a useful reference for those seeking to apply the framework themselves. In this way, this chapter seeks to address Research Question 2: ``Does the \ac{evdt} Framework effectively support decision-making in in complex \ac{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
 
 \begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
 	\item{System architecture analyses of each of the case studies} 
 	\item{Development of an \ac{evdt}-based \acf{dss} for each of the case studies} 
 	\item{An interview-based assessment of the development process and usefulness of each \ac{dss}} 
 \end{enumerate}
+
+
+This application was chosen because it is close to the the ideal intended use for the \ac{evdt} Framework as articulated in this chapter: a sustainable development application likely to be benefited by the use of \acf{eo} data in a geographically small area involving numerous stakeholders interested in collaboration. It, along with the Benin Water Hyacinth project (not discussed in this thesis) \cite{ovienmhadaEarthObservationTechnology2020, ovienmhadaInclusiveDesignEarth2021}, was one of the first \ac{evdt} applications. It thus provided provided us with some of our first opportunities for refining and improving the \ac{evdt} Framework.
 	
-Through these deliverables, this chapter serves as a demonstration of the \ac{evdt} Framework. The structure of this chapter thus mirrors the components of the framework laid out in Section \ref{sec:framework}. It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:rio-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:rio-saf-method}) and the results of each step (Section \ref{sec:rio-saf-results}. Then, in Section \ref{sec:rio-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These two are separated in methodology (Section \ref{sec:rio-evdt-method}) and results (Section \ref{sec:rio-evdt-result}. These are then integrated into a prototype \ac{dss} in Section \ref{sec:rio-dss}. Finally Section \ref{sec:rio-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. The remaining sections examine and discuss the outcomes of this case study. The following chapter will similarly present a second case study.  
+The structure of this chapter mirrors the components of the framework laid out in Section \ref{sec:framework}. It starts by walking through the steps of the \acf{saf} as applied to this case study in Section \ref{sec:rio-saf}. These are separated into the methodology used for each step of the \ac{saf} (Section \ref{sec:rio-saf-method}) and the results of each step (Section \ref{sec:rio-saf-results}. Here I detail an initial, literature-based survey of the study area; the various stakeholders involved and their relationships; how I met with and interviewed stakeholders to elicit their needs and objectives for the region; and how specific objectives for the \ac{dss} were synthesized. 
+
+Then, in Section \ref{sec:rio-evdt}, I turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These are also separated in methodology (Section \ref{sec:rio-evdt-method}) and results (Section \ref{sec:rio-evdt-result}. The primary flow here is understanding the state of the mangroves (health, extent, height), the ecosystem services that the mangroves provide (aquaculture, ecotourism, water quality, and carbon sequestration), and how conservation and zoning policies impact the mangroves. 
+
+These are then integrated into a prototype \ac{dss} in Section \ref{sec:rio-dss}. Here I explain the design choices made (such as to make it a desktop-based system) and detail how it functions. 
+
+Section \ref{sec:rio-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. Section \ref{sec:rio-discussion} provides the primary discussion of the chapter, considering what the results imply for the Guaratiba region, the various methodological limitations at each stage of this project, and what lessons were learned for the \ac{evdt} Framework as a whole; in particular the need for the two separate iterations of the \ac{saf}, the importance of Local Context Experts, and the importance of appropriately scoping an \ac{evdt} project. These lessons are revisited in Chapter \ref{ch:conclusion} as part of a broader evaluation of the \ac{evdt} Framework.
 
 It should be noted that, as stated in Section \ref{sec:questions}, each case study also has its own objectives beyond supporting a chapter of this thesis. In this case, that means supporting policy decisions in Rio de Janeiro surrounding human wellbeing and mangrove conservation. Readers specifically interested in the socio-environmental history of the study area are pointed to Section \ref{sec:rio-context}. Those interested in environmental analyses performed in the course of this research are pointed to Sections \ref{sec:rio-evdt-e-method}, \ref{sec:rio-evdt-e-result}, and \ref{sec:rio-discussion}.
 
@@ -42,9 +51,11 @@ This case study does not focus these stadiums and favelas. It is not, ultimately
 
 \paragraph{Study Area} \leavevmode\newline
 
+The study area for this case study includes the entire western coastal region of the Rio de Janeiro municipality, with a particular focus on the area known as Guaratiba.
+
 Guaratiba is a relatively rural district of Rio de Janeiro situated in the southwestern corner of the municipality. Rio de Janeiro is divided in 5 administrative zones, which are further divided into \acp{ra}, as seen in Figure \ref{fig:ras}. Guaratiba is \ac{ra} XXVI, simultaneously one of the largest of the \acp{ra} by land area and one of the smallest by population, constituting only 1.9\% of the municipal population as of 2018 with only has three official barrios (or neighborhoods) within it \cite{institutopereirapassos|datarioRegioesPlanejamentoIndicadores2018}. It is home to a mix of land uses, including decorative plant farming, multiple fishing communities, a military base and training center, a state-run biological reserve, some informal settlements, and a growing ecotourism industry. The biological reserve exists to protect the largest remaining mangrove forest within the municipality, contained primarily in the coastal region of the \ac{ra} between the Barra de Guaratiba (152 on the map) and the Pedra de Guaratiba (153). This means that the bulk of the approximately 120,000 residents of the \ac{ra} are to the north of the mangroves, but there are still approximately 20-25K people in close proximity.
 
-These mangroves are vulnerable due to landward urbanization, including a recently opened urban transit line, and rising sea levels \cite{goldbergEcoMapDecisionsupportTool2018}. They provide a variety of ecosystem services, including serving as a mechanism for highly efficient carbon sequestration, supporting a small-scale industry of fishing and crab catching, preventing coastal erosion, and attracting the aforementioned local ecotourism industry \cite{schwenkResearchEnvironmentalSocioeconomical2008}. Government policies to conserve the mangroves can use integrated modeling tools to consider both the benefits of protecting the forests as well as the economic needs of low-income communities. This, coupled with the Rio de Janeiro municipal government's pre-existing interest in generating useful datasets and making them available online through the Data.Rio platform \cite{matheusOpenGovernmentData2014}, made the Guaratiba mangroves a particularly suitable case study for the \ac{evdt} Modeling Framework.
+These mangroves are vulnerable due to landward urbanization, including a recently opened urban transit line, and rising sea levels \cite{goldbergEcoMapDecisionsupportTool2018}. They provide a variety of ecosystem services, including serving as a mechanism for highly efficient carbon sequestration, supporting a small-scale industry of fishing and crab catching, preventing coastal erosion, and attracting the aforementioned local ecotourism industry \cite{schwenkResearchEnvironmentalSocioeconomical2008}. Government policies to conserve the mangroves can use integrated modeling tools to consider both the benefits of protecting the forests as well as the economic needs of low-income communities. This, coupled with the Rio de Janeiro municipal government's pre-existing interest in generating useful datasets and making them available online through the Data.Rio platform \cite{matheusOpenGovernmentData2014}, made the Guaratiba mangroves a particularly suitable case study for the \ac{evdt} Framework.
 
 \begin{figure}[!htb]
 	\centering
@@ -64,7 +75,11 @@ In order to further establish the system context for the Guaratiba area, I condu
 
 \subsubsection{Analyze System Stakeholders}
 
-Our primary Local Context Experts and points of contact are at \ac{ipp}, which is the municipal data agency, and ESPAÇO, a research group at the \ac{ufrj} who study various coastal ecosystems in Brazil and elsewhere \cite{cruzClassificacaoOrientadaObjetos2007, seabraMapeamentoDinamicaCobertura2013} and who are also familiar with examining socioeconomic impacts of environmental phenomena \cite{schwenkResearchEnvironmentalSocioeconomical2008}. The latter can also be considered to be Technical Area Experts. Other Local Context Experts include a member of a local fisher association and government officials at the municipal urban development agency and the municipal environmental agency. Additional Technical Area Experts include two ecosystem services economists (one from the University of West Virginia and one from \ac{rff}) and the committee members for this thesis. The primary intended users for this case study are government officials at the \ac{ipp} who have a fair amount of experience with mapping. Future projects in this area would ideally expand that userbase to non-government individuals. 
+Our primary Local Context Experts and points of contact are at \ac{ipp}, which is the municipal data agency, and ESPAÇO, a research group at the \ac{ufrj} who study various coastal ecosystems in Brazil and elsewhere \cite{cruzClassificacaoOrientadaObjetos2007, seabraMapeamentoDinamicaCobertura2013} and who are also familiar with examining socioeconomic impacts of environmental phenomena \cite{schwenkResearchEnvironmentalSocioeconomical2008}. The latter can also be considered to be Technical Area Experts.
+
+This project was initiated by contact between \ac{ipp} and Prof. Danielle Wood, via a \ac{nasa}-\ac{ipp} partnership while Prof. Wood was working at \ac{nasa} \cite{mandarinoNASARioJaneiroPartnership2018}. Several individuals at \ac{ipp}, including Felipe Mandarino previously studied at worked in ESPAÇO while students and maintained connections to the research group. This lead to my introduction to group early on during project ideation.
+
+Other Local Context Experts include a member of a local fisher association and government officials at the municipal urban development agency and the municipal environmental agency. Additional Technical Area Experts include two ecosystem services economists (one from the University of West Virginia and one from \ac{rff}) and the committee members for this thesis. The primary intended users for this case study are government officials at the \ac{ipp} who have a fair amount of experience with mapping. Future projects in this area would ideally expand that userbase to non-government individuals. 
 
 Over the course of two field visits to Rio de Janeiro and Guaratiba (one in August of 2019 and the other in March of 2020), I conducted a series of interviews and meetings with various key stakeholders in the Guaratiba system, including local fishers; local academic researchers; and municipal, state, and federal government officials. I was introduced to these stakeholders using a snowball approach, starting with connections stemming from the Space Enabled Research Group and our primary point of contacts in Rio de Janeiro. Information about both contacted and noncontacted stakeholders are summarized in Table \ref{tab:rio-contacts}. Clearly there are some key stakeholders listed in the noncontacted categories. This demonstrates the flaws of a snowball approach and, while I did make attempts to contact them myself, these were to no avail. Further persistence and creativity may have rectified this but unfortunately the pandemic cut the second visit short. Similarly, I intended to follow up some of the unstructured meetings with formal interviews but did not have such an opportunity.
 
@@ -355,7 +370,7 @@ Though not included in the table, \ac{icmbio}'s Needs, Desired Outcomes, and Sys
 \end{table}
 \end{landscape}
 
-\subsubsection{Select System Functions}
+\subsubsection{Select System Functions} \label{sec:rio-saf-function-result}
 
 Based on the above analysis, several \ac{dss} system functions were selected. These are:
 
@@ -420,21 +435,31 @@ The following subsections walk through the components of the system from an \acf
 %
 %Additionally, an integrated model could help evaluate current urban planning policies in Rio de Janeiro. Currently several regions within the natural reserve, i.e. a subset of total mangrove forests, are protected against any land use conversion. With such a model, new boundaries could be considered and other potential policies could be investigated, such as various urban expansion rates, various transportation infrastructure scenarios, and more sophisticated restriction policies on land use conversion.
 
-With these questions and goals in mind, a specific instance of the integrated model framework can be represented as shown in Figure \ref{fig:rio-evdt-flow}. In order to develop such a model, a number of steps remain to be completed. Some of the most notable include:
+With these questions and goals in mind, we can create a specific instance of the \ac{evdt} framing as shown in Figure \ref{fig:rio-evdt-flow}. In order to develop such a model, a number of steps remain to be completed, including collecting data and conducting analyses to understand the connections between each of the \ac{evdt} components. The following subsections will do just this, following the steps shown in Figure \ref{fig:evdt-dss-flow}, with colors indicating which \ac{evdt} component that each step belongs to. 
 
-\begin{itemize}[itemsep=0pt,parsep=0pt]
-    \item Determination of certain parameters based on historical data. These include the rate of sea level rise and the rate of urban and agricultural expansion, both of which should be identifiable from a combination of satellite data and local in-situ measurements.
-    \item Collection of various demographic and social data to improve risk estimation methods for the impact of the loss of mangroves. These include population data, urban land use types, and their differential impacts on local forests. For instance, some evidence suggests that particular residential land use types, such as favelas, may lead to more severe deforestation impacts \cite{herzogLocalAssessmentRio2013}.
-    \item Better understanding of the civic decision making process in Rio de Janeiro. This is necessary in order to identify what urban development policies should be simulated using the integrated model.
-\end{itemize}
+Note that certain elements of Figure \ref{fig:rio-evdt-flow} are grayed out. These elements are not in this project. Various environmental factors such as salinity, precipitation etc., were excluded to maintain simplicity. The Remote Observation Design Model was excluded because selecting or designing an \ac{eo} system was not one of the stakeholder priorities selected for inclusion in the \ac{dss} in Section \ref{sec:rio-saf-function-result}. Bot represent potential for future work discussed later in this chapter.
+
+%\begin{itemize}[itemsep=0pt,parsep=0pt]
+%    \item Determination of certain parameters based on historical data. These include the rate of sea level rise and the rate of urban and agricultural expansion, both of which should be identifiable from a combination of satellite data and local in-situ measurements.
+%    \item Collection of various demographic and social data to improve risk estimation methods for the impact of the loss of mangroves. These include population data, urban land use types, and their differential impacts on local forests. For instance, some evidence suggests that particular residential land use types, such as favelas, may lead to more severe deforestation impacts \cite{herzogLocalAssessmentRio2013}.
+%    \item Better understanding of the civic decision making process in Rio de Janeiro. This is necessary in order to identify what urban development policies should be simulated using the integrated model.
+%\end{itemize}
 
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/chap4/MangroveModelFlow.png}
-\caption[EVDT Model (Rio de Janeiro Mangrove Forest Case)]{Environment - Vulnerability - Decision - Technology Model (Rio de Janeiro Mangrove Forest Case)}
+\caption[EVDT Model (Rio de Janeiro Mangrove Forest Case)]{Environment - Vulnerability - Decision - Technology Model (Rio de Janeiro Mangrove Forest Case). Gray, dashed lines and text indicate elements not included in this project.}
 \label{fig:rio-evdt-flow}
 \end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap4/evdt-dss-flow.png}
+\caption[EVDT Analysis Method Flowchart]{\ac{evdt} analysis method flowchart for the Rio de Janeiro case study.}
+\label{fig:evdt-dss-flow}
+\end{figure}
+
 
 
 \subsection{EVDT Methodology} \label{sec:rio-evdt-method}
@@ -448,9 +473,9 @@ Unlike some other forms of natural resources, which were extensively surveyed an
 This disregard for mangrove forests largely continued until, after a UN-led effort in the 1980s, international concern over their degradation increased, leading to greater efforts to monitor mangroves. In the second half of the 20th century, mangrove mapping efforts relied primarily on a combination of in-situ surveys and aerial and satellite photography. Investigations were typically site-specific, relied on human interpretation of images, and commonly only had one measurement every 1-2 decades \cite{lacerdaluizandmenezesmarceloandmussimolisanimauricioChangesMangroveExtension2007, fromardHalfCenturyDynamic2004}. These factors limited both spatial scalability and the potential for timely forest management. 
 
 
-In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques,   spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eos} processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. 
+In the past decade, significant progress has been made to address these limitations by creating spatially explicit global mangrove forest cover, loss, drivers of loss, and carbon sequestration maps \cite{spaldingWorldAtlasMangroves2010, donatoMangrovesMostCarbonrich2011, sandermanGlobalMapMangrove2018, simardMangroveCanopyHeight2019, goldbergGlobalDeclinesHuman2020}. Due to both new remote observation datasets and novel analysis techniques, spatial and temporal accuracy and resolution have significantly increased. The first global mangrove extent map with a consistent methodology and a spatial resolution of <1km was published in 2011 by Giri et al. using data from the Landsat series of \acp{eo} systems processed by hybrid supervised and unsupervised classification techniques \cite{giriStatusDistributionMangrove2011}. This map represented mangrove forest cover in the year 2000 specifically. 
 
-More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the \ac{alos} \ac{palsar} platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. 
+More recently, the \ac{gmw} published an extent map with an improved classification methodology covering the years 1996, 2007, 2008, 2009, 2010, 2015, and 2016 \cite{buntingGlobalMangroveWatch2018}. This was accomplished by combining \ac{sar} data from the \ac{alos} \ac{palsar} platform with the Landsat data used by Giri et al. In 2010, the \ac{icesat} with its \ac{glas} was launched. The lidar data generated, when combined with the radar interferometry data from the \ac{srtm} in 2000, has similarly enabled the creation of global mangrove height maps \cite{simardMangroveCanopyHeight2019}, improving carbon storage estimates. Starting in 2017, the MapBiomas project has provided annual land cover maps (including retroactive maps dating back to 1985) using Landsat imagery processed using a random forest classifier algorithm implemented in \ac{gee} \cite{raisg-mapbiomasconsortiumMapBiomasAmazoniaProject2021}. One of its land cover categories is mangrove forests. 
 
 Similar advances, often driven by improvements in machine learning, have yielded global maps of human land use, which can be combined with mangrove-related data products to accurately identify drivers of loss \cite{goldbergGlobalDeclinesHuman2020}. Most recently, these tools have been used to generate global datasets in which the specific years of degradation and regrowth are mapped \cite{vancutsemLongterm199020192021}.
 
@@ -478,6 +503,8 @@ Sentinel-2 \ac{msi} Harmonized Surface Reflectance & 2018 - 2022 & \textbf{$\tim
 Giri et al.'s Global Mangrove Forests Distribution, v1 & 2000 & \textbf{$\times$} &  & & \cite{giriStatusDistributionMangrove2011} \\ \hline
 
 \ac{gmw} V2 & 1996, 2007 - 2010, 2015 - 2016 & \textbf{$\times$} &  & & \cite{buntingGlobalMangroveWatch2018} \\ \hline
+
+Mapbiomas Collection 6 & 1985 - 2021 & \textbf{$\times$} &  & & \cite{raisg-mapbiomasconsortiumMapBiomasAmazoniaProject2021} \\ \hline
 
 Simard et al.'s Canopy Height & 2000 & & & \textbf{$\times$} & \cite{simardMangroveCanopyHeight2019} \\ \hline
 
@@ -531,7 +558,7 @@ Band Ratio 54 & Used to monitor soil moisture & $\frac{R_{SWIR1}}{R_{NIR}}$ & \c
 
 Band Ratio 35 & Extension of the \ac{sr} concept to examine vegetation moisture & $\frac{R_{Red}}{R_{SWIR1}}$ & \cite{jiTerminologySpectralVegetation2011} \\ \hline
 
-\ac{gcvi} & Used to monitor the content of leaf chlorophyll in vegetation and thus indirectly to monitor plant stress $ frac{R_{NIR}}{R_{green}}-1$ & \\ \hline
+\ac{gcvi} & Used to monitor the content of leaf chlorophyll in vegetation and thus indirectly to monitor plant stress & $ \frac{R_{NIR}}{R_{green}}-1$ & \cite{wuPotentialSatelliteDerived2012} \\ \hline
 
 \end{tabular}
 \end{center}
@@ -571,9 +598,9 @@ Previous I mentioned the Simard et al. 2020 global mangrove canopy height map wa
 
 \paragraph{Mangrove Carbon Stocks and Exports} \label{sec:rio-mangrove-carbon} \leavevmode\newline
 
-Th height estimates from Simard et al. can be used to estimate \ac{agb} \cite{cloughAllometricRelationshipsEstimating1989, fatoyinboEstimatingMangroveAboveground2018, simardMangroveCanopyHeight2019}, which is important for improving estimates of the forests' carbon sequestration capabilities \cite{lagomasinoMeasuringMangroveCarbon2019}. 
+As I mentioned earlier, Simard et al. generated a global mangrove height map for the year 2000. Their height estimates can be used to estimate \ac{agb} \cite{cloughAllometricRelationshipsEstimating1989, fatoyinboEstimatingMangroveAboveground2018}, which is important for improving estimates of the forests' carbon sequestration capabilities \cite{lagomasinoMeasuringMangroveCarbon2019, simardMangroveCanopyHeight2019}.
 
-To estimate \ac{agb} density for the Guaratiba area, I used the Americas generic power allometric model developed by Simard et al. \cite{simardMangroveCanopyHeight2019}, shown in Equation \ref{eq:allo} where $H_{ba}$ refers to the basal area weighted height of the mangroves. This equation was chosen as it contained the highest $R^2$ value (0.71) and lowest \ac{rmse} (54.3 MgC/ha) of the equations that cover the region. 
+To estimate \ac{agb} density for the Guaratiba area, I used The Simard et al. heigh maps, along with the Americas generic power allometric model that they developed (one among several) \cite{simardMangroveCanopyHeight2019}, shown in Equation \ref{eq:allo}. $H_{ba}$ refers to the basal area weighted height of the mangroves. This equation was chosen as it contained the highest $R^2$ value (0.71) and lowest \ac{rmse} (54.3 MgC/ha) of the equations that cover the region. 
 
 \begin{equation}
 \label{eq:allo}
@@ -661,6 +688,8 @@ The selection of these two axes of policy decisions (conservation status and urb
 
 For each of these two axes, I sorted protected areas and zones into various categories. For each of these categories, I calculated both the absolute extent of mangroves loss during the 2000 to 2018 period and the relative amount of mangrove loss, compared to the full extent of mangroves. Loss extent was determined by the \ac{ndvi} mean anomaly threshold from Section \ref{sec:rio-evdt-e-result}. This enabled us to see if there is any correlation between municipal government restrictions and mangrove losses.
 
+All of the \ac{gee} code used to conduct the above analyses is available in Appendix \ref{app:code}.
+
 \subsubsection{Technology}
 
 The primary technologies of interest in this project are sensing and measurement methods for informing policymakers and the other \ac{evdt} components. Among the commonly noted concerns during the stakeholder analysis process discussed in Section \ref{sec:rio-saf} were gaps in data on important topics, including changes in land cover, the value of ecosystem services, and the state of the environment. To better understand the current state of system, I inquired what sensing technologies or methods various stakeholders were currently using. The Technology component of this project will summarize this history of use and identify potential additional sensing technologies that may be of use. 
@@ -687,7 +716,7 @@ In the left-hand image, different phenomena are apparent. The primary areas of n
 \label{fig:extent-changes}
 \end{figure}
 
-The net changes in extent can also be seen temporally rather than spatially in Figure \ref{fig:extent-over-time}. This graph also compares the three different classifier processes used, along with the Giri and \ac{gmw} maps. As is expected, both of the global maps provide lower estimates for mangrove extent. It is notable, however, that the \ac{gmw} maps indicate quite little changes over time, seeming to miss many of the local phenomena just discussed. That said, the estimates provided by the Landsat + \ac{palsar} classification suggest that the Landsat-only classification is somewhat overestimating mangrove extent. It does seem to confirm the general trend of  increasing extent from approximately 2005 to 2018, however.  
+The net changes in extent can also be seen temporally rather than spatially in Figure \ref{fig:extent-over-time}. This graph also compares the three different classifier processes used, along with the Giri, \ac{gmw}, and MapBiomas maps. As is expected, both of the global maps provide lower estimates for mangrove extent, as does the national MapBiomas maps. It is notable, however, that the \ac{gmw} maps indicate quite little changes over time, seeming to miss many of the local phenomena just discussed. MapBiomas is better on this front, indicating the same general trend of increase in extent seen in the targeted classifications conducted for this work. That said, the estimates provided by the Landsat + \ac{palsar} classification suggest that the Landsat-only classification is somewhat overestimating mangrove extent. It does seem to confirm the general trend of  increasing extent from at least 2005 to 2018, however.  
 
 \begin{figure}[!htb] 
 \centering
@@ -922,7 +951,7 @@ Much of the development took place in fall of 2019 and spring of 2020, including
 
 \subsection{Overview of Components and Initialization}
 
-The \ac{dss} was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS. It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All code is available at [**insert code repository]. The display language is in Brazilian Portuguese as this is the most common language known to the stakeholders.
+The \ac{dss} was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS. It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All code is available in Appendix \ref{app:code}. The display language is in Brazilian Portuguese as this is the most common language known to the stakeholders.
 
 The \ac{dss} consists of three primary components:
 
@@ -1073,9 +1102,9 @@ But while those who use this phrase are typically referring solely to the enviro
 
 While the local residents have by no means led zero-impact lives, they at least had direct economic incentive in the preservation of the flora and fauna of their region. Their vulnerability to the loss of ecosystem services is thus certainly not news to them. The local fishers sent a delegation to the EU to protest the expansion of the Ternium steel mill, successfully negotiating a mitigation of mangrove losses. They have also protested locally, tying their boats to a local dam associated with the steel mill that was impeding navigability \cite{institutopacsSemPeixeSem2021}. Estimating annual economic value of \$110M of these ecosystem services, as was done in Section \ref{sec:rio-evdt-result}, may help to provide additional leverage in future negotiations and policymaking.
 
-The Decision-making analysis also suggests that designating certain areas as protected via either environmentally policy or municipal planning zones has a material impact on reducing losses of mangroves. This is in agreement with Cavalcanti et al., who found that designating certain forests just to the east of Rio de Janeiro as federally protected resulted in higher structural development \cite{cavalcantiEvaluatingMangroveConservation2009}. The city could thus promote mangrove conservation by either defining new protected areas or by changing some of the current planning zones. 
+The Decision-making analysis also suggests that designating certain areas as protected via either environmentally policy or municipal planning zones has a material impact on reducing losses of mangroves. This is in agreement with Cavalcanti et al., who found that designating certain forests just to the east of Rio de Janeiro as federally protected resulted in higher structural development \cite{cavalcantiEvaluatingMangroveConservation2009}. The city could thus promote mangrove conservation by either defining new protected areas or by changing some of the current planning zones.
 
-There is, in fact, efforts being made in this direction. Another planned protected area that has been decreed by the municipal legislature, the \ac{apa} da Orla da Baía de Sepetiba. At the time of writing in 2022, the exact boundaries of it have not been set, though tentative boundaries are shown in Figure \ref{fig:apa_sepetiba}, nor have the category or set of protections been determined. It includes the \ac{rbag}, but also much of the coast of Sepetiba bay and several inland areas that are currently in the Uso Sustentável and Zona de Amortecimento categories. 
+There is, in fact, efforts being made in this direction. Another planned protected area that has been decreed by the municipal legislature, the \ac{apa} da Orla da Baía de Sepetiba. At the time of writing in 2022, the exact boundaries of it have not been set, though tentative boundaries are shown in Figure \ref{fig:apa_sepetiba}, nor have the category or set of protections been determined. It includes the \ac{rbag}, but also much of the coast of Sepetiba bay and several inland areas that are currently in the Uso Sustentável and Zona de Amortecimento categories. Use of a \ac{dss} such as the one created in this case study could be used to facilitate the determination and justification of its boundaries.
 
 \begin{figure}[!htb] 
 \centering
@@ -1083,6 +1112,8 @@ There is, in fact, efforts being made in this direction. Another planned protect
 \caption[APA da Orla da Baía de Sepetiba]{Tentative boundaries of the proposed planned \ac{apa} da Orla da Baía de Sepetiba.}
 \label{fig:apa_sepetiba}
 \end{figure}
+
+The Technology analysis was more limited, but suggested significant potential for further use of \ac{eo} imagery beyond basic \ac{ndvi} tracking. Some ways of expanding this analysis to provide a more quantitative assessment of the value of \ac{eo} in this context are suggested in the following section. It should also be noted that, to the best of my knowledge and to that of the Local Area Context Experts, the municipalities neighboring Rio de Janeiro use \ac{eo} to a significantly lesser degree (possibly not at all). As some of these municipalities have mangrove trees as well, they represent another potential for future work.
 
 
 Beyond the work presented in this chapter, analysis and reports have been commissioned on a variety of specific topics in the Guaratiba area, from reforming the educational system \cite{pizzolatoLOCALIZACAOESCOLASPUBLICAS2013} to the installation of green infrastructure \cite{herzogGuaratibaVerdeSubsidios2009} to means of protecting both the marine life and the artisan fishers of the area \cite{lopesTerritorialidadesEmConflitos2013}. A comparison of such reports does bring to light certain key themes, some high priority action items that the city or region could pursue. These include:
@@ -1115,7 +1146,9 @@ As mentioned in Section \ref{sec:rio-evdt-e-method}, \ac{ndvi} is not a perfect 
 
 Next, the analyses in this case study relied upon Simard et al.'s \ac{srtm}-based height estimation from a particular year \cite{simardMangroveCanopyHeight2019}. It is possible to gather height information on additional years or at improved spatial resolution using aerial photogrammetry or \ac{lidar} \cite{olagokeIndividualMangroveTree2015}. Rio de Janeiro has recently conducted such a survey of the entire municipality, though the data was not available in time for this work. Future work though could make use such data, providing at least one additional point in time. Historical height data can also be estimated using space-based \ac{lidar} and \ac{sar} data \cite{lagomasinoComparisonMangroveCanopy2016}, though this method lacks the spatial resolution of aerial methods.
 
-Finally, in Section \ref{sec:rio-evdt-e-result} I noted substantial differences in this estimate of \ac{agb} (based on one of Simard et al.'s allometric models) to those of Estrada et al. \cite{estradaEconomicEvaluationCarbon2015}. Hyperspectral-based species differentiation and higher resolution height measurements could enable a refinement of the allometric models used, improving \ac{agb} estimates. 
+Additionally, in Section \ref{sec:rio-evdt-e-result} I noted substantial differences in this estimate of \ac{agb} (based on one of Simard et al.'s allometric models) to those of Estrada et al. \cite{estradaEconomicEvaluationCarbon2015}. Hyperspectral-based species differentiation and higher resolution height measurements could enable a refinement of the allometric models used, improving \ac{agb} estimates. 
+
+Finally, as noted in Figure \ref{fig:evdt-dss-flow}, this analysis of the mangroves did not include any other environmental data, such as temperature, salinity, precipitation, weather, soil conditions, etc. These are important factors in mangrove health and represent potential for future study in the Guaratiba area, as well as for scenario generation.
 
 \subsubsection{Vulnerability}
 
@@ -1149,7 +1182,7 @@ Siting of these restoration areas ideally depends both on the environmental viab
 
 \subsubsection{Technology}
 
-The technology component in this case study was the most underdeveloped of the four \ac{evdt} components. Two potential expansions are readily apparent. The first would be a more detailed study of the historical relationships between the use of \ac{eo} data and environmental or socioeconomic phenomena. Does increased use of such data result in better outcomes? The project with Jung, shown earlier in Figure \ref{fig:method}, would attempt to partially address this via its ``Earth Observation Data Value Estimation." This would be accomplished both by studying variations in the use of \ac{eo} data by Rio de Janeiro over time and by comparison to other nearby municipalities that either do or do not make use of such data. 
+The technology component in this case study was the most underdeveloped of the four \ac{evdt} components, as was noted in Figure \ref{fig:rio-evdt-flow}. Two potential expansions are readily apparent. The first would be a more detailed study of the historical relationships between the use of \ac{eo} data and environmental or socioeconomic phenomena. Does increased use of such data result in better outcomes? The project with Jung, shown earlier in Figure \ref{fig:method}, would attempt to partially address this via its ``Earth Observation Data Value Estimation." This would be accomplished both by studying variations in the use of \ac{eo} data by Rio de Janeiro over time and by comparison to other nearby municipalities that either do or do not make use of such data. 
 
 Another method would be to integrate choice of sensing technologies into the \ac{dss}, turning it into a kind of urban planning \ac{osse}. This was considered in early phases of this project. The concept was that, when the \ac{dss} was initialized, the user would be presented with a screen asking them to select what datasets they wished to rely upon. Figure \ref{fig:data_source_selection_panel} shows a mockup of such a screen from when this was being considered. The \ac{dss} would then adjust the spatial and temporal resolution of both the real world data presented and the generated scenarios. By comparing their ability to make informed decisions under each of these different data source situations, the user could start to assess how valuable each sensing technology was. 
 
@@ -1165,7 +1198,6 @@ Ultimately, however, neither of these two methods were pursued during this case 
 \label{fig:data_source_selection_panel}
 \end{figure}
 	
-
 \subsubsection{Stakeholder Collaboration and Engagement} \label{sec:rio-discuss-stakeholder}
 
 As stated in Section \ref{sec:rio-collab}, stakeholder participation and collaboration was less than desired or planned for in multiple ways, reducing the impact of this project. While this is partially attributable to the pandemic, other actions could have been taken to minimize such impacts. I could have switched to conducting remote interviews over platforms such as Zoom and could have reconfigured the planned user study workshops to function in a virtual or hybrid environment. It is unlikely that these would have been able to reach all of the involved stakeholders, as both internet access and familiarity with computers vary across the city, but I would have been able to maintain a higher level of stakeholder participation.
@@ -1212,7 +1244,7 @@ This problem was exacerbated in this case by this being the initial trial of a n
 
 This chapter presented one of the first implementations of the \ac{evdt} Framework: supporting decision-making regarding the mangroves of Sepetiba Bay and the communities that live near them. I detailed the history of the Guaratiba \acl{sets} and its complicated network of stakeholders before presenting a series of analyses on mangrove health, carbon sequestration, ecosystem services, and sensitivity to government policy decisions. These were used to construct a prototype \ac{dss} for setting environmental protected areas and planning zones. 
 
-In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``Does the \ac{evdt} Modeling Framework effectively support decision-making in in complex \ac{sets}?"
+In doing so, this case study not only supported stakeholders' decision-making, but it also provided a demonstrated of the \ac{evdt} Framework, thereby helping to respond to Research Question 2: ``Does the \ac{evdt} Framework effectively support decision-making in in complex \ac{sets}?"
 
 This implementation was not without its flaws and this experience informed refinements of the \ac{evdt} Framework. The following chapter will repeat this process for another case study, the Vida \ac{dss} International Network. This will be followed by Chapter \ref{ch:conclusion} in which both case studies and the framework itself will be reviewed and future improvements and opportunities will be noted.
 
