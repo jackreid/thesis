@@ -1,7 +1,7 @@
 \chapter{Vida Decision Support System for COVID-19 Response} \label{ch:vida}
 
 
-\section{Chapter Purpose \& Structure}
+\section{Chapter Purpose \& Structure} \label{sec:vida-purpose}
 
 This chapter details an application of the \acf{evdt} Framework for supporting \ac{covid} response in several different regions around the world, varying in size from municipalities to multiple provinces. It thus serves as a case study intended both to demonstrate the utility of the framework and to be a useful reference for those seeking to apply the framework themselves. In this way, this chapter seeks to address Research Question 2: ``Does the \ac{evdt} Framework effectively support decision-making in in complex \ac{sets}?" It accomplishes this by providing a case study demonstration of Research Deliverables 2a, 2b, and 2c: 
 
@@ -31,7 +31,7 @@ It starts by walking through the steps of the \acf{saf} as applied to this case 
 
 Then, in Section \ref{sec:vida-evdt}, it shall turn to showing relevant datasets and analysis as applied through the \acf{evdt} models. These are also separated into methodology (Section \ref{sec:vida-evdt-method}) and results (Section \ref{sec:vida-evdt-result}. Unlike Chapter \ref{ch:mangroves}, there is no primary flow to these analyses (something that is discussed towards the end of this chapter). Environmental analyses included tracking (in-situ) air quality and urban nightlights. Public health relied predominantly on a systems dynamics model of cases over time. Vulnerability considered various forms of economic and human impacts, such as telecommunications-based mobility trends and ship traffic. Decision-making focused on government policies to reduce the spread of \ac{covid} such as mask mandates and public area closures.
 
-These are then integrated into a prototype \ac{dss} in Section \ref{sec:vida-dss} that built upon the code base from the previous chapter's \ac{dss}, displaying spatiotemporal data and generating public health scenarios based on user inputs.
+These are then integrated into a prototype \ac{dss} in Section \ref{sec:vida-dss} that built upon the code base from the previous chapter's \ac{dss}, displaying spatiotemporal data and generating public health scenarios based on user inputs. This \ac{dss} could be set to each of the study areas and had customized historical data and simulation parameters for each.
 
 Section \ref{sec:vida-collab} lays out how various stakeholders were collaborated with beyond the setting of requirements during the \ac{saf} process. This was a key point of this case study as the fact that this project covered multiple stakeholders meant that in some ways, this project consisted of multiple, parallel \ac{evdt} projects. It thus had new opportunities for collaboration across study areas.
 
@@ -39,9 +39,9 @@ Section \ref{sec:vida-discuss} provides the primary discussion of the chapter, c
 
 It should be noted that, as stated in Section \ref{sec:questions}, each case study also has its own objectives beyond supporting a chapter of this thesis. In this case, that means supporting \ac{covid} pandemic response in each of the participating metropolitan areas. Readers interested in environmental analyses performed in the course of this research are pointed to Sections \ref{sec:vida-evdt-e-method}, \ref{sec:vida-evdt-e-result}, and \ref{sec:vida-discuss}.
 
-\section{A Note on Credit / Contributions}
+\section{Case Study Acknowledgments}
 
-All \ac{evdt} projects, by their nature, involved a large number of participants. That said, in Chapter \ref{ch:mangroves}, the primary Space Enabled participant was myself and, while Technical Area Experts provided advice and actionable information, I conducted the direct implementation of the analyses and the \ac{dss}. This is not the case in the Vida case study. Various other individuals provided analysis and coding labor throughout the process. I will do my best to refer to them by name throughout the chapter, but here is a brief summary of direct contributions:
+The \ac{evdt} Framework calls for collaboration. I thus think it only fitting that I briefly acknowledge certain key participants in the Vida project. All \ac{evdt} projects, by their nature, involved a large number of participants. That said, in Chapter \ref{ch:mangroves}, the primary Space Enabled participant was myself and, while Technical Area Experts provided advice and actionable information, I conducted the direct implementation of the analyses and the \ac{dss}. This is not the case in the Vida case study. Various other individuals provided analysis and coding labor throughout the process. I will do my best to refer to them by name throughout the chapter, but here is a brief summary of direct contributions:
 
 \begin{itemize}[itemsep=0pt,parsep=0pt]
 	\item{Seamus Lombardo: Served as the point-of-contact for the Indonesia and(sometimes) the Angola collaborators; Contributed code to the desktop \ac{dss}; Conducted nightlights analysis for the Indonesia location}
@@ -50,12 +50,16 @@ All \ac{evdt} projects, by their nature, involved a large number of participants
 	\item{Maggie Zheng: Conducted much of the air quality analysis}
 \end{itemize}
 
+This project would also not have been possible without the massive amounts of time and effort expending by our Local Context Experts (listed in Table \ref{tab:vida-stakeholders} and our Technical Area Experts. They did this during an incredibly trying time for the entire world and I am immensely grateful.
+
 
 \section{Systems Architecture Framework} \label{sec:vida-saf}
 
 The following subsections work through the six steps of the \ac{saf} originally detailed in Section \ref{sec:saf} as applied to the Vida \ac{covid} response case study, first as methodology and then as results. The goal is to identify what information, analyses, and other forms of decision support would be useful to stakeholders in the various metropolitan areas involved in this case study.
 
 \subsection{SAF Methodology} \label{sec:vida-saf-method}
+
+As this is the second case study of this thesis, the overall \ac{saf} is not explained in detail in this section, nor are certain terms defined. Instead, it focuses on the specific methods used to execute each step. For a more complete explanation of the \ac{saf}, see Section \ref{sec:saf}.
 
 \subsubsection{System Context}
 
@@ -79,8 +83,13 @@ These are shown in Figure \ref{fig:vida_map}. In each of these areas, Vida was d
 	\label{fig:vida_map}
 \end{figure}
 
+The system of interest for this case study is defined to include \ac{covid} response policymaking by the local or regional government, relevant aspects of the environment, and the general public in each of these areas. We do not consider the broader national or international aspects of the \ac{covid} pandemic, except where they intersect within each of these geographic areas (such as national Chilean social distancing policies applying to the Región Metropolitana de Santiago). 
 
-Whereas the first case study focuses on simulating the changes in mangrove forest over decades, the focus of Vida is examining hourly to weekly air and water quality data alongside daily \ac{covid} epidemiological data and weekly quarantine policies. Government officials need actionable data to both address the ongoing public health crisis and to cope with the resultant socioeconomic and environmental consequences. Community members need to understand why their government is making the decisions that it is and understand the risks associated with their own actions. The analysis of System Context will include existing public health infrastructure in these metropolitan areas, how vulnerable they are to epidemics, and how decision-making occurs.  
+Whereas the first case study focuses on simulating the changes in mangrove forest over decades, the focus of Vida is examining hourly to weekly air and water quality data alongside daily \ac{covid} epidemiological data and weekly quarantine policies. Government officials need actionable data to both address the ongoing public health crisis and to cope with the resultant socioeconomic and environmental consequences. Community members need to understand why their government is making the decisions that it is and understand the risks associated with their own actions.
+
+It was beyond our resources (in both labor and time) to conduct the deep dive study of the System Context that was conducted in Chapter \ref{ch:mangroves} for each of the study areas. Instead, this examination focused on the commonalities across all of the areas, while still noting key differences with the potential to influence needs and objectives. 
+
+%The analysis of System Context will include existing public health infrastructure in these metropolitan areas, how vulnerable they are to epidemics, and how decision-making occurs.	
 
 
 \subsubsection{Analyze System Stakeholders}
@@ -121,6 +130,11 @@ Rio de Janeiro & Felipe Mandarino & \ac{ipp} \\ \hline
 
 Due to the urgent nature of the situation, no formal interviews were conducted at the beginning of the project, unlike the approach taken in Chapter \ref{ch:mangroves}. Instead, a higher tempo of remote meetings were conducted to provide for quicker feedback. This included weekly or biweekly one-to-one meetings (Space Enabled researchers and representatives of one the metropolitan areas) and monthly multilateral meetings (including Technical Area Experts, Local Area Experts, and other guests from all of the metropolitan areas). These meetings allowed for local stakeholders to identify site-specific needs and thereby inform the \ac{dss} architecture; surface, provide, and integrate relevant data products, particularly those generated in-situ by government authorities; participate in the design and implementation of the \ac{dss} prototypes; and evaluate the prototypes. In general this resulted in a more iterative process than the fairly linear process depicted in Figure \ref{fig:evdt_framework}.
 
+During the initial meetings each study area, we asked questions about the relationships between stakeholders, including how \ac{covid} policy decisions were made; immediate priorities for \ac{covid} response and more long-term concerns about the impacts of the pandemic; what datasets were available in their study area; what potential datasets and analyses were of most interest; and what characteristics of a \ac{covid} \ac{dss} were most important to them. These questions were regularly revisited during the future meetings, with responses often evolving over the course of the pandemic. In many cases, responses also changed due to seeing updates from other study areas during the monthly multilateral meetings.
+
+In various cases, we worked with the Local Context Area Experts to schedule similar meetings with other stakeholders in the area, where similar questions would be asked.
+
+
 \subsubsection{Understand Desired Outcomes \& Objectives}
 
 While the initial overarching objective of the Vida project was to support effective decision-making in response to the \ac{covid} pandemic, there was still work to be done defining what exactly this entailed and how it varied from stakeholder to stakeholder. This was done iteratively. The Local Area Experts from each study area would identify specific Needs, Desired Outcomes, and potential System Objectives. They would also identify other stakeholders in their study area, who would in turn be contacted and involved in this process. They also helped gather core datasets for use in the Vida \ac{dss} (discussed further in Section \ref{sec:vida-evdt}). 
@@ -129,11 +143,15 @@ Various team members and I would then use these to develop analyses and improve 
 
 \subsubsection{Select System Functions}
 
-System Functions were selected by considering the various Stakeholder Needs, Desired Outcomes, and System Objectives to identify where significant overlap existed. These were then compared with the feasibility of each function given available data and other resources, which varied from study area to study area. 
+System Functions were selected by considering the various Stakeholder Needs, Desired Outcomes, and System Objectives to identify where significant overlap existed. These were then compared with the feasibility of each function given available data and other resources, which varied from study area to study area.
+
+In general, if formatted data was already readily available and a stakeholder expressed a preference for its inclusion, adding it to the \ac{dss} would be done immediately. Custom analysis and additions to simulations required more effort by the Vida team and thus were typically only pursued for strong stakeholder preferences or for preferences that were common across multiple study areas.
 
 \subsubsection{Assign Functions to Forms}
 
 System functions were assigned to forms based on balancing the capabilities of the Space Enabled team with the needs and preferences of the stakeholders. The \ac{dss} and analyses were built upon existing expertise and code base from the \ref{ch:mangroves} case study, which both facilitated a rapid start but also brought along certain limitations. As needed, additional Technical Area Experts were enlisted to expand our capabilities. 
+
+One key meta-objective was for the \ac{dss} to be designed such as to make it easy to add additional datasets, analysis results, and simulation components on a per-study-area basis. This enabled rapid revisions as stakeholders brought forward new potential functions as the pandemic developed (or abandoned old ones) or as analysis methods reached dead ends.
 
 \subsubsection{Monitor and Evaluate Systems}
 
@@ -169,6 +187,10 @@ Boston, USA & Metropolitan Area & 4.94 & 11700 & 422 & 83597 & X & Provincial \\
 
 Each of these areas had other assets and obstacles not easily seen in such bulk statistics. Brazil in general, and Rio de Janeiro in particular, has robust and historically successful public vaccination infrastructure. Nonetheless, troubled by misinformation and federal mismanagement, this process did not go near so smoothly during this pandemic \cite{ferreiraEstimatingImpactImplementation2023}. The Boston area contains numerous medical research institutions, some of whom were able to retool to providing community \ac{covid} testing for the region \cite{eisenstadtHowBroadInstitute2020}. Chile's had a Ministry of Science that was prepared to serve as the coordinator for numerous datasets \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and to quickly create a wastewater testing system \cite{gallardo-escarateWastewaterMicrobiomeNovel2021}.
 
+The decision-making processes varied across the study areas as well. Some areas left significant latitude to municipal or provincial decision-makers. This was the case for Rio de Janeiro, for instance, was able to set many closure and reopening policies at the municipal level. Others, such as Luanda, set most policies at the national level. 
+
+In general, the differences between study areas pointed us towards a need for normalization in order to enable comparison across study areas (this is discussed further in Section \ref{sec:vida-evdt-method}). Commonalities were used to prioritize System Functions later in the \ac{saf} process. For instance, the fact that four of the six study areas were coastal ports suggested that the Luanda stakeholders' expressed interest in tracking ships in the harbor (presented in these \ac{saf} results) may relevant to other stakeholders as well.
+
 Figure \ref{fig:dimensions_vida} summarize the commonalities among the study areas as these are what guided much of the Vida development process.
 
 \begin{figure}[!htb] 
@@ -179,7 +201,7 @@ Figure \ref{fig:dimensions_vida} summarize the commonalities among the study are
 \end{figure}
 
 
-\subsubsection{Analyze System Stakeholders}
+\subsubsection{Analyze System Stakeholders} \label{sec:vida-saf-stakeholders-result}
 
 Analyzing the relationships between stakeholders in this case study posed some challenges particular to this situation. While some generalizations can be made across the study areas (e.g. policies on international travel were set by national government agencies; \ac{covid} response policies tended to involve some combination of mask mandates and closures of public spaces), there was significant variation between the study areas in how decisions were made and who made them. This was both due to differences in the underlying political structure of the study areas (in some, decisions are made primarily centrally and in others decisions are more decentralized) and to the fact that the \ac{covid} pandemic upended normal decision-making processes. These were replaced by much more dynamic and distributed decision-making relationships that involved much of society in one way or another. This can be glimpsed even in the Table \ref{tab:vida_participants} list of direct Vida participants, which includes health, science, and space ministries, among others.
 
@@ -194,19 +216,30 @@ For this reason, even a detailed, stationary stakeholder relational map for  eac
 
 \textbf{Primary} & \textbf{Secondary} & \textbf{Tertiary}  \\ \hline
 
-\tabitem{Vida International Network Participants} & \tabitem{US Vida Team} & \tabitem{General public in each study area} \\
+\tabitem{Public Health Policymakers}  & \tabitem{US Vida Team} & \tabitem{General public in each study area} \\
  
- & \tabitem{Other government agencies involved in \ac{covid} response} & \tabitem{Healthcare providers} \\ \hline
+\tabitem{Vida International Network Participants} & \tabitem{Other government agencies involved in \ac{covid} response} & \tabitem{Healthcare providers} \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+It is also worth noting that the Local Context Area Experts listed previously in Table \ref{tab:vida-stakeholders} vary in their relationship with direct \ac{covid} decision-making authority. 
+
+\begin{enumerate}[itemsep=0pt,parsep=0pt]
+    \item{\textbf{Luanda, Angola - \ac{ggpen}:} Angola's space agency provides useful data and analysis to decisionmakers but was not directly involved in the \ac{covid} policymaking themselves or in its presentation to the public.}  
+    \item{\textbf{Rio de Janeiro, Brazil - \ac{ipp}:} The municipal data science agency provides useful data and analysis to decisionmakers but was not directly involved in the \ac{covid} policymaking. They were, however directly involved with presenting information on policies and on the current state of the pandemic to the public via online dashboards and the publication of data.}
+    \item{\textbf{Región Metropolitana de Santiago, Chile - \ac{minciencia}:} The national science agency was not directly involved in the \ac{covid} policymaking themselves, but they were formally assigned responsibility for generating and collating all pandemic-related data for use by various government agencies and by the public. They were also given responsibility for generating insights from this data themselves.}
+    \item{\textbf{Java \& Sulawesi, Indonesia - Universitas Diponegoro \& the Indonesia Ministry of Health}: The former of these served in an advisory role to the latter, which was directly involved with setting \ac{covid} policy across the country.}
+    \item{\textbf{Querétaro de Arteaga, Mexico - \ac{ipn} \& \ac{aem}:} Both of these organizations played an advisory role in decision-making, the former primarily on the provincial level and the latter primarily on the national level.} 
+\end{enumerate}
+
+As can be seen above, the Local Context Area Experts are largely not the primary creators or enforcers of \ac{covid} response policies in their respectively study areas. At the same time, they have significantly more influence on those policies than the average member of the community. They also sit in a variety of different kinds of organizations. Each of these factors likely influenced the priorities that they expressed. We kept this in mind when analyzing the Desired Outcomes and Objectives below.
 
 \subsubsection{Understand Desired Outcomes \& Objectives}
 
-Over the course of the Vida International Network collaboration, a wide variety of Stakeholder Needs, Desired Outcomes, and potential \ac{dss} System Objectives were surfaced. Table \ref{tab:vida-needs} summarizes these. Significant overlap can be seen across the stakeholders, but so too can certain differences, particularly in the System Objectives column. 
+Over the course of the Vida International Network collaboration, a wide variety of Stakeholder Needs, Desired Outcomes, and potential \ac{dss} System Objectives were surfaced. Table \ref{tab:vida-needs} summarizes the more common and continuous preferences. It should be noted that while these preferences were based on both the Local Context Area Experts and other stakeholders in each study area, the former had the most sustained and direct opportunities to express preferences, so the table disproportionately represents their views. As such, the particular circumstances of each of these experts, discussed just previously during the stakeholder analysis, must be kept in mind.
 
-In general, stakeholders expressed the need the ability to visualize multiple different kinds of data and understanding the relationships between them, including future looking. Most of the study areas quickly began collecting and publishing pandemic-related data, both directly tied to public health and more distantly related to the pandemic (e.g. \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}). Some even maintained interactive visualizations of \ac{covid} cases and hospitalizations (e.g. \cite{rioprefeituraPainelRioCOVID192020}). In general, however, they lacked visualizations capable of showing the public health status along side other factors such as socioeconomic impacts/vulnerability, environmental effects and risk factors, and future projections.
+Significant overlap can be seen across the stakeholders, but so too can certain differences, particularly in the System Objectives column. In general, stakeholders expressed the need for the ability to visualize multiple different kinds of data and understanding the relationships between them, including future looking. Most of the study areas quickly began collecting and publishing pandemic-related data, both directly tied to public health and more distantly related to the pandemic (e.g. \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}). Some even maintained interactive visualizations of \ac{covid} cases and hospitalizations (e.g. \cite{rioprefeituraPainelRioCOVID192020}). In general, however, they lacked visualizations capable of showing the public health status along side other factors such as socioeconomic impacts/vulnerability, environmental effects and risk factors, and future projections.
 
 This provided enough alignment to pursue a shared foundation moving forward, with particular datasets and analyses to be customized to the Needs and Desired Outcomes of each study area.
 
@@ -217,7 +250,7 @@ This provided enough alignment to pursue a shared foundation moving forward, wit
 \label{tab:vida-needs} \\ \hline
 \textbf{Study Area} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential \ac{dss} System Objectives} \\ \hlinewd{2pt} \endfirsthead
 
-\textbf{Study Area} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential \ac{dss} System Objectives} \\ \hlinewd{2pt} \endhead
+\hline \textbf{Study Area} & \textbf{Stakeholder Needs} & \textbf{Desired Outcomes}  & \textbf{Potential \ac{dss} System Objectives} \\ \hlinewd{2pt} \endhead
 
 \multirow{4}{2cm}{\centering Luanda} & \tabitem{Minimize deaths and other serious health consequences of the pandemic} & \tabitem{Limit the spread of \ac{covid}} & \tabitem{Support closure policy decision-making} \\ 
  & \tabitem{Minimize negative economic consequences of the pandemic} & \tabitem{Provide proper treatment for \ac{covid} cases} & \tabitem{Monitor and analyze air quality and fires in the region} \\ 
@@ -260,6 +293,8 @@ Based on the above analysis, several \ac{dss} system functions were selected. Th
 	\item{\textbf{Simulate potential future trajectories of the pandemic based on different policy decisions.} True forecasting was deemed to be beyond the capabilities of this team, but scenario generation was considered an acceptable alternative for raising the potential implications of different policy choices.} 
 \end{itemize}
 
+Each of the above further the overall goal of decision-makers in each of the study areas to mitigate the impacts of \ac{covid}. The specific topics of analysis and elements to be included in the \ac{dss} represent what stakeholders found most relevant to that goal.
+
 In addition to these \ac{dss}-specific functions, there were some additional functions to be performed by the Vida International Network as a whole, namely:
 
 \begin{itemize}[itemsep=0pt,parsep=0pt]
@@ -278,7 +313,7 @@ The primary form to address the non-\ac{dss} functions were multilateral meeting
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[scale=0.4]{Figures/chap5/architecture.png}
+	\includegraphics[width=1\textwidth]{Figures/chap5/architecture.png}
 	\caption{The high-level functional systems architecture of the Vida \ac{dss}.}
 	\label{fig:vida-architecture}
 \end{figure}
@@ -289,7 +324,29 @@ The monitoring and evaluation of the Vida \acp{dss} were highly iterative, with 
 
 \section{EVDT Application} \label{sec:vida-evdt}
 
-The following subsections walk through the components of the system from an \acf{evdt} perspective, detailing what models were used and the results of those models. Before proceeding though, it is worth stating what exactly each of the four components of \ac{evdt} mean for this system. The onset of the COVID-19 pandemic was an immensely significant event around the world. Thus, while it would have been possible to consider public health as a component of the Vulnerability model, in order to properly center and prioritize the public health aspects of the pandemic, a dedicated Public Health Model was added to the default \ac{evdt} arrangement, as shown in Figure \ref{fig:vida_flow}. Returning to the four questions from Section \ref{sec:evdt-questions} (plus one additional one), we ask the following:
+The following subsections walk through the components of the system from an \acf{evdt} perspective, detailing what models were used and the results of those models. Before proceeding though, it is worth stating what exactly each of the four components of \ac{evdt} mean for this system. The onset of the COVID-19 pandemic was an immensely significant event around the world. Thus, while it would have been possible to consider public health as a component of the Vulnerability model, in order to properly center and prioritize the public health aspects of the pandemic, a dedicated Public Health Model was added to the default \ac{evdt} arrangement, as shown in Figure \ref{fig:vida_flow}. 
+
+In order to select what to include in each of the \ac{evdt} models, we must return to the earlier identified System Functions:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{\textbf{Visualize historical public-health and relevant non-public-health data.}}
+	\item{\textbf{Identify and highlight connections between public health and non-public-health phenomena.}}
+	\item{\textbf{Simulate potential future trajectories of the pandemic based on different policy decisions.}} 
+\end{itemize}
+
+The first two are closely tied together and must be grounded in the Stakeholder Needs, Desired Outcomes, and System Objectives note in Table \ref{tab:vida-needs}. Public Health has the most commonality across stakeholders. Each were heavily invested in understanding how case counts, hospitalizations, mortality, and infection rates change over time. These would also be the primary focus of the third of the above functions.
+
+Interest in various non-public-health phenomena had both more variation across study areas and less confidence within each study area. The relevance of such factors as air quality or water quality was unknown but remained a concern. There was also significant variation across study areas regarding the types of data available. Initial discussions with the Local Context Area Experts, other local stakeholders, and the Technical Area Experts, resulted in certain specific areas to be prioritized for initial investigation. More detail on the methods and results of each of these areas is provided in the following subsections.
+
+\textbf{Environment:} Initial research by Mohammad Jalali, one of our Technical Area Experts, indicated that both weather and air quality could have an impact on the transmission of \ac{covid} \cite{xuModestImpactWeather2020}. We thus chose to investigate how air quality was changing over the course of the pandemic and which parts of each study area were likely to have worse air quality. In some areas, in-situ, station-based data was available while others had to rely only upon \ac{eo} satellite data.
+
+\textbf{Vulnerability:} Stakeholders in each of the study areas were highly interested in the socioeconomic impacts that the pandemic and the various \ac{covid} response policies would have on the public. We chose to approach this in two parallel ways. One was to conduct qualitative surveys of members of the public. The other was to study how human activity and mobility was changing over the course of the pandemic.
+
+\textbf{Decision-making:} The primary form of decision-making that stakeholders were interested in was \ac{covid} mitigation policies, such as mask mandates, public space closures, and travel restrictions. We tracked these policies over time, developed ways of comparing one study area to another, and studied what impact these policies had on both public health metrics and on human activity, namely mobility.
+
+\textbf{Technology:} While \ac{eo} data was used in the above analyses, the primary relevant technology to stakeholders was \ac{covid} testing. Where available, we tracked data on rates of \ac{pcr} testing, but ultimately did not conduct any significant analysis. Possibilities for future work on this front are discussed later.
+
+Returning to the four questions from Section \ref{sec:evdt-questions} (plus one additional one), we can summarize the above by asking the following:
 
 \begin{enumerate}[itemsep=0pt,parsep=0pt]
 	\item \textbf{What is happening in in public health?} How is the COVID-19 pandemic spreading through the community? What portion of the infected are being hospitalized or dying? What factors impact transmission?
@@ -299,7 +356,7 @@ The following subsections walk through the components of the system from an \acf
 	\item \textbf{What technology system can be designed to provide high quality information that supports human decision making?} What testing regime is needed to effectively reduce the spread of the virus and resultant deaths? What other data sources are useful for informing decision-making?
 \end{enumerate}
 
-We can now discuss what approaches were taken for each of these components before presenting their outcomes.
+It should be noted that, unlike in the Chapter \ref{ch:mangroves} case study, there is no single through-line that connects each of these analyses and models. Instead a number of pairwise relationships exist. The impact of air quality on \ac{covid} and vice versa. The relationship between mobility and \ac{covid} or closure policies and mobility. As will be noted in the following subsections, there were also a variety of other investigations that were abandoned due to lack of stakeholder interest, reached some dead end, or were only relevant to a particular study area. The reasons for this were discussed in Section \ref{sec:vida-purpose} of this chapter and its implications are discussed in Section \ref{sec:vida-discuss}.
 
 \begin{figure}[!htb]
 	\centering
@@ -357,33 +414,19 @@ Table \ref{tab:vida_data} provides a summary of the common data types across the
 
 Finally, much of this analysis focused on the first year of the pandemic, roughly early March of 2020 to early March of 2021.
 
-
  \subsubsection{Environment} \label{sec:vida-evdt-e-method}
 
 Unlike the previous case study, which focused on a particular aspect of the environment (mangroves) that had an established literature, the onset of the COVID-19 pandemic resulted in many disparate impacts on the environment in quick succession. As discussed earlier, it also was not immediately clear what topics were the highest priority to stakeholders. As a result, many areas were explored and only some pursued in detail.
 
-Urban nighttime lighting patterns changed and (generally) dimmed \cite{elvidgeDimmingLightsChina2020}. Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. Before these were known, we elected to investigate and monitor these same three phenomena.
+Air quality noticeably improved as traffic patterns changed and work-related emissions declined \cite{isaifanDramaticImpactCoronavirus2020}. In many places, water quality noticeable improved and noise diminished \cite{aroraCoronavirusLockdownHelped2020}. Before these were known, we elected to focus on air quality.
 
-For nightlights, the \ac{viirs} VNP46A2 dataset was used \cite{romanNASABlackMarble2018}. This dataset contains daily panchromatic (visible and NIR) imagery at at a resolution of 15 arc-seconds (approximately 450m for the locations of interest) that have been corrected for atmospheric interference and moonlight variation. It is thus well suited for examining artificial lights, such as those generated by cities. We process it by masking out clouds and water (thereby eliminating transient lights from ships) using the supplied quality flag, then taking weekly median values to reduce intraweek variation, before calculating the relative anomaly compared to the 2019 median value for each pixel, thereby standardizing comparisons across time and space. Further normalization can be performed by identifying any long term trend from Jan 1st, 2019 to March 1st, 2020 (the approximate start of the pandemic) and subtracting this extrapolated trend from the post-pandemic data. Once this has been completed, we can calculate the Theil-Sen trend estimator for each pixel to determine the trend in nightlights during the initial phases of the pandemic.
+For this, we primarily relied upon in-situ data from MonitorAr stations in Rio de Janeiro  and the Sistema de Información Nacional de Calidad del Aire stations in the Santiago area , though we also used Sentinel-5P \ac{tropomi} data. In Rio de Janeiro, these sensors take hourly measurements to monitor a range of air quality parameters (e.g O3, CO, SO2, PM10, etc.) in 8 different barrios, or neighborhoods, of Rio de Janeiro. The dataset is provided publicly and freely through Rio de Janeiro's Data.Rio website and data stretches back to 2011 \cite{institutopereirapassosDadosHorariosMonitoramento2018}. In Chile, there are  11 sensors across the Metropolitana region, one each of several different municipalities, including Santiago. This data, which stretches back to 2010, was made available as part of the \ac{minciencia} COVID019 data repository on Github \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}.
 
-We also statistically compare specific pre-and-post pandemic time periods at the various areas of interest to identify changes. In particular we performed a t-test to determine if a statistically significant difference exists between the pre-pandemic (January 2019 - Feb 2020) values and the post-pandemic (March 2020 - August 2020), calculated Pearson correlation coefficient to determine if there is a linear fit between the two periods and its directionality, and calculated the Theil-Sen trend estimator for both periods.
+With regards to the in-situ data, Maggie Zheng and I focused on changes in the measured PM10 pre-and-post pandemic. We process the data for each barrio by first calculating weekly averages to reduce intraweek variation, as we would expect there to be a difference in air emissions throughout the week (for instance, weekends versus weekdays). Then the data was fit using a least-squares estimate to a sinusoidal wave with an annual period. This sinusoidal curve is the average seasonal variation in PM10 for that barrio, and it is subsequently subtracted out from the data. A best-fit line is then calculated for this seasonally-corrected data. The best-fit line is long-term (multi-year) trend in PM10 measurements, and it is also subtracted out. At this point, the data is corrected for intraweek, seasonal, and annual trends, and we can then construct normalized histograms and statistically compare the pre-and-post pandemic distributions to identify changes and trends. 
 
-This methodology is summarized below in Figure \ref{fig:nightlights_method}.
+In addition to these, there were several other environmenta analyses conducted as part of this project, but not reported on in detail in this thesis. Amanda Payton used the Sentinel-5 \ac{tropomi} instrument to measure air quality (specifically SO2 and NO2) in the Luanda area and the \ac{modis} Daily Fire dataset to monitor changes in outdoor fires across the country. I did some initial investigation of the use of Landsat and Planet imagery for examining changes in water quality (particularly turbidity) in the water bodies adjacent to several of the study areas. Due to lack of interest from stakeholders, this was quickly abandoned and not pursued further.
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/nightlights_method.png}
-\caption[Nightlights Processing Methodology]{Method for processing and analyzing nightlight data}
-\label{fig:nightlights_method}
-\end{figure}
-
-For air quality, we primarily relied upon in-situ data from MonitorAr stations in Rio de Janeiro  and the Sistema de Información Nacional de Calidad del Aire stations in the Santiago area , though we also used Sentinel-5P \ac{tropomi} data. In Rio de Janeiro, these sensors take hourly measurements to monitor a range of air quality parameters (e.g O3, CO, SO2, PM10, etc.) in 8 different barrios, or neighborhoods, of Rio de Janeiro. The dataset is provided publicly and freely through Rio de Janeiro's Data.Rio website and data stretches back to 2011 \cite{institutopereirapassosDadosHorariosMonitoramento2018}. In Chile, there are  11 sensors across the Metropolitana region, one each of several different municipalities, including Santiago. This data, which stretches back to 2010, was made available as part of the \ac{minciencia} COVID019 data repository on Github \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}.
-
-For the purposes of this study, we focused on changes in the measured PM10 pre-and-post pandemic. We process the data for each barrio by first calculating weekly averages to reduce intraweek variation, as we would expect there to be a difference in air emissions throughout the week (for instance, weekends versus weekdays). Then the data was fit using a least-squares estimate to a sinusoidal wave with an annual period. This sinusoidal curve is the average seasonal variation in PM10 for that barrio, and it is subsequently subtracted out from the data. A best-fit line is then calculated for this seasonally-corrected data. The best-fit line is long-term (multi-year) trend in PM10 measurements, and it is also subtracted out. At this point, the data is corrected for intraweek, seasonal, and annual trends, and we can then construct normalized histograms and statistically compare the pre-and-post pandemic distributions to identify changes and trends. 
-
-There was one additional form of environmental analysis conducted as part of this project, but not reported on in detail in this thesis. Amanda Payton used the Sentinel-5 \ac{tropomi} instrument to measure air quality (specifically SO2 and NO2) in the Luanda area and the \ac{modis} Daily Fire dataset to monitor changes in outdoor fires acros the country.
-
-\subsubsection{Public Health}
+\subsubsection{Public Health} \label{sec:vida-evdt-method-p}
 
 The most notable variation that Vida has compared to previous \ac{evdt} applications is the addition of a dedicated Public Health Model. While the specific data collection definitions, coverage, and update cycles vary, each of the participant locations collected and published coronavirus-related epidemiological data on a regular basis, including newly identified infections, deaths, hospitalizations, etc. Vida ingests this data and uses it both to display historical trends alongside the other components and to conduct simulations of potential future behavior, with an emphasis on future trajectories of infections and hospitalizations. 
 
@@ -403,24 +446,40 @@ This model is non-spatial, though in some locations of interest with distinct ge
 
 \subsubsection{Vulnerability} \label{sec:vida-evdt-v-method}
 
+Traditional, government-collected socioeconomic impact data largely does not exist at the fine temporal resolution required for coronavirus-related assessment during the early stages of the pandemic, so we had to develop the Invisible Variables Initiative (not discussed at length in this thesis) to work with our collaborators to develop surveys and interview procedures to elicit needed information. This initiative was led by Dr. Katlyn Turner and funded by the Natural Hazards Center at the University of Colorado, Boulder. 
 
-Traditional, government-collected socioeconomic impact data largely does not exist at the fine temporal resolution required for coronavirus-related assessment, so we had to develop the Invisible Variables Initiative (not discussed at length in this thesis) to work with our collaborators to develop surveys and interview procedures to elicit needed information. This initiative was led by Dr. Katlyn Turner and funded by the Natural Hazards Center at the University of Colorado, Boulder. As the pandemic progressed, however, some more traditional metrics, such as unemployment data, that show responses to the crisis began to be released.
+As the pandemic progressed, however, some more traditional metrics, such as unemployment data, that show responses to the crisis began to be released and these were included in the \ac{dss}, but we did not conduct any significant analysis of them.
 
-Another aspect of societal impact and vulnerability that Vida monitors is mobility. This includes movement as demonstrated by telecommunications activity, automobile traffic, air traffic, and ship activity, the last of these primarily of relevance to the Luanda stakeholders. Telecommunications activity was made in numerous jurisdictions either directly by private companies \cite{googleCOVID19CommunityMobility} or via government data repositories \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and integrated into Vida. The former of these also broke mobility into various kinds (residential, transit, recreational, etc.). This is important because it does not just matter how many trips individuals are making per day but also where they are going.
+Another aspect of societal impact and vulnerability that Vida monitors is mobility. This includes movement as demonstrated by urban nightlights, telecommunications activity, automobile traffic, air traffic, and ship activity, the last of these primarily of relevance to the Luanda stakeholders. Telecommunications activity was made in numerous jurisdictions either directly by private companies \cite{googleCOVID19CommunityMobility} or via government data repositories \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021} and integrated into Vida. The former of these also broke mobility into various kinds (residential, transit, recreational, etc.). This is important because it does not just matter how many trips individuals are making per day but also where they are going.
 
-Data on air traffic is commonly collected and published by local government authorities. In particular telecommunications-based mobility data was tracked over time and compared to changes in closures policies (discussed further in the following Decision-making section).
+Telecommunications-based mobility data was tracked over time and compared to changes in closures policies (discussed further in the following Decision-making section). Other forms of mobility, such as air traffic passenger counts were included in the \ac{dss} but not significantly analyzed.
 
-Data on ship activity can be generated through the use of Sentinel radar imagery by masking out land and permanent structures, then looking for transient bright spots on navigable bodies of water, particularly around major ports. This process can be seen in Figure \ref{fig:ships}. The period of 2018 through the start of the pandemic was used to establish a baseline of ship presence. This was then compared with activity after the onset of the pandemic to identify changes. 
+This mobility data however did not provide geographic specificity beyond province or nation. In order to provide more geospatial detail, we also examined urban nightlights, which were recognized to have changed and (generally) dimmed during the early phase of the pandemic \cite{elvidgeDimmingLightsChina2020}. We relied primairly on the \ac{viirs} VNP46A2 dataset \cite{romanNASABlackMarble2018}. This dataset contains daily panchromatic (visible and NIR) imagery at at a resolution of 15 arc-seconds (approximately 450m for the locations of interest) that have been corrected for atmospheric interference and moonlight variation. It is thus well suited for examining artificial lights, such as those generated by cities. We process it by masking out clouds and water (thereby eliminating transient lights from ships) using the supplied quality flag, then taking weekly median values to reduce intraweek variation, before calculating the relative anomaly compared to the 2019 median value for each pixel, thereby standardizing comparisons across time and space. Further normalization can be performed by identifying any long term trend from Jan 1st, 2019 to March 1st, 2020 (the approximate start of the pandemic) and subtracting this extrapolated trend from the post-pandemic data. Once this has been completed, we can calculate the Theil-Sen trend estimator for each pixel to determine the trend in nightlights during the initial phases of the pandemic.
+
+We also statistically compare specific pre-and-post pandemic time periods at the various areas of interest to identify changes. In particular we performed a t-test to determine if a statistically significant difference exists between the pre-pandemic (January 2019 - Feb 2020) values and the post-pandemic (March 2020 - August 2020), calculated Pearson correlation coefficient to determine if there is a linear fit between the two periods and its directionality, and calculated the Theil-Sen trend estimator for both periods.
+
+This methodology is summarized below in Figure \ref{fig:nightlights_method}.
 
 \begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.35]{Figures/chap5/ships.pdf}
-	\caption[Ships identification process]{Ships identification process. A: Sentinel-1 SAR imagery of the Luanda area. B: Masking out land and permanent structures. C: Identifying individual ships. Figure created by Amanda Payton.}
-	\label{fig:ships}
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap5/nightlights_method.png}
+\caption[Nightlights Processing Methodology]{Method for processing and analyzing nightlight data}
+\label{fig:nightlights_method}
 \end{figure}
 
-Some experimentation was performed in assessing changes traffic patterns in Rio de Janerio using \ac{eo} imagery, particularly using Sentinel-1 \ac{sar} and higher resolution optical Planet imagery. Further meetings with stakeholders suggested that this was of limited usefulness, particularly in the other locations. This, coupled with a lack of accessible validation data, resulted in us abandoning such efforts fairly early on.
 
+%Data on ship activity can be generated through the use of Sentinel radar imagery by masking out land and permanent structures, then looking for transient bright spots on navigable bodies of water, particularly around major ports. This process can be seen in Figure \ref{fig:ships}. The period of 2018 through the start of the pandemic was used to establish a baseline of ship presence. This was then compared with activity after the onset of the pandemic to identify changes. 
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[scale=0.35]{Figures/chap5/ships.pdf}
+%	\caption[Ships identification process]{Ships identification process. A: Sentinel-1 SAR imagery of the Luanda area. B: Masking out land and permanent structures. C: Identifying individual ships. Figure created by Amanda Payton.}
+%	\label{fig:ships}
+%\end{figure}
+
+Amanda Payton conducted significant analysis of maritime ship activity pre-and-post pandemic onset in the Luanda region using Sentinel-1 \ac{sar} imagery. This is not discussed at length in this thesis as (a) it was not generalized to the other study areas, and (b) I was not significantly involved in this analysis.
+
+Additionally, I performed some experimentation in assessing changes traffic patterns in Rio de Janerio using \ac{eo} imagery, particularly using Sentinel-1 \ac{sar} and higher resolution optical Planet imagery. Further meetings with stakeholders suggested that this was of limited usefulness, particularly in the other locations. This, coupled with a lack of accessible validation data, resulted in us abandoning such efforts fairly early on.
 
 \subsubsection{Decision-making} \label{sec:vida-evdt-decision-method}
 
@@ -462,13 +521,11 @@ These policy timelines were then compared with the telecom-based mobility data c
 & \textbf{Public Transit} & No restrictions on public transit & Public transit operational with social distancing and/or hygiene restrictions	 & Public transit operational with <50\% capacity & Public transit closed \\ \hline
 
 
-
 \multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{2.5cm}{\centering\textbf{Travel \& Border Restrictions}}}} & \textbf{Quarantine of Travelers} &  No quarantines required & Self-quarantine encouraged but not enforced & Self-quarantine mandated and enforced & Quarantine in government-managed facilities required \\ \cline{2-6}
 
 & \textbf{International Travel} & No border restrictions & International travel to/from high risk areas is discouraged & International travel to/from high risk areas is largely prohibited & International travel is largely prohibited \\ \cline{2-6}
 
 & \textbf{International Shipping} & No border restrictions & Restrictions or precautions taken with commercial traffic from high risk areas & Restrictions or precautions taken with commercial traffic from most or all locations & International traffic heavily restricted from most or all locations \\ \hline
-
 
 
 \multirow{3}{*}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering\textbf{Social Distancing}}}} & \textbf{Stay-at-Home-Orders} & No lockdown & Long distance domestic travel restricted & Specific activities and visits to specific places allowed, other activities restricted & Specific activities and visits to specific places allowed and are confined to specific hours, other activities restricted \\ \cline{2-6}
@@ -528,38 +585,6 @@ Various forms of sensing technology are relevant during a viral epidemic. While 
 
 \subsubsection{Environment} \label{sec:vida-evdt-e-result}
 
-\paragraph{Urban Nightlights} \leavevmode\newline
-
-Similarly to other researchers, we detected significant changes in nightlights due to the onset of COVID-19 and later policy changes \cite{elvidgeDimmingLightsChina2020, xbsdScipy2021Predicting2021}. In particular, areas associated with air travel and tourism experienced significant decreases in nightlights and associated human activity (areas in purple along the eastern and southern edges of Rio de Janeiro in Figure \ref{fig:nlts}). Downtown and commercial areas experienced a similar, though less dramatic decrease. Primarily residential areas (the yellow, east-west arc across the middle of Figure \ref{fig:nlts}), meanwhile, significantly brightened. These trends are apparent both for relative percentage change across these areas and when the changes are normalized for long term trends. Graphs showing such changes for airports and specific tourist-centric areas in Rio de Janeiro, Brazil and Bali, Indonesia can be seen in Figure \ref{fig:nlg}. 
-
-The results of basic statistical analysis, particularly t-tests to determine if pre-pandemic and post-pandemic brightness are actually different, for various bairros and areas of Rio de Janeiro can be seen in Figure \ref{fig:nstats}. These results mutually confirm each other and point towards the potential of urban nightlight imagery to supplement telecoms-based mobility data.
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/Nightlights_TS.png}
-\caption[Changes in nightlights in Rio de Janeiro]{Theil-Sen trend estimator for normalized changes in nightlights in Rio de Janeiro during the initial phases of the pandemic (March 1st to August 30th, 2020).}
-\label{fig:nlts}
-\end{figure}
-
-\begin{figure}[!htb] 
-\centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/RioNightStats.jpg}
-\caption[Nightlight Statistics for Rio de Janeiro]{Statistics for nightlight trends in several bairros (neighborhoods) and areas of Rio de Janeiro. Greens indicate stronger statistical significance, red less. Yellows indicate negative trends, blue positive.}
-\label{fig:nstats}
-\end{figure}
-
-
-\clearpage
-
-\begin{figure}[!htb] 
-\centering
-\includegraphics[width=0.85\textwidth]{Figures/chap5/Nightlights_Graphs.png}
-\caption[Nightlight Trends for Rio de Janeiro and Bali]{Pre-and-post pandemic nightlight trends for Rio de Janeiro and Bali, showing both airports and tourist-centric areas.}
-\label{fig:nlg}
-\end{figure}
-
-\paragraph{Air Quality} \leavevmode\newline
-
 For each bairro in Rio de Janeiro, calculated weekly median PM10 levels, calculated a seasonal sinusoidal correction, and a linear secular correction. Figure \ref{fig:aq-combined} shows this process for the Centro bairro. We then ran two-samples t-tests and Anderson Darling tests on the normalized histograms of the pre-and-post pandemic variation-corrected PM10 data, assuming that the pre-pandemic distribution was approximately normally distributed. These tests determine if the pre-pandemic and post-pandemic PM10 measurements are actually different. In particular, as seen in Figure \ref{fig:pm}, we found that tourist areas had a significant decrease in measured PM10 post-pandemic, while some rural or residential areas had slight decreases. We found a significant increase in PM10 measurements post-pandemic in the downtown/business district, with some smaller increases in mixed use/residential and recreational areas. 
 
 \clearpage
@@ -596,6 +621,8 @@ Another aspect worth pointing out is first evidence of multiple waves of cases, 
 
 \subsubsection{Vulnerability} \label{sec:vida-evdt-v-result}
 
+\paragraph{Telecommunications Mobility} \leavevmode\newline
+
 Telecom-based mobility data proved to be a powerful way of understanding how the populations of the study areas were responding to changes in both \ac{covid} case loads and official response policies. The relationship with the latter is explored more in Section \ref{sec:vida-evdt-decision-results} but here it is worth noting some important phenomena in the mobility data itself.
 
 Figure \ref{fig:transit-mobility-comparison} shows the transit-related mobility index from Google's \ac{covid} Community Mobility Reports for each of the study areas \cite{googleCOVID19CommunityMobility}, along with several notable phenomena across the locations. While the following section will explore the study areas more individually, the overall trend across the locations is remarkably similar. 
@@ -616,15 +643,46 @@ Not all forms of mobility showed this general trend of a sudden decrease followe
 \label{fig:policy-residential-mob}
 \end{figure}
 
+\paragraph{Urban Nightlights} \leavevmode\newline
 
-Initial results regarding ship tracking in the harbor of Luanda, Angola suggest that there may be a measurable change in ship number and location related to the pandemic. Compared to the preceding two years, the monthly average number of ships within the Bay increased slightly after the onset of the pandemic and continued to remain higher throughout the year. In the offshore area outside of the bay, the average monthly number of ships was lower than in the two years preceding the pandemic. As the number of \ac{covid} cases in the country climbed, the number of ships within the bay further increased, while the number of ships in the offshore area decreased (as shown in Figure \ref{fig:shipst}). The extended docking within the harbor could reflect a reduction in ships conducting trade or delays in the process of loading and unloading ships due to \ac{covid}.  Further investigation is needed into the accuracy and statistical significance of these results in order to draw conclusions. However, at this early stage of analysis it appears that detecting changes in economic proxies such as ship movement using satellite imagery is possible and we plan to extend our analysis to other regions for comparison.
+Similarly to other researchers, we detected significant changes in nightlights due to the onset of COVID-19 and later policy changes \cite{elvidgeDimmingLightsChina2020, xbsdScipy2021Predicting2021}. In particular, areas associated with air travel and tourism experienced significant decreases in nightlights and associated human activity (areas in purple along the eastern and southern edges of Rio de Janeiro in Figure \ref{fig:nlts}). Downtown and commercial areas experienced a similar, though less dramatic decrease. Primarily residential areas (the yellow, east-west arc across the middle of Figure \ref{fig:nlts}), meanwhile, significantly brightened. These trends are apparent both for relative percentage change across these areas and when the changes are normalized for long term trends. Graphs showing such changes for airports and specific tourist-centric areas in Rio de Janeiro, Brazil and Bali, Indonesia can be seen in Figure \ref{fig:nlg}. 
+
+The results of basic statistical analysis, particularly t-tests to determine if pre-pandemic and post-pandemic brightness are actually different, for various bairros and areas of Rio de Janeiro can be seen in Figure \ref{fig:nstats}. These results mutually confirm each other and point towards the potential of urban nightlight imagery to supplement telecoms-based mobility data.
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.9\textwidth]{Figures/chap5/ships_over_time.png}
-\caption{Ship presence over time for the Luanda area.}
-\label{fig:shipst}
+\includegraphics[width=0.9\textwidth]{Figures/chap5/Nightlights_TS.png}
+\caption[Changes in nightlights in Rio de Janeiro]{Theil-Sen trend estimator for normalized changes in nightlights in Rio de Janeiro during the initial phases of the pandemic (March 1st to August 30th, 2020).}
+\label{fig:nlts}
 \end{figure}
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.9\textwidth]{Figures/chap5/RioNightStats.jpg}
+\caption[Nightlight Statistics for Rio de Janeiro]{Statistics for nightlight trends in several bairros (neighborhoods) and areas of Rio de Janeiro. Greens indicate stronger statistical significance, red less. Yellows indicate negative trends, blue positive.}
+\label{fig:nstats}
+\end{figure}
+
+
+\clearpage
+
+\begin{figure}[!htb] 
+\centering
+\includegraphics[width=0.85\textwidth]{Figures/chap5/Nightlights_Graphs.png}
+\caption[Nightlight Trends for Rio de Janeiro and Bali]{Pre-and-post pandemic nightlight trends for Rio de Janeiro and Bali, showing both airports and tourist-centric areas.}
+\label{fig:nlg}
+\end{figure}
+
+%\paragraph{Ship Tracking} \leavevmode\newline
+%
+%Initial results regarding ship tracking in the harbor of Luanda, Angola suggest that there may be a measurable change in ship number and location related to the pandemic. Compared to the preceding two years, the monthly average number of ships within the Bay increased slightly after the onset of the pandemic and continued to remain higher throughout the year. In the offshore area outside of the bay, the average monthly number of ships was lower than in the two years preceding the pandemic. As the number of \ac{covid} cases in the country climbed, the number of ships within the bay further increased, while the number of ships in the offshore area decreased (as shown in Figure \ref{fig:shipst}). The extended docking within the harbor could reflect a reduction in ships conducting trade or delays in the process of loading and unloading ships due to \ac{covid}.  Further investigation is needed into the accuracy and statistical significance of these results in order to draw conclusions. However, at this early stage of analysis it appears that detecting changes in economic proxies such as ship movement using satellite imagery is possible and we plan to extend our analysis to other regions for comparison.
+%
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.9\textwidth]{Figures/chap5/ships_over_time.png}
+%\caption{Ship presence over time for the Luanda area.}
+%\label{fig:shipst}
+%\end{figure}
 
 \subsubsection{Decision-Making} \label{sec:vida-evdt-decision-results}
 
@@ -668,20 +726,22 @@ The lessons, data, and analysis from the \ac{saf} (Section \ref{sec:vida-saf}) a
 
 \begin{itemize}[itemsep=0pt,parsep=0pt]
 	\item{\textbf{Visualize historical public-health and relevant non-public-health data.} The public health data includes \ac{covid} cases, deaths, and hospitalizations, among others. The relevant non-public-health data is based on the priorities of each study area but include such things as \ac{covid} response policy decisions, air quality, economic indicators, and mobility data.}
-	\item{\textbf{Identify and highlight connections between public health and non-public-health phenomena.} These can go in either direction, such as the impact of weather and air quality on the infectiousness of \ac{covid} or the impact of \ac{covid} on jobs.}
+	\item{\textbf{Identify and highlight connections between public health and non-public-health phenomena.} These were primarily based on the \ac{evdt} analyses shown in the previous section.}
 	\item{\textbf{Simulate potential future trajectories of the pandemic based on different policy decisions.} True forecasting was deemed to be beyond the capabilities of this team, but scenario generation was considered an acceptable alternative for raising the potential implications of different policy choices.} 
 \end{itemize}
 
+An additional key meta-objective was for the \ac{dss} to be designed such as to make it easy to add additional datasets, analysis results, and simulation components on a per-study-area basis. This enabled rapid revisions as stakeholders brought forward new potential functions as the pandemic developed (or abandoned old ones) or as analysis methods reached dead ends. In general, if a stakeholder had a ready dataset that they desired to be added to the \ac{dss}, this was accomplished immediately. Novel analyses, simulation capabilities, and other improvements to the \ac{dss} took more time but were logged using Github's issue manager on the Vida code repository \cite{reidMITVidaRepository2021}.
+
 \subsection{Overview of Components and Initialization}
 
-The \ac{dss} was built upon the Chater \ref{ch:mangroves} \ac{dss}, re-using and improving its code. It was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package, with much of the development taking place in late spring of 2020 through mid-2021. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS (with recent versions of all three being tested for use with the \ac{dss}). It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All code is available in Appendix \ref{app:code}. The user interface can be easily switched between languages (English, Spanish, and Portuguese are currently available, with easy functionality for adding additional languages) and between each of the study areas.
+The \ac{dss} was built upon the Chapter \ref{ch:mangroves} \ac{dss}, re-using and improving its code. It was created as an open-source desktop/laptop-based application written in the Python programming language and making heavy use of the tkinter package, with much of the development taking place in late spring of 2020 through mid-2021. This package allows for the creation of a Tk \ac{gui}, which enables a common user experience on Linux, Windows, and macOS (with recent versions of all three being tested for use with the \ac{dss}). It can be run either by downloading and running the complete \ac{dss} Python package or through the use of an executable compiled with PyInstaller. All code is available in Appendix \ref{app:code}. The user interface can be easily switched between languages (English, Spanish, and Portuguese are currently available, with easy functionality for adding additional languages) and between each of the study areas. The ability to display in the native language of a particular stakeholder was deemed to be important because, as discussed in Section \ref{sec:vida-saf-stakeholders-result}, most of the Local Context Area Experts served in an advisory role to \ac{covid} policymakers. We wanted to minimize any barriers to understanding the \ac{dss} for those policymakers.
 
 The \ac{dss} consists of three primary components:
 
 \begin{enumerate}[label=\emph{\alph*},itemsep=0pt,parsep=0pt]
 	\item{\textbf{A map display} capable of showing a variety of both raster and vector data including a a satellite view of the area, jurisdictional boundaries, and chloropleth statistics.}
 	\item{\textbf{A graph display} containing two graphs, each capable of displaying various public health, economic, and environmental data over time.}
-	\item{\textbf{A simulator} capable of generating future \ac{covid} scenarios and displaying them via the above graphs. These scenarios are based either on the user manually entering \ac{covid} response policies and on a weekly basis or by running the simulation according to various pre-coded decision rules.}
+	\item{\textbf{A simulator} capable of generating future \ac{covid} scenarios using the \ac{sir} model described in Section \ref{sec:vida-evdt-method-p} and displaying them via the above graphs. These scenarios are based either on the user manually entering \ac{covid} response policies and on a weekly basis or by running the simulation according to various pre-coded decision rules.}
 \end{enumerate}
 
 All three such components are immediately presented to the user upon initialization, as seen in Figure \ref{fig:vidad}.
@@ -753,7 +813,16 @@ Various stakeholders participated in the development of the \ac{dss} itself. Thi
 
 The second method was by providing feedback based on either presentations of the \acp{dss}, by accessing the online \ac{dss} themselves, or by running the desktop \ac{dss} themselves. The last of these was possible by either downloading and running the Python code or through the use of executables that Lombardo and I put together using PyInstaller for specific stakeholders. These activities were conducted through weekly or biweekly meetings between the Boston-based research team and individual site representatives and through online collaboration via the local collaborators own online data repositories (e.g. Rio de Janeiro's Data.Rio \cite{institutopereirapassosDataRio2017} or Chile's Datos-\ac{covid} \cite{ministeriodecienciatecnologiaconocimientoeinnovacionDatosCOVID192021}), the Vida project's own code repository \cite{reidMITVidaRepository2021}, and through interaction with the browser-based version of the Vida \ac{dss} prototype \cite{bluerasterMITVidaSupportBoston2021}.
 
-Beyond the \ac{dss} however, there was the additional objective to ``shar[e] more general information and resources among the participants for responding to the pandemic." This was accomplished primarily accomplished through monthly, full Network meetings, at which participants presented and discussed useful lessons and tactics for addressing coronavirus response, including topics not directly related to Vida. Examples of such topics were how to implement wastewater viral testing and how to integrate the data generated into decision-making, how to approach health surveillance in elderly care facilities, and how to identify high vulnerability neighborhoods. An example agenda for can be seen in \ref{fig:vida-network-agenda}. These discussions, which cycled between several different times-of-day and days-of-week to maximize accessibility to participants from around the world, promoted innovation and enabled cross-location learning that may not otherwise occur. They also enabled participants to communicate with one another in a shared, non-English language when this was helpful. Recordings of these full Network meetings were made available online, along with slides from presentations.
+Beyond the \ac{dss} however, there was the additional objective to ``shar[e] more general information and resources among the participants for responding to the pandemic." This was accomplished primarily accomplished through monthly, full Network meetings, at which participants presented and discussed useful lessons and tactics for addressing coronavirus response, including topics not directly related to Vida. Examples of such topics were how to implement wastewater viral testing and how to integrate the data generated into decision-making, how to approach health surveillance in elderly care facilities, and how to identify high vulnerability neighborhoods. An example agenda for can be seen in \ref{fig:vida-network-agenda}. These discussions, which cycled between several different times-of-day and days-of-week to maximize accessibility to participants from around the world, promoted innovation and enabled cross-location learning that may not otherwise occur. They also enabled participants to communicate with one another in a shared, non-English language when this was helpful. Specific examples of such benefits include:
+
+\begin{itemize}[itemsep=0pt,parsep=0pt]
+	\item{Presentations on how Rio de Janeiro and Chile were making \ac{covid} case data and other data available online prompted Indonesia stakeholders to similarly publish data online using ArcGIS Online \cite{indonesiaministryofhealthDataHarianKasus2023}.}
+	\item{A presentation by Paulina Assmann on setting up a wastewater surveillance system for \ac{covid} led to discussion and followup meetings with participants about setting up similar systems in Mexico and Brazil \cite{assmannBuildingWastewaterSurveillance2021}. Ultimately such systems were set up in both of those locations, though I cannot claim with any surety that this interaction was directly responsible.}
+	\item{Future, post-pandemic projects and collaborations were inspired, including a flood resilience \ac{evdt} project in Pekalongan, Indonesia and using \ac{eo} imagery to identify socioeconomically vulnerable areas of Mexico.}
+\end{itemize}
+
+
+Recordings of these full Network meetings were made available online, along with slides from presentations.
 
 We also proposed organizing dedicated webinars on various topics, hosted by relevant experts from among the participants, but surveys of Network participants suggested that this was not a priority, so this was not pursued. 
 
@@ -828,13 +897,17 @@ That said, the goal of this project was not for the Space Enabled team to indefi
 
 \subsection{Lessons Learned for the EVDT Framework} \label{sec:vida-lessons}
 
-This project diverged significantly from the original concept of an \ac{evdt} project both in its speed and in its inclusion of some many distinct study areas. As such, it cannot be considered to be a demonstration or test of the \ac{evdt} Framework proper. Nonetheless, it is important to understand how approaches breakdown or stand strong during disasters, so the following lessons were drawn with this in mind.
+As discussed at the beginning of this chapter, this case study diverged significantly from the original concept of an \ac{evdt} project both in its speed and in its inclusion of some many distinct study areas. This resulted in numerous methodological deviations. As such, it cannot be considered to be a demonstration or test of the \ac{evdt} Framework proper. Nonetheless, it is important to understand how approaches breakdown or stand strong during disasters, so the following lessons were drawn with this in mind.
 
 \textbf{The benefits of multi-study-area or multi-project communication and collaboration.} As mentioned earlier, the Vida International Network has facilitated international collaboration, allowing participants to share innovations and insights from their \ac{covid} response efforts. It has also encouraged intra-country collaboration by providing a motivation for outreach between government officials, academic researchers, and community leaders in order to fill data gaps and answer pressing questions. This process has also raised awareness of the utility of space-based \ac{eo} data, potentially preparing participants for future pandemic and non-pandemic applications. 
 
 The success of the multilateral Network meetings prompted us to continue such meetings for a more general EVDT community audience, as well as to consider other potential means of engagement such as webinars or online resources. This likely would not have occurred if we had continued to pursue more individual, siloed \ac{evdt} projects as was the norm.
 
-\textbf{The importance of clearly scoped problem and use.} Overall, the Vida project included many unsuccessful experiments (such as monitoring vehicle traffic) and disconnected components (such as the separate in-situ and \ac{eo}-based air quality analyses). It resulted in some interesting results that did not find their way into the \ac{dss} proper or to supporting decision-making in other ways. This was partially due to the rushed stakeholder analysis, which was in turn due to the urgency of the situation and the complexity of multiple study areas. As such, it was potentially unavoidable in this case study but nonetheless represents a cautionary tale for future \ac{evdt} analyses.
+\textbf{The importance of clearly scoped problem and use that can be completed within team resources, particularly during an emergency situation.} Overall, the Vida project included many unsuccessful experiments (such as monitoring vehicle traffic) and disconnected components (such as the separate in-situ and \ac{eo}-based air quality analyses). We generated some interesting results that did not find their way into the \ac{dss} proper or to supporting decision-making in other ways. This was very unlike the Chapter \ref{ch:mangroves} case study that had a clear through-line to the analyses and the \ac{dss} (see Figure \ref{fig:evdt-dss-flow}). This was partially due to the rushed stakeholder analysis, which was in turn due to the urgency of the situation and the complexity of multiple study areas. As such, it was potentially unavoidable in this case study but nonetheless represents a cautionary tale for future \ac{evdt} analyses.
+
+It was also partially due to the how thin the Space Enabled team was spread by this project. I was the only one with experience with a prior \ac{evdt} project directly involved with Vida. Seamus Lombardo, who was an invaluable asset here, had only recently joined the lab and had significant on-the-job learning ahead of him. We both ended up being the primary point of contact for multiple regions (I primarily took on the Latin American study areas, Lombardo primarily took on Indonesia and Angola, but this was subject to significant flux over the course of the project). This limited our ability to do deep dives into any particular study area. The lesson here bolsters the \ac{evdt} Framework's methodological focus on a particular study area for a given project (while still encouraging re-use across projects). 
+
+\textbf{The power of reusing assets and building upon experience, particularly when a rapid response effort is required.} While the previous lesson focuses on the limitations of this case study, I also wish to note that this project was able to deliver concrete results to stakeholders on an accelerated timeline, in a disruptive environment, and for several different study areas. This was an ambitious undertaking that would not have been possible without the various forms of expertise that the Local Context Area Experts and Technical Area Experts had. It also would not have been possible if this had been the first \ac{evdt} project. Reusing code from the Chapter \ref{ch:mangroves} \ac{dss} and workflows for analyzing \ac{eo} data were invaluable, as was a higher level of familiarity with the \ac{evdt} Framework that I and other participants had as a result of previous projects.
 
 
 \section{Conclusion} \label{sec:vida-concl}

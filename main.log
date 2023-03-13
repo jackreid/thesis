@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  8 MAR 2023 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  13 MAR 2023 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,8 +660,12 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 119.
  (./main.aux
 (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
-(./chap4.aux) (./chap5.aux) (./chap7.aux) (./appa.aux) (./appb.aux) (./appc.aux
-) (./appd.aux) (./biblio.aux))
+(./chap4.aux
+
+LaTeX Warning: Label `tab:rio-needs' multiply defined.
+
+) (./chap5.aux) (./chap7.aux) (./appa.aux) (./appb.aux) (./appc.aux)
+(./appd.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
@@ -825,11 +829,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [17] [18
 
 ]
-(./main.lot)
+(./main.lot [19])
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [19] [20]
+ [20]
 Underfull \vbox (badness 6284) has occurred while \output is active []
 
  [21
@@ -855,22 +859,6 @@ Chapter 1.
 Package acronym Info: Label `acro:eo' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
 [27]
-Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
-
-
-Package acronym Warning: Acronym `eos' is not defined on input line 25.
-
-
-Package acronym Warning: Acronym `eos' is not defined on input line 25.
-
-
-Package acronym Warning: Acronym `eos' is not defined on input line 39.
-
-
-Package acronym Warning: Acronym `eos' is not defined on input line 39.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -1076,6 +1064,12 @@ Package acronym Info: Label `acro:fema' newly defined as it shall be overridden
 although it is yet undefined on input line 228.
 
 [54]
+Package acronym Info: Label `acro:eos' newly defined as it shall be overridden
+although it is yet undefined on input line 230.
+
+
+Package acronym Warning: Acronym `eos' is not defined on input line 230.
+
 
 Package acronym Warning: Acronym `eos' is not defined on input line 230.
 
@@ -1102,7 +1096,7 @@ although it is yet undefined on input line 240.
 Package acronym Info: Label `acro:lclu' newly defined as it shall be overridden
 
 although it is yet undefined on input line 245.
-<Figures/chap2/GIScience.png, id=2413, 932.48375pt x 829.0975pt>
+<Figures/chap2/GIScience.png, id=2414, 932.48375pt x 829.0975pt>
 File: Figures/chap2/GIScience.png Graphic file (type png)
 <use Figures/chap2/GIScience.png>
 Package pdftex.def Info: Figures/chap2/GIScience.png  used on input line 249.
@@ -1118,14 +1112,14 @@ although it is yet undefined on input line 261.
 [58 <./Figures/chap2/GIScience.png>]
 Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
 although it is yet undefined on input line 266.
-<Figures/chap2/GISMarketplace.png, id=2464, 816.04875pt x 714.67pt>
+<Figures/chap2/GISMarketplace.png, id=2465, 816.04875pt x 714.67pt>
 File: Figures/chap2/GISMarketplace.png Graphic file (type png)
 <use Figures/chap2/GISMarketplace.png>
 Package pdftex.def Info: Figures/chap2/GISMarketplace.png  used on input line 2
 87.
 (pdftex.def)             Requested size: 326.41371pt x 285.86293pt.
  [59] [60 <./Figures/chap2/GISMarketplace.png>]
-<Figures/chap2/east2.jpg, id=2494, 1084.05pt x 505.89pt>
+<Figures/chap2/east2.jpg, id=2495, 1084.05pt x 505.89pt>
 File: Figures/chap2/east2.jpg Graphic file (type jpg)
 <use Figures/chap2/east2.jpg>
 Package pdftex.def Info: Figures/chap2/east2.jpg  used on input line 298.
@@ -1152,7 +1146,7 @@ Even self-admitted
  []
 
 [72]
-<Figures/chap2/gis_equity.png, id=2762, 932.48375pt x 756.8275pt>
+<Figures/chap2/gis_equity.png, id=2763, 932.48375pt x 756.8275pt>
 File: Figures/chap2/gis_equity.png Graphic file (type png)
 <use Figures/chap2/gis_equity.png>
 Package pdftex.def Info: Figures/chap2/gis_equity.png  used on input line 491.
@@ -1173,7 +1167,7 @@ ng," "muscle-bound"
  []
 
 [77] [78] [79] [80]
-<Figures/chap2/civic_ladder.png, id=2910, 513.92pt x 461.725pt>
+<Figures/chap2/civic_ladder.png, id=2911, 513.92pt x 461.725pt>
 File: Figures/chap2/civic_ladder.png Graphic file (type png)
 <use Figures/chap2/civic_ladder.png>
 Package pdftex.def Info: Figures/chap2/civic_ladder.png  used on input line 581
@@ -1191,7 +1185,7 @@ Package acronym Info: Label `acro:usac' newly defined as it shall be overridden
 although it is yet undefined on input line 616.
  [82] [83] [84]
 [85]
-<Figures/chap2/friedman_timeline.png, id=2996, 987.69pt x 554.07pt>
+<Figures/chap2/friedman_timeline.png, id=2997, 987.69pt x 554.07pt>
 File: Figures/chap2/friedman_timeline.png Graphic file (type png)
 <use Figures/chap2/friedman_timeline.png>
 Package pdftex.def Info: Figures/chap2/friedman_timeline.png  used on input lin
@@ -1347,7 +1341,7 @@ has been stripped
  []
 
 [98]
-<Figures/chap2/sustainable_triangle.png, id=3247, 1156.32pt x 578.16pt>
+<Figures/chap2/sustainable_triangle.png, id=3248, 1156.32pt x 578.16pt>
 File: Figures/chap2/sustainable_triangle.png Graphic file (type png)
 <use Figures/chap2/sustainable_triangle.png>
 Package pdftex.def Info: Figures/chap2/sustainable_triangle.png  used on input 
@@ -1370,7 +1364,7 @@ Underfull \vbox (badness 6332) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-<Figures/chap2/projections.jpg, id=3356, 1333.98375pt x 458.71375pt>
+<Figures/chap2/projections.jpg, id=3357, 1333.98375pt x 458.71375pt>
 File: Figures/chap2/projections.jpg Graphic file (type jpg)
 <use Figures/chap2/projections.jpg>
 Package pdftex.def Info: Figures/chap2/projections.jpg  used on input line 859.
@@ -1405,17 +1399,13 @@ although it is yet undefined on input line 47.
 Package acronym Info: Label `acro:lis' newly defined as it shall be overridden
 although it is yet undefined on input line 47.
  [112]
-
-Package acronym Warning: Acronym `eos' is not defined on input line 51.
-
-
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
  [113]
 Package acronym Info: Label `acro:spade' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 55.
-<Figures/chap3/spade.png, id=3528, 855.195pt x 288.07625pt>
+<Figures/chap3/spade.png, id=3530, 855.195pt x 288.07625pt>
 File: Figures/chap3/spade.png Graphic file (type png)
 <use Figures/chap3/spade.png>
 Package pdftex.def Info: Figures/chap3/spade.png  used on input line 59.
@@ -1430,7 +1420,7 @@ Package acronym Info: Label `acro:catwoe' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 64.
 [114 <./Figures/chap3/spade.png>] [115] [116]
-<Figures/chap3/evdt_framework.png, id=3589, 2509.375pt x 825.0825pt>
+<Figures/chap3/evdt_framework.png, id=3591, 2509.375pt x 825.0825pt>
 File: Figures/chap3/evdt_framework.png Graphic file (type png)
 <use Figures/chap3/evdt_framework.png>
 Package pdftex.def Info: Figures/chap3/evdt_framework.png  used on input line 8
@@ -1445,7 +1435,7 @@ Overfull \hbox (8.14674pt too wide) in paragraph at lines 89--90
 
 
 ] [119]
-<Figures/chap3/SAF.jpg, id=3656, 960.58875pt x 717.68124pt>
+<Figures/chap3/SAF.jpg, id=3658, 960.58875pt x 717.68124pt>
 File: Figures/chap3/SAF.jpg Graphic file (type jpg)
 <use Figures/chap3/SAF.jpg>
 Package pdftex.def Info: Figures/chap3/SAF.jpg  used on input line 128.
@@ -1456,7 +1446,7 @@ Overfull \hbox (4.73392pt too wide) in paragraph at lines 154--190
  []
 
 [121]
-<Figures/chap3/scale.png, id=3700, 694.595pt x 691.58376pt>
+<Figures/chap3/scale.png, id=3702, 694.595pt x 691.58376pt>
 File: Figures/chap3/scale.png Graphic file (type png)
 <use Figures/chap3/scale.png>
 Package pdftex.def Info: Figures/chap3/scale.png  used on input line 202.
@@ -1465,13 +1455,13 @@ Package pdftex.def Info: Figures/chap3/scale.png  used on input line 202.
 Underfull \vbox (badness 1515) has occurred while \output is active []
 
  [122]
-<Figures/chap3/dimensions_generic.png, id=3717, 1002.74625pt x 555.07375pt>
+<Figures/chap3/dimensions_generic.png, id=3719, 1002.74625pt x 555.07375pt>
 File: Figures/chap3/dimensions_generic.png Graphic file (type png)
 <use Figures/chap3/dimensions_generic.png>
 Package pdftex.def Info: Figures/chap3/dimensions_generic.png  used on input li
 ne 211.
 (pdftex.def)             Requested size: 301.00192pt x 166.61656pt.
-<Figures/chap3/dimensions_examples.png, id=3723, 993.7125pt x 1359.0775pt>
+<Figures/chap3/dimensions_examples.png, id=3725, 993.7125pt x 1359.0775pt>
 File: Figures/chap3/dimensions_examples.png Graphic file (type png)
 <use Figures/chap3/dimensions_examples.png>
 Package pdftex.def Info: Figures/chap3/dimensions_examples.png  used on input l
@@ -1485,23 +1475,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package acronym Info: Label `acro:gka' newly defined as it shall be overridden
 although it is yet undefined on input line 243.
  [125]
-<Figures/chap3/jaffe-stakeholder.png, id=3759, 928.46875pt x 512.91624pt>
+<Figures/chap3/jaffe-stakeholder.png, id=3761, 928.46875pt x 512.91624pt>
 File: Figures/chap3/jaffe-stakeholder.png Graphic file (type png)
 <use Figures/chap3/jaffe-stakeholder.png>
 Package pdftex.def Info: Figures/chap3/jaffe-stakeholder.png  used on input lin
 e 255.
 (pdftex.def)             Requested size: 387.00153pt x 213.79544pt.
  [126 <./Figures/chap3/jaffe-stakeholder.png>]
-Overfull \hbox (3.00732pt too wide) in paragraph at lines 283--283
+Overfull \hbox (3.00732pt too wide) in paragraph at lines 285--285
 \T1/cmr/m/n/8 projects/properties/programs 
  []
 
-[127] [128] [129]
-<Figures/chap3/system-diagram-combined.png, id=3801, 939.51pt x 1115.16624pt>
+[127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+[129]
+<Figures/chap3/system-diagram-combined.png, id=3806, 939.51pt x 1115.16624pt>
 File: Figures/chap3/system-diagram-combined.png Graphic file (type png)
 <use Figures/chap3/system-diagram-combined.png>
 Package pdftex.def Info: Figures/chap3/system-diagram-combined.png  used on inp
-ut line 319.
+ut line 321.
 (pdftex.def)             Requested size: 387.00153pt x 459.34813pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1509,37 +1503,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [130
 
  <./Figures/chap3/system-diagram-combined.png>] [131]
-<Figures/chap3/modelflow.png, id=3842, 1228.59pt x 676.5275pt>
+<Figures/chap3/modelflow.png, id=3847, 1228.59pt x 676.5275pt>
 File: Figures/chap3/modelflow.png Graphic file (type png)
 <use Figures/chap3/modelflow.png>
-Package pdftex.def Info: Figures/chap3/modelflow.png  used on input line 359.
+Package pdftex.def Info: Figures/chap3/modelflow.png  used on input line 361.
 (pdftex.def)             Requested size: 368.57985pt x 202.95981pt.
  [132] [133 <./Figures/chap3/modelflow.png>] [134]
-<Figures/chap3/jaffe_application.png, id=3912, 1908.12875pt x 971.63pt>
+<Figures/chap3/jaffe_application.png, id=3917, 1908.12875pt x 971.63pt>
 File: Figures/chap3/jaffe_application.png Graphic file (type png)
 <use Figures/chap3/jaffe_application.png>
 Package pdftex.def Info: Figures/chap3/jaffe_application.png  used on input lin
-e 412.
+e 414.
 (pdftex.def)             Requested size: 381.61899pt x 194.32256pt.
  [135] [136 <./Figures/chap3/jaffe_application.png>] [137]
-Overfull \hbox (4.33392pt too wide) in paragraph at lines 438--512
+Overfull \hbox (4.33392pt too wide) in paragraph at lines 440--514
  [] 
  []
 
 [138] [139] [140] [141]
-<Figures/chap3/Graphic_2_Development.png, id=4077, 1637.11626pt x 683.55376pt>
+<Figures/chap3/Graphic_2_Development.png, id=4082, 1637.11626pt x 683.55376pt>
 File: Figures/chap3/Graphic_2_Development.png Graphic file (type png)
 <use Figures/chap3/Graphic_2_Development.png>
 Package pdftex.def Info: Figures/chap3/Graphic_2_Development.png  used on input
- line 576.
+ line 578.
 (pdftex.def)             Requested size: 409.27806pt x 170.88802pt.
  [142] [143 <./Figures/chap3/Graphic_2_Development.png>] [144] [145] [146] [147
 ]
-<Figures/chap3/Loops_Combined.png, id=4185, 702.625pt x 985.6825pt>
+<Figures/chap3/Loops_Combined.png, id=4190, 702.625pt x 985.6825pt>
 File: Figures/chap3/Loops_Combined.png Graphic file (type png)
 <use Figures/chap3/Loops_Combined.png>
 Package pdftex.def Info: Figures/chap3/Loops_Combined.png  used on input line 6
-33.
+35.
 (pdftex.def)             Requested size: 351.31163pt x 492.84004pt.
  [148
 
@@ -1570,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 Package acronym Info: Label `acro:ra' newly defined as it shall be overridden
 although it is yet undefined on input line 56.
 [154]
-<Figures/chap4/RA2.png, id=4321, 714.7503pt x 502.42104pt>
+<Figures/chap4/RA2.png, id=4327, 714.7503pt x 502.42104pt>
 File: Figures/chap4/RA2.png Graphic file (type png)
 <use Figures/chap4/RA2.png>
 Package pdftex.def Info: Figures/chap4/RA2.png  used on input line 62.
@@ -1596,19 +1590,16 @@ Package acronym Info: Label `acro:inea' newly defined as it shall be overridden
 
 although it is yet undefined on input line 119.
 
-Underfull \vbox (badness 6625) has occurred while \output is active []
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
  [157]
 [158]
-<Figures/chap4/dimensions_rio.png, id=4394, 997.7275pt x 658.46pt>
+<Figures/chap4/dimensions_rio.png, id=4400, 997.7275pt x 658.46pt>
 File: Figures/chap4/dimensions_rio.png Graphic file (type png)
 <use Figures/chap4/dimensions_rio.png>
 Package pdftex.def Info: Figures/chap4/dimensions_rio.png  used on input line 1
 56.
 (pdftex.def)             Requested size: 344.005pt x 227.02829pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [159]
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
@@ -1628,19 +1619,19 @@ although it is yet undefined on input line 171.
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
  [161]
-<Figures/chap4/Relocation.png, id=4434, 1186.4325pt x 672.5125pt>
+<Figures/chap4/Relocation.png, id=4440, 1186.4325pt x 672.5125pt>
 File: Figures/chap4/Relocation.png Graphic file (type png)
 <use Figures/chap4/Relocation.png>
 Package pdftex.def Info: Figures/chap4/Relocation.png  used on input line 175.
 (pdftex.def)             Requested size: 355.9325pt x 201.7553pt.
-<Figures/chap4/Employment.png, id=4441, 1318.9275pt x 907.39pt>
+<Figures/chap4/Employment.png, id=4447, 1318.9275pt x 907.39pt>
 File: Figures/chap4/Employment.png Graphic file (type png)
 <use Figures/chap4/Employment.png>
 Package pdftex.def Info: Figures/chap4/Employment.png  used on input line 184.
 (pdftex.def)             Requested size: 395.6813pt x 272.2191pt.
 
 [162 <./Figures/chap4/Relocation.png>]
-<Figures/chap4/Transit.png, id=4452, 884.30376pt x 459.7175pt>
+<Figures/chap4/Transit.png, id=4458, 884.30376pt x 459.7175pt>
 File: Figures/chap4/Transit.png Graphic file (type png)
 <use Figures/chap4/Transit.png>
 Package pdftex.def Info: Figures/chap4/Transit.png  used on input line 193.
@@ -1669,7 +1660,7 @@ although it is yet undefined on input line 215.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [166]
-<Figures/chap4/MangroveExtent.png, id=4525, 1340.00626pt x 661.47125pt>
+<Figures/chap4/MangroveExtent.png, id=4531, 1340.00626pt x 661.47125pt>
 File: Figures/chap4/MangroveExtent.png Graphic file (type png)
 <use Figures/chap4/MangroveExtent.png>
 Package pdftex.def Info: Figures/chap4/MangroveExtent.png  used on input line 2
@@ -1677,14 +1668,14 @@ Package pdftex.def Info: Figures/chap4/MangroveExtent.png  used on input line 2
 (pdftex.def)             Requested size: 335.00075pt x 165.3674pt.
 
 [167 <./Figures/chap4/MangroveExtent.png>]
-<Figures/chap4/NDVIanomaly_v2.png, id=4539, 928.46875pt x 552.0625pt>
+<Figures/chap4/NDVIanomaly_v2.png, id=4545, 928.46875pt x 552.0625pt>
 File: Figures/chap4/NDVIanomaly_v2.png Graphic file (type png)
 <use Figures/chap4/NDVIanomaly_v2.png>
 Package pdftex.def Info: Figures/chap4/NDVIanomaly_v2.png  used on input line 2
 43.
 (pdftex.def)             Requested size: 371.38092pt x 220.82108pt.
  [168 <./Figures/chap4/NDVIanomaly_v2.png>]
-<Figures/chap4/RBAG.png, id=4553, 1120.185pt x 845.1575pt>
+<Figures/chap4/RBAG.png, id=4559, 1120.185pt x 845.1575pt>
 File: Figures/chap4/RBAG.png Graphic file (type png)
 <use Figures/chap4/RBAG.png>
 Package pdftex.def Info: Figures/chap4/RBAG.png  used on input line 252.
@@ -1700,7 +1691,7 @@ although it is yet undefined on input line 267.
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
  [171]
-<Figures/chap4/government-agencies.png, id=4605, 2509.375pt x 1190.4475pt>
+<Figures/chap4/government-agencies.png, id=4611, 2509.375pt x 1190.4475pt>
 File: Figures/chap4/government-agencies.png Graphic file (type png)
 <use Figures/chap4/government-agencies.png>
 Package pdftex.def Info: Figures/chap4/government-agencies.png  used on input l
@@ -1714,401 +1705,438 @@ them into primary-secondary-
  []
 
 [173 <./Figures/chap4/government-agencies.png>]
-<Figures/chap4/Stakeholder_Map.png, id=4618, 1381.16pt x 980.66376pt>
+<Figures/chap4/Stakeholder_Map.png, id=4624, 1381.16pt x 980.66376pt>
 File: Figures/chap4/Stakeholder_Map.png Graphic file (type png)
 <use Figures/chap4/Stakeholder_Map.png>
 Package pdftex.def Info: Figures/chap4/Stakeholder_Map.png  used on input line 
 305.
 (pdftex.def)             Requested size: 387.00153pt x 274.7785pt.
- [174 <./Figures/chap4/Stakeholder_Map.png>] [175]
-Overfull \hbox (5.3886pt too wide) in paragraph at lines 328--369
+ [174 <./Figures/chap4/Stakeholder_Map.png>]
+
+LaTeX Warning: Reference `tab:rio-sets-needs' on page 175 undefined on input li
+ne 314.
+
+
+LaTeX Warning: Reference `tab:rio-dss-needs' on page 175 undefined on input lin
+e 316.
+
+[175] [176]
+Overfull \hbox (5.3886pt too wide) in paragraph at lines 330--373
  [] 
  []
 
-[176]
-<Figures/chap4/system-diagram-rio.png, id=4665, 1164.35pt x 631.35875pt>
+! Missing } inserted.
+<inserted text> 
+                }
+l.420 ...sons to improve the \ac{evdt} Framework &
+                                                    \tabitem{Modularity and ...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+l.420 ...&  \tabitem{Modularity and re-usability}}
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+<recently read> \noalign 
+                         
+l.421 ... experience for future projects} & \hline
+                                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (5.3886pt too wide) in paragraph at lines 381--424
+ [] 
+ []
+
+[177] [178]
+<Figures/chap4/system-diagram-rio.png, id=4702, 1164.35pt x 631.35875pt>
 File: Figures/chap4/system-diagram-rio.png Graphic file (type png)
 <use Figures/chap4/system-diagram-rio.png>
 Package pdftex.def Info: Figures/chap4/system-diagram-rio.png  used on input li
-ne 399.
+ne 505.
 (pdftex.def)             Requested size: 344.005pt x 186.5286pt.
-<Figures/chap4/concept_flow.jpg, id=4669, 1665.22125pt x 1461.46pt>
+<Figures/chap4/concept_flow.jpg, id=4706, 1665.22125pt x 1461.46pt>
 File: Figures/chap4/concept_flow.jpg Graphic file (type jpg)
 <use Figures/chap4/concept_flow.jpg>
-Package pdftex.def Info: Figures/chap4/concept_flow.jpg  used on input line 408
+Package pdftex.def Info: Figures/chap4/concept_flow.jpg  used on input line 514
 .
 (pdftex.def)             Requested size: 387.00153pt x 339.65215pt.
- [177
+ [179
 
 
-] [178 <./Figures/chap4/system-diagram-rio.png>]
+] [180 <./Figures/chap4/system-diagram-rio.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [179 <./Figures/chap4/concept_flow.jpg>]
-<Figures/chap4/MangroveModelFlow.png, id=4702, 1268.74pt x 836.12375pt>
+ [181 <./Figures/chap4/concept_flow.jpg>]
+<Figures/chap4/MangroveModelFlow.png, id=4740, 1268.74pt x 836.12375pt>
 File: Figures/chap4/MangroveModelFlow.png Graphic file (type png)
 <use Figures/chap4/MangroveModelFlow.png>
 Package pdftex.def Info: Figures/chap4/MangroveModelFlow.png  used on input lin
-e 451.
+e 557.
 (pdftex.def)             Requested size: 387.00153pt x 255.0365pt.
-<Figures/chap4/evdt-dss-flow.png, id=4703, 1730.465pt x 832.10875pt>
+<Figures/chap4/evdt-dss-flow.png, id=4741, 1730.465pt x 832.10875pt>
 File: Figures/chap4/evdt-dss-flow.png Graphic file (type png)
 <use Figures/chap4/evdt-dss-flow.png>
-Package pdftex.def Info: Figures/chap4/evdt-dss-flow.png  used on input line 45
-8.
+Package pdftex.def Info: Figures/chap4/evdt-dss-flow.png  used on input line 56
+4.
 (pdftex.def)             Requested size: 387.00153pt x 186.08636pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [180 <./Figures/chap4/MangroveModelFlow.png>] [181 <./Figures/chap4/evdt-dss-f
+ [182 <./Figures/chap4/MangroveModelFlow.png>] [183 <./Figures/chap4/evdt-dss-f
 low.png>]
-
-Package acronym Warning: Acronym `eos' is not defined on input line 476.
-
 Package acronym Info: Label `acro:gmw' newly defined as it shall be overridden
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:alos' newly defined as it shall be overridden
 
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:palsar' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:icesat' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:glas' newly defined as it shall be overridden
 
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:srtm' newly defined as it shall be overridden
 
-although it is yet undefined on input line 478.
+although it is yet undefined on input line 584.
 Package acronym Info: Label `acro:tm' newly defined as it shall be overridden
-although it is yet undefined on input line 493.
+although it is yet undefined on input line 599.
 Package acronym Info: Label `acro:etm' newly defined as it shall be overridden
-although it is yet undefined on input line 495.
+although it is yet undefined on input line 601.
 Package acronym Info: Label `acro:oli' newly defined as it shall be overridden
-although it is yet undefined on input line 497.
+although it is yet undefined on input line 603.
 Package acronym Info: Label `acro:msi' newly defined as it shall be overridden
-although it is yet undefined on input line 501.
+although it is yet undefined on input line 607.
 
-Overfull \hbox (14.6811pt too wide) in paragraph at lines 489--512
+Overfull \hbox (14.6811pt too wide) in paragraph at lines 595--618
  [] 
  []
 
-[182] [183]
-<Figures/chap4/extent_method.png, id=4780, 2509.375pt x 905.3825pt>
+[184] [185]
+<Figures/chap4/extent_method.png, id=4818, 2509.375pt x 905.3825pt>
 File: Figures/chap4/extent_method.png Graphic file (type png)
 <use Figures/chap4/extent_method.png>
-Package pdftex.def Info: Figures/chap4/extent_method.png  used on input line 52
-0.
+Package pdftex.def Info: Figures/chap4/extent_method.png  used on input line 62
+6.
 (pdftex.def)             Requested size: 564.6233pt x 203.71608pt.
 
-Overfull \hbox (8.14674pt too wide) in paragraph at lines 520--521
+Overfull \hbox (8.14674pt too wide) in paragraph at lines 626--627
  [][] 
  []
 
-[184 <./Figures/chap4/extent_method.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+[186 <./Figures/chap4/extent_method.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
 Package acronym Info: Label `acro:uav' newly defined as it shall be overridden
-although it is yet undefined on input line 532.
+although it is yet undefined on input line 638.
 Package acronym Info: Label `acro:ndvi' newly defined as it shall be overridden
 
-although it is yet undefined on input line 549.
+although it is yet undefined on input line 655.
 Package acronym Info: Label `acro:ndmi' newly defined as it shall be overridden
 
-although it is yet undefined on input line 551.
+although it is yet undefined on input line 657.
 Package acronym Info: Label `acro:mndwi' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 553.
+although it is yet undefined on input line 659.
 Package acronym Info: Label `acro:sr' newly defined as it shall be overridden
-although it is yet undefined on input line 555.
+although it is yet undefined on input line 661.
 Package acronym Info: Label `acro:gcvi' newly defined as it shall be overridden
 
-although it is yet undefined on input line 561.
+although it is yet undefined on input line 667.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [185
+ [187
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
 Package acronym Info: Label `acro:nir' newly defined as it shall be overridden
-although it is yet undefined on input line 570.
-[186]
-<Figures/chap4/guaratiba_ndvi.png, id=4856, 759.83875pt x 479.7925pt>
+although it is yet undefined on input line 676.
+[188]
+<Figures/chap4/guaratiba_ndvi.png, id=4896, 759.83875pt x 479.7925pt>
 File: Figures/chap4/guaratiba_ndvi.png Graphic file (type png)
 <use Figures/chap4/guaratiba_ndvi.png>
-Package pdftex.def Info: Figures/chap4/guaratiba_ndvi.png  used on input line 5
-74.
+Package pdftex.def Info: Figures/chap4/guaratiba_ndvi.png  used on input line 6
+80.
 (pdftex.def)             Requested size: 210.70462pt x 133.04515pt.
-<Figures/chap4/guaratiba_anomaly.png, id=4864, 928.46875pt x 538.01pt>
+<Figures/chap4/guaratiba_anomaly.png, id=4904, 928.46875pt x 538.01pt>
 File: Figures/chap4/guaratiba_anomaly.png Graphic file (type png)
 <use Figures/chap4/guaratiba_anomaly.png>
 Package pdftex.def Info: Figures/chap4/guaratiba_anomaly.png  used on input lin
-e 590.
+e 696.
 (pdftex.def)             Requested size: 210.70462pt x 122.08961pt.
 
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
- [187 <./Figures/chap4/guaratiba_ndvi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+ [189 <./Figures/chap4/guaratiba_ndvi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 705--706
 
  []
 
 Package acronym Info: Label `acro:agb' newly defined as it shall be overridden
-although it is yet undefined on input line 601.
+although it is yet undefined on input line 707.
 Package acronym Info: Label `acro:rmse' newly defined as it shall be overridden
 
-although it is yet undefined on input line 603.
-[188 <./Figures/chap4/guaratiba_anomaly.png>]
+although it is yet undefined on input line 709.
+[190 <./Figures/chap4/guaratiba_anomaly.png>]
 Package acronym Info: Label `acro:ipcc' newly defined as it shall be overridden
 
-although it is yet undefined on input line 612.
- [189]
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+although it is yet undefined on input line 718.
+ [191]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
 
  []
 
 Package acronym Info: Label `acro:ibge' newly defined as it shall be overridden
 
-although it is yet undefined on input line 639.
+although it is yet undefined on input line 745.
 Package acronym Info: Label `acro:ipm' newly defined as it shall be overridden
-although it is yet undefined on input line 639.
+although it is yet undefined on input line 745.
 Package acronym Info: Label `acro:ips' newly defined as it shall be overridden
-although it is yet undefined on input line 639.
+although it is yet undefined on input line 745.
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
 
  []
 
-[190]
+[192]
 Package acronym Info: Label `acro:tcer' newly defined as it shall be overridden
 
-although it is yet undefined on input line 653.
- [191]
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
+although it is yet undefined on input line 759.
+ [193]
+Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
-<Figures/chap4/mangrove_area_studies_graphic_combo.png, id=4984, 1563.8425pt x 
+<Figures/chap4/mangrove_area_studies_graphic_combo.png, id=5024, 1563.8425pt x 
 1073.00874pt>
 File: Figures/chap4/mangrove_area_studies_graphic_combo.png Graphic file (type 
 png)
 <use Figures/chap4/mangrove_area_studies_graphic_combo.png>
 Package pdftex.def Info: Figures/chap4/mangrove_area_studies_graphic_combo.png 
- used on input line 667.
+ used on input line 773.
 (pdftex.def)             Requested size: 408.50307pt x 280.2855pt.
-[192]
+[194]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [193 <./Figures/chap4/mangrove_area_studies_graphic_combo.png>] [194]
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
+ [195 <./Figures/chap4/mangrove_area_studies_graphic_combo.png>] [196]
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
 
  []
 
-[195]
-<Figures/chap4/extent_changes.png, id=5026, 1816.7875pt x 711.65875pt>
+[197]
+<Figures/chap4/extent_changes.png, id=5064, 1816.7875pt x 711.65875pt>
 File: Figures/chap4/extent_changes.png Graphic file (type png)
 <use Figures/chap4/extent_changes.png>
-Package pdftex.def Info: Figures/chap4/extent_changes.png  used on input line 7
-14.
+Package pdftex.def Info: Figures/chap4/extent_changes.png  used on input line 8
+20.
 (pdftex.def)             Requested size: 408.50307pt x 160.00772pt.
- [196 <./Figures/chap4/extent_changes.png>]
-<Figures/chap4/extent_over_time.png, id=5036, 462.528pt x 346.896pt>
+ [198 <./Figures/chap4/extent_changes.png>]
+<Figures/chap4/extent_over_time.png, id=5074, 462.528pt x 346.896pt>
 File: Figures/chap4/extent_over_time.png Graphic file (type png)
 <use Figures/chap4/extent_over_time.png>
 Package pdftex.def Info: Figures/chap4/extent_over_time.png  used on input line
- 723.
+ 829.
 (pdftex.def)             Requested size: 408.50307pt x 306.39157pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 836--837
 
  []
 
 
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
- [197 <./Figures/chap4/extent_over_time.png>]
-<Figures/chap4/reference_median.png, id=5046, 1637.11626pt x 598.235pt>
+ [199 <./Figures/chap4/extent_over_time.png>]
+<Figures/chap4/reference_median.png, id=5085, 1637.11626pt x 598.235pt>
 File: Figures/chap4/reference_median.png Graphic file (type png)
 <use Figures/chap4/reference_median.png>
 Package pdftex.def Info: Figures/chap4/reference_median.png  used on input line
- 736.
+ 842.
 (pdftex.def)             Requested size: 408.50307pt x 149.2754pt.
-<Figures/chap4/mean_anomaly_map.png, id=5051, 1583.9175pt x 600.2425pt>
+<Figures/chap4/mean_anomaly_map.png, id=5090, 1583.9175pt x 600.2425pt>
 File: Figures/chap4/mean_anomaly_map.png Graphic file (type png)
 <use Figures/chap4/mean_anomaly_map.png>
 Package pdftex.def Info: Figures/chap4/mean_anomaly_map.png  used on input line
- 745.
+ 851.
 (pdftex.def)             Requested size: 408.50307pt x 154.80458pt.
- [198 <./Figures/chap4/reference_median.png>]
-<Figures/chap4/loss_map.png, id=5062, 1316.92pt x 573.14125pt>
+ [200 <./Figures/chap4/reference_median.png>]
+<Figures/chap4/loss_map.png, id=5102, 1316.92pt x 573.14125pt>
 File: Figures/chap4/loss_map.png Graphic file (type png)
 <use Figures/chap4/loss_map.png>
-Package pdftex.def Info: Figures/chap4/loss_map.png  used on input line 754.
+Package pdftex.def Info: Figures/chap4/loss_map.png  used on input line 860.
 (pdftex.def)             Requested size: 408.50307pt x 177.78563pt.
-<Figures/chap4/mangrove_photo.jpg, id=5065, 4111.36pt x 3083.52pt>
+<Figures/chap4/mangrove_photo.jpg, id=5105, 4111.36pt x 3083.52pt>
 File: Figures/chap4/mangrove_photo.jpg Graphic file (type jpg)
 <use Figures/chap4/mangrove_photo.jpg>
-Package pdftex.def Info: Figures/chap4/mangrove_photo.jpg  used on input line 7
-61.
+Package pdftex.def Info: Figures/chap4/mangrove_photo.jpg  used on input line 8
+67.
 (pdftex.def)             Requested size: 322.50346pt x 241.84042pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
-[199 <./Figures/chap4/mean_anomaly_map.png> <./Figures/chap4/loss_map.png>]
-<Figures/chap4/height_histogram.png, id=5075, 975.645pt x 485.815pt>
+[201 <./Figures/chap4/mean_anomaly_map.png> <./Figures/chap4/loss_map.png>]
+<Figures/chap4/height_histogram.png, id=5114, 975.645pt x 485.815pt>
 File: Figures/chap4/height_histogram.png Graphic file (type png)
 <use Figures/chap4/height_histogram.png>
 Package pdftex.def Info: Figures/chap4/height_histogram.png  used on input line
- 773.
+ 879.
 (pdftex.def)             Requested size: 408.50307pt x 203.41081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
 
  []
 
-[200 <./Figures/chap4/mangrove_photo.jpg>]
-<Figures/chap4/carbon_density.png, id=5094, 1761.58125pt x 598.235pt>
+[202 <./Figures/chap4/mangrove_photo.jpg>]
+<Figures/chap4/carbon_density.png, id=5133, 1761.58125pt x 598.235pt>
 File: Figures/chap4/carbon_density.png Graphic file (type png)
 <use Figures/chap4/carbon_density.png>
-Package pdftex.def Info: Figures/chap4/carbon_density.png  used on input line 7
-86.
+Package pdftex.def Info: Figures/chap4/carbon_density.png  used on input line 8
+92.
 (pdftex.def)             Requested size: 408.50307pt x 138.72307pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
 
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
- [201 <./Figures/chap4/height_histogram.png>]
-<Figures/chap4/social_progress_indicator.png, id=5109, 929.4725pt x 424.58624pt
+ [203 <./Figures/chap4/height_histogram.png>]
+<Figures/chap4/social_progress_indicator.png, id=5147, 929.4725pt x 424.58624pt
 >
 File: Figures/chap4/social_progress_indicator.png Graphic file (type png)
 <use Figures/chap4/social_progress_indicator.png>
 Package pdftex.def Info: Figures/chap4/social_progress_indicator.png  used on i
-nput line 801.
+nput line 907.
 (pdftex.def)             Requested size: 408.50307pt x 186.60472pt.
-<Figures/chap4/ips_maps.png, id=5114, 1550.79375pt x 1069.9975pt>
+<Figures/chap4/ips_maps.png, id=5152, 1550.79375pt x 1069.9975pt>
 File: Figures/chap4/ips_maps.png Graphic file (type png)
 <use Figures/chap4/ips_maps.png>
-Package pdftex.def Info: Figures/chap4/ips_maps.png  used on input line 808.
+Package pdftex.def Info: Figures/chap4/ips_maps.png  used on input line 914.
 (pdftex.def)             Requested size: 408.50307pt x 281.84999pt.
-<Figures/chap4/agriculture_employment.png, id=5121, 877.2775pt x 445.665pt>
+<Figures/chap4/agriculture_employment.png, id=5159, 877.2775pt x 445.665pt>
 File: Figures/chap4/agriculture_employment.png Graphic file (type png)
 <use Figures/chap4/agriculture_employment.png>
 Package pdftex.def Info: Figures/chap4/agriculture_employment.png  used on inpu
-t line 817.
+t line 923.
 (pdftex.def)             Requested size: 408.50307pt x 207.52449pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
-[202 <./Figures/chap4/carbon_density.png>]
-<Figures/chap4/carbon_sequestration_value.png, id=5129, 516.93124pt x 299.1175p
+[204 <./Figures/chap4/carbon_density.png>]
+<Figures/chap4/carbon_sequestration_value.png, id=5167, 516.93124pt x 299.1175p
 t>
 File: Figures/chap4/carbon_sequestration_value.png Graphic file (type png)
 <use Figures/chap4/carbon_sequestration_value.png>
 Package pdftex.def Info: Figures/chap4/carbon_sequestration_value.png  used on 
-input line 828.
+input line 934.
 (pdftex.def)             Requested size: 408.50307pt x 236.38695pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
 
-<Figures/chap4/annual_ecosystem_services.png, id=5132, 609.27625pt x 344.28625p
+<Figures/chap4/annual_ecosystem_services.png, id=5170, 609.27625pt x 344.28625p
 t>
 File: Figures/chap4/annual_ecosystem_services.png Graphic file (type png)
 <use Figures/chap4/annual_ecosystem_services.png>
 Package pdftex.def Info: Figures/chap4/annual_ecosystem_services.png  used on i
-nput line 840.
+nput line 946.
 (pdftex.def)             Requested size: 301.00192pt x 170.09387pt.
-[203 <./Figures/chap4/social_progress_indicator.png>]
+[205 <./Figures/chap4/social_progress_indicator.png>]
 Underfull \vbox (badness 7740) has occurred while \output is active []
 
- [204 <./Figures/chap4/ips_maps.png>]
+ [206 <./Figures/chap4/ips_maps.png>]
 
-LaTeX Warning: Text page 205 contains only floats.
+LaTeX Warning: Text page 207 contains only floats.
 
 
 Overfull \vbox (3.76764pt too high) has occurred while \output is active []
 
 
-[205 <./Figures/chap4/agriculture_employment.png> <./Figures/chap4/carbon_seque
+[207 <./Figures/chap4/agriculture_employment.png> <./Figures/chap4/carbon_seque
 stration_value.png>]
-<Figures/chap4/planning_zones_and_protected_areas.png, id=5165, 1710.39pt x 597
+<Figures/chap4/planning_zones_and_protected_areas.png, id=5203, 1710.39pt x 597
 .23125pt>
 File: Figures/chap4/planning_zones_and_protected_areas.png Graphic file (type p
 ng)
 <use Figures/chap4/planning_zones_and_protected_areas.png>
 Package pdftex.def Info: Figures/chap4/planning_zones_and_protected_areas.png  
-used on input line 863.
+used on input line 969.
 (pdftex.def)             Requested size: 408.50307pt x 142.63672pt.
- [206 <./Figures/chap4/annual_ecosystem_services.png>]
+ [208 <./Figures/chap4/annual_ecosystem_services.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [207 <./Figures/chap4/planning_zones_and_protected_areas.png>] [208]
-Overfull \hbox (16.5075pt too wide) in paragraph at lines 936--937
+ [209 <./Figures/chap4/planning_zones_and_protected_areas.png>] [210]
+Overfull \hbox (16.5075pt too wide) in paragraph at lines 1042--1043
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [209]
+ [211]
 Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 954.
+although it is yet undefined on input line 1060.
 
-[210]
-<Figures/chap4/rio-dss-startup-screenshot.png, id=5230, 1921.1775pt x 967.615pt
+[212]
+<Figures/chap4/rio-dss-startup-screenshot.png, id=5269, 1921.1775pt x 967.615pt
 >
 File: Figures/chap4/rio-dss-startup-screenshot.png Graphic file (type png)
 <use Figures/chap4/rio-dss-startup-screenshot.png>
 Package pdftex.def Info: Figures/chap4/rio-dss-startup-screenshot.png  used on 
-input line 968.
+input line 1074.
 (pdftex.def)             Requested size: 408.50307pt x 205.74466pt.
-<Figures/chap4/display_and_input.png, id=5232, 1696.3375pt x 445.665pt>
+<Figures/chap4/display_and_input.png, id=5271, 1696.3375pt x 445.665pt>
 File: Figures/chap4/display_and_input.png Graphic file (type png)
 <use Figures/chap4/display_and_input.png>
 Package pdftex.def Info: Figures/chap4/display_and_input.png  used on input lin
-e 975.
+e 1081.
 (pdftex.def)             Requested size: 408.50307pt x 107.32219pt.
- [211 <./Figures/chap4/rio-dss-startup-screenshot.png>]
-<Figures/chap4/rio-dss-screenshot.png, id=5248, 1915.155pt x 977.6525pt>
+ [213 <./Figures/chap4/rio-dss-startup-screenshot.png>]
+<Figures/chap4/rio-dss-screenshot.png, id=5286, 1915.155pt x 977.6525pt>
 File: Figures/chap4/rio-dss-screenshot.png Graphic file (type png)
 <use Figures/chap4/rio-dss-screenshot.png>
 Package pdftex.def Info: Figures/chap4/rio-dss-screenshot.png  used on input li
-ne 993.
+ne 1099.
 (pdftex.def)             Requested size: 408.50307pt x 208.53531pt.
 Package acronym Info: Label `acro:ap' newly defined as it shall be overridden
-although it is yet undefined on input line 1017.
- [212 <./Figures/chap4/display_and_input.png>]
-<Figures/chap4/rio-dss-simulation.png, id=5268, 1664.2175pt x 695.59875pt>
+although it is yet undefined on input line 1123.
+ [214 <./Figures/chap4/display_and_input.png>]
+<Figures/chap4/rio-dss-simulation.png, id=5306, 1664.2175pt x 695.59875pt>
 File: Figures/chap4/rio-dss-simulation.png Graphic file (type png)
 <use Figures/chap4/rio-dss-simulation.png>
 Package pdftex.def Info: Figures/chap4/rio-dss-simulation.png  used on input li
-ne 1049.
+ne 1155.
 (pdftex.def)             Requested size: 408.50307pt x 170.7363pt.
- [213 <./Figures/chap4/rio-dss-screenshot.png>]
-[214] [215 <./Figures/chap4/rio-dss-simulation.png>]
+ [215 <./Figures/chap4/rio-dss-screenshot.png>]
+[216] [217 <./Figures/chap4/rio-dss-simulation.png>]
 Package epstopdf Info: Source file: <Figures/chap4/ui_flowchart_initialization.
 eps>
 (epstopdf)                    date: 2023-02-13 13:45:14
@@ -2120,15 +2148,15 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/chap4/ui_flowchart
 _initialization-eps-converted-to.pdf Figures/chap4/ui_flowchart_initialization.
 eps>
-(epstopdf)             \includegraphics on input line 1064.
+(epstopdf)             \includegraphics on input line 1170.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf, id=5291, 2410.
+<Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf, id=5331, 2410.
 00375pt x 1591.9475pt>
 File: Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/chap4/ui_flowchart_initialization-eps-converte
-d-to.pdf  used on input line 1064.
+d-to.pdf  used on input line 1170.
 (pdftex.def)             Requested size: 481.99222pt x 318.38387pt.
 Package epstopdf Info: Source file: <Figures/chap4/ui_flowchart_user_actions.ep
 s>
@@ -2141,393 +2169,394 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Figures/chap4/ui_flowchart
 _user_actions-eps-converted-to.pdf Figures/chap4/ui_flowchart_user_actions.eps>
 
-(epstopdf)             \includegraphics on input line 1071.
+(epstopdf)             \includegraphics on input line 1177.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf, id=5294, 7302.28
+<Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf, id=5334, 7302.28
 125pt x 2142.0025pt>
 File: Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/chap4/ui_flowchart_user_actions-eps-converted-
-to.pdf  used on input line 1071.
+to.pdf  used on input line 1177.
 (pdftex.def)             Requested size: 547.64748pt x 160.64325pt.
- [216 <./Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf>] [217 
-<./Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf>] [218
+ [218 <./Figures/chap4/ui_flowchart_initialization-eps-converted-to.pdf>] [219 
+<./Figures/chap4/ui_flowchart_user_actions-eps-converted-to.pdf>] [220
 
 
 ]
-Overfull \hbox (23.96437pt too wide) in paragraph at lines 1097--1097
+Overfull \hbox (23.96437pt too wide) in paragraph at lines 1203--1203
 []\T1/cmr/bx/n/14.4 The State and Fu-ture of the Guarat-iba Socio-environmental
 
  []
 
-[219]
-<Figures/chap4/apa_sepetiba.png, id=5355, 931.48pt x 523.9575pt>
+[221]
+<Figures/chap4/apa_sepetiba.png, id=5393, 931.48pt x 523.9575pt>
 File: Figures/chap4/apa_sepetiba.png Graphic file (type png)
 <use Figures/chap4/apa_sepetiba.png>
-Package pdftex.def Info: Figures/chap4/apa_sepetiba.png  used on input line 111
-1.
+Package pdftex.def Info: Figures/chap4/apa_sepetiba.png  used on input line 121
+7.
 (pdftex.def)             Requested size: 301.00192pt x 169.30878pt.
- [220] [221 <./Figures/chap4/apa_sepetiba.png>]
-Overfull \hbox (4.21336pt too wide) in paragraph at lines 1133--1133
+ [222] [223 <./Figures/chap4/apa_sepetiba.png>]
+Overfull \hbox (4.21336pt too wide) in paragraph at lines 1239--1239
 []\T1/cmr/bx/n/14.4 Methodological Lim-i-ta-tions and Po-ten-tial Im-prove-ment
 s 
  []
 
-[222] [223]
-<Figures/chap4/Method_Flowchart.png, id=5427, 1733.47626pt x 819.06pt>
+[224] [225]
+<Figures/chap4/Method_Flowchart.png, id=5466, 1733.47626pt x 819.06pt>
 File: Figures/chap4/Method_Flowchart.png Graphic file (type png)
 <use Figures/chap4/Method_Flowchart.png>
 Package pdftex.def Info: Figures/chap4/Method_Flowchart.png  used on input line
- 1163.
+ 1269.
 (pdftex.def)             Requested size: 387.00153pt x 182.85579pt.
- [224]
+ [226]
 Underfull \vbox (badness 1694) has occurred while \output is active []
 
- [225 <./Figures/chap4/Method_Flowchart.png>] [226]
-<Figures/chap4/data_source_selection_panel.png, id=5475, 1308.89pt x 688.5725pt
+ [227 <./Figures/chap4/Method_Flowchart.png>] [228]
+<Figures/chap4/data_source_selection_panel.png, id=5513, 1308.89pt x 688.5725pt
 >
 File: Figures/chap4/data_source_selection_panel.png Graphic file (type png)
 <use Figures/chap4/data_source_selection_panel.png>
 Package pdftex.def Info: Figures/chap4/data_source_selection_panel.png  used on
- input line 1196.
+ input line 1302.
 (pdftex.def)             Requested size: 387.00153pt x 203.58942pt.
- [227 <./Figures/chap4/data_source_selection_panel.png>]
+ [229 <./Figures/chap4/data_source_selection_panel.png>]
 Package acronym Info: Label `acro:inpe' newly defined as it shall be overridden
 
-although it is yet undefined on input line 1207.
- [228] [229] [230]
-Overfull \hbox (18.18pt too wide) in paragraph at lines 1245--1246
+although it is yet undefined on input line 1313.
+ [230] [231] [232]
+Overfull \hbox (18.18pt too wide) in paragraph at lines 1351--1352
 \T1/cmr/m/n/12 mu-ni-ties that live near them. I de-tailed the his-tory of the 
 Guarat-iba socio-environmental-
  []
 
-) [231]
+) [233]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [232
+ (./chap5.tex [234
 
 
 
 
 ]
 Chapter 5.
-[233]
-<Figures/chap5/saf-comparison.png, id=5606, 2509.375pt x 1080.035pt>
+[235]
+<Figures/chap5/saf-comparison.png, id=5645, 2509.375pt x 1080.035pt>
 File: Figures/chap5/saf-comparison.png Graphic file (type png)
 <use Figures/chap5/saf-comparison.png>
 Package pdftex.def Info: Figures/chap5/saf-comparison.png  used on input line 2
 0.
 (pdftex.def)             Requested size: 387.00153pt x 166.56322pt.
- [234 <./Figures/chap5/saf-comparison.png>] [235]
+ [236 <./Figures/chap5/saf-comparison.png>] [237]
 Overfull \hbox (20.79219pt too wide) in paragraph at lines 47--48
 []\T1/cmr/m/n/12 Seamus Lom-bardo: Served as the point-of-contact for the In-do
 ne-sia and(sometimes)
  []
 
-[236]
-<Figures/chap5/vida_map.png, id=5670, 2509.375pt x 1119.18124pt>
+[238]
+<Figures/chap5/vida_map.png, id=5714, 2509.375pt x 1119.18124pt>
 File: Figures/chap5/vida_map.png Graphic file (type png)
 <use Figures/chap5/vida_map.png>
-Package pdftex.def Info: Figures/chap5/vida_map.png  used on input line 77.
+Package pdftex.def Info: Figures/chap5/vida_map.png  used on input line 81.
 (pdftex.def)             Requested size: 387.00153pt x 172.60036pt.
- [237 <./Figures/chap5/vida_map.png>]
+ [239]
 Package acronym Info: Label `acro:minciencia' newly defined as it shall be over
 ridden
-although it is yet undefined on input line 90.
+although it is yet undefined on input line 99.
+ [240 <./Figures/chap5/vida_map.png>]
 Package acronym Info: Label `acro:ggpen' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 102.
+although it is yet undefined on input line 111.
 Package acronym Info: Label `acro:ipn' newly defined as it shall be overridden
-although it is yet undefined on input line 114.
+although it is yet undefined on input line 123.
 Package acronym Info: Label `acro:aem' newly defined as it shall be overridden
-although it is yet undefined on input line 115.
- [238] [239] [240]
-Overfull \hbox (3.44391pt too wide) in paragraph at lines 158--158
+although it is yet undefined on input line 124.
+ [241] [242] [243]
+Overfull \hbox (3.44391pt too wide) in paragraph at lines 176--176
  \T1/cmr/bx/n/8 Coastal 
  []
 
 
-Overfull \hbox (11.0283pt too wide) in paragraph at lines 156--167
+Overfull \hbox (11.0283pt too wide) in paragraph at lines 174--185
  [] 
  []
 
-<Figures/chap5/dimensions_vida.png, id=5745, 997.7275pt x 658.46pt>
+[244]
+<Figures/chap5/dimensions_vida.png, id=5819, 997.7275pt x 658.46pt>
 File: Figures/chap5/dimensions_vida.png Graphic file (type png)
 <use Figures/chap5/dimensions_vida.png>
 Package pdftex.def Info: Figures/chap5/dimensions_vida.png  used on input line 
-176.
+198.
 (pdftex.def)             Requested size: 344.005pt x 227.02829pt.
-[241]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [242]
-[243 <./Figures/chap5/dimensions_vida.png>] [244]
-Overfull \hbox (5.3886pt too wide) in alignment at lines 215--218
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+ [245]
+[246 <./Figures/chap5/dimensions_vida.png>] [247] [248]
+Overfull \hbox (5.3886pt too wide) in alignment at lines 248--251
  [] [] [] [] 
  []
 
 
-Overfull \hbox (5.3886pt too wide) in alignment at lines 218--220
+Overfull \hbox (5.3886pt too wide) in alignment at lines 251--253
  [] [] [] [] 
  []
 
 
-Overfull \vbox (9.5pt too high) detected at line 238
+Overfull \vbox (9.5pt too high) detected at line 271
  []
 
 
-Overfull \hbox (5.3886pt too wide) in alignment at lines 220--248
+Overfull \hbox (5.3886pt too wide) in alignment at lines 253--281
  [] [] [] [] 
  []
 
-[245
+[249
 
-] [246]
-Overfull \hbox (3.19218pt too wide) in paragraph at lines 258--259
+] [250]
+Overfull \hbox (3.19218pt too wide) in paragraph at lines 291--292
 []\T1/cmr/bx/n/12 Visualize his-tor-i-cal public-health and rel-e-vant non-publ
 ic-health data.
  []
 
-[247
+[251
 
 ]
-<Figures/chap5/architecture.png, id=5841, 909.3975pt x 510.90875pt>
+<Figures/chap5/architecture.png, id=5925, 909.3975pt x 510.90875pt>
 File: Figures/chap5/architecture.png Graphic file (type png)
 <use Figures/chap5/architecture.png>
-Package pdftex.def Info: Figures/chap5/architecture.png  used on input line 281
+Package pdftex.def Info: Figures/chap5/architecture.png  used on input line 316
 .
-(pdftex.def)             Requested size: 363.75256pt x 204.35988pt.
- [248 <./Figures/chap5/architecture.png>]
-<Figures/chap5/Vida_Flowchart_v2.jpg, id=5856, 1649.16125pt x 588.1975pt>
+(pdftex.def)             Requested size: 430.00462pt x 241.58496pt.
+ [252 <./Figures/chap5/architecture.png>]
+Overfull \hbox (3.19218pt too wide) in paragraph at lines 332--333
+[]\T1/cmr/bx/n/12 Visualize his-tor-i-cal public-health and rel-e-vant non-publ
+ic-health data. 
+ []
+
+[253]
+Package acronym Info: Label `acro:pcr' newly defined as it shall be overridden
+although it is yet undefined on input line 347.
+ [254]
+<Figures/chap5/Vida_Flowchart_v2.jpg, id=5968, 1649.16125pt x 588.1975pt>
 File: Figures/chap5/Vida_Flowchart_v2.jpg Graphic file (type jpg)
 <use Figures/chap5/Vida_Flowchart_v2.jpg>
 Package pdftex.def Info: Figures/chap5/Vida_Flowchart_v2.jpg  used on input lin
-e 306.
+e 363.
 (pdftex.def)             Requested size: 412.2893pt x 147.04901pt.
- [249] [250 <./Figures/chap5/Vida_Flowchart_v2.jpg>] [251]
-<Figures/chap5/nightlights_method.png, id=5889, 2509.375pt x 1266.7325pt>
+
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [255 <./Figures/chap5/Vida_Flowchart_v2.jpg>]
+Package acronym Info: Label `acro:tropomi' newly defined as it shall be overrid
+den
+although it is yet undefined on input line 423.
+ [256]
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+ [257]
+Package acronym Info: Label `acro:sir' newly defined as it shall be overridden
+although it is yet undefined on input line 433.
+
+[258]
+<Figures/chap5/SD_diagram.jpg, id=6016, 1407.2575pt x 978.65625pt>
+File: Figures/chap5/SD_diagram.jpg Graphic file (type jpg)
+<use Figures/chap5/SD_diagram.jpg>
+Package pdftex.def Info: Figures/chap5/SD_diagram.jpg  used on input line 441.
+(pdftex.def)             Requested size: 351.8135pt x 244.66347pt.
+ [259 <./Figures/chap5/SD_diagram.jpg>]
+<Figures/chap5/nightlights_method.png, id=6031, 2509.375pt x 1266.7325pt>
 File: Figures/chap5/nightlights_method.png Graphic file (type png)
 <use Figures/chap5/nightlights_method.png>
 Package pdftex.def Info: Figures/chap5/nightlights_method.png  used on input li
-ne 375.
+ne 465.
 (pdftex.def)             Requested size: 387.00153pt x 195.35574pt.
-Package acronym Info: Label `acro:tropomi' newly defined as it shall be overrid
-den
-although it is yet undefined on input line 380.
- [252 <./Figures/chap5/nightlights_method.png>]
-[253]
-Package acronym Info: Label `acro:sir' newly defined as it shall be overridden
-although it is yet undefined on input line 390.
-<Figures/chap5/SD_diagram.jpg, id=5918, 1407.2575pt x 978.65625pt>
-File: Figures/chap5/SD_diagram.jpg Graphic file (type jpg)
-<use Figures/chap5/SD_diagram.jpg>
-Package pdftex.def Info: Figures/chap5/SD_diagram.jpg  used on input line 398.
-(pdftex.def)             Requested size: 351.8135pt x 244.66347pt.
- [254]
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/chap5/ships.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/chap5/ships.pdf, id=5930, 1084.05pt x 325.215pt>
-File: Figures/chap5/ships.pdf Graphic file (type pdf)
-<use Figures/chap5/ships.pdf>
-Package pdftex.def Info: Figures/chap5/ships.pdf  used on input line 417.
-(pdftex.def)             Requested size: 379.42319pt x 113.82695pt.
-[255 <./Figures/chap5/SD_diagram.jpg>] [256 <./Figures/chap5/ships.pdf>]
-[257]
-Overfull \vbox (71.08469pt too high) detected at line 458
+ [260] [261 <./Figures/chap5/nightlights_method.png>] [262]
+Overfull \vbox (71.08469pt too high) detected at line 517
  []
 
 
-Overfull \vbox (42.63193pt too high) detected at line 466
+Overfull \vbox (42.63193pt too high) detected at line 524
  []
 
 
-Overfull \vbox (71.08469pt too high) detected at line 474
+Overfull \vbox (71.08469pt too high) detected at line 531
  []
 
 
-Overfull \vbox (37.90553pt too high) detected at line 482
+Overfull \vbox (37.90553pt too high) detected at line 539
  []
 
-[258
+[263
 
-] [259]
-Package acronym Info: Label `acro:pcr' newly defined as it shall be overridden
-although it is yet undefined on input line 525.
+] [264] [265
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-<Figures/chap5/Nightlights_TS.png, id=5989, 1785.67125pt x 1167.36125pt>
-File: Figures/chap5/Nightlights_TS.png Graphic file (type png)
-<use Figures/chap5/Nightlights_TS.png>
-Package pdftex.def Info: Figures/chap5/Nightlights_TS.png  used on input line 5
-39.
-(pdftex.def)             Requested size: 387.00153pt x 252.99059pt.
-<Figures/chap5/RioNightStats.jpg, id=5990, 928.46875pt x 274.02374pt>
-File: Figures/chap5/RioNightStats.jpg Graphic file (type jpg)
-<use Figures/chap5/RioNightStats.jpg>
-Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 54
-6.
-(pdftex.def)             Requested size: 387.00153pt x 114.21948pt.
-[260
-
-] [261 <./Figures/chap5/Nightlights_TS.png> <./Figures/chap5/RioNightStats.jpg>
 ]
-<Figures/chap5/Nightlights_Graphs.png, id=6002, 1146.2825pt x 1537.745pt>
-File: Figures/chap5/Nightlights_Graphs.png Graphic file (type png)
-<use Figures/chap5/Nightlights_Graphs.png>
-Package pdftex.def Info: Figures/chap5/Nightlights_Graphs.png  used on input li
-ne 556.
-(pdftex.def)             Requested size: 365.50655pt x 490.32866pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
- []
-
-
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
- [262
-
- <./Figures/chap5/Nightlights_Graphs.png>] [263]
-<Figures/chap5/aq-combined.png, id=6014, 629.35126pt x 1165.35374pt>
+<Figures/chap5/aq-combined.png, id=6084, 629.35126pt x 1165.35374pt>
 File: Figures/chap5/aq-combined.png Graphic file (type png)
 <use Figures/chap5/aq-combined.png>
-Package pdftex.def Info: Figures/chap5/aq-combined.png  used on input line 569.
+Package pdftex.def Info: Figures/chap5/aq-combined.png  used on input line 594.
 
 (pdftex.def)             Requested size: 258.00539pt x 477.74478pt.
-<Figures/chap5/pm10.png, id=6015, 1233.10687pt x 691.08188pt>
+<Figures/chap5/pm10.png, id=6085, 1233.10687pt x 691.08188pt>
 File: Figures/chap5/pm10.png Graphic file (type png)
 <use Figures/chap5/pm10.png>
-Package pdftex.def Info: Figures/chap5/pm10.png  used on input line 577.
+Package pdftex.def Info: Figures/chap5/pm10.png  used on input line 602.
 (pdftex.def)             Requested size: 387.00153pt x 216.89052pt.
- [264
+ [266
 
  <./Figures/chap5/aq-combined.png>]
 Underfull \vbox (badness 2310) has occurred while \output is active []
 
- [265 <./Figures/chap5/pm10.PNG>]
-<Figures/chap5/combined-cases.jpg, id=6039, 432.60211pt x 288.57106pt>
+ [267 <./Figures/chap5/pm10.PNG>]
+<Figures/chap5/combined-cases.jpg, id=6109, 432.60211pt x 288.57106pt>
 File: Figures/chap5/combined-cases.jpg Graphic file (type jpg)
 <use Figures/chap5/combined-cases.jpg>
-Package pdftex.def Info: Figures/chap5/combined-cases.jpg  used on input line 5
-92.
+Package pdftex.def Info: Figures/chap5/combined-cases.jpg  used on input line 6
+17.
 (pdftex.def)             Requested size: 301.00192pt x 200.78748pt.
-<Figures/chap5/transit-mobility-comparison.png, id=6047, 1010.77625pt x 430.608
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+[268 <./Figures/chap5/combined-cases.jpg>]
+<Figures/chap5/transit-mobility-comparison.png, id=6122, 1010.77625pt x 430.608
 75pt>
 File: Figures/chap5/transit-mobility-comparison.png Graphic file (type png)
 <use Figures/chap5/transit-mobility-comparison.png>
 Package pdftex.def Info: Figures/chap5/transit-mobility-comparison.png  used on
- input line 605.
+ input line 632.
 (pdftex.def)             Requested size: 387.00153pt x 164.86827pt.
- [266 <./Figures/chap5/combined-cases.jpg>]
-<Figures/chap5/Policy_nat_residential_mob.jpg, id=6054, 432.60211pt x 288.57106
+<Figures/chap5/Policy_nat_residential_mob.jpg, id=6124, 432.60211pt x 288.57106
 pt>
 File: Figures/chap5/Policy_nat_residential_mob.jpg Graphic file (type jpg)
 <use Figures/chap5/Policy_nat_residential_mob.jpg>
 Package pdftex.def Info: Figures/chap5/Policy_nat_residential_mob.jpg  used on 
-input line 614.
+input line 641.
 (pdftex.def)             Requested size: 301.00192pt x 200.78748pt.
-<Figures/chap5/ships_over_time.png, id=6060, 506.985pt x 322.806pt>
-File: Figures/chap5/ships_over_time.png Graphic file (type png)
-<use Figures/chap5/ships_over_time.png>
-Package pdftex.def Info: Figures/chap5/ships_over_time.png  used on input line 
-624.
-(pdftex.def)             Requested size: 387.00153pt x 246.41382pt.
- [267 <./Figures/chap5/transit-mobility-comparison.png>]
 
-LaTeX Warning: Text page 268 contains only floats.
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
-[268 <./Figures/chap5/Policy_nat_residential_mob.jpg> <./Figures/chap5/ships_ov
-er_time.png>]
-<Figures/chap5/policy-comparison.png, id=6074, 1705.37125pt x 567.11874pt>
+ []
+
+[269 <./Figures/chap5/transit-mobility-comparison.png>]
+<Figures/chap5/Nightlights_TS.png, id=6139, 1785.67125pt x 1167.36125pt>
+File: Figures/chap5/Nightlights_TS.png Graphic file (type png)
+<use Figures/chap5/Nightlights_TS.png>
+Package pdftex.def Info: Figures/chap5/Nightlights_TS.png  used on input line 6
+54.
+(pdftex.def)             Requested size: 387.00153pt x 252.99059pt.
+<Figures/chap5/RioNightStats.jpg, id=6140, 928.46875pt x 274.02374pt>
+File: Figures/chap5/RioNightStats.jpg Graphic file (type jpg)
+<use Figures/chap5/RioNightStats.jpg>
+Package pdftex.def Info: Figures/chap5/RioNightStats.jpg  used on input line 66
+1.
+(pdftex.def)             Requested size: 387.00153pt x 114.21948pt.
+ [270 <./Figures/chap5/Policy_nat_residential_mob.jpg>] [271 <./Figures/chap5/N
+ightlights_TS.png> <./Figures/chap5/RioNightStats.jpg>]
+<Figures/chap5/Nightlights_Graphs.png, id=6151, 1146.2825pt x 1537.745pt>
+File: Figures/chap5/Nightlights_Graphs.png Graphic file (type png)
+<use Figures/chap5/Nightlights_Graphs.png>
+Package pdftex.def Info: Figures/chap5/Nightlights_Graphs.png  used on input li
+ne 671.
+(pdftex.def)             Requested size: 365.50655pt x 490.32866pt.
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ [272
+
+ <./Figures/chap5/Nightlights_Graphs.png>]
+<Figures/chap5/policy-comparison.png, id=6160, 1705.37125pt x 567.11874pt>
 File: Figures/chap5/policy-comparison.png Graphic file (type png)
 <use Figures/chap5/policy-comparison.png>
 Package pdftex.def Info: Figures/chap5/policy-comparison.png  used on input lin
-e 637.
+e 695.
 (pdftex.def)             Requested size: 387.00153pt x 128.6952pt.
- [269 <./Figures/chap5/policy-comparison.png>]
-<Figures/chap5/mobility-graphs-rio-santiago.png, id=6084, 1014.79124pt x 1328.9
+ [273 <./Figures/chap5/policy-comparison.png>]
+<Figures/chap5/mobility-graphs-rio-santiago.png, id=6170, 1014.79124pt x 1328.9
 65pt>
 File: Figures/chap5/mobility-graphs-rio-santiago.png Graphic file (type png)
 <use Figures/chap5/mobility-graphs-rio-santiago.png>
 Package pdftex.def Info: Figures/chap5/mobility-graphs-rio-santiago.png  used o
-n input line 648.
+n input line 706.
 (pdftex.def)             Requested size: 344.005pt x 450.50375pt.
-<Figures/chap5/mobility-graphs-angola-jakarta.png, id=6085, 1007.765pt x 916.42
+<Figures/chap5/mobility-graphs-angola-jakarta.png, id=6171, 1007.765pt x 916.42
 375pt>
 File: Figures/chap5/mobility-graphs-angola-jakarta.png Graphic file (type png)
 <use Figures/chap5/mobility-graphs-angola-jakarta.png>
 Package pdftex.def Info: Figures/chap5/mobility-graphs-angola-jakarta.png  used
- on input line 655.
+ on input line 713.
 (pdftex.def)             Requested size: 344.005pt x 312.82448pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [270
+ [274
 
  <./Figures/chap5/mobility-graphs-rio-santiago.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [271 <./Figures/chap5/mobility-graphs-angola-jakarta.png>]
-Overfull \hbox (3.19218pt too wide) in paragraph at lines 670--671
+ [275 <./Figures/chap5/mobility-graphs-angola-jakarta.png>]
+Overfull \hbox (3.19218pt too wide) in paragraph at lines 728--729
 []\T1/cmr/bx/n/12 Visualize his-tor-i-cal public-health and rel-e-vant non-publ
 ic-health data.
  []
 
-[272]
-<Figures/chap5/VidaDesktopScreenshot.jpg, id=6127, 1373.13pt x 721.69624pt>
+[276]
+<Figures/chap5/VidaDesktopScreenshot.jpg, id=6219, 1373.13pt x 721.69624pt>
 File: Figures/chap5/VidaDesktopScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaDesktopScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaDesktopScreenshot.jpg  used on input
- line 691.
+ line 751.
 (pdftex.def)             Requested size: 365.50655pt x 192.09653pt.
- [273 <./Figures/chap5/VidaDesktopScreenshot.jpg>]
+ [277 <./Figures/chap5/VidaDesktopScreenshot.jpg>]
 Package acronym Info: Label `acro:gdp' newly defined as it shall be overridden
-although it is yet undefined on input line 708.
- [274]
-<Figures/chap5/vida-screenshot-simulation.png, id=6155, 1919.17pt x 957.5775pt>
+although it is yet undefined on input line 768.
+ [278]
+<Figures/chap5/vida-screenshot-simulation.png, id=6249, 1919.17pt x 957.5775pt>
 
 File: Figures/chap5/vida-screenshot-simulation.png Graphic file (type png)
 <use Figures/chap5/vida-screenshot-simulation.png>
 Package pdftex.def Info: Figures/chap5/vida-screenshot-simulation.png  used on 
-input line 728.
+input line 788.
 (pdftex.def)             Requested size: 365.50655pt x 182.36534pt.
- [275 <./Figures/chap5/vida-screenshot-simulation.png>]
-<Figures/chap5/VidaBlueScreenshot.jpg, id=6176, 929.4725pt x 456.70625pt>
+ [279]
+<Figures/chap5/VidaBlueScreenshot.jpg, id=6269, 929.4725pt x 456.70625pt>
 File: Figures/chap5/VidaBlueScreenshot.jpg Graphic file (type jpg)
 <use Figures/chap5/VidaBlueScreenshot.jpg>
 Package pdftex.def Info: Figures/chap5/VidaBlueScreenshot.jpg  used on input li
-ne 743.
+ne 803.
 (pdftex.def)             Requested size: 365.50655pt x 179.59209pt.
- [276 <./Figures/chap5/VidaBlueScreenshot.jpg>]
-<Figures/chap5/vida-network-agenda.png, id=6201, 530.98375pt x 895.345pt>
+ [280 <./Figures/chap5/vida-screenshot-simulation.png>]
+Underfull \vbox (badness 3884) has occurred while \output is active []
+
+ [281 <./Figures/chap5/VidaBlueScreenshot.jpg>]
+<Figures/chap5/vida-network-agenda.png, id=6306, 530.98375pt x 895.345pt>
 File: Figures/chap5/vida-network-agenda.png Graphic file (type png)
 <use Figures/chap5/vida-network-agenda.png>
 Package pdftex.def Info: Figures/chap5/vida-network-agenda.png  used on input l
-ine 762.
+ine 831.
 (pdftex.def)             Requested size: 215.0023pt x 362.54443pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [277]
-Overfull \hbox (4.21336pt too wide) in paragraph at lines 771--771
+Overfull \hbox (4.21336pt too wide) in paragraph at lines 840--840
 []\T1/cmr/bx/n/14.4 Methodological Lim-i-ta-tions and Po-ten-tial Im-prove-ment
 s 
  []
 
+[282]
+Underfull \vbox (badness 2221) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [278 <./Figures/chap5/vida-network-agenda.png>] [279] [280] [281] [282] [283])
- [284]
+ [283 <./Figures/chap5/vida-network-agenda.png>] [284] [285] [286] [287] [288])
+ [289]
 \openout2 = `chap7.aux'.
 
 
-(./chap7.tex
+(./chap7.tex [290
+
+
+
+
+]
 Chapter 6.
 
 Overfull \hbox (8.88237pt too wide) in paragraph at lines 7--7
@@ -2535,48 +2564,39 @@ Overfull \hbox (8.88237pt too wide) in paragraph at lines 7--7
 ner-a-bil-ity, Decision-
  []
 
-[285
-
-
-
-
-] [286] [287] [288] [289] [290]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [291]
-<Figures/chap7/EOChain.jpg, id=6485, 813.0375pt x 377.41pt>
+[291] [292] [293] [294] [295] [296] [297]
+<Figures/chap7/EOChain.jpg, id=6606, 813.0375pt x 377.41pt>
 File: Figures/chap7/EOChain.jpg Graphic file (type jpg)
 <use Figures/chap7/EOChain.jpg>
-Package pdftex.def Info: Figures/chap7/EOChain.jpg  used on input line 141.
+Package pdftex.def Info: Figures/chap7/EOChain.jpg  used on input line 143.
 (pdftex.def)             Requested size: 301.00192pt x 139.72012pt.
-
-[292] [293 <./Figures/chap7/EOChain.jpg>]
-Overfull \hbox (9.0396pt too wide) in paragraph at lines 161--161
+ [298] [299 <./Figures/chap7/EOChain.jpg>]
+Overfull \hbox (9.0396pt too wide) in paragraph at lines 163--163
 []\T1/cmr/bx/n/17.28 Advancing Stakeholder-Informed Sus-tain-able De-
  []
 
-[294]) [295]
+[300]) [301]
 \openout2 = `appa.aux'.
 
- (./appa.tex [296
+ (./appa.tex [302
 
 
 
 
 ]
 Appendix A.
-[297] [298] [299] [300] [301] [302])
+[303] [304] [305] [306] [307] [308])
 \openout2 = `appb.aux'.
 
  (./appb.tex
 Appendix B.
-[303
+[309
 
 
 
 
 
-]) [304]
+]) [310]
 \openout2 = `appc.aux'.
 
  (./appc.tex
@@ -2587,14 +2607,14 @@ Overfull \hbox (2.12027pt too wide) in paragraph at lines 5--6
 n-cluded in each [][]
  []
 
-[305
+[311
 
 
 
 
-] [306
+] [312
 
-] [307] [308] [309] [310] [311]
+] [313] [314] [315] [316] [317]
 Overfull \hbox (8.94098pt too wide) in alignment at lines 32--32
  [] [] [] [] [] [] [] [] [] [] 
  []
@@ -2614,9 +2634,9 @@ Overfull \hbox (8.94098pt too wide) in alignment at lines 32--32
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[312
+[318
 
-] [313] [314]
+] [319] [320]
 Overfull \hbox (10.45987pt too wide) in paragraph at lines 45--45
  \T1/cmr/bx/n/6 Metropoli- 
  []
@@ -2701,9 +2721,9 @@ Overfull \hbox (3.91512pt too wide) in alignment at lines 49--136
  [] [] [] [] [] [] [] [] [] 
  []
 
-[315
+[321
 
-]) [316]
+]) [322]
 \openout2 = `appd.aux'.
 
  (./appd.tex
@@ -2714,7 +2734,7 @@ Overfull \hbox (9.9461pt too wide) in paragraph at lines 21--149
  https : / / dspace . mit . edu / handle /
  []
 
-[317
+[323
 
 
 
@@ -2722,7 +2742,7 @@ Overfull \hbox (9.9461pt too wide) in paragraph at lines 21--149
 ]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl [318
+ (./biblio.tex (./main.bbl [324
 
 
 
@@ -2739,18 +2759,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--45
 rategy-
  []
 
-[319]
+[325]
 Underfull \hbox (badness 10000) in paragraph at lines 117--119
 []\T1/cmr/m/n/12 Definition of sus-tain-able | Dic-tio-nary.com.
  []
 
-[320]
+[326]
 Underfull \hbox (badness 1112) in paragraph at lines 144--153
 []\T1/cmr/m/n/12 Johan Rock-ström, Will Stef-fen, Kevin Noone, Åsa Pers-son, F.
  Stu-art
  []
 
-[321] [322]
+[327] [328]
 Underfull \hbox (badness 1412) in paragraph at lines 280--284
 []\T1/cmr/m/n/12 Systems En-gi-neer-ing Body of Knowl-edge.  Sys-tems En-gi-nee
 r-ing (glos-
@@ -2772,7 +2792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--310
 \T1/cmr/m/n/12 EN-VI-RON-MENT FOR A FU-TURE RE-SOURCE ECON-OMY IN
  []
 
-[323]
+[329]
 Underfull \hbox (badness 10000) in paragraph at lines 354--357
 []\T1/cmr/m/n/12 Group on Earth Ob-ser-va-tions.  GEO at a Glance.
  []
@@ -2782,7 +2802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--368
 []\T1/cmr/m/n/12 Greg Shi-rah.  NASA's Earth Ob-serv-ing Fleet: March 2017.
  []
 
-[324] [325]
+[330] [331]
 Underfull \hbox (badness 10000) in paragraph at lines 474--478
 []\T1/cmr/m/n/12 NASA Jet Propul-sion Lab-o-ra-tory.  Satel-lite Radar De-
  []
@@ -2810,19 +2830,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 480--486
 ta-of-puerto-
  []
 
-[326] [327] [328] [329] [330]
+[332] [333] [334] [335] [336]
 Underfull \hbox (badness 1360) in paragraph at lines 846--852
 []\T1/cmr/m/n/12 Arpit Verma.  Ubuntu Linux is the Most Pop-u-lar Op-er-at-ing 
 Sys-tem
  []
 
-[331] [332]
+[337] [338]
 Underfull \hbox (badness 10000) in paragraph at lines 988--993
 \T1/cmr/m/n/12 https://www.project-syndicate.org/commentary/five-reasons-for-op
 timism-in-
  []
 
-[333] [334] [335] [336] [337] [338] [339] [340] [341] [342] [343]
+[339] [340] [341] [342] [343] [344] [345] [346] [347] [348] [349]
 Underfull \hbox (badness 10000) in paragraph at lines 1757--1760
 []\T1/cmr/m/n/12 Data de-pri-va-tion : An-other de-pri-va-tion to end.
  []
@@ -2838,7 +2858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1757--1760
 er-
  []
 
-[344]
+[350]
 Underfull \hbox (badness 10000) in paragraph at lines 1787--1790
 []\T1/cmr/m/n/12 Bottlenecks Block-ing Widespread Us-age of Plan-ning Sup-port
  []
@@ -2848,13 +2868,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1787--1790
 \T1/cmr/m/n/12 Sys-tems - Guido Vonk, Stan Geert-man, Paul Schot, 2005.
  []
 
-[345] [346] [347] [348] [349] [350]
+[351] [352] [353] [354] [355] [356]
 Underfull \hbox (badness 1270) in paragraph at lines 2224--2229
 []\T1/cmr/m/n/12 Instituto Pereira Pas-sos| Data Rio.  Regiões de Plane-ja-ment
 o - In-di-
  []
 
-[351] [352]
+[357] [358]
 Underfull \hbox (badness 10000) in paragraph at lines 2299--2305
 \T1/cmr/m/n/12 cariocas-a-utilizar-plataforma-para-plano-de-desenvolvimento-sus
 tentavel/,
@@ -2871,7 +2891,7 @@ Underfull \hbox (badness 5288) in paragraph at lines 2340--2344
 l-i-ties.
  []
 
-[353]
+[359]
 Underfull \hbox (badness 5652) in paragraph at lines 2386--2392
 []\T1/cmr/m/n/12 Jennifer Chisholm.  Who's in-vad-ing whom? The com-plex bat-
  []
@@ -2894,18 +2914,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 2386--2392
 ederal-land/,
  []
 
-[354]
+[360]
 Underfull \hbox (badness 1043) in paragraph at lines 2456--2460
 \T1/cmr/m/n/12 CO-LAS PÚBLI-CAS EM GUARAT-IBA, RIO DE JANEIRO, US-ANDO
  []
 
-[355] [356] [357] [358]
+[361] [362] [363] [364]
 Underfull \hbox (badness 4913) in paragraph at lines 2693--2700
 []\T1/cmr/m/n/12 Hiraishi Takahiko, Thelma Krug, Kiy-oto Tan-abe, Nalin Sri-vas
 -tava,
  []
 
-[359]
+[365]
 Underfull \hbox (badness 8170) in paragraph at lines 2751--2759
 []\T1/cmr/m/n/12 Instituto Pereira Pas-sos.  Número de em-pre-ga-dos por ativi-
 dade
@@ -2962,7 +2982,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2761--2768
 o-ap-
  []
 
-[360] [361]
+[366] [367]
 Underfull \hbox (badness 10000) in paragraph at lines 2874--2880
 \T1/cmr/m/n/12 https://www.data.rio/search?q=%C3%8DNDICE%20DE%20PROGRESSO,
  []
@@ -2978,7 +2998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2882--2886
 -uary
  []
 
-[362]
+[368]
 Underfull \hbox (badness 1946) in paragraph at lines 2929--2934
 []\T1/cmr/m/n/12 Planet Labs PBC.  Planet An-nounces New De-tails of Hy-per-spe
 c-tral
@@ -3007,7 +3027,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2951--2956
 rmacao,
  []
 
-[363]
+[369]
 Underfull \hbox (badness 10000) in paragraph at lines 3031--3035
 []\T1/cmr/m/n/12 Ria Ivandic, Thomas Kirch-maier, and Ben Lin-ton.  Chang-
  []
@@ -3023,7 +3043,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3031--3035
 m-ber
  []
 
-[364]
+[370]
 Underfull \hbox (badness 2261) in paragraph at lines 3053--3059
 []\T1/cmr/m/n/12 Leah Eisen-stadt.  How Broad In-sti-tute con-verted a clin-i-c
 al pro-cess-
@@ -3046,12 +3066,12 @@ Overfull \hbox (3.79199pt too wide) in paragraph at lines 3074--3079
 8bd9e2cc4,
  []
 
-[365]
-Underfull \hbox (badness 10000) in paragraph at lines 3139--3142
+[371]
+Underfull \hbox (badness 10000) in paragraph at lines 3120--3123
 []\T1/cmr/m/n/12 Google.  COVID-19 Com-mu-nity Mo-bil-ity Re-port.
  []
 
-[366]
+[372]
 Underfull \hbox (badness 10000) in paragraph at lines 3171--3176
 []\T1/cmr/m/n/12 Blue Raster.  Boston Vida Dash-board.
  []
@@ -3073,27 +3093,57 @@ Overfull \hbox (70.03273pt too wide) in paragraph at lines 3178--3183
 039ba29e292772e0684,
  []
 
-[367]
-Underfull \hbox (badness 1199) in paragraph at lines 3278--3282
+
+Underfull \hbox (badness 6412) in paragraph at lines 3190--3197
+[]\T1/cmr/m/n/12 Indonesia Min-istry of Health.  Data Har-ian Ka-sus per Provin
+si
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 3190--3197
+\T1/cmr/m/n/12 COVID-19 In-done-sia (COVID-19 Daily Cases of Provin-cial Level 
+in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3190--3197
+\T1/cmr/m/n/12 In-done-sia).  https://bnpb- inacovid19.hub.arcgis.com/datasets/
+data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3190--3197
+\T1/cmr/m/n/12 harian-kasus-per-provinsi- covid-19-indonesia?geometry=54.185%2C
+-
+ []
+
+[373] [374]
+Underfull \hbox (badness 1199) in paragraph at lines 3292--3296
 []\T1/cmr/m/n/12 Melissa Gar-ber, Shahram Sarkani, and Thomas A. Maz-zuchi.  Mu
 lti-
  []
 
-)) [368] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+)) [375] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap7.aux) (./appa.aux)
 (./appb.aux) (./appc.aux) (./appd.aux) (./biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA1D838A3DE667E4348DBEB2CD82CE08;35794.
+(rerunfilecheck)             Checksum: A2737FB76D0FC0334B36C754D0E56CBE;35796.
  )
 (\end occurred when \ifx on line 111 was incomplete) 
 Here is how much of TeX's memory you used:
- 24420 strings out of 480129
- 519228 string characters out of 5893409
- 879006 words of memory out of 5000000
- 40142 multiletter control sequences out of 15000+600000
+ 24428 strings out of 480129
+ 519351 string characters out of 5893409
+ 879125 words of memory out of 5000000
+ 40139 multiletter control sequences out of 15000+600000
  490104 words of font info for 65 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 94i,15n,92p,2816b,3015s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,15n,92p,2816b,3053s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive20
 21/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0600.600pk> </home/jackreid/.texli
 ve2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/jackreid/.t
@@ -3134,10 +3184,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (368 pages, 54736283 bytes).
+Output written on main.pdf (375 pages, 54421671 bytes).
 PDF statistics:
- 8589 PDF objects out of 8907 (max. 8388607)
- 6810 compressed objects within 69 object streams
- 1635 named destinations out of 1728 (max. 500000)
- 1933 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8718 PDF objects out of 8907 (max. 8388607)
+ 6933 compressed objects within 70 object streams
+ 1648 named destinations out of 1728 (max. 500000)
+ 1923 words of extra memory for PDF output out of 10000 (max. 10000000)
 

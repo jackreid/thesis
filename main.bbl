@@ -3077,12 +3077,12 @@ Cristian {Gallardo-Esc{\'a}rate}, Valentina {Valenzuela-Mu{\~n}oz}, Gustavo
   https://experience.arcgis.com/experience/38efc69787a346959c931568bd9e2cc4,
   June 2020.
 
-\bibitem{elvidgeDimmingLightsChina2020}
-Christopher~D. Elvidge, Tilottama Ghosh, Feng-Chi Hsu, Mikhail Zhizhin, and
-  Morgan Bazilian.
-\newblock The {{Dimming}} of {{Lights}} in {{China}} during the {{COVID-19
-  Pandemic}}.
-\newblock {\em Remote Sensing}, 12(17):2851, January 2020.
+\bibitem{xuModestImpactWeather2020}
+Ran Xu, Hazhir Rahmandad, Marichi Gupta, Catherine DiGennaro, Heresh Amini, and
+  Mohammad~S Jalali.
+\newblock The {{Modest Impact}} of {{Weather}} and {{Air Pollution}} on
+  {{COVID-19 Transmission}}.
+\newblock Technical report, {Cambridge, MA}, 2020.
 
 \bibitem{isaifanDramaticImpactCoronavirus2020}
 R.~J. Isaifan.
@@ -3095,18 +3095,6 @@ R.~J. Isaifan.
 Shefali Arora, Kanchan~Deoli Bhaukhandi, and Pankaj~Kumar Mishra.
 \newblock Coronavirus lockdown helped the environment to bounce back.
 \newblock {\em Science of The Total Environment}, 742:140573, November 2020.
-
-\bibitem{romanNASABlackMarble2018}
-Miguel~O. Rom{\'a}n, Zhuosen Wang, Qingsong Sun, Virginia Kalb, Steven~D.
-  Miller, Andrew Molthan, Lori Schultz, Jordan Bell, Eleanor~C. Stokes,
-  Bhartendu Pandey, Karen~C. Seto, Dorothy Hall, Tomohiro Oda, Robert~E. Wolfe,
-  Gary Lin, Navid Golpayegani, Sadashiva Devadiga, Carol Davidson, Sudipta
-  Sarkar, Cid Praderas, Jeffrey Schmaltz, Ryan Boller, Joshua Stevens, Olga~M.
-  Ramos~Gonz{\'a}lez, Elizabeth Padilla, Jos{\'e} Alonso, Yasm{\'i}n
-  Detr{\'e}s, Roy Armstrong, Ismael Miranda, Yasm{\'i}n Conte, Nitza Marrero,
-  Kytt MacManus, Thomas Esch, and Edward~J. Masuoka.
-\newblock {{NASA}}'s {{Black Marble}} nighttime lights product suite.
-\newblock {\em Remote Sensing of Environment}, 210:113--143, June 2018.
 
 \bibitem{institutopereirapassosDadosHorariosMonitoramento2018}
 {Instituto Pereira Passos}.
@@ -3128,17 +3116,29 @@ Arielle~R Deutsch, Rebecca Lustfield, and Mohammad~S Jalali.
   with {{Personal Experiences}}.
 \newblock {\em Preprint, Submitted for peer review}, page~22, 2020.
 
-\bibitem{xuModestImpactWeather2020}
-Ran Xu, Hazhir Rahmandad, Marichi Gupta, Catherine DiGennaro, Heresh Amini, and
-  Mohammad~S Jalali.
-\newblock The {{Modest Impact}} of {{Weather}} and {{Air Pollution}} on
-  {{COVID-19 Transmission}}.
-\newblock Technical report, {Cambridge, MA}, 2020.
-
 \bibitem{googleCOVID19CommunityMobility}
 {Google}.
 \newblock {{COVID-19 Community Mobility Report}}.
 \newblock https://www.google.com/covid19/mobility?hl=en.
+
+\bibitem{elvidgeDimmingLightsChina2020}
+Christopher~D. Elvidge, Tilottama Ghosh, Feng-Chi Hsu, Mikhail Zhizhin, and
+  Morgan Bazilian.
+\newblock The {{Dimming}} of {{Lights}} in {{China}} during the {{COVID-19
+  Pandemic}}.
+\newblock {\em Remote Sensing}, 12(17):2851, January 2020.
+
+\bibitem{romanNASABlackMarble2018}
+Miguel~O. Rom{\'a}n, Zhuosen Wang, Qingsong Sun, Virginia Kalb, Steven~D.
+  Miller, Andrew Molthan, Lori Schultz, Jordan Bell, Eleanor~C. Stokes,
+  Bhartendu Pandey, Karen~C. Seto, Dorothy Hall, Tomohiro Oda, Robert~E. Wolfe,
+  Gary Lin, Navid Golpayegani, Sadashiva Devadiga, Carol Davidson, Sudipta
+  Sarkar, Cid Praderas, Jeffrey Schmaltz, Ryan Boller, Joshua Stevens, Olga~M.
+  Ramos~Gonz{\'a}lez, Elizabeth Padilla, Jos{\'e} Alonso, Yasm{\'i}n
+  Detr{\'e}s, Roy Armstrong, Ismael Miranda, Yasm{\'i}n Conte, Nitza Marrero,
+  Kytt MacManus, Thomas Esch, and Edward~J. Masuoka.
+\newblock {{NASA}}'s {{Black Marble}} nighttime lights product suite.
+\newblock {\em Remote Sensing of Environment}, 210:113--143, June 2018.
 
 \bibitem{iplanrioIndicadoresPlanoRetomada2020}
 {IplanRio}.
@@ -3149,16 +3149,16 @@ Ran Xu, Hazhir Rahmandad, Marichi Gupta, Catherine DiGennaro, Heresh Amini, and
 {{CoronaNet Research Project}}.
 \newblock https://www.coronanet-project.org/.
 
-\bibitem{xbsdScipy2021Predicting2021}
-{xbsd}.
-\newblock Scipy 2021: {{Predicting}} the economic impact of {{COVID-19}} using
-  real-time images from space, August 2021.
-
 \bibitem{icovidDatosCOVID19OutputProducto532020}
 {ICOVID}.
 \newblock Datos-{{COVID19}}/output/producto53 at master {$\cdot$}
   {{MinCiencia}}/{{Datos-COVID19}}.
 \newblock https://github.com/MinCiencia/Datos-COVID19, August 2020.
+
+\bibitem{xbsdScipy2021Predicting2021}
+{xbsd}.
+\newblock Scipy 2021: {{Predicting}} the economic impact of {{COVID-19}} using
+  real-time images from space, August 2021.
 
 \bibitem{ahmedVarianceSystemDynamics2012}
 Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
@@ -3185,6 +3185,20 @@ Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
 {Instituto Pereira Passos}.
 \newblock Data {{Rio}}.
 \newblock https://www.data.rio/, 2017.
+
+\bibitem{indonesiaministryofhealthDataHarianKasus2023}
+{Indonesia Ministry of Health}.
+\newblock Data {{Harian Kasus}} per {{Provinsi COVID-19 Indonesia}} ({{COVID-19
+  Daily Cases}} of {{Provincial Level}} in {{Indonesia}}).
+\newblock https://bnpb-
+  inacovid19.hub.arcgis.com/datasets/data-harian-kasus-per-provinsi-
+  covid-19-indonesia?geometry=54.185\%2C- 18.062\%2C162.729\%2C12.297, December
+  2023.
+
+\bibitem{assmannBuildingWastewaterSurveillance2021}
+Paulina Assmann.
+\newblock Building a {{Wastewater Surveillance}} of {{COVID-19}} from
+  {{Scratch}}, April 2021.
 
 \bibitem{turnerInvisibleVariablesImpact2021}
 Katlyn Turner, Jack Reid, Kristi Acuff, Danielle Wood, and Manuel Torregrosa.
