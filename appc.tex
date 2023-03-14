@@ -22,7 +22,7 @@ The third table summarizes what sets of information were available for inclusion
 
 \scriptsize
 \csvreader[
-  longtable=|C{1.5cm}|C{2cm}|C{1.5cm}|C{1.5cm}|C{2cm}|C{2cm}|C{1cm}|C{1.5cm}|C{1cm}|C{1.5cm}|,
+  longtable=|C{1.5cm}|C{2cm}|C{1.25cm}|C{1.5cm}|C{1.75cm}|C{2cm}|C{1cm}|C{1.25cm}|C{1cm}|C{1.5cm}|,
   table head=\caption{COVID-19 Response Policy Quantification - Initial Version \label{tab:covid-policy-scores}}\\
     \toprule\textbf{Location} & \textbf{Policy} & \textbf{Mask Mandate} & \textbf{Travel Restrictions} & \textbf{Business and Public Space Closures}  & \textbf{Gathering Restrictions} & \textbf{Curfews} & \textbf{School Closures} & \textbf{Average} & \textbf{Category} \\ \midrule\endfirsthead
     \toprule\textbf{Location} & \textbf{Policy} & \textbf{Mask Mandate} & \textbf{Travel Restrictions} & \textbf{Business and Public Space Closures}  & \textbf{Gathering Restrictions} & \textbf{Curfews} & \textbf{School Closures} & \textbf{Average} & \textbf{Category} \\ \midrule\endhead
@@ -36,22 +36,22 @@ The third table summarizes what sets of information were available for inclusion
 
 \begin{center}
 \tiny
-\begin{longtable}{|C{1.5cm}|C{2.5cm}|C{0.75cm}|C{1cm}|C{1cm}|C{2cm}|C{1.5cm}|C{1.5cm}|C{1cm}|}
+\begin{longtable}{|C{1.25cm}|C{2.5cm}|C{0.75cm}|C{1cm}|C{1cm}|C{1cm}|C{1.25cm}|C{1cm}|}
 \caption[Vida DSS Temporal Data]{Temporal data available for display in the Vida \ac{dss}. In the \textbf{Type} column, P indicates that the value is a preset constant, E indicates that the data is calculated from other data, and H indicates that actual historical data is available. For the H type, Xs indicate each locations have such data available for use in the \ac{dss}. Some of these datasets were further broken down into more specific locations, such as Java vs. Sulawesi in the Indonesia case.}
 \label{tab:vida-temporal}\\ \cline{4-8}
 
 \multicolumn{3}{c}{} & \multicolumn{5}{|c|}{\textbf{Locations with Historical Data}} \\ \hline
 
-\textbf{Category} & \textbf{Name} & \textbf{Type} & \textbf{Rio de Janeiro} & \textbf{Metropolitana} & \textbf{Java/ Sulawesi} & \textbf{Querétaro} & \textbf{Luanda} \\ \midrule \endfirsthead
+\textbf{Category} & \textbf{Name} & \textbf{Type} & \textbf{Rio de Janeiro} & \textbf{Metropo- litana} & \textbf{Java/ Sulawesi} & \textbf{Querétaro} & \textbf{Luanda} \\ \midrule \endfirsthead
 
 \cline{4-8} \multicolumn{3}{c}{} & \multicolumn{5}{|c|}{\textbf{Locations with Historical Data}} \\ \hline
 
 \textbf{Category} & \textbf{Name} & \textbf{Type} & \textbf{Rio de Janeiro} & \textbf{Metropolitana} & \textbf{Java/ Sulawesi} & \textbf{Querétaro} & \textbf{Luanda} \\ \midrule \endhead
 
-\multirow{2}{2.5cm}{\parbox{1.5cm}{\centering \textbf{Policies \& Actions}}} & Closure Policy & H & X & X & X & X & X \\* \cline{2-8}
+\multirow{2}{1.25cm}{\parbox{1.5cm}{\centering \textbf{Policies \& Actions}}} & Closure Policy & H & X & X & X & X & X \\* \cline{2-8}
 & Social Distancing Policy & H & & & X & & \\ \hline
 
-\multirow{13}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Parameters}}}} & Base Contact Rate & P &  & & & & \\*  \cline{2-8}
+\multirow{13}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Parameters}}}} & Base Contact Rate & P &  & & & & \\*  \cline{2-8}
 & Contact Rate & E & & & & & \\* \cline{2-8}
 & Infectivity & P & & & & & \\* \cline{2-8}
 & Average Illness Duration & P & & & & & \\* \cline{2-8}
@@ -65,7 +65,7 @@ The third table summarizes what sets of information were available for inclusion
 & Mortality Likelihood & E & & & & & \\* \cline{2-8}
 & Average Hospitalization Duration & P & & & & & \\ \hline
 
-\multirow{8}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Populations}}}} & Susceptible Population & H & X & X & X & X & X \\* \cline{2-8}
+\multirow{8}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Populations}}}} & Susceptible Population & H & X & X & X & X & X \\* \cline{2-8}
 & `Estimated' Unhospitalized Infected Population & E & & & & & \\* \cline{2-8}
 & Deaths & H & X & X & X & X & X \\ \cline{2-8}
 & Hospitalized Population' & H & X & X & X & X & X \\* \cline{2-8}
@@ -74,7 +74,7 @@ The third table summarizes what sets of information were available for inclusion
 & Measured Total Infected Population & H & X & X & X & X & X \\* \cline{2-8}
 & 'Estimated' Total Infected Population & E & & & & & \\ \hline
 
-\multirow{7}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Flows}}}} & `Estimated' Infection Rate & E & & & & & \\* \cline{2-8}
+\multirow{7}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Health Flows}}}} & `Estimated' Infection Rate & E & & & & & \\* \cline{2-8}
 & Measured Infection Rate & H & X & X & X & X & X \\* \cline{2-8}
 & Unhospitalized Recovery Rate & E & & & & & \\* \cline{2-8}
 & Unhospitalized Mortality Rate & E & & & & & \\* \cline{2-8}
@@ -83,11 +83,11 @@ The third table summarizes what sets of information were available for inclusion
 & Hospitalization Rate & H & X & X & X & X & X \\ \hline
 
 
-\multirow{2}{2.5cm}{\parbox{1.5cm}{\centering \textbf{Equipment Supplies}}} & Hospital Bed Capacity & P & & & & & \\* \cline{2-8}
+\multirow{2}{1.25cm}{\parbox{1.5cm}{\centering \textbf{Equipment Supplies}}} & Hospital Bed Capacity & P & & & & & \\* \cline{2-8}
 & Daily \ac{pcr} Tests & H & & X & & & \\ \hline
 
 
-\multirow{13}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Environment}}}} & Temperature & H & X & & & & \\* \cline{2-8}
+\multirow{13}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Environment}}}} & Temperature & H & X & & & & \\* \cline{2-8}
 & SO2 & H & X & & & & X\\* \cline{2-8}
 & NO2 & H & X & & & & X\\* \cline{2-8}
 & HCNM & H & X & & & & \\* \cline{2-8}
@@ -101,7 +101,7 @@ The third table summarizes what sets of information were available for inclusion
 & PM2.5 & H & X & & & & \\* \cline{2-8}
 & Nighttime Radiance & H & & & & & X \\ \hline
 
-\multirow{18}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Economic}}}} & Local Unemployment Rate & H & X & & & & \\* \cline{2-8}
+\multirow{18}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Economic}}}} & Local Unemployment Rate & H & X & & & & \\* \cline{2-8}
 & National Unemployment Rate & H & X & & & & \\* \cline{2-8}
 & Gross Domestic Product & H & & & X & & \\* \cline{2-8}
 & Oil \& Gas Imports & H & & & X & & \\* \cline{2-8}
@@ -120,7 +120,7 @@ The third table summarizes what sets of information were available for inclusion
 & Inflation & H & & & X & & \\* \cline{2-8}
 & Ships Loitering & H & & & & & X \\ \hline
 
-\multirow{12}{2.5cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Mobility}}}} & Retail \& Recreation & H & X  & & X & X & X \\* \cline{2-8}
+\multirow{12}{1.25cm}{\rotatebox[origin=c]{90}{\parbox{3.5cm}{\centering \textbf{Mobility}}}} & Retail \& Recreation & H & X  & & X & X & X \\* \cline{2-8}
 & Grocery \& Pharmacy & H & X & & X & X & X\\* \cline{2-8}
 & Parks & H & X  & & X & X & X\\* \cline{2-8}
 & Transit & H & X  & & X & X & X \\* \cline{2-8}
