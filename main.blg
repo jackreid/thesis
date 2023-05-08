@@ -15,7 +15,7 @@ A level-1 auxiliary file: appc.aux
 A level-1 auxiliary file: appd.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 16822 items from 5000.
+Reallocated field_info (elt_size=4) to 17190 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
@@ -47,45 +47,45 @@ Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty journal in jungGapsMangroveForestInReview
 Warning--empty institution in xuModestImpactWeather2020
 Warning--there's a number but no series in woodPartnershipsEnableEarth2017
-You've used 514 entries,
+You've used 530 entries,
             1791 wiz_defined-function locations,
-            3481 strings with 130829 characters,
-and the built_in function-call counts, 112540 in all, are:
-= -- 10029
-> -- 5123
-< -- 84
-+ -- 1943
-- -- 1429
-* -- 7690
-:= -- 18046
-add.period$ -- 1584
-call.type$ -- 514
-change.case$ -- 511
+            3566 strings with 134057 characters,
+and the built_in function-call counts, 115173 in all, are:
+= -- 10248
+> -- 5215
+< -- 86
++ -- 1983
+- -- 1453
+* -- 7803
+:= -- 18448
+add.period$ -- 1630
+call.type$ -- 530
+change.case$ -- 526
 chr.to.int$ -- 0
-cite$ -- 542
-duplicate$ -- 5073
-empty$ -- 11095
-format.name$ -- 1429
-if$ -- 25004
+cite$ -- 558
+duplicate$ -- 5195
+empty$ -- 11414
+format.name$ -- 1453
+if$ -- 25614
 int.to.chr$ -- 0
-int.to.str$ -- 514
-missing$ -- 450
-newline$ -- 2551
-num.names$ -- 583
-pop$ -- 1625
+int.to.str$ -- 530
+missing$ -- 458
+newline$ -- 2629
+num.names$ -- 599
+pop$ -- 1708
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2129
+skip$ -- 2196
 stack$ -- 0
-substring$ -- 6212
-swap$ -- 1016
-text.length$ -- 84
+substring$ -- 6289
+swap$ -- 1044
+text.length$ -- 86
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 28
-while$ -- 1089
-width$ -- 517
-write$ -- 5645
+while$ -- 1112
+width$ -- 533
+write$ -- 5804
 (There were 28 warnings)

@@ -2586,6 +2586,13 @@ Romie Jhonnerie, Vincentius~P Siregar, Bisman Nababan, Lilik~Budi Prasetyo, and
   {{Landsat}} 5 {{TM}} and {{ALOS PALSAR}} imageries.
 \newblock {\em Procedia Environmental Sciences}, page~7, 2015.
 
+\bibitem{institutopereirapassosCoberturaVegetalUso2021}
+{Instituto Pereira Passos}.
+\newblock Cobertura {{Vegetal}} e {{Uso}} da {{Terra}} 2018.
+\newblock
+  https://www.data.rio/datasets/PCRJ::cobertura-vegetal-e-uso-da-terra-2018/about,
+  March 2021.
+
 \bibitem{fredenMonitoringVegetationSystems1974}
 Stanley~C. Freden, Enrico~P. Mercanti, and Margaret~A. Becker.
 \newblock Monitoring vegetation systems in the {{Great Plans}} with {{ERTS}}.
@@ -3267,6 +3274,94 @@ Jacob~M. Souch and Jeralynn~S. Cossman.
 \newblock A {{Commentary}} on {{Rural}}-{{Urban Disparities}} in {{COVID}}-19
   {{Testing Rates}} per 100,000 and {{Risk Factors}}.
 \newblock {\em The Journal of Rural Health}, 37(1):188--190, 2021.
+
+\bibitem{rainbowPixxelRaises252022}
+Jason Rainbow.
+\newblock Pixxel raises \$25 million for hyperspectral imaging constellation,
+  March 2022.
+
+\bibitem{clarkExclusiveSatelliteImages2022}
+Aaron Clark and Janet Paskin.
+\newblock Exclusive {{Satellite Images Show Methane Cloud Near Jordan Waste
+  Site}}.
+\newblock {\em Bloomberg.com}, November 2022.
+
+\bibitem{brownSecurityCameraPlanet2023}
+David~W. Brown.
+\newblock A {{Security Camera}} for the {{Planet}}.
+\newblock {\em The New Yorker}, April 2023.
+
+\bibitem{jewettPlanetDebutsPlanetary2022}
+Rachel Jewett.
+\newblock Planet {{Debuts Planetary Variables Product With Soil}},
+  {{Temperature}}, and {{Biomass Data}}.
+\newblock
+  https://www.satellitetoday.com/imagery-and-sensing/2022/04/13/planet-debuts-planetary-variables-product-with-soil-temperature-and-biomass-data/,
+  April 2022.
+
+\bibitem{joyceCanYouUse2023}
+Dr~Karen Joyce.
+\newblock Can you use {{MetaAI}}'s tool '{{Segment Anything}}' for drone
+  imagery?, April 2023.
+
+\bibitem{bollesEquityEnvironmentalJustice2021}
+Dana Bolles.
+\newblock Equity and {{Environmental Justice}}.
+\newblock
+  https://science.nasa.gov/earth-science/equity-and-environmental-justice,
+  December 2021.
+
+\bibitem{tellmanRegionalIndexInsurance2022}
+Beth Tellman, Upmanu Lall, A.~K. M.~Saiful Islam, and Md~Ariffuzaman Bhuyan.
+\newblock Regional {{Index Insurance Using Satellite-Based Fractional Flooded
+  Area}}.
+\newblock {\em Earth's Future}, 10(3):e2021EF002418, 2022.
+
+\bibitem{floodbaseFloodMonitoringSudan2022}
+{Floodbase}.
+\newblock Flood {{Monitoring}} in {{Sudan}}.
+\newblock https://www.floodbase.com/case-studies/sudan, June 2022.
+
+\bibitem{floodbaseAnnouncingOurWork2023}
+{Floodbase}.
+\newblock Announcing our work with {{FEMA}} to strengthen and inform their
+  flood analytics capabilities.
+\newblock https://www.floodbase.com/blog-posts/announcing-fema, March 2023.
+
+\bibitem{rostonClimateStartupAims2023}
+Eric Roston.
+\newblock A {{Climate Startup Aims}} to {{Narrow}} the {{Flood-Protection Gap
+  With Data}}.
+\newblock {\em Bloomberg}, January 2023.
+
+\bibitem{earthsciencedatasystemsDataProcessingLevels2016}
+{\relax NASA}~Earth Science Data~Systems.
+\newblock Data {{Processing Levels}}.
+\newblock
+  https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels,
+  November 2016.
+
+\bibitem{tunstallDecolonizingDesignCultural2023}
+Elizabeth Tunstall.
+\newblock {\em Decolonizing {{Design}}: {{A Cultural Justice Guidebook}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}, February 2023.
+
+\bibitem{nasaappliedsciencesDEVELOP}
+{NASA Applied Sciences}.
+\newblock About {{DEVELOP}}.
+\newblock http://appliedsciences.nasa.gov/what-we-do/capacity-building/develop.
+
+\bibitem{groganMultistakeholderInteractiveSimulation2014}
+Paul~T. Grogan, Alessandro Golkar, Seiko Shirasaka, and Olivier~L. {de Weck}.
+\newblock Multi-stakeholder interactive simulation for federated satellite
+  systems.
+\newblock In {\em 2014 {{IEEE Aerospace Conference}}}, pages 1--15, March 2014.
+
+\bibitem{groganInteractiveSimulationGames2015}
+Paul~T. Grogan and Olivier~L. {de Weck}.
+\newblock Interactive simulation games to assess federated satellite system
+  concepts.
+\newblock In {\em 2015 {{IEEE Aerospace Conference}}}, pages 1--13, March 2015.
 
 \bibitem{hakimdavarTransboundaryWaterImproving2018}
 Raha Hakimdavar, Danielle Wood, Christa {Peters-Lidard}, Jane Smith, Brad

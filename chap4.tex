@@ -312,7 +312,7 @@ It should be noted that Figure \ref{fig:rio_stakemap} represents a descriptive p
 
 Based on both the literature survey and the interviews/meetings with stakeholders, I derived two sets of key stakeholder's Needs, Desired Outcomes, and potential System Objectives. The first of these, shown in Table \ref{tab:rio-sets-needs}, refers to the stakeholders relationships with the \ac{sets} that they exist in: the interplay of human habitation, economic activities, the mangrove ecosystem, and government policymaking. In this table, the ``Potential \ac{sets} Objectives" column refers to alterations to the status quo that each stakeholder group would like to make.
 
-The second set, shown in Table \ref{tab:rio-dss-needs}, is with regards to the \ac{evdt}-based \ac{dss} that this project aimed to develop. It includes an additional stakeholder, the Space Enabled research group, as we obviously had a large involvement in the creation of the \ac{dss}. The \ac{dss} will not address all of the noted ``Potential \ac{dss} Objectives" but will be informed by them. These tables, in conjunction with the stakeholder classification and mapping in the previous section, allowed for the identification of both shared and conflicting objectives. For example, a formal sewage system was noted as a priority by both the urban-planning-oriented \ac{smu} and the environment-oriented \ac{smac}. This was not brought up by the fishers themselves (though it should be noted that I did not directly ask them about it either). 
+The second set, shown in Table \ref{tab:rio-dss-needs}, is with regards to the \ac{evdt}-based \ac{dss} that this project aimed to develop. It includes an additional stakeholder, the Space Enabled research group, as we obviously had a large involvement in the creation of the \ac{dss}. The \ac{dss} will not address all of the noted ``Potential \ac{dss} Objectives" but will be informed by them. These tables, in conjunction with the stakeholder classification and mapping in the previous section, allowed for the identification of both shared and conflicting objectives. For example, a formal sewage system was noted as a priority by both the urban-planning-oriented \ac{smu} and the environment-oriented \ac{smac}. This was not brought up by the fishers themselves (though it should be noted that I did not directly ask them about it either).
 
 In general, conservation and even replanting of the mangroves was a common Potential \ac{sets} Objective, but the reasoning and priority for this varied significantly, resulting in important differences. The fishers prioritized preservation of existing mangroves and replanting in recently deforested areas. They viewed city efforts to compensate for development-induced deforestation with replanting efforts elsewhere (including in areas deforested decades or centuries ago) as irrelevant to their needs. 
 
@@ -633,7 +633,7 @@ Regarding extent, the widely-used global mangrove extent maps such as Giri and \
 
 In order to eliminate false positives, a mask was used to filter out flagged pixels at over 40m in elevation, as determined by the \ac{srtm} dataset \cite{jarvisHolefilledSRTMGlobe2008}. For a more detailed explanation of random forest classifier algorithms and their relevance to forest identification, see \cite{jhonnerieRandomForestClassification2015}.
 
-For validation, the initial plan was to conduct \ac{uav} surveys of various parts of the Guaratiba mangrove forests. One such test survey for a particular plot of land was conducted in collaboration with the ESPAÇO research group in March of 2020. During the same visit, non-systematic visual inspection of areas identified by the classifier as damaged or lost mangroves were also conducted. The onset of the pandemic interrupted these plans, so instead validation relies upon comparison across the three classifiers, and with the Giri and \ac{gmw} maps.
+For validation, the initial plan was to conduct \ac{uav} surveys of various parts of the Guaratiba mangrove forests. One such test survey for a particular plot of land was conducted in collaboration with the ESPAÇO research group in March of 2020. During the same visit, non-systematic visual inspection of areas identified by the classifier as damaged or lost mangroves were also conducted. The onset of the pandemic interrupted these plans, so instead validation relies upon comparison across the three classifiers, with the Giri and \ac{gmw} maps, and with Rio de Janeiro's Cobertura Vegetal e Uso da Terra datasets. The last of these are a series of \ac{lclu} maps created manually by \ac{ipp} in certain years through a combination of in-situ surveying and high resolution aerial survey or satellite data (which depends on the year, for more details see Section \ref{sec:rio-evdt-tech-results}) \cite{institutopereirapassosCoberturaVegetalUso2021}. While highly accurate, they are also highly labor intensive (and expensive) to create and only available for certain years. They also have some inconsistency from iteration to iteration regarding the inclusion or exclusion of apicum from the mangrove class.
 
 Planet Lab's PlanetScope surface reflectance imagery was also experimented with, but ultimately was determined to not provide sufficient identification improvements to warrant continued use. 
 
@@ -831,6 +831,31 @@ The net changes in extent can also be seen temporally rather than spatially in F
 
 The Landsat-only classifications for each year from 2000 to 2018 were used to construct an "all years inclusive" extent map that shows all areas that were classified as mangroves in at least one year. This was used as to identify the area for health tracking.
 
+A confusion matrix for the year 2018 is shown below in Table \ref{tab:rio-validation} in comparison to that year's Cobertura Vegetal e Uso da Terra map. This results in an accuracy rate of 98\% and a equal-area accuracy\footnote{This refers to the scenario in which the area of mangroves and non-mangroves in an area were equal in size. Alternately, this can be seen as the mean of the positive predictive value (precision) and the negative predictive value.} of 88\%. This can be compared (for the same region) with a \ac{gmw}v2 accuracy of 97\%, equal-area accuracy of 82\%; and a Mapbiomas accuracy of 98\% and equal-area accuracy of 84\%. This suggests that even a relatively simplistic, locally-targeted mangrove classifier can meet or exceed the standards set by national or global classifiers.
+
+\begin{table}[!htb]
+\caption[Confusion Matrix for Mangrove Classification]{Confusion matrix for the Landsat-only classification of mangroves for the year 2018, using Rio de Janeiro's Cobertura Vegetal e Uso da Terra data \cite{institutopereirapassosCoberturaVegetalUso2021}.}
+\label{tab:rio-validation}
+\begin{center}
+%\scriptsize
+\small
+\begin{tabular}{ C{3cm}   L{2cm}  L{2cm} L{2cm}  L{2cm} } \hline
+ 
+ &  & \multicolumn{3}{C{9cm}}{\textbf{Landsat-only Classification}} \\
+
+ &  & \textbf{Mangroves} & \textbf{Not Mangroves} & \textbf{Total} \\ \hline
+
+\multirow{3}{*}{\textbf{Municipal LCLU}} & \textbf{Mangroves} & 2399 & 677 & 3076 \\
+& \textbf{Not Mangroves} & 422 & 40334 & 40756 \\ 
+& \textbf{Total} & 2821 & 41011 & 43832 \\ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
 \paragraph{Mangrove Health} \leavevmode\newline
 
 We can see the median \ac{ndvi} values for the 1999-2001 reference period in Figure \ref{fig:reference_median}. As might be expected, the highest \ac{ndvi} values are present in the interior, mature ares of the forest, with lower \ac{ndvi} values lying along the edge. However, it cannot be determined from this image alone whether these lower value areas represent areas of new growth (young saplings in previously unoccupied land or water) or areas of degraded health / loss.  
@@ -1016,7 +1041,7 @@ The zone categories should a similar trend, with \textit{Tourism} areas having t
 %\end{figure}
 
 
-\subsubsection{Technology} 
+\subsubsection{Technology} \label{sec:rio-evdt-tech-results}
 
 The city government of Rio de Janeiro has made significant use of \ac{eo} data dating back to 1975, as can be seen in Table \ref{tab:history}, but it is only in recent years that this data usage has become fairly regular. This regularization roughly corresponds with the creation of \ac{ipp} in 1999. Even now, there has not been any particular consistency with the choice of imagery source, with the city switching back and forth between aerial and satellite surveys every few years. The primary use of this data, \acf{lclu} classification, was performed via a combination of updating previous \ac{lclu} maps, visual classification of the imagery, and in-situ surveys.
 
@@ -1324,7 +1349,6 @@ Another point worth noting is that there were significant drawbacks to having a 
 
 This case study was one of the first full implementation of the \ac{evdt} Framework, or at least its initial version of it, alongside Ovienmhada's water hyacinth project in Benin \cite{ovienmhadaInclusiveDesignEarth2021}. As such it, both its successes and shortcomings (many of which were noted above) directly informed revisions of the framework, leading to the version presented in Chapter \ref{ch:evdt}. It is worth detailing some of these specific lessons learned.
 
-
 \textbf{The need for the two separate iterations of the \ac{saf}.} Earlier version of the \ac{evdt} Framework where not as strictly linear as Figure \ref{fig:evdt_framework}. Both the \ac{saf} and the \ac{evdt} components were viewed as spanning the entire project and not being particularly distinct, with only one iteration of the \ac{saf} explicitly called for. 
 
 This led to ambiguity about whether the \ac{evdt} practitioner should be focusing the \ac{saf} process on the existing \ac{sets} that the community is operating in or on the \ac{dss} that was to be developed. Lombardo et al., working on coastal flooding in Indonesia, situate the Space Enabled researchers as the primary stakeholder, the \ac{evdt} components as the System Form, and the \ac{dss} as the output of the process \cite{lombardoEnvironmentVulnerabilityDecisionTechnologyFrameworkDecision2022}.   Jaffe meanwhile situated herself as a secondary stakeholder (advising the primary stakeholders involved in cranberry farming and restoration in Massachusetts) but still focused the \ac{saf} process on defining requirements for the \ac{dss} \cite{jaffeEnvironmentalEconomicSystems2022}. Ovienmhada et al. took the time to define the forms and functions of the existing water hyacinth harvesting \ac{sets} in Benin prior to embarking on the design of the \ac{dss} \cite{ovienmhadaInclusiveDesignEarth2021}. Even this case study did not clearly separate the two (note that there is only one \ac{saf} section in this chapter), though Tables \ref{tab:rio-sets-needs} and \ref{tab:rio-dss-needs} do make this distinction. 
@@ -1342,6 +1366,14 @@ Sometimes, however, such alignment with certain stakeholders is desirable even i
 \textbf{The importance of appropriately scoping an \ac{evdt} project.} Involving as many stakeholders as possible and taking the multidisciplinary approach called for by the \ac{evdt} Framework can quickly cause a project to balloon out of the realm of feasibility. As noted in Section \ref{sec:rio-limitations}, there were innumerable other avenues that this project could have taken (and could still take in the future!). 
 
 This problem was exacerbated in this case by this being the initial trial of a new framework, being run by a new research group. As a result, there was not an abundance of reference materials and code, nor was there experience and institutional knowledge. Hopefully future projects, able to learn and build upon the experience of this and the other first generation of \ac{evdt} projects, will be able to more quickly identify a path and implement it.
+
+\textbf{The importance of the \ac{saf} for understanding how to balance competing concerns of different stakeholders.} \ac{ipp}, my initial contact in Rio de Janeiro, had the most opened ended needs and potential objectives. Their primary interest in this project was capacity building. While they proposed mangroves as a possible area of study, they did not restrict it to the western, Guaratiba area nor intend it as the only possible subject. It was only later conversations with ESPAÇO and then the fishers association that narrowed the focus in on Guaratiba, including both its mangroves and associated communities. Initial meetings with \ac{smu}, meanwhile focused on the establishment of a formal sewage system and the alteration of zoning laws to enable high-rise housing in the area. \ac{smac} was concerned with enforcement of environmental protections, preservation of the mangroves, and carbon emissions, with little interest in the communities that surrounded the mangroves. 
+
+It was only through discussions with all of these stakeholders (and quite a few others) and mapping of their relationships, needs, and desires, that this project took the form it did. The fishing community were well aware of the value of the local ecosystem services but lacked a way to express it to city planners and politicians. \ac{smu} did not request information on such ecosystem services because it was not on their radar at all. Once the topic was raised with them and initial prototypes shown, however, they became more interested in incorporating such valuations into their economic analyses. 
+
+Ultimately this project ended up providing different services to different stakeholders. For \ac{ipp}, an introduction to a new analysis platform (\ac{gee}) and exposure to an analysis method (random forest classification) that can be used to generate mangrove maps more cheaply and at a more rapid interval than handmade LULC maps. For the local community, a set of quantitative economic values that can be used to supplement their personal experiences during political negotiations. \ac{smac} found the land cover analysis method useful for their own activities and the ecosystem service valuations helpful in their ongoing rivalry with \ac{smu}, particularly now as they embark on defining the borders of a new \ac{apa}. \ac{smu} perhaps benefited the least, but that was the result of both balancing competing interests and giving some priority to the interests of those with the least amount of power.
+
+The \ac{evdt} Framework is not intended to provide a single solution to a single problem. It is intended to help support communities in making their own decisions. This case study was a demonstration of exactly that.
 
 
 \section{Conclusion}
