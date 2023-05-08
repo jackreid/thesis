@@ -738,6 +738,11 @@ Trevor Harris, Daniel Weiner, Timothy Warner, and Richard Levin.
   Implications}} of {{Geographic Information Systems}}}, pages 196--222. {The
   Guilford Press}, {New York}, 1st edition edition, December 1994.
 
+\bibitem{williamsDataActionUsing2020}
+Sarah Williams.
+\newblock {\em Data {{Action}}: {{Using Data}} for {{Public Good}}}.
+\newblock {The MIT Press}, {Cambridge, Massachusetts}, December 2020.
+
 \bibitem{cramptonIntroductionCriticalCartography2005}
 Jeremy~W Crampton and John Krygier.
 \newblock An {{Introduction}} to {{Critical Cartography}}.
@@ -756,11 +761,6 @@ Renee Sieber.
   Literature Review}} and {{Framework}}.
 \newblock {\em Annals of the Association of American Geographers},
   96(3):491--507, September 2006.
-
-\bibitem{williamsDataActionUsing2020}
-Sarah Williams.
-\newblock {\em Data {{Action}}: {{Using Data}} for {{Public Good}}}.
-\newblock {The MIT Press}, {Cambridge, Massachusetts}, December 2020.
 
 \bibitem{dignazioDataFeminism2020}
 Catherine D'Ignazio and Lauren~F. Klein.
@@ -908,12 +908,24 @@ Doug Walker.
   Tool}} for a {{New Generation}} of {{Planning}}}.
 \newblock {Routledge}, November 2017.
 
+\bibitem{battyCitiesComplexity2005}
+Michael Batty.
+\newblock {\em Cities and {{Complexity}}}.
+\newblock {The MIT Press}, {Cambridge, MA}, September 2005.
+
 \bibitem{bradfieldOriginsEvolutionScenario2005}
 Ron Bradfield, George Wright, George Burt, George Cairns, and Kees Van
   Der~Heijden.
 \newblock The origins and evolution of scenario techniques in long range
   business planning.
 \newblock {\em Futures}, 37(8):795--812, October 2005.
+
+\bibitem{shellplcWhatAreShell2017}
+{Shell plc}.
+\newblock What are {{Shell Scenarios}}?
+\newblock
+  https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/what-are-scenarios.html,
+  September 2017.
 
 \bibitem{tessunScenarioAnalysisEarly1997}
 Franz Tessun.
@@ -939,6 +951,11 @@ H.~R. Maier, J.~H.~A. Guillaume, H.~{van Delden}, G.~A. Riddell, M.~Haasnoot,
 \newblock An uncertain future, deep uncertainty, scenarios, robustness and
   adaptation: {{How}} do they fit together?
 \newblock {\em Environmental Modelling \& Software}, 81:154--164, July 2016.
+
+\bibitem{rousseauDiscourseInequality1755}
+Jean-Jacques Rousseau.
+\newblock {\em A {{Discourse}} on {{Inequality}}}.
+\newblock {Dijon, France}, 1755.
 
 \bibitem{mazlish1963}
 Bruce Mazlish.
@@ -1011,6 +1028,17 @@ Shannon Jackson.
   {{Urban Planning Tools}}.
 \newblock {\em Technology and Culture}, 49(2):325--346, 2008.
 
+\bibitem{selingerEthicsFacialRecognition2021}
+Evan Selinger and Brenda Leong.
+\newblock The {{Ethics}} of {{Facial Recognition Technology}}.
+\newblock {{SSRN Scholarly Paper}} ID 3762185, {Social Science Research
+  Network}, {Rochester, NY}, January 2021.
+
+\bibitem{barabasBiasReImaginingTerms2019}
+Chelsea Barabas.
+\newblock Beyond {{Bias}}: {{Re-Imagining}} the {{Terms}} of `{{Ethical AI}}'
+  in {{Criminal Law}}, April 2019.
+
 \bibitem{mcdonaldEbolaBigData2016}
 Sean McDonald.
 \newblock Ebola: {{A Big Data Disaster}}.
@@ -1060,6 +1088,12 @@ Laura Kurgan.
   {{Politics}}}.
 \newblock {MIT Press}, 2013.
 
+\bibitem{harfordDataDetectiveTen2021}
+Tim Harford.
+\newblock {\em The {{Data Detective}}: {{Ten Easy Rules}} to {{Make Sense}} of
+  {{Statistics}}}.
+\newblock {Riverhead Books}, {New York}, February 2021.
+
 \bibitem{weinerComputer21stCentury1991}
 Mark Weiner.
 \newblock The computer for the 21st century.
@@ -1104,6 +1138,12 @@ Theodore~M Porter.
 \newblock Objectivity as standardization: {{The}} rhetoric of impersonality in
   measurement, statistics, and cost-benefit analysis.
 \newblock {\em Annals of Scholarship}, 9(1/2):19--59, 1992.
+
+\bibitem{harrisPaloAltoHistory2023}
+Malcolm Harris.
+\newblock {\em Palo {{Alto}}: {{A History}} of {{California}}, {{Capitalism}},
+  and the {{World}}}.
+\newblock {Little, Brown and Company}, {New York}, February 2023.
 
 \bibitem{barnesBigDataSocial2014}
 T.J. Barnes and M.W. Wilson.
@@ -1239,7 +1279,7 @@ John Friedmann.
 \newblock Two {{Centuries}} of {{Planning}}: {{An Overview}}.
 \newblock In Seymour Mandelbaum, Luigi Mazza, and Robert Burchell, editors,
   {\em Explorations in {{Planning Theory}}}, pages 10--29. {Routledge}, {New
-  York, New York, USA}, September 2017.
+  York, New York, USA}, 1996.
 
 \bibitem{szantonAnalysisUrbanGovernment1972}
 Peter~L. Szanton.
@@ -1276,6 +1316,12 @@ Ira~M. Robinson, editor.
 \newblock {\em Decision-Making in Urban Planning: {{An}} Introduction to New
   Methodologies}.
 \newblock {Sage Publications}, {Beverly Hills}, January 1972.
+
+\bibitem{friedmannPlanningPublicDomain1988}
+John Friedmann.
+\newblock {\em Planning in the {{Public Domain}}: {{From Knowledge}} to
+  {{Action}}}.
+\newblock {Princeton University Press}, 1988.
 
 \bibitem{gorodSystemofSystemsEngineeringManagement2008}
 Alex Gorod, Brian Sauser, and John Boardman.
@@ -1396,11 +1442,6 @@ Avrom~Bendavid Val.
 \newblock {\em Regional and {{Local Economic Analysis}} for {{Practitioners}}:
   {{Fourth Edition}}}.
 \newblock {Praeger}, {New York}, 4 edition edition, February 1991.
-
-\bibitem{battyCitiesComplexity2005}
-Michael Batty.
-\newblock {\em Cities and {{Complexity}}}.
-\newblock {The MIT Press}, {Cambridge, MA}, September 2005.
 
 \bibitem{laufUncoveringLanduseDynamics2012}
 S.~Lauf, D.~Haase, P.~Hostert, T.~Lakes, and B.~Kleinschmit.

@@ -10,15 +10,15 @@
 \contentsline {section}{\numberline {2.2}Motivation \& Literature Survey}{38}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Personal Motivation}{38}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Why Sustainable Development?}{39}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}What is Sustainable Development?}{40}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}What is Sustainable Development?}{39}{subsubsection.2.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2.2}Why is Sustainable Development Important?}{41}{subsubsection.2.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.3}What about the Sustainable Development Goals?}{44}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}What about the Sustainable Development Goals?}{45}{subsubsection.2.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.3}Why Systems Engineering?}{47}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Why Remote Observation and Earth Observation Data?}{49}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Why GIS?}{55}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Why Collaborative \& Open Source?}{58}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Why Decision Support \& Scenario Planning?}{62}{subsection.2.2.7}%
-\contentsline {subsubsection}{\numberline {2.2.7.1}Decision Support Systems}{62}{subsubsection.2.2.7.1}%
+\contentsline {subsection}{\numberline {2.2.7}Why Decision Support \& Scenario Planning?}{63}{subsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.7.1}Decision Support Systems}{63}{subsubsection.2.2.7.1}%
 \contentsline {subsubsection}{\numberline {2.2.7.2}Scenario Planning}{66}{subsubsection.2.2.7.2}%
 \contentsline {section}{\numberline {2.3}Critical Analysis}{67}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Technology is inherently elitist, colonialist, racist, etc.}{68}{subsection.2.3.1}%
@@ -103,7 +103,7 @@
 \contentsline {subsection}{\numberline {4.5.3}Scenario Generation}{217}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}Collaborative Development Process}{222}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Discussion}{223}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}The State and Future of the Guaratiba Socio- environmental System}{223}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.1}The State and Future of the Guaratiba Socio-environmental System}{223}{subsection.4.7.1}%
 \contentsline {subsection}{\numberline {4.7.2}Methodological Limitations \& Potential Improvements}{226}{subsection.4.7.2}%
 \contentsline {subsubsection}{\numberline {4.7.2.1}Environment}{226}{subsubsection.4.7.2.1}%
 \contentsline {subsubsection}{\numberline {4.7.2.2}Vulnerability}{227}{subsubsection.4.7.2.2}%
