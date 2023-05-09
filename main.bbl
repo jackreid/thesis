@@ -2202,21 +2202,6 @@ Jack~B. Reid and Danielle Wood.
 \newblock In {\em Jack {{Reid}}}, {2020}, October 2020. {International
   Astronautical Federation}.
 
-\bibitem{bluerasterBlueRasterVida2021}
-{Blue Raster}.
-\newblock Blue {{Raster Vida Repository}}.
-\newblock https://github.com/blueraster/mit-vida, August 2021.
-
-\bibitem{reidEVDTRepository2020}
-Jack Reid.
-\newblock {{EVDT Repository}}.
-\newblock https://github.com/mitmedialab/evdt, June 2020.
-
-\bibitem{reidMITVidaRepository2021}
-Jack Reid, Seamus Lombardo, and Danielle Wood.
-\newblock {{MIT Vida Repository}}.
-\newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
-
 \bibitem{spectorDataScienceContext2022}
 Alfred~Z. Spector, Peter Norvig, Chris Wiggins, and Jeannette~M. Wing.
 \newblock {\em Data {{Science}} in {{Context}}: {{Foundations}},
@@ -2230,6 +2215,11 @@ Afreen Siddiqi, Eric Magliarditi, and Olivier de~Week.
   Trade-Studies}}.
 \newblock In {\em {{IGARSS}} 2019 - 2019 {{IEEE International Geoscience}} and
   {{Remote Sensing Symposium}}}, pages 5297--5300, July 2019.
+
+\bibitem{hesiodTheogony-699}
+{Hesiod}.
+\newblock {\em The {{Theogony}}}.
+\newblock {Ascra, Greece}, -699.
 
 \bibitem{umlaufRioCityTransformed2016}
 Taylor Umlauf and Youjin Shin.
@@ -3207,6 +3197,11 @@ Miguel~O. Rom{\'a}n, Zhuosen Wang, Qingsong Sun, Virginia Kalb, Steven~D.
 {xbsd}.
 \newblock Scipy 2021: {{Predicting}} the economic impact of {{COVID-19}} using
   real-time images from space, August 2021.
+
+\bibitem{reidMITVidaRepository2021}
+Jack Reid, Seamus Lombardo, and Danielle Wood.
+\newblock {{MIT Vida Repository}}.
+\newblock https://github.com/mitmedialab/Vida\_Modeling, August 2021.
 
 \bibitem{ahmedVarianceSystemDynamics2012}
 Aslam Ahmed, Julie Greensmith, and Uwe Aickelin.
