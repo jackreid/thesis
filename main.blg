@@ -15,7 +15,7 @@ A level-1 auxiliary file: appc.aux
 A level-1 auxiliary file: appd.aux
 A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 17328 items from 5000.
+Reallocated field_info (elt_size=4) to 17397 items from 5000.
 Database file #1: main.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
@@ -49,45 +49,45 @@ Warning--empty institution in haines-youngCommonInternationalClassification2018
 Warning--empty journal in jungGapsMangroveForestInReview
 Warning--empty institution in xuModestImpactWeather2020
 Warning--there's a number but no series in woodPartnershipsEnableEarth2017
-You've used 536 entries,
+You've used 539 entries,
             1791 wiz_defined-function locations,
-            3598 strings with 135036 characters,
-and the built_in function-call counts, 116063 in all, are:
-= -- 10321
-> -- 5243
+            3615 strings with 135737 characters,
+and the built_in function-call counts, 116693 in all, are:
+= -- 10379
+> -- 5268
 < -- 87
-+ -- 1996
-- -- 1460
-* -- 7837
-:= -- 18591
-add.period$ -- 1647
-call.type$ -- 536
-change.case$ -- 527
++ -- 2006
+- -- 1467
+* -- 7884
+:= -- 18692
+add.period$ -- 1656
+call.type$ -- 539
+change.case$ -- 530
 chr.to.int$ -- 0
-cite$ -- 566
-duplicate$ -- 5252
-empty$ -- 11521
-format.name$ -- 1460
-if$ -- 25820
+cite$ -- 569
+duplicate$ -- 5280
+empty$ -- 11585
+format.name$ -- 1467
+if$ -- 25957
 int.to.chr$ -- 0
-int.to.str$ -- 536
-missing$ -- 468
-newline$ -- 2658
-num.names$ -- 605
-pop$ -- 1743
+int.to.str$ -- 539
+missing$ -- 472
+newline$ -- 2673
+num.names$ -- 608
+pop$ -- 1751
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2209
+skip$ -- 2217
 stack$ -- 0
-substring$ -- 6289
-swap$ -- 1050
+substring$ -- 6330
+swap$ -- 1053
 text.length$ -- 87
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 30
-while$ -- 1118
-width$ -- 539
-write$ -- 5866
+while$ -- 1125
+width$ -- 542
+write$ -- 5899
 (There were 30 warnings)
