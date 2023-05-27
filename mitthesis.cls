@@ -456,7 +456,7 @@ by\par
 \par
 \@prevdegrees
 \par
-\choosecase{Submitted to the} \choosecase{\@department} \\
+\choosecase{Submitted to the} \choosecase{\@department}, School of Architecture and Planning \\
 \choosecase{in partial fulfillment of the requirements for the}
 \choosecase{\@degreeword} 
 \choosecase{of}
@@ -470,7 +470,7 @@ at the
 \@copyrightnotice
 \par
 \vskip 3\baselineskip
-\signature{Author}{\@department \\ \@thesisdate}
+\signature{Author}{\@author \\ \@department \\ \@thesisdate}
 \par
 \vfill
 \unvbox\@titlesupervisor
@@ -496,7 +496,7 @@ by \\
 \@author \\[\baselineskip]}
 \par
 \def\baselinestretch{1}\@normalsize
-Submitted to the \@department \\
+Submitted to the \@department, School of Architecture and Planning \\
 on \@thesisdate, in partial fulfillment of the \\
 requirements for the \@degreeword\ of \\
 \@degree

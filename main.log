@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.18)  11 MAY 2023 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.17)  17 MAY 2023 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex -shell-escape
+**main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./mitthesis.cls
@@ -3024,11 +3024,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  24680 strings out of 480129
  526349 string characters out of 5893409
- 880197 words of memory out of 5000000
+ 880275 words of memory out of 5000000
  40303 multiletter control sequences out of 15000+600000
  491803 words of font info for 69 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 94i,15n,92p,2810b,3171s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,15n,92p,2796b,3171s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackreid/.texlive20
 21/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/jackreid/.texli
 ve2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0600.600pk> </home/jackreid/.t
@@ -3071,7 +3071,7 @@ cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (393 pages, 56150639 bytes).
+Output written on main.pdf (393 pages, 56150717 bytes).
 PDF statistics:
  9279 PDF objects out of 10688 (max. 8388607)
  7418 compressed objects within 75 object streams
